@@ -1,0 +1,938 @@
+Stability of complex communities: A perspective from discrete-time dynamics
+Shuaiying Wang1,†, Yuguang Yang1,2,†, and Aming Li1,3,∗
+1 Center for Systems and Control, College of Engineering,
+Peking University, Beijing 100871, China
+2 Department of Civil and Environmental Engineering,
+Massachusetts Institute of Technology,
+77 Massachusetts Avenue, Cambridge, MA 02139, USA
+3 Center for Multi-Agent Research,
+Institute for Artificial Intelligence,
+Peking University, Beijing 100871, China
+†These authors contributed equally to this work.
+∗Corresponding author: amingli@pku.edu.cn
+Understanding the stability of complex communities is a central focus in ecology, many important
+theoretical advancements have been made to identify drivers of ecological stability. However, pre-
+vious results often rely on the continuous-time dynamics, assuming that species have overlapping
+generations. In contrast, numerous real-world communities consist of species with non-overlapping
+generations, whose quantitative behavior can only be precisely represented by discrete-time dynam-
+ics rather than continuous ones. Here, we develop a theoretical framework and propose a metric
+to quantify the stability of complex communities characterized by non-overlapping generations and
+diverse interaction types. In stark contrast to existing results for overlapping generations, we find
+that increasing self-regulation strength first stabilizes and then destabilizes complex communities.
+This pattern is further confirmed in both exploitative ( E. aerogenes ,P. aurantiaca ,P. chlororaphis ,
+P. citronellolis ) and competitive ( P. putida ,P. veroni ,S. marcescens ) soil microbial communities.
+Moreover, we show that communities with diverse interaction types become the most stable, which
+is corroborated by empirical mouse microbial networks. Furthermore, we reveal that the preva-
+lence of weak interactions can stabilize communities, which is consistent with findings from existing
+microbial experiments. Our analyses of complex communities with non-overlapping generations pro-
+vide a more comprehensive understanding of ecological stability and informs practical strategies for
+ecological restoration and control.
+I. INTRODUCTION
+Stability, capturing whether a system can recover from
+external perturbations, is a key property of complex eco-
+logical communities [1, 2]. The loss of ecological stabil-
+ity may lead to massive species extinctions and poten-
+tial community collapse, resulting in catastrophic con-
+sequences for humanity and the natural world. There-
+fore, studying the stability of complex communities lies
+at the heart of ecology. Since the pioneering work of
+May [3], ecologists have performed a tremendous amount
+of theoretical work to understand and clarify the con-
+tributions of different community characteristics to the
+stability of complex communities. These characteristics
+mainly cover interaction types [4, 5], interaction strength
+[4, 6, 7], interaction network structure [8, 9], spatial struc-
+ture [10, 11], and time delays in species interactions [12–
+16].
+However, the vast majority of existing research relies
+on a crucial assumption that communities are composed
+of species with overlapping generations. In other words,
+individuals of the same species from different generations
+can coexist at the same time, and the dynamical behav-
+ior of such communities is described by continuous-time
+dynamics (Fig. 1A). While it is true that species with
+overlapping generations are widespread in nature, there
+is also a large number of species having non-overlapping
+generations, where individuals of the same species can-not coexist at the same time (Fig. 1B). These species,
+including annual plants [17], univoltine insects [18] (i.e.,
+insects only breeding once a year), pink salmon [19], are
+important components of natural ecological communities.
+For communities composed of such species, continuous-
+time models cannot accurately capture their behavior,
+and discrete-time models should be used instead [20]. As
+a result, most conventional ecological theory, which was
+developed for communities of species with overlapping
+generations, becomes less effective in understanding the
+stability of such communities.
+Theorists have long recognized the short-comings of
+continuous-time ecological theory and have made great
+efforts to establish a discrete-time framework and thus to
+understand the dynamics of communities of species with
+non-overlapping generations. During the early period,
+ecologists paid much attention to species-poor commu-
+nities. In 1974, May’s prominent work studied the dy-
+namics of a single population with non-overlapping gen-
+erations and found that stability loss of such populations
+can lead to surprising dynamical behaviors like limit cy-
+cles and chaos [20]. Beddington et al. extended May’s
+work to a two-species predator-prey model for popula-
+tions with non-overlapping generations and showed that
+the loss of stability can also lead to similar patterns [21].
+Recently, researchers have begun to focus on species-
+rich communities. Sinha et al. focused on communities
+with randomly assigned interactions and demonstratedarXiv:2504.02332v1  [q-bio.PE]  3 Apr 2025
+2
+that increasing the number of interactions per species or
+the intensity of interactions leads to an increased likeli-
+hood of species extinctions [22]. However, in addition to
+species richness, many other properties–such as interac-
+tion type composition, interaction strength distribution,
+and network structure–can emerge in real-world complex
+communities. For communities composed of species with
+non-overlapping generations, we still lack a comprehen-
+sive understanding of how these properties influence sta-
+bility.
+Inspired by this gap, here we develop a new frame-
+work to analyze the stability of large complex communi-
+ties composed of species under discrete-time dynamics.
+This allows us to explore in detail the influence of differ-
+ent global community characteristics on stability by inte-
+grating theoretical analyses with empirical data. Surpris-
+ingly, we find that several key principles governing eco-
+logical stability need to be modified. These findings high-
+light the importance of studying communities of species
+with non-overlapping generations to comprehensively un-
+derstand and control complex communities.
+II. RESULTS
+A. Modeling framework
+A community composed of Sspecies with non-
+overlapping generations can be modeled by the famous
+discrete-time Lotka-Volterra dynamics [20, 23]
+Xi(k+ 1) = Xi(k) exp
+ri−siXi(k) +SX
+j=1,j̸=iAijXj(k)
+(1)
+with i= 1,2,···, S,where Xi(k) represents the abun-
+dance of species iat generation k,riis the intrinsic
+growth rate of species i,si>0 is the self-regulation
+strength of species i, and Aijcaptures the influence that
+species jhas on species i.
+When X∗
+i>0 (i= 1,···, S) satisfies
+X∗
+i=X∗
+iexp
+ri−siX∗
+i+SX
+j=1,j̸=iAijX∗
+j
+,
+X∗= [X∗
+1, X∗
+2,···, X∗
+S]Tis called a feasible equilibrium,
+where each species has a positive abundance. Within the-
+oretical ecology, researchers are more interested in study-
+ing community behavior around a feasible equilibrium
+since unfeasible equilibrium suggests species extinction
+occurs. The dynamical behavior around feasible equilib-
+riumX∗can be approximated by linearizing equation (1)
+around X∗(see Supplementary Note 1)
+∆x(k) =M∆x(k−1). (2)
+Here ∆ x(k) =X(k)−X∗represents the deviation from
+equilibrium abundance, Mis the Jacobian matrix whose
+element Mijrepresents the effect that species jhas on
+species iaround the equilibrium.For communities composed of species with overlapping
+generations (namely the continuous-time dynamics), as
+long as all eigenvalues λof the Jacobian matrix are lo-
+cated in the left half of the complex plane, the com-
+munity is stable (Fig. 1C and Supplementary Fig. S1).
+Mathematically, this requirement can be interpreted as
+max (Re ( λ))<0, and it can thus be seen that it is the
+rightmost eigenvalue that determines community stabil-
+ity. While for communities composed of species with
+non-overlapping generations (namely the discrete-time
+dynamics), stability requires that all eigenvalues of the
+Jacobian matrix lie in the unit circle centered at the ori-
+gin of the complex plane (Fig. 1D and Supplementary
+Fig. S1), which is equivalent to
+max(|λ|)<1. (3)
+Here|λ|is the absolute value (or magnitude) of λ, and
+reflects the distance between λand the origin of the com-
+plex plane.
+It can thus be seen that, unlike communities composed
+of species with overlapping generations, the stability of
+communities with non-overlapping generations is deter-
+mined by the dominant eigenvalue of the Jacobian ma-
+trix (i.e., the eigenvalue with the largest absolute value,
+often denoted as λ1). Clearly, this difference in stabil-
+ity criteria can lead to different stability classifications
+for communities sharing the same set of community pa-
+rameters but following different dynamics. As is shown
+in Fig. 1, a community of species with overlapping gen-
+erations is stable (Fig. 1C), but its counterpart with
+non-overlapping generations becomes unstable (Fig. 1D).
+This intuitive illustration suggests that focusing solely
+on continuous-time dynamics can lead to misleading re-
+sults when dealing with communities of species with non-
+overlapping generations. Consequently, a systematic and
+thorough exploration for the stability of communities fol-
+lowing discrete-time dynamics is required.
+B. Metric for stability of discrete-time complex
+communities
+The unit circle stability region helps us determine
+whether a given community is stable, we next seek to
+quantify the intensity of stability. That is, when there
+are multiple stable communities, can we identify which
+community is more stable? In ecology, the intensity of
+stability is often assessed by recovery time (Fig. 2A)–the
+time for a perturbation to decay to a specified fraction
+of its initial size [24, 25]. With this metric, a community
+with less recovery time is deemed as more stable (Fig. 2A,
+B).
+Dynamical systems theory reveals that the dominant
+eigenvalue λ1of the Jacobian matrix Mnot only deter-
+mines community stability but also reflects the recovery
+time [26]: the closer λ1is to the origin, the shorter the
+recovery time (Fig. 2A, B). This is because the distance
+between the dominant eigenvalue and the origin of the
+3
+A Community with overlapping generations
+Abundance of species at timeB Community with non-overlapping generations
+C D
+0 5 10 15
+Continuous time0123AbundanceResponse
+Species 1
+Species 2
+Species 3PerturbationContinuous 
+time
+Species in generation
+Abundance of species in generation
+Species in generation 
+Generation
+(Discrete time)
+Stability criterion
+-1 0 1
+Real-101 Imaginary
+StableUnstable
+-2 -1 0 1
+Real-101 ImaginaryStability criterion
+Unstable Stable
+Negative effect 
+ Positive effect 
+Response
+0 2 4 6 80123Abundance
+Discrete time
+Self-regulation strength of species
+Intrinsic growth rate of species Intrinsic growth rate of species
+The effect of species on The effect of species on
+Self-regulation strength of species
+FIG. 1. Illustration of the stability of complex communities with overlapping and non-overlapping genera-
+tions. A , Schematic diagram of a three–species community with overlapping generations. Blue and red rods represent species
+from different generations, where sharp-head and blunt-head arrows represent positive and negative effects between species,
+respectively. For the continuous-time dynamics shown in the grey frame, species from different generations can coexist. B,
+For the counterpart with non-overlapping generations, species from different generations can not coexist, and the discrete-time
+dynamics are shown in the grey frame. C-D, Responses of three-species communities to external perturbations (left half of
+each panel) and eigenvalue distributions of Jacobian matrices (right half of each panel). Communities that recover to their
+previous state following perturbations are stable, thus community with overlapping generations is stable (C). Mathematically,
+a community with overlapping generations is stable when all eigenvalues of Jacobian matrix have negative real part, that is, all
+eigenvalues locate in the left half of the complex plane (green region). In D, when the same community is under discrete-time
+dynamics, species extinct and this community is no longer stable. Communities under discrete-time dynamics are stable when
+all the eigenvalues of the Jacobian matrices locate in the unit circle centered at the origin of the complex plane (green region),
+while here the three eigenvalues are not all in the circle. In C-D, we set s= 1,r1= 0.7,r2= 0.6,r3=−0.3,A12=A21=−1,
+A13=A31= 0,A23=A32= 1.
+complex plane (i.e., |λ1|) dictates how fast perturbations
+decay over the long term: the longer the distance of λ1
+from the origin, the slower the decay of perturbations,
+and thus the longer the recovery time (see Supplemen-
+tary Note 1). As a result, we next use the decay rate
+α=−log (|λ1|), which is developed based on the distance
+|λ1|, to quantify the intensity of stability: the larger α,
+the shorter the recovery time and, consequently, the more
+stable the community (Fig. 2C).
+Consequently, the key to determine the stability inten-
+sity is to identify the dominant eigenvalue of M. Given
+that natural communities are rich in species and com-
+plex in interactions, the determination of the dominant
+eigenvalue can be challenging. Fortunately, this chal-
+lenge can be addressed by recent advancements in ran-
+dom matrix theory (RMT) [27–29]. For large communi-
+ties, RMT points out that eigenvalues of Mare in gen-
+eral distributed in an ellipse (sometimes with an outlier,
+see Supplementary Note 2). Therefore, four endpoints
+(leftmost, rightmost, uppermost, and lowermost eigen-value) of the eigenvalue distribution are more likely to be
+the dominant eigenvalue (Supplementary Fig. S3). Due
+to the symmetry in the eigenvalue distribution and the
+unit circle stability region, the uppermost and lowermost
+eigenvalues are equivalent. Consequently, the stability of
+large complex communities can be estimated as
+˜α=−log{max{β1, β2, β3}}. (4)
+Here ˜ αis the estimated stability intensity, β1=
+|Mλ,leftmost |,β2=|Mλ,rightmost |,β3=|Mλ,uppermost |.
+Theoretical estimations are in good agreement with nu-
+merical simulations, proving the effectiveness of our esti-
+mation theory (Supplementary Figs. S4-S7).
+C. Self-regulation strength modulates ecological
+stability
+Equipped with our theory, we next delve into the quan-
+titative relationship between various characteristics of
+4
+0 0.2 0.4 0.6 0.8 1020406080Recovery timeExploitative
+Competitive
+Mutualistic
+GenerationC A
+GenerationB
+-1 0 1
+Real-1 0 1
+Real-101Imaginary Abundance
+0 5 10 15012
+0 5 10 15Recovery time = 12 Recovery time = 16Perturbation Species 1
+Species 2
+Species 3Community 1 Community 2
+Stability,
+Distance from the origin
+The dominant eigenvalue,0.22
+0.51
+0.92
+Other eigenvalues Unstable0.8
+0.6
+0.4
+0 1 2 3 4
+Stability, 
+FIG. 2. Quantifying stability of discrete-time complex communities. A -B, Responses of three-species communities
+to external perturbations (top) and eigenvalue distributions of the corresponding Jacobian matrices (bottom). When the
+abundance of each species returns to within 0 .1% of the equilibrium after perturbation, we consider the community to have
+returned to equilibrium and calculate the recovery time accordingly. Results show that community 2 has a shorter recovery
+time and is thus more stable (community 1 recovers with 16 generations, community 2 recovers with 12 generations). For
+the stability contour plot (bottom), colors represent the intensity of stability, where darker yellow indicates lower stability
+intensity and grey indicates instability. Black lines with different styles are the isometric lines to the origin. Red, blue and
+cyan dots represent the eigenvalues of the corresponding Jacobian matrix, with the red dot pointed by an arrow denoting the
+dominant eigenvalue λ1. According to our theory, the recovery time can be reflected by the distance between λ1and the origin:
+communities with shorter recovery times have a smaller distance, as shown in the bottom panels. α=−log|λ1|is introduced to
+quantify the community stability, and communities with higher αhave a lower recovery time. C, The relationship between the
+recovery time and the stability αfor exploitative, competitive, and mutualistic communities. Numerical results are obtained
+by perturbing three-species communities, indicating that the stability of discrete-time complex communities is quantified by α.
+In A, r1=−0.3,r2= 0.9,r3= 0.1,A12=−A21= 0.5,A13= 0.8,A23=A31= 0.6,A32= 0.3. In B, r1= 1.3,r2=−0.4,
+r3= 0.1,A12=−A21=A32= 0.6,A13=A31= 0.3,A23= 0.8. In A-C, s= 1, and variables are the same as those in Fig. 1B.
+complex communities and ecological stability. We begin
+by examining the influence of the direct effects species
+have on themselves. Originating from mechanisms in-
+cluding intraspecific interference, cannibalism, time-scale
+separation between consumers and their resources, these
+self-effects decrease a species’ per-capita growth when the
+species experiences an abundance increase, and are thus
+known as ‘self-regulation’ [2, 4, 31]. Previous studies on
+communities composed of species with overlapping gener-
+ations revealed that self-regulation plays a pivotal role in
+regulating stability: communities can uniformly benefit
+from the increase of self-regulation strength, and ecologi-
+cal stability can be maintained as long as species exhibit
+substantially strong self-regulation [31].
+Surprisingly, we find that these established rules do
+not apply for communities composed of species with
+non-overlapping generations. Our analyses indicate
+that, in such communities, the relationship between self-
+regulation strength and stability is non-monotonic: in-
+creasing self-regulation strength initially enhances com-
+munity stability, then inhibits it, and ultimately leads to
+instability (Fig. 3A, Supplementary Figs. S5-S7). Fur-
+thermore, we select two empirical microbial communitiesisolated from the soil [30]. Community 1 is an exploita-
+tive community, and is composed of E. aerogenes (Ea), P.
+aurantiaca (Pa), P. chlororaphis (Pch), and P. citronello-
+lis(Pci). Community 2 is a competitive community, and
+is composed of P. putida (Pp), P. veronii (Pv), and S.
+marcescens (Sm). We confirm that the non-monotonic
+relationship also exists in these empirical communities
+(Fig. 3B, see Supplementary Note 3).
+The above results can be intuitively understood by ex-
+amining the eigenvalue distribution under different self-
+regulation strengths and the unit circle stability region
+(Fig. 3C). Taking communities with random interac-
+tion distribution (such communities encompass exploita-
+tive, competitive, and mutualistic interactions, and these
+three types of interactions are ‘well-mixed’) as an ex-
+ample. We show that when self-regulation strength is
+relatively low, the rightmost eigenvalue is the dominant
+eigenvalue λ1(top row of Fig. 3C). As self-regulation
+strength increases, the rightmost eigenvalue shifts to-
+ward the left, leading to a reduction in its absolute
+value (i.e., it becomes closer to the origin of the complex
+plane), thereby enhancing community stability. Con-
+versely, when self-regulation strength is relatively high,
+5
+Model
+Empirical community
+Self-regulation, Real Imaginary0 1 2012Stability
+UnstableTheo. Simu.Model community
+Self-regulation, A C
+Theo The dominant eigenvalue0 1 2StabilityB-101
+-101
+-1 0 1-101
+-1 0 1-1 0 1
+Stability 
+0 1 2 3 4
+024
+UnstableEa-Pa-Pch-Pci (exploitative)
+Pp-Pv-Sm (competitive)
+Simu.Ea-Pa-Pch-Pci
+ Pp-Pv-Sm
+FIG. 3. Self-regulation strength modulates the ecological stability. A , The relationship between stability and self-
+regulation strength in communities with random interaction distribution. The solid line is the analytical results calculated
+by our theory (Theo.), and diamond dots are numerical simulations (Simu., each dot is an average of 50 communities with
+the same set of community parameters). Grey region indicates instability. B, Same relationship observed in empirical soil
+exploitative (Ea-Pa-Pch-Pci) and competitive (Pp-Pv-Sm) communities [30]. Dots are obtained by numerical simulations, and
+solid lines are from curve fitting. C, Eigenvalue distributions of model and empirical communities (Model community with
+random interaction distribution, top; Ea-Pa-Pch-Pci, middle; Pp-Pv-Sm, bottom) under weak ( s= 0.5), moderate ( s= 1)
+and strong ( s= 1.5) self-regulation. Blue dots are eigenvalues from numerical simulations (Simu.), black lines are boundaries
+predicted by our theory (Theo.). The blue dot pointed by the arrow represents the dominant eigenvalue (which determines
+stability) of the Jacobian matrix M. In A, σ= 0.05,C= 0.1,S= 100. In B, σ= 0.1. In C, σ= 0.05,S= 100, C= 0.3.
+the leftmost eigenvalue becomes the dominant eigen-
+value (right panel). Further increases in self-regulation
+strength result in the leftmost eigenvalue shifting further
+leftward, leading to an increase in its absolute value (i.e.,
+it moves away from the origin of the complex plane), thus
+inhibiting community stability. Similar patterns are also
+found in selected empirical soil microbial communities
+with different compositions of interaction types (Middle
+and bottom rows of Fig. 3C).
+Stemming from this non-monotonic relationship, an-
+other important and surprising finding is that maintain-
+ing ecological stability imposes a stricter requirement on
+self-regulation strength: it must reside within a suitable
+range. Too strong or too weak self-regulation can both
+lead to instability for communities composed of species
+with non-overlapping generations (Fig. 3A, B, Supple-
+mentary Figs. S5-S7).
+D. Communities can benefit from the diversity of
+interaction types
+For complex communities, pairs of species can inter-
+act in a range of well-defined ways, such as exploitative,
+competitive, and mutualistic interactions. Disentanglinginfluences of different types of interactions on stability is
+a fundamental focus in ecology [4, 5, 7, 31, 33]. Previous
+studies based on continuous-time dynamics indicate that
+the stability of these four typical communities–random,
+exploitative, competitive, and mutualistic–exhibits a
+strict hierarchical order: exploitative communities are
+the most stable, followed by random communities, then
+competitive communities, and mutualistic communities
+are the least stable [4]. This suggests that exploitative
+interactions are stabilizing, while competitive and mutu-
+alistic interactions are destabilizing. Moreover, conven-
+tional work suggests that this ranking is robust for other
+community traits, such as self-regulation [4], short delays
+[16], abundance [16], suggesting that ecological stability
+can consistently benefit from exploitative interactions.
+We then wonder if these results still hold for communities
+of species with non-overlapping generations.
+Unexpectedly, we find that the stability of communities
+composed of species with non-overlapping generations
+benefits from the diversity of interaction types (Fig. 4A),
+in contrast to the continuous-time counterparts, which
+consistently benefit from exploitative interactions (Fig.
+S9). As is shown in Fig. 4A, random communities–where
+different types of interactions are ‘well-mixed’–exhibit
+the highest stability performance among these four typ-
+6
+B
+0 0.5 1 1.5 2012 StabilitySynthetic community
+Number of species, 00.10.2 Connectance,A
+Self-regulation, 
+Theo.
+ Simu.
+ Theo.
+ Simu.
+ Theo.
+ Simu.
+0 500 1000 1500C
+10
+0110D
+Stability
+0.20.30.40.5
+11.21.41.6
+Stability Stability
+0.20.30.40.5
+Empirical interaction network
+Interaction type
+10
+0110
+10
+0110
+10
+0110
+10
+0110
+10
+0110=1=0.5 =1.5Random
+Exploitative (+/-)
+Competitive (-/-)
+Mutualistic (+/+)RandomTheo. Simu.
+Exploitative (+/-)
+Competitive (-/-)
+Mutualistic (+/+)
+1.8
++/-
+-/-+/+Random +/- -/- +/+0.511.52Stability
+Stability criteria
+FIG. 4. Stability of complex communities with typical interaction types. A , Stability criteria for communities with
+different types of interactions. Different markers represent the critical S−Ccurves for different communities, and combinations
+ofSandCbelow each curve result in stable communities with a probability close to 1. Different types of communities present
+a hierarchy, from random communities (most likely to be stable) to mutualistic/competitive communities (most likely to be
+unstable). B, The relationship between stability and self-regulation strength for different communities. Solid lines are obtained
+from our theory (Theo.) and dots are from numerical simulations (Simu.). C, Stability analyses of typical communities
+with empirical interaction network. We extract the interaction network from the mouse gut microbiome [32]. For each type
+of community (random, exploitative, competitive, and mutualistic), we generate 100 samples respectively and calculate the
+average stability. D, Stability of communities with diverse interaction types: exploitation, mutualism and competition with
+proportion P+/−,P+/+, and P−/−, respectively. Left part of each panel gives results from our theory (Theo.) and right shows
+numerical simulations (Simu.). Each data point in the right part is an average of 50 randomly generated communities with the
+same set of parameters. In A, s= 1, and σ= 0.05,C= 0.1,S= 100 in B and D.
+ical communities. Exploitative communities now rank
+second, while competitive and mutualistic communities
+possess the worst stability performance.
+By checking the eigenvalue distribution of each type
+of communities, this stability pattern can be intuitively
+understood in the context of our theory. In case of all
+species self-regulate with unit strength, the eigenvalue
+distributions of all communities are centered at the ori-
+gin. For random communities, the eigenvalues are dis-
+tributed in a circle with radius r, suggesting that the dis-
+tance between the origin and the dominant eigenvalue is
+r(Supplementary Note 4 and Fig. S10). For exploitative
+communities, the eigenvalues are distributed in a verti-
+cally stretched ellipse with a semi-horizontal axis rex< r
+and a semi-vertical axis rey> r(Supplementary Note 4
+and Fig. S10). Therefore, the distance between the origin
+and the dominant eigenvalue is rey, which is greater than
+that of random communities, resulting in the decrease of
+stability. For competitive/mutualistic communities, the
+eigenvalues can be divided into two parts: a horizontally
+stretched ellipse and an outlier on the horizontal axis out-
+side this ellipse (Supplementary Note 4 and Fig. S10).
+This outlier becomes the dominant eigenvalue for com-petitive/mutualistic communities, and its distance from
+the origin is greater than that of exploitative communi-
+ties. As a result, these two types of communities exhibit
+the lowest stability performance.
+With the exception of recognizing that the ecological
+stability with non-overlapping generations can be pro-
+moted by introducing the diversity of interaction types,
+we further explore under what circumstances this promo-
+tion can occur. We find that this is modulated by self-
+regulation strength. With a low level of self-regulation,
+the stability order of these typical communities keeps
+the traditional ranking from continuous-time dynamics
+(Fig. 4B). With a high level of self-regulation, exploita-
+tive communities reclaim their position as the most stable
+case, followed by random communities. Mutualistic com-
+munities occupy the third spot, while competitive com-
+munities lag behind (Fig. 4B). With a moderate level
+of self-regulation, random communities exhibit the high-
+est stability performance (Fig. 4B), as we have shown in
+Fig. 4A.
+Apart from corroborating our findings through theo-
+retical analyses and numerical simulations, we test our
+key predictions with recently published data on mouse
+7
+-101ImaginaryRandom
+-1 0 1
+Real-101
+-1 0 1-1 0 1-1 0 101234CShape parameter,The expected magnitude 
+      of the interactions
+Shape parameter,
+Exploitative Competitive MutualisticStability Weak interaction Strong interactionRandomTheo. Simu.
+Exploitative
+Competitive
+Mutualistic
+Weak
+InteractionsStrong
+Interactions
+Simu
+UnstableA B
+0 0.5 1 1.5 2 2.5 300.511.5Stability
+Unstable
+0 1 2 3 4 500.20.40.60.81
+FIG. 5. Weak interactions tend to stabilize complex communities. A , Shape parameter kcontrols the prevalence
+of weak interactions. The expected magnitude of interactions reflects the prevalence of weak interactions, where rare weak
+interactions result in high magnitude, while prevalent weak interactions result in low magnitude. The increase of kleads to the
+increase of the expected magnitude of interactions, and thus the increase of weak interactions prevalence. B, The relationship
+between stability and kfor typical communities (random, exploitative, competitive, and mutualistic). Solid lines are theoretical
+calculations (Theo.), and dots are results from numerical simulations (Simu.). C, Eigenvalue distributions of Jacobian matrices
+for different types of communities under weak ( k= 0.7, top) and strong ( k= 3, bottom) interactions. Blue dots are eigenvalues
+from numerical simulations. Other settings are the same as those in Fig. 3C except that C= 0.2.
+gut microbiome [32]. We extract interaction networks
+from the data to generate corresponding random, ex-
+ploitative, competitive, and mutualistic communities, re-
+spectively. We confirm that this surprising stability
+pattern emerges not only in synthetic communities but
+also in communities constructed from empirical data
+(Fig. 4C). This suggests that the stability promotion
+driven by the diversity of interaction types occurs when
+species have a moderate level of self-regulation. Further
+extensions to communities where different types of in-
+teractions are mixed with arbitrary proportions further
+support this finding from theory and numerical simula-
+tions (Fig. 4D).E. Weak interactions tend to stabilize complex
+communities under discrete-time dynamics
+Other than interaction types, the distribution of in-
+teraction strength plays a critical role in characterizing
+species interactions [1–4, 6, 34–36]. In communities of
+species with overlapping generations, it is found that the
+influence of interaction strength distribution on stability
+depends on specific interaction types: the prevalence of
+weak interactions can destabilize exploitative communi-
+ties, can stabilize competitive and mutualistic commu-
+nities, and has no influence on random communities [4].
+To adjust the prevalence of weak interactions in complex
+communities, an effective and efficient technical way is
+to sample interaction strengths from a Gamma and a re-
+8
+flected Gamma distribution [4], which allows us to tune
+the prevalence of weak interactions in a given community
+by a single parameter (Fig. 5A, see Supplementary Note
+5).
+Our analyses reveal that, weak interactions can in
+general promote community stability except for random
+communities, which appears to be insensitive to the
+prevalence of weak interactions (Fig. 5B). This is because
+for exploitative, competitive, and mutualistic communi-
+ties, the prevalence of weak interactions affects the eigen-
+value distribution of the Jacobian matrix, and further
+leads to the decrease of the magnitude of the dominant
+eigenvalue (i.e., stability is enhanced, Fig. 5C). While
+for random communities, the prevalence of weak interac-
+tions has no influence on the eigenvalue distribution of
+the Jacobian matrix, and thus has no influence on stabil-
+ity (Fig. 5C). Note that these results are consistent with
+recent experimental findings showing that weak interac-
+tions can stabilize microbial communities [35, 36].
+F. Structured food webs composed of species with
+non-overlapping generations
+So far, our theoretical analyses have primarily focused
+on communities with unstructured interaction networks
+(i.e., species interact randomly), implying that the oc-
+currence of interactions between any two species is ran-
+dom. However, supported by empirical data, interac-
+tion networks of real-world ecological communities can
+be structured. For example, interaction networks of em-
+pirical food webs often exhibit hierarchical structure (i.e.,
+trophic levels), intervality, and broad degree distribution
+[37–42] (here degree of a species captures the number
+of its interacting partners). We are then interested in
+how these structures influence stability when species have
+non-overlapping generations.
+To address this problem, here we construct model ex-
+ploitative communities following two widely used food
+web models – cascade model [4, 31, 37, 41–43] and niche
+model [4, 31, 43–45] (see Supplementary Note 6). In
+the cascade model, species are organized into a strict
+hierarchy, where species occupying higher ranks predate
+species positioned at lower ranks with a fixed probability
+(Fig. 6A). Therefore, cascade model introduces trophic
+levels compared with unstructured food web. In the
+niche model, each species is assigned a specific preda-
+tion range, and accordingly preys upon all species that
+fall within this range (Fig. 6A). Compared with cascade
+model, niche model further introduces intervality and
+broad degree distribution [46].
+Compared with unstructured food webs, we find that
+both cascade and niche food webs exhibit reduced stabil-
+ity, suggesting that incorporating structural features of
+empirical food webs tends to exert a destabilizing effect
+(Fig. 6B and Supplementary Fig. S14). The observed
+decline in stability from unstructured to cascade food
+webs indicates that the introduction of trophic levels isa destabilizing factor. The additional decrease in stabil-
+ity seen when transitioning from cascade to niche food
+webs highlights the destabilizing impact of introducing
+intervality (each predator consumes preys that are ad-
+jacent in the hierarchy) alongside a broad degree distri-
+bution within food web architectures. By constructing
+variants of cascade model (interval cascade model, cas-
+cade model with broad degree distribution, and interval
+cascade model with broad degree distribution, see Sup-
+plementary Note 6), we identify that intervality is the
+key driver for the stability decrease from cascade model
+to niche model (Fig. 6C,D and Supplementary Fig. S15).
+This is because intervality causes the dominant eigenval-
+ues to be further away from the origin, thus reducing
+stability (Supplementary Fig. S16).
+III. DISCUSSION
+Since May’s pioneering work, ecologists have dedi-
+cated tremendous effort to understanding the mecha-
+nisms driving stability or instability in complex ecolog-
+ical communities. However, most existing theories fo-
+cus on continuous-time dynamics, rendering them inef-
+fective in explaining the behavior of communities com-
+posed of species with non-overlapping generations. To
+address this gap, here we develop a discrete-time dynami-
+cal framework to comprehensively understand the drivers
+of ecological stability in these communities. With this
+framework, we reveal that several established rules for
+ecological stability need to be revised. It is worth not-
+ing that although the main focus of our work is stability,
+this framework can also be applied to study other critical
+properties of complex communities, such as coexistence
+[47], and reactivity [26, 46, 48, 49], to name a few.
+In stark contrast to classic research on species com-
+munities with overlapping generations, our study re-
+veals that self-regulation plays a more versatile role in
+shaping the stability of complex communities with non-
+overlapping generations. Specifically, self-regulation acts
+as a double-edged sword: increasing its strength is ini-
+tially stabilizing but eventually becomes destabilizing.
+This dual effect cautions ecosystem managers against
+assuming that stronger self-regulation is always benefi-
+cial. Moreover, self-regulation modulates the influence of
+different interaction types on stability, and communities
+benefit most from interaction-type diversity when species
+exhibit a moderate level of self-regulation. This finding
+highlights that the advantage of diverse interaction types
+is a key feature of natural communities in maintaining
+ecological stability.
+Apart from revealing the beneficial influence of diverse
+interaction types, the interplay between self-regulation
+and interspecies interactions also provides insights into
+whether populations tend to prefer competition or coop-
+eration (mutualism)–a long-standing and debated topic
+in microbiology. Some microbiologists argue that bac-
+terial species rarely cooperate, as cooperation may un-
+9
+Cascade food web Niche food web
+12 S i 
+1
+2
+i
+S 12 S i Schematic Interaction matrix Schematic Interaction matrixA
+Exploitative interaction Negative effect Positive effect
+C D
+StabilityBS1
+i-1
+i+1i
+S1
+i-1
+i+1i
+S1
+i-1
+i+1i
+Unstructured food web
+Schematic Interaction matrix
+12 S i 
+012Stability
+Sample number0 50 100Variant 1
+0 50 100Variant 2
+0 50 100Variant 3
+Cascade
+IntervalityBroad degree dist. Intervality+broad degree dist.
+0 -0.1 -0.2123Variant number0 0.2 0.4 0.6 0.800.20.40.60.81Unstructured food web
+0 0.2 0.4 0.6 0.8Cascade food web
+0 0.2 0.4 0.6 0.8Niche food web
+1
+2
+i
+S 1
+2
+i
+S 
+Stable
+FIG. 6. Stability of structured food webs with non-overlapping generations. A , Diagrams of interaction network
+structure and interaction matrices. In the unstructured food web, two species interact with each other randomly, and the role
+of predator or prey is assigned with equal probability. In the cascade food web, ranks (numbers) of species are introduced, and
+species with higher ranks prey on species with lower ranks with a fixed probability. And the curved arrow indicates exploitative
+interaction. In the niche food web, species prey on all species within its predation range. For example, the yellow species i
+preys on all species located within the yellow–shaded circle. Purple and red blocks in interaction matrices represent positive
+and negative interactions, respectively. B, Transition from stability to instability for food webs. We systematically vary the
+connectance C(cross) or the standard deviation σ(circle) to obtain the critical value of σ√
+SCfor instability. The vertical
+red line is the critical value calculated by our theory for unstructured food web. Black, blue, and yellow lines and markers
+(crosses and circles) are numerical results, respectively. Each marker is calculated over 100 randomly generated communities
+with the same set of parameters. C, Stability of the cascade food web with different variants. Variant 1 is interval cascade food
+web; variant 2 is cascade food web with a broad degree distribution; variant 3 is a combination of 1 and 2. Red lines indicate
+the stability of the cascade food web without these variants and blue markers (triangle, circle, and diamond) represent the
+stability with different variants. For each type of variant, we randomly generated 100 communities with the same parameters.
+D, Average stability change for different variants shown in panel C, and here ∆Stability = StabilityVariant −StabilityCascade .
+In C-D, S= 200, C= 0.1,s= 1,σ= 0.05.
+dermine community stability [33, 50]. Others, however,
+contend that cooperation enhances stability and is there-
+fore favored [51, 52]. Given that many bacterial species
+reproduce through binary fission–a process in which a
+single cell divides into two genetically identical daughter
+cells and inherently follows a discrete-time structure–our
+theory may help reconcile these seemingly contradictory
+perspectives: when communities exhibit low or high lev-
+els of self-regulation, competitive or mutualistic interac-
+tions, respectively, lead to higher level of stability.Building on our current work and classic studies, a
+natural next step is to investigate how to model and an-
+alyze the dynamical behavior of complex communities
+that contain a mixture of species with overlapping and
+non-overlapping generations. This is a valuable direction,
+as such communities are more representative of natural
+systems than those composed solely of species with over-
+lapping or non-overlapping generations. However, the
+fact that modeling these communities requires combin-
+ing continuous-time and discrete-time frameworks makes
+10
+the exploration of this topic particularly challenging.
+In general, our study highlights that established rules
+for ecological stability may falter when applied to com-
+munities composed of species with non-overlapping gen-
+erations, whose behavior is governed by discrete-time dy-
+namics. Consequently, without a thorough understand-
+ing of the stability mechanisms in such communities,
+ecosystem managers may implement ill-advised measures
+in response to ecological crises–potentially leading to
+catastrophic consequences for the environment, climate,and the routine functioning of human societies. Although
+our analyses focus on communities with non-overlapping
+generations, the results can be broadly interpreted and
+extended to a wide range of systems described by differ-
+ence equations. Moreover, since real-world data are often
+collected in discrete time, our theory can even be applied
+to communities with overlapping generations. Thus, our
+work offers a potential bridge between theory and em-
+pirical research, contributing to the understanding and
+management of ecological communities.
+[1] R. M. May, Stability and Complexity in Model Ecosys-
+tems (Princeton Univ. Press, 2001).
+[2] R. M. May and A. R. McLean, Theoretical Ecology: Prin-
+ciples and Applications (Oxford Univ. Press, 2007).
+[3] R. M. May, Will a large complex system be stable?, Na-
+ture238, 413 (1972).
+[4] S. Allesina and S. Tang, Stability criteria for complex
+ecosystems, Nature 483, 205 (2012).
+[5] A. Mougi and M. Kondoh, Diversity of interaction types
+and ecological community stability, Science 337, 349
+(2012).
+[6] S. Allesina and S. Tang, The stability–complexity rela-
+tionship at age 40: A random matrix perspective, Popul.
+Ecol. 57, 63 (2015).
+[7] S. Tang, S. Pawar, and S. Allesina, Correlation between
+interaction strengths drives stability in large ecological
+networks, Ecol. Lett. 17, 1094 (2014).
+[8] M. E. Newman, Modularity and community structure in
+networks, Proc. Natl. Acad. Sci. USA 103, 8577 (2006).
+[9] J. Grilli, T. Rogers, and S. Allesina, Modularity and sta-
+bility in ecological communities, Nat. Commun. 7, 12031
+(2016).
+[10] D. Gravel, F. Massol, and M. A. Leibold, Stability and
+complexity in model meta-ecosystems, Nat. Commun. 7,
+12457 (2016).
+[11] J. W. Baron and T. Galla, Dispersal-induced instability
+in complex ecosystems, Nat. Commun. 11, 6032 (2020).
+[12] R. M. May, Time-delay versus stability in population
+models with two and three trophic levels, Ecology 54,
+315 (1973).
+[13] E. Niebur, H. G. Schuster, and D. M. Kammen, Collec-
+tive frequencies and metastability in networks of limit-
+cycle oscillators with time delay, Phys. Rev. Lett. 67,
+2753 (1991).
+[14] V. K. Jirsa and M. Ding, Will a large complex system
+with time delays be stable?, Phys. Rev. Lett. 93, 070602
+(2004).
+[15] E. Pigani, D. Sgarbossa, S. Suweis, A. Maritan, and
+S. Azaele, Delay effects on the stability of large ecosys-
+tems, Proc. Natl. Acad. Sci. USA 119, e2211449119
+(2022).
+[16] Y. Yang, K. R. Foster, K. Z. Coyte, and A. Li, Time de-
+lays modulate the stability of complex ecosystems, Nat.
+Ecol. Evol. 7, 1610 (2023).
+[17] A. L. Jensen, Dynamics of populations with nonoverlap-
+ping generations, continuous mortality, and discrete re-
+productive periods, Ecol. Modell. 74, 305 (1994).
+[18] I. M. Aalberg Haugen, D. Berger, and K. Gotthard, The
+evolution of alternative developmental pathways: Foot-prints of selection on life-history traits in a butterfly, J.
+Evol. Biol. 25, 1377 (2012).
+[19] R. P. Kovach, A. J. Gharrett, and D. A. Tallmon, Tempo-
+ral patterns of genetic variation in a salmon population
+undergoing rapid change in migration timing, Evol. Appl.
+6, 795 (2013).
+[20] R. M. May, Biological populations with nonoverlapping
+generations: Stable points, stable cycles, and chaos, Sci-
+ence186, 645 (1974).
+[21] J. Beddington, C. Free, and J. Lawton, Dynamic com-
+plexity in predator-prey models framed in difference
+equations, Nature 255, 58 (1975).
+[22] S. Sinha and S. Sinha, Evidence of universality for the
+May-Wigner stability theorem for random networks with
+local dynamics, Phys. Rev. E 71, 020902 (2005).
+[23] J. Hofbauer, V. Hutson, and W. Jansen, Coexistence
+for systems governed by difference equations of Lotka-
+Volterra type, J. Math. Biol. 25, 553 (1987).
+[24] S. L. Pimm, The complexity and stability of ecosystems,
+Nature 307, 321 (1984).
+[25] C. L. Lehman and D. Tilman, Biodiversity, stability, and
+productivity in competitive communities, Am. Nat. 156,
+534 (2000).
+[26] H. Caswell and M. G. Neubert, Reactivity and transient
+dynamics of discrete-time ecological systems, J. Differ.
+Equ. Appl. 11, 295 (2005).
+[27] H. H. Nguyen and S. O’Rourke, The elliptic law, Int.
+Math. Res. 2015 , 7620 (2015).
+[28] S. O’Rourke and D. Renfrew, Low rank perturbations of
+large elliptic random matrices, Electron. J. Probab. 19,
+1 (2014).
+[29] T. Rogers, Universal sum and product rules for random
+matrices, J. Math. Phy. 51, 093304 (2010).
+[30] J. Friedman, L. M. Higgins, and J. Gore, Community
+structure follows simple assembly rules in microbial mi-
+crocosms, Nat. Ecol. Evol. 1, 0109 (2017).
+[31] G. Barab´ as, M. J. Michalska-Smith, and S. Allesina, Self-
+regulation and the stability of large ecological networks,
+Nat. Ecol. Evol. 1, 1870 (2017).
+[32] R. R. Stein, V. Bucci, N. C. Toussaint, C. G. Buffie,
+G. R¨ atsch, E. G. Pamer, C. Sander, and J. B. Xavier,
+Ecological modeling from time-series inference: Insight
+into dynamics and stability of intestinal microbiota,
+PLoS Comput. Biol. 9, e1003388 (2013).
+[33] K. Z. Coyte, J. Schluter, and K. R. Foster, The ecology
+of the microbiome: Networks, competition, and stability,
+Science 350, 663 (2015).
+[34] K. McCann, A. Hastings, and G. R. Huxel, Weak trophic
+interactions and the balance of nature, Nature 395, 794
+11
+(1998).
+[35] C. Ratzke, J. Barrere, and J. Gore, Strength of species
+interactions determines biodiversity and stability in mi-
+crobial communities, Nat. Ecol. Evol. 4, 376 (2020).
+[36] J. Hu, D. R. Amor, M. Barbier, G. Bunin, and J. Gore,
+Emergent phases of ecological diversity and dynamics
+mapped in microcosms, Science 378, 85 (2022).
+[37] X. Chen and J. E. Cohen, Transient dynamics and food–
+web complexity in the Lotka–Volterra cascade model,
+Proc. R. Soc. Lond. B. 268, 869 (2001).
+[38] D. B. Stouffer, J. Camacho, and L. A. N. Amaral, A
+robust measure of food web intervality, Proc. Natl. Acad.
+Sci. USA 103, 19015 (2006).
+[39] J. A. Dunne, R. J. Williams, and N. D. Martinez, Food-
+web structure and network theory: The role of con-
+nectance and size, Proc. Natl. Acad. Sci. USA 99, 12917
+(2002).
+[40] R. J. Williams and N. D. Martinez, Simple rules yield
+complex food webs, Nature 404, 180 (2000).
+[41] S. Allesina, D. Alonso, and M. Pascual, A general model
+for food web structure, Science 320, 658 (2008).
+[42] J. E. Cohen, F. Briand, and C. M. Newman, Commu-
+nity Food Webs: Data and Theory (Springer Science &
+Business Media, 2012).
+[43] S. Allesina, J. Grilli, G. Barab´ as, S. Tang, J. Aljadeff, and
+A. Maritan, Predicting the stability of large structuredfood webs, Nat. Commun. 6, 7842 (2015).
+[44] S. McNaughton, Stability and diversity of ecological com-
+munities, Nature 274, 251 (1978).
+[45] P. Yodzis, The stability of real ecosystems, Nature 289,
+674 (1981).
+[46] Y. Yang, K. Z. Coyte, K. R. Foster, and A. Li, Reactiv-
+ity of complex communities can be more important than
+stability, Nat. Commun. 14, 7204 (2023).
+[47] S. Saavedra, R. P. Rohr, J. Bascompte, O. Godoy, N. J.
+Kraft, and J. M. Levine, A structural approach for un-
+derstanding multispecies coexistence, Ecol. Monogr. 87,
+470 (2017).
+[48] M. G. Neubert and H. Caswell, Alternatives to resilience
+for measuring the responses of ecological systems to per-
+turbations, Ecology 78, 653 (1997).
+[49] S. Tang and S. Allesina, Reactivity and stability of large
+ecosystems, Front. Ecol. Evol. 2, 21 (2014).
+[50] N. M. Oliveira, R. Niehus, and K. R. Foster, Evolution-
+ary limits to cooperation in microbial communities, Proc.
+Natl. Acad. Sci. USA 111, 17941 (2014).
+[51] L. O˜ na and C. Kost, Cooperation increases robustness
+to ecological disturbance in microbial cross-feeding net-
+works, Ecol. Lett. 25, 1410 (2022).
+[52] G. D’Souza and C. Kost, Experimental evolution of
+metabolic dependency in bacteria, PLoS Genet. 12,
+e1006364 (2016).

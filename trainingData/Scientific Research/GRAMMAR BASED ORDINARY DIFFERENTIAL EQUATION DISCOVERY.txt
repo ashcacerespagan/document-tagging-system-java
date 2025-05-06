@@ -1,0 +1,1214 @@
+GRAMMAR -BASED ORDINARY DIFFERENTIAL EQUATION
+DISCOVERY
+Karin L. Yu
+ETH AI Center and
+Institute of Structural Engineering
+ETH Zurich
+Switzerland
+karin.yu@ibk.baug.ethz.chEleni Chatzi
+Institute of Structural Engineering
+ETH Zurich
+Switzerland
+chatzi@ibk.baug.ethz.chGeorgios Kissas
+ETH AI Center
+ETH Zurich
+Switzerland
+gkissas@ai.ethz.ch
+ABSTRACT
+The understanding and modeling of complex physical phenomena through dynamical systems has
+historically driven scientific progress, as it provides the tools for predicting the behavior of differ-
+ent systems under diverse conditions through time. The discovery of dynamical systems has been
+indispensable in engineering, as it allows for the analysis and prediction of complex behaviors for
+computational modeling, diagnostics, prognostics, and control of engineered systems. Joining recent
+efforts that harness the power of symbolic regression in this domain, we propose a novel framework
+for the end-to-end discovery of ordinary differential equations (ODEs), termed Grammar-based ODE
+Discovery Engine (GODE). The proposed methodology combines formal grammars with dimen-
+sionality reduction and stochastic search for efficiently navigating high-dimensional combinatorial
+spaces. Grammars allow us to seed domain knowledge and structure for both constraining, as well
+as, exploring the space of candidate expressions. GODE proves to be more sample- and parameter-
+efficient than state-of-the-art transformer-based models and to discover more accurate and parsimo-
+nious ODE expressions than both genetic programming- and other grammar-based methods for more
+complex inference tasks, such as the discovery of structural dynamics. Thus, we introduce a tool that
+could play a catalytic role in dynamics discovery tasks, including modeling, system identification,
+and monitoring tasks.
+Keywords Dynamical Systems ·Ordinary Differential Equations ·Symbolic Regression ·Formal Grammars ·
+Equation Discovery ·Deep Generative Models
+1 Introduction
+Scientific discovery unfolds as an iterative cycle [1] in which mathematical formalizations, such as differential equa-
+tions, are derived from fundamental principles to capture and explain experimental observations. Not only do these
+mathematical models provide a precise language for expressing complex physical phenomena, but also predict the
+behavior of systems under various conditions and constraints [2]. By solving these models under different initial
+conditions, researchers can forecast how systems behave in space and time, and these predictions can then be rigor-
+ously tested against experimental data [3]. When the experimental outcomes confirm the predictions, the model is
+validated and becomes a powerful tool for understanding nature; conversely, discrepancies between theory and exper-
+iment drive further refinements of the models or even inspire the development of entirely new theoretical frameworks
+[4]. This dynamic interplay between mathematical theory and empirical validation has been pivotal in advancing our
+understanding of the natural world, continually shaping progress in science and engineering while encouraging an
+ever-deepening exploration of the underlying laws of nature [5].
+Inferring mathematical formalizations of processes is essential for robust modeling, estimation, monitoring, and con-
+trol of dynamical systems in a range of scientific fields, including physics, chemistry, biology, and engineering [6].
+However, extracting differential equations from first principles, especially for nonlinear systems, exhibits complex
+behaviors that often defy simple analytical approximations, making it difficult to derive their governing equations [7].arXiv:2504.02630v1  [cs.LG]  3 Apr 2025
+Yu et al. Grammar-based Ordinary Differential Equation Discovery Preprint April 2025
+To address these issues, symbolic regression, a powerful method for uncovering mathematical relationships in data,
+approaches have been proposed to enable the extraction of differential equations directly from sparse observations
+[8, 9, 10].
+Symbolic regression, a cornerstone of data-driven scientific discovery, can be understood through a taxonomy that
+organizes methods into two broad categories, each reflecting a distinct approach for uncovering the underlying math-
+ematical relationships in data. Discrete iterative algorithms initiate with a set of building blocks or primitives, such as
+unary and binary operators or subexpressions. They then systematically explore the combinatorial space of possible
+expressions, piecing together these operations in diverse ways until the symbolic expression that best fits the observed
+data is identified. Different approaches are identified through the possible allowed combinations; for example, genetic
+programming methods [3, 7, 11, 12] allow any combination, syntactically valid or invalid, between primitives. This
+may lead to an explosion of the combinatorial complexity, resulting in even modern approaches of genetic program-
+ming, see PySR as a prime example [13, 14], to fail in associated inference (discovery) tasks. Recent approaches
+attempt to improve the sampling of the initial populations with neural-guided search [15], whereas deep symbolic
+regression uses recurrent neural networks to search in discrete spaces [16]. As an alternative to genetic programming
+and to reduce complexity, formal grammar -based approaches [17], such as ProGED [10, 18], have been proposed that
+only allow combinations that result in syntactically valid mathematical expressions, thus reducing the space of possi-
+ble candidate expressions. An extreme approach to achieve this reduction is sparse regression methods, also known as
+dictionary-based methods. Sparse regression methods assume a pre-established library of subexpressions that capture
+common functional patterns. The model is restricted to form linear combinations of these subexpressions, and the
+task is reduced to identifying the optimal weighted sum [8, 19] that best fits the observed data. Sparse regression
+methods require a careful selection of candidate subexpressions, which ultimately relies on the expertise of the user.
+Discrete iterative algorithms are task-agnostic, flexible, and easy to adapt to new scenarios; however, due to the fact
+that they search a large discrete space for the optimal model, depending on the generality of the algorithm, they can
+be computationally intensive and slow.
+The other category of symbolic regression methods that we identify is the one we refer to as direct algorithms . Direct
+algorithms learn an operator between the numerical evaluation of a system, for example, the trajectory of an ordinary
+differential equation (ODE), and its symbolic representation. State-of-the-art direct approaches, such as ODEFormer
+[9] and variants [20, 21, 22, 23], are constructed in the following steps. During training, the algorithm samples a
+3-tuple of a symbolic expression, a domain, and initial conditions, computes the system trajectory, and learns an
+operator between a system trajectory and its symbolic representation. At inference time, the model directly provides
+an initial guess for the expression that best fits the data, and a second optional step is also considered where the
+scalars of the expression are optimized for a constant skeleton expression. Direct methods are pre-trained on a large
+corpus of predefined tasks [9, 20, 24], which allows for embedding expressions into vectorial representations, known
+as tokenization [25], that can be efficiently recovered during discovery. We argue that direct methods inherit specific
+drawbacks by construction, such as sample and parameter inefficiency, and inflexibility in adapting to new tasks.
+We propose a fundamentally different approach in the discovery of ODEs that builds upon ideas from both iterative
+and direct methods, called Grammar-based ODE Discovery Engine (GODE). More specifically, the proposed method-
+ology considers formal grammars to restrict the space of candidate operators [26], a pre-training strategy, as in direct
+methods, to embed the candidate expressions into a low-dimensional continuous latent space via the Grammar Vari-
+ational Autoencoder (GV AE) [27], and finally stochastic iterative search in the continuous low-dimensional space to
+discover the ODE that the given measurements or observations satisfy. GODE, compared to direct methods, is more
+efficient and adaptable to new scenarios; it requires fewer resources as the pre-training only considers symbolic infor-
+mation, the model is comprised of far fewer parameters, and it needs many fewer samples. We show that the proposed
+methodology, compared to search methods, can discover more complex expressions often encountered in engineering
+tasks. Moreover, GODE allows for tackling a larger set of symbolic discovery problems, such as implicit ODEs, that
+it was not previously possible.
+The contributions of this paper can be summarized as follows:
+(i)Generality: We propose the grammar-based approach GODE that does not require a targeted design of the
+candidate model space, making it applicable to a wide variety of cases. Unlike direct methods, which rely on
+large tailored datasets to capture all specific problem instances, our method uses formal grammars to define
+ODEs generically, ensuring syntactic validity while supporting broad applicability. Moreover, grammars
+allow us to introduce structure and domain biases to guide the discovery process.
+(ii)Task-agnostic: GODE is task-agnostic as it is first pre-trained on different candidate ODEs and then the
+symbolic task is defined. This means that the proposed methodology generalizes for different domains and
+initial conditions.
+2
+Yu et al. Grammar-based Ordinary Differential Equation Discovery Preprint April 2025
+(iii) Sample efficiency: The proposed embedding methodology is constructed using grammars instead of tok-
+enization which is shown to require far fewer training samples to provide better accuracy than state-of-the-art
+methods, such as ODEFormer.
+(iv) Practicality: Our end-to-end model reformulates the discovery into a search problem, eliminating the need
+to solve ODEs during the generation of the training dataset. Furthermore, GODE is not restricted to explicit
+ODEs, broadening its applicability and adaptability such as incorporating partial information (e.g., forcing
+terms).
+2 Methodology
+We propose the novel approach GODE that combines elements of both iterative anddirect algorithms. GODE is
+realized in the following steps: A discrete set of candidate ODEs is constructed using grammars, then it is embedded
+in a continuous low-dimensional manifold using a deep learning model, and lastly, a stochastic search algorithm is
+defined over the manifold to discover the ODE that the data best satisfy (see Figure 1). We designate the notation
+□(t)to represent the continuous ground truth solution, □tfor the discrete ground truth trajectories, ˜□tfor the noisy
+observations, □NN
+tfor the approximated discrete trajectories, and ˆ□tfor the discrete trajectories of the predicted
+equation.
+C·u(t) +C·sin(C·t)du(t)
+dt= 0
+C·du(t)
+dt+C·td2u(t)
+dt2+C·cos(C·t) = 0
+...Dataset of ODEs
+Encoder
+z1z2z3
+Manifold in Latent Space
+Decoderz1z2L
+tu
+z1z2L
+Search Problem
+tu
+Figure 1: Overview of the end-to-end GODE process with formal grammars: First, grammars allow for an efficient
+generation of a dataset, then a V AE is trained to embed this dataset into a continuous latent space, which is searched
+during inference with a stochastic algorithm to identify the best-fitting ODE.
+2.1 Grammar-generated candidate models
+The approach of defining a set of candidate expressions and a structured way to sample from it was first introduced,
+to the best of our knowledge, by Lample et. al. [20], where the authors randomly generated graph trees and assigned
+labels to the graph nodes to create a combinatorially large number of expressions. In this case, the set of candidate
+expressions Sis rigorously defined considering G={V,E, l}a general graph topology, where Vis a set of nodes,
+E ⊆ V × V a set of edges, and l:V → La labeling function that assigns a label from L={U, B, C, A }to a node
+v∈ V [28]. The subset Ucontains unary operations, e.g. U=n
+d
+dt,d2
+dt2,exp,sin,logo
+,B={+,−,·}the subset of
+binary expressions, C⊂Rthe subset of constants, and A={α, t}the subset of variables. A candidate ODE can then
+be constructed by sampling a walk won the graph G. Subsequently, Sis defined as the set of all finite walks,
+S ={l(w)|w={v1,v2, ...,vn} ∈ V∗,(vi,vi+1)∈ E ∀ 1≤i < n}, (1)
+where V∗=S∞
+n=0Vnis the Kleene star of the set V(i.e.,V∗is the set of all possible concatenations of sequences in
+Vof different lengths, respectively in our case of labels in L. The set can be empty and the same labels can appear
+multiple times.) and nis the sequence length. However, a rejection sampling strategy needs to be considered, as this
+approach does not necessarily produce semantically and syntactically correct expressions [2]. Ensuring syntactically
+valid expressions is a key challenge across all iterative methods. For example, dictionary-based methods achieve this
+naturally by restricting the search only to terms included in a predefined library [8]. Other methods consider user-
+specified constraints on the tree generation which restrict the choices of children given their parents [14]. However,
+these constraints are local and meaningful provided that the expression sampled is semantically valid.
+To systematically define local, between parent and children nodes, and global constraints, across subtrees, we consider
+a formal grammar and more specifically a context-free grammar (CFG) approach. A CFG Gis defined as the tuple
+{T,N,P,S}, where Tis the set of terminal symbols, Nthe set of non-terminal symbols and T ∩ N =∅,Pa finite
+3
+Yu et al. Grammar-based Ordinary Differential Equation Discovery Preprint April 2025
+set of production rules, and S ∈ N the starting symbol. Each rule r∈ P is a map α→β, where α∈ N and
+β∈(T ∪ N )∗. A language L(G)is defined as the set of all terminal strings derived by applying the production rules
+of the grammar starting from S:
+L(G) ={w∈ T∗| S →∗w}, (2)
+where→∗implies nr≥0applications of rules in P. There are two fundamental operations associated with a terminal
+expression, namely parsing and generation. Given an expression w∈ T∗, a parsing algorithm extracts a sequence of
+rules starting from S, and given a sequence of rules, a generation algorithm derives a terminal string w∈ T∗starting
+fromS. We define an interpretation map I:L(G)→ O [28], which assigns semantic meaning to each win terms of
+an ODE. The set of all ODEs represented by the grammar Gis:
+O(G) ={Ow:D→R|Ow=I(w), w∈ L(G)}.
+Grammar-based methods enforce validity through their rule-based structures. Additionally, domain knowledge can be
+incorporated to constrain the search space and further guide the discovery process [2]. In practice, the grammar is
+easily defined, via a chart parser provided by the Python package nltk[29], by only providing production rules and
+terms such as sinorexp. An example of a simple CFG is given as follows:
+S={S}
+N={S, E, V, F }
+T={+, t,sin(·),cos(·), C}
+P={S→E+E(1),
+E→V(2)|F(3)|C(4),
+F→sin(V) (5)|cos(V) (6),
+V→t(7)},
+where the expression C+ sin( t)is given by the sequence r= [1,4,3,5,7],Cis a placeholder for a constant, and
+(·)defines the rule index. For more general cases, the sequence of rules ris given by r= [r1, ..., r nr]. In practice,
+the length nrof the rule sequence might vary depending on the complexity of the expression (more details on the
+complexity metric can be found at the end of Section 2.4). In this case, the sequence rcan be padded to a user-specified
+maximum length Nmaxdecided by the length of the most complex expression. To do so, a special padding rule rp/∈ P
+is added to the production rules ˆP=P ∪ { rp}. Then, the padded expression is given as ˆr= [r1, ..., r nr, rp, ..., r p]
+where rpis repeated Nmax−nrtimes.
+2.2 Manifold learning of candidate ODEs
+As searching a very large discrete space is inefficient [18], we propose a different approach where we first embed the
+discrete expressions into a continuous low-dimensional space which we then search. For embedding the expressions
+sampled from the grammar, we consider the GV AE, an adaptation of the classic variational autoencoder [30] proposed
+by Kusner et al. [27]. The architecture is based on the inherent operations of parsing and generating that a formal
+grammar possesses. The encoder first parses an expression to yield a sequence of rules, which is subsequently trans-
+formed into one-hot encoded vectors. A different function accepts the matrix of one-hot encoded vectors Xas input
+and maps it to a latent distribution q(z|X), see Figure 2. The decoder then maps the reparametrized latent vector zto
+a sequence of rules through p(X|z), see Kusner et. al. [27] for more details.
+00010
+10000
+00010
+00001X=Encoder
+q(z|X)µz
+σzz0.1 0.4 0.4 0.6 0.1
+0.3 0.5 0.2 0.3 0.1
+0.1 0.2 0.3 0.2 0.1
+0.0 0.0 0.0 0.1 0.9=ˆXDecoder
+p(X|z)
+Figure 2: Overview of the GV AE which encodes and decodes a sequence of rules.
+4
+Yu et al. Grammar-based Ordinary Differential Equation Discovery Preprint April 2025
+One drawback of CFGs is the way they represent real numbers using compositions of structural non-terminals, such
+as dots, and integer digits. For example, real numbers are constructed using the following subgrammar:
+S={C}
+N={C, D, N }
+T={.,0,1,2,3,4,5,6,7,8,9}
+P={C→N.N (1),
+N→D(2)|ND(3),
+D→0 (4)|1 (5)|2 (6)|3 (7)|4 (8)|5 (9)|6 (10) |7 (11) |8 (12) |9 (13)}.
+Therefore, the number 1.234is constructed using the following process:
+C(1)− − →N.N,
+2×(3)− − − − → N.NDD,
+2×(2)− − − − → D.DDD,
+(5),(6),(7),(8)− − − − − − − − → 1.234,
+which results in nine rule applications for a number with precision three. This representation of numbers thus leads
+to very long sequences of rules for high-precision arithmetic. For this reason, we refrain from encoding numbers, as
+proposed in the literature [2, 28, 27], but instead embed skeletons of expressions and then optimize for the constants
+in a two-step approach; details can be found in the next subsection.
+The encoder of the one-hot encoded vectors is made of convolutional neural networks. Typically, we use three layers
+with the rectified linear unit (ReLU) activation function, where the dimensions of the input, the output, and kernel size
+depend on the specific problem and complexity of the grammar. We adopt recurrent neural networks for the decoder
+function, namely gated recurrent units (GRU) layers [31], with the activation function comprising exponential linear
+units (ELU) [32]. We train the GV AE model through the loss:
+L=LBCE +βKLLKL, (3)
+where LBCE is the binary cross-entropy loss with a Sigmoid layer between the baseline Xand predicted ˆXone-
+hot encoded vectors, LKLthe Kullback-Leibler divergence loss, and βKLa weight factor to balance the different
+loss objectives. We use the Adam optimizer [33], a stochastic gradient-based optimization method that adapts its
+estimates of lower-order moments, with an initial learning rate of 0.001 and an adaptive learning rate scheduler,
+reducing the learning rate if the metric has stopped improving. The multiplicative factor is chosen as 0.9and the
+remaining hyperparameters are defined for each model individually.
+2.3 Latent space optimization
+As discussed above, the GV AE is first pre-trained using symbolic expressions of ODEs. Then, the latent space is
+searched for the ODE that satisfies a given numerical trajectory in two stages. For the outer loop of the optimization
+procedure (first stage), we consider the Covariance Matrix Adaptive Evolution Strategy (CMA-ES) [34, 35, 36, 37]; a
+non-linear non-convex gradient-free optimization scheme. CMA-ES samples a population from a multivariate normal
+distribution, whose mean and covariance matrix are regularly updated and adapted through a minimization objec-
+tive, making it particularly suitable for complex loss landscapes. For the inner loop (second stage), we consider the
+optimization method proposed by Nelder et. al. [38, 39] for adapting the constants.
+We assume noisy and sparse observations, where sparsity refers to not having all types of measurements of the trajec-
+tory and solution derivatives uti,˙uti, or¨utiat times tifori= 0..ns−1, where nsis the number of measurements.
+Due to the noise and sparsity, we need to infer the missing information, meaning either integrate or differentiate to
+obtain the missing mode. Typically, finite difference schemes can be used here, which, however, struggle with noise
+and require sophisticated and individually tuned filtering schemes. For this reason, we consider a combination of a
+multilayer perceptron (MLP) with three layers, 32 neurons, and Sigmoid linear unit (SiLU) activation [40] to smoothen
+the data ( uNN
+t) and automatic differentiation to approximate the derivatives ( ˙uNN
+t,¨uNN
+t) [41].
+2.4 Optimization objectives
+For evaluating how well a given trajectory satisfies an ODE, we need to perform symbolic operations, for which we use
+SymEngine [42], a fast symbolic manipulation library in C++, accessible through a Python wrapper, and the Python
+5
+Yu et al. Grammar-based Ordinary Differential Equation Discovery Preprint April 2025
+package SymPy [43]. Two types of objectives are introduced: the differential equation residual loss LDEand the
+standardized mean squared error of the solution trajectories LSOL:
+LDE(˜ut) =vuut1
+nsns−1X
+i=0 
+D 
+uNN
+ti,˙uNN
+ti,¨uNN
+ti
+−F(ti)2(4)
+LSOL(˜ut,ˆut) =1
+nsPns−1
+i=0(uNN
+ti−ˆuti)2
+1
+nsPns−1
+i=0uNN2
+ti+1
+nsPns−1
+i=0( ˙uNN
+ti−ˆ˙uti)2
+1
+nsPns−1
+i=0˙uNN2
+ti+1
+nsPns−1
+i=0(¨uNN
+ti−ˆ¨uti)2
+1
+nsPns−1
+i=0¨uNN2
+ti, (5)
+where Dis the differential operator, u(t)the dependent function, tthe independent variable, and F(t)the force
+term. Therefore, the ODE can be represented by the implicit form D(u(t))−F(t) = 0 . Solving the ODE can
+be computationally taxing; hence, the ODE is not solved for every equation, where ˆut,ˆ˙ut, and ˆ¨utare the solution
+trajectories of the predicted ODE. First, the residual loss LDEis determined, and if this loss is below a certain
+threshold θDE, thenLSOL is evaluated. During the optimization process, we need to ensure that we are comparing the
+same equations with each other regardless of scaling to avoid ill-posedness. We normalize our sampled equation by
+its highest derivative so that such expressions have the same loss LDE. In cases where solving the ODE is discarded
+or omitted, it needs to be prevented that GODE generates trivial or close-to-trivial equations, such as Eqs. (6) and (7),
+which would yield small losses irrespective of the dependent functions. In fact, symbolic regression methods are
+commonly defined as function approximators, meaning that they attempt to discover a functional mapping f(X(t))
+from an input X(t)to an output y(t):y(t) =f(X(t)), t∈D, where tis the independent variable, often representing
+time, over the domain D. This problem is typically referred to as solution discovery [44]. However, fewer works have
+tackled the equation discovery problem, i.e., discovering differential equations directly, mostly due to the inherent
+ill-posedness of such a task (owing to noise, sparsity, or nonuniqueness) [45]. As aforementioned, dictionary-based
+methods are often adopted to this end, focusing on linear regression over candidate functions [8], while other schemes
+attempt to reformulate and reduce the problem to explicit ODEs [9, 14]. The latter seek to infer this explicit (or also
+known as functional) form of ˙X(t)as˙X(t) =f(X(t))over a specified domain D. Instead, we propose to directly
+generate implicit equations (i.e., for this case f(X(t),˙X(t)) = 0 or for ODEs D(u(t))−F(t) = 0 ), which are more
+expressive than explicit ODEs. However, a common challenge faced in the discovery of implicit equations [46] is
+encountering trivial solutions:
+du(t)
+dt+ 2−du(t)
+dt−2 = 0 (6)
+d2u(t)
+dt2−0.985d2u(t)
+dt2≈0. (7)
+Hence, we filter these cases out by evaluating the equations for a range of different possible solutions S∗.
+1
+n(S∗)X
+uS∗∈S∗ 
+1
+nsns−1X
+i=0∥D(uS∗(ti))−F(ti)∥!
+≤ε (8)
+If the mean of all mean evaluations are below a certain threshold ε, we treat the equation as trivial and discard it;
+respectively return a high penalty.
+As discovered ODEs should also be parsimonious, a new evaluation metric was introduced for the search problem of
+some examples, a variation of typical model selection criteria:
+LIC=αC+ (1−α)nsLaccuracy (9)
+where αis a weight factor, Laccuracy the loss of the ODE evaluation, and Cthe complexity metric. The complexity
+metric Cis assessed by evaluating the attributes of an expression and counting the number of constants, variables,
+and operations, where each is assumed to have a weight of 1. However, due to the automated extraction of the
+attributes with SymPy , certain operations are weighted more. For instance, the ODE 5d
+dtu(t) + 25 u(t)−sin(t) = 0
+has a complexity of 16, where alone the derivatives such asd
+dtu(t)ord2
+dt2u(t)count as 6 and the function u(t)as
+2. Automating this process requires significant simplifications that do not necessarily need to be included in typical
+simplification functions, such as in the one employed by SymPy . To reduce this bias, the weight factor α= 0.1is
+chosen to be fairly small.
+3 Results: data generation, training, and discovery
+We present three types of benchmarks to evaluate GODE. We focus on well-designed synthetic examples to thoroughly
+test the potency of the employed approach, which can then be used in conjunction with experimental data. The first
+6
+Yu et al. Grammar-based Ordinary Differential Equation Discovery Preprint April 2025
+benchmark (Section 3.1) involves comparing GODE with three state-of-the-art methods: ODEFormer [9], PySR [14],
+and ProGED [18, 10], on one-dimensional explicit ODEs. ODEFormer is a transformer-based direct algorithm and
+follows the scheme described in Section 1: A large deep learning model is trained to accept numerical trajectories.
+Subsequently, the model embeds these with tokenization, passes the tokens through a transformer, and decodes them
+to predict mathematical symbolic ODEs. Such an approach learns patterns and structure through data and, hence,
+requires a large dataset and rejection sampling to ensure syntactic validity. In contrast, PySR is a popular genetic
+programming-based discrete search tool, which exploits parallelization and a multi-population evolutionary algorithm
+based on tournament selection to discover functions computationally efficiently. A previous study by d’Ascoli et al.
+[9] demonstrated that ODEFormer performs on par or better than PySR justifying the selection of these two methods.
+ProGED uses formal grammars, specifically probabilistic CFGs, to infer symbolic expressions with Monte-Carlo sam-
+pling. Omejc et al. [10] have recently improved its methodology and, thus, ProGED is included as a reference model.
+We do not compare with dictionary-based methods, such as Sparse Identification of Nonlinear Dynamics (SINDy),
+due to its main disadvantage of requiring a preselection of basis functions, which depends on domain knowledge (see
+Section 1). Moreover, if we relax the constraint of the highly specific candidate expressions, then the main challenge
+becomes searching immensely high-dimensional spaces. The accuracy and generality of the search is the motivation
+of this comparison. One-dimensional explicit ODEs are selected because all three reference models require explicit
+forms of ODEs. Notably, PySR, originally designed for symbolic regression between dependent and independent
+variables (i.e., function approximations), can be adapted to seek explicit (see Section 2.4) ODEs. Although ProGED
+can technically be adapted to accept implicit ODEs with a suitable grammar template and adaptations in the evaluation
+of candidate expressions, such an adaptation lies outside the scope of this work. We here focus on explicit forms for
+consistency. Lastly, only ODEFormer requires providing time series trajectories of the respective ODEs for its train-
+ing, which demands solving these ODEs. As this can be computationally costly, we assess the sample and parameter
+efficiency of ODEFormer by also training smaller models.
+In the second benchmark (Section 3.2), we train the proposed model to handle both first- and second-order linear
+or nonlinear ODEs that can also be implicit. The third benchmark (Section 3.3) aims at discovering three common
+second-order ODEs from nonlinear dynamics based on simulated noisy acceleration measurements. For both the sec-
+ond and third benchmarks, we compare the performance of our GODE with that of PySR and ProGED, as ODEFormer
+did not perform satisfactorily for the first benchmark.
+To identify trivial ODEs, we define the set of possible solutions S∗as
+t,−2.5t,sin(3t),2 cos t
+4
++t
+3	
+. We run all
+methods for five independent runs for each example to minimize the effect of random initializations. To facilitate the
+understanding of each method, details regarding the input and output expectations are provided in Appendix A.
+3.1 One-dimensional explicit ODEs
+This comparison focuses on one-dimensional explicit ODEs to evaluate GODE against three state-of-the-art models:
+ODEFormer [9], ProGED [10, 18], and PySR [14], all of which only support explicit forms of ODEs in their imple-
+mentations. Furthermore, we trained smaller versions of ODEFormer to assess its performance with fewer parameters
+and reduced computational resources on a smaller training dataset. All four types of models are tested on 30 different
+one-dimensional ODEs, of which 23 are taken from the ODEBench provided by d’Ascoli et al. [9] (see Tables 5
+and 6).
+3.1.1 Library generation
+The grammar for the first benchmark comprises 29 production rules, see Appendix B, with an assumed maximum
+expression length of Nmax= 40 . We generated 10,000 skeletons of expressions and split them into a 9:1 ratio for
+training and testing of the GV AE. Generating the dataset for training smaller models of ODEFormer, comprising
+15,000 skeleton expressions using only the grammar, took approximately one to two minutes on a MacBook Pro M3
+(Apple M3 Pro, 10-core CPU, 18-core GPU, and 36GB unified memory). The time integration of 70,000 expressions
+(five random sets of constants per skeleton expression), employing the filtering scheme described in Ascoli et al. [9],
+required about five hours. This dataset is fairly small compared to the training dataset of the original ODEFormer
+model, which contained 50million examples.
+3.1.2 Training and inference
+Generally, for the GV AE model, some hyperparameters, such as the hidden dimension of the GRU layers, are kept
+as default, whereas others, such as the latent dimension, were manually tuned. For this model, we selected a latent
+dimension of 24, kernel sizes 7, 8, and 9 for the three convolutional neural network layers of the encoder, and a hidden
+dimension of 80 for the three bidirectional GRU layers of the decoder. The weight factor of the loss function was
+7
+Yu et al. Grammar-based Ordinary Differential Equation Discovery Preprint April 2025
+set toβKL= 10−3, and early stopping was applied after 1,000 epochs. The learning rate scheduler used a patience
+of 400 epochs and a minimum learning rate of 0.00005. Training a single model on one GPU (NVIDIA GeForce
+RTX 4090) took approximately 10 to 20 minutes. Each generated expression represents f(uNN
+t), to which −˙uNN
+t
+was added to form first-order ODEs. This addition addresses the ill-posedness of implicit ODEs as the coefficient of
+the first derivative is consistently 1. We employed CMA-ES, as described in Section 2.3, with a population size of
+100, 10 generations, and an initial standard deviation of 0.5, to identify the most optimal ODE. Since this benchmark
+involves only first-order ODEs, the latent space optimization focused on minimizing the ODE residual loss LDE
+without solving the ODE.
+For ODEFormer, we employed the original code available on GitHub, and trained it under two different configurations.
+The dimensions of both the encoder and decoder were reduced to either 64 or 128, with the option to re-scale the input
+enabled. Each model was trained for 24 hours on a single GPU, achieving about 100,000 steps. During inference,
+ODEFormer applied beam search with a beam size of 50 and beam temperature of 0.1, which are the default parameters
+from the original paper [9], and uses the metric R2for selection.
+PySR, which requires no training as it uses an evolutionary algorithm, was used directly from the Python package
+(version 0.19.4). For the inference task, the model selection option was set to ’best’ , selecting the equation that best
+balances accuracy and complexity. The number of populations was set to 20, the population size to 30, and the number
+of iterations to 20[14]. PySR allows defining a loss between target and prediction, for which we chose the squared
+error.
+For ProGED (version 0.8.5), we opted for the provided grammar ’universal’ , a sample size of 100, and a maxi-
+mum number of repetitions of 100. ProGED evaluated the root-mean-squared error of the solution trajectories of the
+predicted equation [10, 18].
+3.1.3 Evaluation
+Each example was evaluated by sampling the time series within a domain, using a sampling frequency that results
+in 50 to 300 evaluation points, and applying predefined initial conditions. Each example was then corrupted with
+5% Gaussian noise in order to account for the setting where actual data are available, which are expected to be
+affected by noise (e.g., from measurement devices). For ODEFormer, only the time series ˜utwas provided, whereas
+PySR, ProGED, and GODE required an approximation of the derivative ˙uNN
+t. To obtain this approximation, an MLP
+(Section 2.3) was trained on the noisy observations of ˜utover 10,000 epochs with a batch size of 32, utilizing the
+Adam optimizer [33]. A stepped learning rate scheduler was used, starting at a learning rate of 0.001with a step size
+of500and a multiplicative factor of the learning decay rate of 0.95[47]. The relative L2 error, which compares the
+solutions of the predicted ODE ˆuwith the ground truth trajectories u, is defined as follows:
+Relative L2 error (u,ˆu) =∥u−ˆu∥2
+∥u∥2(10)
+Figure 3 presents violin plots that summarize the relative L2 errors for utand˙utacross each method from 30 examples
+(Appendix B). The violin plots show the distribution of the errors and further include a rotated kernel density plot on
+each side. This gives a sense of the spread of the computed relative error and an indication on where values are more
+or less concentrated (wider portion of the plot). To prevent outliers from skewing the statistics too excessively, errors
+exceeding 1.0 were rounded down to 1.0. Furthermore, the mean relative L2 errors are listed in Table 1. Figure 4 shows
+Table 1: Mean relative L2 errors of utand˙utfor different models for the first benchmark. If the relative L2 error is
+above 1, it was floored to 1.
+Model L2>1 Mean Relative L2 Error
+ut ˙ut
+ODEFormer 64 13 0.524 0.816
+ODEFormer 128 13 0.454 0.790
+ODEFormer ORG 2 0.148 0.224
+PySR best 1 0.084 0.148
+ProGED 2 0.095 0.211
+GODE (ours) 5 0.150 0.211
+8
+Yu et al. Grammar-based Ordinary Differential Equation Discovery Preprint April 2025
+Figure 3: Violin plots of the relative L2 errors for the predicted time series based on the predicted equations with
+individual errors marked as orange dots for each investigated method.
+the predicted results in terms of the relative L2 error for utand˙ut, separately for all six tested models (ODEFormer 64,
+ODEFormer 128, ODEFormer ORG, PySR, ProGED, and GODE). Both ODEFormer models with fewer parameters
+(ODEFormer 64: 3.0 million and ODEFormer 128: 6.9 million vs. ODEFormer ORG: 60.7 million) and smaller
+training datasets perform significantly worse than the original ODEFormer model, as well as PySR, ProGED, and our
+model GODE. These reduced models tend to predict more inaccurate solutions compared to the others. Moreover,
+ODEFormer does not ensure validity and might predict expressions such as log(−u(t)). Our model performs better
+than the original ODEFormer model, despite the latter having over 190 times more parameters, being trained on a
+much larger dataset (around a 1,000 times more samples), and accessing more computational resources (three days
+of training on a single NVIDIA A100 GPU with 80GB memory and 8 CPU cores) [9]. Finally, while our model
+performs slightly worse than PySR and ProGED, PySR appears to predict the most accurate predictions. Due to the
+computationally intensive data generation and training of ODEFormer, the difficulty of adapting it to new tasks, and
+the overall average performance, the remaining benchmarks only include comparisons with PySR and ProGED.
+3.2 Linear and nonlinear ODEs
+The second benchmark involves discovering implicit linear and nonlinear first- or second-order ODEs. Given that the
+force term F(t)is unknown, there can be a multitude of different tuples of the differential operator D(u(t))andF(t)
+that fit a single set of solution trajectories. The benchmark dataset comprises five linear and five nonlinear ODEs with
+known analytical solutions, many of which are taken from the seminal work of Tsoulos and Lagaris [12] (see Table 9).
+3.2.1 Library generation, training, and inference
+For this benchmark, two different grammars were employed: one for the dataset generation, featuring 29 production
+rules and a maximum expression length of 50, and another for the GV AE, comprising 24 rules with a maximum length
+of 70, see Appendix C. The grammar for the GV AE is less specific to give more freedom to the model to learn the
+structure, while we want to control recursions during the dataset generation better. During the training of the GV AE,
+50,000 skeleton expressions were generated, with an additional 1,000 reserved for testing.
+For this GV AE model, we selected a latent dimension 26, a kernel size of 7 for all three convolutional neural network
+layers of the encoder, and a hidden dimension of 80 for the three bidirectional GRU layers of the decoder. The
+weight factor for the loss function was set to βKL= 10−4and early stopping was applied after 1,000 epochs. The
+learning rate scheduler used a patience of 500 and a minimum learning rate of 0.0001. To reduce ill-posedness during
+optimization, the first coefficient of the symbolic skeleton expression was fixed at 1. For latent space optimization, the
+9
+Yu et al. Grammar-based Ordinary Differential Equation Discovery Preprint April 2025
+Figure 4: Relative L2 errors for the predicted time series based on the predicted equations of each example of the first
+benchmark.
+CMA-ES algorithm was configured with a population size of 200, 10 iterations, and an initial standard deviation of
+0.5. The initial threshold for the change in ODE evaluation was set to θDE= 200 , and for the subsequent iterations,
+it was dynamically adjusted to the mean of the 20 lowest losses of the current iteration with a 5% buffer margin.
+Furthermore, the objective during the search was LIC(Eq. (9)), which balances accuracy and sparsity of candidate
+ODEs.
+For both ProGED and PySR, the problem was reformulated to fit the explicit form of ODEs. This constraint might
+lead to inaccuracies in predicting implicit ODEs, particularly ODEs which cannot be written in the explicit form. The
+settings from the first benchmark were retained for both models (Section 3.1.2). In addition, for a fair comparison, the
+model selection option ’score’ was also evaluated for PySR.
+3.2.2 Evaluation
+The evaluation process follows the same protocol as the previous benchmark, see Section 3.1.3, with additionally
+the specification of the order of the expected ODE. When seeking a second-order ODE, autodifferentiation is applied
+twice to the trained MLP to approximate the second derivative ¨ut.
+Figure 5 displays the solution trajectories of the predicted and ground-truth ODEs of five selected ODEs, alongside the
+relative L2 error of ut,˙ut, and ¨utfor the methods: ProGED, PySR best, and our GODE. The plots of the remaining
+ODEs are shown in Figure 7 in Appendix C. Our model successfully predicts implicit ODEs. Nonetheless, certain
+cases, such as NLODE2, prove to be challenging for all models, potentially due to the noisy data and hence difficulty
+in approximating the solution trajectories with the MLP. Generally, PySR performs well, even for differential equa-
+tions beyond its exploration space (i.e., implicit ODEs, which cannot be formulated into the explicit form). However,
+all models, but particularly in the cases of PySR and ProGED, might discover ODEs, which can be both formulated
+in the implicit and explicit forms, whose solution trajectories align well with the noisy data, thus approximating the
+10
+Yu et al. Grammar-based Ordinary Differential Equation Discovery Preprint April 2025
+Figure 5: Solution trajectories of the predicted and ground truth ODEs of five selected examples from the second
+benchmark. The remaining examples can be found in Appendix C.
+functions effectively. Nonetheless, there is no guarantee that the discovered equation mimics the desired dynami-
+cal characteristics, as multiple different ODEs could fit a single solution set. The model selection choice ’score’
+shows slightly lower accuracy compared to ’best’ but utilizes significantly simpler expressions. The performance
+11
+Yu et al. Grammar-based Ordinary Differential Equation Discovery Preprint April 2025
+Table 2: Mean relative L2 errors of ut,˙utand¨utfor the second benchmark. If the relative L2 error is above 1, it was
+floored to 1.
+Model L2>1 Mean Relative L2 Error Mean Relative
+ut ˙ut ¨ut Complexity
+True - - - - 1.0
+ProGED 10 0.326 0.406 0.811 1.01
+PySR best 1 0.115 0.145 0.379 1.74
+PySR score 0 0.143 0.136 0.363 1.04
+GODE (ours) 0 0.120 0.133 0.187 0.90
+of ProGED varies; it excels in cases such as LODE1 or NLODE5, but performs very poorly in LODE4 or NLODE4,
+possibly due to its limited grammar template or unsuitability for implicit ODEs. Our GODE outperforms all other
+methods in both accuracy and complexity, reinforcing the effectiveness of the introduced model selection criteria LIC
+in Eq. (9).
+3.3 Nonlinear dynamics ODEs
+The third benchmark evaluates the proposed GODE against the state-of-the-art methods ProGED [10, 18] and PySR
+[14] using three engineering examples: the damped pendulum, the Duffing oscillator, and the Van der Pol oscillator.
+The pendulum serves as a classic example of a linear ODE in mechanics, showcasing the relationship between stiffness,
+damping, mass, and force through its motion. The Duffing oscillator extends this by modeling damped and driven
+oscillators [48], whereas the Van der Pol oscillator incorporates nonlinear damping [49]. Typically, in an engineering
+setting, acceleration can be measured with accelerometers, and the force (actuation) term might be known in certain
+contexts (e.g., experimental testing, earthquake inputs). This benchmark assumes noisy acceleration measurements
+and a known (input) force term, representing a case where partial information about the sought ODE is available via
+input-output monitoring information.
+3.3.1 Library generation, training, and inference
+In this benchmark, the CFG for the dataset generation featured 26 production rules with a maximum expression length
+ofNmax= 40 , while the grammar for the GV AE included 22 rules and a maximum length of 65. The training dataset
+consisted of 40,000 generated samples, with an additional 1,000 samples reserved for testing.
+For our GV AE model, the following hyperparameters were selected: a latent dimension of 21, kernel sizes of 7, 8,
+and 9 for the three convolutional neural network layers in the encoder, and a hidden dimension of 80 for the three
+bidirectional GRU layers of the decoder. The weight factor for the loss function was βKL= 10−4and early stopping
+was applied after 1,000 epochs. The learning rate scheduler used a patience of 500 and a minimum learning rate of
+0.0001. To explore the latent space, the CMA-ES algorithm was set to a population size of 500, 5 generations, and
+an initial standard deviation of 0.5. The same adaptive threshold for the loss evaluation and model selection criterion
+from the previous benchmark were also applied here (see Section 3.2.1).
+For both ProGED and PySR, the problem was reformulated to fit the explicit form of ODEs. In this case, the force
+term cannot be induced because the coefficient of the highest derivative in the explicit form is 1, which however does
+not need to be the corresponding coefficient for the induced force term. Both models used the same settings as in the
+first benchmark (Section 3.1.2).
+12
+Yu et al. Grammar-based Ordinary Differential Equation Discovery Preprint April 2025
+3.3.2 Evaluation
+To train the MLP, the loss needs to be adapted to approximate the second derivative ¨ut. However, due to approximating
+the MLP on second derivatives, drifts in utand˙utmight appear. Therefore, the MLP loss was adapted to:
+LMLP=1
+nsns−1X
+i=0 ¨˜uti−¨uNN
+ti2
+| {z }
+prediction loss+β¨u1
+ns−iTns−1X
+i=iT
+uNN
+ti−uNN , detrend
+ti2
++
+˙uNN
+ti−˙uNN , detrend
+ti2
+| {z }
+anti-drift loss
++ (ut0−u(t0))2+ ( ˙ut0−˙u(t0))2
+| {z }
+initial conditions loss, (11)
+where the weight coefficient β¨uwas set to 10−3,iTis the index of tiattiT=T, and Tthe period of the force term.
+uNN , detrend
+t and˙uNN , detrend
+t are the detrended approximated responses, where for uta linear trend and for ˙uta constant
+trend was removed. Moreover, the known initial conditions u(t0)and˙u(t0)were added to the loss. Given the higher
+complexity of the solution trajectories and longer time span, the stepped learning rate scheduler with the settings in
+Section 3.1.2 was modified to a step size of 2,000and the MLP was trained for 100,000epochs.
+Figure 6 illustrates the solution trajectories of both predicted and ground truth differential equations separately for ut,
+˙ut, and ¨utfort∈[0,30]with the L2 errors of each method, while Table 3 provides the initial conditions, sampling
+frequency fs, time period, and symbolic mathematical expression. Although ProGED performed reasonably well on
+the simpler examples from the first benchmark (see Section 3.1.3), its performance on more complex inference tasks is
+far poorer. This might be partly attributed to its simple grammar template, yet it is still unexpected as the sought ODEs,
+such as the pendulum example, are not necessarily more complex than those in the second benchmark. Furthermore,
+the optimization of constants in ProGED uses differential evolution, which performs worse with an increasing number
+of constants, as the number of possible sets of constants explodes. In contrast, PySR encounters both difficulties in
+predicting simple and accurate expressions for these three inference tasks, highlighting the challenges of employing
+popular symbolic regression tools for engineering applications. Investigating the symbolic mathematical expressions
+more closely, shows that without additional prior specifications PySR does not avoid nesting of expressions, poten-
+tially hindering interpretability. In contrast, our GODE successfully infers the correct dynamics for two cases, the
+pendulum and the Duffing oscillator. However, in the latter case the constants are further away from the ground truth
+constants, explaining the errors in accuracy. As previously mentioned for ProGED, the optimization of constants be-
+comes exponentially more challenging with increasing number of constants. When the term cos(0 .00032 t), which
+approximates 1for small t, is omitted, the dynamics of the Van der Pol oscillator can also be identified. For all ex-
+amples, the predicted dynamics are fairly close to the true dynamical system, possibly benefiting from imposing the
+force term. An expert might further refine skeleton equations based on the best estimate by GODE to derive more
+accurate expressions, leveraging the outer optimization loop to infer the constants. Lastly, when approximating more
+complex dynamics, the performance of all three methods, PySR, ProGED, and GODE, depend on the initialization of
+the respective search algorithm. Although we present the best prediction out of five random initializations, there might
+be a more suitable initialization yielding more accurate results.
+4 Discussion and conclusion
+4.1 Summary
+The discovery of differential equations, as in the case of ODEs, is an ill-posed problem due to challenges such as noise,
+sparsity, and nonuniqueness. Symbolic regression methods range from discrete iterative algorithms, which construct
+symbolic expressions from primitives, to direct algorithms, which learn an operator between symbolic expressions
+and their numerical evaluations. In this work, we propose representing symbolic mathematical expressions using
+sequences of rules defined by formal grammars. These discrete sequences are embedded into a continuous latent space
+with the GV AE, which is explored using a stochastic iterative optimization algorithm, namely CMA-ES. We validate
+our approach by comparing GODE with three state-of-the-art methods: ODEFormer [9] (a transformer-based direct
+algorithm), PySR [14] (a genetic programming-based discrete search approach), and ProGED [10, 18] (a grammar-
+based discrete search method) across various benchmarks.
+The first benchmark focused on first-order one-dimensional explicit ODEs, showing PySR as the most accurate method
+for simpler tasks, closely followed by ProGED and GODE. ODEFormer exhibited significantly lower sample and
+parameter efficiency than GODE, leading to its exclusion from further benchmarks. The second benchmark on first-
+and second-order linear or nonlinear ODEs demonstrated that our GODE discovered expressions that are both more
+parsimonious and accurate than those found by PySR and ProGED. The third benchmark investigated the discovery
+13
+Yu et al. Grammar-based Ordinary Differential Equation Discovery Preprint April 2025
+Figure 6: Solution trajectories of the true, measured, and predicted ODEs for the engineering examples. (The annotated
+L2 errors were capped at 100.)
+of nonlinear dynamics, commonly used in engineering applications, with only noisy acceleration measurements while
+the force term was known. In this scenario with partial information, GODE succeeded in both discovering accurate
+and parsimonious symbolic expressions.
+4.2 Tokenization vs. grammar
+The first benchmark demonstrates that embedding discrete expressions using the ODEFormer algorithm is less sample-
+and parameter-efficient by orders of magnitude than GODE. As described in Section 1, ODEFormer employs a tok-
+enization strategy for input numerical data and decodes tokens to symbolic mathematical expressions [9]. Tokenization
+is a well-established technique in natural language processing and linguistics to convert text to tokens, typically repre-
+sented as numerical vectors, and vice versa. However, a poorly chosen tokenization strategy leads to different types of
+ambiguities, where ambiguity here means that different sequences of tokens can form the same symbolic expression or
+the same input can lead to different outputs (stochastic ambiguity) [50]. This affects the consistency and reliability of
+14
+Yu et al. Grammar-based Ordinary Differential Equation Discovery Preprint April 2025
+Table 3: Three engineering examples with the predicted ODEs.
+Model ODE
+Pendulum t∈[0,60], fs= 10,and[u(t0),˙u(t0)] = [0 .0,3.0]
+True 2d2
+dt2u(t) +d
+dtu(t) + 5u(t)−2 sin(0 .5t) = 0
+ProGEDd2
+dt2u(t)−u(t) = 0
+PySR bestd2
+dt2u(t)−cos(0 .77)t· 
+1.46−d
+dtu(t)−(3.24 + t)·u(t)
+= 0
+GODE (ours) 2.03d2
+dt2u(t) + 1.02d
+dtu(t) + 5.08u(t)−2 sin(0 .5t) = 0
+Duffing oscillator t∈[0,30], fs= 10,and[u(t0),˙u(t0)] = [0 .0,1.5]
+True 5d2
+dt2u(t) +d
+dtu(t) + 7u(t) + 25 u3(t)−cos(2 t) = 0
+ProGEDd2
+dt2u(t)−0.00030 t+ 0.0030 = 0
+PySR bestd2
+dt2u(t) + 30 .67u(t)−29.03 sin( u(t)) = 0
+GODE (ours) 2.50d2
+dt2u(t) + 0.78d
+dtu(t) + 0.44u(t) + 17 .88u3(t)−cos(2 t) = 0
+Van der Pol oscillator t∈[0,30], fs= 10,and[u(t0),˙u(t0)] = [1 .0,0.0]
+Trued2
+dt2u(t) + 5 
+1−u2(t)d
+dtu(t) +u(t)−cos(2 t) = 0
+ProGEDd2
+dt2u(t) + 3.14u(t)·cos(u2(t)) +u(t) + 0.049 = 0
+PySR bestd2
+dt2u(t)−sin 
+(−0.71−u(t))· 
+sin(t−0.14)· 
+0.56td
+dtu(t)
++ cos( t−0.11)
+= 0
+GODE (ours) 0.98d2
+dt2u(t) + 5.01d
+dtu(t)−4.87 cos(0 .00032 t)d
+dtu(t)·u2(t) + 1.00u(t)−cos(2 t) = 0
+the estimator and explains why ODEFormer requires so many samples to be accurate. It needs to resolve ambiguities
+through learning relations from data. Transformer-based models, such as the ODEFormer, require high computational
+power (approximately three days of training on one NVIDIA A100 GPU [9]) to provide accurate predictions. More-
+over, an extensive dataset of 50 million trajectories needs to be considered, which means that to train the ODEFormer
+one employs a solver 50 million times, assuming that no expression is rejected, which is computationally prohibitive
+for complex systems. In contrast, our GODE allows us to introduce structure into the model through formal grammars.
+Formal grammars constitute an unambiguous representation of ODEs, and thus the deep learning algorithm does not
+require extracting relations from data, which dramatically increases the sample efficiency and decreases the model
+complexity. Although methods that include tokenizers have proven effective in large language models, due to both the
+higher complexity of natural languages, the abundance of text data, and the required flexibility of the model, these ad-
+vantages do not necessarily apply to symbolic expressions. Stricter syntax rules and the adaptability to domain-specific
+problems can make rule-based approaches such as GODE more beneficial.
+4.3 Variance vs. bias and complexity vs. accuracy
+Symbolic regression aims not only to discover accurate mathematical expressions but also to ensure that they are
+interpretable [3]. Algorithms, often based on genetic programming, such as PySR [14], allow for any combination of
+primitives, resulting in high variance and potentially high complexity in possible candidate expressions. However, in
+fields such as science and engineering, researchers often possess prior knowledge which they wish to integrate into the
+symbolic regression process to guide the discovery. Such inductive biases can be introduced most easily in dictionary-
+based methods [8], by defining a set of candidate expressions and using sparse regression to find the most parsimonious
+one. However, it is also the most restrictive, as with a growing number of candidate expressions the process becomes
+more complex, and SINDy only allows for linear combinations of candidate expressions. ProGED, which employs
+probabilistic CFGs, allows predefining probabilities of production rules to promote parsimony [18]. Similarly, GODE
+introduces certain biases by restricting the generation of mathematical expressions through predefined rules, and it
+learns the probabilities of these rules. Various mechanisms, such as sparse regression with regularization techniques
+[8], model selection criteria [51], grammars [17, 18], setting limits on the maximum length of generated expressions
+[52], or manual examination of the discovered Pareto front [3], have been proposed to promote parsimony and reduce
+the complexity of mathematical expressions, which can hinder human interpretability. To balance the trade-off between
+complexity and accuracy, GODE leverages a multitude of these techniques, such as learned probabilistic grammars,
+the predefined maximum length of the sequence Nmax, and the model selection criteria LIC(Eq. (9)).
+15
+Yu et al. Grammar-based Ordinary Differential Equation Discovery Preprint April 2025
+4.4 Outlook
+This section outlines potential future research opportunities for both GODE and the broader research area of symbolic
+regression and its application in scientific discovery. First, although GODE demonstrates greater sample and param-
+eter efficiency than tokenizer-based models, it necessitates the creation of a grammar. The exploration of grammar
+induction (i.e., learning a grammar respectively a set of production rules) methods could alleviate this requirement.
+Researchers could provide a set of target mathematical expressions (e.g., various domain-specific ODEs), and the
+grammar induction technique could deduce a sparse grammar encapsulating these expressions. Moreover, the ef-
+ficiency of GODE could be improved by including multiple modalities, such as the numerical solution trajectories
+and symbolic mathematical expressions, or by exploring alternative encoders or decoders. On the other hand, gram-
+mars can incorporate domain biases into the discovery process. Hence, a formal study investigating the types of
+constraints (e.g., soft vs. hard) that CFGs can enforce would be highly beneficial to our understanding. Although
+formal grammars offer an unambiguous representation of mathematical expressions, they do not directly address the
+issue of semantic ambiguity stemming from distributive, associative, and commutative properties of basic operations
+({+,−,·}) [18]. Future research could explore methods and architectures, such as the use of attributes or embedding
+permutation invariance properties, to resolve these semantic ambiguities without solely relying on specific represen-
+tations such as the canonical form. Lastly, the present study is limited to ODEs. Naturally, this could be extended
+to discovering partial differential equations (PDEs) and underlying conservation laws. One challenge in discovering
+PDEs is the higher complexity in solving them, often lacking analytical solutions and relying instead on numerical or
+deep learning-based methods, which in turn demands more sophisticated optimization objectives to be effective. Fi-
+nally, such grammar-based methods could fundamentally transform downstream tasks in dynamical systems modeling,
+enabling more interpretable, robust, and generalizable tools for monitoring, control, and system identification.
+Code availability
+The code will be made available online at the time of publication.
+Acknowledgements
+This publication was made possible by an ETH AI Center doctoral fellowship to Karin L. Yu. Georgios Kissas would
+like to acknowledge support from Asuera Stiftung via the ETH Zurich Foundation and the ETH AI Center.
+References
+[1] T. S. Kuhn, The structure of scientific revolutions . University of Chicago press Chicago, 1997, vol. 962.
+[2] G. Kissas, S. Mishra, E. Chatzi, and L. De Lorenzis, “The language of hyperelastic materials,” Computer
+Methods in Applied Mechanics and Engineering , vol. 428, p. 117053, Aug. 2024. [Online]. Available:
+https://linkinghub.elsevier.com/retrieve/pii/S0045782524003098
+[3] M. Schmidt and H. Lipson, “Distilling Free-Form Natural Laws from Experimental Data,” Science , vol. 324,
+no. 5923, pp. 81–85, Apr. 2009. [Online]. Available: https://www.science.org/doi/10.1126/science.1165893
+[4] K. Popper, The logic of scientific discovery . Routledge, 1959.
+[5] M. S. Morgan and M. Morrison, Eds., Models as Mediators: Perspectives on Natural and Social Science , 1st ed.
+Cambridge University Press, Oct. 1999. [Online]. Available: https://www.cambridge.org/core/product/identifier/
+9780511660108/type/book
+[6] H. Wang, T. Fu, Y . Du, W. Gao, K. Huang, Z. Liu, P. Chandak, S. Liu, P. Van Katwyk, A. Deac, A. Anandkumar,
+K. Bergen, C. P. Gomes, S. Ho, P. Kohli, J. Lasenby, J. Leskovec, T.-Y . Liu, A. Manrai, D. Marks, B. Ramsundar,
+L. Song, J. Sun, J. Tang, P. Veli ˇckovi ´c, M. Welling, L. Zhang, C. W. Coley, Y . Bengio, and M. Zitnik, “Scientific
+discovery in the age of artificial intelligence,” Nature , vol. 620, no. 7972, pp. 47–60, Aug. 2023. [Online].
+Available: https://www.nature.com/articles/s41586-023-06221-2
+[7] J. Bongard and H. Lipson, “Automated reverse engineering of nonlinear dynamical systems,” Proceedings
+of the National Academy of Sciences , vol. 104, no. 24, pp. 9943–9948, Jun. 2007. [Online]. Available:
+https://pnas.org/doi/full/10.1073/pnas.0609476104
+[8] S. L. Brunton, J. L. Proctor, and J. N. Kutz, “Discovering governing equations from data by sparse identification
+of nonlinear dynamical systems,” Proceedings of the National Academy of Sciences , vol. 113, no. 15, pp.
+3932–3937, Apr. 2016. [Online]. Available: https://pnas.org/doi/full/10.1073/pnas.1517384113
+16
+Yu et al. Grammar-based Ordinary Differential Equation Discovery Preprint April 2025
+[9] S. d’Ascoli, S. Becker, A. Mathis, P. Schwaller, and N. Kilbertus, “ODEFormer: Symbolic Regression
+of Dynamical Systems with Transformers,” 2023, version Number: 1. [Online]. Available: https:
+//arxiv.org/abs/2310.05573
+[10] N. Omejc, B. Gec, J. Brence, L. Todorovski, and S. Džeroski, “Probabilistic grammars for modeling dynamical
+systems from coarse, noisy, and partial data,” Machine Learning , vol. 113, no. 10, pp. 7689–7721, Oct. 2024.
+[Online]. Available: https://link.springer.com/10.1007/s10994-024-06522-1
+[11] J. R. Koza, Genetic programming. 1: On the programming of computers by means of natural selection , ser.
+Complex adaptive systems. Cambridge, Mass.: MIT Press, 1992.
+[12] I. G. Tsoulos and I. E. Lagaris, “Solving differential equations with genetic programming,” Genetic
+Programming and Evolvable Machines , vol. 7, no. 1, pp. 33–54, Mar. 2006. [Online]. Available:
+http://link.springer.com/10.1007/s10710-006-7009-y
+[13] M. Cranmer, A. Sanchez-Gonzalez, P. Battaglia, R. Xu, K. Cranmer, D. Spergel, and S. Ho, “Discovering
+Symbolic Models from Deep Learning with Inductive Biases,” 2020, version Number: 2. [Online]. Available:
+https://arxiv.org/abs/2006.11287
+[14] M. Cranmer, “Interpretable Machine Learning for Science with PySR and SymbolicRegression.jl,” 2023,
+version Number: 3. [Online]. Available: https://arxiv.org/abs/2305.01582
+[15] T. N. Mundhenk, M. Landajuela, R. Glatt, C. P. Santiago, D. M. Faissol, and B. K. Petersen, “Symbolic
+Regression via Neural-Guided Genetic Programming Population Seeding,” 2021, version Number: 2. [Online].
+Available: https://arxiv.org/abs/2111.00053
+[16] B. K. Petersen, M. Landajuela, T. N. Mundhenk, C. P. Santiago, S. K. Kim, and J. T. Kim, “Deep symbolic
+regression: Recovering mathematical expressions from data via risk-seeking policy gradients,” 2019, publisher:
+arXiv Version Number: 4. [Online]. Available: https://arxiv.org/abs/1912.04871
+[17] L. Todorovski and S. Džeroski, “Declarative bias in equation discovery,” in Proceedings of the 14th International
+Coference on Machine Learning. ICML. , 1997, pp. 376–384.
+[18] J. Brence, L. Todorovski, and S. Džeroski, “Probabilistic grammars for equation discovery,” Knowledge-Based
+Systems , vol. 224, p. 107077, Jul. 2021. [Online]. Available: https://linkinghub.elsevier.com/retrieve/pii/
+S0950705121003403
+[19] D. A. Messenger and D. M. Bortz, “Weak SINDy: Galerkin-Based Data-Driven Model Selection,”
+Multiscale Modeling & Simulation , vol. 19, no. 3, pp. 1474–1497, Jan. 2021. [Online]. Available:
+https://epubs.siam.org/doi/10.1137/20M1343166
+[20] G. Lample and F. Charton, “Deep Learning for Symbolic Mathematics,” 2019, version Number: 1. [Online].
+Available: https://arxiv.org/abs/1912.01412
+[21] P.-A. Kamienny, S. d’Ascoli, G. Lample, and F. Charton, “End-to-end symbolic regression with transformers,”
+2022, version Number: 1. [Online]. Available: https://arxiv.org/abs/2204.10532
+[22] P.-A. Kamienny, G. Lample, S. Lamprier, and M. Virgolin, “Deep Generative Symbolic Regression with
+Monte-Carlo-Tree-Search,” in Proceedings of the 40th International Conference on Machine Learning ,
+ser. Proceedings of Machine Learning Research, A. Krause, E. Brunskill, K. Cho, B. Engelhardt,
+S. Sabato, and J. Scarlett, Eds., vol. 202. PMLR, Jul. 2023, pp. 15 655–15 668. [Online]. Available:
+https://proceedings.mlr.press/v202/kamienny23a.html
+[23] S. Becker, M. Klein, A. Neitz, G. Parascandolo, and N. Kilbertus, “Predicting Ordinary Differential
+Equations with Transformers,” in Proceedings of the 40th International Conference on Machine Learning ,
+ser. Proceedings of Machine Learning Research, A. Krause, E. Brunskill, K. Cho, B. Engelhardt,
+S. Sabato, and J. Scarlett, Eds., vol. 202. PMLR, Jul. 2023, pp. 1978–2002. [Online]. Available:
+https://proceedings.mlr.press/v202/becker23a.html
+[24] S. d’Ascoli, P.-A. Kamienny, G. Lample, and F. Charton, “Deep Symbolic Regression for Recurrent Sequences,”
+2022, version Number: 2. [Online]. Available: https://arxiv.org/abs/2201.04600
+[25] R. Sennrich, B. Haddow, and A. Birch, “Neural Machine Translation of Rare Words with Subword Units,” 2015,
+version Number: 5. [Online]. Available: https://arxiv.org/abs/1508.07909
+[26] J. E. Hopcroft and J. D. Ullman, Introduction to automata theory, languages, and computation , 39th ed., ser.
+Addison-Wesley series in computer science. Reading, Mass.: Addison-Wesley, 1999.
+[27] M. J. Kusner, B. Paige, and J. M. Hernández-Lobato, “Grammar Variational Autoencoder,” in Proceedings
+of the 34th International Conference on Machine Learning , ser. Proceedings of Machine Learning Research,
+D. Precup and Y . W. Teh, Eds., vol. 70. PMLR, Aug. 2017, pp. 1945–1954. [Online]. Available:
+https://proceedings.mlr.press/v70/kusner17a.html
+17
+Yu et al. Grammar-based Ordinary Differential Equation Discovery Preprint April 2025
+[28] O. Oikonomou, L. Lingsch, D. Grund, S. Mishra, and G. Kissas, “Neuro-Symbolic AI for Analytical Solutions
+of Differential Equations,” 2025, version Number: 1. [Online]. Available: https://arxiv.org/abs/2502.01476
+[29] S. Bird, E. Klein, and E. Loper, Natural Language Processing with Python: Analyzing Text with the Natural
+Language Toolkit . O’Reilly Media, Inc., Jun. 2009. [Online]. Available: https://www.nltk.org/book/
+[30] D. P. Kingma and M. Welling, “Auto-Encoding Variational Bayes,” in Proceedings of the International
+Conference on Learning Representations (ICLR) . arXiv, 2014, version Number: 11. [Online]. Available:
+https://arxiv.org/abs/1312.6114
+[31] K. Cho, B. Van Merrienboer, C. Gulcehre, D. Bahdanau, F. Bougares, H. Schwenk, and Y . Bengio,
+“Learning Phrase Representations using RNN Encoder–Decoder for Statistical Machine Translation,” in
+Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP) .
+Doha, Qatar: Association for Computational Linguistics, 2014, pp. 1724–1734. [Online]. Available:
+http://aclweb.org/anthology/D14-1179
+[32] D.-A. Clevert, T. Unterthiner, and S. Hochreiter, “Fast and Accurate Deep Network Learning by Exponential
+Linear Units (ELUs),” 2015, version Number: 5. [Online]. Available: https://arxiv.org/abs/1511.07289
+[33] D. P. Kingma and J. Ba, “Adam: A Method for Stochastic Optimization,” 2014, version Number: 9. [Online].
+Available: https://arxiv.org/abs/1412.6980
+[34] N. Hansen, “The CMA Evolution Strategy: A Tutorial,” 2016, version Number: 2. [Online]. Available:
+https://arxiv.org/abs/1604.00772
+[35] N. Hansen and A. Ostermeier, “Completely Derandomized Self-Adaptation in Evolution Strategies,”
+Evolutionary Computation , vol. 9, no. 2, pp. 159–195, Jun. 2001. [Online]. Available: https:
+//direct.mit.edu/evco/article/9/2/159-195/892
+[36] N. Hansen, S. D. Müller, and P. Koumoutsakos, “Reducing the Time Complexity of the Derandomized Evolution
+Strategy with Covariance Matrix Adaptation (CMA-ES),” Evolutionary Computation , vol. 11, no. 1, pp. 1–18,
+Mar. 2003. [Online]. Available: https://direct.mit.edu/evco/article/11/1/1-18/1139
+[37] N. Hansen, Y . Akimoto, and P. Baudis, “CMA-ES/pycma: r4.0.0,” Sep. 2024. [Online]. Available:
+https://zenodo.org/doi/10.5281/zenodo.2559634
+[38] J. A. Nelder and R. Mead, “A Simplex Method for Function Minimization,” The Computer Journal , vol. 7,
+no. 4, pp. 308–313, Jan. 1965. [Online]. Available: https://academic.oup.com/comjnl/article-lookup/doi/10.
+1093/comjnl/7.4.308
+[39] P. Virtanen, R. Gommers, T. E. Oliphant, M. Haberland, T. Reddy, D. Cournapeau, E. Burovski, P. Peterson,
+W. Weckesser, J. Bright, S. J. Van Der Walt, M. Brett, J. Wilson, K. J. Millman, N. Mayorov, A. R. J. Nelson,
+E. Jones, R. Kern, E. Larson, C. J. Carey, I. Polat, Y . Feng, E. W. Moore, J. VanderPlas, D. Laxalde, J. Perktold,
+R. Cimrman, I. Henriksen, E. A. Quintero, C. R. Harris, A. M. Archibald, A. H. Ribeiro, F. Pedregosa,
+P. Van Mulbregt, SciPy 1.0 Contributors, A. Vijaykumar, A. P. Bardelli, A. Rothberg, A. Hilboll, A. Kloeckner,
+A. Scopatz, A. Lee, A. Rokem, C. N. Woods, C. Fulton, C. Masson, C. Häggström, C. Fitzgerald, D. A.
+Nicholson, D. R. Hagen, D. V . Pasechnik, E. Olivetti, E. Martin, E. Wieser, F. Silva, F. Lenders, F. Wilhelm,
+G. Young, G. A. Price, G.-L. Ingold, G. E. Allen, G. R. Lee, H. Audren, I. Probst, J. P. Dietrich, J. Silterra,
+J. T. Webber, J. Slavi ˇc, J. Nothman, J. Buchner, J. Kulick, J. L. Schönberger, J. V . De Miranda Cardoso,
+J. Reimer, J. Harrington, J. L. C. Rodríguez, J. Nunez-Iglesias, J. Kuczynski, K. Tritz, M. Thoma, M. Newville,
+M. Kümmerer, M. Bolingbroke, M. Tartre, M. Pak, N. J. Smith, N. Nowaczyk, N. Shebanov, O. Pavlyk, P. A.
+Brodtkorb, P. Lee, R. T. McGibbon, R. Feldbauer, S. Lewis, S. Tygier, S. Sievert, S. Vigna, S. Peterson,
+S. More, T. Pudlik, T. Oshima, T. J. Pingel, T. P. Robitaille, T. Spura, T. R. Jones, T. Cera, T. Leslie, T. Zito,
+T. Krauss, U. Upadhyay, Y . O. Halchenko, and Y . Vázquez-Baeza, “SciPy 1.0: fundamental algorithms for
+scientific computing in Python,” Nature Methods , vol. 17, no. 3, pp. 261–272, Mar. 2020. [Online]. Available:
+https://www.nature.com/articles/s41592-019-0686-2
+[40] S. Elfwing, E. Uchibe, and K. Doya, “Sigmoid-Weighted Linear Units for Neural Network Function
+Approximation in Reinforcement Learning,” 2017, version Number: 3. [Online]. Available: https:
+//arxiv.org/abs/1702.03118
+[41] A. Paszke, S. Gross, S. Chintala, G. Chanan, E. Yang, Z. DeVito, Z. Lin, A. Desmaison, L. Antiga, and A. Lerer,
+“Automatic differentiation in pytorch,” 2017.
+[42] SymEngine Development Team, “SymEngine Python Wrappers,” Dec. 2023, version 0.11.0. [Online]. Available:
+https://github.com/symengine/symengine.py
+[43] A. Meurer, C. P. Smith, M. Paprocki, O. ˇCertík, S. B. Kirpichev, M. Rocklin, A. Kumar, S. Ivanov, J. K. Moore,
+S. Singh, T. Rathnayake, S. Vig, B. E. Granger, R. P. Muller, F. Bonazzi, H. Gupta, S. Vats, F. Johansson,
+18
+Yu et al. Grammar-based Ordinary Differential Equation Discovery Preprint April 2025
+F. Pedregosa, M. J. Curry, A. R. Terrel, S. Rou ˇcka, A. Saboo, I. Fernando, S. Kulal, R. Cimrman, and
+A. Scopatz, “SymPy: symbolic computing in Python,” PeerJ Computer Science , vol. 3, p. e103, Jan. 2017.
+[Online]. Available: https://peerj.com/articles/cs-103
+[44] Hyeonjung, Jung, J. Gupta, B. Jayaprakash, M. Eagon, H. P. Selvam, C. Molnar, W. Northrop, and S. Shekhar,
+“A Survey on Solving and Discovering Differential Equations Using Deep Neural Networks,” 2023, version
+Number: 2. [Online]. Available: https://arxiv.org/abs/2304.13807
+[45] P. Scholl, A. Bacho, H. Boche, and G. Kutyniok, “Symbolic Recovery of Differential Equations: The
+Identifiability Problem,” 2022, version Number: 9. [Online]. Available: https://arxiv.org/abs/2210.08342
+[46] M. Schmidt and H. Lipson, “Symbolic Regression of Implicit Equations,” in Genetic Programming
+Theory and Practice VII , R. Riolo, U.-M. O’Reilly, and T. McConaghy, Eds. Boston, MA: Springer
+US, 2010, pp. 73–85, series Title: Genetic and Evolutionary Computation. [Online]. Available:
+https://link.springer.com/10.1007/978-1-4419-1626-6_5
+[47] J. Ansel, E. Yang, H. He, N. Gimelshein, A. Jain, M. V oznesensky, B. Bao, P. Bell, D. Berard, E. Burovski,
+G. Chauhan, A. Chourdia, W. Constable, A. Desmaison, Z. DeVito, E. Ellison, W. Feng, J. Gong, M. Gschwind,
+B. Hirsh, S. Huang, K. Kalambarkar, L. Kirsch, M. Lazos, M. Lezcano, Y . Liang, J. Liang, Y . Lu, C. K.
+Luk, B. Maher, Y . Pan, C. Puhrsch, M. Reso, M. Saroufim, M. Y . Siraichi, H. Suk, S. Zhang, M. Suo,
+P. Tillet, X. Zhao, E. Wang, K. Zhou, R. Zou, X. Wang, A. Mathews, W. Wen, G. Chanan, P. Wu, and
+S. Chintala, “PyTorch 2: Faster Machine Learning Through Dynamic Python Bytecode Transformation and
+Graph Compilation,” in Proceedings of the 29th ACM International Conference on Architectural Support for
+Programming Languages and Operating Systems, Volume 2 . La Jolla CA USA: ACM, Apr. 2024, pp. 929–947.
+[Online]. Available: https://dl.acm.org/doi/10.1145/3620665.3640366
+[48] G. Duffing, “Ingenieur: Erzwungene Schwingungen bei veränderlicher Eigenfrequenz und ihre technische Be-
+deutung,” Sammlung Vieweg , no. Heft 41/42, pp. vi+334, 1918.
+[49] B. Van Der Pol, “LXXXVIII. On “relaxation-oscillations” ,”The London, Edinburgh, and Dublin Philosophical
+Magazine and Journal of Science , vol. 2, no. 11, pp. 978–992, Nov. 1926. [Online]. Available:
+http://www.tandfonline.com/doi/abs/10.1080/14786442608564127
+[50] J. L. Gastaldi, J. Terilla, L. Malagutti, B. DuSell, T. Vieira, and R. Cotterell, “The Foundations of Tokenization:
+Statistical and Computational Concerns,” in Proceedings of the International Conference on Learning
+Representations (ICLR) . arXiv, 2025, version Number: 3. [Online]. Available: https://arxiv.org/abs/2407.11606
+[51] N. M. Mangan, J. N. Kutz, S. L. Brunton, and J. L. Proctor, “Model selection for dynamical systems
+via sparse regression and information criteria,” Proceedings of the Royal Society A: Mathematical,
+Physical and Engineering Sciences , vol. 473, no. 2204, p. 20170009, Aug. 2017. [Online]. Available:
+https://royalsocietypublishing.org/doi/10.1098/rspa.2017.0009
+[52] R. Zembowicz and J. M. Zytkow, “Discovery of equations: experimental evaluation of convergence,” in Proceed-
+ings of the Tenth National Conference on Artificial Intelligence , ser. AAAI’92. AAAI Press, 1992, pp. 70–75,
+place: San Jose, California.
+19
+Yu et al. Grammar-based Ordinary Differential Equation Discovery Preprint April 2025
+Appendix
+A Problem formulation for each method
+This section summarizes what kind of problem each method attempts to solve, what kind of input it expects, and what
+kind of output it provides.
+ODEFormer [9] solves explicit ODEs:
+˙u(t) =f(u(t))
+INPUT: t,ut
+OUTPUT: f(u(t))→ODE: ˙u(t)−f(u(t))
+PySR [14] solves function approximation:
+y=f(X)
+INPUT: matrix X, in our case X= [t, ut], y= ˙utfor first-order ODEs,
+andX= [t, ut,˙ut], y= ¨utfor second-order ODEs
+OUTPUT: f(X)→ODE: y−f(X)
+ProGED [18, 10] solves function approximation:
+Y=f(X)
+INPUT: Pandas dataframe with [t, ut,˙ut]for first-order,
+and[t, ut,˙ut,¨ut]for second-order ODEs
+Definition of the left- and right-hand side
+OUTPUT: f(X)→ODE: y−f(X)
+GODE (ours) solves for the first benchmark:
+˙u(t) =f(u(t))
+INPUT: [t, ut,˙ut]
+OUTPUT: f(u(t))→ODE: ˙u(t)−f(u(t))
+GODE (ours) solves for the other examples :
+D(u(t))−F(t) = 0
+INPUT: [t, ut,˙ut]for first-order ODEs, and order = 1,
+[t, ut,˙ut,¨ut]for second-order ODEs, and order = 2,
+if force term is available, additionally F(t)
+OUTPUT: directly the symbolic equation: D(u(t))−F(t) = 0
+B Details on the benchmark of one-dimensional explicit ODEs
+This section offers some further details on the dataset generation and experiments of the first benchmark on one-
+dimensional explicit ODEs of Section 3.1.
+The underlying grammar for both the training dataset generation and GV AE is listed in Table 4. The last rule is the
+padding rule described in Section 2.1. Tables 5 and 6 list the 30 tested examples with the domain for time t, the initial
+value at t0, and the sampling frequency.
+C Details on the benchmark of linear and nonlinear first- and second-order ODEs
+This section offers some additional details on the dataset generation and experiments of the second benchmark on
+implicit linear and nonlinear first- or second-order ODEs of Section 3.2.
+20
+Yu et al. Grammar-based Ordinary Differential Equation Discovery Preprint April 2025
+Table 4: Context-free grammar for the first benchmark.
+s t a r t −> term ’ *’ e xp r ’+ ’ s t a r t | term ’ *’ e xp r
+e xp r −> ’1 ’ | ’1 ’ mop ’ ( ’ s m a l l _ e x p r ’ ) ’ | F ’^ ’ i n t | F ’^ ’ i n t mop ’ ( ’
+s m a l l _ e x p r ’ ) ’ | f un c | F ’^ ’ i n t mop f u nc | f u nc mop f u nc
+f un c −> ’ s i n ’ ’ ( ’ i n n e r _ f u n c ’ ) ’ | ’ cos ’ ’ ( ’ i n n e r _ f u n c ’ ) ’ | ’ exp ’ ’ ( ’
+i n n e r _ f u n c ’ ) ’ | ’ log ’ ’ ( ’ i n n e r _ f u n c ’ ) ’
+i n n e r _ f u n c −> F mop term
+s m a l l _ e x p r −> term ’+ ’ F ’^ ’ i n t mop term
+mop −> ’ *’ | ’ / ’
+term −> num | num ’ *’ v a r
+F −> ’u ’
+v a r −> ’ t ’
+num −> ’C’
+i n t −> ’1 ’ | ’2 ’ | ’3 ’ | ’4 ’ | ’5 ’
+Nothing −> None
+The underlying grammar for the generation of the dataset is the probabilistic CFG in Table 7. More complex rules are
+assigned lower probabilities to reduce the complexity of the generated expressions. The sum of all probabilities of a
+right-hand side for a specific left-hand side must sum up to 1.
+A more simplified context-free grammar is used for the GV AE in Table 8, which can also parse all generated expres-
+sions by the previous grammar.
+Table 9 lists the ten tested examples with the time domain of t, the initial values, and sampling frequency. All of
+these examples have analytical solutions, which particularly for the nonlinear implicit ODEs are used to sample the
+solution trajectories. The comparison between the solution trajectories of the predicted and ground truth ODEs of the
+remaining examples are presented in Figure 7.
+D Details on the benchmark of nonlinear dynamics ODEs
+This section presents some additional details on the dataset generation of the third benchmark on engineering examples
+from nonlinear dynamics in Section 3.3.
+The underlying grammar for the generation of the dataset is the probabilistic CFG in Table 10 and the grammar of the
+GV AE is listed in Table 11. As the force term is induced, no force term needs to be assembled with the grammar.
+21
+Yu et al. Grammar-based Ordinary Differential Equation Discovery Preprint April 2025
+Table 5: Test examples from ODEBench [9] used in the first benchmark.
+Name Ordinary differential equation Time domain Init. values Samp. freq.
+ID1du(t)
+dt+1
+1.2·2.31u(t) =0.7
+2.31[0.1,15.0] 10.0 8
+ID2du(t)
+dt−0.23u(t) = 0 [4.0,17.3] 4.78 5
+ID3du(t)
+dt−0.79u(t) +0.79
+74.3u(t)2= 0 [0.5,25.0] 7.3 5
+ID4du(t)
+dt−1
+1+exp (0.5−u(t)
+0.96)=−0.5 [1.5,9.0] 0.8 9
+ID5du(t)
+dt+ 0.0021175 u(t)2= 9.81 [2.0,23.0] 0.5 6
+ID6du(t)
+dt−2.1u(t) + 0.5u(t)2= 0 [0.3,5.5] 0.13 10
+ID7du(t)
+dt−0.032u(t)·log(2.29u(t)) = 0 [1.5,12.9] 1.73 10
+ID8du(t)
+dt−0.14u(t)·
+u(t)
+4.4−1
+·
+1−u(t)
+130.0
+= 0 [1.8,9.1] 6.123 15
+ID9du(t)
+dt+ 0.60u(t) = 0 .32 [0.3,24.1] 0.14 8
+ID10du(t)
+dt−0.2u(t)1.2·(1−u(t)) + 0 .8u(t)(1−u(t))1.2= 0 [1.1,14.3] 0.83 10
+ID11du(t)
+dt+u(t)3= 0 [2.0,7.0] 3.4 20
+ID12du(t)
+dt−1.8u(t) + 0.1107u(t)2= 0 [4.3,18.4] 11.0 8
+ID13du(t)
+dt−0.0981·(9.7 cos( u(t))−1)·sin(u(t)) = 0 [0.1,18.9] 2.4 10
+ID14du(t)
+dt−0.78u(t)·
+1−u(t)
+81.0
++ 0.9u(t)2
+21.22+u(t)2= 0 [1.4,8.2] 2.76 13
+ID15du(t)
+dt−0.4u(t)·
+1−u(t)
+95.0
++u(t)2
+1+u(t)2= 0 [3.8,13.8] 44.3 9
+ID16du(t)
+dt−0.1u(t)−0.04u(t)3+ 0.001u(t)5= 0 [0.8,9.2] 0.94 18
+ID17du(t)
+dt−0.4u(t)·
+1−u(t)
+100.0
+=−0.3 [1.4,15.2] 14.3 9
+ID18du(t)
+dt−0.4u(t)·
+1−u(t)
+100.0
++ 0.24u(t)
+50.0+u(t)= 0 [1.8,17.0] 21.1 6
+ID19du(t)
+dt+ 0.08u(t)u(t)
+0.8+u(t)+u(t) (1−u(t))·= 0 [2.5,8.0] 0.13 20
+ID20du(t)
+dt+ 0.55u(t) +u(t)2
+u(t)2+1.0= 0.1 [1.5,11.3] 0.002 16
+ID21du(t)
+dt−0.2u(t) + exp ( u(t)) = 1 .2 [2.0,9.6] 0.0 18
+ID22du(t)
+dt−0.4u(t)5
+123.0+u(t)5+ 0.89u(t) = 1 .4 [2.8,7.9] 3.1 15
+ID23du(t)
+dt+ sin( u(t)) = 0 .21 [4.9,33.8]−2.74 10
+22
+Yu et al. Grammar-based Ordinary Differential Equation Discovery Preprint April 2025
+Table 6: Additional tested examples of the first benchmark.
+Name Ordinary differential equation Time domain Init. values Samp. freq.
+ID24du(t)
+dt+ sin (0 .2t·u(t)) = 0 .21 [2.9,13.8]−1.89 12
+ID25du(t)
+dt+u(t) =−0.9832 cos (0 .132t) [0.9,52.8] 1.89 4
+ID26du(t)
+dt−exp
+1.73
+u(t)
+=−7.928 [1.5,13.8] 2.92 12
+ID27du(t)
+dt−exp (1 .03u(t)) = cos(0 .2t)−7.928 [0.8,12.2] 0.05 12
+ID28du(t)
+dt−4.21u(t)·(2.1−0.15u(t)) = 2 .1t·cos(t)[1.23,17.02]0.1 10
+ID29du(t)
+dt−0.1137u(t) =−9.7 sin(1 .32t) [3.52,21.87]12.3 9
+ID27du(t)
+dt−0.0837u(t)−log (7 .293u(t)) = 0 [1.8,8.27] 0.3 9
+Table 7: Probabilistic context-free grammar for generation of the dataset of the second benchmark.
+s t a r t −> l i n e a r _ s i m p l e ’ *’ D i f f ’ *’ D i f f ’ *’ D i f f ’ − ’ ’ ( ’ l i n e a r _ s i m p l e ’ ) ’
+[ 0 . 0 2 ] | l i n e a r _ s i m p l e ’ *’ D i f f ’ *’ D i f f ’ − ’ ’ ( ’ l i n e a r _ s i m p l e ’ ) ’ [ 0 . 0 4 ] |
+e xp r ’+ ’ e xp r ’ − ’ ’ ( ’ f o r c e ’ ) ’ [ 0 . 3 4 ] | e xp r ’+ ’ e xp r ’+ ’ e xp r ’ − ’ ’ ( ’
+f o r c e ’ ) ’ [ 0 . 4 ] | e xp r ’+ ’ e xp r ’+ ’ e xp r ’+ ’ e xp r ’ − ’ ’ ( ’ f o r c e ’ ) ’ [ 0 . 2 ]
+f o r c e −> ’0 ’ [ 0 . 4 ] | l i n e a r _ s i m p l e [ 0 . 6 ]
+e xp r −> l i n e a r _ s i m p l e ’ *’ D i f f [ 0 . 8 ] | l i n e a r _ s i m p l e ’ *’ D i f f ’ *’ D i f f [ 0 . 1 5 ]
+| l i n e a r _ s i m p l e ’ *’ D i f f ’ *’ D i f f ’ *’ D i f f [ 0 . 0 5 ]
+D i f f −> ’ d i f f ’ ’ ( ’ ’ d i f f ’ ’ ( ’ ’u ’ ’ , ’ ’ t ’ ’ ) ’ ’ , ’ ’ t ’ ’ ) ’ [ 0 . 2 5 ] | ’ d i f f ’ ’ ( ’
+’u ’ ’ , ’ ’ t ’ ’ ) ’ [ 0 . 2 5 ] | ’u ’ [ 0 . 5 ]
+l i n e a r _ s i m p l e −> l i n _ a l l [ 0 . 8 ] | l i n _ a l l mop fu nc [ 0 . 1 5 ] | l i n _ a l l mop fu n c
+mop f un c [ 0 . 0 5 ]
+l i n _ a l l −> term [ 0 . 5 ] | term mop TV [ 0 . 5 ]
+TV −> ’ t ’ [ 0 . 7 5 ] | ’ t ’ ’^ ’ ’2 ’ [ 0 . 2 ] | ’ t ’ ’^ ’ ’3 ’ [ 0 . 0 5 ]
+f un c −> ’ s i n ’ ’ ( ’ term ’ *’ TV ’ ) ’ [ 0 . 4 ] | ’ cos ’ ’ ( ’ term ’ *’ TV ’ ) ’ [ 0 . 4 ] | ’
+exp ’ ’ ( ’ term ’ *’ TV ’ ) ’ [ 0 . 1 ] | ’ log ’ ’ ( ’ term ’ *’ TV ’ ) ’ [ 0 . 1 ]
+mop −> ’ *’ [ 0 . 7 ] | ’ / ’ [ 0 . 3 ]
+term −> ’C’ [ 1 . 0 ]
+Nothing −> None [ 1 . 0 ]
+Table 8: Context-free grammar underlying the GV AE for the second benchmark.
+s t a r t −> ex pr ’+ ’ s t a r t | ex p r ’ − ’ f o r c e
+f o r c e −> ’0 ’ | l i n e a r _ s i m p l e
+e xp r −> l i n e a r _ s i m p l e ’ *’ D i f f | e x pr ’ *’ D i f f
+D i f f −> ’ d i f f ’ ’ ( ’ D i f f ’ , ’ ’ t ’ ’ ) ’ | ’u ’
+l i n e a r _ s i m p l e −> l i n _ a l l | l i n _ a l l mop fu nc | l i n _ a l l mop fu nc mop fu n c
+l i n _ a l l −> term | term mop TV
+TV −> ’ t ’ | ’ t ’ ’^ ’ ’2 ’ | ’ t ’ ’^ ’ ’3 ’
+f un c −> ’ s i n ’ ’ ( ’ term ’ *’ TV ’ ) ’ | ’ cos ’ ’ ( ’ term ’ *’ TV ’ ) ’ | ’ exp ’ ’ ( ’ term
+’*’ TV ’ ) ’ | ’ log ’ ’ ( ’ term ’ *’ TV ’ ) ’
+mop −> ’ *’ | ’ / ’
+term −> ’C’
+Nothing −> None
+23
+Yu et al. Grammar-based Ordinary Differential Equation Discovery Preprint April 2025
+Table 9: Test examples for LODEs and NLODEs. LODE1-4 and NLODE1-3 are from Tsoulos and Lagaris [12].
+Name Ordinary differential equation Time domain Init. values Samp. freq.
+LODE1du(t)
+dt+u(t)
+2−2 = 0 [0.1,1.0] 20.1 50
+LODE2du(t)
+dt+u(t)cos(t)
+sin(t)−1
+sin(t)= 0 [0.1,1.0]2.1
+sin(0.1)50
+LODE3du(t)
+dt+u(t)
+5−exp 
+−t
+5
+·cos(t) = 0 [0.0,1.0] 0.0 50
+LODE4d2u(t)
+dt2+ 64u(t) = 0 [0.0,1.0] 0.0 100
+LODE5d2u(t)
+dt2−6du(t)
+dt+ 9u(t) = 0 [0.0,1.0] 0.0,2.0 100
+NLODE1du(t)
+dt−1
+2u(t)= 0 [1.0,4.0] 1.0 30
+NLODE2d2u(t)
+dt2·du(t)
+dt+4
+t3= 0 [1.0,2.0] 0.0 50
+NLODE3d2u(t)
+dt2·t2+du(t)
+dt2·t2+1
+log(t)= 0 [e,2e] 0,1
+e35
+NLODE4d2u(t)
+dt22
+−9u(t)2= 0 [0,2π] 0,3 30
+NLODE5d2u(t)
+dt2·du(t)
+dt−2.1u(t)−9.84t3= 0 [0,2.5] 0,0 50
+Table 10: Probabilistic context-free grammar for generation of the dataset of the third benchmark.
+s t a r t −> l i n e a r _ s i m p l e ’ *’ D i f f ’ *’ D i f f ’ *’ D i f f [ 0 . 0 2 ] | l i n e a r _ s i m p l e ’ *’
+D i f f ’ *’ D i f f [ 0 . 0 4 ] | e x pr ’+ ’ e x pr [ 0 . 3 4 ] | ex pr ’+ ’ ex pr ’+ ’ ex pr [ 0 . 4 ]
+| ex pr ’+ ’ ex pr ’+ ’ ex pr ’+ ’ ex p r [ 0 . 2 ]
+e xp r −> l i n e a r _ s i m p l e ’ *’ D i f f [ 0 . 8 ] | l i n e a r _ s i m p l e ’ *’ D i f f ’ *’ D i f f [ 0 . 1 5 ]
+| l i n e a r _ s i m p l e ’ *’ D i f f ’ *’ D i f f ’ *’ D i f f [ 0 . 0 5 ]
+D i f f −> ’ d i f f ’ ’ ( ’ ’ d i f f ’ ’ ( ’ ’u ’ ’ , ’ ’ t ’ ’ ) ’ ’ , ’ ’ t ’ ’ ) ’ [ 0 . 2 5 ] | ’ d i f f ’ ’ ( ’
+’u ’ ’ , ’ ’ t ’ ’ ) ’ [ 0 . 2 5 ] | ’u ’ [ 0 . 5 ]
+l i n e a r _ s i m p l e −> l i n _ a l l [ 0 . 8 ] | l i n _ a l l mop fu nc [ 0 . 1 5 ] | l i n _ a l l mop fu n c
+mop f un c [ 0 . 0 5 ]
+l i n _ a l l −> term [ 0 . 5 ] | term mop TV [ 0 . 5 ]
+TV −> ’ t ’ [ 0 . 7 5 ] | ’ t ’ ’^ ’ ’2 ’ [ 0 . 2 ] | ’ t ’ ’^ ’ ’3 ’ [ 0 . 0 5 ]
+f un c −> ’ s i n ’ ’ ( ’ term ’ *’ TV ’ ) ’ [ 0 . 4 ] | ’ cos ’ ’ ( ’ term ’ *’ TV ’ ) ’ [ 0 . 4 ] | ’
+exp ’ ’ ( ’ term ’ *’ TV ’ ) ’ [ 0 . 1 ] | ’ log ’ ’ ( ’ term ’ *’ TV ’ ) ’ [ 0 . 1 ]
+mop −> ’ *’ [ 0 . 7 ] | ’ / ’ [ 0 . 3 ]
+term −> ’C’ [ 1 . 0 ]
+Nothing −> None [ 1 . 0 ]
+Table 11: Context-free grammar underlying the GV AE of the third benchmark.
+s t a r t −> ex pr ’+ ’ s t a r t | ex p r
+e xp r −> l i n e a r _ s i m p l e ’ *’ D i f f | e x pr ’ *’ D i f f
+D i f f −> ’ d i f f ’ ’ ( ’ D i f f ’ , ’ ’ t ’ ’ ) ’ | ’u ’
+l i n e a r _ s i m p l e −> l i n _ a l l | l i n _ a l l mop fu nc | l i n _ a l l mop fu nc mop fu n c
+l i n _ a l l −> term | term mop TV
+TV −> ’ t ’ | ’ t ’ ’^ ’ ’2 ’ | ’ t ’ ’^ ’ ’3 ’
+f un c −> ’ s i n ’ ’ ( ’ term ’ *’ TV ’ ) ’ | ’ cos ’ ’ ( ’ term ’ *’ TV ’ ) ’ | ’ exp ’ ’ ( ’ term
+’*’ TV ’ ) ’ | ’ log ’ ’ ( ’ term ’ *’ TV ’ ) ’
+mop −> ’ *’ | ’ / ’
+term −> ’C’
+Nothing −> None
+24
+Yu et al. Grammar-based Ordinary Differential Equation Discovery Preprint April 2025
+Figure 7: Comparisons between the system trajectories of the remaining predicted ODEs by GODE and the ground
+truth.
+25

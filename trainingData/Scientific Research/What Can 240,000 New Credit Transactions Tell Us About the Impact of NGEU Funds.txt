@@ -1,0 +1,1015 @@
+1
+WHAT CAN240,000 N EWCREDIT TRANSACTIONS TELLUS
+ABOUT THE IMPACT OF NGEU F UNDS ?
+Alvaro Ortiz
+BBV A Research & CRIW
+alvaro.ortiz@bbva.com
+Tomasa Rodrigo
+BBV A Research
+tomasa.rodrigo@bbva.com
+David Sarasa
+BBV A Research
+David.Sarasa@bbva.com
+Pedro Torinos
+BBV A Research
+PedroPablo.Torinos.contractor@bbva.com
+Sirenia Vazquez
+BBV A Research
+sirenia.vazquez@bbva.com
+April 4, 2025
+ABSTRACT
+Using a panel data local projections model and controlling for firm characteristics, procurement bid
+attributes, and macroeconomic conditions, the study estimates the dynamic effects of procurement
+awards on new lending, a more precise measure than the change in the stock of credit. The analysis
+further examines heterogeneity in credit responses based on firm size, industry, credit maturity,
+and value chain position of the firms. The empirical evidence confirms that public procurement
+awards significantly increase new lending, with NGEU-funded contracts generating stronger credit
+expansion than traditional procurement during the recent period. The results show that the impact of
+NGEU procurement programs aligns closely with historical procurement impacts, with differences
+driven mainly by lower utilization rates. Moreover, integrating high-frequency financial data with
+procurement records highlights the potential of Big Data in refining public policy design.
+Keywords Fiscal Policy ·Public Procurement ·NGEU Program ·Firm Credit ·Local Projections ·Big Data
+∗The authors thank, without implication, Eduardo Aguilar, Tamara de la Mata, and Iñigo Portillo from the Directorate General of
+the Spanish Ministry of Economy. We also extend our gratitude to Enrique Moral-Benito and the seminar participants at the Bank of
+Spain, as well as Vasco Carvalho, Stephen Hansen, Sevi Rodriguez-Mora, Raúl Pérez, Miguel Cardoso, Pep Ruiz and Virginia Pou
+for their valuable comments.arXiv:2504.01964v1  [q-fin.ST]  16 Mar 2025
+What Can 240,000 New Credit Transactions Tell Us About the Impact of NGEU Funds?
+1 Introduction
+Public procurement has long been recognized as a key driver of economic activity, facilitating firm growth, financial
+stability, and investment. As governments allocate a significant portion of GDP to procurement - more than 14% in
+the EU (Commission, 2025) - it serves as a crucial policy tool to support businesses, particularly small and medium
+companies (SMEs) that rely on government contracts for stability and expansion. By financing infrastructure projects,
+industrial modernization, and digitalization efforts, procurement injects liquidity into the private sector, influencing
+firm credit behavior and overall economic resilience. However, the extent to which procurement awards translate into
+increased credit availability remains an open question, especially with respect to new lending operations rather than
+changes in credit stock.
+The Next Generation EU (NGEU) program has placed public procurement in even sharper focus as a mechanism for
+economic recovery and transformation. Launched in response to the COVID-19 crisis, NGEU represents the largest
+economic stimulus package in European history, mobilizing C750 billion to support digital and green transitions,
+enhance financial stability, and stimulate investment. Given its scale, procurement serves as a primary channel for
+deploying NGEU funds, particularly in hard-hit economies. Assessing whether firms that secure NGEU-funded
+procurement contracts experience a stronger credit response compared to traditional procurement awards is crucial to
+evaluating the effectiveness of the program in fostering financial recovery and firm growth.
+We examine how procurement awards impact firm-level new lending operations in Spain and whether the NGEU
+framework amplifies this effect. Using a panel data Local Projections model, we analyze a novel dataset merging public
+procurement records with high-granularity new lending data from BBV A, a major Spanish bank. This unique integration
+captures firm-level borrowing responses to procurement contracts in high detail.
+By assessing sector, firm size, credit maturity, and value chain position, we isolate the effects of NGEU versus traditional
+procurement to determine whether targeted European recovery funds enhance firm liquidity. These findings inform
+procurement policy and fiscal interventions to optimize credit expansion and economic growth.
+We contribute to the literature by leveraging a unique large-scale dataset that links public procurement awards,
+particularly NGEU-funded contracts, with firm-level new credit data from BBV A.2Unlike previous studies that analyze
+total outstanding credit, we focus on new lending operations, offering a more precise measure of how procurement
+contracts influence firm financing. This distinction is crucial, as changes in credit stock can be affected by amortization
+and other financial activities, potentially obscuring the direct impact of procurement on liquidity. Furthermore, by
+examining firm-level heterogeneity, we identify differential credit responses based on firm size, industry, and value
+chain position, providing new insights into how procurement-induced credit expansion varies across firms
+This paper finds that public procurement awards lead to a significant increase in firm-level new lending, with a
+cumulative increase of 0.75% in new credit operations within one year during the period from August 2019 to July
+2024. However, the impact of NGEU programs has been substantially higher, reaching nearly 3.0
+When adjusting for the amortization effect to ensure comparability with standard credit stock changes, the resulting
+one-year dynamic elasticity of credit stock is approximately 1.5 percentage points for overall procurement programs
+during the same period. The effect becomes evident six months after contract awards and persists throughout the first
+year. However, the elasticity for NGEU-funded procurement is significantly higher, close to 5%, and remains within the
+range of historical estimates for Spain (6%), as reported by di Giovanni et al. (2022). This suggests that the impact of
+NGEU procurement on credit expansion aligns with the historical trend.3
+In sum, NGEU-funded contracts have generated a significantly stronger credit response compared to no-NGEU
+procurement during August 2019 to July 2024. Moreover, the estimated elasticity remains consistent with historical
+patterns.
+There is significant heterogeneity in the impact of procurement-induced credit expansion across firm size, industry, and
+value chain position. Smaller firms and those in government-dependent sectors, such as construction and manufacturing,
+experience the largest credit boosts, while firms in less government-dependent industries exhibit more muted responses.
+Furthermore, short-term credit expands more than long-term credit, suggesting that firms primarily use procurement-
+induced financing for working capital rather than long-term investment.
+2BBV A is one of Spain’s largest lenders, ranking second by total assets.
+3In terms of the overall budget distribution within the Next Generation EU (NGEU) framework, approximately 45% of the total
+funds are allocated via public procurement instruments, while the remaining 55% are delivered through grants. In this paper, we
+concentrate exclusively on examining the effects of the procurement channel. Furthermore, our estimations corresponds to the
+procurement part of the NGEU program for Spain.
+2
+What Can 240,000 New Credit Transactions Tell Us About the Impact of NGEU Funds?
+Unlike prior studies, we find no anticipation effects, meaning that firms adjust borrowing only after securing contracts.
+This heterogeneity highlights the role of firm characteristics in shaping the effectiveness of procurement in firm financing
+and the broader macroeconomic impact of NGEU funds in supporting economic recovery.
+We also identify differences in credit responses to procurement awards based on a firm’s position in the value chain.
+Applying the seamless position analysis developed Antràs et al. (2012), we find that latest-stage downstream firms,
+which are closer to final demand, experience a more immediate credit expansion, whereas early upstream firms
+experience a delayed yet more sustained increase in credit availability.
+Our findings suggest that the effects of procurement would gradually propagating through the production network.
+However, unlike the pronounced disparities observed in the transmission of monetary policy in Spain Buda et al. (2025),
+these differences are statistically significant only at the 68% confidence level and are most evident at the extremes
+of the value chain, particularly when comparing upper early upstream and lower latest-stage downstream segments.
+Further, the observed variations in credit responses result from idiosyncratic procurement shocks rather than a monetary
+common policy shock.
+This paper is structured as follows. Section 2 describes the data sources and the construction of our novel Big Data
+set. Section 3 outlines the empirical strategy, explaining the panel data Local Projections model used to estimate the
+dynamic effects of procurement awards on new lending while controlling for firm and procurement characteristics as
+well as macroeconomic conditions. Section 4 presents the main results, detailing the aggregate effects of procurement
+on firm credit, the differential impact of NGEU vs. no-NGEU contracts, and the heterogeneous responses by firm
+size, sector, credit maturity, and value chain position. Finally, Section 5 concludes by summarizing the findings and
+suggesting avenues for future research on procurement-driven credit expansion.
+Literature review
+This paper contributes to the broader literature on the effects of government spending on economic growth and the size
+of fiscal multipliers. Studies using both macro and microdata provide mixed evidence on the relationship between fiscal
+policy and output growth (Galí et al. (2007); Ramey (2011); Gabriel (2024); Briganti (2024)). A key dimension of
+this debate concerns the role of financial frictions in shaping the response to fiscal shocks. Research has shown that
+the impact of government spending is stronger and more persistent when credit constraints are binding, either at the
+macroeconomic level during financial crises Ferraz et al. (2015) or in specific regions and sectors characterized by
+limited access to credit (Aghion et al. (2014); Juarros (2020)).
+Within this field, studies have examined the credit channel of fiscal stimulus, particularly in the context of targeted
+government interventions such as the Troubled Asset Relief Program (TARP) Duchin and Sosyura (2014) and the
+2004 American Jobs Creation Act Bird et al. (2022). The empirical evidence presented in this paper regarding the
+treatment effects of public procurement awards on firm performance aligns with recent scholarly literature on the impact
+of winning procurement contracts on firm dynamics. Focused on firm growth enhancement, Ferraz et al. (2015) and
+Lee (2021) suggest that firms that secure procurement contracts exhibit greater growth compared to their competitors,
+based on data from Brazil and Korea, respectively. Furthermore, Hebous and Zimmermann (2021) document a positive
+correlation between winning a procurement contract and firm investment in the U.S., although this effect diminishes
+when examining firms that are less likely to face financial constraints.
+Relative to the existing empirical literature on public procurement in Europe, di Giovanni et al. (2022) and Gabriel (2024)
+show that public procurement can act as a financial catalyst for firms by enhancing their access to credit. di Giovanni
+et al. (2022), using Spanish firm and public procurement data from 2000 to 2013, demonstrates that procurement
+contracts can serve as collateral, helping firms—especially small and financially constrained ones—overcome borrowing
+limits and expand their operations.
+Compared to their findings, our results show a lower but comparable elasticity for all procurement programs. However,
+we find a slightly lower (5%) consistent elasticity for NGEU-funded procurement bids relative to the historical elasticity
+estimate of approximately 6% reported by di Giovanni et al. (2022).
+These findings reinforce the idea that procurement can enhance financial stability and firm growth, particularly in
+liquidity-constrained environments. Our results are in line with Gabriel (2024), who explores the credit channel of
+public procurement in Portugal using a novel dataset covering public procurement and firm characteristics from 2009 to
+2019. His study provides further empirical evidence that winning a public contract increases firm credit availability and
+reduces borrowing costs, reinforcing the role of public procurement as a credit supply shock.
+While extensive research has explored the impact of public procurement on firm dynamics, empirical evidence on
+the economic effects of Next Generation EU (NGEU) funds remains limited. In Spain, Aguilar García et al. (2023)
+provide one of the first analyses of firms receiving NGEU funds, finding that these firms are generally larger, more
+productive, and have better access to bank financing compared to those awarded traditional procurement contracts. At
+3
+What Can 240,000 New Credit Transactions Tell Us About the Impact of NGEU Funds?
+the macroeconomic level, European Central Bank (2020) assess the broader implementation of the NGEU program and
+highlight that its expected benefits have been weakened by lower utilization rates rather than efficiency problems.
+Finally, our paper contributes to the rapidly expanding literature on high-frequency and high-granularity databases
+and indicators, driven by the need for timely policy decisions in fast-changing environments such as the COVID-19
+pandemic. Examples include weekly indicators (Eraslan and Götz (2021); Baumeister et al. (2024) Lewis et al. (2020))
+and daily indicators (Diebold (2022); Rua and Lourenço (2020)). Alongside these, a growing number of studies utilize
+transaction-based data to capture real-time shifts in economic activity or conduct highly detailed distributional analyses
+using financial transaction data (Andersen et al. (2022); Buda et al. (2022); Chetty et al. (2020); Ganong and Noel
+(2019); Barlas et al. (2024))
+2 The Data: A Public-Private Big Data Base of Public Procurement and New Lending
+Operations
+In this section, we detail the construction of our final database, which is designed to analyze the impact of public
+procurement awards on new lending operations by sector of activity. Specifically, we distinguish between procurement
+contracts financed by the Next Generation EU (NGEU) program and other public procurement bids.
+To achieve this, we integrate multiple public and private data sources in a multi-step process, ensuring a comprehensive
+and high-quality dataset. To the best of our knowledge, this is the first dataset that provides daily data on new corporate
+lending operations, combined with firm-level public procurement awards.
+Our data construction follows three key steps:
+1.Public Procurement Data
+We incorporate data on public procurement tenders from the Ministry of Finance of Spain, obtained from its
+official public procurement portal4
+2.New Lending Operations
+To capture firm-level lending activity, we use proprietary data on new corporate lending operations from
+BBV A, one of Spain’s largest banks. BBV A holds a market share in corporate lending around 14%. The dataset
+includes 5,090,000 credit transactions covering 318,000 firms, with daily observations over the same period
+(August 2019 – July 2024). This allows us to assess the responsiveness of corporate borrowing to procurement
+contracts. From this, we are using the credit amount, the weighted interest rate by credit amount and well as
+the number of credits. We also disentangle between long-term credit, sum of short-term credit and ICO credits,
+that are loans provided by the Instituto de Crédito Oficial (ICO), which is a Spanish public financial institution,
+designed to support businesses and economic activities by offering favorable financing conditions.
+3.Firm Characteristics
+To enrich our dataset with firm-level characteristics, we merge it with SABI, a comprehensive financial and
+business database covering over 2.9 million Spanish firms. SABI provides key firm attributes, including
+industry sector, age, turnover and employment, which are crucial control variables for our analysis of how
+NGEU funding influences corporate lending. From this external database, we are considering the company
+reported revenue, the number of employees, their turnover, net capital, financial rating and birth year.
+Finally, to build the final dataset, we match firms across the different datasets using their tax identification code to have
+their credit performance, if they have been funded by the NGEU program, no-NGEU public contracts or not, as well as
+the socioeconomic features of the firms. Given the nature of our analysis, we aggregate data at a monthly frequency.
+Table ??summarizes the results. The final dataset consists of 2,062 firms receiving NGEU funding (92% of which also
+received no-NGEU contracts) and 17,282 firms engaged in no-NGEU public procurement. Therefore, we work with
+1,045,980 total observations, including 239,154 credit transactions and 119,322 public procurement awards.
+This uniquely structured dataset allows us to investigate how firms’ borrowing behavior responds to procurement
+contracts, while differentiating the role of NGEU funds compared to other public procurement programs.
+4Official data can be found on the public portal of the Ministry of Finance e in the following link
+https://www.hacienda.gob.es/esES/GobiernoAbierto/Datos%20Abiertos/Paginas/licitacionesplataformacontratacion.aspx. This
+dataset distinguishes between procurement projects funded by the NGEU program and non-NGEU public contracts at the firm
+level. The final procurement dataset consists of 381,000 observations at a daily frequency, covering approximately 100,000 firms
+that participated in government procurement between August 2019 and July 2024. From these firms, we obtained their sector of
+activity according to the industry standard classification system used within the European Union (NACE code 2-digits); the number
+of awards (NGEU and non-NGEU), as well as the amount, the publication date, execution period, and the authority or public entity
+in charge of managing and publishing the tenders.
+4
+What Can 240,000 New Credit Transactions Tell Us About the Impact of NGEU Funds?
+3 Methodology
+3.1 Public procurement bids and new credit operations
+In estimating the effects of public procurement on new firm credit acquisition, it is important to acknowledge that
+a firm’s response to being awarded a contract extends beyond the contemporaneous period. The dynamics of credit
+acquisition often persist after the initial award, as firms enter extensive project execution phases that require ongoing
+financing. This sustained demand for new credit is influenced by various factors, including the scale and duration of
+projects, which may necessitate securing additional funding at different stages of implementation. Furthermore, the
+need for new credit does not invariably materialize immediately following the contract award; in many instances, project
+execution may commence several months later. This temporal disconnect complicates the timing of credit behavior and
+underscores the necessity of estimating dynamic effects to capture the full scope of how public procurement contracts
+influence credit acquisition over time.
+We estimate the dynamic elasticity of new firm credit operations to public procurement bid awards by local projection
+panel regressions (Jordà, 2005). In particular, we estimate the cumulative growth rate of new firm credit before and
+after a firm is awarded a public procurement bid:
+NLi,t+h−NLi,t−1=αh
+i+δh
+s,t+βh·PROC i,t+λh·Xi,t+θh·Yi,t+h+ϵh
+i,t
+∀h∈{− 5,...,12}(1)
+where the dependent variable is the difference between the logarithm of the cumulative of new lending operations (new
+credit) obtained by firm iat month t+h(NLi,t+h) and the logarithm of new credit obtained at month t−1(NLi,t−1).
+The key regressor, PROC i,t, is a dummy variable that takes value 1 when firm ihas been awarded at least one public
+procurement bid during month t, and 0 otherwise. Thus, coefficient βhdirectly represents the cumulative growth rate
+of new credit operations hmonths before or after a firm is awarded a public procurement bid. The dynamic effects
+are investigated 12 months after the award5. Note that we allow time horizon hto be both positive and negative. This
+is due to the very nature of the study; there are cases in which a single company emerges as the winner of a public
+procurement bid, and furthermore, this company has some prior certainty about its potential success in securing the
+contract. Under this scenario, we hypothesize about potential anticipatory effects in terms of credit acquisition by the
+company prior to the actual award, similar to Gabriel (2024). Theoretically, the maximum period for executing such
+anticipation could span from the announcement of the bid to the granting of the contract. Considering the temporal
+difference between these two dates, the average duration in the sample used in this study is approximately four months.
+This is why we investigate these possible anticipatory effects up to a horizon of 4 months prior to the reference period
+(t=−1). In addition, we explore as a robustness check further anticipatory effects up to 10 months before the award.
+We include firm ( αh
+i), and a combination of sector and time ( δh
+s,t)6fixed effects. The inclusion of firm fixed effects is
+critical as it accounts for unique, time-invariant characteristics inherent to individual firms, such as management quality,
+market position, geographic location... The incorporation of sector-time fixed effects allows for the consideration of
+common trends and shocks that may influence firms within specific sectors over time. This dual fixed effects approach
+acknowledges that the impact of government demand on credit growth can be sector-dependent and may vary in
+response to broader economic conditions or policy changes. This includes potential heterogeneous monetary policy
+transmission across sectors, or energy and trade sector-specific shocks.
+Standard errors are clustered at the firm level to account for potential correlation of error terms within individual
+firms over time. This approach is essential because unobserved factors specific to each firm can influence multiple
+observations, leading to correlated errors that violate the independence assumption required for standard statistical
+inference. Clustering standard errors mitigates the risk of underestimating the true variability of estimates, which can
+result in misleadingly narrow confidence intervals and inflated t-statistics. This methodology enhances the robustness
+of the findings by providing a more accurate representation of the uncertainty associated with the estimated coefficients.
+Xi,tis a control vector that includes award-specific characteristics, containing amount of procurement, number of
+awards received each month, and project execution time7, firm characteristics, including the log of age, number of
+employees and firm turnover, and the first lag of the main regressor (public procurement dummy) and the dependent
+5Due to sample reasons we limit the forward dynamic estimation one year after the award.
+6Sector-time fixed effects are a combination of time (month and year) and 2-digit NACE sector codes. Results are identical when
+applying first-letter NACE as sector indicator.
+7In case a firm is awarded more than one public procurement bid within a month, execution time of the award that represents the
+greatest import is selected. Furthermore, the inclusion and exclusion of execution time yields similar regression results.
+5
+What Can 240,000 New Credit Transactions Tell Us About the Impact of NGEU Funds?
+variable ( NLi,t−1). Furthermore, we include an additional vector of controls Yi,t+hthat is contemporaneous to the
+first element of the dependent variable. This vector uniquely includes the first lag of credit term (due to potential
+endogeneity issues), since we understand that the remaining term of credit is contemporaneously related to credit8.
+3.2 Public procurement bids and new credit operations: NGEU vs no-NGEU
+Following the onset of the pandemic, a financing instrument was launched with the objective of supporting the European
+economic recovery anchored in a future that is digital, green, and resilient: the Next Generation EU (NGEU) instrument.
+This marked the introduction of a new type of public procurement financing, which began to coexist with existing
+mechanisms in 2021 and is set to conclude in 2026. Thus, the idea arises to analyze whether the effect on new
+business credit depends on the type of public procurement. Following the investigation of the effects of receiving public
+procurement contracts on new credit operations, our database facilitates an exploration of potential heterogeneous
+effects on credit contingent upon the type of public procurement contract. The differentiation between contracts financed
+by NGEU funds and those not financed by these funds (hereinafter referred to as no-NGEU) allows for an assessment
+of whether differential effects are present. To this end, we estimate the dynamic elasticity of new credit following the
+acquisition of both types of contracts by the following specification:
+NLi,t+h−NLi,t−1=αh
+i+δh
+s,t+βh·PROCNGEU
+i,t +γh·PROCNO−NGEU
+i,t +λh·Xi,t+θh·Yi,t+h+ϵh
+i,t
+∀h∈{− 5,...,12}(2)
+where the main difference compared with specification (1) relies on the differentiation of two public procurement
+dummies. Particularly, PROCNGEU
+i,t is a dummy variable that takes value 1 when firm ihas been awarded at least
+one NGEU-funded bid at month t, and 0 otherwise. Equivalently, PROCNO−NGEU
+i,t takes value 1 when a firm has
+been awarded at least one bid not belonging to NGEU programs (rest of bids). Thus, coefficients βhandγhwill be
+interpreted as the dynamic elasticity of new firm credit after the award of NGEU and no-NGEU bids for every evaluated
+horizon h, respectively.
+In addition, vector of controls Xi,tincludes a duplication of award-specific characteristics, one for each type of bid. In
+particular, we include and differentiate the amount of procurement, number of awards and project execution by the
+type of bid (NGEU vs no-NGEU). The set of fixed effects included, the estimation method and the horizon interval are
+identical to equation 1.
+4 Results
+In this section, we present the empirical findings on the relationship between public procurement contracts and firm-level
+new lending operations. We begin by analyzing the impact of all procurement bids on new lending, estimating the
+dynamic response of firm credit acquisition following contract awards. We then explore the heterogeneous effects
+across firm size, industry sectors, credit maturity, and supply chain position, assessing whether procurement-induced
+credit expansion varies based on firm and credit characteristics. Additionally, we examine the differential impact of
+NGEU versus no-NGEU procurement contracts, evaluating whether the Next Generation EU framework amplifies firm
+credit availability more effectively than traditional procurement. Finally, we discuss the transition from new lending to
+changes in the stock of credit, comparing our results to existing literature.
+4.1 The Effects of Public Procurement Bids on New Lending Operations
+In this section we show the results of regressions estimates presented in equation 1 on our full sample of public
+procurement firms (17.433 unique firms).
+Figure 1 illustrates the estimated cumulative impact of procurement awards on new lending, showing the coefficient
+estimate βhalongside its corresponding 90% confidence intervals. The results suggest a 0.75% cumulative increase
+in new credit operations within one year of winning a procurement contract. The expansion in new lending exhibits
+persistence , becoming statistically significant six months after the award and remaining robust across subsequent time
+horizons h.
+8This fact leaves the floor for a discussion on whether controls should be indexed at tort−i, instead of at t+hin local
+projection regressions. In some cases, it is economically more pragmatic and realistic to include specific controls contemporaneous
+to the dependent variable in local projection settings.
+6
+What Can 240,000 New Credit Transactions Tell Us About the Impact of NGEU Funds?
+The finding of persistence indicates that procurement contracts serve as an effective mechanism for enhancing firms’
+access to credit, not only at the time of the award but also in the long term. The sustained increase in credit demand
+suggests that firms leverage procurement contracts to expand borrowing capacity, likely due to the collateralization of
+future revenues from public sector contracts.
+Our results show no evidence of anticipatory effect by firms (increasing and significant borrowing before awarded with
+the procurement contract). The new lending levels remain unchanged in the four months leading up to the contract
+award, confirming the absence of anticipatory effects. At the time of contract allocation ( h= 0), the estimated impact
+on credit is positive but not statistically significant. The credit response only becomes significant after six months
+and remains stable thereafter. This suggests that firms seek additional financing only after securing the contract and
+beginning project execution, rather than in anticipation of the award.
+7
+What Can 240,000 New Credit Transactions Tell Us About the Impact of NGEU Funds?
+Figure 1: Response of New Credit Operations to Public Procurement Bids
+Notes: The plot displays the estimated coefficient β(green points) from regressions of equation 1 for each horizon hrelative to 1 month before public procurement
+awards, as well as its 90% confidence bands (green shaded area). The estimated coefficient βis interpreted as the cumulative growth rate of new credit operations h
+months before or after procurement awards. The estimation includes firm and sector ×time fixed effects, and all standard errors are clustered at the firm level.
+There is limited existing research estimating the dynamic elasticity of credit stock growth following public procurement
+awards. Notably, di Giovanni et al. (2022) find that winning a procurement contract in Spain between 2000 and
+2013 is associated with a 5.5 percentage point increase in total firm credit stock. Similarly, Gabriel (2024), using a
+back-of-the-envelope calculation, estimates that for Portuguese firms from 2009 to 2019, total credit stock grows by 3
+percentage points one year after receiving a procurement contract.
+These studies examine the impact of public procurement on changes in credit stock, which inherently incorporates
+amortization effects over time. As a result, while our findings on new lending operations offer a novel perspective, they
+are not directly comparable to the existing literature on credit stock dynamics. To bridge this gap, we apply a linear
+amortization assumption to each new credit issued, adjusting for its repayment schedule. This approach progressively
+reduces the value of new credit as it is repaid, enabling us to construct a new dependent variable that captures credit
+stock dynamics rather than new lending flows.
+Figure 2 presents the results from estimating equation 1 after applying the amortization adjustment. Our analysis
+indicates that one year after winning a procurement contract, the dynamic elasticity of credit stock is 1.5 percentage
+points. This estimate is lower than the 5.5 percentage point increase reported by di Giovanni et al. (2022) and the 3
+percentage point increase reported by Gabriel (2024) in the case of Portugal.
+Two important points deserve mention. First, the upper bound of our 90% confidence interval reaches a cumulative
+growth of 3.0 percentage points, aligning closely with the findings of Gabriel (2024). Second, our sample spans both
+the no-NGEU and NGEU periods, which may partly explain the discrepancy with the 5% cumulative impact reported
+by di Giovanni et al. (2022) in Spain.
+Within the first year, the elasticity of credit stock reaches a peak of approximately 3% before gradually declining in the
+final three months. Furthermore, we find no evidence of anticipatory effects on credit stock, aligning with the findings
+of Gabriel (2024). The differences observed between our results and those of previous studies may stem from variations
+in sample periods, firm characteristics, or differences in the composition of procurement contracts across datasets.
+8
+What Can 240,000 New Credit Transactions Tell Us About the Impact of NGEU Funds?
+Figure 2: Response of equivalent Credit Stock to Public Procurement Bids
+Notes: the plot displays the estimated coefficient β(green points) from regressions of equation 1 for each horizon hrelative to 1
+month before public procurement awards, as well as its 90% confidence bands (green shaded area). New credit operations stock is
+calculated by assuming linear credit repayments considering credit term. Thus, it represents an amortization-adjusted new credit
+operations. Estimated coefficient βis interpreted as the cumulative growth rate of new credit operations stock hmonths before or
+after procurement awards. The estimation includes firm and sector ×time fixed effects, and all standard errors are clustered at the
+firm level.
+One could attribute those differences and the significant new credit impulse to the existence of the pandemic in our
+time sample period. To investigate that fact we conduct the same quantitative analysis but considering the concession
+of credits associated with COVID-related lines executed by the Credit Official Institute of Spain (ICO). These credit
+lines were designed to facilitate access to credit and improve the liquidity of businesses and self-employed individuals
+affected by the economic crisis caused by the pandemic9. By attending at credit product, we can identify which
+credits belong to such lines (COVID-related credits). In particular, we identify 5.616 credits categorized as such, which
+represent approximately 620 million euros. To this end, we estimate equation 1 while adjusting (subtracting) for new
+credit operations associated with these credits. As presented in Figure 11 in the Appendix, both the dynamic elasticity
+of new credit operations (panel a) and new credit stock (panel b) are similar to the case of no correction.
+4.1.1 Firm characteristics: activity sector and size
+This section examines how the impact of public procurement on firm credit varies by activity sector and firm size. The
+results show that firms in the manufacturing sector experience the largest credit expansion, while firms in wholesale
+trade and retail exhibit a strong but short-lived response. In contrast, administrative and professional services firms show
+no significant effect, and construction firms display a moderate but sustained increase in credit availability. Regarding
+firm size, smaller firms benefit more from procurement awards, with credit elasticity reaching 1.25% one year after the
+award, compared to 0.5% for larger firms.
+Heterogeneity by Industry Sector
+Public procurement programs often prioritize certain industries based on economic and policy objectives, influencing the
+credit response across sectors. In our sample, 70% of firms operate in wholesale trade and retail (25.3%), construction
+(16.2%), administrative and professional activities (15.3%), and manufacturing (12%).
+In this section, we examine whether the dynamic elasticity of new credit depends on the company’s sector of activity
+by estimating the regressions corresponding to equation 1, distinguishing between the most representative sectors
+in the sample. Figure 3 illustrates that companies operating in the manufacturing industry experience the largest
+credit boost (an accumulated increase exceeding 1.25% in the first year). Similarly, construction companies receive
+the second-largest impulse in the first year (0.75%). In contrast, wholesale and retail, as well as administrative and
+professional activities, experience a more modest impulse, which is not significant at the 90% confidence level one year
+after the award. Thus, government-dependent sectors (construction and manufacturing) experience the largest credit
+boosts, while firms in less government-dependent industries exhibit more muted responses.
+9These lines of guarantees were established through two royal decree-laws: Royal Decree-Law 8/2020, approved on March 17,
+2020, and Royal Decree-Law 25/2020, approved on July 3, 2020.
+9
+What Can 240,000 New Credit Transactions Tell Us About the Impact of NGEU Funds?
+Figure 3: Response of New Credit Operations to Public Procurement Bids by Firm Activity Sector
+(a)Wholesale trade and retail
+ (b)Construction
+(c)Manufacturing industry
+(d)Administrative and professional
+activities
+Notes: The plots display the estimated coefficient β(green points) from regressions of equation 1 for each horizon hrelative to 1 month before public procurement
+awards, as well as its 90% confidence bands (green shaded area). Panel (a) shows the results for a sub-sample of firms dedicated to wholesale trade and retail activities
+(first letter NACE code G), and panel (b) for construction firms (F), panel (c) for manufacturing firms (C) and (d) for the set of administrative and support service activities,
+and professional, scientific and technical activities (letters N & M, respectively). These sectors are the most represented in the sample of companies used in this paper. The
+estimated coefficient βis interpreted as the cumulative growth rate of new credit operations (by activity sector) hmonths before or after procurement awards. The
+estimation includes firm and sector ×time fixed effects, and all standard errors are clustered at the firm level.
+Heterogeneity by Firm Size
+The impact of public procurement also depends on firm size, as smaller firms often face greater financial constraints and
+benefit more from government contracts. While awarding contracts to small enterprises may involve higher short-term
+costs for both the public and private sectors, the long-term benefits include increased investment, business expansion,
+and job creation. Thus, the fact that small enterprises experience a greater credit impulse may indicate increased
+investment on their part, leading to subsequent enhanced long-term growth, provided that the size of public contracts is
+not reduced and that the ease of procedures is improved (Aguilar García et al., 2023; di Giovanni et al., 2022).
+To this end, we categorize companies based on their turnover level10, dividing the sample according to the sample
+median ( C2 million). Figure 4 presents the results of estimating the regressions of equation 1 for both groups of
+companies. The results indicate that the dynamic response of credit following the award of public procurement contracts
+depends on firm size; small companies experience an increase in new credit of approximately 1.25% in cumulative
+terms one year later, whereas larger companies see their credit boosted significantly but by approximately 0.5%. In
+neither case are significant anticipatory effects observed. This heterogeneity highlights the role of firm characteristics in
+shaping the effectiveness of procurement in firm financing and the broader macroeconomic impact of NGEU funds in
+supporting economic recovery.
+10Note that the last turnover figure available is selected for each company. In cases when turnover is missing in subsequent years,
+it is remained constant. The analysis yields similar results when the sample median of employees number is utilized as the division
+threshold.
+10
+What Can 240,000 New Credit Transactions Tell Us About the Impact of NGEU Funds?
+Figure 4: Response of New Credit Operations to Public Procurement Bids by Firm Size
+(a)Small firms
+ (b)Large firms
+Notes: The plots display the estimated coefficient β(green points) from regressions of equation 1 for each horizon hrelative to 1 month before public procurement awards,
+as well as its 90% confidence bands (green shaded area). The following sub categorization of firms relies on firm turnover measured in euros. In particular, the median of
+sample turnover is the division threshold (2 million euros). Panel (a) shows the results for a sub-sample of firms categorized as small (turnover lower or equal than the
+median), and (b) for a sub-sample of large firms (turnover greater than sample median). Estimated coefficient βis interpreted as the cumulative growth rate of new credit
+operations hmonths before or after procurement awards. The estimation includes firm and sector ×time fixed effects, and all standard errors are clustered at the firm level
+4.1.2 The Firm position on the Production Value Chain: Proximity to the Consumer
+Recent research has stressed the potential usefulness of considering production networks as an important determinant
+of the transmission of policy shocks. There are some examples on this effects by monetary policy (see for example,
+(Ozdagli and Weber (2017); Ghassibe (2021)) for early empirical findings along these lines). More recently Buda
+et al. (2025) shown that in the case of Spain, monetary policy shocks have had a strong and quick response in those
+downstream activities closer to the final consumers in response to an homogeneous negative shock.
+In the context of fiscal policy, public procurement affects firms at all stages of the supply chain, allowing governments
+to strategically allocate contracts to support firms operating either closer to or further from the final consumer. Our
+analysis focuses on evaluating how the impact of procurement on new credit varies based on a firm’s position within the
+supply chain.
+To measure this, we rely on the upstreamness metric developed by Antràs et al. (2012) and adapted by Buda et al.
+(2025). This metric provides a quantitative assessment of an industry’s position within the global production network,
+capturing the relative distance of a firm’s industry from final consumption. A higher upstreamness score indicates
+that a firm operates in the earlier stages of production, supplying inputs to other firms rather than selling directly to
+consumers. Conversely, a lower upstreamness score suggests that a firm is positioned closer to the end of the supply
+chain, directly engaging in final goods and services. This approach allows us to examine whether procurement contracts
+disproportionately benefit firms at specific points in the production process and how these effects translate into changes
+in credit availability.
+By establishing a preliminary correspondence between industries in the Input-Output tables and the list of 2-digit
+CNAE sectors, we matched the 87 CNAE sectors with each upstreamness indicator, utilizing evidence from both studies.
+Specifically, this indicator ranges in value from 1 to 4, where 1 indicates that the firm operates as close as possible to
+the consumer and 4 indicates operation from the most distant point. Based on this indicator, we create first a binary
+variable that takes value 0 for firms classified as downstream, or relatively close to the consumer, if the metric is equal
+to or less than 2.2. Conversely, the variable takes value 1 and firms are classified as upstream, or distant from the final
+consumer, if the metric exceeds this threshold, following the approach of Antràs et al. (2012) and Buda et al. (2025).11
+11This method of categorizing companies classifies those operating in the construction sector, textile and electronic manufacturing,
+retail and wholesale, education, and social services as downstream, while the upstream group includes companies engaged in the
+supply of electricity and water, professional and administrative activities, chemical manufacturing, and mining, among many others.
+This classification of companies represents, in aggregate terms, a division of the total amount awarded in public procurement bids
+amounting to C71 trillion for downstream companies and C21 trillion for upstream companies. Consequently, we generated an initial
+group of 11,353 unique firms that are relatively close to the consumer and another group of 5,650 firms that are further removed from
+the final consumption phase. Table 2 in the Appendix shows the upstreamness metric and binary indicator for all CNAE 2-digit
+codes and descriptions.
+11
+What Can 240,000 New Credit Transactions Tell Us About the Impact of NGEU Funds?
+Figure 5: Response of New Credit Operations to Public Procurement Bids by Upstreamness
+(a)Very downstream
+ (b)Less downstream
+(c)Less upstream
+ (d)Very upstream
+Notes: The plots display the estimated coefficient β(green points) from regressions of equation 1 for each horizon hrelative to 1 month before public procurement
+awards, as well as its 90% confidence bands (green shaded area). Panel (a) shows the results for the case of restricting the sample to firms categorized as proximate to the
+consumer (downstream), and panel (b) for the case of firms far from consumer (upstream). The categorization is based on Antràs et al. (2012), and further developed for
+the case of Spain by Buda et al. (2025). Estimated coefficient βis interpreted as the cumulative growth rate of new credit operations hmonths before or after procurement
+awards. The estimation includes firm and sector ×time fixed effects, and all standard errors are clustered at the firm level.
+After classifying individual firms based on their position within the production network, we estimate equation 1
+separately for upstream and downstream firms (Figure 12 in the Appendix). Both groups of firms experience on average
+a significant and positive credit impulse of 0.75% and 1%, for downstream and upstream firms, respectively. However,
+we do not observe highly latent differences, which could be influenced by the fact that the bulk of firms is positioned in
+the middle of the upstreamness score.
+This classification of firms based on upstreamness relies on a threshold of 2.2, which is somewhat arbitrary and may
+misclassify certain industries. For instance, civil engineering (CNAE 42) is categorized as downstream, similar to retail
+trade, even though it could reasonably be considered upstream. To address this limitation, we introduce an alternative
+classification (Figure 5) that divides firms into four groups based on their position in the supply chain: very downstream
+(≤1.77), less downstream ( 1.82≤2.19), less upstream ( 2.2≤2.78, including civil engineering), and very upstream
+(≥2.8).
+Figure 5 indicates how the results show clear differences in credit response across these groups. Very downstream firms
+exhibit an immediate credit increase following procurement awards, while very upstream firms experience a delayed
+but sustained response. Firms in the moderate upstreamness categories behave similarly, with significant and lasting
+credit expansion over time. This refined classification provides a more nuanced understanding of how procurement
+awards impact credit availability at different stages of the supply chain.
+These results partially match with activity sector-specific responses. Retail and wholesale firms new credit react quicker
+but fades out before the end of the first complete year, similar to very downstream firms. Also, firms operating in the
+manufacturing industry display persistent effects, similar to less downstream and upstream firms.
+Moreover, Figure 6 exhibits a more in detailed analysis on firms on the the extremes of the production network; very
+downstream vs very upstream firms. At the 68% confidence level, the response in the initial months by companies
+closer to the consumer is significantly greater than that of those farther away, whereas one year after the procurement,
+the trends reverse, and it is the upstream companies that experience a higher and more persistent boost.
+12
+What Can 240,000 New Credit Transactions Tell Us About the Impact of NGEU Funds?
+Figure 6: Response of New Credit Operations to Public Procurement Bids: Very Downstream vs Very Upstream
+Notes: The plot displays the estimated coefficient βfrom regressions of equation 1 for each horizon hrelative to 1 month before public procurement awards, as well as its
+68% confidence bands (shaded areas), for the case of very downstream firms (blue points) and very upstream (red points). Blue estimates shows the results for the case of
+restricting the sample to firms categorized as very proximate to the consumer (upstreamness indicator below or equal 1.77, excepting wholesale trade 2-digit CNAE
+sectors), and red estimates for the set of very upstream firms (greater or equal than 2.8). The categorization is based on Antràs et al. (2012), and further developed for the
+case of Spain by Buda et al. (2025). The estimated coefficient βis interpreted as the cumulative growth rate of new credit operations (by extreme upstreamness degree) h
+months before or after procurement awards. The estimation includes firm and sector ×time fixed effects, and all standard errors are clustered at the firm level.
+4.1.3 Short vs long-term credit
+The nature and characteristics of the public tender may also influence the volume and amount of new credit obtained
+following the award. The acquisition of a public contract may require continuous access to new credit over different
+time frames. Consequently, the effects of public procurement on credit dynamics may vary depending on the maturity
+of the contracts.
+Our dataset enables us to differentiate new credit obtained by firms at different maturity. To do this, the dependent
+variable in equation 1 is differentiated into new short-term credit, defined as credit with a maturity of one year or
+less, and new long-term credit, with a maturity exceeding one year. This distinction allows us to analyze whether the
+carry-over effect of public procurement awards on credit varies across different maturity periods.
+The classification of credit in this way is based on its term, measured in days within our dataset. Specifically, the
+median and mean credit terms are 85 and 273 days, respectively, while the first and third percentiles of the distribution
+correspond to 38 and 1,826 days, respectively. In aggregate terms, short-term credit constitutes 68% of total new credit,
+while long-term credit accounts for the remaining 32%.
+Figure 7 presents the estimated coefficients βhfor both dependent variables. Panel (a) displays the effects on new
+short-term credit, whereas panel (b) illustrates the effects on new long-term credit. The estimates indicate that public
+procurement awards have a more pronounced influence on short-term credit, with an increase of approximately 1%
+observed one year after the contract is awarded, in contrast to a relatively modest increase of 0.3% for long-term credit.
+This substantial rise in short-term credit may be attributed to the ongoing need for financing to support and sustain the
+execution of public procurement projects, which frequently necessitate reliance on shorter-maturity credit.
+13
+What Can 240,000 New Credit Transactions Tell Us About the Impact of NGEU Funds?
+Figure 7: Response of New Credit Operations to Public Procurement Bids by Credit Maturity
+(a)Short-term credit
+ (b)Long-term credit
+Notes: The plots display the estimated coefficient β(green points) from regressions of equation 1 for each horizon hrelative to 1 month before public procurement
+awards, as well as its 90% confidence bands (green shaded area). Panel (a) shows the results for the case of the dependent variable being firm short-term new credit
+(maturity below or equal to 1 year), and panel (b) for the case of long-term new credit (maturity above 1 year). Estimated coefficient βis interpreted as the cumulative
+growth rate of new credit operations (short or long term) hmonths before or after procurement awards. The estimation includes firm and sector ×time fixed effects, and all
+standard errors are clustered at the firm level
+4.2 Public procurement bids and new credit operations: NGEU vs no-NGEU
+The sample period analyzed in this study coincides with the emergence of the Next Generation EU funds. Our database
+further distinguishes whether any public tender has been financed with these funds or, on the contrary, has been financed
+by other European structural funds or national funds. Thus, we estimate the set of regressions exposed in equation 2,
+differentiating between NGEU and no-NGEU awards.
+Figure 8 presents the results of estimating the parameters βhandγh, which represent the dynamic elasticity of new
+corporate credit before and after the award of tenders financed by NGEU and no-NGEU funds, respectively. A clear
+heterogeneity in the dynamic impact is observed; new credit increases by 3% one year after NGEU awards in cumulative
+terms, while no-NGEU funds are associated with a 0.75% growth in new credit, a result similar to the effect of all
+public procurement bids12. Note that in neither of the two cases are significant anticipatory effects observed in terms of
+access to new credit.
+12The number of no-NGEU awards in the sample is considerably larger than NGEU awards
+14
+What Can 240,000 New Credit Transactions Tell Us About the Impact of NGEU Funds?
+Figure 8: Response of New Credit Operations to Public Procurement Bids: NGEU vs no-NGEU
+Notes: the plot displays the estimated coefficients β(blue points) and γ(red points) from regressions of equation 2 for each horizon hrelative to 1 month before NGEU
+and no-NGEU public procurement awards, respectively, as well as their 90% confidence bands (blue and red shaded areas for NGEU and no-NGEU, respectively).
+Estimated coefficients βandγare interpreted as the cumulative growth rate of new credit operations hmonths before or after NGEU and no-NGEU procurement awards,
+respectively. Note that no-NGEU public procurement bids refer to those different from NGEU-funded bids. The estimation includes firm and sector ×time fixed effects,
+and all standard errors are clustered at the firm level.
+Moreover, the availability of credit data allows us to examine the potential differential effects of NGEU-funded versus
+no-NGEU-funded public procurement bids on credit maturity. To analyze these effects, we estimate the regressions
+presented in equation 2, this time distinguishing between short-term and long-term credit as separate dependent
+variables.
+Figure 9 highlights a significant heterogeneity in the impact of NGEU and no-NGEU bids, particularly on long-term
+credit. The results indicate that NGEU-funded procurement leads to a 3% increase in long-term credit one year after the
+award. In contrast, no-NGEU-funded procurement has a significantly smaller effect, increasing long-term credit by only
+0.5%.
+Regarding short-term credit, the findings suggest that no-NGEU bids primarily translate into short-term financing,
+leading to a 1% increase in short-term credit. NGEU bids also have a positive impact on short-term credit; however, the
+associated estimates exhibit a high degree of uncertainty, making precise quantification less reliable.
+In both cases, we find no significant anticipatory effects, indicating that firms do not systematically adjust their
+borrowing behavior before the award is granted. This suggests that the observed credit dynamics occur as a direct
+consequence of procurement awards rather than firms preemptively securing financing in anticipation of receiving a
+contract.
+15
+What Can 240,000 New Credit Transactions Tell Us About the Impact of NGEU Funds?
+Figure 9: Response of New Credit Operations to Public Procurement Bids by Credit Maturity: NGEU vs no-NGEU
+(a)Short-term credit
+ (b)Long-term credit
+Notes: the plots display the estimated coefficients β(blue points) and γ(red points) from regressions of equation 2 for each horizon hrelative to 1 month before NGEU
+and no-NGEU public procurement awards, respectively, as well as their 90% confidence bands (blue and red shaded areas for NGEU and no-NGEU, respectively). Panel
+(a) shows the results for the case of the dependent variable being firm short-term new credit (maturity below or equal to 1 year), and panel (b) for the case of long-term new
+credit (maturity above 1 year). Estimated coefficients βandγare interpreted as the cumulative growth rate of new credit operations (short or long term) hmonths before
+or after NGEU and no-NGEU procurement awards, respectively. Note that no-NGEU public procurement bids refer to those different from NGEU-funded bids. The
+estimation includes firm and sector ×time fixed effects, and all standard errors are clustered at the firm level.
+4.3 From New Lending to changes in the Stock of Credit after NGEU and no-NGEU Awards
+Similarly to the previous analysis, we can translate the impact of receiving NGEU and no-NGEU tenders on new credit
+in terms of stock by applying the assumption of linear amortization based on the remaining term of the obtained credit.
+Figure 10 presents the estimation of the βhandγhparameters of equation 2, where the dependent variable is the growth
+rate of the new credit stock. It is observed that one year after receiving NGEU tenders, the new credit stock increases
+significantly by 5 percentage points, whereas no-NGEU tenders have a milder impact on the stock (in line with the
+aggregate result). The impact of NGEU tenders on the stock is bounded by existing evidence; specifically, it is slightly
+lower than the evidence provided by di Giovanni et al. (2022) and higher than that presented by Gabriel (2024). This
+result implies that the impact of NGEU tenders has been in line with the historical impact in Spain.
+Figure 10: Response of New Credit Operations Stock to Public Procurement Bids: NGEU vs no-NGEU
+Notes: the plot displays the estimated coefficients β(blue points) and γ(red points) from regressions of equation 2 for each horizon hrelative to 1 month before NGEU
+and no-NGEU public procurement awards, respectively, as well as their 90% confidence bands (blue and red shaded areas for NGEU and no-NGEU, respectively). New
+credit operations stock is calculated by assuming linear credit repayments considering credit term. Thus, it represents an amortization-adjusted new credit operations.
+Estimated coefficients βandγare interpreted as the cumulative growth rate of new credit operations stock hmonths before or after NGEU and no-NGEU procurement
+awards, respectively. Note that no-NGEU public procurement bids refer to those different from NGEU-funded bids. The estimation includes firm and sector ×time fixed
+effects, and all standard errors are clustered at the firm level
+16
+What Can 240,000 New Credit Transactions Tell Us About the Impact of NGEU Funds?
+5 Robustness checks
+Alternative dynamic structure
+As discussed earlier, both specifications included the first lag of the public procurement dummy variables and the
+dependent variable (new credit, short-term credit, and long-term credit). To assess the robustness of our findings, we
+test alternative dynamic structures and lag specifications. Specifically, we extend the number of lags to three and six to
+determine whether additional lags of the main regressor and the dependent variable influence the estimated impact of
+public procurement on new credit operations over time.
+Figure 13 in the Appendix presents the results of estimating equation 1 (the effect of all public procurement bids on
+new credit) using three and six lags. The results remain consistent with those previously reported, indicating that the
+estimated effects are not sensitive to lag length. Similarly, Figure 14 in the Appendix shows the results of equation 2
+(which differentiates between NGEU and no-NGEU procurement effects) under both alternative lag structures. The
+findings remain unchanged, confirming that the estimated effects of procurement on new credit are robust to different
+lag parametrizations.
+Time sample selection
+Since our database includes the onset of the pandemic, it is possible that the impact of no-NGEU tenders on new credit
+may have changed before and after the pandemic. One potential explanation is that the introduction of NGEU funds
+may have led to a substitution effect, where tenders that were previously financed through other sources were instead
+funded by NGEU, amplifying their impact while reducing the relative effect of no-NGEU tenders.13
+To test whether the impact of no-NGEU public tenders on new credit changed due to the introduction of NGEU
+funds, we re-estimate equation 2, restricting the sample to July 2020 onward, when European Council approved the
+implementation of the extraordinary instrument of temporary recovery; NGEU funds. Figure 15 in the Appendix
+presents the results, which remain consistent with those from the full sample. This indicates that the effect of no-NGEU
+public procurement on new credit remains stable across both time periods, suggesting that the introduction of NGEU
+funds did not significantly alter the credit dynamics of no-NGEU tenders.
+Expert procurement firms
+To better understand the relationship between public tenders and new credit, we examine whether the observed effects
+are primarily driven by firms referred to as "experts"—those that have received both no-NGEU and NGEU tenders.
+These firms possess significant experience in the public procurement process, often leveraging internal specialized
+departments or external consulting firms to prepare and submit tender documents for public competitions.
+To assess this, we restrict the sample to companies that have been awarded both types of tenders at some point.14We
+then re-estimate equation 2, with the results presented in Figure 16 in the Appendix. The findings remain consistent
+with those from the full sample of NGEU funded firms, indicating that the effects of NGEU public procurement on
+new credit are largely driven by this group of experienced firms. Furthermore, it is noteworthy that the impulse on new
+credit after no-NGEU awards remains positive, albeit not significantly. This implies that there is greater uncertainty
+associated with it, indicating that expert firms react significantly in terms of new credit following the receipt of NGEU
+tenders, but not in the case of no-NGEU tenders. Behind this phenomenon, substitution effects between the two types
+of tenders may be at play.
+6 Conclusions
+This study provides robust empirical evidence that public procurement awards significantly enhance firm-level new
+lending, generating a cumulative increase of 0.75% in new credit operations within a year. The effect becomes statisti-
+cally significant six months after contract allocation and persists throughout the first year, reinforcing procurement’s
+critical role in firm financing.
+A key finding is that Next Generation EU (NGEU)-funded contracts elicit a stronger credit response than traditional
+procurement, highlighting the effectiveness of targeted European recovery funds in enhancing liquidity. Specifically,
+NGEU-funded procurement leads to a 3% increase in long-term credit one year after the award, whereas no-NGEU-
+13Before the introduction of NGEU funds, certain projects would have been financed by alternative sources. With the availability
+of NGEU funds, some of these tenders may have shifted to the new financing mechanism, possibly affecting the observed impact of
+no-NGEU tenders.
+14Fraction of firms that have received both no-NGEU and NGEU tenders.
+17
+What Can 240,000 New Credit Transactions Tell Us About the Impact of NGEU Funds?
+funded procurement has a more limited effect, increasing long-term credit by only 0.5% over the same period. In
+contrast, no-NGEU bids primarily stimulate short-term financing, resulting in a 1% increase in short-term credit.
+To compare our new lending findings with the equivalent results in prior research, we adjusted our data for amortization
+to measure changes in credit stock. This approach yields a dynamic elasticity of 1.5 percentage points one year
+after procurement allocation. Although this figure is lower than the 5.5 percentage points for Spain reported by
+di Giovanni et al. (2022) and the 3 percentage points for Portugal found by Gabriel (2024), these differences likely stem
+from variations in sample composition, firm characteristics, and procurement contract structures. Notably, our 90%
+confidence interval’s upper bound is 3.0 percentage points, which closely matches the ones for Portugal by Gabriel
+(2024). Moreover, when we focus on NGEU-funded procurement alone, the dynamic elasticity rises to 5%, slightly
+lower than the historical 6% documented by di Giovanni et al. (2022). Furthermore, our analysis spans both no-NGEU
+and NGEU periods, whereas di Giovanni et al. (2022) examine a strictly pre-NGEU timeframe, potentially contributing
+to the observed divergence. Despite these discrepancies, we find no evidence of anticipatory effects on credit stock,
+consistent with Gabriel (2024).
+The impact of procurement on new lending varies across firm size, industry, and value chain position. Smaller firms
+exhibit the strongest response, with credit elasticity reaching 1.25% one year after contract allocation, compared to
+0.5% for larger firms. Firms in government-dependent sectors, such as construction and manufacturing, also experience
+the largest credit boosts. Additionally, procurement-induced financing is predominantly used for working capital rather
+than long-term investment, as short-term credit expands more than long-term credit.
+Further analysis shows that while procurement enhances liquidity across firms, the magnitude and timing of credit
+expansion exhibit significant heterogeneity based on firm characteristics. The findings suggest that smaller, more
+financially constrained firms benefit disproportionately from procurement contracts, supporting the view that public
+procurement can act as a financial catalyst for firms otherwise facing borrowing limitations. Similarly, government-
+dependent industries exhibit a pronounced response, indicating that procurement awards play a stabilizing role in sectors
+where public spending constitutes a significant share of demand.
+Distinct patterns in credit responses emerge based on a firm’s position in the value chain. Downstream firms (closer
+to final demand) tend to experience an immediate surge in credit availability following procurement awards, whereas
+upstream firms (earlier in the supply chain) exhibit a delayed but more persistent expansion. This dynamic suggest that
+procurement effects could propagate heterogeneously through the production network: firms nearer to end-users benefit
+sooner, while those further up the supply chain face a lagged yet enduring impact. However, the difference in timing is
+statistically significant only when comparing the immediate expansions in downstream firms to the delayed expansions
+in upstream firms. Nevertheless, the magnitude of these idiosyncratic procurement shocks appears weaker than the
+effects documented for a global monetary policy shock by Buda et al. (2025).
+This study employs a unique dataset that integrates public procurement records from the Spanish Ministry of Finance
+with high-frequency new lending data from BBV A, enabling an unprecedented analysis of firm-level credit dynamics.
+The dataset includes over 2,000 firms receiving NGEU funding and more than 17,000 firms engaged in no-NGEU
+procurement, covering nearly 240,000 credit transactions and around 120,000 procurement awards. By incorporating
+detailed, high-frequency financial data, this study provides a more granular assessment of procurement’s role in credit
+expansion, thereby yielding new insights into firm-level financial responses
+Beyond its direct contributions to the literature on public procurement and firm financing, this study enhances the
+broader understanding of government spending’s impact on economic growth. It also contributes to the expanding field
+of high-frequency economic analysis, demonstrating the value of transaction-level data in capturing real-time shifts in
+firm behavior and credit markets.
+From a policy standpoint, the use of high-frequency, granular data is pivotal in refining economic interven-
+tions—particularly procurement strategies. By closely tracking firm-level credit responses, policymakers can more
+accurately identify which businesses or sectors are most sensitive or vulnerable, thereby informing more targeted and
+impactful contract designs. Such fine-grained insights also clarify how liquidity effects ripple through supply chains,
+helping to develop adaptive, evidence-based procurement policies that enhance overall economic resilience.
+18
+What Can 240,000 New Credit Transactions Tell Us About the Impact of NGEU Funds?
+7 Appendix
+7.1 Data descriptive statistics
+In this section, we describe the main characteristics of the firms under analysis, distinguishing four groups: All
+Procurement, the NGEU program, no-NGEU funds, and Experts (defined as firms that received both NGEU and
+no-NGEU funds). Table 1 presents descriptive statistics for key firm characteristics, including firm age, number of
+employees, turnover, new credit (disaggregated into new short-term and long-term credit), and new credit term. For
+each group, the table reports the distribution of these variables, providing the mean, coefficient of variation, the 25th,
+50th, and 75th percentiles, as well as the minimum and maximum observed values. This offers a preliminary overview
+of central tendencies and variability within each group.
+Table 1: Descriptive statistics: the Database
+Mean CV p25 p50 p75 Min Max
+All ProcurementAge 24.5 0.6 13.0 23.0 33.0 1.0 123.0
+Employees 113.4 10.5 7.0 16.0 45,0 0.0 104542.0
+Turnover 21474346.1 13.2 755159.2 2164792.3 7408882.0 0.0 27820314624.0
+New credit 377820.9 8.2 13868.6 47470.8 152694.5 0.0 250001435.9
+New short-term credit 320318.8 9.0 10888.2 37102.0 122406.3 0.5 215441068.4
+New long-term credit 629506.0 6.3 40361.4 107300.0 301572.0 0.0 250001435.9
+New credit term 270.0 9.3 36.5 84.0 111.0 0.0 738396.0
+NGEUAge 24.6 0.6 13.0 23.0 33.0 1.0 123.0
+Employees 163.2 5.4 11.0 28.0 80.0 1.0 28531.0
+Turnover 32430455.1 5.0 1464494.9 4573926.0 15806635.0 100.0 4887763968.0
+New credit 432623.2 7.1 24000.0 76710.9 240992.6 1.0 250001435.9
+New short-term credit 338909.8 5.1 20000.0 63000.0 200000.0 1.0 85000000.0
+New long-term credit 847284.4 7.3 55277.4 150000.0 400876.7 1.0 250001435.9
+New credit term 223.8 5.5 41.0 86.0 120.0 0.0 191710.0
+no-NGEUAge 24.5 0.6 13.0 23.0 33.0 1.0 123.0
+Employees 114.1 10.5 7.0 16.0 45.0 0.0 104542.0
+Turnover 21555417.5 13.2 755534.3 2165177.3 7399208.0 0.0 27820314624.0
+New credit 379053.9 8.2 13797.3 47157.0 152097.8 0.0 250001435.9
+New short-term credit 321776.5 9.0 10823.2 36941.3 122077.5 0.5 215441068.4
+New long-term credit 629648.4 6.3 40118.7 106000.0 300000.0 0.0 250001435.9
+New credit term 270.7 9.3 36.6 84.0 111.0 0.0 738396.0
+ExpertsAge 24.9 0.6 14.0 23.0 33.0 1.0 123.0
+Employees 171.6 5.3 11.0 30.0 83.0 1.0 28531.0
+Turnover 33836111.3 4.9 1545982.6 4729065.5 16788286.0 3000.0 4887763968.0
+New credit 444809.6 7.1 23951.3 77142.4 243210.7 1.0 250001435.9
+New short-term credit 350437.7 5.1 20000.0 63310.5 200000.0 1.0 85000000.0
+New long-term credit 862997.9 7.4 54538.3 150000.0 400000.0 1.0 250001435.9
+New credit term 225.4 5.6 41.0 86.9 120.0 0.0 191710.0
+Overall, firms receiving a procurement contract have an average age of 24.5 years, with ages ranging from 1 to 123 years.
+On average, these firms employ 214,744 individuals; however, a maximum of 2,057,264 employees and a coefficient of
+variation of 4.3 indicate substantial heterogeneity in firm size. Similarly, turnover displays a wide range (minimum of 1,
+maximum of 9.7 billion), with a mean of 37.8 million and a coefficient of variation of 8.9, suggesting that several large
+outliers skew the average.
+Within the NGEU subset, the average firm age is comparable to that of the overall sample (mean: 24.4 years), whereas
+the average number of employees is 215,535, reflecting a skewed distribution driven by several large firms. The
+no-NGEU group exhibits a similar pattern in age (mean: 24.5 years) and number of employees (mean: 215,351.5),
+indicating that these subgroups are broadly comparable in terms of firm age and size. In fact, 92% of the firms that
+received NGEU funds also received no-NGEU funds, further underscoring this similarity.
+19
+What Can 240,000 New Credit Transactions Tell Us About the Impact of NGEU Funds?
+The Experts group, that is, firms that received both NGEU and no-NGEU funds, is smaller in number but is characterized
+by notably larger mean values for both employees (338,361.1) and turnover (129.8 million) compared to the other
+groups. Moreover, the higher median values for employees (67,201) and turnover (9.1 million) indicate that expert
+firms tend to be larger.
+Regarding financial indicators, new credit amounts are relatively modest in the All Procurement group (mean: 27.0)
+compared to the Experts group (mean: 225.4). A similar pattern is observed for new short-term and long-term credit,
+with the Experts group consistently exhibiting higher mean values. This suggests that expert firms may secure larger
+credit lines or more significant financing packages. Correspondingly, the NGEU and no-NGEU groups demonstrate
+similar levels of new credit usage (means of 8.2 and 7.7, respectively), although NGEU firms display slightly higher
+dispersion (coefficient of variation: 2.9 versus 2.6). Finally, new credit term (measured in months) shows limited
+variation across groups, indicating that the maturities of credit agreements do not differ substantially among these firms.
+In summary, the descriptive statistics highlight substantial heterogeneity in firm size (number of employees) and turnover
+across all groups, with the Experts group consistently exhibiting the highest averages. Although age distributions are
+broadly similar, financing patterns—particularly the magnitude of new credit obtained—vary more noticeably across
+groups. These findings provide a baseline understanding of the sample characteristics, which provides knowledge of the
+analysis and the interpretation of our model’s results.
+7.2 Additional quantitative analysis
+Figure 11: Response of New Credit Operations to Public Procurement Bids without COVID-related credits: New Credit and
+New Credit Stock
+(a)New credit
+ (b)New credit stock
+Notes: The plots display the estimated coefficient β(green points) from regressions of equation 1 for each horizon hrelative to 1 month before public procurement
+awards, as well as its 90% confidence bands (green shaded area). Panel (a) shows the results for the case of the dependent variable being firm new credit after subtracting
+COVID-related credits, and panel (b) is similar to (a) but after transforming to credit stock by considering linear repayments. Estimated coefficient βis interpreted as the
+cumulative growth rate of new credit operations (a) and new credit operations stock (b) hmonths before or after procurement awards. The estimation includes firm and
+sector×time fixed effects, and all standard errors are clustered at the firm level
+20
+What Can 240,000 New Credit Transactions Tell Us About the Impact of NGEU Funds?
+Figure 12: Response of New Credit Operations to Public Procurement Bids by Upstreamness: Downstream vs Upstream
+(a)Downstrem
+ (b)Upstream
+Notes: The plots display the estimated coefficient βfrom regressions of equation 1 for each horizon hrelative to 1 month before public procurement awards, as well as its
+90% confidence bands (shaded areas), for the case of downstream firms (panel (a)) and upstream (panel (b)). Panel (a) includes firms classified as downstream, or
+relatively close to the consumer, if the metric is equal to or less than 2.2, and panel (b) firms classified as upstream, or distant from the final consumer (upstreamness
+indicator greater than 2.2). The categorization is based on ?, and further developed for the case of Spain by ?. The estimated coefficient βis interpreted as the cumulative
+growth rate of new credit operations (by upstreamness degree) hmonths before or after procurement awards. The estimation includes firm and sector ×time fixed effects,
+and all standard errors are clustered at the firm level.
+Figure 13: Response of New Credit Operations to Public Procurement Bids: Different Lag Parametrizations
+(a)3 lags
+ (b)6 lags
+Notes: The plots display the estimated coefficient β(green points) from regressions of equation 1 for each horizon hrelative to 1 month before public procurement
+awards, as well as its 90% confidence bands (green shaded area). Panel (a) shows the results for the case of controlling for 3 lags of the public procurement dummy and
+dependent variable, and panel (b) is similar to (a) but controlling for 6 lags. Estimated coefficient βis interpreted as the cumulative growth rate of new credit operations h
+months after procurement awards. Anticipatory exploration is excluded given the dynamic conflict of lags with the second element of the dependent variable. The
+estimation includes firm and sector ×time fixed effects, and all standard errors are clustered at the firm level
+21
+What Can 240,000 New Credit Transactions Tell Us About the Impact of NGEU Funds?
+Figure 14: Response of New Credit Operations to Public Procurement Bids NGEU vs no-NGEU: Different Lag Parametriza-
+tions
+(a)3 lags
+ (b)6 lags
+Notes: the plot displays the estimated coefficients β(blue points) and γ(red points) from regressions of equation 2 for each horizon hrelative to 1 month before NGEU
+and no-NGEU public procurement awards, respectively, as well as their 90% confidence bands (blue and red shaded areas for NGEU and no-NGEU, respectively). Panel
+(a) shows the results for the case of controlling for 3 lags of the public procurement dummies and dependent variable, and panel (b) is similar to (a) but controlling for 6
+lags. Estimated coefficients βandγare interpreted as the cumulative growth rate of new credit operations hmonths before or after NGEU and no-NGEU procurement
+awards, respectively. Note that no-NGEU public procurement bids refer to those different from NGEU-funded bids. The estimation includes firm and sector ×time fixed
+effects, and all standard errors are clustered at the firm level.
+Figure 15: Response of New Credit Operations to Public Procurement Bids: NGEU vs no-NGEU (since NGEU EU Council
+Approval)
+Notes: the plot displays the estimated coefficients β(blue points) and γ(red points) from regressions of equation 2 for each horizon hrelative to 1 month before NGEU
+and no-NGEU public procurement awards, respectively, as well as their 90% confidence bands (blue and red shaded areas for NGEU and no-NGEU, respectively). The
+time sample has been restricted to begin at the time when the EU Council approved the implementation of the NGEU program (July 2020). Estimated coefficients βandγ
+are interpreted as the cumulative growth rate of new credit operations hmonths before or after NGEU and no-NGEU procurement awards, respectively. Note that
+no-NGEU public procurement bids refer to those different from NGEU-funded bids. The estimation includes firm and sector ×time fixed effects, and all standard errors are
+clustered at the firm level.
+22
+What Can 240,000 New Credit Transactions Tell Us About the Impact of NGEU Funds?
+Figure 16: Response of New Credit Operations to Public Procurement Bids: NGEU vs no-NGEU (Expert Firms)
+Notes: the plot displays the estimated coefficients β(blue points) and γ(red points) from regressions of equation 2 for each horizon hrelative to 1 month before NGEU
+and no-NGEU public procurement awards, respectively, as well as their 90% confidence bands (blue and red shaded areas for NGEU and no-NGEU, respectively). The has
+been restricted to those firms, denominated as experts, that have been awarded NGEU and no-NGEU bids at some point in the time sample. Estimated coefficients βandγ
+are interpreted as the cumulative growth rate of new credit operations hmonths before or after NGEU and no-NGEU procurement awards, respectively. Note that
+no-NGEU public procurement bids refer to those different from NGEU-funded bids. The estimation includes firm and sector ×time fixed effects, and all standard errors are
+clustered at the firm level.
+23
+What Can 240,000 New Credit Transactions Tell Us About the Impact of NGEU Funds?
+7.3 Upstream vs. Downstream Sectoral Classification
+In this section, we describe the followed methodology to bridge the sector classification used by the Spanish Tax
+Authority to compile their sales data with the 2015 Spanish INE Input-Output sector classification and the computation
+of the upstreamness indicator and the sectoral upstream classification for the sales data according to Buda et al. (2025).
+The authors present a mapping between the Spanish Tax Authority and the 2015 Spanish INE Input-Output sector
+classification. Out of the 64 sectors listed in the INE IO table, they match 43 to the sales sector classification. Ultimately,
+they link 20 sales sectors to the 43 sectors in the IO table, for which they calculate an upstreamness indicator following
+the upstreamness metric proposed by Antràs et al. (2012), designed to accurately assess an industry position within
+the global production network. The upstreamness metric offers an insightful perspective on the relative distance of an
+industry from the final consumption phase, reflecting their involvement in early or intermediate stages in the supply
+chain. These authors show that this metric can be derived taking two distinct approaches, both anchored in input-output
+analysis, and both of them produce an upstreamness measure that is always at least one for every industry. Higher
+values indicate a greater degree of upstreamness for that particular industry.
+Table 2 reports the upstreamness indicator for the industries we can monitor. The first and second column reports the
+industry classification at NACE code 2 digits, respectively. The third column, the “Upstreamness” values presented in
+the table range from 1.01 for residential care services to 3.84 for mining support services activities, demonstrating the
+variation in industries positions within the supply chain.
+24
+What Can 240,000 New Credit Transactions Tell Us About the Impact of NGEU Funds?
+Table 2: Descriptive statistics: the Database
+Description CNAE-2-digit Up
+Residential care activities 87 1,01
+Social work activities without accommodation 88 1,01
+Education 85 1,12
+Human health activities 86 1,14
+Public administration and defence; compulsory social security 84 1,16
+Accommodation 55 1,18
+Food and beverage service activities 56 1,18
+Creative, arts and entertainment activities 90 1,42
+Libraries, archives, museums and other cultural activities 91 1,42
+Gambling and betting activities 92 1,42
+Manufacture of basic pharmaceutical products and pharmaceutical preparations 21 1,55
+Sports activities and amusement and recreation activities 93 1,57
+Real estate activities 68 1,58
+Activities of households as employers of domestic personnel 97 1,70
+Undifferentiated goods- and services-producing activities of private households for own use 98 1,70
+Activities of membership organisations 94 1,76
+Wholesale and retail trade and repair of motor vehicles and motorcycles 45 1,77
+Wholesale trade, except of motor vehicles and motorcycles 46 1,77
+Retail trade, except of motor vehicles and motorcycles 47 1,77
+Construction of buildings 41 1,83
+Civil engineering 42 1,83
+Specialised construction activities 43 1,83
+Insurance, reinsurance and pension funding, except compulsory social security 65 1,89
+Activities auxiliary to financial services and insurance activities 66 1,89
+Repair of computers and personal and household goods 95 1,89
+Other personal service activities 96 1,89
+Manufacture of leather and related products 15 1,98
+Manufacture of motor vehicles, trailers and semi-trailers 29 2.00
+Manufacture of other transport equipment 30 2.00
+Manufacture of textiles 13 2,02
+Manufacture of wearing apparel 14 2,02
+Manufacture of computer, electronic and optical products 26 2,09
+Manufacture of electrical equipment 27 2,09
+Repair and installation of machinery and equipment 33 2,17
+Water collection, treatment and supply 36 2,18
+Waste collection, treatment and disposal activities; materials recovery 38 2,18
+Remediation activities and other waste management services 39 2,18
+Manufacture of wood and of products of wood and cork, except furniture; manufacture of articles of straw and plaiting materials 16 2,19
+Publishing activities 58 2,20
+Motion picture, video and television programme production, sound recording and music publishing activities 59 2,20
+Programming and broadcasting activities 60 2,20
+Telecommunications 61 2,20
+Computer programming, consultancy and related activities 62 2,20
+Information service activities 63 2,20
+Manufacture of food products 10 2,27
+Manufacture of beverages 11 2,27
+Manufacture of tobacco products 12 2,27
+Manufacture of machinery and equipment n.e.c. 28 2,30
+Crop and animal production, hunting and related service activities 1 2,42
+Forestry and logging 2 2,42
+Fishing and aquaculture 3 2,42
+Manufacture of furniture 31 2,48
+Postal and courier activities 53 2,52
+Financial service activities, except insurance and pension funding 64 2,58
+Manufacture of coke and refined petroleum products 19 2,65
+Other manufacturing 32 2,65
+Electricity, gas, steam and air conditioning supply 35 2,72
+Legal and accounting activities 69 2,78
+Activities of head offices; management consultancy activities 70 2,78
+Architectural and engineering activities; technical testing and analysis 71 2,78
+Scientific research and development 72 2,78
+Advertising and market research 73 2,78
+Other professional, scientific and technical activities 74 2,78
+Veterinary activities 75 2,78
+Rental and leasing activities 77 2,78
+Employment activities 78 2,78
+Travel agency, tour operator and other reservation service and related activities 79 2,78
+Security and investigation activities 80 2,78
+Services to buildings and landscape activities 81 2,78
+Office administrative, office support and other business support activities 82 2,78
+Activities of extraterritorial organisations and bodies 99 2,80
+Land transport and transport via pipelines 49 2,86
+Water transport 50 2,86
+Warehousing and support activities for transportation 52 2,86
+Sewerage 37 3,11
+Manufacture of paper and paper products 17 3,15
+Printing and reproduction of recorded media 18 3,15
+Manufacture of other non-metallic mineral products 23 3,31
+Manufacture of rubber and plastic products 22 3,32
+Manufacture of basic metals 24 3,53
+Manufacture of fabricated metal products, except machinery and equipment 25 3,53
+Manufacture of chemicals and chemical products 20 3,60
+Mining of coal and lignite 5 3,84
+Extraction of crude petroleum and natural gas 6 3,84
+Mining of metal ores 7 3,84
+Other mining and quarrying 8 3,84
+Mining support service activities 9 3,84
+25
+What Can 240,000 New Credit Transactions Tell Us About the Impact of NGEU Funds?
+References
+Philippe Aghion, David Hémous, and Enisse Kharroubi. Cyclical fiscal policy, credit constraints, and industry growth.
+Journal of Monetary Economics , 62:41–58, 2014. doi:10.1016/j.jmoneco.2013.10.012.
+Eduardo Aguilar García, Mario Alloza Frutos, Tamara de la Mata, Enrique Moral-Benito, Iñigo Portillo-Pampin, and
+David Sarasa-Flores. Una primera caracterización de las empresas receptoras de fondos ngeu en españa. Documentos
+Ocasionales/Banco de España, 2321 , 2023.
+Asger Lau Andersen, Emil Toft Hansen, Niels Johannesen, and Adam Sheridan. Consumer responses to the covid-19
+crisis: Evidence from bank account transaction data. The Scandinavian Journal of Economics , 124(4):905–929, 2022.
+doi:10.1111/sjoe.12517.
+Pol Antràs, Davin Chor, Thibault Fally, and Russell Hillberry. Measuring the upstreamness of production and trade
+flows. American Economic Review , 102(3):412–416, 2012. doi:10.1257/aer.102.3.412. URL https://www.aeaweb.
+org/articles?id=10.1257/aer.102.3.412 .
+Ali B. Barlas, Seda Guler Mert, Berk Orkun Isa, Álvaro Ortiz, Tomasa Rodrigo, Barı¸ s Soybilgen, and Ege Yazgan.
+Big data financial transactions and gdp nowcasting: The case of turkey. Journal of Forecasting , 2024. URL
+https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4595878 . Forthcoming.
+Christiane Baumeister, Danilo Leiva-León, and Eric R. Sims. Tracking weekly state-level economic conditions. The
+Review of Economics and Statistics , 106(2):483–504, 2024. doi:10.1162/rest_a_01134. URL https://www.nber.
+org/papers/w29003 .
+Andrew Bird, Stephen A. Karolyi, Stefan Lewellen, and Thomas Ruchti. The credit channel of fiscal policy transmission.
+Mimeo, 2022. URL https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4197433 .
+Edoardo Briganti. On the effects of government purchases and their transmission mechanism. Mimeo, 2024. URL
+https://edoardobriganti.github.io/research/edoardo_briganti_JMP.pdf .
+Gergely Buda, Vasco M Carvalho, Stephen Hansen, Alvaro Ortiz, Tomasa Rodrigo, Sevi Rodriguez Mora, and Pep
+Ruiz de Aguirre. National accounts in a world of naturally occurring data. CEPR DP17519, 2022.
+Gergely Buda, Vasco M Carvalho, Giancarlo Corsetti, João B Duarte, Stephen Hansen, Álvaro Ortiz, Tomasa Rodrigo,
+and José V Rodríguez Mora. The short lags of monetary policy. Cambridge Papers of Economics , (2504), 2025.
+Raj Chetty, John Friedman, Nathaniel Hendren, Michael Stepner, and The Opportunity Insights Team. How did
+covid-19 and stabilization policies affect spending and employment? a new real-time economic tracker based on
+private sector data. NBER WP No 27431, 2020.
+European Commission. Public procurement database. 2025. URL https://single-market-economy.ec.europa.
+eu/single-market/public-procurement_en .
+Julian di Giovanni, Manuel García-Santana, Priit Jeenas, Enrique Moral-Benito, and Josep Pijoan-Mas. Buy big or buy
+small? procurement policies, firms’ financing constraints, and growth. CEPR Discussion Paper DP17023, Centre for
+Economic Policy Research (CEPR), 2022. URL https://cepr.org/publications/dp17023 .
+Francis X. Diebold. Real-time real economic activity: Entering and exiting the pandemic recession of 2020. In Essays in
+Honour of Fabio Canova , volume 44 of Advances in Econometrics , pages 5–24. Emerald Group Publishing Limited,
+2022.
+Ran Duchin and Denis Sosyura. Safer ratios, riskier portfolios: Banks’ response to government aid. Journal of Financial
+Economics , 113(1):1–28, 2014. doi:10.1016/j.jfineco.2014.02.005.
+Sercan Eraslan and Thomas Götz. An unconventional weekly economic activity index for germany. Technical
+Paper 02/2020, Deutsche Bundesbank, 2021. URL https://www.bundesbank.de/en/publications/reports/
+technical-papers/an-unconventional-weekly-economic-activity-index-for-germany-851884 .
+European Central Bank. The economic impact of next generation eu: A euro area perspective. ECB Economic
+Bulletin , (6), 2020. URL https://www.ecb.europa.eu/pub/economic-bulletin/articles/2020/html/
+ecb.ebart202006_01~4eafe11157.en.html .
+Claudio Ferraz, Frederico Finan, and Dimitri Szerman. Procuring firm growth: The effects of government purchases on
+firm dynamics. NBER Working Paper No. 21219 , 2015. URL https://www.nber.org/papers/w21219 .
+Ricardo Duque Gabriel. The credit channel of public procurement. Journal of Monetary Economics , page 103601,
+2024.
+Jordi Galí, J. David López-Salido, and Javier Vallés. Understanding the effects of government spending on consumption.
+Journal of the European Economic Association , 5(1):227–270, 2007.
+26
+What Can 240,000 New Credit Transactions Tell Us About the Impact of NGEU Funds?
+Peter Ganong and Pascal Noel. Consumer spending during unemployment: Positive and normative implications.
+American Economic Review , 109(7):2383–2424, 2019. doi:10.1257/aer.20170537.
+Mishel Ghassibe. Monetary policy and production networks: An empirical investigation. Journal of Monetary
+Economics , 119:21–39, 2021. doi:10.1016/j.jmoneco.2021.02.002. URL https://ghassibem.github.io/
+Ghassibe_JME_final-c.pdf .
+Shafik Hebous and Tom Zimmermann. Can government demand stimulate private investment? evidence from us federal
+procurement. Journal of Monetary Economics , 118:178–194, 2021.
+Òscar Jordà. Estimation and inference of impulse responses by local projections. American economic review , 95(1):
+161–182, 2005.
+Pedro Juarros. Fiscal stimulus, credit frictions, and the amplification effects of small firms. Job Market Paper,
+Georgetown University, 2020. URL https://pedrojuarros.github.io/MyWebsite/JMP_Juarros_Nov2022.
+pdf.
+Munseob Lee. Government purchases and firm growth. Available at SSRN 3823255 , 2021.
+Daniel J Lewis, Karel Mertens, James H Stock, and Mihir Trivedi. Measuring real activity using a weekly economic
+index. New York FED WP No 920, 2020.
+Ali K. Ozdagli and Michael Weber. Monetary policy through production networks: Evidence from the stock market.
+NBER Working Paper No. 23424 , 2017. URL https://www.nber.org/papers/w23424 .
+Valerie A. Ramey. Can government purchases stimulate the economy? Journal of Economic Literature , 49(3):673–685,
+2011. doi:10.1257/jel.49.3.673.
+António Rua and Isabel M. Lourenço. Nowcasting gdp with electronic payments data. International Journal of
+Forecasting , 36(2):394–407, 2020. doi:10.1016/j.ijforecast.2019.08.003.
+27

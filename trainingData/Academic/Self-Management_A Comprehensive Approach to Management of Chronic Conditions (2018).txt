@@ -1,0 +1,1333 @@
+Self-Management: A Comprehensive Approach to Management
+of Chronic Conditions
+Originally published as: Patricia A. Grady, RN, PhD, and Lisa Lucio Gough, PhD. Self-Management: A Comprehensive Approach to Management of Chronic
+Conditions. Am J Public Health . 2014;104(8):e25 –e31. doi:10.2105/AJPH.2014.302041.
+For both clinical and economic reasons, the increasing number of persons living
+with chronic conditions represents a public health issue of growing importance.Emphasizing patient responsibility, and acting in concert with the provider
+community, self-management represents a promising strategy for treating chronic
+conditions—moving beyond education to teaching individuals to actively identifychallenges and solve problems associated with their illness. Self-managementalso shows potential as an effective paradigm across the prevention spectrum
+(primary, secondary, and tertiary) by establishing a pattern for health early in life
+and providing strategies for mitigating illness and managing it in later life. Wesuggest ways to advance research methods and practical applications of self-
+management as steps in its future development and implementation. ( Am J Public
+Health. 2018;108:S430–S436. doi:10.2105/AJPH.2014.302041)
+Improvements in health care have resulted in
+greater numbers of people living with multiple
+chronic conditions for longer periods of time.With this change, chronic illness is now a majorfocus of health care.
+1At the same time, in-
+creased attention has been concentrated onapproaches to manage chronic symptoms tomaintain patient independence and quality oflife over longer periods of time. Approachesto managing chronic illness are shifting fromthe traditional provider---patient relationshipto a paradigm in which individuals with
+chronic conditions play a key role in guiding
+their care, in partnership with health careproviders.
+2,3
+Many prevalent chronic conditions, such as
+heart disease, diabetes, and arthritis, though
+unique in their own attributes and demands,
+share common challenges associated with theirmanagement. These include dealing withsymptoms and disability; monitoring physicalindicators; managing complex medicationregimens; maintaining proper levels of nutri-tion, diet, and exercise; adjusting to the psy-chological and social demands, including dif-ﬁcult lifestyle adjustments; and engaging in
+effective interactions with health careproviders.
+4,5
+The identi ﬁcation and elaboration of com-
+mon patient-centric strategies to deal with
+these challenges is the focus of the ﬁeld ofself-management.6,7Regardless of the
+chronic condition, the development of a ge-
+neric set of skills has proven successful in
+allowing individuals to effectively manage theirillness and improve health outcomes.
+8A 2010
+report by the Department of Health and Hu-
+man Services included self-management as oneof 4 goals in a strategic framework for im-
+proving the health status of individuals with
+multiple chronic conditions.
+9More recently,
+the 2012 Institute of Medicine report “Living
+Well With Chronic Illness: A Call for Public
+Health Action ”included self-management10as
+one of several models of living well interven-tions, noting that self-management programs
+instill individual respo nsibility and offer tools
+for patients to use in caring for their chronicillness.
+10
+There is increasing recognition that chronic
+illness, including its prevention, treatment and
+management, represents a public health as wellas a clinical issue.
+11,12Indeed, the Institute of
+Medicine report noted that a population health
+perspective for developing strategies, interven-tions, and policies to combat chronic illness is
+critical.
+10Community-based self-management
+intervention programs are one aspect of apopulation-based approach addressing thelarger public health problem of chronic con-
+ditions in the United States and across the
+globe. There is an extensive body of literaturerelated to self-management of chronic condi-
+tions, but our intent with this article is not to
+provide a comprehensive review, but rather tohighlight the unique contribution of nurse sci-entists to the ﬁeld.
+N u r s i n gs c i e n c eh a se n h a n c e dt h ec a r eo f
+individual patients and has tested interven-
+tions that can be scaled up for implementa-tion at the population level. We presentexamples of nursing science that demon-strate effectiveness, promise sustainabilityand scalability, and set the foundationfor implementing wide-reaching publichealth actions for managing chronicillness.
+12
+There is increased awareness of the need
+to promote conceptual clarity regarding
+self-management and its integration intoclinical practice. Equally important is the re-quirement to develop more sophisticated
+models of self-management, tailored to var-
+ious health conditions and situations. Fun-damental to the development of suchmodels and their practical application is theneed to conduct research that informs self-management practice and contributes tohealth policy.
+The nursing community, comprising both re-
+searchers and clinicians, plays a crucial role in
+e f f o r t st op r o v i d et h ee v i d e n c eb a s ef o ri n -novative self-management practices, and is ide-ally positioned to implement those advances inap r a c t i c a lm a n n e r .O v e rt h ec o u r s eo fi t sh i s t o r y ,the National Institute of Nursing Research(NINR) at the National Institutes of Health(NIH) has promoted self-management sci-ence as one of its core areas of investigation,
+supporting research to improve and manage
+symptoms of acute and chronic illness.
+13
+Recognizing that self-managementrepresents a topic of ever-increasing impor-tance, a goal of NINR is to advance thescience of self-management and, ultimately,AJPH PERSPECTIVES
+S430 |Perspectives From the Social Sciences |Peer Reviewed |Grady and Gough American Journal of Public Health |Supplement 6, 2018, Vol 108, No. S6
+disseminate results widely for translation into
+clinical practice.
+Recently, a group of nurse scientist leaders
+assembled to discuss “The Science of Chronic
+Illness Self-Management ”as the topic of the
+2013 National Nursing Research Roundtable.The Roundtable is an annual meeting with thepurpose of providing a regular forum of
+communication about th e direction and con-
+duct of nursing research. Discussions fromthis year ’s meeting resulted in a set of
+recommended areas of focus and approachesto advance the ﬁeld and practice of self-
+management (see the box on this page).THE SCIENCE OF SELF-MANAGEMENT
+Nursing science contributes to the
+ﬁeld of self-management through re-
+search that de ﬁnes the concept, describes
+its theoretical underpinnings, and de-
+velops and examines the effectiveness of
+self-management interventions in various
+settings.
+As a concept, self-management has been
+described and considered for more than 40
+years with the term ﬁrst used by Thomas Creer
+to suggest that patients are active participants
+in their own treatments.14Today, the term
+self-management is used widely and is de-
+scribed by a variety of de ﬁnitions and con-
+ceptualizations, which contribute to a lack of
+clarity and agreement in the literature.15At
+a broad level, self-management is de ﬁned as
+the day-to-day management of chronic condi-
+tions by individuals over the course of an
+illness.5,14
+Although self-management is often used
+interchangeably with terms such as self-care,
+self-regulation, patient education, and patient
+counseling, self-management has evolved be-
+yond the practice of merely providing infor-
+mation and increasing patient knowledge.
+Although the concepts are related, self-care is
+interpreted by many authors as consisting of
+those tasks performed at home by healthy
+people to prevent illness, rather than merely
+managing existing illness.5,15,16Self-regulation
+is more distantly related, referring to thecapacity to control and manage thoughts, emo-
+tions, or behavior. Adding to the lack of uni-
+formity in the use of the term self-management
+is its use in referring to (1) the process of self-
+management, (2) self-management interven-
+tion programs, and (3) the description of
+outcomes gained by engaging in self-management
+practices.
+15
+Conceptual and theoretical descriptions of
+self-management with reference to compo-
+nents, processes, and outcomes have expanded
+and evolved from the 1980s, when Corbin and
+Strauss17identi ﬁed 3 sets of tasks associated
+with the work of living with a chronic illness.
+The tasks included (1) medical management
+of the condition, (2) behavior management,
+and (3) emotional management. Five core
+self-management processes were later broadlyRecommended Areas of Focus and Approaches to Advancing
+Self-Management
+Conceptual clarity
+Standardize language by incorporating uniform, agreed-upon language into the National Library of Medicine’s medical
+subject headings.
+Key areas of research
+Expand comparative effectiveness studies of interventions to compare
+OutcomesQuality of careCost
+Identify the most valid measures of self-management.
+Explore the use of statistical modeling to simulate intervention outcomes.Identify and study relevant biological and genetic variables.Identify mediating factors
+Related to sustaining self-managementFor tailoring to individuals
+Identify and incorporate elements of program scalability, sustainability, cost-effectiveness, and reach.Expand research to widen the application of self-management technology (Internet, social media).
+Methodologies for future studies
+Implement a collaborative, multidisciplinary methods approach.Use statistical modeling: systems-based modeling—for connecting underlying complex elements of self-management.Conduct pragmatic clinical trials and use common data elements across studies.
+Dissemination and communication of research
+Disseminate research results widely to include policy and clinical practice audiences.Publish in high-impact clinical journals and seminal science publications.Coordinate with professional organizations to disseminate results and sponsor public forums to broaden awareness of
+self-management.
+Provide communication, outreach, and media training to encourage and enhance communication to lay audiences.
+Translation into clinical practice
+Enhance evidence to improve clinical care.
+Identify self-management interventions most likely to improve health outcomes.Emphasize evidence-based professional training curricula.
+Incorporate self-management into primary care.
+Engage patients to share self-management experience.
+Serve as a resource for local self-management support information.
+Tailor self-management to individual needs.
+Consider cultural norms and traditions.Engage patients as to their functional goals.
+Transition health care system policies and practices to incentivize and promote self-management.
+Use self-management programs as a way to decrease or stabilize costs to payer.Reimburse providers for prescribing proven self-management techniques.Use interprofessional approach to developing self-management intervention programs.AJPH PERSPECTIVES
+Supplement 6, 2018, Vol 108, No. S6 |American Journal of Public Health Grady and Gough |Peer Reviewed |Perspectives From the Social Sciences |S431
+outlined by nurse scientists and included
+problem solving, decision-making, resource
+utilization, partnerships with health care pro-viders, and taking action.
+14
+Another theory, the Individual and Family
+Self-Management Theory, proposed that self-management consists of 3 dimensions: context,process, and outcomes with the contextualfactors in ﬂuencing the process and outcomes of
+self-management practices.
+15This theory also
+expanded the speci ﬁcity of the processes to
+include knowledge and beliefs, self-regulationskills and abilities, and social facilitation, andit further de ﬁned outcomes as proximal and
+distal.
+15
+More recently, researchers have expanded
+current descriptions of self-management pro-
+cesses from the perspective of individuals living
+with chronic conditions. These include (1)focusing on illness needs, (2) activating re-sources, and (3) living with chronic illness.
+18
+Self-management is also one of the 6 essen-
+tial elements identi ﬁed in the Chronic Care
+Model.19The Chronic Care Model seeks to
+improve quality and outcomes by focusing on
+system-level changes that have an impact on
+patient-related and provider-related factors4
+and is increasingly being used as the frame-work for identifying elements of the systembelieved to affect chronic disease outcomes.
+10
+Self-management of chronic illness does
+not exist in a vacuum, but rather within thecontext of other people and in ﬂuences.
+20Fun-
+damental to its success are the relationships
+among the patients and their health care pro-viders (primarily nurses), friends and commu-nity, and family members.
+21--- 2 3Family is an
+important source of support for people withchronic conditions. Individuals with higherlevels of family support have greater adherenceto self-management
+24and better control over
+their conditions.20,25,26This is particularly
+important in long-term self-management wherefamily emphasis on self-reliance and personalachievement, family cohesion, and attentiveresponses to symptoms have been associatedwith better patient outcomes.
+27
+Researchers have placed a greater emphasis
+on the critical role of family and community
+self-management research. Self-management
+within this context has identi ﬁed signi ﬁcant risk
+and protective factors as contributing to out-comes. These factors in ﬂuence individuals ’and families ’abilities to manage chronic illness
+and, as such, may be potential targets of in-
+tervention.
+28The Individual and Family Self-
+Management Theory blends individual andfamily self-management,
+15recognizing that en-
+hancing individuals ’and families ’self-management
+results in more positive outcomes. Such theo-ries and family-centered self-managementstudies are important for the development of
+interventions that address the need for patients
+with chronic illness to overcome family barriersand emphasize the use of positive supportivetechniques by family members.
+23,27
+Clinical Intervention and Targeted
+Programs
+The framework built by theoretical and
+conceptual self-management research has pro-
+vided platforms for developing and testingclinical intervention programs by nurse scientists,who are ideally positioned at the intersection ofclinical research and the implementation ofinterventions. Two of the most successful andwell-known self-management programs are theArthritis Self-Management Program (ASMP)
+29
+and the Diabetes Self-Management Program,30
+developed with NINR and NIH support by 2pioneers in the ﬁeld (Kate Lorig and Margaret
+Grey, respectively).
+Early evaluation studies of ASMP partici-
+pants showed that they experienced reducedpain, increased perceived self-ef ﬁcacy and
+quality of life, fewer visits to physicians, and,
+in some, reduced disability, all of which re-
+mained for at least 4 years after initial partic-ipation in the program.
+29The ASMP was the
+precursor for the development of the currentself-management programs offered by the StanfordPatient Education Research Center for peopleliving with diabetes,
+30,31HIV/AIDS,32and chronic
+pain.33Community-based self-management inter-
+vention programs for pe ople living with chronic
+conditions such as heart disease, lung disease,stroke, arthritis, or multiple chronic conditionshave also been developed.
+8,34,35
+The Chronic Disease Self-Management
+Program was designed to meet the needs ofmanaging day-to-day treatment and maintain-ing daily life activities and has proven success-
+ful at improving health behaviors and health
+status, resulting in fewer hospitalizations over-all and fewer days spent in the hospital.
+8
+These ﬁndings demonstrated the feasibility ofself-management intervention programs that
+cut across a variety of chronic illnesses, leading
+to positive health outcomes, many of whichpersist for years, with an added bene ﬁto f
+reduced health care costs.
+34,35Both the ASMP
+and the Chronic Disease Self-ManagementProgram interventions are proven models ofsuccessful self-management programs and havebeen adopted by health care systems in the
+United States, Canada, Australia, New Zealand,
+29
+the United Kingdom,1,36,37and other countries
+and translated into numerous languages for usearound the world.
+1
+Self-management programs tailored to spe-
+ciﬁc groups and with a variety of delivery
+strategies have proven successful at improv-ing health outcomes in targeted populations.
+With support from NINR, a community-based
+peer-led Spanish-language diabetes self-management program was developed for Latinoswith type 2 diabetes. Randomized trials showedthat the program improved health outcomesincluding improvements in hemoglobin A1Clevels, health distress, symptoms of hypo- andhyperglycemia, and self-ef ﬁcacy that persisted
+in later follow-up studies.
+38This program has
+since been translated into English30and was
+recently adapted into an online program.39
+Early research by Grey and colleagues on
+coping strategies of school-age children andadolescents with diabetes
+40- - -43formed the
+basis for the later development of diabetes44,45
+and obesity46,47intervention programs in these
+populations. More recently, Grey ’s use of
+Internet-based intervention programs for di-abetes
+48- - -50and obesity47has contributed to
+the use of the Internet as a promising toolfor delivering self-management interventionsto younger populations. One advantage toInternet-based programs is that they mightallow greater participation by youths who
+might not otherwise be able to or desire to meet
+in a group setting.
+Internet intervention programs targeting
+youths with diabetes have proved successfulat increasing self-management participationand skills resulting in positive outcomes. Oneexample of such an Internet intervention isTEENCOPE. This program targets youths with
+type 1 diabetes who are transitioning from
+childhood to adolescence and allows them tomanage their diabetes more independently.The intervention is based on an in-personAJPH PERSPECTIVES
+S432 |Perspectives From the Social Sciences |Peer Reviewed |Grady and Gough American Journal of Public Health |Supplement 6, 2018, Vol 108, No. S6
+group coping skills training strategy shown to
+lower glycosylated hemoglobin, improve di-
+abetes and medical self-ef ﬁcacy, and lessen the
+impact of diabetes on quality of life.51Similar
+to the in-person group coping skills training,youths who participated in the Internet inter-vention showed improved outcomes in man-aging their diabetes.
+52Studies evaluating the
+effectiveness of tailored self-management in-
+terventions have also shown positive health
+beneﬁts for a variety of populations such as
+Asian Americans,53African Americans,54rural
+populations,55and older adults.56
+Self-management intervention programs
+continue to be developed, evaluated, andsuccessfully implemented for numerouschronic illnesses and conditions. Indeed, en-
+tities such as the Cochrane Collaboration
+have conducted evidence-based reviews ofvarious self-management strategies, ﬁnding
+merit in programs focused on topics such asoral anticoagulation therapy,
+57asthma,58- - -60
+bipolar disease,61and diabetes,62among
+others.
+Environmental Factors
+The ability to self-manage chronic condi-
+tions is directly affected by factors related toone ’s community and home environment
+and resources. Demographic disparitiescontribute to the formation of certain envi-ronmental barriers that may result inchronic conditions. For example, some pop-
+ulations experience poor access to ﬁtness
+and recreational facilities and grocery storesthat sell fresh fruits and vegetables.
+10
+Neighborhood safety and fear of violencemay also suppress physical activity andadversely affect healthy eating patterns.
+10
+Such disparities point to the need for envi-ronmental considerations when one is de-
+veloping interventions to support healthy
+lifestyles in these populations.
+The relationship between people manag-
+ing chronic conditio ns and disability is
+addressed in the home through interventionprograms that increase the capacity of theindividual to function and decrease barriers
+in the physical environment to create a living
+environment suitable for self-management.
+Home- and community-based services playa critical role in enabling individuals tolive and work successfully with chronicconditions. Facilit ating home- and
+community-based services is one of the
+objectives outlined by the Department ofHealth and Human Services ’strategic
+framework for optimizing health and qualityof life for individuals with multiple chronicconditions.
+9In recent years, evidence-based
+programs and services have been developedto assist those with chronic conditions, es-
+pecially the elderly, in maintaining healthier
+and more independent lives.
+One example of this type of program is the
+Community Aging in Place, Advancing BetterLiving for Elders (CAPABLE) intervention.This intervention represents an innovativemultifactored approach for optimizing self-management and living well. It extends the
+concept of community to one that includes
+resources for addressing the immediate physi-cal environment of the home as a means toeliminate barriers to functioning on a dailybasis. The CAPABLE program is an interpro-fessional intervention that emphasizes system-atic attention to the individuals ’physical and
+social environments in the design of their
+treatments and self-management strategies.
+63
+The program coordinates home visits by an
+intervention team of occupational therapists,who identify and prioritize physical perfor-mance problem areas and environmental is-sues; nurses, who assess medical issues thataffect daily function; and handymen, whoprovide modi ﬁcations and home repairs as
+directed by the occupational therapist. Partici-
+pants in the randomized controlled CAPABLEtrial experienced reduced dif ﬁculty in con-
+ducting the activities of daily living and im-proved their quality of life compared withcontrol groups.
+64The study also demonstrated
+that the intervention was acceptable to partic-ipants and has the potential to be tested on
+a larger scale for future widespread imple-
+mentation.
+THE SCOPE OF SELF-MANAGEMENT
+For more than 25 years, NINR and nursing
+science have been instrumental in supportingand conducting the research fundamental to
+the development and broader application of
+self-management.
+65At the most basic level,
+the maintenance of health and the manage-ment of illness may be viewed as being theresponsibility of the individual or, as described
+by Star ﬁeld et al., as the “responsible steward-
+ship of one ’s health. ”
+1 1(p582)Therefore, the
+concept of self-management is integral to boththe maintenance of wellness and the manage-ment of illness.
+Ultimately, all self-management interven-
+tion programs are directed at enhancing theability of individuals to improve their health
+status, regardless of where the individual
+may fall on the health---disease spectrum.Furthermore, self-management may beviewed as the unifying force behind the 3processes —primary, secondary, and tertiary
+prevention —that span efforts to maintain
+wellness and control symptoms and illnessprogression. Although de ﬁnitions of these 3
+terms differ, primary prevention may be
+thought of as efforts to preclude the onset ofillness among the asymptomatic, secondaryprevention as involving the detection of illnessamong asymptomatic persons, and tertiaryprevention as involving efforts to prevent thedeterioration of health in cases where illnessis already present.
+Self-management has been traditionally linked
+to secondary and tertiary prevention. Indeed,the association between self-managementand tertiary prevention has been noted forapproximately 2 decades.
+66However, self-
+management is no less important within thecontext of primary prevention, requiring activeparticipation by the individual through the
+nature of the behaviors and choices made to
+stay healthy and avoid illness.
+Recently, tertiary prevention has been pro-
+posed as a key to strengthening the health caresystem by improving the quality of care andcontrolling cost.
+67,68We believe support for
+such an approach has been demonstrated bythe research-based self-management interven-
+tion programs described earlier.
+Self-management may serve as a model for
+tertiary prevention by engaging people at thelevel of their functional status so that theymay manage their own tertiary preventionefforts. Such interventions teach problemsolving and creativity in managing illness, aretransportable to various settings, and facilitate
+the use of resources in the community.
+These successful approaches are useful tonot only tertiary prevention, but also to alllevels of prevention and wellness.AJPH PERSPECTIVES
+Supplement 6, 2018, Vol 108, No. S6 |American Journal of Public Health Grady and Gough |Peer Reviewed |Perspectives From the Social Sciences |S433
+ADVANCING SELF-MANAGEMENT
+Improving quality of life through chronic
+illness self-management represents an oppor-
+tunity for nursing science. Among the recom-
+mendations for advancing the research and
+practice of self-management, as discussed at the
+2013 National Nursing Research Roundtable,
+were the need for conceptual clari ﬁcation
+through the standardization of terminology
+that will enable more valid comparison and
+assessment of outcomes and intervention pro-
+grams; the identi ﬁcation of key areas of self-
+management research to focus resources on
+those that offer the most promise for advancing
+theﬁeld; use of various methodologies includ-
+ing comprehensive, multidisciplinary team
+strategies, statistical and systems-based model-
+ing, and pragmatic clinical trials; dissemination
+strategies that demonstrate effectiveness andhave the potential to be sustainable, scalable,
+and wide-reaching; and ways to translate self-
+management into clinical practice more effec-
+tively. The recommendations are summarized
+in the box on page e2.
+Because most chronic conditions are related
+to lifestyle, self-management represents an
+opportunity for direct intervention at the in-
+dividual level with the potential for favorable
+impacts on health and health behaviors. An
+approach emphasizing self-management, tai-
+lored to various conditions, populations, and
+circumstances, may arguably be effective
+across the prevention spectrum, establishing
+a pattern for health early in life (primary pre-
+vention), and providing strategies for mitigating
+illness and managing it in later life (secondary
+and tertiary prevention).
+It is important to note that the 3 areas of
+prevention do not exist in isolation from one
+another. On the contrary, a complex interrela-
+tionship exists among the areas of prevention
+such that, for example, primary and secondary
+prevention remain important elements of health
+care and maintenance of health status evenamong persons currently af ﬂicted with a serious
+chronic condition and attempting to self-manage
+their illness through tertiary means.
+69
+As trusted health professionals, nurses have
+a substantial role in deepening the scope of
+self-management across the 3 realms of preven-
+tion. Nurses are at the forefront of implementingself-management---based illness prevention and
+wellness programs on a daily basis in clinical and
+home settings. In complementary fashion, nurs-ing research of ever more sophisticated self-management interventions will advance wellnessand prevent illness through provision of theevidence necessary to improve health outcomes.
+CONCLUSIONS
+As chronic conditions emerge as a major
+public health concern, self-management willcontinue to grow as a crucial approach tomanaging these conditions, preventing illness,and promoting wellness. Because chronic con-ditions are generally slow in their progressionand long in their duration, self-management
+research translated into practice can offer those
+living with chronic conditions a means tomaintain or even improve their capacity to livewell over the course of their lives. There ispromising evidence, as outlined in this article,for the effectiveness of self-management in-tervention programs that address speci ﬁc dis-
+eases, as well as programs showing success
+across multiple chronic conditions. As detailed
+in the box on page e2, there are key researchquestions yet to be addressed that will continueto reﬁne both the concept and practice of
+chronic illness self-management. This shouldbring greater translation and adaptation ofproven interventions, increase the ability toscale up to reach more people in need, and
+result in more thorough evaluations of inter-
+vention program effectiveness.
+Self-management has particular value in that
+it represents an amalgamation of the goals ofthe patient, family, community, and the clini-cian with everyone working in partnership tobest manage the individual ’s illness while fa-
+cilitating comprehensive care. In this respect,
+self-management reaches beyond traditional
+illness management by incorporating the largerconcept of prevention by emphasizing thenotion that those who are chronically ill stillhave a need for preventive interventions topromote wellness and mitigate the further de-terioration of health. Thus, if one considers thenature of self-management in all its elements
+and practical characteristics, it is not only a
+logical approach to health and health care, butit is also an optimal way to address chronicconditions as a major issue in public health.Nursing science plays an important role in
+the research, translation, and clinical practice
+of self-management and will continue to con-tribute to the evidence base for innovative andeffective practices. As one of the largest andmost trusted groups of health care profes-sionals, nurses are uniquely positioned to bringself-management to individuals and the largerpopulation, whether they are managing a
+chronic condition or maintaining wellness, by
+serving as the bridge from research to practice.In this manner, nurses bring the hands-on skillsof self-management to communities and in-dividuals to not just live, but also to thrivein their best achievable state of health andwell-being.
+With the continued support of the research,
+clinical, and public health communities, self-
+management will remain a promising directionfor addressing chronic conditions that area major health and economic concern ofAmericans. In the process, countless numbersof people will be helped to live well —physically,
+emotionally, and socially —despite illness.
+j
+About the Authors
+The authors are with the National Institute of Nursing
+Research, National Institutes of Health, Bethesda, MD.
+Correspondence should be sent to Lisa Lucio Gough,
+PhD, 6701 Democracy Blvd, Suite 710, Bethesda, MD20817 (e-mail: goughll@mail.nih.gov). Reprints can beordered at http://www.ajph.org by clicking the “Reprints ”
+link.
+This article was accepted April 10, 2014.
+Contributors
+Both authors contributed to the design, writing, and the
+editing of the article.
+Acknowledgments
+The authors acknowledge the contributions of ArthurMeltzer, PhD, and Louise Rosenbaum, PhD, from the
+National Institute of Nursing Research in the preparationof this article.
+Human Participant Protection
+No protocol approval was necessary because there wereno human participants involved in the project.
+References
+1. Dowrick C, Dixon-Woods M, Holman H, Weinman J.
+What is chronic illness? Chronic Illn . 2005;1(1):1- - -6.
+2. Holman H, Lorig K. Patients as partners in managing
+chronic disease. Partnership is a prerequisite for effec-
+tive and ef ﬁcient health care. BMJ. 2000;320(7234):
+526- - -527.
+3. Bodenheimer T, Lorig K, Holman H, Grumbach K.
+Patient self-management of chronic disease in primarycare. JAMA . 2002;288(19):2469- - -2475.AJPH PERSPECTIVES
+S434 |Perspectives From the Social Sciences |Peer Reviewed |Grady and Gough American Journal of Public Health |Supplement 6, 2018, Vol 108, No. S6
+4. Wagner EH, Austin BT, Davis C, Hindmarsh M,
+Schaefer J, Bonomi A. Improving chronic illness care:translating evidence into action. Health Aff (Millwood) .
+2001;20(6):64- - -78.
+5. Clark NM, Becker MH, Janz NK, Lorig K, Rakowski
+W, Anderson L. Self-management of chronic disease byolder adults: a review and questions for research. J Aging
+Health . 1991;3(1):3- - -27.
+6. Barlow JH, Sturt J, Hearnshaw H. Self-management
+interventions for people with chronic conditions inprimary care: examples from arthritis, asthma anddiabetes. Health Educ J . 2002;61(4):365- - -378.
+7. Swendeman D, Ingram BL, Rotheram-Borus MJ.
+Common elements in self-management of HIV and otherchronic illnesses: an integrative framework. AIDS Care .
+2009;21(10):1321- - -1334.
+8. Lorig KR, Sobel DS, Stewart AL, et al. Evidence
+suggesting that a chronic disease self-management pro-gram can improve health status while reducing hospi-talization: a randomized trial. Med Care . 1999;37(1):
+5-- -14.
+9. Multiple chronic conditions —a strategic frame-
+work: optimum health and quality of life for individ-uals with multiple chronic conditions. Washington,DC: US Department of Health and Human Services;2010.
+10. Living well with chronic illness: a call for public
+health action. Washington, DC: Institute of Medicine;2012.
+11. Star ﬁeld B, Hyde J, Gérvas J, Heath I. The concept of
+prevention: a good idea gone astray? J Epidemiol Com-
+munity Health . 2008;62(7):580- - -583.
+12. Sox HC. Resolving the tension between population
+health and individual health care. JAMA . 2013;310
+(18):1933- - -1934.
+13. National Institute of Nursing Research. NINR stra-
+tegic plan. Available at: https://www.ninr.nih.gov/sites/www.ninr.nih.gov/ ﬁles/ninr-strategic-plan-2011.pdf.
+Accessed May 15, 2013.
+14. Lorig KR, Holman H. Self-management education:
+history, de ﬁnition, outcomes, and mechanisms. Ann
+Behav Med . 2003;26(1):1- - -7.
+15. Ryan P, Sawin KJ. The individual and family
+self-management theory: background and perspectiveson context, process, and outcomes. Nurs Outlook .
+2009;57(4):217- - -225.
+16. Barlow J, Wright C, Sheasby J, Turner A, Hainsworth
+J. Self-management approaches for people with chronicconditions: a review. Patient Educ Couns . 2002;48(2):
+177- - -187.
+17. Corbin J, Strauss A. Managing chronic illness at home:
+three lines of work. Qual Sociol . 1985;8(3):224- - -247.
+18. Schulman-Green D, Jaser S, Martin F, et al. Processes
+of self-management in chronic illness. J Nurs Scholarsh .
+2012;44(2):136- - -144.
+19. Wagner EH. Chronic disease management: what
+will it take to improve care for chronic illness? Eff Clin
+Pract . 1998;1(1):2- - -4.
+20. Gallant MP. The in ﬂuence of social support on
+chronic illness self-management: a review and direc-tions for research. Health Educ Behav . 2003;30
+(2):170- - -195.
+21. Geden E, Isaramalai SA, Taylor S. In ﬂuences of
+partners ’views of asthma self-management and familyenvironment on asthmatic adults ’asthma quality of life.
+Appl Nurs Res . 2002;15(4):217-- -226.
+22. Rosland AM, Kieffer E, Israel B, et al. When is social
+support important? The association of family support
+and professional support with speci ﬁc diabetes self-
+management behaviors. J Gen Intern Med . 2008;23(12):
+1992- - -1999.
+23. Rosland AM, Heisler M, Choi HJ, Silveira MJ, Piette
+JD. Family in ﬂuences on self-management among func-
+tionally independent adults with diabetes or heart failure:
+do family members hinder as much as they help? Chronic
+Illn. 2010;6(1):22- - -33.
+24. DiMatteo MR. Social support and patient adherence
+to medical treatment: a meta-analysis. Health Psychol .
+2004;23(2):207-- -218.
+25. Luttik ML, Jaarsma T, Moser D, Sanderman R, van
+Veldhuisen DJ. The importance and impact of socialsupport on outcomes in patients with heart failure: an
+overview of the literature. J Cardiovasc Nurs . 2005;20
+(3):162- - -169.
+26. Strom JL, Egede L. The impact of social support
+on outcomes in adult patients with type 2 diabetes:
+as y s t e m a t i cr e v i e w . Curr Diab Rep . 2012;12(6):
+769- - -781.
+27. Rosland AM, Heisler M, Piette JD. The impact of
+family behaviors and communication patterns on chronic
+illness outcomes: a systematic review. J Behav Med .
+2012;35(2):221-- -239.
+28. Grey M, Kna ﬂK, McCorkle R. A framework for the
+study of self- and family management of chronic condi-
+tions. Nurs Outlook . 2006;54(5):278- - -286.
+29. Lorig KR, Mazonson PD, Holman HR. Evidence
+suggesting that health education for self-management in
+patients with chronic arthritis has sustained health ben-
+eﬁts while reducing health care costs. Arthritis Rheum .
+1993;36(4):439-- -446.
+30. Lorig K, Ritter PL, Villa FJ, Armas J. Community-
+based peer-led diabetes self-management: a randomizedtrial. Diabetes Educ . 2009;35(4):641- - -651.
+31. Lorig KR, Ritter PL, Gonzalez VM. Hispanic chronic
+disease self-management: a randomized community-
+based outcome trial. Nurs Res . 2003;52(6):361-- -369.
+32. Gifford AL, Laurent DD, Gonzales VM, Chesney
+MA, Lorig KR. Pilot randomized trial of education to
+improve self-management skills of men with symptomatic
+HIV/AIDS. J Acquir Immune De ﬁc Syndr Hum Retrovirol .
+1998;18(2):136-- -144.
+33. LeFort SM, Gray-Donald K, Rowat KM, Jeans ME.
+Randomized controlled trial of a community-based psy-
+choeducation program for the self-management of
+chronic pain. Pain. 1998;74(2-3):297- - -306.
+34. Lorig KR, Ritter P, Stewart AL, et al. Chronic disease
+self-management program: 2-year health status and
+health care utilization outcomes. Med Care . 2001;
+39(11):1217- - -1223.
+35. Lorig KR, Sobel DS, Ritter PL, Laurent D, Hobbs
+M. Effect of a self-management program on patientswith chronic disease. Eff Clin Pract . 2001;4(6):
+256- - -262.
+36. Wilson PM, Mayor V. Long-term conditions. 2:
+supporting and enabling self-care. Br J Community Nurs .
+2006;11(1):6-- -10.
+37. Barlow JH, Turner AP, Wright CC. A randomized
+controlled study of the arthritis self-managementprogramme in the UK. Health Educ Res . 2000;15(6):
+665- - -680.
+38. Lorig K, Ritter PL, Villa F, Piette JD. Spanish diabetes
+self-management with and without automated telephonereinforcement: two randomized trials. Diabetes Care
+.
+2008;31(3):408- - -414.
+39. Lorig K, Ritter PL, Laurent DD, et al. Online diabetes
+self-management program: a randomized study. Diabetes
+Care. 2010;33(6):1275- - -1281.
+40. Grey M, Cameron ME, Thurber FW. Coping and
+adaptation in children with diabetes. Nurs Res . 1991;
+40(3):144- - -149.
+41. Grey M, Cameron ME, Lipman TH, Thurber FW.
+Psychosocial status of children with diabetes in the ﬁrst
+two years after diagnosis. Diabetes Care . 1995;18(10):
+1330- - -1336.
+42. Davidson M, Boland EA, Grey M. Teaching teens to
+cope: coping skills training for adolescents with insulin-dependent diabetes mellitus. J Soc Pediatr Nurs . 1997;2
+(2):65- - -72.
+43. Grey M, Yu C, Boland EA, Sullivan-Bolyai S,
+Davidson M, Tamborlane WV. Short-term effects ofcoping skills training as adjunct to intensive therapy inadolescents. Diabetes Care . 1998;21(6):902- - -908.
+44. Grey M, Schreiner B, Pyle L. Development of
+a diabetes education program for youth with type 2
+diabetes. Diabetes Educ . 2009;35(1):108- - -116.
+45. Grey M, Jaser SS, Holl MG, Jefferson V, Dziura J,
+Northrup V. A multifaceted school-based intervention toreduce risk for type 2 diabetes in at-risk youth. Prev Med .
+2009;49(2-3):122- - -128.
+46. Berry D, Savoye M, Melkus G, Grey M. An in-
+tervention for multiethnic obese parents and overweight
+children. Appl Nurs Res . 2007;20(2):63-- -71.
+47. Whittemore R, Jeon S, Grey M. An Internet obesity
+prevention program for adolescents. J Adolesc Health .
+2013;52(4):439- - -447.
+48. Whittemore R, Grey M, Lindemann E, Ambrosino J,
+Jaser S. Development of an Internet coping skills trainingprogram for teenagers with type 1 diabetes. Comput
+Inform Nurs . 2010;28(2):103-- -111.
+49. Whittemore R, Jaser SS, Jeon S, et al. An Internet
+coping skills training program for youth with type 1diabetes: six-month outcomes. Nurs Res . 2012;61
+(6):395- - -404.
+50. Grey M, Whittemore R, Liberti L, Delamater A,
+Murphy K, Faulkner MS. A comparison of two Internet
+programs for adolescents with type 1 diabetes: design
+and methods. Contemp Clin Trials . 2012;33(4):769- - -
+776.
+51. Grey M, Boland EA, Davidson M, Li J, Tamborlane
+WV. Coping skills training for youth with diabetesmellitus has long-lasting effects on metabolic control andquality of life. J Pediatr . 2000;137(1):107- - -113.
+52. Grey M, Whittemore R, Jeon S, Murphy K, Faulkner
+MS, Delamater A. Internet psycho-education programsimprove outcomes in youth with type 1 diabetes.Diabetes Care . 2013;36(9):2475- - -2482.
+53. Sun AC, Tsoh JY, Saw A, Chan JL, Cheng JW.
+Effectiveness of a culturally tailored diabetes self-management program for Chinese Americans. Diabetes
+Educ . 2012;38(5):685- - -694.
+54. Samuel-Hodge CD, Keyserling TC, Park S, Johnston
+LF, Gizlice Z, Bangdiwala SI. A randomized trial ofAJPH PERSPECTIVES
+Supplement 6, 2018, Vol 108, No. S6 |American Journal of Public Health Grady and Gough |Peer Reviewed |Perspectives From the Social Sciences |S435
+a church-based diabetes self-management program for
+African Americans with type 2 diabetes. Diabetes Educ .
+2009;35(3):439- - -454.
+55. Weinert C, Cudney S, Hill WG. Rural women,
+technology, and self-management of chronic illness. Can J
+Nurs Res . 2008;40(3):114- - -134.
+56. Nicholas MK, Asghari A, Blyth FM, et al. Self-
+management intervention for chronic pain in olderadults: a randomised controlled trial. Pain. 2013;
+154(6):824- - -835.
+57. Garcia-Alamino JM, Ward AM, Alonso-Coello P,
+et al. Self-monitoring and self-management of oral anti-coagulation. Cochrane Database Syst Rev . 2010;(4):
+CD003839.
+58. Powell H, Gibson PG. Options for self-management
+education for adults with asthma. Cochrane Database Syst
+Rev. 2003;(1):CD004107.
+59. Gibson PG, Powell H, Coughlan J, et al. Self-
+management education and regular practitioner review
+for adults with asthma. Cochrane Database Syst Rev .
+2003;(1):CD001117.
+60. Wolf FM, Guevara JP, Grum CM, Clark NM, Cates CJ.
+Educational interventions for asthma in children.Cochrane Database Syst Rev . 2003;(1):CD000326.
+61. Morriss RK, Faizal MA, Jones AP, Williamson PR,
+Bolton C, McCarthy JP. Interventions for helpingpeople recognise early signs of recurrence in bipolardisorder. Cochrane Database Syst Rev . 2007;(1):
+CD004854.
+62. Deakin T, McShane CE, Cade JE, Williams RD.
+Group based training for self-management strategies in
+people with type 2 diabetes mellitus. Cochrane Database
+Syst Rev . 2005;(2):CD003417.
+63. Pho AT, Tanner EK, Roth J, Greeley ME, Dorsey CD,
+Szanton SL. Nursing strategies for promoting and main-taining function among community-living older adults:the CAPABLE intervention. Geriatr Nurs . 2012;33
+(6):439- - -445.
+64. Szanton SL, Thorpe RJ, Boyd C, et al. Community
+aging in place, advancing better living for elders:
+a bio-behavioral-environmental intervention to im-
+prove function and health-related quality of life indisabled older adults. J Am Geriatr Soc . 2011;59(12):
+2314-- -2320.
+65. Brown GK, Nicassio PM. Development of a ques-
+tionnaire for the assessment of active and passive copingstrategies in chronic pain patients. Pain. 1987;31(1):
+53- - -64.
+66. Lorig K. Chronic disease self-management: a model
+for tertiary prevention. Am Behav Sci . 1996;39(6):
+676- - -683.
+67. Emanuel E. Prevention and cost control. Science .
+2012;337(6101):1433.
+68. Emanuel EJ. Where are the health care cost savings?
+JAMA . 2012;307(1):39- - -40.
+69. Szanton SL. Self-management at home: clinical,
+research, and policy considerations. Oral presentation at:
+National Nursing Research Roundtable; March 8, 2013;National Institutes of Health, Bethesda, MD.AJPH PERSPECTIVES
+S436 |Perspectives From the Social Sciences |Peer Reviewed |Grady and Gough American Journal of Public Health |Supplement 6, 2018, Vol 108, No. S6
+El automanejo de las enfermedades cro ´nicas: un me ´todo integral de
+atencio ´n*
+Artículo original en español: Patricia A. Grady y Lisa Lucio Gough. El automanejo de las enfermedades crónicas: un método integral de atención.
+Rev Panam Salud Publica . 2015;37(3):187 –194. Copyright 2015, Organización Panamericana de la Salud.
+*Traducción o ﬁcial al español del artículo original en inglés efectuada por la Organización Panamericana de la Salud, con autorización de la American
+Public Health Association. En caso de discrepancia entre ambas versiones, prevalecerá la original (en inglés).
+Tanto por razones clı ´nicas como econo ´ micas, cada vez son ma ´ s las personas
+que llevan adelante su vida con alguna enfermedad cro ´ nica, lo que representa
+una cuestio ´ n de salud pu ´blica cuya importancia esta ´ en aumento. Al hacer
+hincapie ´ en la responsabilidad del paciente y la importancia de actuar con-
+juntamente con la comunidad de prestadores de servicios de salud, el automa-nejo representa una estrategia prometedora de atencio ´ n de las enfermedades
+cro´ nicas que permite ir ma ´ s alla ´ de la informacio ´ n para ensen ˜ar activamente
+a las personas a detectar y resolver los problemas asociados con la enfermedad
+que tienen. El automanejo tambie ´ n resulta prometedor como un paradigma
+eﬁcaz en el espectro de la prevencio ´ n (primaria, secundaria y terciaria) porque
+establece un modelo de salud en la nin ˜ez y proporciona estrategias para mitigar
+la enfermedad y manejarla en las etapas posteriores de la vida. Proponemosdiversas maneras de mejorar los me ´ todos de investigacio ´ n y las aplicaciones
+pra´ cticas del automanejo, que a la vez pueden ser pasos en su desarrollo y
+ejecucio ´ n futura. ( Am J Public Health. 2018;108:S437–S444. doi:10.2105/AJPH.
+2014.302041)
+Las mejoras en la atención de la salud han
+permitido que hoy en día un número mayor
+de personas con varias enfermedades crón-icas sobrevivan por más tiempo. Como con-
+secuencia, ahora se concede más importancia
+a la atención de las enfermedades crónicas(1). Al mismo tiempo, están despertandomucho interés los métodos que permitencontrolar los síntomas crónicos a ﬁn de que el
+paciente mantenga su independencia y cal-
+idad de vida por un período más largo. Losmétodos de atención de las enfermedadescrónicas están dejando atrás la relación tra-
+dicional entre el prestador de atención de
+salud y el paciente para dar paso a unparadigma en el cual las personas con algunaenfermedad crónica desempeñan una fun-ción central en su propio cuidado, conjunta-
+mente con los prestadores de atención de
+salud (2, 3).
+Si bien muchas enfermedades crónicas de
+gran prevalencia, como las cardiopatías, la di-
+abetes y el reumatismo articular, presentancaracterísticas y exigencias únicas, también
+comparten di ﬁcultades parecidas en cuanto
+a su atención: hacer frente a los síntomas y ladiscapacidad; vigilar los indicadores físicos;
+seguir regímenes medicamentosos comple-jos; mantener un grado adecuado de nutri-
+ción, ingesta de calorías y ejercicio; adap-
+tarse a las exigencias psicológicas y sociales,lo que incluye algunos ajustes difíciles del
+modo de vida, y establecer interacciones
+eﬁcaces con los prestadores de atención de
+salud (4, 5).
+Un aspecto central del campo del auto-
+manejo de las enfermedades es la determi-
+nación y elaboración de estrategias comunes
+centradas en el paciente para hacer frentea estos retos (6, 7). Independientemente de la
+enfermedad crónica en cuestión, se ha
+demostrado que adquirir un conjuntogenérico de aptitudes es bueno para que las
+personas manejen e ﬁcazmente las enferme-
+dades y mejoren su salud (8). En un informedel 2010 elaborado por el Departamento deSalud y Servicios Soc iales de los Estados
+Unidos, se incluyó el automanejo como una
+de las cuatro metas de un marco estratégicopara mejorar el estado de salud de las
+personas con múltiples enfermedades
+crónicas (9). De manera más reciente, en uninforme del Instituto de Medicina del año
+2012 sobre cómo llevar adelante una buenavida cuando se tiene una enfermedad crónicay la responsabilidad al respecto del sector dela salud pública (10), se incluyó el automa-nejo como una de las intervenciones quepermitían llevar una bu e n av i d ays eo b s e r v ó
+que los programas con esta orientación pro-mueven la responsab ilidad del individuo y
+ofrecen herramientas que los pacientes pue-d e nu s a rp a r ac u i d a r s ef r e n t eal a se n f e r m e -dades crónicas (10).
+Cada vez se reconoce más que las enfer-
+medades crónicas, incluidos los aspectosrelativos a la prevención, el tratamiento y laatención, representan un tema importantepara el ámbito de la salud pública y el ámbito
+clínico (1 1, 12). En efecto, en el informe del
+Instituto de Medicina se señaló que eracrucial tener una perspectiva de salud quecontemplase a toda la población al momentode elaborar estrategias, intervenciones ypolíticas para combatir las enfermedades
+crónicas (10). Los programas que proponen
+intervenciones de automanejo basadas en lacomunidad son un aspecto de un enfoquepoblacional que aborda el problema cada vezmayor de salud pública que representan lasenfermedades crónicas en los Estados Uni-
+dos y en todo el mundo. Si bien hay una
+extensa bibliografía sobre el automanejo delas enfermedades crónicas, el propósito deeste artículo no es hacer una reseña exhaus-tiva del tema, sino destacar la contribuciónúnica de los cientí ﬁcos del ámbito de la
+enfermería en este campo.
+Las ciencias de la enfermería han permitido
+mejorar la atención de los pacientes individu-ales y poner a prueba intervenciones quepodrían ampliarse a escala poblacional. En esteartículo presentamos ejemplos procedentes delas ciencias de la enfermería que muestran sereﬁcaces, prometen ser sostenibles, ofrecen laAJPH PERSPECTIVES
+Supplement 6, 2018, Vol 108, No. S6 |American Journal of Public Health Grady and Gough |Peer Reviewed |Perspectives From the Social Sciences |S437
+posibilidad de ser ampliados y sientan las bases
+para ejecutar medidas de salud pública de granalcance para atender las enfermedades crónicas
+(12).Se tiene cada vez más conciencia de que
+hace falta una mayor claridad conceptual
+con respecto al automanejo de las enfer-medades crónicas y su integración en lapráctica clínica. Igualmente importante es lanecesidad de que se elaboren modelos máscomplejos de automanejo, adaptadosa diversas enfermedades y situaciones desalud. Un aspecto fundamental de la elabo-
+ración de estos modelos y su aplicación
+práctica es que hace falta más investigaciónque permita sustentar el automanejo ycontribuya a formular políticas de salud alrespecto.
+La comunidad dedicada a la enfermería,
+que comprende tanto a investigadores comoa profesionales clínicos, tiene una función
+d e c i s i v ap a r aa p o r t a rl ab a s ed ep r u e b a sq u e
+permita sustentar las p rácticas innovadoras
+de automanejo y está en una posición idealpara llevar a la práctica esos adelantos. A lolargo de su historia, el Instituto Nacional deInvestigación en Enfermería, que formaparte de los Institutos Nacionales de Saludde los Estados Unidos, ha promovido el
+estudio del automanejo como un tema cen-
+tral de sus investigaciones, y ha prestadoapoyo a las dirigidas am e j o r a ryt r a t a rl o s
+síntomas de las enfermedades agudas ycrónicas (13). En vista de que el automanejoes un tema que sigue cobrando importancia,una de las metas del Instituto Nacional deInvestigación en Enfer mería es lograr avan-
+ces en los aspectos teóricos del automanejo
+y, en última instancia, difundir ampliamentelos resultados que se puedan trasladar alentorno clínico.
+Recientemente, un grupo de cientí ﬁcos
+líderes en el campo de la enfermería se reuniópara analizar el fundamento cientí ﬁco del
+automanejo de las enfermedades crónicas
+como tema de una mesa redonda que se llevó
+a cabo en los Estados Unidos en el 2013. Estamesa redonda es una reunión anual que tienecomo propósito servir de foro regular paracomunicarse acerca del rumbo y la realizaciónde investigaciones en el ámbito de la enferme-ría. Las deliberaciones que tuvieron lugar en lareunión de ese año dieron lugar a un conjun-
+to de recomendaciones sobre las áreas de
+interés y las pautas para el avance teórico ypráctico del automanejo (véase el recuadro alrespecto).A´reas de intere ´s y criterios recomendados para promover el
+automanejo de las enfermedades cro ´nicas
+Claridad conceptual
+Uniformar los te ´rminos incorporando frases uniformes y acordadas en los descriptores de temas me ´dicos de la Biblioteca
+Nacional de Medicina.
+A´reas clave de investigacio ´n
+Ampliar los estudios comparativos de la eﬁcacia de las intervenciones en funcio ´n de:
+los resultados
+la calidad de la atencio ´n
+el costo.
+Determinar las medidas ma ´sv a´lidas de automanejo.
+Explorar el uso de modelos estadı ´sticos para simular los resultados de las intervenciones.
+Determinar y estudiar las variables gene ´ticas y biolo ´gicas pertinentes.
+Determinar los factores mediadores:
+relacionados con el mantenimiento del automanejo
+para adaptar las intervenciones a los individuos.
+Establecer e incorporar elementos de ampliacio ´n, sostenibilidad, costoeﬁcacia y alcance del programa.
+Ampliar la investigacio ´n para promover una mayor aplicacio ´n de la tecnologı ´a en el automanejo (internet, redes sociales).
+Aspectos metodolo ´gicos para estudios futuros
+Poner en marcha un enfoque metodolo ´gico colaborativo y multidisciplinario.
+Utilizar modelos estadı ´sticos: modelos basados en sistemas para relacionar los elementos complejos que subyacen
+al automanejo.
+Realizar ensayos clı ´nicos pragma ´ticos y usar datos con elementos comunes en los distintos estudios.
+Difusio ´n y comunicacio ´n de la investigacio ´n
+Difundir ampliamente los resultados de la investigacio ´n para llegar a los encargados de formular polı ´ticas y a aquellos
+que trabajan en el entorno clı ´nico.
+Difundir los resultados en revistas clı ´nicas de gran impacto y en publicaciones cientı ´ﬁcas de gran inﬂuencia.
+Coordinar la difusio ´n de los resultados con organizaciones profesionales y auspiciar foros pu ´blicos para concientizar sobre el
+automanejo de las enfermedades.
+Impartir capacitacio ´n sobre comunicacio ´n, extensio ´n comunitaria y uso de los medios de difusio ´n para promover y mejorar la
+comunicacio ´n dirigida al pu ´blico no especializado.
+Trasladar los resultados al entorno clı ´nico
+Mejorar los datos probatorios para mejorar la atencio ´n clı´nica:
+determinar cua ´les son las intervenciones de automanejo con mayor probab ilidad de mejorar los resultados en materia de salud;
+hacer hincapie ´en los programas de estudio de formacio ´n profesional basados en datos cientı ´ﬁcos.
+Incorporar el automanejo en la atencio ´n primaria:
+instar a los pacientes a que intercambien experiencias sobre el automanejo;actuar como coordinador para proporcionar informacio ´n de apoyo sobre el automanejo en el a ´mbito local.
+Adaptar el automanejo a las necesidades individuales:
+tener en cuenta las normas culturales y las tradiciones;
+involucrar a los pacientes en el cumplimiento de sus metas funcionales.
+Impulsar la transicio ´n de las normas y pra ´cticas del sistema de atencio ´n de salud a ﬁn de incentivar y
+promover el automanejo:utilizar los programas de automanejo como una manera de reducir o estabilizar los costos;reembolsar a los prestadores que prescriban te ´cnicas de automanejo de utilidad comprobada
+utilizar el enfoque interprofesional para elaborar programas de intervencio ´n de automanejo.AJPH PERSPECTIVES
+S438 |Perspectives From the Social Sciences |Peer Reviewed |Grady and Gough American Journal of Public Health |Supplement 6, 2018, Vol 108, No. S6
+FUNDAMENTOS CIENTI ´FICOS DEL
+AUTOMANEJO DE LASENFERMEDADES
+Las ciencias de la enfermería contribuyen al
+campo del automanejo de las enfermedades
+mediante la investigación para de ﬁnir el con-
+cepto, describir sus bases teóricas, elaborarintervenciones concretas de automanejo yexaminar su e ﬁcacia en diversos entornos.
+Hace más de 40 años que se describe y
+analiza el concepto del automanejo, término
+usado por primera vez por Thomas Creer paraindicar que los pacientes son participantesactivos en su propio tratamiento (14). En la
+actualidad, el término se usa laxamente, y la
+variedad de de ﬁniciones y conceptualizaciones
+hace que no haya claridad ni acuerdo alrespecto en la bibliografía (15). En un sentidogeneral, el automanejo se de ﬁne como la
+atención diaria, por parte de los propios
+pacientes, de las enfermedades crónicas en elcurso de estas (5, 14).
+Aunque es un término que a menudo se usa
+como sinónimo de otros como el autocuidado,
+la autorregulación, la educación del paciente yla orientación del paciente, el automanejo ha
+evolucionado para dejar de ser simplemente la
+práctica de suministrar información y aumen-tar los conocimientos de los pacientes. Aunqueestos conceptos están interrelacionados, elautomanejo es considerado por muchos
+autores como aquellas tareas que las personas
+sanas realizan en el hogar para prevenirenfermedades, en lugar de tan solo atender unaenfermedad existente (5, 15, 16). La autorre-gulación se relaciona de una manera más
+distante y se re ﬁere a la capacidad de controlar
+y manejar los pensamientos, las emociones o elcomportamiento. A esta falta de uniformidaden el uso del término, se suma además el hecho
+de que el automanejo se usa también para
+hacer referencia al proceso de automanejo en síy a los programas de intervención de automa-nejo, y para describir los resultados de emplearprácticas de automanejo (15).
+Las descripciones conceptuales y teóricas del
+automanejo en relación con los componentes,
+los procesos y los resultados se han ampliado y
+han evolucionado desde los años ochenta,
+cuando Corbin y Strauss (17) señalaron tresconjuntos de actividades asociadas con elhecho de tener una enfermedad crónica, a sa-
+ber: la atención médica de esta, el manejo del
+comportamiento y el manejo emocional. Pos-teriormente, los cientí ﬁcos del ámbito de la
+enfermería describieron ampliamente cincoprocesos centrales del automanejo queconsisten en la capacidad de solucionar prob-lemas, tomar decisiones, utilizar recursos, aso-ciarse con prestadores de atención de salud yactuar (14).
+En el marco de la teoría del automanejo
+individual y familiar, se propuso que el auto-manejo tiene tres dimensiones: el contexto, elproceso y los resultados, con factores contex-tuales que in ﬂuyen en el proceso y los resul-
+tados de las prácticas de automanejo (15). Estateoría también amplió la especi ﬁcidad de los
+procesos para incluir los conocimientos y las
+creencias, las aptitudes y capacidades de
+autorregulación, y la facilitación social, y ade-más clasi ﬁcó los resultados en próximos y
+distales (15).
+De manera más reciente, los investigadores
+han ampliado las descripciones actuales de losprocesos de automanejo desde la perspectivade las personas que llevan adelante su vida con
+alguna enfermedad crónica. Estos aspectos
+incluyen centrarse en las necesidades determi-nadas por la enfermedad, hacer uso activo delos recursos y acostumbrarse a vivir con unaenfermedad crónica (18).
+El automanejo es también uno de los seis
+elementos esenciales establecidos en el modelode atención de las enfermedades crónicas (19).
+En este modelo se procura mejorar la calidad
+de vida y los resultados al centrarse en loscambios sistémicos que tienen un efecto sobrelos factores relacionados con el paciente y elprestador (4), y cada vez sirve más de marcopara determinar los elementos del sistema quese cree que in ﬂuyen en la evolución de las
+enfermedades crónicas (10).
+El automanejo de las enfermedades crónicas
+no existe de manera aislada, sino que tienelugar en el contexto de otras personas einﬂuencias (20). Un aspecto fundamental para
+que tenga buenos resultados es la relaciónentre el paciente y los prestadores de atenciónsanitaria (principalmente las enfermeras), losamigos y la comunidad, al igual que los famil-
+iares (21---23). La familia es una fuente
+importante de apoyo para las personas conalguna enfermedad crónica: las personascon mayor apoyo familiar muestran mayor
+cumplimiento de las recomendaciones del
+automanejo (24) y mejor control de suenfermedad (20, 25, 26). Esto es particu-larmente importante en el caso del automa-nejo a largo plazo donde el énfasis familiaren la autosu ﬁciencia y el logro personal, la
+cohesión familiar y la reacción atenta a lossíntomas se asocian con una mejor evolu-
+ción del paciente (27).
+En la investigación sobre el automanejo de
+las enfermedades se ha hecho más hincapié enla función crucial de la familia y la comunidad.En este contexto, se ha determinado queexisten importantes factores de riesgo y deprotección que intervienen en los resultados.Como estos factores in ﬂuyen sobre la capaci-
+dad de las personas y las familias de tratar las
+enfermedades crónicas, podrían ser objeto dealgún tipo de intervención (28). En la teoría delautomanejo individual y familiar se combinanaspectos de uno y otro tipo (15), y se reconoceque ampliar el automanejo de los individuos ylas familias arroja resultados más positivos.Estas teorías y los estudios sobre el automanejo
+centrado en la familia son importantes para
+promover intervenciones que aborden la nec-esidad de que los pacientes con enfermedadescrónicas superen las barreras familiares, asícomo intervenciones que hagan hincapié en eluso de técnicas de apoyo positivas por parte delos miembros de la familia (23, 27).
+Los programas de intervencio ´n clı´nica y
+los programas dirigidos a gruposespecı ´ﬁcos
+El marco que aportan las investigaciones
+teóricas y conceptuales en torno al automanejoha sentado las bases para que los cientí ﬁcos del
+ámbito de la enfermería elaboren y pongana prueba programas de intervención clínica,
+dado que estos profesionales están en una
+posición inmejorable en el punto de intersec-ción de la investigación clínica y la ejecución delas intervenciones. Dos de los programas deautomanejo más e ﬁcaces y reconocidos son el
+programa de automanejo del reumatismo ar-ticular (29) y el programa de automanejo de ladiabetes (30), elaborados por dos pioneros en
+este campo (Kate Lorig y Margaret Grey,
+respectivamente) con el apoyo del InstitutoNacional de Investigación en Enfermería y losInstitutos Nacionales de Salud.AJPH PERSPECTIVES
+Supplement 6, 2018, Vol 108, No. S6 |American Journal of Public Health Grady and Gough |Peer Reviewed |Perspectives From the Social Sciences |S439
+Los primeros estudios de evaluación de los
+participantes en el programa de automanejo
+del reumatismo articular mostraron que lospacientes presentaban menos dolor, que habíaaumentado su percepción de autoe ﬁcacia y su
+calidad de vida, que habían tenido menosconsultas médicas y que, en algunos casos,había disminuido su discapacidad, todos ellosaspectos que persistieron durante al menos
+cuatro años después de la participación inicial
+en el programa (29). Este programa fue pre-cursor de los programas de automanejoactuales que ofrece el Centro de Investigaciónsobre la Educación del Paciente de la Univer-sidad de Stanford dirigidos a las personas condiabetes (30, 31), infección por el VIH/sida(32) o dolor crónico (33). Además, se han
+elaborado programas de automanejo con base
+comunitaria para las personas con enferme-dades crónicas como cardiopatías, neumopa-tías, reumatismos articulares, accidente cere-brovascular o que tienen varias afeccionescrónicas (8, 34, 35).
+El programa de automanejo de las enfer-
+medades crónicas fue concebido para satisfacer
+las necesidades del tratamiento diario y man-
+tener las actividades de la vida cotidiana, y haresultado e ﬁcaz para mejorar las conductas con
+respecto a la salud y el estado de salud, lo queha dado lugar a menos hospitalizaciones engeneral y a menos días en el hospital (8). Estosresultados demostraron la factibilidad de losprogramas de intervención de automanejo que
+abarcan una variedad de enfermedades crón-
+icas, los que han llevado a resultados positivosen materia de salud, muchos de los cualespersisten por años, con el bene ﬁcio añadido
+de la reducción en los costos de atención desalud (34, 35). Las intervenciones tanto delprograma de automanejo de la artritis comod e lp r o g r a m ad ea u t o m a n e j od el a se n f e r -
+medades crónicas son modelos comproba-
+dos de programas de automanejo e ﬁcaces y
+han sido adoptados por los sistemas desalud de los Estados Unidos, Canadá, Aus-tralia, Nueva Zelandia (29), el Reino Unido(1, 36, 37) y otros países, y han sidotraducidos a varios idiomas para ser apli-cados en todo el mundo (1).
+Los programas de automanejo dirigidos
+a grupos especí ﬁcos y que ofrecen una varie-
+dad de estrategias de prestación han resultadoeﬁcaces para mejorar los resultados en materiade salud de las poblaciones destinatarias. Con
+el apoyo del Instituto Nacional de Investigación
+en Enfermería, se elaboró un programa comu-nitario de automanejo de la diabetes realizadopor pares y en español dirigido a la poblaciónlatina con diabetes de tipo 2. Algunos ensayosaleatorizados mostraron que este programamejoraba variables como la concentración dehemoglobina A
+1C, los problemas de salud,
+los síntomas de hipo e hiperglucemia y la
+autoe ﬁcacia, mejoría que persistió en estudios
+de seguimiento posteriores (38). Este programase ha traducido al inglés (30) y recientementese lo ha adaptado como un programa en línea(39).
+Las investigaciones iniciales de Grey y sus
+colegas sobre las estrategias que emplean los
+niños en edad escolar y los adolescentes con
+diabetes para afrontar su enfermedad (40, 43)sentaron las bases para la elaboración posteriorde los programas de intervención contra ladiabetes (44, 45) y la obesidad (46, 47) en esosgrupos. Más recientemente, el uso por Grey deprogramas de intervención contra la diabetes(48, 50) y la obesidad (47) mediante la internet
+ha contribuido al uso de esta como una
+herramienta prometedora para hacer llegar lasintervenciones de automanejo a poblacionesmás jóvenes. Una ventaja de los programasmediante la internet es que permitirían unamayor participación de jóvenes que quizá deotro modo no podrían o no querrían hacerlo engrupo.
+Los programas de intervención por internet
+dirigidos a jóvenes con diabetes han resultadoeﬁcaces para aumentar la participación y las
+aptitudes de automanejo que arrojan resulta-dos positivos. Un ejemplo de ello es TEEN-COPE, programa que se dirige a los jóvenes condiabetes de tipo 1 que están en proceso detransición de la niñez a la adolescencia y les
+permite controlar la diabetes de una manera
+más independiente. Esta intervención se basaen una estrategia de capacitación grupal enpersona para adquirir aptitudes con el ﬁnd e
+hacer frente a la enfermedad; se ha demostradoque ayuda a disminuir la hemoglobina gluco-silada, mejorar la diabetes y autoe ﬁcacia
+médica, y reducir el efecto de la diabetes sobre
+la calidad de vida (51). De manera similar, los
+jóvenes que participaron en la intervención porinternet mostraron mejores resultados conrespecto al control de la diabetes (52). Losestudios para evaluar la e ﬁcacia de las inter-
+venciones de automanejo dirigidas a grupos
+especí ﬁcos también han indicado bene ﬁcios
+positivos para la salud de distintos grupospoblacionales como los estadounidenses deascendencia asiática (53), los afroestadouni-denses (54), las poblaciones rurales (55) y losadultos mayores (56).
+Se siguen elaborando, evaluando y llevando
+adelante con éxito distintos programas de
+intervención de automanejo para muchasenfermedades y trastornos crónicos. De hecho,algunas organizaciones como la ColaboraciónCochrane han realizado revisiones basadas endatos probatorios de diversas estrategias deautomanejo y han encontrado ventajosos losprogramas centrados en temas como el trata-
+miento oral con fármacos anticoagulantes (57),
+el asma (58, 60), el trastorno bipolar (61) y ladiabetes (62), entre otros.
+Los factores ambientales
+La capacidad de automanejo de las enfer-
+medades crónicas se ve directamente in ﬂuida
+por los factores relacionados con el entorno y
+los recursos tanto en la comunidad como en el
+hogar. Las disparidades demográ ﬁcas contrib-
+uyen a que se produzcan algunas barreras en elentorno que pueden dar lugar a enfermedadescrónicas. Por ejemplo, algunos grupos pobla-cionales tienen poco acceso a instalacionesrecreativas y para realizar actividad física oa tiendas de comestibles que vendan frutas y
+verduras frescas (10). La seguridad del vecin-
+dario y el temor a la violencia también puedenllevar a suprimir la actividad física y perjudicarla alimentación sana (10). Estas disparidadesmuestran que es necesario tener en cuenta losfactores ambientales cuando se elaboranintervenciones para fomentar modos de vidasaludables en estos grupos poblacionales.
+La relación entre las personas que controlan
+las enfermedades crónicas y la discapacidad seaborda en el hogar mediante programas deintervención que aumentan la capacidad delindividuo de funcionar y reducen las barrerasen el entorno físico para crear un entornoapropiado para el automanejo. Los serviciosdomiciliarios y comunitarios desempeñan una
+función crucial puesto que permiten que los
+individuos vivan y trabajen productivamenteincluso cuando tienen una enfermedad crónica.Facilitar ambos tipos de servicios es uno de losAJPH PERSPECTIVES
+S440 |Perspectives From the Social Sciences |Peer Reviewed |Grady and Gough American Journal of Public Health |Supplement 6, 2018, Vol 108, No. S6
+objetivos establecidos en el marco estratégico
+del Departamento de Salud y Servicios Sociales
+para optimizar la salud y la calidad de vida delas personas con varias enfermedades crónicas(9). En los últimos años, se han creado pro-gramas y servicios sustentados en datos cientí-ﬁcos para ayudar a quienes tienen alguna
+enfermedad crónica, en especial los adultosmayores, a llevar una vida más saludable e
+independiente.
+Un ejemplo en este sentido es el programa
+de envejecimiento en la comunidad para pro-mover mejores condiciones de vida para losadultos mayores. Esta intervención representaun enfoque innovador multifacético para opti-mizar el automanejo y las condiciones de vida.Amplía el concepto de la comunidad para
+incluir los recursos que permiten abordar el
+entorno físico inmediato del hogar a ﬁnd e
+eliminar las barreras que impiden el buendesenvolvimiento cotidiano. Este programa esuna intervención interprofesional que hacehincapié en que se preste atención sistemáti-camente al entorno físico y social de laspersonas al idear su tratamiento y estrategia de
+automanejo (63). El programa coordina las
+visitas a domicilio de un equipo de interven-ción integrado por terapeutas ocupacionales,que establecen y priorizan las áreas que pre-sentan di ﬁcultades de desenvolvimiento físico
+y otras cuestiones del entorno; enfermeras, queevalúan los problemas médicos que afectan aldesenvolvimiento diario; y personas de man-
+tenimiento, que realizan las modi ﬁcaciones y
+las reparaciones de la casa que indican losterapeutas ocupacionales. Los participantes eneste estudio aleatorizado tuvieron menor di ﬁ-
+cultad para realizar actividades cotidianas ymejoraron su calidad de vida en comparacióncon los grupos de referencia (64). El estudiotambién demostró que la intervención resul-
+taba aceptable para los participantes y podía
+ponerse a prueba a una escala mayor para que,en un futuro, se la pudiera ejecutar de manerageneralizada.
+EL ALCANCE DEL AUTOMANEJO
+Por más de 25 años, el Instituto Nacional de
+Investigación en Enfermería y las ciencias de la
+enfermería han tenido un papel decisivo en elapoyo y la realización de la investigaciónesencial para el desarrollo y la aplicación másamplia del automanejo (65). En el nivel más
+básico, el mantenimiento de la salud y el
+manejo de las enfermedades pueden conce-birse como responsabilidad del individuo o,como lo describen Star ﬁeld y sus colegas, como
+la administración responsable de la propiasalud (1 1, p. 582). Por consiguiente, el conceptodel automanejo es un componente esencialtanto para preservar el bienestar como para
+atender las enfermedades.
+En último término, todos los programas de
+automanejo pretenden aumentar la capacidadde las personas de mejorar su estado de salud,independientemente del lugar en el que seencuentre cada persona en el espectro que vade la salud a la enfermedad. Además, elautomanejo puede verse como la fuerza uni-
+ﬁcadora por detrás de los tres procesos —la
+prevención primaria, secundaria y terciaria —-
+que pretenden mantener el bienestar y con-trolar los síntomas y la progresión de lasenfermedades. Aunque no todas las de ﬁni-
+ciones de estos tres términos coinciden, laprevención primaria puede considerarse comolos esfuerzos para evitar el comienzo de la
+enfermedad en las personas asintomáticas; la
+prevención secundaria supone la detección dela enfermedad en personas asintomáticas; y laprevención terciaria abarca los esfuerzos paraprevenir el deterioro de la salud cuando laenfermedad ya está presente.
+El automanejo se ha vinculado tradicional-
+mente a la prevención secundaria y terciaria.
+En efecto, hace dos decenios que se viene
+observando la asociación entre el automanejoy la prevención terciaria (66). Sin embargo, elautomanejo no es menos importante en elcontexto de la prevención primaria, en el quees necesaria la participación activa de lapersona para elegir los comportamientos y lasalternativas que le permitan mantenerse sano
+y evitar las enfermedades. Recientemente, se
+ha propuesto que la prevención terciaria es unaspecto clave para el fortalecimiento del sis-tema de salud al mejorar la calidad de laatención y controlar los costos (67, 68).Creemos que los programas de intervencionesde automanejo que hemos descrito anterior-m e n t es i r v e nd ea p o y op a r ae s t et i p od e
+enfoques.
+El automanejo puede servir de modelo
+para la prevención terciaria al involucrara las personas al nivel de su estado funcionalpara que puedan llevar adelante sus propios
+esfuerzos de prevención terciaria. Este tipo
+de intervenciones enseñan cómo resolverproblemas y ser creativos para controlar la
+enfermedad, se pueden aplicar en diversos
+entornos y facilitan el uso de los recursos de
+la comunidad. Estos métodos e ﬁcaces son
+útiles no solo para la prevención terciaria,
+sino también para todos los niveles de laprevención y para el bienestar.
+LA PROMOCIO ´N DEL AUTOMANEJO
+La mejora de la calidad de vida mediante el
+automanejo de las enfermedades crónicas
+representa una buena oportunidad para las
+ciencias de la enfermería. Entre las recomen-
+daciones para promover la investigación y lapráctica del automanejo, de acuerdo con lo
+debatido en la mesa redonda de investigación
+en enfermería del 2013, se encontraban lanecesidad de una mayor claridad conceptual
+mediante la normalización de la terminología,
+lo que permitiría comparar y evaluar de unamanera más válida los resultados y programas
+de intervención; la determinación de las áreas
+clave de investigación sobre el automanejoaﬁn de centrar los recursos en las que
+parezcan más prometedoras para llevar ade-
+l a n t ee lc a m p o ;e lu s od ed i v e r s o sm é t o d o sincluidas estrategias multidisciplinarias inte-
+grales, modelización basada en estadísticas y
+sistemas, y ensayos clínicos pragmáticos;estrategias de difusión de e ﬁcacia compro-
+bada que sean sostenibles, ampliables y de
+gran alcance; y las maneras de trasladar elautomanejo al entorno clínico más e ﬁcaz-
+mente. Estas recomendaciones se resumen en
+el recuadro de la página 189.
+Dado que la mayor parte de las enferme-
+dades crónicas se relacionan con el modo de
+vida, el automanejo representa una oportuni-
+dad de intervenir de manera directa al nivelindividual que puede lograr efectos favorables
+sobre la salud y las conductas con respecto
+a esta. Un enfoque que haga hincapié en elautomanejo, adaptado a diversos trastornos,
+grupos poblacionales y circunstancias, podría
+ser eﬁcaz en todo el espectro de la prevención
+al establecer pautas saludables en la niñez
+(prevención primaria) y proporcionar estrate-
+gias para mitigar las enfermedades y atenderlasAJPH PERSPECTIVES
+Supplement 6, 2018, Vol 108, No. S6 |American Journal of Public Health Grady and Gough |Peer Reviewed |Perspectives From the Social Sciences |S441
+mejor en una etapa posterior de la vida (pre-
+vención secundaria y terciaria).
+Es importante señalar que las tres áreas de la
+prevención no son independientes entre sí. Porel contrario, existe una compleja interrelaciónentre ellas de manera que, por ejemplo, laprevención primaria y la secundaria siguensiendo elementos importantes de la atención desalud y el mantenimiento del estado de saludincluso en personas que padecen algún tras-
+torno crónico grave e intentan automanejar su
+enfermedad por medios correspondientes a laprevención terciaria (69).
+Como profesionales con ﬁa b l e sd el as a l u d ,
+el personal de enfermería desempeña unaimportante función en cuanto a la profundi-zación del alcance del automanejo en las tresesferas de la prevención. Las enfermeras
+están diariamente en la primera línea de la
+ejecución de los programas de prevención delas enfermedades y promoción del bienestarbasados en el automanejo, tanto en el entornoclínico como en el domiciliario. De maneracomplementaria, la investigación de enfer-mería en torno a intervenciones de automa-nejo cada vez más complejas permitirá
+impulsar el bienestar y prevenir las enfer-
+medades al aportar los datos probatoriosnecesarios para mejorar los resultados enm a t e r i ad es a l u d .
+CONCLUSIONES
+A medida que las enfermedades crónicas
+cobran mayor importancia en el ámbito de la
+salud pública, el automanejo seguirá a ﬁanzán-
+dose como un enfoque crucial para tratar estasenfermedades, prevenirlas y promover elbienestar. Dado que las enfermedades crónicassuelen tener una progresión lenta y una dura-ción larga, los resultados de la investigación entorno al automanejo que puedan trasladarse
+a la práctica pueden ofrecer a las personas con
+enfermedades crónicas un medio para man-tener o incluso mejorar su capacidad de vivirbien. Como se indica en este artículo, hay datosde investigación prometedores sobre la e ﬁcacia
+de los programas de intervención de automa-nejo que abordan enfermedades especí ﬁcas,
+al igual que sobre los programas que
+muestran buenos resultados frente a varias
+enfermedades crónicas. Como se describe en elrecuadro de la página XX, todavía debenabordarse algunos interrogantes clave de
+investigación, lo que permitirá seguir re ﬁnando
+tanto el concepto como la práctica del auto-manejo de las enfermedades crónicas. Estodebería llevar a que las intervenciones deeﬁcacia comprobada se lleven más a la práctica
+y se adapten, a que aumente la capacidad deampliar el alcance para llegar a más personasque las necesitan y a que haya evaluaciones
+más minuciosas de la e ﬁcacia de los programas
+de intervención.
+El automanejo es especialmente valioso
+dado que representa una fusión de las metasdel paciente, la familia, la comunidad y elmédico, todos ellos trabajando de maneraconjunta para abordar mejor la enfermedaddel individuo al mismo tiempo que se facilita
+la atención integral. En este sentido, el
+automanejo va más allá del tratamientotradicional de las enfermedades al incorpo-rar el concepto más amplio de la prevencióny subrayar la idea de que quienes tienen unaenfermedad crónica siguen necesitando pro-cedimientos preventivos para promover elbienestar y evitar un mayor deterioro de la
+salud. Por lo tanto, si se considera el auto-
+manejo con todos sus elementos y caracter-ísticas prácticas, no s e trata solamente de un
+e n f o q u el ó g i c od el as a l u dyl aa t e n c i ó nd esalud, sino que además es una manera óp-tima de abordar las enfermedades crónicascomo un problema importante en el ámbitode la salud pública.
+Las ciencias de la enfermería desempeñan
+un papel importante en la investigación, laaplicación y la práctica clínica del automanejo,y seguirán enriqueciendo la base de datosprobatorios en favor de las prácticas innova-doras y e ﬁcaces. Como uno de los grupos más
+grandes y en los que más se confía en el ámbitode las profesiones de la salud, las enfermeras
+ocupan un lugar único para llevar el automa-
+nejo a las personas y la población en general, yasea para atender una enfermedad crónica opara mantener el bienestar, al servir de puenteentre la investigación y la práctica. De estamanera, las enfermeras aportan las aptitudesprácticas del automanejo a las comunidades ylas personas no solo para sobrevivir, sino
+también para prosperar con el mejor estado
+posible de salud y bienestar.
+Con el apoyo continuo de las comunidades
+dedicadas a la investigación, la práctica clínica yla salud pública, el automanejo seguirá mar-
+cando un rumbo prometedor para atender las
+enfermedades crónicas, que son un motivoimportante de inquietud económica y de saludde los estadounidenses. De paso, se ayudaráa un sinnúmero de personas a vivir bien —
+física, emocional y socialmente —a pesar de la
+enfermedad.
+j
+About the Authors
+Instituto Nacional de Investigación en Enfermería, Institu-
+tos Nacionales de Salud, Bethesda, Maryland, Estados
+Unidos de América. La correspondencia debe enviarsea Lisa Lucio Gough, goughll@mail.nih.gov
+This article was accepted April 10, 2014.
+Contribucio ´n
+Ambas autoras intervinieron en el diseño, la redacción y
+la revisión del artículo.
+Agradecimientos
+Las autoras agradecen el aporte en la preparación de esteartículo de Arthur Meltzer, PhD, y Louise Rosenbaum,PhD, del Instituto Nacional de Investigación en Enfer-mería.
+Proteccio ´n de los participantes humanos.
+No fue necesario aprobar ningún protocolo puesto que
+no hubo participantes humanos en el proyecto.
+Referencias
+1. Dowrick C, Dixon-Woods M, Holman H, Weinman J.
+What is chronic illness? Chronic Illn . 2005;1(1):1- - -6.
+2. Holman H, Lorig K. Patients as partners in man-
+aging chronic disease. Part nership is a prerequisite for
+effective and ef ﬁcient health care. BMJ. 2000;320
+(7234):526- - -7.
+3. Bodenheimer T, Lorig K, Holman H, Grumbach K.
+Patient self-management of chronic disease in primary
+care. JAMA . 2002;288(19):2469- - -75.
+4. Wagner EH, Austin BT, Davis C, Hindmarsh M,
+Schaefer J, Bonomi A. Improving chronic illness care:
+translating evidence into action. Health Aff (Millwood) .
+2001;20(6):64- - -78.
+5. Clark NM, Becker MH, Janz NK, Lorig K, Rakowski
+W, Anderson L. Self-management of chronic disease by
+older adults: a review and questions for research. J Aging
+Health . 1991;3(1):3- - -27.
+6. Barlow JH, Sturt J, Hearnshaw H. Self-management
+interventions for people with chronic conditions in
+primary care: examples from arthritis, asthma and di-
+abetes. Health Educ J . 2002;61(4):365- - -78.
+7. Swendeman D, Ingram BL, Rotheram-Borus MJ.
+Common elements in self-management of HIV and other
+chronic illnesses: an integrative framework. AIDS Care .
+2009;21(10):1321- - -34.
+8. Lorig KR, Sobel DS, Stewart AL, et al. Evidence
+suggesting that a chronic disease self-management pro-
+gram can improve health status while reducing hospital-
+ization: a randomized trial. Med Care . 1999;37(1):5- - -14.AJPH PERSPECTIVES
+S442 |Perspectives From the Social Sciences |Peer Reviewed |Grady and Gough American Journal of Public Health |Supplement 6, 2018, Vol 108, No. S6
+9. Multiple chronic conditions —a strategic frame-work:
+optimum health and quality of life for individuals withmultiple chronic conditions. Washington, DC: Departa-mento de Salud y Servicios Humanos de los EstadosUnidos; 2010.
+10. Living well with chronic illness: a call for public
+health action. Washington, DC: Instituto de Medicina;
+2012.
+11. Star ﬁeld B, Hyde J, Gérvas J, Heath I. The concept of
+prevention: a good idea gone astray? J Epidemiol Com-
+munity Health . 2008;62(7):580- - -3.
+12. Sox HC. Resolving the tension between population
+health and individual health care. JAMA . 2013;310
+(18):1933- - -4.
+13. National Institute of Nursing Research. NINR stra-
+tegic plan. Se lo puede encontrar en: https://www.ninr.nih.gov/sites/www.ninr.nih.gov/ ﬁles/ninr-strategic-plan-
+2011.pdf. Consultado el 15 de mayo de 2013.
+14. Lorig KR, Holman H. Self-management education:
+history, de ﬁnition, outcomes, and mechanisms. Ann
+Behav Med . 2003;26(1):1- - -7.
+15. Ryan P, Sawin KJ. The individual and family
+self-management theory: background and perspectiveson context, process, and outcomes. Nurs Outlook .
+2009;57(4):217- - -25.
+16. Barlow J, Wright C, Sheasby J, Turner A, Hainsworth
+J. Self-management approaches for people with chronic
+conditions: a review. Patient Educ Couns . 2002;48
+(2):177- - -87.
+17. Corbin J, Strauss A. Managing chronic illness at
+home: three lines of work. Qual Sociol . 1985;8(3):224- - -
+47.
+18. Schulman-Green D, Jaser S, Martin F, et al. Processes
+of self-management in chronic illness. J Nurs Scholarsh .
+2012;44(2):136- - -44.
+19. Wagner EH. Chronic disease management: what
+will it take to improve care for chronic illness? Eff Clin
+Pract . 1998;1(1):2- - -4.
+20. Gallant MP. The in ﬂuence of social support on
+chronic illness self-management: a review and direc-tions for research. Health Educ Behav . 2003;30
+(2):170- - -95.
+21. Geden E, Isaramalai SA, Taylor S. In ﬂuences of
+partners ’views of asthma self-management and family
+environment on asthmatic adults ’asthma quality of life.
+Appl Nurs Res . 2002;15(4):217- - -26.
+22. Rosland AM, Kieffer E, Israel B, et al. When is social
+support important? The association of family support and
+professional support with speci ﬁc diabetes self-
+management behaviors. J Gen Intern Med . 2008;23(12):
+1992- - -9.
+23. Rosland AM, Heisler M, Choi HJ, Silveira MJ, Piette
+JD. Family in ﬂuences on self-management among func-
+tionally independent adults with diabetes or heart failure:do family members hinder as much as they help? Chronic
+Illn. 2010;6(1):22-- -33.
+24. DiMatteo MR. Social support and patient adherence
+to medical treatment: a meta-analysis. Health Psychol .
+2004;23(2):207- - -18.
+25. Luttik ML, Jaarsma T, Moser D, Sanderman R, van
+Veldhuisen DJ. The importance and impact of socialsupport on outcomes in patients with heart failure: anoverview of the literature. J Cardiovasc Nurs . 2005;20
+(3):162- - -9.26. Strom JL, Egede L. The impact of social support on
+outcomes in adult patients with type 2 diabetes: a sys-
+tematic review. Curr Diab Rep . 2012;12(6):769- - -81.
+27. Rosland AM, Heisler M, Piette JD. The impact of
+family behaviors and communication patterns on chronic
+illness outcomes: a systematic review. J Behav Med .
+2012;35(2):221-- -39.
+28. Grey M, Kna ﬂK, McCorkle R. A framework for the
+study of self- and family management of chronic condi-
+tions. Nurs Outlook . 2006;54(5):278- - -86.
+29. Lorig KR, Mazonson PD, Holman HR. Evidence
+suggesting that health education for self-management in
+patients with chronic arthritis has sustained health ben-
+eﬁts while reducing health care costs. Arthritis Rheum .
+1993;36(4):439-- -46.
+30. Lorig K, Ritter PL, Villa FJ, Armas J. Community-
+based peer-led diabetes self-management: a randomized
+trial. Diabetes Educ . 2009;35(4):641- - -51.
+31. Lorig KR, Ritter PL, Gonzalez VM. Hispanic chronic
+disease self-management: a randomized community-
+based outcome trial. Nurs Res . 2003;52(6):361-- -9.
+32. Gifford AL, Laurent DD, Gonzales VM, Chesney
+MA, Lorig KR. Pilot randomized trial of education to
+improve self-management skills of men with symptomatic
+HIV/AIDS. J Acquir Immune De ﬁc Syndr Hum Retrovirol .
+1998;18(2):136-- -44.
+33. LeFort SM, Gray-Donald K, Rowat KM, Jeans ME.
+Randomized controlled trial of a community-based psy-
+choeducation program for the self-management of
+chronic pain. Pain. 1998;74(2-3):297- - -306.
+34. Lorig KR, Ritter P, Stewart AL, et al. Chronic disease
+self-management program: 2-year health status andhealth care utilization outcomes. Med Care . 2001;39
+(11):1217- - -23.
+35. Lorig KR, Sobel DS, Ritter PL, Laurent D,
+Hobbs M. Effect of a self-management program on
+patients with chronic disease. Eff Clin Pract . 2001;4
+(6):256- - -62.
+36. Wilson PM, Mayor V. Long-term conditions. 2:
+supporting and enabling self-care. Br J Community Nurs .
+2006;11(1):6-- -10.
+37. Barlow JH, Turner AP, Wright CC. A randomized
+controlled study of the arthritis self-management pro-
+gramme in the UK. Health Educ Res . 2000;15(6):665- - -
+80.
+38. Lorig K, Ritter PL, Villa F, Piette JD. Spanish diabetes
+self-management with and without automated telephone
+reinforcement: two randomized trials. Diabetes Care .
+2008;31(3):408-- -14.
+39. Lorig K, Ritter PL, Laurent DD, et al. Online diabetes
+self-management program: a randomized study. Diabetes
+Care. 2010;33(6):1275- - -81.
+40. Grey M, Cameron ME, Thurber FW. Coping and
+adaptation in children with diabetes. Nurs Res . 1991;40
+(3):144- - -9.
+41. Grey M, Cameron ME, Lipman TH, Thurber FW.
+Psychosocial status of children with diabetes in the ﬁrst
+two years after diagnosis. Diabetes Care . 1995;18
+(10):1330- - -6.
+42. Davidson M, Boland EA, Grey M. Teaching teens to
+cope: coping skills training for adolescents with insulin-
+dependent diabetes mellitus. J Soc Pediatr Nurs . 1997;2
+(2):65- - -72.43. Grey M, Yu C, Boland EA, Sullivan-Bolyai S,
+Davidson M, Tamborlane WV. Short-term effects ofcoping skills training as adjunct to intensive therapy inadolescents. Diabetes Care . 1998;21(6):902- - -8.
+44. Grey M, Schreiner B, Pyle L. Development ofa
+diabetes education program for youth with type 2 di-abetes. Diabetes Educ . 2009;35(1):108-- -16.
+45. Grey M, Jaser SS, Holl MG, Jefferson V, Dziura J,
+Northrup V. A multifaceted school-based intervention toreduce risk for type 2 diabetes in at-risk youth. Prev Med .
+2009;49(2- - -3):122- - -8.
+46. Berry D, Savoye M, Melkus G, Grey M. An in-
+tervention for multiethnic obese parents and overweightchildren. Appl Nurs Res . 2007;20(2):63-- -71.
+47. Whittemore R, Jeon S, Grey M. An Internet obesity
+prevention program for adolescents. J Adolesc Health .
+2013;52(4):439- - -47.
+48. Whittemore R, Grey M, Lindemann E, Ambrosino J,
+Jaser S. Development of an Internet coping skills trainingprogram for teenagers with type 1 diabetes. Comput
+Inform Nurs . 2010;28(2):103-- -11.
+49. Whittemore R, Jaser SS, Jeon S, et al. An Internet
+coping skills training program for youth with type 1diabetes: six-month outcomes. Nurs Res . 2012;61
+(6):395- - -404.
+50. Grey M, Whittemore R, Liberti L, Delamater A,
+Murphy K, Faulkner MS. A comparison of two Internet
+programs for adolescents with type 1 diabetes: design
+and methods. Contemp Clin Trials . 2012;33(4):769-- -76.
+51. Grey M, Boland EA, Davidson M, Li J, Tamborlane
+WV. Coping skills training for youth with diabetesmellitus has long-lasting effects on metabolic control andquality of life. J Pediatr . 2000;137(1):107- - -13.
+52. Grey M, Whittemore R, Jeon S, Murphy K, Faulkner
+MS, Delamater A. Internet psycho-education programsimprove outcomes in youth with type 1 diabetes. Diabetes
+Care. 2013;36(9):2475- - -82.
+53. Sun AC, Tsoh JY, Saw A, Chan JL, Cheng JW.
+Effectiveness of a culturally tailored diabetes self-management program for Chinese Americans. Diabetes
+Educ . 2012;38(5):685- - -94.
+54. Samuel-Hodge CD, Keyserling TC, Park S, Johnston
+LF, Gizlice Z, Bangdiwala SI. A randomized trial ofa church-based diabetes self-management program forAfrican Americans with type 2 diabetes. Diabetes Educ .
+2009;35(3):439- - -54.
+55. Weinert C, Cudney S, Hill WG. Rural women,
+technology, and self-management of chronic illness. Can J
+Nurs Res . 2008;40(3):114- - -34.
+56. Nicholas MK, Asghari A, Blyth FM, et al. Self-
+management intervention for chronic pain in olderadults: a randomised controlled trial. Pain. 2013;154
+(6):824- - -35.
+57. Garcia-Alamino JM, Ward AM, Alonso-Coello P,
+et al. Self-monitoring and self-management of oral anti-coagulation. Cochrane Database Syst Rev . 2010;(4):
+CD003839.
+58. Powell H, Gibson PG. Options for self-management
+education for adults with asthma. Cochrane Database Syst
+Rev. 2003;(1):CD004107.
+59. Gibson PG, Powell H, Coughlan J, et al. Self-
+management education and regular practitioner reviewfor adults with asthma. Cochrane Database Syst Rev .
+2003;(1):CD001117.AJPH PERSPECTIVES
+Supplement 6, 2018, Vol 108, No. S6 |American Journal of Public Health Grady and Gough |Peer Reviewed |Perspectives From the Social Sciences |S443
+60. Wolf FM, Guevara JP, Grum CM, Clark NM, Cates CJ.
+Educational interventions for asthma in children.Cochrane Database Syst Rev . 2003;(1):CD000326.
+61. Morriss RK, Faizal MA, Jones AP, Williamson PR,
+Bolton C, McCarthy JP. Interventions for helping
+people recognise early signs of recurrence in bipolar
+disorder. Cochrane Database Syst Rev . 2007;(1):
+CD004854.
+62. Deakin T, McShane CE, Cade JE, Williams RD.
+Group based training for self-management strategies inpeople with type 2 diabetes mellitus. Cochrane Database
+Syst Rev . 2005;(2):CD003417.
+63. Pho AT, Tanner EK, Roth J, Greeley ME, Dorsey CD,
+Szanton SL. Nursing strategies for promoting and main-taining function among community-living older adults:
+the CAPABLE intervention. Geriatr Nurs . 2012;33
+(6):439- - -45.
+64. Szanton SL, Thorpe RJ, Boyd C, et al. Community
+aging in place, advancing better living for elders: a bio-behavioral-environmental intervention to improve func-tion and health-related quality of life in disabled olderadults. J Am Geriatr Soc . 2011;59(12):2314- - -20.
+65. Brown GK, Nicassio PM. Development of a ques-
+tionnaire for the assessment of active and passive copingstrategies in chronic pain patients. Pain. 1987;31(1):53- - -
+64.
+66. Lorig K. Chronic disease self-management: a model
+for tertiary prevention. Am Behav Sci . 1996;39(6):676- - -
+83.
+67. Emanuel E. Prevention and cost control. Science .
+2012;337(6101):1433.
+68. Emanuel EJ. Where are the health care cost savings?
+JAMA . 2012;307(1):39- - -40.
+69. Szanton SL. Self-management at home: clinical,
+research, and policy considerations. Oral presentation at:National Nursing Research Roundtable; March 8, 2013;National Institutes of Health, Bethesda, MD.AJPH PERSPECTIVES
+S444 |Perspectives From the Social Sciences |Peer Reviewed |Grady and Gough American Journal of Public Health |Supplement 6, 2018, Vol 108, No. S6
+Reproduced with permission of copyright owner. Further reproduction
+prohibited without permission.

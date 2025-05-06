@@ -1,0 +1,1905 @@
+111Assuring the Machine Learning Lifecycle: Desiderata,
+Methods, and Challenges
+ROB ASHMORE†,Defence Science andTechnology Laboratory,UK
+RADU CALINESCU and COLIN PATERSON, Universityof YorkandAssuringAutonomy
+InternationalProgramme, UK
+Machinelearninghasevolvedintoanenablingtechnologyforawiderangeofhighlysuccessfulapplications.
+The potential for this success to continue and accelerate has placed machine learning (ML) at the top of re-
+search,economic,andpoliticalagendas.SuchunprecedentedinterestisfuelledbyavisionofMLapplicability
+extending to healthcare, transportation, defence, and other domains of great societal importance. Achieving
+thisvisionrequirestheuseofMLinsafety-criticalapplicationsthatdemandlevelsofassurancebeyondthose
+neededforcurrentMLapplications.Ourarticleprovidesacomprehensivesurveyofthestateoftheartinthe
+assuranceofML ,i.e.,inthegenerationofevidencethatMLissufficientlysafeforitsintendeduse.Thesurvey
+covers the methods capable of providing such evidence at different stages of the machine learning lifecycle ,
+i.e.,ofthecomplex,iterativeprocessthatstartswiththecollectionofthedatausedtotrainanMLcomponent
+for a system, and ends with the deployment of that component within the system. The article begins with
+a systematic presentation of the ML lifecycle and its stages. We then define assurance desiderata for each
+stage, review existing methods that contribute to achieving these desiderata, and identify open challenges
+that requirefurtherresearch.
+CCSConcepts:• Computingmethodologies →Machinelearning ;Modelverificationandvalidation ;
+•General and reference →Surveys and overviews ;
+Additional Key Words and Phrases: Machine learning lifecycle, machine learning workflow, safety-critical
+systems,assurance,assuranceevidence
+ACM Reference format:
+RobAshmore,RaduCalinescu,andColinPaterson.2021.AssuringtheMachineLearningLifecycle:Desider-
+ata, Methods,andChallenges. ACM Comput.Surv. 54, 5, Article 111 (May 2021), 39 pages.
+https://doi.org/10.1145/3453444
+1 INTRODUCTION
+Therecentsuccessof machinelearning(ML) hastakentheworldbystorm.Whilefarfromdeliv-
+eringthehumanlikeintelligencepostulatedbyArtificialIntelligencepioneers[ 39],MLtechniques
+Rob Ashmore, RaduCalinescu, andColinPaterson are contributedequally to thearticle.
+†Research carried outwhilethe author wasaVisiting Fellow of the Assuring Autonomy InternationalProgramme.
+This work was partly funded by the Assuring Autonomy International Programme and the UKRI project EP/V026747/1
+‘Trustworthy Autonomous Systems Node inResilience’.
+Authors’addresses:R.Ashmore,EastCourt-CGrenvilleBuilding,DSTL,PortsdownWest,HillRoad,Fareham,Hants,PO17
+6AD,England;email:rdashmore@dstl.gov.uk;R.Calinescuand,C.Paterson,DepartmentofComputerScience,University
+of York, DeramoreLane,York, YO105GH, England;emails:{radu.calinescu, colin.paterson}@york.ac.uk.
+Permission to make digital or hard copies of all or part of this work for personal or classroom use is granted without fee
+provided that copies are not made or distributed for profit or commercial advantage and that copies bear this notice and
+the full citation on the first page. Copyrights for components of this work owned by others than ACM must be honored.
+Abstractingwithcreditispermitted.Tocopyotherwise,orrepublish,topostonserversortoredistributetolists,requires
+prior specific permission and/or a fee.Request permissions from permissions@acm.org .
+© 2021Association forComputingMachinery.
+0360-0300/2021/05-ART111$15.00
+https://doi.org/10.1145/3453444
+ACM ComputingSurveys, Vol. 54,No.5,Article 111.Publicationdate:May 2021.
+
+111:2 R. Ashmore et al.
+such as deep learning have remarkable applications. The use of these techniques in products
+ranging from smart phones [ 8,137] and household appliances [ 79] to recommender systems [ 36,
+139] and automated translation services [ 186] has become commonplace. There is a widespread
+belief that this is just the beginning of an ML-enabled technological revolution [ 55,107]. Stake-
+holdersasdiverseasresearchers,industrialists,policymakersandthegeneralpublicenvisagethat
+ML will soon be at the core of novel applications and services used in healthcare, transportation,
+defence andotherkeyareasof economy andsociety[ 11,41,74,90,111].
+AchievingthisvisionrequiresastepchangeinthelevelofassuranceprovidedforML.Theoc-
+casional out-of-focus photo taken by an ML-enabled smart camera can easily be deleted, and the
+selectionofanoddwordbyanautomatedtranslationserviceisbarelynoticed.Althoughincreas-
+inglyrare,similarMLerrorsmaybeunacceptableinmedicaldiagnosisapplicationsorself-driving
+cars.Forsuchsafety-criticalsystems,MLerrorscanleadtofailuresthatcannotberevertedorig-
+nored,andultimatelycauseharmtotheirusersoroperators.Therefore,theuseofMLtosynthesise
+components of safety-critical systems must be assured by evidence that these ML components are
+fit for purpose andadequately integrated into their systems. This evidence must be sufficiently
+thorough. Where required by the domain, it must enable the creation of compelling assurance
+cases[21,122] that explain why the systems can be trusted for their intended applications. Given
+this need, within this article, we use the term assurance to refer to evidence that supports safety
+arguments,ratherthaninamoregeneralquality-relatedmanner.Althoughwefocusonevidence,
+we notethattheargument structureneedsto becredible[ 92].
+Ourarticlerepresentsthefirstsurveyofthemethodsavailableforobtainingevidenceconcern-
+ing ML components for use in assurance cases, with a focus on ML techniques that synthesise
+systemcomponents(e.g.,classifiers)fromincompletetrainingdata.Aswithanyengineeringarte-
+fact,assurancecanonlybeprovidedbyunderstandingthecomplex,iterativeprocessemployedto
+produce and use ML components, i.e., the machine learning lifecycle . We therefore start by defin-
+ing this lifecycle, which consists of four interrelated stages carried out following a spiral process
+model[22].Anumberofactivitiesareassociatedwitheachstage.TheMLlifecyclestagesandac-
+tivities presented in the article are derived from our study of the existing research literature, and
+our practical experience from over 15 Assuring Autonomy International Programme projects on
+theassuranceand regulation ofroboticsand autonomoussystems.1
+T h efi r s ts t a g e , Data Management (DM) , focuses on obtaining the datasets required for the
+training and for the verification of the ML components. This stage includes activities ranging
+from data collection to data preprocessing [ 94] (e.g., labelling) and augmentation [ 140]. The sec-
+ondstage, ModelLearning ,comprisestheactivitiesassociatedwithsynthesisoftheMLcomponent
+starting from the training dataset. The actual machine learning happens in this stage, which also
+includesactivitiessuchasselectionoftheMLalgorithmandhyperparameters[ 17,166].Thethird
+stage,Model Verification (MV) , is responsible for providing evidence to demonstrate that the
+synthesisedMLcomponentcomplieswithitsrequirements.ThisstageisessentialfortheMLcom-
+ponents of safety-critical systems. Finally, the last stage of the ML lifecycle is Model Deployment .
+This stage focuses on the integration and operation of the ML component within a fully fledged
+system.
+To ensure a systematic coverage of ML assurance methods, we structure our survey based on
+the assurance considerations that apply at the four stages of the ML lifecycle. For each stage, we
+identify the assurance-related desiderata (i.e., the key assurance requirements, derived from the
+body of research covered in our survey) for the artefacts produced by that stage. The relative im-
+portanceofthesedesideratawillbelargelycontextdependent.Indeed,itmaybenecessaryforthe
+1https://www.york.ac.uk/assuring-autonomy/projects/ .
+ACM ComputingSurveys, Vol. 54,No. 5,Article 111.Publicationdate:May2021.
+Assuring the Machine Learning Lifecycle: Desiderata, Methods, and Challenges 111:3
+engineertoagreewhereitisappropriatetofindtradeoffsbetweendesideratawithin,andbetween,
+ML lifecycle stages. By considering all of the proposed desiderata, with respect to the operating
+context,amorecompellingassuranceargumentmaybeconstructed.Wethenpresentthemethods
+availableforachievingthesedesiderata,withtheirassumptions,advantagesandlimitations.This
+represents an analysis of over two decades of sustained research on ML methods for data man-
+agement,modellearning,verification,anddeployment.Finally,wedeterminetheopenchallenges
+thatmustbeaddressedthroughfurtherresearchtofullysatisfythestagedesiderataandtoenable
+theuseofMLcomponentsinsafety-criticalsystems.Muchlikethedesiderata,therelativeimpor-
+tance of these challenges will be dependent on the operating context, and hence ranking them is
+outsideof scopeof thiswork.
+Our survey and the machine learning lifecycle underpinning its organisation are relevant to a
+broad range of ML types, including supervised,unsupervisedand reinforcement learning. Neces-
+sarily,someofthemethodspresentedinthesurveyareonlyapplicabletospecifictypesofML;we
+clearly indicate where this is the case. As such, the survey supports a broad range of ML stake-
+holders,rangingfrompractitionersdevelopingconvolutionalneuralnetworksfortheclassification
+of road signs in self-driving cars, to researchers devising new ensemble learning techniques for
+safety-critical applications, and to regulators managing the introduction of systems that use ML
+componentsinto everydayuse.
+The rest of the article is structured as follows. In Section 2, we present the machine learning
+lifecycle,describingtheactivitiesencounteredwithineachofitsstagesandintroducingMLtermi-
+nologyusedthroughoutthearticle.InSection 3,weoverviewthefewexistingsurveysthatdiscuss
+verification, safety or assurance aspects of machine learning. We explain that each of these sur-
+veysfocusesonaspecificMLlifecyclestageorsubsetofactivities,and/oraddressesonlyanarrow
+aspect of ML assurance. The ML assurance desiderata, methods and open challenges for the four
+stages of the ML lifecycle are then detailed in Sections 4to7. Together, these sections provide
+a comprehensive set of guidelines for the developers of safety-critical systems with ML compo-
+nents, and inform researchers about areas where additional ML assurance methods are needed.
+We concludethearticlewithabrief summaryin Section 8.
+2 THE MACHINE LEARNING LIFECYCLE
+Machinelearningprovidesmechanismsfortheextractionof models(orpatterns)fromdata[ 20,60,
+120]. In this article, we are concerned with the use of such ML models in safety-critical systems,
+e.g., to enable these systems to understand the environment they operate in, and to decide their
+response to changes in the environment. Assuring this use of ML models requires an in-depth
+understanding of the machine learning lifecycle , i.e., of the process used for their development
+and integration into a fully fledged system. Like traditional system development, this process is
+underpinned by a set of system-level requirements, from which the requirements and operating
+constraints for the ML models are derived. As an example, the requirements for a ML model for
+the classification of British road signs can be derived from the high-level requirements for a self-
+drivingcarintendedtobeusedintheUK.However,unliketraditionaldevelopmentprocesses,the
+development of ML models involves the acquisition of datasets, and experimentation [114,189],
+i.e., the manipulation of these datasets and the use of ML trainingtechniques to produce models
+of the data that optimise error functions derived from requirements. This experimentation yields
+a processing pipeline capable of taking data as input and of producing ML models that, when
+integratedintothesystemandappliedtodataunseenduringtraining,achievetheirrequirements
+in thedeployedcontext.
+As shown in Figure 1, the machine learning lifecycle consists of four stages. The first three
+stages—Data Management ,Model Learning ,a n dModel Verification —comprise the activities by
+ACM ComputingSurveys, Vol. 54,No.5,Article 111.Publicationdate:May 2021.
+111:4 R. Ashmore et al.
+Fig. 1. The machine learning lifecycle comprises four stages performed using a spiral process model.
+whichmachinelearnedmodelsareproduced.Accordingly,weusetheterm machinelearningwork-
+flowto refer to these stages taken together. The fourth stage, Model Deployment , comprises the
+activities concerned with the deployment of ML models within an operational system, alongside
+components obtained using traditional software and system engineering methods. We provide
+brief descriptionsof eachof thesestagesbelow.
+Dataareatthecoreofanyapplicationofmachinelearning.Assuch,theMLlifecyclestartswith
+a Data Management stage. This stage is responsible for the acquisition of the data underpinning
+thesynthesisofmachinelearnedmodelsthatcanthenbeused“topredictfuturedata,ortoperform
+otherkindsofdecisionmakingunderuncertainty”[ 120].Thisstagecomprisesfourkeyactivities,
+and produces the training dataset andverification dataset used for the training and verification of
+theMLmodelsinlaterstagesoftheMLlifecycle,respectively.Thefirstdatamanagementactivity,
+collection [59,174], is concerned with gathering data samples through observing and measuring
+the real-world (or a representation of the real-world) system, process or phenomenon for which
+an ML model needs to be built. When data samples are unavailable for certain scenarios, or their
+collection would be too costly, time consuming or dangerous, augmentation methods [ 140,185]
+areusedtoaddfurtherdatasamplestothecollecteddatasets.Additionally,thedatacollectedfrom
+multiple sources may be heterogeneous in nature, and therefore preprocessing [93,191]m a yb e
+requiredtoproduceconsistentdatasetsfortrainingandverificationpurposes.Preprocessingmay
+also seek to reduce the complexity of collected data or to engineer features to aid in training [ 64,
+86]. Furthermore, preprocessing may be required to label the data samples when they are used
+in supervised ML tasks [ 59,60,120]. The need for additional data collection, augmentation and
+preprocessingisestablishedthroughthe analysisofthedata[ 133].
+In the Model Learning stage of the machine learning lifecycle, the ML engineer typically starts
+by selecting the type of model to be produced. This model selection is undertaken with reference
+to the problem type (e.g., classification or regression), the volume and structure of the training
+data [113,152], and often in light of personal experience. A loss function is then constructed as a
+ACM ComputingSurveys, Vol. 54,No. 5,Article 111.Publicationdate:May2021.
+Assuring the Machine Learning Lifecycle: Desiderata, Methods, and Challenges 111:5
+measure of training error. The aim of the trainingactivity is to produce an ML model that min-
+imisesthiserror.Thisrequiresthedevelopmentofasuitabledatausestrategy,soastodetermine
+how much of the training dataset should be held for model validation,2and whether all the other
+datasamplesshouldbeusedtogetherfortrainingor“minibatchmethods”thatusesubsetsofdata
+samplesoversuccessivetrainingcyclesshouldbeemployed[ 60].TheMLengineerisalsorespon-
+sible forhyperparameter selection , i.e., for the choosing the parameters of the training algorithm.
+HyperparameterscontrolkeyMLmodelcharacteristicssuchasoverfitting,underfittingandmodel
+complexity. Finally, when models or partial models that have proved successful within a related
+contextareavailable, transferlearning enablestheirintegrationwithinthenewmodelarchitecture
+ortheiruseasastartingpointfortraining[ 124,135,160].WhentheresultingMLmodelachieves
+satisfactory levels of performance, the next stage of the ML workflow can commence. Otherwise,
+the process needs to return to the Data Management stage, where additional data are collected,
+augmented,preprocessedand analysedtoimprove thetrainingfurther.
+The third stage of the ML lifecycle is Model Verification. The central challenge of this stage is
+to ensure that the trained model performs well on new, previously unseen inputs (this is known
+asgeneralization)[ 59,60,120].Assuch,thestagecomprisesactivitiesthatprovideevidenceofthe
+model’s ability to generalise to data not seen during the model learning stage. A test-based verifi-
+cationactivityassessestheperformanceofthelearnedmodelagainsttheverificationdatasetthat
+the Data Management stage has produced independently from the training dataset. This dataset
+will have commonalities with the training data, but it may also include elements that have been
+deliberatelychosentodemonstrateaverificationaim,whichitwouldbeinappropriatetoinclude
+in the training data. When the data samples from this set are presented to the model, a gener-
+alization error is computed [ 121,159]. If this error violates performance criteria established by a
+requirement encoding activity, then the process needs to return to either the Data Management
+stage or the Model Learning stage of the ML lifecycle. Additionally, a formal verification activity
+maybeusedtoverifywhetherthemodelcomplieswithasetofformalpropertiesthatencodekey
+requirements for the ML component. Formal verification methods such as model checking and
+mathematical proof allow for these properties to be rigorously established before the ML model
+is deemed suitable for integration into the safety-critical system. As for failed testing-based ver-
+ification, further Data Management and/or Model Learning activities are necessary when these
+properties do not hold. The precise activities required from these earlier stages of the ML work-
+flow are determined by the verification result , which summarises the outcome of all verification
+activities.
+Assuming that the verification result contains all the required assurance evidence, a system
+that uses the now verified model is assembled in the Model Deployment stage of the ML lifecycle.
+This stage comprises activities concerned with the integration of verified ML model(s) with sys-
+temcomponentsdevelopedandverifiedusingtraditionalsoftwareengineeringmethods,withthe
+monitoring ofitsoperation,andwithits updating thoroughofflinemaintenanceoronlinelearning.
+Theoutcomeof theModelDeployment stageis afully fledged deployedand operatingsystem.
+Moreoftenthannot,thesafety-criticalsystemsenvisagedtobenefitfromtheuseofMLmodels
+are autonomous or self-adaptive systems that require ML components to cope with the dynamic
+and uncertain nature of their operating environments [ 29,90,111]. As such, Figure 1depicts this
+type of system as the outcome of the Model Deployment stage. Moreover, the diagram shows
+two key roles that ML models may play within the established monitor-analyse-plan-execute
+2Model validation represents the frequent evaluation of the ML model during training, and is carried out by the develop-
+mentteamtocalibratethetrainingalgorithm.Thisdiffersessentiallyfromwhatvalidationmeansinsoftwareengineering
+(i.e.,anindependentassessment performed toestablish whetherasystem satisfies theneeds of its intendedusers).
+ACM ComputingSurveys, Vol. 54,No.5,Article 111.Publicationdate:May 2021.
+111:6 R. Ashmore et al.
+(MAPE) control loop [ 72,84,110] of these systems. We end this section with a brief description
+of theMAPEcontrolloopandof thesetypicalusesof MLmodels withinit.
+In its four steps, the MAPE control loop senses the current state of the environment through
+monitoring ,derivesanunderstandingoftheworldthroughthe analysisofthesenseddata,decides
+suitableactionsthrough planning,andthenactsupontheseplansthrough executing theiractions.
+Undertakingtheseactionsaltersthestateofthesystemandtheenvironmentinwhichitoperates.
+The monitoring step employs hardware and software components that gather data as a set of
+samplesfromtheenvironmentduringoperation.Thechoiceofsensorsrequiresanunderstanding
+ofthesystemrequirements,theintendedoperationalconditions,andtheplatformintowhichthey
+will be deployed. Data gathered from the environment will typically be partial and imperfect due
+to physical,timingand financialconstraints.
+The analysis step extracts features from data samples as encoded domain-specific knowledge.
+This can be achieved through the use of ML models combined with traditional software compo-
+nents. The features extracted may be numerical (e.g., blood sugar level in a healthcare system),
+ordinal (e.g., position in queue in a traffic management system) or categorical (e.g., an element
+from the set{car,bike,bus}in a self-driving car). The features extracted through analysing the
+datasetsobtainedduringmonitoringunderpintheunderstandingofthecurrentstateoftheenvi-
+ronment and thatof thesystemitself.
+Theplanning(ordecision)stepcanemployacombinationofMLmodelsandtraditionalreason-
+ing engines to select a course of action to be undertaken. The action(s) selected will aim to fulfil
+thesystemrequirementssubjecttoanydefinedconstraints.Theactionsetavailableisdictatedby
+thecapabilitiesofthesystem,andisrestrictedbyoperatingconditionsandconstraintsdefinedin
+therequirementsspecification.
+Finally,intheexecutionstep,thesystemenactstheselectedactionsthroughsoftwareandhard-
+wareeffectorsand,indoingso,changestheenvironmentwithinwhichitisoperating.Thedynamic
+andtemporalnatureofthesystemandtheenvironmentrequirestheMAPEcontrollooptobein-
+vokedcontinuouslyuntilasetofsystem-levelobjectiveshasbeenachievedorastoppingcriterion
+was reached.
+New data samples gathered during operation can be exploited by the Data Management activ-
+ities and, where appropriate, new models may be learned and deployed within the system. This
+deployment of new ML models can be carried out either as an offline maintenance activity, or
+throughtheonline updatingoftheoperatingsystem.
+3 RELATED SURVEYS
+The large and rapidly growing body of ML research is summarised by a plethora of surveys. The
+vast majority of these surveys narrowly focus on a particular type of ML, and do not consider
+assurance explicitly. Due to space constraints, we discuss these surveys in Appendix A from our
+online supplementarymaterial.
+4 DATA MANAGEMENT
+Fundamentally, all ML approaches start with data. These data describe the desired relationship
+between the ML model inputs and outputs, the latter of which may be implicit for unsupervised
+approaches.Equivalently,thesedataencodetherequirementswewishtobeembodiedinourML
+model. Consequently,anyassuranceargument needstoexplicitly considerdata.
+4.1 Inputs and Outputs
+The key input artefact to the Data Management stage is the set of requirements that the model is
+requiredtosatisfy.Thesemaybeinformedbyverificationartefactsproducedbyearlieriterations
+ACM ComputingSurveys, Vol. 54,No. 5,Article 111.Publicationdate:May2021.
+Assuring the Machine Learning Lifecycle: Desiderata, Methods, and Challenges 111:7
+of the ML lifecycle. The key output artefacts from this stage are datasets: There is a combined
+datasetthatisusedbythedevelopmentteamfortrainingandvalidatingthemodel;thereisalsoa
+separateverificationdataset,whichcan beusedby anindependentverificationteam.
+4.2 Activities
+4.2.1 Collection. This activity is concerned with collecting data from an originating source.
+ThesedatamaybesubsequentlyenhancedbyotheractivitieswithintheDataManagementstage.
+New data may be collected, or a pre-existing dataset may be re-used (or extended). Data may
+be obtained from a controlled process, or they may arise from observations of an uncontrolled
+process:Thisprocessmay occurin therealworld,orit may occurina syntheticenvironment.
+4.2.2 Preprocessing. For thepurposesof thisarticle weassume thatpreprocessingis a one-to-
+onemapping:Itadjustseachcollected(raw)sampleinanappropriatemanner.Itisoftenconcerned
+withstandardisingthedatainsomeway,e.g.,ensuringallimagesareofthesamesize[ 97].Manual
+additionof labels tocollectedsamplesisanotherformof preprocessing.
+4.2.3 Augmentation. Augmentation increases the number of samples in a dataset. Typically,
+new samples are derived from existing samples, so augmentation is, generally, a one-to-many
+mapping. Augmentation is often used due to the difficulty of collecting observational data (e.g.,
+forreasonsofcostorethics[ 140]).Augmentationcanalsobeusedtohelpinstilcertainproperties
+in thetrainedmodel, e.g.,robustnessto adversarialexamples [ 61].
+4.2.4 Analysis. Analysismayberequiredtoguideaspectsofcollectionandaugmentation(e.g.,
+to ensure there is an appropriate class balance within the dataset). Exploratory analysis is also
+neededtoprovideassurancethatData Managementartefactsexhibit thedesideratabelow.
+4.3 Desiderata
+From an assurance perspective, the datasets produced during the Data Management stage should
+exhibitthefollowing key properties:
+(1)Relevant—This property considers the intersection between the dataset and the desired
+behaviour in the intended operational domain. For example, a dataset that only included
+German roadsigns would notbe Relevant for a systemintendedtooperateon UK roads.
+(2)Complete —This property considers the way samples are distributed across the input do-
+main and subspaces of it. In particular, it considers whether suitable distributions and
+combinations of features are present. For example, an image dataset that displayed an
+inappropriate correlation between image background and type of animal would not be
+complete[ 138].
+(3)Balanced —This property considers the distribution of features that are included in the
+dataset.Forclassificationproblems,akeyconsiderationisthebalancebetweenthenumber
+of samples in each class [ 63]. This property takes an internal perspective; it focuses on
+the dataset as an abstract entity to which a generic learning algorithm will be applied.
+Incontrast,the Complete propertytakesanexternalperspective;itconsidersthedataset
+withintheintendedoperationaldomain.
+(4)Accurate—This property considers how measurement (and measurement-like) issues can
+affectthewaythatsamplesreflecttheintendedoperationaldomain.Itcoversaspectslike
+sensor accuracy and labelling errors [ 26]. The correctness of data collection and prepro-
+cessingsoftwareisalso relevantto thisproperty,asisconfigurationmanagement.
+ACM ComputingSurveys, Vol. 54,No.5,Article 111.Publicationdate:May 2021.
+111:8 R. Ashmore et al.
+Conceptually, since it relates to real-world behaviour, the Relevant desideratum is concerned
+withvalidation.Theotherthreedesiderataareconcernedwithaspectsof verification.
+4.4 Methods
+Thissectionconsiderseachofthefourdesideratainturn.Methodsthatcanbeappliedduringeach
+Data Managementactivity(Table 1),to helpachieve thedesiredkey property,arediscussed.
+4.4.1 Relevant. Bydefinition,adatasetcollectedduringtheoperationaluseoftheplannedsys-
+temwillberelevant.However,thisisunlikelytobeapracticalwayofobtainingallrequireddata.
+If the approach adopted for data collection involves re-use of a pre-existing dataset, then it
+needs to be acquired from an appropriate source. Malicious entries in the dataset can introduce a
+backdoor,whichcausesthemodeltobehaveinanattacker-definedwayonspecificinputs(orsmall
+classes of inputs) [ 35]. Despite recent research into the detection of backdoors [ 100,148,178], it
+remainsanopenchallenge(listedasDM01inTable 2).Itfollowsthatpre-existingdatasetsshould
+beobtainedfromtrustworthysourcesviameansthatprovidestrongguaranteesonintegrityduring
+transit.
+If the data samples are being collected from controlled trials, then we would require an appro-
+priate experimental plan that justifies the choice of feature values (inputs) included in the trial. If
+thetrialinvolvesreal-worldobservations,thentraditionalexperimentaldesigntechniqueswillbe
+appropriate [ 87]. Conversely, if the trial is conducted entirely in a simulated environment, then
+techniquesforthedesign and analysisof computerexperimentswillbe beneficial[ 146].
+Ifthedatasetcontainssyntheticsamples(eitherfromcollectionorasaresultofaugmentation),
+thenwewouldexpectevidencethatthesynthesisprocessisappropriatelyrepresentativeofthereal
+world.Often,synthesisinvolvessomeformofsimulation,whichoughttobesuitablyverifiedand
+validated [ 149], as there are examples of ML-based approaches affected by simulation bugs [ 37].
+Demonstrating that synthetic data is appropriate to the real-world intended operational domain,
+ratherthanaparticularidiosyncrasyof a simulation,isan openchallenge (DM02inTable 2).
+A dataset can be made irrelevant by data leakage. This occurs when the training data includes
+information that will be unavailable to the system within which the ML model will be used [ 83].
+Onewayofreducingthelikelihoodofleakageistoonlyincludeinthetrainingdatafeaturesthat
+can “legitimately” be used to infer the required output. For example, patient identifiers are un-
+likely to be legitimate features for any medical diagnosis system but may have distinctive values
+for patients already diagnosed with the condition that the ML model is meant to identify [ 142].
+Exploratorydataanalysis(EDA) [171]canhelpidentifypotentialsourcesofleakage:asurpris-
+ingdegreeofcorrelationbetweenafeatureandanoutputmaybeindicativeofleakage.Thatsaid,
+detectingand correctingfordata leakageis anopenchallenge (DM03in Table 2).
+Althoughitappearscounterintuitive,augmentingadatasetbyincludingsamplesthatarehighly
+unlikelytobeobservedduringoperationalusecanincreaserelevance.Forclassificationproblems,
+adversarialinputs[ 162]arespeciallycraftedinputsthatahumanwouldclassifycorrectlybutare
+confidently misclassified by a trained model. Including adversarial inputs with the correct class in
+thetrainingdata[ 125]canhelpreducemis-classificationandhenceincreaserelevance.Introducing
+an artificial unknown, or “dustbin,” class and augmenting the data with suitably placed samples
+attributedto thisclass[ 1]can alsohelp.
+Finally,unwanted bias (i.e., systematic error ultimately leading to unfair advantage for a
+privileged class of system users) can significantly impact the relevance of a dataset. This
+can be addressed using preprocessing techniques that remove the predictability of data fea-
+tures such as ethnicity, age or gender [ 52] or augmentation techniques that involve data rela-
+belling/reweighing/resampling[ 80].ItcanalsobeaddressedduringtheModelLearningandModel
+ACM ComputingSurveys, Vol. 54,No. 5,Article 111.Publicationdate:May2021.
+Assuring the Machine Learning Lifecycle: Desiderata, Methods, and Challenges 111:9
+Deploymentstages.Anindustry-readytoolkitthatimplementsarangeofmethodsforaddressing
+unwantedbiasisavailable [ 16].
+4.4.2 Complete. Recall that this property is about how the dataset is distributed across the
+inputdomain.Forthepurposesofourdiscussion,wedefinefourdifferent,butoverlapping,spaces
+relatedtothatdomain:
+(1) Theinput domain space,I, which is the set of inputs that the model can accept. Equiv-
+alently, this set is defined by the input parameters of the software implementation that
+instantiatesthemodel.
+(2) Theoperational domain space,O⊂I, which is the set of inputs that the model may be
+expectedtoreceivewhenusedwithintheintendedoperationaldomain.
+(3) Thefailuredomain space,F⊂I,whichisthesetofinputsthemodelmayreceiveifthere
+are failures elsewhere in the system. The distinction between FandOis best conveyed
+by noting thatFcovers system states, whilst Ocovers environmental effects: A cracked
+cameralens shouldbecoveredin F;afly onthelens shouldbecovered in O.
+(4) Theadversarial domain space,A⊂I, which is the set of inputs the model may receive
+if it is being attacked by an adversary. This includes adversarial examples, where small
+changes to an input cause mis-classification [ 162], as well as more general cyber-related
+attacks.
+Theconsiderationofwhetheradatasetiscompletewithregardstotheinputdomaincanbein-
+formed by simple statistical analysis and EDA [ 171], supported by discussions with experts from
+the intended operational domain. Simple plots showing the marginal distribution of each feature
+canbesurprisinglyinformative.Similarly,theratioofsamplingdensitybetweendenselysampled
+and sparsely sampled regions is informative [ 19] as is, for classification problems, identifying re-
+gionsthatonlycontainasingleclass[ 12].Identifyinganylarge emptyhyper-rectangles(EHRs)
+[98],whicharelargeregionswithoutanysamples,isalsoimportant.Ifanoperationalinputcomes
+fromthecentralportionof alarge EHR,then,generally speaking,itis appropriatefor thesystem
+toknow themodelisworkingfroman areafor whichno trainingdata wereprovided.
+Shortfallsincompletenessacrosstheinputdomain canbeaddressedviacollectionoraugmen-
+tation.Sinceashortfallwillrelatetoalackofsamplesinaspecificpartoftheinputdomain,further
+collection is most appropriate in the case of controlled trials. The risk of too much data yielding
+spuriouscorrelationsshouldalso beconsidered[ 30].
+Understanding completeness from the perspective of the operational domain space is challeng-
+ing. Typically, we would expect the input space Ito be high-dimensional, with Obeing a much
+lower-dimensionalmanifoldwithinthatspace[ 150].Insightsintothescopeof Ocanbeobtained
+byrequirementsdecomposition.Thenotionofsituationcoverage[ 5]generalisestheseconsidera-
+tions.Listsoffactors,basedontheoperationaldesigndomain,aswellasobjectandeventdetection
+and responsecanalsobe useful[ 91].
+Ifanincreasedcoverageof Oisneeded,thenthiscouldbeachievedviatheuseofa generative
+adversarialnetwork(GAN)3[10]thathasbeentrainedtomodelthedistributionsofeachclass.
+Althoughtheprecedingparagraphshavesurveyedmultiplemethods,understandingcomplete-
+nessacrosstheoperationaldomain remainsan openchallenge(DM04in Table 2).
+Completeness across the Fspace can be understood by systematically examining the sys-
+tem architecture to identify failures that could affect the model’s input. Note that the system
+3A GAN is a network specifically designed to provide inputs for another network. A classification network tries to learn
+theboundary betweenclasses, whereasa GANtries tolearn thedistribution of individual classes.
+ACM ComputingSurveys, Vol. 54,No.5,Article 111.Publicationdate:May 2021.
+111:10 R. Ashmore et al.
+architecture may protect the model from the effects of some failures: For example, the system
+may not present the model with images from a camera that has failed its built-in test. In some
+cases it may be possible to collect samples that relate to particular failures. However, for reasons
+of cost, practicality and safety, augmentation is likely to be needed to achieve suitable complete-
+nessofthisspace[ 6].Findingverifiablewaysofachievingthisaugmentationisanopenchallenge
+(DM05in Table 2).
+Understanding completeness across the adversarial domain Ainvolves checking: the model’s
+susceptibility to known ways of generating adversarial examples [ 61,117,162,188] and its be-
+haviourwhenpresentedwithinputscraftedtoachievesomeotherformofbehaviour,forexample,
+a not-a-number error. Whilst they are useful, both of these methods are subject to the “unknown
+unknowns” problem. More generally, demonstrating completeness across the adversarial domain
+is anopenchallenge (DM06in Table 2).
+4.4.3 Balanced. This property is concerned with the distribution of the dataset, viewed from
+aninternalperspective.Initially,itiseasiesttothinkaboutbalancesolelyfromtheperspectiveof
+supervisedclassification,whereakeyconsiderationisthenumberofsamplesineachclass.Ifthis
+is unbalanced, then simple measures of performance (e.g., classifier accuracy) may be insufficient
+[101].
+As it only involves counting the number of samples in each class, detecting class imbalance is
+straightforward. Its effects can be countered in several ways; for example, in the Model Learn-
+ing and Model Verification stages, performance measures can be class-specific, or weighted to
+accountforclassimbalance[ 63].Importanceweightingcan,however,beineffectivefordeepnet-
+workstrainedformanyepochs[ 28].Alternatively,oradditionally,intheDataManagementstage
+augmentationcanbeusedtocorrect(orreduce)theclassimbalance,eitherbyoversamplingthemi-
+norityclass,orbyundersamplingthemajorityclass,orusingacombinationoftheseapproaches4
+[101].Ifdataarebeingcollectedfromacontrolledtrial,thenanotherapproachtoaddressingclass
+imbalance isto performadditionalcollection,targetedtowardtheminority class.
+Class imbalance can be viewed as being a special case of rarity [ 182]. Another way rarity can
+manifestisthroughsmalldisjuncts,whicharesmall,isolatedregionsoftheinputdomainthatcon-
+tainasingleclass.Analysisofsingle-classregions[ 12]caninformthesearchforsmalldisjuncts,as
+can EDA and expertise in the intended operational domain. Nevertheless, finding small disjuncts
+remains anopenchallenge (DM07in Table 2).
+ClassimbalancecanalsobeviewedasaspecialcaseofaphenomenonthatappliestoallMLap-
+proaches:featureimbalance.Supposewewishtocreateamodelthatappliestopeopleofallages.
+If almost all of our data relate to people between the ages of 20 and 40, then we have an imbal-
+ance in this feature. Situations like this are not atypical when data are collected from volunteers.
+Detecting such imbalances is straightforward; understanding their influence on model behaviour
+and correctingforthemarebothopenchallenges(DM08andDM09in Table 2).
+4.4.4 Accurate. Recall that this property is concerned with measurement (and measurement-
+like) issues. If sensors are used to record information as part of data collection, then both sensor
+precisionandaccuracyneedtobeconsidered.Ifeitheroftheseishigh,thentheremaybebenefit
+inaugmentingthecollecteddatawithsamplesdrawnfromadistributionthatreflectsprecisionor
+accuracyerrors.
+For supervised learning, accuracy of labels is an important issue. When labelling is being con-
+ductedbyalargegroupofpeople,usingaformofcrowdsourcing,therearetwokeyissues:quality
+4Note that the last two approaches involve removing samples (corresponding to the majority class) from the dataset; this
+differs from the normalviewwherebyaugmentationincreases thenumberof samplesinthe dataset.
+ACM ComputingSurveys, Vol. 54,No. 5,Article 111.Publicationdate:May2021.
+Assuring the Machine Learning Lifecycle: Desiderata, Methods, and Challenges 111:11
+control in task processing and postprocessing to improve data quality [ 155]. For some especially
+sensitive applications, performing all labelling using a comparatively small number of in-house
+staff may be preferable [ 164]. Regardless of who performs the labelling, the actual value of a fea-
+ture is often unambiguously defined [ 157]. However, in some cases this may not be possible: for
+example, is a person walking astride a bicycle a pedestrian or a cyclist? In some cases, ambigu-
+ity may be unimportant; in others it might be critical. Consequently, labelling discrepancies are
+likely,especiallywhenlabelsaregeneratedbyhumans.Preventing,detectingandresolvingthese
+discrepanciesisan openchallenge (DM10inTable 2).
+Thedatacollectionprocessshouldgenerallybedocumentedinawaythataccountsforpotential
+weaknesses in the approach. If the process uses manual recording of information, then we would
+expectstepstobetakentoensureattentiondoesnotwaverandrecordsareaccurate.Conversely,
+ifthedatacollectionprocessusesloggingsoftware,thenconfidencethatthissoftwareisbehaving
+asexpectedshouldbeobtained,e.g.,usingtraditionalapproachesforsoftwarequality[ 75,143].
+ThisnotionofcorrectbehaviourappliesacrossallsoftwareusedintheDataManagementstage
+(and to all software used in the ML lifecycle). Data collection software may be relatively simple,
+merely consisting of an automatic recording of sensed values. Alternatively, it may be very com-
+plex, involving a highly-realistic simulation of the intended operational domain. The amount of
+evidence needed to demonstrate correct behaviour is related to the complexity of the software.
+Providingsufficientevidencefor acomplexsimulation isan openchallenge(DM11in Table 2).
+Given their importance, datasets should be protected against unintentional and unauthorised
+changes. Methods used in traditional software development (e.g., References [ 75,143]) may be
+appropriate for this task, but they may be challenged by the large volume and by the non-textual
+natureof many of thedatasetsusedin ML.
+4.5 Summary and Open Challenges
+Table1summarisestheassurancemethodsthatcanbeappliedduringtheDataManagementstage.
+Foreaseofreference,themethodsarepresentedintheordertheywereintroducedinthepreceding
+discussion.Methodsarealso matchedtoactivitiesand desiderata.
+Table1shows that there are relatively few methods associated with the preprocessing activ-
+ity. This may be because preprocessing is, inevitably, problem-specific. Likewise, there are few
+methods associated with the Accurate desideratum. This may reflect the widespread use of com-
+monly available datasets (e.g., ImageNet [ 40] and MNIST) within the research literature, which
+de-emphasisesissuesassociatedwithdata collectionandcuration,like Accuracy .
+Open challenges associated with the Data Management stage are shown in Table 2.T h er e l -
+evance and nature of these challenges have been established earlier in this section. For ease of
+reference, each challenge is matched to the artefact desideratum that it is most closely related to.
+It is apparent that, with the exception of understanding the effect of feature imbalance on model
+performance,theseopenchallengesdo notrelatetothecoreprocessoflearningamodel.Assuch,
+theyemphasiseimportantareasthatareinsufficientlycoveredintheresearchliterature.Examples
+includebeingabletodemonstrate:thatthemodelissufficientlysecure—fromacyberperspective
+(openchallengeDM01);thatthedataarefit-for-purpose(DM02,DM03);thatthedatacoveroper-
+ational, failure and adversarial domains (DM04, DM05, DM06); that the data are balanced, across
+and within classes (DM07, DM08, DM09); that manual data collection has not been compromised
+(DM10);and thatsimulations aresuitablydetailedand representativeoftherealworld (DM11).
+5 MODEL LEARNING
+The Model Learning stage of the ML lifecycle is concerned with creating a model, or algorithm,
+fromthedatapresentedtoit.Agoodmodelwillreplicatethedesiredrelationshipbetweeninputs
+ACM ComputingSurveys, Vol. 54,No.5,Article 111.Publicationdate:May 2021.
+111:12 R. Ashmore et al.
+Table 1. Assurance Methods for the Data Management Stage
+Associatedactivities†Supported desiderata‡
+Method Collection Preprocess. Augment. Analysis Relevant Complete Balanced Accurate
+Usetrusted data sources,with
+data-transit integrity guarantees✔ ⋆
+Experimental design [ 87,146] ✔✔ ⋆⋆ ✩
+Simulation verification and
+validation [ 149]✔ ⋆ ✩ ✩
+Exploratory data analysis [ 171] ✔ ⋆⋆
+Useadversarial examples [ 125] ✔ ✩ ⋆
+Include a “dustbin” class [ 1] ✔✩ ⋆
+Remove unwanted bias [ 16] ✔ ✔ ⋆ ✩
+Compare sampling density [ 19] /check ✔ ⋆ ✩
+Identify emptyand single-class
+regions [12,98]/check ✔ ⋆ ✩
+Usesituation coverage [ 5] ✔ ⋆
+Examine systemfailure cases ✔ ⋆
+Oversampling & undersampling
+[101]✔ ⋆⋆
+Check for within-class [ 76]a nd
+feature imbalance✔ ⋆
+UseaGAN [ 10] ✔ ⋆ ✩
+Augment data to account for
+sensor errors/check ✔ ✩ ⋆
+Confirm correct software
+behaviour[ 75,143]/check ✔✔ /check ✩ ⋆ ✩✩
+Usedocumented processes ✔ ✔ ✔ ✔ ✩ ⋆
+Apply configuration management
+[75,143]✔✔✔ ✔ ✩ ⋆
+†✔=activitythatthemethod is typicallyused in; /check=activitythatmayuse the method.
+‡⋆=desideratum supported bythe method; ✩=desideratum partlysupported bythemethod.
+Table 2. Open Challenges for the Assurance Concerns Associated with the
+Data Management (DM) Stage
+ID Open Challenge Desideratum (Section)
+DM01 Detectingbackdoors indata
+DM02 Demonstratingsynthetic dataappropriatenesstothe operationaldomain Relevant(Section 4.4.1)
+DM03 Detectingandcorrecting for dataleakage
+DM04 Measuring completenesswithrespect tothe operationaldomain
+DM05 Deriving waysof drawingsamplesfrom thefailuredomain Complete(Section 4.4.2)
+DM06 Measuring completenesswithrespect tothe adversarialdomain
+DM07 Finding smalldisjuncts, especiallyforwithin-class imbalances
+DM08 Understanding the effectof featureimbalanceon modelperformance Balanced(Section 4.4.3)
+DM09 Correcting forfeatureimbalance
+DM10 Maintainingconsistency across multiplehumancollectors/preprocessorsAccurate (Section 4.4.4)
+DM11 Verifying the accuracyof acomplexsimulation
+ACM ComputingSurveys, Vol. 54,No. 5,Article 111.Publicationdate:May2021.
+Assuring the Machine Learning Lifecycle: Desiderata, Methods, and Challenges 111:13
+and outputs present in the training set, and will satisfy non-functional requirements such as pro-
+vidinganoutputwithinagiventimeandusinganacceptableamountofcomputationalresources.
+5.1 Inputs and Outputs
+ThekeyinputartefacttothisstageisthetrainingdatasetproducedbytheDataManagementstage.
+Thekeyoutputartefactsarea machinelearnedmodelfor verificationin thenext stageof theML
+lifecycleand a performancedeficitreportusedto informremedialdatamanagement activities.
+5.2 Activities
+5.2.1 Model Selection. Thisactivitydecidesthemodeltype,variantand,whereapplicable,the
+structureofthemodeltobeproducedintheModelLearningstage.NumeroustypesofMLmodels
+are available [ 113,152], including multiple types of classification models (which identify the cat-
+egory that the input belongs to), regression models (which predict a continuous-valued attribute),
+clustering models(whichgroupsimilaritemsintosets),and reinforcementlearning models(which
+provide an optimal set of actions, i.e., a policy, for solving, for instance, a navigation or planning
+problem).
+5.2.2 Training. ThisactivityoptimisestheperformanceoftheMLmodelwithrespecttoanob-
+jective function that reflects the requirements for the model. To this end, a subset of the training
+dataisusedtofindinternalmodelparameters(e.g.,theweightsofaneuralnetwork,orthecoeffi-
+cientsofapolynomial)thatminimiseanerrormetricforthegivendataset.Theremainingdata(i.e,
+the validation set) are then used to assess the ability of the model to generalise. These two steps
+aretypicallyiteratedmanytimes,withthetraininghyperparameterstunedbetweeniterationsso
+asto furtherimprove theperformanceof themodel.
+5.2.3 Hyperparameter Selection. Thisactivityisconcernedwithselectingtheparametersasso-
+ciatedwiththetrainingactivity,i.e.,thehyperparameters.Hyperparameterscontroltheeffective-
+nessofthetrainingprocess,andultimatelytheperformanceoftheresultingmodel[ 130].Theyare
+socriticaltothesuccessoftheMLmodelthattheyareoftendeemedconfidentialformodelsused
+in proprietary systems [ 177]. There is no clear consensus on how the hyperparameters should be
+tuned[102].Typicaloptionsinclude:initialisationwithvaluesofferedbyMLframeworks,manual
+configuration based on recommendations from literature or experience, or trial and error [ 130].
+Alternatively,thetuningofthehyperparameterscanitselfbeseenasamachinelearningtask[ 71,
+187].
+5.2.4 Transfer Learning. Thetrainingofcomplexmodelsmayrequireweeksofcomputationon
+manyGPUs[ 62].Assuch,thereareclearbenefitsinreusingMLmodelsacrossmultipledomains.
+Even when a model cannot be transferred between domains directly, one model may provide a
+starting point for training a second model, significantly reducing the training time. The activity
+concernedwithreusingmodels inthisway istermedtransferlearning[ 60].
+5.3 Desiderata
+From an assurance viewpoint, the models generated by the Model Learning stage should exhibit
+some orallof thekey propertiesdescribedbelow:
+(1)Performant —This property considers quantitative performance metrics applied to the
+model when deployed within a system. These metrics include traditional ML metrics
+such as classification accuracy, the receiver operator characteristic (ROC) and mean
+squarederror,aswellasmetricsthatconsiderthesystemandenvironmentintowhichthe
+models aredeployed.
+ACM ComputingSurveys, Vol. 54,No.5,Article 111.Publicationdate:May 2021.
+111:14 R. Ashmore et al.
+(2)Robust—This property considers the model’s ability to perform well in circumstances
+wheretheinputsencounteredatruntimearedifferenttothosepresentinthetrainingdata.
+Robustness may be considered with respect to environmental uncertainty, e.g., flooded
+roads, and system-level variability, e.g., sensor failure, i.e., from the general perspective
+used in formal verification rather than its ML interpretation as the ability of a model to
+generaliseto datanot encounteredintraining[ 20,192].
+(3)Reusable—Thispropertyconsiderstheabilityofamodel,orofcomponentsofamodel,to
+be reused in systems for which they were not originally intended. For example, a neural
+networktrainedforfacialrecognitioninanauthenticationsystemmayhavefeaturesthat
+can be reused to identify operator fatigue. More generally, the reuse of pre-trained or
+commodityoff-the-shelfMLmodelsintransferlearningcansignificantlyspeedupmodel
+learning[ 108].
+(4)Interpretable —This property considers the extent to which the model can produce arte-
+facts that support the analysis of its output, and thus of any decisions based on it. For
+example, a decision tree may support the production of a narrative explaining the deci-
+sionto handover controlto ahuman operator.
+5.4 Methods
+This section considers each of the four desiderata in turn. Methods applicable during each of the
+ModelLearningactivities(Table 3),to helpachieveeachofthedesiredproperties,arediscussed.
+5.4.1 Performant. AnMLmodelisperformantifitoperatesasexpectedaccordingtoameasure
+(or set of measures) that captures relevant characteristics of the model output. Many machine
+learningproblemsarephrasedintermsofobjectivefunctionstobeoptimized[ 174],andmeasures
+constructedwithrespecttotheseobjectivefunctionsallowmodelstobecompared.Suchmeasures
+have underpinning assumptions and limitations that should be fully understood before they are
+usedto selecta modelfor deploymentin a safety-criticalsystem.
+The prediction error of a model has three components: irreducible error , which cannot be elim-
+inated regardless of the algorithm or training methods employed; bias error , due to simplifying
+assumptions intended to make learning the model easier; and variance error ,a ne s t i m a t eo fh o w
+muchthemodeloutputwouldvaryifdifferentdatawereusedinthetrainingprocess.Theaimof
+training is to minimise the bias and variance errors, and therefore the objective functions reflect
+these errors. The objective functions may also contain simplifying assumptions to aid optimiza-
+tion,and theseassumptionsmustnot bepresentwhenassessingmodelperformance[ 59].
+Performancemeasuresforclassifiers,includingaccuracy,precision,recall(sensitivity)andspeci-
+ficity,areoftenderivedfromtheirconfusionmatrix[ 59,120,158].Comparingmodelsisnotalways
+straightforward,withdifferentmodelsshowingsuperiorperformanceagainstdifferentmeasures.
+Compositemetrics[ 59,158]allowforatradeoffbetweenmeasuresduringthetrainingprocess.The
+understandingofevaluationmeasureshasimprovedoverthepasttwodecadesbutareaswhereun-
+derstandingislackingstillexist[ 54].Whileusingasingle,scalarmeasuresimplifiestheselection
+ofa“best”modelandisacommonpractice[ 46],theeasewithwhichsuchperformancemeasures
+canbeproducedhasledtoover-reportingofsimplemetricswithoutanexplicitstatementoftheir
+relevancetotheoperatingdomain.Ensuringthatreportedmeasuresconveysufficientcontextually
+relevant informationremains an openchallenge (challengeML01 fromTable 4).
+Aggregated measures cannot evaluate models effectively except in the simplest scenarios, and
+the operating environment influences the required tradeoff between performance metrics. The
+ROCcurve[ 132]allowsforPareto-optimalmodelselectionusingatradeoffbetweenthetrueand
+false positive rates, while the area under the ROC curve [ 24] assesses the sensitivity of models
+ACM ComputingSurveys, Vol. 54,No. 5,Article 111.Publicationdate:May2021.
+Assuring the Machine Learning Lifecycle: Desiderata, Methods, and Challenges 111:15
+to changes in operating conditions. Cost curves [ 46] allow weights to be associated with true
+and false positives to reflect their importance in the operating domain. Where a single classifier
+cannot provide an acceptable tradeoff, models identified using the ROC curve may be combined
+toproduceaclassifierwithbetterperformancethananysinglemodel,underreal-worldoperating
+conditions [ 131]. This requires tradeoffs to be decided at training time, which is unfeasible for
+dynamic environments and multi-objective optimisation problems. Developing methods to defer
+thisdecisionuntilruntimeis anopenchallenge (ML02in Table 4).
+Whilst the measures presented thus far give an indication of the performance of the model
+against datasets, they do not encapsulate the users’ trust in a model for a specific, possibly rare,
+operating point. The intuitive certainty measure (ICM) [172] is a mechanism to produce an
+estimate of how certain an ML model is for a specific output based on errors made in the past.
+ICM compares current and previous sensor data to assess similarity, using previous outcomes
+for similar environmental conditions to inform trust measures. Due to the probabilistic nature of
+machine learning [ 120], models may also be evaluated using classical statistical methods. These
+methodscananswerseveralkeyquestions[ 114]:(i)Giventheobservedaccuracyofamodel,how
+well is it likely to estimate unseen samples?, (ii) If a model outperforms another for a specific
+dataset, how likely is it to be more accurate in general?, and (iii) What is the best way to learn a
+hypothesisfromlimited data?
+Methods are also available to improve the performance of the ML models. Ensemble learn-
+ing [147] combines multiple models to produce a model whose performance is superior to that
+of any of its constituent models. The aggregation of models leads to lower overall bias and to a
+reductioninvarianceerrors[ 59].Baggingandboosting[ 145]canimprovetheperformanceofen-
+semblemodelsfurther.Baggingincreasesmodeldiversitybyselectingdatasubsetsforthetraining
+of each model in the ensemble. After an individual model is created, boosting identifies the sam-
+ples for which the model performance is deficient, and increases the likelihood of these samples
+being selected for subsequent model training. AdaBoost [ 57], short for Adaptive Boosting, is a
+widely used boosting algorithm reported to have solved many problems of earlier boosting algo-
+rithms[56].Wherethetrainingdataareimbalanced,theSMOTEboostingalgorithm[ 33]maybe
+employed.
+The selection and optimization of hyperparameters [ 59] has a significant impact on the per-
+formance of models [ 177]. Given the large number of hyperparameters, tuning them manually is
+typicallyunfeasible.Automatedoptimizationstrategiesareemployedinstead[ 71],usingmethods
+that include grid search, random search and latin hypercube sampling [ 89]. Evolutionary algo-
+rithms may also be employed for high-dimensional hyperparameter spaces [ 187]. Selecting the
+most appropriate method for hyperparameter tuning in a given context and understanding the
+interaction between hyperparameters and model performance [ 102] represent open challenges
+(ML03 and ML04 in Table 4, respectively). Furthermore, there are no guarantees that a tuning
+strategywillcontinuetobe optimalas themodel anddata onwhichitis trainedevolve.
+We have highlighted multiple metrics for the assessment of model performance, as well as
+methods that promise improved model performance with respect to these metrics. The selection
+of appropriate metrics and methods remains a complex task, however, and will depend greatly
+on the context into which the ML component is to be deployed. Given this complexity and the
+importance of model performance, the rationale that underpins this selection process should be
+clearly justifiedin theresultingassurancecase.
+5.4.2 Robust. Training optimizes models with respect to an objective function using the data
+in the training set. The aim of the model learning process, however, is to produce a model that
+generalisestodata notpresentin thetrainingsetbutthatmay beencounteredin operation.
+ACM ComputingSurveys, Vol. 54,No.5,Article 111.Publicationdate:May 2021.
+111:16 R. Ashmore et al.
+Increasing model complexity generally reduces training errors, but noise in the training data
+may result in overfitting and in a failure of the model to generalise to real-world data. When
+choosing between competing models one method is then to prefer simple models (Ockham’s ra-
+zor)[145].Anestimateofthemodel’sabilitytogeneralisemaybeobtainedbyusing k-foldcross-
+validation[ 60].Thismethodpartitionsthetrainingdatainto knon-overlappingsubsets,with k−1
+subsets used for training and the remaining subset used for validation. The process is repeated k
+times, with a different validation subset used each time, and an overall error is calculated as the
+mean error over the ktrials. Methods to avoid overfitting include gathering more training data,
+reducingthenoisepresentin thetrainingset,andsimplifying themodel[ 59].
+Dataaugmentation(Section 4.2.3)canimprovethequalityoftrainingdataandimproverobust-
+ness of models [ 88]. Applying transformations to images in the input space may produce models
+thatarerobusttochangesinthepositionandorientationofobjectsintheinputspace[ 59]whilst
+photometricaugmentationmayincreaserobustnesswithrespecttolightingandcolour[ 165].For
+models of speech, altering the speed of playback for the training set can increase model robust-
+ness [88]. Identifying the best augmentation methods for a given context can be difficult, and
+Antoniouetal.[ 10]proposeanautomatedaugmentationmethodthatusesgenerativeadversarial
+networks to augment datasets without reference to a contextual setting. These methods require
+the identification of all possible deviations from the training dataset, so that deficiencies can be
+compensated through augmentation. Assuring the completeness of (augmented) datasets has al-
+ready been identified as an open challenge (DM02 in Table 2). Even when a dataset is complete,
+thepracticeofreportingaggregatedgeneralisationerrorsmeansthatassessingtheimpactofeach
+type of deviation on model performance is challenging. Indeed, the complexity of the open en-
+vironments in which many critical systems operate, and for which assurance cases are required,
+means that decoupling the effects of different perturbations on model performance remains an
+openchallenge(ML05 inTable 4).
+Regularizationmethodsareintendedtoreduceamodel’sgeneralizationerrorbutnotitstraining
+error [60,145], e.g., by augmenting the objective function with a term that penalises model com-
+plexity.The/lscript0,/lscript1,or/lscript2normarecommonlyused[ 120],withthetermchosenbasedonthelearning
+context and model type. The ridge regression [ 59] method may be used for models with low bias
+and high variance. This method adds a weighted term to the objective function that aims to keep
+theweightsinternaltothemodelaslowaspossible.Earlystopping[ 129]isasimplemethodthat
+avoids overfitting by stopping the training if the validation error begins to rise. For deep neural
+networks, dropout [ 67,159] is the most popular regularization method. Dropout selects different
+subsets of neurons to be ignored at each training step. This makes the model less reliant on any
+oneneuron,andhenceincreasesitsrobustness.Dropconnect[ 176]employsasimilartechniqueto
+improve the robustness of large networks by setting subsets of weights in fully connected layers
+tozero.Forimageclassificationtasks,randomlyerasingportionsofinputimagescanincreasethe
+robustness of the generated models [ 193] by ensuring that the model is not overly reliant on any
+particularsubsetof thetrainingdata.
+Robustness with respect to adversarial perturbations for image classification is problematic
+for deep neural networks, even when the perturbations are imperceptible to humans [ 162]o r
+the model is robust to random noise [ 51]. Whilst initially deemed a consequence of the high
+non-linearity of neural networks, recent results suggest that the “success” of adversarial exam-
+ples is due to the low flexibility of classifies, and affects classification models more widely [ 50].
+Adversarial robustness may therefore be considered as a measure of the distinguishability of a
+classifier.
+Ross and Doshi-Velez [ 141] introduced a batch normalization method that penalises parameter
+sensitivity to increase robustness to adversarial examples. This method adds noise to the hidden
+ACM ComputingSurveys, Vol. 54,No. 5,Article 111.Publicationdate:May2021.
+Assuring the Machine Learning Lifecycle: Desiderata, Methods, and Challenges 111:17
+units of a deep neural network at training time, can have a regularization effect, and sometimes
+makes dropout unnecessary [ 60]. Although regularization can improve model robustness with-
+out knowledge of the possible deviations from the training dataset, understanding the nature of
+robustnessina contextually meaningful manner remains anopenchallenge(ML06 inTable 4).
+5.4.3 Reusable. Machine learning is typically computationally expensive, and repurposing
+modelsfromrelateddomainscanreducethecostoftrainingnewmodels.Transferlearning[ 183]
+allows for a model learned in one domain to be exploited in a second domain, as long as the do-
+mainsaresimilarenoughsothatfeatureslearnedinthesourcedomainareapplicabletothetarget
+domain. Where this is the case, all or part of a model may be transferred to reduce the training
+cost.
+Convolutionalneuralnetworks(CNN) areparticularlysuitedforpartialmodeltransfer[ 59]
+sincetheconvolutionallayersencodefeaturesintheinputspace,whilstthefullyconnectedlayers
+encode reasoning based on those features. Thus, a CNN trained on human faces is likely to have
+feature extraction capabilities to recognise eyes, noses, and so on. To train a CNN from scratch
+for a classifier that considers human faces is wasteful if a CNN for similar tasks already exists.
+By taking the convolutional layers from a source model and learning a new set of weights for
+the fully connected set of layers, training times may be significantly reduced [ 69,124]. Similarly,
+transfer learning has been shown to be effective for random forests [ 153,160], where subsets of
+treescanbereused.Moregenerally,theidentificationof“similar”operationalcontextsisdifficult,
+and defining a meaningful similarity measure in high-dimensional spaces is an open challenge
+(ML07in Table 4).
+Evenwithsignificantdifferencesbetweenthesourceandtargetdomains,anexistingmodelmay
+bevaluable.Initialisingtheparametersofamodeltobelearnedusingvaluesobtainedinasimilar
+domain may greatly reduce training times, as shown by the successful use of transfer learning in
+theclassificationofsentiments,humanactivities,softwaredefects,andmulti-languagetexts[ 183].
+Using pre-existing models as the starting point for a new problem can be effective. As such, it
+maybedesirabletomakeuseofmodelspreviouslyusedtotackleproblemsinrelateddomains.A
+growingnumberof modelzoos [59]containingsuchmodelsarebeingsetupbymanycorelearning
+technologyplatforms[ 116],aswellas byresearchersandengineers[ 115].
+Transfer learning resembles software component reuse, and may allow the reuse of assurance
+evidenceaboutMLmodelsacrossdomains,aslongastheassumptionssurroundingtheassurance
+are also transferable between the source and target domains. However, a key aspect in the assur-
+anceofcomponentsisthattheyshouldbereproducibleand,atleastforcomplex(deep)MLmodels,
+reproducing the learning process is rarely straightforward [ 174]. Indeed, reproducing ML results
+requiressignificantconfigurationmanagement, whichisoften overlookedbyMLteams[ 189].
+Anotherreasonforcautionwhenadoptingthird-partymodelstructures,weightsandprocesses
+is that transfer learning can also transfer failures and faults from the source to the target do-
+main [62]. Indeed, ensuring that existing models are free from faults is an open challenge (ML08
+in Table4).
+5.4.4 Interpretable. For many critical domains where assurance is required, it is essential that
+ML models are interpretable. “Interpretable” and “explainable” are closely related concepts, with
+“interpretable” used in the ML community and “explainable” preferred in the AI community [ 2].
+We use the term “interpretable” when referring to properties of machine learned models, and
+“explainable” whensystemsfeaturesandcontexts ofuseare considered.
+Interpretable models aid assurance by providing evidence that allows for [ 2,96,99]: justifying
+the results provided by a model, supporting the identification and correction of errors, aiding
+modelimprovement, andprovidinginsight withrespectto theoperationaldomain.
+ACM ComputingSurveys, Vol. 54,No.5,Article 111.Publicationdate:May 2021.
+111:18 R. Ashmore et al.
+The difficulty of providing interpretable models stems from the frequent use of complex ML
+models whose structure and size makes it impossible for a human to construct a mental model
+that can explain the features and parameters of the model in a contextually meaningful manner.
+Assuch,oneapproachtoproducinginterpretablemodelsistoreducemodelcomplexitytoalevel
+wherethenumberoffeaturesandparametersarenolongerabarriertounderstanding.However,
+this is likely to also reduce model accuracy, and therefore a better approach is to use inherently
+interpretable models , i.e., models that satisfy domain-specific constraints that may include mono-
+tonicity,additivityor causality[ 144].
+Methodsthataidintheproductionofinterpretablemodelscanbeclassifiedbythescopeofthe
+explanations they generate. Global methods generate evidence that apply to a whole model, and
+support design and assurance activities by allowing reasoning about all possible future outcomes
+for the model. Local methods generate explanations for an individual decision, and may be used
+to analyse why a particular problem occurred, and to improve the model so future events of this
+typeareavoided.Methodscanalsobeclassifiedasmodel-agnosticandmodel-specific[ 2].Model-
+agnostic methods are mostly applicable post-hoc (after training), and include providing natural
+language explanations [ 95], using model visualisations to support understanding [ 106], and ex-
+plaining by example [ 3]. Much less common, model-specific methods [ 2] typically provide more
+detailed explanations, but restrict the users’ choice of model, and therefore are only suited if the
+limitations of themodel(s)theycanwork withareacceptable.
+Despite significant research into interpretable models, there are no global methods provid-
+ing contextually relevant insights to aid human understanding for complex ML models (ML09
+in Table4). In addition, although several post-hoc local methods exist, there is no systematic ap-
+proach to infer global properties of the model from local cases. Without such methods, inter-
+pretable models cannot aid structural model improvements and error correction at a global level
+(ML10 inTable 4).
+5.5 Summary and Open Challenges
+Table3summariestheassurancemethodsapplicableduringtheModelLearningstage.Themeth-
+ods are presented in the order that they are introduced in the preceding discussion, and are
+matched to the activities with which they are associated and to the desiderata that they sup-
+port. The majority of these methods focus on the performance and robustness of ML models.
+Model reusability and interpretability are only supported by a few methods that typically re-
+strict the types of model that can be used. This imbalance reflects the different maturity of
+the research on the four desiderata, with the need for reuse and interpretability arising more
+prominently after the recent advances in deep learning and increases in the complexity of ML
+models.
+OpenchallengesfortheassuranceoftheModelLearningstagearepresentedinTable 4,organ-
+ised into categories based on the most relevant desideratum for each challenge. The importance
+and nature of these challenges have been established earlier in this section. A common theme
+acrossmanyofthesechallengesistheneedforintegratingconcernsassociatedwiththeoperating
+contextintotheMachineLearningstage(openchallengesML01,ML03,ML05,ML06,ML07).Open
+challenges also exist in the evaluation of performance of models with respect to multi-objective
+evaluationcriteria(ML02);understandingthelinkbetweenmodelperformanceandhyperparam-
+eter selection (ML04) and ensuring that where transfer learning is adopted that existing mod-
+els are free from errors (ML08). While there has been a great deal of research focused on inter-
+pretable models, methods that apply globally to complex models (ML09) are still lacking. Where
+localexplanationsareprovided,methodsareneededtoextractglobalmodelpropertiesfromthem
+(ML10).
+ACM ComputingSurveys, Vol. 54,No. 5,Article 111.Publicationdate:May2021.
+Assuring the Machine Learning Lifecycle: Desiderata, Methods, and Challenges 111:19
+Table 3. Assurance Methods for the Model Learning Stage
+Associatedactivities†Supported desiderata‡
+Model Training Hyperparam. Transfer
+Method Selection Selection Learning Performant Robust Reusable Interpretable
+Useappropriate performance
+measures [ 54,174]/check ✔ ⋆ ⋆
+Statistical tests[ 114,120] /check ✔ ⋆
+Ensemble Learning [ 147] ✔ ✔ ✔ ⋆ ⋆
+Optimise hyperparameters[ 71,
+187]✔✔ ⋆⋆
+Batch Normalization [ 73] ✔ ✔ ⋆ ⋆
+Prefer simpler models [ 3,145] ✔ /check ✩ ⋆ ✩
+Augment training data ✔ ⋆ ⋆
+Regularization methods[ 59] ✔✔ ⋆
+Useearly stopping ✔ ✔ ⋆
+Usemodels that intrinsically
+support reuse[ 2]✔✔ ⋆ ✩
+Transfer Learning [ 183] ✔ /check ✔ ⋆ ✩
+Usemodel zoos [ 59] ✔ /check ✔ ⋆
+Post-hoc interpretability
+methods [ 3,95,106]✔ ⋆
+†✔=activitythatthe methodis typicallyused in; /check=activitythat mayuse the method.
+‡⋆=desideratum supported bythe method; ✩=desideratum partlysupported bythemethod.
+Table 4. Open Challenges for the Assurance Concerns Associated with the
+Model Learning (ML) Stage
+ID Open Challenge Desideratum (Section)
+ML01 Selectingmeasures thatrepresent operationalcontext
+ML02 Multi-objectiveperformanceevaluationatruntime Performant(Section 5.4.1)
+ML03 Using operationalcontextto inform hyperparameter-tuningstrategies
+ML04 Understanding theimpactof hyperparameterson modelperformance
+ML05 Decouplingtheeffects of perturbationsin theinputspaceRobust (Section 5.4.2)ML06 Inferringcontextualrobustness from evaluationmetrics
+ML07 Identifyingsimilarity inoperationalcontextsReusable(Section 5.4.3)ML08 Ensuring existingmodels arefreefrom faults
+ML09 Globalmethods for interpretabilityincomplexmodelsInterpretable(Section 5.4.4)ML10 Inferringglobalmodelproperties fromlocalcases
+6 MODEL VERIFICATION
+The Model Verification stage of the ML lifecycle is concerned with the provision of auditable ev-
+idence that a model will continue to satisfy its requirements when exposed to inputs that are not
+presentin thetrainingdata.
+6.1 Inputs and Outputs
+ThekeyinputartefacttothisstageisthetrainedmodelproducedbytheModelLearningstage.The
+keyoutputartefactsareaverifiedmodel,andaverificationresultthatprovidessufficientinforma-
+tionto allow potentialuserstodetermine if themodel issuitableforitsintended application(s).
+ACM ComputingSurveys, Vol. 54,No.5,Article 111.Publicationdate:May 2021.
+111:20 R. Ashmore et al.
+6.2 Activities
+6.2.1 Requirement Encoding. This activity involves transforming requirements into both tests
+and mathematical properties, where the latter can be verified using formal techniques. Require-
+ments encoding requires a knowledge of the application domain, such that the intent that is im-
+plicit in the requirements may be encoded as explicit tests and properties. A knowledge of the
+technologythatunderpinsthemodelisalsorequired,suchthattechnology-specificissuesmaybe
+assessedthroughthecreationofappropriatetestsandproperties.
+6.2.2 Test-based Verification. This activity involves providing test cases (i.e., specially formed
+inputs or sequences of inputs) to the trained model and checking the outputs against predefined
+expected results. A large part of this activity involves an independent examination of properties
+considered during the Model Learning stage (cf. Section 5), especially those related to the Perfor-
+mantandRobustdesiderata.Inaddition,thisactivityalsoconsiderstestcompleteness,i.e.,whether
+the set of tests exercised the model and covered its input domain sufficiently. The latter objective
+is directly related to the Complete desideratum from the Data Management stage (cf. Section 4).
+Finally,testsshouldberepeatable,allowingforthesystematiceliminationoferrorsandtheiden-
+tificationof improvement betweendevelopment cycles.
+6.2.3 Formal Verification. Thisactivityinvolvestheuseofmathematicaltechniquestoprovide
+irrefutableevidencethatthemodelsatisfiesformallyspecifiedpropertiesderivedfromitsrequire-
+ments. Counterexamples are typically provided for properties that are violated, and can be used
+to informfurtheriterationsofactivitiesfromtheDataManagement and ModelLearningstages.
+6.3 Desiderata
+To be compelling, the verification results (i.e., the evidence) generated by the Model Verification
+stage shouldexhibitthefollowing keyproperties:
+(1)Comprehensive —This property is concerned with the ability of Model Verification to
+cover: (i) all the requirements and operating conditions associated with the intended use
+of the model; and (ii) all the desiderata from the previous stages of the ML lifecycle (e.g.,
+thecompletenessof thetrainingdata,andtherobustnessof themodel).
+(2)Contextually Relevant —Thisdesideratumconsiderstheextenttowhichtestcasesandfor-
+mallyverifiedpropertiescanbemappedtocontextuallymeaningfulaspectsofthesystem
+that will use the model. For example, for a model used in an autonomous car, robustness
+withrespecttoimagecontrastislessmeaningfulthanrobustnesstovariationinweather
+conditions.
+(3)Comprehensible —This property considers the extent to which verification results can be
+understood by those using them in activities ranging from data preparation and model
+development to system development and regulatory approval. A clear link should exist
+betweentheaimoftheModelVerificationandtheguaranteesitprovides.Limitationsand
+assumptions should be clearly identified, and results that show requirement violations
+should convey sufficient information to allow the underlying cause(s) for the violations
+to befixed.
+6.4 Methods
+6.4.1 Comprehensive. Comparedtotraditionalsoftwarethedimensionandtestingspaceofan
+ML model is potentially much larger [ 25]. Ensuring that model verification is comprehensive re-
+quires a systematic approach to identify faults due to conceptual misunderstandings and faults
+introducedduringtheDataManagementand ModelLearning activities(Table 5).
+ACM ComputingSurveys, Vol. 54,No. 5,Article 111.Publicationdate:May2021.
+Assuring the Machine Learning Lifecycle: Desiderata, Methods, and Challenges 111:21
+Conceptual misunderstandings may occur during the construction of requirements. They im-
+pactbothDataManagementandModelLearning,andmayleadtoerrorsthatinclude:datathatare
+notrepresentativeoftheintendedoperationalenvironment;lossfunctionsthatdonotcapturethe
+original intent; and design tradeoffs that detrimentally affect performance and robustness when
+deployed in real-world contexts. Independent consideration of requirements is important in tra-
+ditionalsoftwarebut,itcouldbeargued,itisevenmoreimportantforMLbecausetheassociated
+workflowincludesno formal, traceablehierarchicalrequirementsdecomposition[ 13].
+Traditionalapproachestosafety-criticalsoftwaredevelopmentdistinguishbetweennormaltest-
+ingandrobustnesstesting[ 143].Theformerisconcernedwithtypicalbehaviour,whilstthelatter
+tries to induce undesirable behaviour on the part of the software. Stress testing, especially that
+specifically designed for autonomy software, is a valuable approach [ 70]. In terms of the spaces
+discussed in Section 4, normal testing tends to focus on the operational domain, O; it can also
+include aspects of the failure domain, F, and the adversarial domain, A. Conversely, robustness
+testing utilises the entire input domain, I, including, but not limited to, elements of FandA.
+Robustness testing for traditional software is informed by decades of accumulated knowledge on
+typical errors (e.g., numeric overflow and buffer overruns). Whilst a few typical errors have also
+been identified for ML (e.g., overfitting and backdoors [ 35]), the knowledge about such errors is
+limited and rarely accompanied by an understanding of how these errors may be detected and
+corrected.Developingthisknowledge isan openchallenge(challenge MV01in Table 6).
+Coverageisanimportantmeasureforassessingthecomprehensivenessofsoftwaretesting.For
+traditional software, coverage focuses on the structure of the software. For example, statement
+coverageorbranchcoveragecanbeusedasasurrogateformeasuringhowmuchofthesoftware’s
+behaviourhasbeentested.However,measuringMLmodelcoverageinthesamewayisnotinfor-
+mative:achievinghighbranchcoverageforthecodethatimplementsaneuronactivationfunction
+tells little, if anything, about the behaviour of the trained network. For ML, test coverage needs
+tobeconsideredfromtheperspectivesof bothdataandmodelstructure.Themethodsassociated
+withthe Complete desideratafromtheDataManagementstagecaninformdatacoverage.Inaddi-
+tion,model-relatedcoveragemethodshavebeenproposedinrecentyears[ 104,126,161],although
+achievinghighcoverageisgenerallyunfeasibleforlargemodelsduetothehighdimensionalityof
+theirinputandfeaturespaces.Traditionalsoftwaretestingemployscombinatorialtestingtomit-
+igate thisproblem,and DeepCT[ 103]providescombinatorialtestingfor deep-learningmodels.
+However,whilstthesemethodsprovideameansof measuring coverage,thebenefitsofachieving
+aparticularlevelofcoveragearenotclear.Putanotherway,weunderstandthetheoreticalvalueof
+increased data coverage, but its empirical utility has not been demonstrated. As such, it is impos-
+sibletodefinecoveragethresholdsthatshouldbeachieved.Indeed,itisunclearwhetherageneric
+thresholdisappropriate,or whethercoverage thresholdsareinevitably applicationspecific.Con-
+sequently, deriving a set of coverage measures that address both data and model structure, and
+demonstratingtheirpracticalutility remainsan openchallenge(MV02inTable 6).
+The susceptibility of neural networks to adversarial examples is well known, and can be mit-
+igated using formal verification methods. These methods ensure local adversarial robustness by
+providing mathematical guarantees that, for a suitably-sized region around an input-space point,
+the same decision will always be returned [ 68]. This is an active research area in which tools
+have been developed using satisfiability and satisfiability modulo theory (SMT) techniques,
+mixed-integer linear programming and geometric reachability [ 47,48,58,81]. While scalability
+was initially an issue, more recent work has provided tool sets and frameworks that can handle
+largernetworks,aswellasnetworksthatmakeuseofmorediversestructures,suchasmaxpool-
+ing [43,82,169,170]. Formal verification methods are all reliant on the assumptions of proximity
+andsmoothness.Proximityconcernsthenotionthattwosimilarinputswillhavesimilaroutputs,
+ACM ComputingSurveys, Vol. 54,No.5,Article 111.Publicationdate:May 2021.
+111:22 R. Ashmore et al.
+while smoothness assumes that the model smoothly transitions between values [ 173]. However,
+without an understanding of the model’s context, it is difficult to ascertain whether two inputs
+aresimilar(e.g.,basedonameaningfuldistancemetric),ortochallengesmoothnessassumptions
+whendiscontinuitiesare presentin themodelled domain.
+WhilemanyMLformalverificationmethodsfocusonneuralnetworks,severaltechniqueshave
+been proposed for different ML paradigms, including random forests [ 7,168,181], nearest neigh-
+bours [180], Bayesian networks classifiers [ 156], and support vector machines [ 136]. Test-based
+verification may include use of a simulation to generate test cases. In this case, appropriate con-
+fidence needs to be placed in the simulation. For normal testing, the simulation-related concepts
+discussedinSection 4(e.g.,verificationandvalidation)arerelevant.Iftheterm“simulation”isin-
+terpreted widely, then robustness testing could include simulations that produce pseudo-random
+inputs (i.e., fuzzing), or simulations that try to invoke certain paths within the model (i.e., guided
+fuzzing [123]). In these cases, we need confidence that the “simulation” is working as intended
+(verification),butwedo notneedit tobe representativeoftherealworld (validation).
+Last,themodelverificationmayalsoneedtobeappliedtoanyMLlibrariesorplatformsusedin
+theModelLearningstageforanumberofsafety-criticalsystems.Errorsinthissoftwarearediffi-
+culttoidentify,astheiterativenatureofmodeltrainingandparametertuningcanmasksoftware
+implementation errors. Proving the correctness of ML libraries and platforms requires program
+verificationtechniquestobeapplied[ 154].
+6.4.2 Contextually Relevant. Requirement encoding should consider how the tests and for-
+mal properties constructed for verification map to context. This is particularly difficult for high-
+dimensionalproblemssuchasthosetackledusingdeepneuralnetworks.Verificationmethodsthat
+assessmodelperformancewithrespecttoproximityandsmoothnessaremathematicallyprovable,
+but defining regions around a point in space does little to indicate the types of real-world pertur-
+bation that can, or cannot, be tolerated by the system (and those that are likely, or unlikely, to
+occurinreality).Assuch,mappingrequirementstomodelfeaturesisanopenchallenge(MV04in
+Table6).
+Dependingontheintendedapplication,ModelVerificationmayneedtoexplicitlyconsiderun-
+wanted bias. In particular, if the context of model use includes a legally protected characteristic
+(e.g., age, race or gender) then considering bias is a necessity. As discussed in Section 4.4.1,t h e r e
+are severalways thiscan beachieved,andan industry-readytoolkitis available[ 16].
+Contextually relevant verification methods such as DeepTest [ 167] and DeepRoad [ 190]h a v e
+been developed for autonomous driving. DeepTest employs neuron coverage to guide the gener-
+ation of tests cases for ML models used in this application domain. Test cases are constructed as
+contextuallyrelevanttransformationsofthedataset,e.g.,byaddingsyntheticbutrealisticfogand
+camera lens distortion to images. DeepTest leverages principles of metamorphic testing, so that
+even when the valid output for a set of inputs is unknown it can be inferred from similar cases
+(e.g.,animagewithandwithoutcameralensdistortionshouldreturnthesameresult).DeepRoad
+worksinasimilarway,butgeneratesitscontextuallyrelevantimagesusingagenerativeadversar-
+ialnetwork.Thesemethodsworkforneuralnetworksusedinautonomousdriving,butdeveloping
+a general framework for synthesizing test data for other contexts is an open challenge (MV05 in
+Table6).
+Although adversarial examples are widely used to verify the robustness of neural networks,
+theytypicallydisregardthesemanticsandcontextofthesystemintowhichtheMLmodelwillbe
+deployed.Semanticadversarialdeeplearning[ 45]isamethodthatavoidsthislimitationthrough
+consideringthemodelcontextexplicitly,firstbyusinginputmodificationsinformedbycontextual
+semantics(muchlikeDeepTestandDeepRoad),andsecondbyusingsystemspecificationstoassess
+ACM ComputingSurveys, Vol. 54,No. 5,Article 111.Publicationdate:May2021.
+Assuring the Machine Learning Lifecycle: Desiderata, Methods, and Challenges 111:23
+thesystem-levelimpactofinvalidmodeloutputs.Byidentifyingmodelerrorsthatleadtosystem
+failures,thelattertechniqueaids themodelrepairand re-design.
+The verification of reinforcement learning [ 173] requires a number of different features to be
+considered. When Markov decision process (MDP) models of the environment are devised by
+domain experts, the MDP states are nominally associated with contextually-relevant operating
+states.Assuch,systemsrequirementscanbeencodedaspropertiesintemporallogicsandproba-
+bilisticmodelcheckersmaybeusedtoprovideprobabilisticperformanceguarantees[ 109].When
+these models are learned from data, it is difficult to map model states to real-world contexts, and
+constructingmeaningful propertiesis anopenchallenge(MV06in Table 6).
+6.4.3 Comprehensible. The utility of Model Verification is enhanced if its results provide in-
+formation that aids the fixing of any errors identified by the test-based and formal verification
+of ML models. One method that supports the generation of comprehensible verification results is
+to use contextually relevant testing criteria, as previously discussed. Another method is to use
+counterexample-guided data augmentation [ 44]. For traditional software, the counterexamples
+providedbyformalverificationguidetheeradicationoferrorsbypointingtoaparticularblockof
+code or execution sequence. For ML models, counterexamples are more difficult to leverage since
+the link between input values, parameter values and intended outcome is typically more opaque.
+To solve this problem, the method from Reference [ 44] synthesizes inputs with ground-truth la-
+belsbyusingsystematictechniquestocoverthemodificationspace.Errortablesarethencreated
+for all counterexamples, with table columns associated to input features (e.g., car model, envi-
+ronment or brightness for an image classifier used in autonomous driving). The analysis of this
+tablecanthenprovideacomprehensibleexplanationoffailures,e.g.,“Themodeldoesnotidentify
+white cars driving away from us on forest roads” [ 44]. These explanations support further data
+collection or augmentation in the next iteration of the ML workflow. In contrast, providing com-
+prehensible results is much harder for formal verification methods that identify counterexamples
+based on proximity and smoothness; mapping such counterexamples to guide remedial actions
+theseverificationmethodsto remedialactionremains anopenchallenge (MV07in Table 6).
+WhileaddingcontexttotrainingdatahelpsinformhowDataManagementactivitiesshouldbe
+modifiedtoimprovemodelperformance,noanalogousmethodsexistforadjustingModelLearning
+activities (e.g., model and hyperparameter selection) in light of verification results. In general,
+defining a general method for performance improvement based on verification results is an open
+challenge(MV08in Table 6).
+Theneedforinterpretablemodelsiswidelyaccepted;itisalsoanimportantpartofverification
+evidence, being comprehensible to people not involved in the ML workflow. However, verifying
+that a model is interpretable is non-trivial, and a rigorous evaluation of interpretability is neces-
+sary. Doshi-Velez and Kim [ 42] suggest three possible approaches to achieving this verification:
+Application grounded , which involves placing the explanations into a real application and letting
+the end user test it; Human grounded , which uses lay humans rather than domain experts to test
+more general forms of explanation; and Functionally grounded , which uses formal definitions to
+evaluatethequality ofexplanationswithouthumaninvolvement.
+6.5 Summary and Open Challenges
+Table5summarisestheassurancemethodsthatcanbeappliedduringtheModelVerificationstage,
+listedintheorderinwhichtheywereintroducedearlierinthissection.Wenotethatthetest-based
+verification methods outnumber the methods that use formal verification. Furthermore, the test-
+basedmethodsaremodelagnostic,whilethefewformalverificationmethodsthatexistarelargely
+restricted to neural networks and, due to their abstract nature, do little to support context or
+ACM ComputingSurveys, Vol. 54,No.5,Article 111.Publicationdate:May 2021.
+111:24 R. Ashmore et al.
+Table 5. Assurance Methods for the Model Verification Stage
+Associated activities†Supporteddesiderata‡
+Requirement Test-based Formal Compre- Contextually Compre-
+Method Encoding Verification Verification hensive Relevant hensible
+Independentderivationof
+testcases✔ /check /check ⋆
+Normalandrobustness
+tests [143]/check ✔ ⋆
+Measure datacoverage ✔ ⋆ ✩
+Measure model
+coverage[ 104,126,161]✔ ⋆ ✩
+Guided fuzzing[ 123] ✔ ⋆
+Combinatorial
+Testing[103]✔ ⋆
+SMT solvers [ 68] ✔ ⋆
+Abstract
+Interpretation[ 58]✔ ⋆
+Generatetestsvia
+simulation✔ ⋆ ✩ ✩
+Verifier of Random
+Forests [168]✔ ⋆
+Verification of ML
+Libraries[ 154]✔ ⋆
+Checkforunwantedbias
+[16]✔ ⋆
+Use synthetic test
+data[167]✔ ✔ ⋆ ⋆ ✩
+Use GANto inform test
+generation[ 190]✔ ⋆⋆
+Incorporate system level
+semantics[ 45]✔ ✔ ⋆ ⋆ ✩
+Counterexample-guided
+dataaugmentation[ 44]✔ ⋆ ✩ ⋆
+Probabilistic
+verification [ 173]✔ ⋆
+Use confidencelevels[ 45] ✔ /check ✩ ⋆
+Evaluate
+interpretability[ 42]✔ ✔ ⋆ ⋆
+†✔=activitythatthemethod is typicallyused in; /check=activitythatmayuse the method.
+‡⋆=desideratum supported bythe method; ✩=desideratum partlysupported bythemethod.
+comprehension. Finally, the majority of the methods are concerned with the Comprehensive
+desideratum, while the Contextually Relevant and Comprehensible desiderata are poorly
+supported.
+TheopenchallengesfortheassuranceoftheModelVerificationstagearepresentedinTable 6.
+MuchoftheexistingresearchforthetestingandverificationofMLmodelshasfocusedonneural
+networks. Providing methods for other ML models remains an underexplored open challenge
+(MV03). A small number of typical errors have been identified but more work is required to
+develop methods for the detection and prevention of such errors (MV01). Measures of testing
+coveragearepossibleforMLmodels,however,understandingthebenefitsofaparticularcoverage
+remains an open challenge (MV02). Mapping model features to context presents challenges
+ACM ComputingSurveys, Vol. 54,No. 5,Article 111.Publicationdate:May2021.
+Assuring the Machine Learning Lifecycle: Desiderata, Methods, and Challenges 111:25
+Table 6. Open Challenges for the Assurance Concerns Associated with the
+Model Verification (MV) Stage
+ID Open Challenge Desideratum (Section)
+MV01 Understanding how to detectandprotect againsttypicalerrors
+Comprehensive
+(Section6.4.1)MV02 Testcoverage measureswith theoreticalandempiricaljustification
+MV03 Formal verificationfor ML models other thanneural networks
+MV04 Mappingrequirements to modelfeatures
+ContextuallyRelevant
+(Section6.4.2)MV05 Generalframeworkforsynthetic testgeneration
+MV06 Mappingof model-free reinforcementlearningstatestoreal-world contexts
+MV07 Using proximityandsmoothness violations to improvemodels Comprehensible
+MV08 Generalmethods toinform trainingbasedon performancefailures (Section6.4.3)
+(MV04, MV06) both in the specification of requirements that maintain original intent and in the
+analysis of complex models. Furthermore, where context is incorporated into synthetic testing,
+this is achieved on a case by case basis and no general framework for such testing yet exists
+(MV05). Finally, although formal methods started to appear for the verification of ML models,
+they return counterexamples that are difficult to comprehend and cannot inform the actions that
+shouldbeundertakentoimprove modelperformance(MV07,MV08).
+7 MODEL DEPLOYMENT
+The aim of the ML workflow is to produce a model to be used as part of a system. The range of
+potential system types is vast. For example, it includes autonomous vehicles, personal healthcare
+applications,financialsystemsanddeepspaceexploration.Howthemodelisdeployedwithinthe
+system is a key consideration for an assurance argument. The last part of our survey focuses on
+the assurance of this deployment: We do not cover the complete assurance of the overall system,
+whichrepresentsavastscope,wellbeyondwhatcanbeaccomplishedwithinthisarticle.However,
+thecloselinkbetweenthemodelandthesystemmeansthatthissectioninevitablyincludessome
+system-levelconsiderations.
+7.1 Inputs and Outputs
+ThekeyinputartefactstothisstageoftheMLlifecycleareaverifiedmodelandassociatedverifi-
+cation evidence. An understanding of the intended system use and an appreciation of the system
+architectureare alsoneeded.Thekey outputis themodel,suitablydeployed withinasystem.
+7.2 Activities
+7.2.1 Integration. ThisactivityinvolvesintegratingtheMLmodelintothewidersystemarchi-
+tecture. This requires linking system sensors to the model inputs. Likewise, model outputs need
+to be provided to the wider system. Shared or concurrent processing of data, alongside non-ML
+components, should be considered. A significant integration-related consideration is protecting
+the wider system against the effects of the occasional incorrect output from the ML model. This
+would beexpectedto bepartof system-levelsafetyanalysis.
+7.2.2 Monitoring. Thisactivityconsidersthefollowingtypesofmonitoringassociatedwiththe
+deployment of anML-developed modelwithinasafety-criticalsystem:
+(1) Monitoring the inputsprovided to the model. This could, for example, involve checking
+whetherinputsare withinacceptableboundsbefore theyareprovidedto theMLmodel.
+ACM ComputingSurveys, Vol. 54,No.5,Article 111.Publicationdate:May 2021.
+111:26 R. Ashmore et al.
+(2) Monitoring the environment in which the system is used. This type of monitoring can
+employ runtime verification techniques [ 53] and can be used, for example, to check that
+theobservedenvironment matchesanyassumptionsmade duringtheMLworkflow[ 9].
+(3) Monitoringthe internalsofthemodel.Thisisuseful,forexample,toprotectagainsttheef-
+fectsofsingle-eventupsets,whereenvironmentaleffectsresultinachangeofstatewithin
+amicro-electronicdevice[ 163].Protectionagainstsingle-eventupsetsmaybedatasetand
+MLapproachdependent[ 175].
+(4) Monitoring the outputof the model. This replicates a traditional system safety approach
+in whicha high-integritymonitor isusedalongside alower-integrity item.
+7.2.3 Updating. Updates are an important part of any software intensive system [ 127]. Simi-
+larly, deployed ML models are expected to require updating during a system’s life. This activity
+relates to managing and implementing these updates. Conceptually it also includes, as a special
+case,updatesthatoccuraspartofonlinelearning(e.g.,withintheimplementationofanRL-based
+model). However, since they are intimately linked to the model, these considerations are best ad-
+dressedwithintheModelLearningstage.
+7.3 Desiderata
+From an assurance perspective, the deployed ML model should exhibit the following key
+properties:
+(1)Fit-for-Purpose —This property recognises that the ML model needs to be fit for the in-
+tended purpose within the specific system context. In particular, it is possible for exactly
+the same model to be fit-for-purpose within one system, but not fit-for-purpose within
+another.Essentially,thispropertyadoptsa model-centricfocus.
+(2)Tolerable—This property acknowledges that it is typically unreasonable to expect ML
+modelstoachievethesamelevelsofreliabilityastraditional(hardwareorsoftware)com-
+ponents. Consequently, if ML models are to be used within safety-critical systems, then
+the wider system must be able to tolerate the occasional incorrect output from the ML
+model. Equivalently,froma systemperspective,theMLmodelmust betolerable.
+(3)Adaptable —This property is concerned with the ease with which modifications can be
+madetothedeployedMLmodel.Thesemodificationsmaybemotivatedbyavarietyofrea-
+sons,includingchangesintheoperating,orlegislative,environment.Moregenerally,this
+propertyrecognisestheinevitabilityofchangewithinasoftwaresystem;consequently,it
+is closelylinkedto theupdatingactivitydescribedin Section 7.2.3.
+7.4 Methods
+This section considers each of the three desiderata in turn. Methods that can be applied during
+eachModelDeployment activity,to helpachievethedesiredproperty,arediscussed(Table 7).
+7.4.1 Fit-for-Purpose. In order for an ML model to be fit-for-purpose within a given system
+deployment, there must be confidence that the performance observed during the Model Verifi-
+cation stage is representative of the deployed performance. This confidence could be negatively
+impacted by changes in computational hardware between the various stages of the ML lifecy-
+cle, e.g., different numerical representations can affect accuracy and energy use [ 66]. Issues as-
+sociated with specialised hardware (e.g., custom processors designed for AI applications) may
+partly be addressed by suitable on-target testing (i.e., testing on the hardware used in the system
+deployment).
+ACM ComputingSurveys, Vol. 54,No. 5,Article 111.Publicationdate:May2021.
+Assuring the Machine Learning Lifecycle: Desiderata, Methods, and Challenges 111:27
+Differencesbetweentheinputsreceivedduringoperationaluseandthoseprovidedduringtrain-
+ing and verification can result in levels of deployed performance that are very different to those
+observedduringverification.Thereare severalwaysthesedifferencescanarise:
+(1) Because the training (and verification) data were not sufficiently representative of the
+operational domain [ 38]. This could be a result of inadequate training data (specifically,
+theOsubset referred to in Section 4), or it could be a natural consequence of a system
+beingusedin a widerdomain thanoriginally intended.
+(2) As a consequence of failures in the subsystems that provide inputs to the deployed ML
+model (this relates to the Fsubset). Collecting, and responding appropriately to, health
+managementinformationforrelevantsubsystemscanhelpprotectagainstthispossibility.
+(3) Asaresultofdeliberateactionsbyanadversary(whichrelatestothe Asubset)[61,162].
+(4) Followingchangesintheunderlyingprocesstowhichthedataarerelated.Thiscouldbea
+consequenceofchangesintheenvironment[ 4].Itcouldalsobeaconsequenceofchanges
+inthewaythatpeople,orothersystems,behave;thisisespeciallyperniciouswhenthose
+changeshavearisenasa resultof peoplereactingtothemodel’s behaviour.
+The notion of the operational input distribution being different from that represented by the
+trainingdataisreferredtoasdistributionshift[ 118].Mostmeasuresfordetectingthisrelyonmany
+operationalinputsbeingavailable(e.g.,Reference[ 179]).Abox-basedanalysisoftrainingdatamay
+allow detection on an input-by-input basis [ 12]. Learning-based approaches that compensate for
+distribution shift have been proposed [ 15,18]. Nevertheless,especially for high-dimensional data
+[134],timely detectionof distributionshiftis anopenchallenge(MD01in Table 8).
+To demonstrate that a deployed model continues to remain fit-for-purpose, there needs to be a
+way of confirming that the model’s internal behaviour is as designed. Equivalently, the provision
+ofsomeformof built-intest(BIT) ishelpful.Apartialsolutioninvolvesre-purposingtraditional
+BITtechniques,including:watchdogtimers[ 128],toprovideconfidencesoftwareisstillexecuting,
+and behavioural monitors [ 85], to provide confidence software is behaving as expected (e.g., it is
+not claiming an excessive amount of system resources). However, these general techniques need
+tobe supplementedbyapproachesspecificallytailoredforMLmodels [ 151].
+ForanMLmodeltobeusablewithinasafety-criticalsystem,itmaybenecessaryforitsoutput
+to be explainable (e.g., to support post-incident investigation). As discussed earlier, this is closely
+related to the Interpretable desideratum, discussed in Section 5. We also note that the open chal-
+lenge relating to the global behaviour of a complex model (ML09 in Table 4)i sr e l e v a n tt ot h e
+ModelDeployment stage.
+To support post-accident, or post-incident, investigations, sufficient information needs to be
+recordedtoallowtheMLmodel’sbehaviourtobesubsequentlyexplained.Asaminimum,model
+inputs should be recorded; if the model’s internal state is dynamic, then this should also be
+recorded. Furthermore, it is very likely that accident, or incident, investigation data will have
+to be recorded on a continual basis, and in such a way that it will usable after a crash and is
+protectedagainstinadvertent(ordeliberate)alteration.Understandingwhatinformationneedsto
+be recorded, at what frequency and for how long it needs to be maintained is an open challenge
+(MD02inTable 8).
+7.4.2 Tolerable. TotolerateoccasionalincorrectoutputsfromadeployedMLmodel,thesystem
+needstodotwothings.Firstly,itneedstodetectwhenanoutputisincorrect.Secondly,itneedsto
+replacetheincorrectoutputwithasuitablevaluetoallowsystemprocessingactivitiestocontinue.
+An ML model may produce an incorrect output when used outside the intended operational
+environment. This could be detected by monitoring for distribution shift, as indicated in the
+ACM ComputingSurveys, Vol. 54,No.5,Article 111.Publicationdate:May 2021.
+111:28 R. Ashmore et al.
+preceding section, possibly alongside monitoring the environment. An incorrect output may also
+be produced if the model is provided with inappropriate inputs. Again, this could be detected
+by monitoring for distribution shift or by monitoring the health of the system components that
+provide inputs to the model. In critical applications, it may be appropriate to define a minimum
+equipment list. This list should describe the equipment that must be present and functioning
+correctly to allow safe use of the system [ 119]. This approach can also protect the deployed ML
+model against system-level changesthatwouldinadvertently affectitsperformance.
+It may also be possible for the ML model to calculate its own “measure of confidence,” which
+could be used to support the detection of an incorrect output. The ICM has been proposed [ 172],
+butthisrequiresadistancemetrictobedefinedontheinputdomain,whichcanbedifficult.More
+generally,derivingan appropriatemeasureof confidenceisan openchallenge (MD03in Table 8).
+Anotherwayofdetectingincorrectoutputsinvolvescomparingthemwith“reasonable”values.
+This could, for example, take the form of introducing a simple monitor, acting directly on the
+outputprovidedbytheMLmodel[ 23].Ifthemonitordetectsaninvalidoutput,thenthemodelis
+re-run(withthesameinput,ifthemodelisnon-deterministic,orwithadifferentinput).Defininga
+monitorthatprotectssafetyispossible[ 105],butprovidingsufficientprotectionyetstillallowing
+theMLmodelsufficientfreedominbehaviour,sothatthebenefitsofusinganML-basedapproach
+can berealised,isan openchallenge (MD04inTable 8).
+The difficulty with defining a monitor may be overcome by using multiple, ‘independent’ ML
+models, along with an “aggregator” that combines their multiple outputs into a single output.
+This can be viewed as an ML-based implementation of the concept of n-version programming
+[34].Theapproachhassomesimilaritytoensemblelearning[ 147],butitsmotivationisdifferent:
+ensemble learning aims to improve performance in a general sense, while using multiple, inde-
+pendent models as part of a system architecture aims to protect against the consequences of a
+singlemodeloccasionallyproducinganincorrectoutput.Whilstthisapproachmayhavevalue,it
+is not clear how much independence can be achieved, especially if models are trained from data
+that have a common generative model [ 49]. Consequently, understanding the level of indepen-
+dencethatcanbeintroducedintomodelstrainedonthesamedataisanopenchallenge(MD05in
+Table8).
+If an incorrect output is detected, then, as noted above, a replacement value needs to be pro-
+vided totherestof thesystem.Runtimeverificationmethodshavebeenintroducedinwhichthis
+is achieved using software components developed and verified using traditional techniques [ 32,
+65,78].IntheSimplexarchitecture[ 78],averifiedsupervisorycontrollerswitchescontrolfroman
+unverifiable ‘smart’ controller to a verified safety controller when the former misbehaves. Alter-
+natively, a fixed “safe” value or the “last-good” output provided by the ML model could be used.
+In this approach, a safety switch monitors the output from the ML model. If this is invalid, then
+theswitchisthrownandtheoutputfromthe‘alternative’approachisusedinstead.Thisassumes
+thataninvalidoutputcanbedetectedand,furthermore,thatasubstitute,potentiallysuboptimal,
+outputcanbeprovidedinsuchcases.
+The monitor, aggregator and switch model-deployment architectures could readily accommo-
+date human interaction. For example, a human could play the role of a monitor, or that allocated
+to traditionalsoftware(e.g.,whenan autonomousvehiclehandscontrolbackto ahuman driver).
+7.4.3 Adaptable. Like all software, a deployed ML model would be expected to change during
+the lifetime of the system in which it is deployed [ 127]. Indeed, the nature of ML, especially the
+possibility of operational systems capturing data that can be used to train subsequent versions
+of a model, suggests that ML models may change more rapidly than is the case for traditional
+software.
+ACM ComputingSurveys, Vol. 54,No. 5,Article 111.Publicationdate:May2021.
+Assuring the Machine Learning Lifecycle: Desiderata, Methods, and Challenges 111:29
+AkeyconsiderationwhenallowingMLmodelstobeupdatedisthemanagementofthechange
+fromanoldversionofamodeltoanewversion.Severalapproachescanbeusedforthispurpose:
+(1) Placingthesystemina“safestate”forthedurationoftheupdateprocess.Inthecaseofan
+autonomous vehicle, this state could be stationary, with the parking brake applied, with
+nooccupantsandwithalldoorslocked.Inaddition,updatescouldberestrictedtocertain
+geographic locations (e.g., the owner’s driveway or the supplier’s service area). The safe
+statecouldbedeterminedbyatechnicalprocess,oritcouldbespecifiedbytheuser[ 127].
+(2) Ifitisnotfeasible,ordesirable,forthesystemtobeputintoasafestate,thenanalternative
+is for the system to run two identical channels, one of which is “live” and the other of
+which is a “backup.” The live model can be used whilst the backup is updated. Once the
+update is complete, the backup can become live and the other channel can be updated.
+Thisisa specificimplementation of theA/B swapdiscussedin Reference[ 27].
+(3) Another alternative is to use an approach deliberately designed to enable runtime code
+replacement (or “hot code loading”). This functionality is available, e.g., within Erlang
+[31].
+MLmodelupdatingresemblestheuseoffield-loadablesoftwareintheaerospacedomain[ 143].
+As such, several considerations are common to both activities: detecting corrupted or partially
+loaded software; checking compatibility; and preventing inadvertent triggering of the loading
+function. Approaches for protecting against corrupted updates should cover inadvertent data
+changesand deliberateattacksaimingto circumventthisprotection[ 112].
+In the common scenario where multiple instances of the same system have be deployed (e.g.,
+when a manufacturer sells many units of an autonomous vehicle or medical diagnosis system)
+updates need to be managed at the “fleet” level. There may, for example, be a desire to gradually
+rolloutanupdatesothatitseffectscanbemeasured,takingdueconsiderationofanyethicalissues
+associatedwithsuchanapproach.Moregenerally,thereisaneedtomonitorandcontrolfleet-wide
+diversity[ 14].Understandinghow bestto do thisis anopenchallenge (MD06in Table 8).
+7.5 Summary and Open Challenges
+Table7summarises assurance methods associated with the Model Deployment stage, matched
+to the associated activities and desiderata. The table shows that only two methods support the
+activityofupdatinganMLmodel.Thismayreflectthecurrentstateofthemarketforautonomous
+systems: There are few, if any, cases where a manufacturer has a large number of such systems
+in operational use. Given the link between the updating activity and the Adaptable desideratum,
+similar reasonsmay explainthelack of methodsto supportan adaptablesystemdeployment.
+The open challenges associated with the System Deployment stage (Table 8) include the fol-
+lowing: concerns that extend to the Model Learning and Model Verification stages, e.g., provid-
+ing measures of confidence (MD03); concerns that relate to system architectures, e.g., detecting
+distribution shift (MD01), supporting incident investigations (MD02), providing suitably flexible
+monitors (MD04) and understanding independence (MD05); and concerns that apply to system
+“fleets”(MD06).
+8 CONCLUSION
+Recent advances in machine learning underpin the development of many successful systems. ML
+technology is increasingly at the core of sophisticated functionality provided by smart devices,
+householdappliancesandonlineservices,oftenunbeknownsttotheirusers.Despitethediversity
+of these ML applications, they share a common characteristic: none is safety critical. Extending
+the success of machine learning to safety-critical systems holds great potential for application
+ACM ComputingSurveys, Vol. 54,No.5,Article 111.Publicationdate:May 2021.
+111:30 R. Ashmore et al.
+Table 7. Assurance Methods for the Model Deployment Stage
+Associated activities†Supporteddesiderata‡
+Method Integration Monitoring Updating Fit-for-Purpose Tolerable Adaptable
+U s eth es amenu mer ical
+precision fortrainingand
+operation✔ ⋆
+EstablishWCET [ 184] ✔ ⋆ ✩
+Monitor for distribution
+shift[118], [12]/check ✔ ⋆ ⋆
+ImplementgeneralBIT
+[128], [85], [151]✔✔ ⋆⋆
+Explainanindividual
+output[138]/check ✔ ⋆
+Record informationfor
+post-accident(or
+post-incident)investigation✔ ⋆
+Monitor theenvironment
+[9]✔ ⋆ ⋆
+Monitor healthof
+input-providing
+subsystems✔ ⋆⋆
+Provide aconfidence
+measure[ 172]✔ ✔ ⋆
+Use anarchitecture that
+toleratesincorrect outputs
+[23], [32], [34]✔ ⋆
+Managethe updateprocess
+[143]/check ✔ ⋆
+Control fleet-wide
+diversity [ 14]✔ ⋆
+†✔=activitythatthe method istypicallyused in; /check=activitythatmayuse the method.
+‡⋆=desideratum supported bythemethod; ✩=desideratum partlysupported bythe method.
+Table 8. Open Challenges for the Assurance Concerns Associated with the
+Model Deployment (MD) Stage
+ID Open Challenge Desideratum (Section)
+MD01Timelydetectionof distribution shift,especiallyfor high-dimensional
+datasets Fit-for-Purpose (Section 7.4.1)
+MD02 Informationrecording to support accidentor incidentinvestigation
+MD03 Providing asuitablemeasure of confidencein ML modeloutput
+Tolerable(Section 7.4.2) MD04 Definingsuitablyflexiblesafetymonitors
+MD05Understanding thelevelof independencethatcanbeintroduced into
+modelstrained onthe samedata
+MD06 Monitoring andcontrollingfleet-wide diversity Adaptable(Section 7.4.3)
+domainsrangingfromhealthcareandtransportationtomanufacturing,butrequirestheassurance
+of the ML models deployed within such systems. Our article explained that this assurance must
+cover all stages of the ML lifecycle, defined assurance desiderata for each such stage, surveyed
+themethodsavailable toachievethesedesiderata,andhighlightedremaining openchallenges.
+For the Data Management stage, our survey shows that a wide range of data collection,
+preprocessing, augmentation and analysis methods can help ensure that ML training and
+ACM ComputingSurveys, Vol. 54,No. 5,Article 111.Publicationdate:May2021.
+Assuring the Machine Learning Lifecycle: Desiderata, Methods, and Challenges 111:31
+verification datasets are Relevant,Complete ,Balanced ,a n d Accurate. Nevertheless, further
+researchisrequiredtodevisemethodscapableofdemonstratingthatthesedataaresufficientlyse-
+cure,fit-for-purposeand,whensimulationisusedtosynthesisedata,thatsimulationsaresuitably
+realistic.
+The Model Learning stage has been the focus of tremendous research effort, and a vast ar-
+ray of model selection and learning methods are available to support the development of Per-
+formantandRobustML models. In contrast, there is a significant need for additional hyperpa-
+rameter selection and transfer learning methods, and for research into ensuring that ML models
+areReusable andInterpretable , in particular through providing context-relevant explanations of
+behaviour.
+Assurance concerns associated with the Model Verification stage are addressed by numerous
+test-based verification methods and by a small repertoire of recently introduced formal verifica-
+tion methods. The verification results provided by these methods are often Comprehensive (for
+the ML model aspects being verified) and, in some cases, Contextually Relevant .H o w e v e r ,t h e r e
+are currently insufficient methods capable of encoding the requirements of the model being veri-
+fied into suitable tests and formally verifiable properties. Furthermore, ensuring that verification
+results are Comprehensible isstill verychallenging.
+The integration and monitoring activities from the Model Deployment stage are supported
+by a sizeable set of methods that can help address the Fit-for-Purpose andTolerable desiderata
+of deployed ML models. These methods are often inspired by analogous methods for the in-
+tegration and monitoring of software components developed using traditional engineering ap-
+proaches.Incontrast,MLmodelupdatingusingdatacollectedduringoperationhasnoclearsoft-
+ware engineering counterpart. As such, model updating methods are scarce and typically unable
+to provide the assurance needed to deploy ML models that are Adaptable within safety-critical
+systems.
+A further open challenge for assuring the ML lifecycle is the determination of effective trade-
+offs between the desiderata over the four stages. In many applications, the desiderata are closely
+related, either reinforcing each other or placing competing demands on the ML lifecycle activi-
+ties.Asanexample,ahighlyReusableMLmodelwilllikelybeeasilyAdaptable,butmightbeless
+ContextuallyRelevant.Furthertradeoffsariseintheassurancedomain,e.g.,anExplainablemodel
+might introducevulnerabilitiesexploitable ina cyberattack[ 77].
+This brief summary shows that considerable research is still needed to address outstanding as-
+suranceconcernsassociatedwitheverystageoftheMLlifecycle.Ingeneral,usingMLcomponents
+withinsafety-criticalsystemsposesnumerousopenchallenges.Atthesametime,theresearchre-
+quired to address these challenges can build on a promising combination of rigorous methods
+developedbyseveraldecadesofsustainedadvancesinmachinelearning,insoftwareandsystems
+engineering,and inassurancedevelopment.
+REFERENCES
+[1] Mahdieh Abbasi, Arezoo Rajabi, Azadeh Sadat Mozafari, Rakesh B. Bobba, and Christian Gagne. 2018. Controlling
+over-generalization and its effect on adversarial examples generation and detection. arXiv:1808.08282. Retrieved
+fromhttps://arxiv.org/abs/1808.08282 .
+[2] Amina Adadi and Mohammed Berrada. 2018. Peeking inside the black-box: A survey on Explainable Artificial In-
+telligence(XAI). IEEEAccess 6(2018),52138–52160.
+[3] Ajaya Adhikari, D. M. Tax, Riccardo Satta, and Matthias Fath. 2018. Example and Feature importance-based Expla-
+nationsforBlack-boxMachineLearningModels.arXiv:1812.09044.Retrievedfrom https://arxiv.org/abs/1812.09044 .
+[4] Rocío Alaiz-Rodríguez and Nathalie Japkowicz. 2008. Assessing the impact of changing environments on classi-
+fier performance. In Proceedings of the Conference of the Canadian Society for Computational Studies of Intelligence .
+Springer, 13–24.
+ACM ComputingSurveys, Vol. 54,No.5,Article 111.Publicationdate:May 2021.
+111:32 R. Ashmore et al.
+[5] RobAlexander,HeatherRebeccaHawkins,andAndrewJohnRae.2015. SituationCoverage—ACoverageCriterionfor
+TestingAutonomousRobots .TechnicalReport YCS-2015-496.Departmentof Computer Science,University of York.
+[6] Hassan Abu Alhaija, Siva Karthik Mustikovela, Lars Mescheder, Andreas Geiger, and Carsten Rother. 2018. Aug-
+mentedrealitymeetscomputervision:Efficientdatagenerationforurbandrivingscenes. Int.J.Comput.Vis. 126,9
+(2018),961–972.
+[7] Maksym Andriushchenko and Matthias Hein. 2019. Provably robust boosted decision stumps and trees against
+adversarialattacks.In Advances in Neural Information ProcessingSystems . 13017–13028.
+[8] D.Anguita,A.Ghio,L.Oneto,X.Parra,andJ.L.Reyes-Ortiz.2012.Humanactivityrecognitiononsmartphonesusing
+a multiclass hardware-friendly support vector machine. In Proceedings of the International Workshop on Ambient
+AssistedLiving .216–223.
+[9] Adina Aniculaesei, Daniel Arnsberger, Falk Howar, and Andreas Rausch. 2016. Towards the verification of safety-
+criticalautonomoussystemsindynamicenvironments.In ProceedingsoftheWorkshoponVerificationandValidation
+ofCyber-Physical Systems (V2CPS@IFM’16) .79–90.
+[10] AntreasAntoniou,AmosStorkey,andHarrisonEdwards.2017.Dataaugmentationgenerativeadversarialnetworks.
+arXiv:1711.04340.Retrievedfrom https://arxiv.org/abs/1711.04340 .
+[11] Maziar Arjomandi, Shane Agostino, Matthew Mammone, Matthieu Nelson, and Tong Zhou. 2006. Classification
+of Unmanned Aerial Vehicles. Report for Mechanical Engineering Class . Technical Report. University of Adelaide,
+Australia.
+[12] Rob Ashmore and Matthew Hill. 2018. Boxing clever: Practical techniques for gaining insights into training data
+and monitoring distribution shift. In Proceedings of theInternational Conference on Computer Safety, Reliability, and
+Security. Springer, 393–405.
+[13] Rob Ashmore and Elizabeth Lennon. 2017. Progress towards the assurance of non-traditional software. In Develop-
+ments in System Safety Engineering, Proceedings ofthe25th Safety-Critical Systems Symposium . 33–48.
+[14] Rob Ashmore and Bhopinder Madahar. 2019. Rethinking diversity in the context of autonomous systems. In Engi-
+neering Safe Autonomy,Proceedings ofthe27th Safety-Critical Systems Symposium . 175–192.
+[15] Kamyar Azizzadenesheli, Anqi Liu, Fanny Yang, and Animashree Anandkumar. 2019. Regularized learning for do-
+mainadaptationunder labelshifts.arXiv:1903.09734.Retrievedfrom https://arxiv.org/abs/1903.09734 .
+[16] R.K.E.Bellamy,K.Dey,M.Hind,S.C.Hoffman,S.Houde,K.Kannan,P.Lohia,J.Martino,S.Mehta,A.Mojsilović,S.
+Nagar,K.N.Ramamurthy,J.Richards,D.Saha,P.Sattigeri,M.Singh,K.R.Varshney,andY.Zhang.2019.AIfairness
+360:An extensibletoolkit fordetectingandmitigatingalgorithmic bias. IB MJ.R e s.De v . 63,4/5(2019),4:1–4:15.
+[17] James Bergstra and Yoshua Bengio. 2012. Random search for hyper-parameter optimization. J .M a c h .L e a r n .R e s .
+13(Feb.2012),281–305.
+[18] SteffenBickel,MichaelBrückner,andTobiasScheffer.2009.Discriminativelearningundercovariateshift. J.Mach.
+Learn.Res. 10,9 (2009),2137–2155.
+[19] Arijit Bishnu, Sameer Desai,Arijit Ghosh, Mayank Goswami,andPaul Subhabrata. 2015.Uniformity of point sam-
+ples in metric spaces using gap ratio. In Proceedings of the 12th Annual Conference on Theory and Applications of
+Modelsof Computation .347–358.
+[20] Christopher M.Bishop. 2006. Pattern Recognition and Machine Learning . Springer.
+[21] RobinBloomfieldandPeterBishop.2010.Safetyandassurancecases:Past,presentandpossiblefuture—AnAdelard
+perspective.In Making Systems Safer . Springer,51–67.
+[22] Barry Boehm and Wilfred J. Hansen. 2000. Spiral Development: Experience, Principles, and Refinements . Technical
+ReportCMU/SEI-2000-SR-008. Carnegie MellonUniversity.
+[23] ChrisBogdiukiewicz,MichaelButler,ThaiSonHoang,MartinPaxton,JamesSnook,XanthippeWaldron,andToby
+Wilkinson. 2017. Formal development of policing functions for intelligent systems. In Proceedings of the 28th Inter-
+national Symposium on Software Reliability Engineering . IEEE, 194–204.
+[24] AndrewP.Bradley.1997.TheuseoftheareaundertheROCcurveintheevaluationofmachinelearningalgorithms.
+Pattern Recogn. 30,7(1997),1145–1159.
+[25] HoussemBenBraiekandFoutseKhomh.2018.OnTestingMachineLearningPrograms.arXiv:1812.02257.Retrieved
+fromhttps://arxiv.org/abs/1812.02257 .
+[26] CarlaE.BrodleyandMarkA.Friedl.1999.Identifyingmislabeledtrainingdata. J.Artif.Intell.Res. 11(1999),131–167.
+[27] Atilla Bulmus, Axel Freiwald, and Chris Wunderlich. 2017. Over the Air Software Update Realization within Generic
+Modules with Microcontrollers Using ExternalSerial FLASH .TechnicalReport.SAE TechnicalPaper.
+[28] Jonathod Byrd and Zachary Lipton. 2019. What is the effect of importance weighting in deep learning?
+arXiv:1812.03372.Retrievedfrom https://arxiv.org/abs/1812.03372 .
+[29] RaduCalinescu,DannyWeyns,SimosGerasimou,MuhammadUsmanIftikhar,IbrahimHabli,andTimKelly.2018.
+Engineeringtrustworthyself-adaptivesoftwarewithdynamicassurancecases. IEEETrans.Softw.Eng. 44,11(2018),
+1039–1069.
+ACM ComputingSurveys, Vol. 54,No. 5,Article 111.Publicationdate:May2021.
+Assuring the Machine Learning Lifecycle: Desiderata, Methods, and Challenges 111:33
+[30] CristianS.CaludeandGiuseppeLongo.2017.Thedelugeofspuriouscorrelationsinbigdata. Found.Sci. 22,3(2017),
+595–612.
+[31] RichardCarlsson,BjörnGustavsson,ErikJohansson,ThomasLindgren,Sven-OlofNyström,MikaelPettersson,and
+RobertVirding.2000. CoreErlang1.0LanguageSpecification .TechnicalReport.InformationTechnologyDepartment,
+UppsalaUniversity.
+[32] PaulCaseley.2016.Claimsandarchitecturestorationateonautomaticandautonomousfunctions.In Proceedingsof
+the11th International ConferenceonSystem Safety and Cyber-Security . IET, 1–6.
+[33] Nitesh V. Chawla, Aleksandar Lazarevic, Lawrence O. Hall, and Kevin W. Bowyer. 2003. SMOTEBoost: Improving
+prediction of the minority class in boosting. In Proceedings of the European Conference on Principles of Data Mining
+and Knowledge Discovery .107–119.
+[34] Liming Chen and Algirdas Avizienis. 1978. N-version programming: A fault-tolerance approach to reliability of
+softwareoperation.In Proceedingsofthe8thIEEEInternationalSymposiumonFault-TolerantComputing ,V ol.1.3–9.
+[35] XinyunChen,ChangLiu,BoLi,KimberleyLu,andDawnSong.2017.TargetedBackdoorAttacksonDeepLearning
+Systems Using DataPoisoning. arXiv:1712.05526.Retrievedfrom https://arxiv.org/abs/1712.05526 .
+[36] Heng-Tze Cheng, Levent Koc, Jeremiah Harmsen, Tal Shaked, Tushar Chandra, Hrishi Aradhye, Glen Anderson,
+Greg Corrado, Wei Chai, Mustafa Ispir, Zakaria Anil, Rohan an Haque, Lichan Hong, Vihan Jain, Xiabing Liu, and
+Hemal Shah. 2016. Wide & deep learning for recommender systems. In Proceedings of the 1st Workshop on Deep
+Learning for Recommender Systems . ACM,7–10.
+[37] Patryk Chrabaszcz, Ilya Loshchilov, and Frank Hutter. 2018. Back to basics: Benchmarking canonical evolution
+strategies forplayingAtari.arXiv:1802.08842.Retrievedfrom https://arxiv.org/abs/1802.08842 .
+[38] DavidA.CieslakandNiteshV.Chawla.2009.Aframeworkformonitoringclassifiersperformance:Whenandwhy
+failureoccurs? Knowl.Inf.Syst. 18,1(2009),83–108.
+[39] Adnan Darwiche. 2018.Human-levelintelligenceor animal-likeabilities? Comm. ACM 61,10(2018),56–67.
+[40] JiaDeng,WeiDong,RichardSocher,Li-JiaLi,KaiLi,andLiFei-Fei.2009.Imagenet:Alarge-scalehierarchicalimage
+database.In Proceedings oftheIEEEConferenceonComputerVisionand PatternRecognition . 248–255.
+[41] YueDeng,FengBao,YouyongKong,ZhiquanRen,andQionghaiDai.2017.Deepdirectreinforcementlearningfor
+financialsignalrepresentationandtrading. IEEETrans.Neural Netw.Learn. Syst. 28,3(2017),653–664.
+[42] Finale Doshi-Velez and Been Kim. 2017. Towards a rigorous science of interpretable machine learning.
+arXiv:1702.08608.Retrievedfrom https://arxiv.org/abs/1702.08608 .
+[43] Tommaso Dreossi, Daniel J. Fremont, Shromona Ghosh, Edward Kim, Hadi Ravanbakhsh, Marcell Vazquez-
+Chanlatte, and Sanjit A Seshia. 2019. VERIFAI: A toolkit for the design and analysis of artificial intelligence-based
+systems. arXiv:1902.04245.Retrievedfrom https://arxiv.org/abs/1902.04245 .
+[44] Tommaso Dreossi, Shromona Ghosh, Xiangyu Yue, Kurt Keutzer, Alberto Sangiovanni-Vincentelli, and Sanjit A
+Seshia. 2018. Counterexample-guided data augmentation. arXiv:1805.06962. Retrieved from https://arxiv.org/abs/
+1805.06962 .
+[45] Tommaso Dreossi, Somesh Jha, and Sanjit A. Seshia. 2018. Semantic adversarial deep learning. arXiv:1804.07045.
+Retrieved from https://arxiv.org/abs/1804.07045 .
+[46] Chris Drummond and Robert C. Holte. 2006. Cost curves: An improved method for visualizing classifier perfor-
+mance.Mach. Learn. 65,1(2006),95–130.
+[47] Souradeep Dutta, Xin Chen, Susmit Jha, Sriram Sankaranarayanan, and Ashish Tiwari. 2019. Sherlock-A tool for
+verificationofneuralnetworkfeedbacksystems:Demoabstract.In Proceedingsofthe22ndACMInternationalCon-
+ference onHybrid Systems: Computationand Control .262–263.
+[48] Ruediger Ehlers. 2017. Formal verification of piece-wise linear feed-forward neural networks. In Proceedings of the
+International Symposium on Automated Technologyfor Verification andAnalysis .Springer,269–286.
+[49] AlhusseinFawzi,HamzaFawzi,andOmarFawzi.2018.Adversarialvulnerabilityforanyclassifier.arXiv:1802.08686.
+Retrieved from https://arxiv.org/abs/1802.08686 .
+[50] AlhusseinFawzi,OmarFawzi,andPascalFrossard.2015.Fundamentallimitsonadversarialrobustness.In Proceed-
+ings oftheICML WorkshoponDeepLearning .
+[51] AlhusseinFawzi,Seyed-MohsenMoosavi-Dezfooli,andPascalFrossard.2016.Robustnessofclassifiers:Fromadver-
+sarialtorandom noise.In Proceedings oftheAnnualConferenceonNeural InformationProcessingSystems (NIPS’16).
+Curran Associates Inc.,RedHook, NY, 1632–1640.
+[52] MichaelFeldman,SorelleA.Friedler,JohnMoeller,CarlosScheidegger,andSureshVenkatasubramanian.2015.Cer-
+tifying and removing disparate impact. In Proceedings of the 21th ACM SIGKDD International Conference on Knowl-
+edge Discovery andData Mining . ACM, 259–268.
+[53] Angelo Ferrando, Louise A. Dennis, Davide Ancona, Michael Fisher, and Viviana Mascardi. 2018. Verifying and
+validating autonomous systems: Towards an integrated approach. In Proceedings of the International Conference on
+Runtime Verification . Springer,263–281.
+ACM ComputingSurveys, Vol. 54,No.5,Article 111.Publicationdate:May 2021.
+111:34 R. Ashmore et al.
+[54] Peter Flach. 2019. Performance evaluation in machine learning: The good, the bad, the ugly and the way forward.
+InProceedings ofthe33rd AAAIConference onArtificial Intelligence .9808–9814.
+[55] MichaelForsting. 2017.Machinelearningwillchange medicine. J.Nucl. Med. 58,3 (2017),357–358.
+[56] Yoav Freund, Robert Schapire, and Naoki Abe. 1999. A short introduction to boosting. J. Jpn. Soc. Artif. Intell. 14,
+771–780(1999),1612.
+[57] YoavFreundandRobertE.Schapire.1997.Adecision-theoreticgeneralizationofon-linelearningandanapplication
+toboosting. J.Comput.Syst.Sci. 55,1 (1997),119–139.
+[58] TimonGehr,MatthewMirman,DanaDrachsler-Cohen,PetarTsankov,SwaratChaudhuri,andMartinVechev.2018.
+AI2: Safety and robustness certification of neural networks with abstract interpretation. In Proceedings of the 2018
+IEEESymposium on Security and Privacy . IEEE, 3–18.
+[59] AurélienGéron.2017. Hands-onMachineLearningwithScikit-LearnandTensorFlow:Concepts,Tools,andTechniques
+toBuild IntelligentSystems .O’ReillyMedia,Inc.
+[60] IanGoodfellow,Yoshua Bengio,Aaron Courville, andYoshua Bengio.2016. DeepLearning . Vol. 1. MIT Press.
+[61] Ian J. Goodfellow, Jonathon Shlens, and Christian Szegedy. 2014. Explaining and harnessing adversarial examples.
+arXiv:1412.6572.Retrievedfrom https://arxiv.org/abs/1412.6572 .
+[62] Tianyu Gu, Brendan Dolan-Gavitt, and Siddharth Garg. 2017. BadNets: Identifying vulnerabilities in the machine
+learningmodelsupplychain.arXiv:1708.06733.Retrievedfrom https://arxiv.org/abs/1708.06733 .
+[63] Guo Haixiang, Li Yijing, Jennifer Shang, Gu Mingyun, Huang Yuanyue, and Gong Bing. 2017. Learning from class-
+imbalanceddata:Review of methods andapplications. ExpertSyst. Appl. 73(2017),220–239.
+[64] JeffHeaton.2016.Anempiricalanalysisoffeatureengineeringforpredictivemodeling.In ProceedingsofSoutheast-
+Con’16.IEEE, 1–6.
+[65] Constance L. Heitmeyer,Ralph D. Jeffords, and Bruce G. Labaw.1996.Automated consistency checking of require-
+mentsspecifications. A CMT r a ns.S of tw .Eng .Me thodol. 5,3(1996),231–261.
+[66] Parker Hill, Babak Zamirai, Shengshuo Lu, Yu-Wei Chao, Michael Laurenzano, Mehrzad Samadi, Marios C.
+Papaefthymiou, Scott A. Mahlke, Thomas F. Wenisch, Jia Deng, Lingjia Tang, and Jason Mars. [n.d.]. Rethinking
+NumericalRepresentationsforDeepNeuralNetworks.arXiv:1808.02513.Retrievedfrom https://arxiv.org/abs/1808.
+02513.
+[67] GeoffreyE.Hinton,NitishSrivastava,AlexKrizhevsky,IlyaSutskever,andRuslanSalakhutdinov.[n.d.].Improving
+neuralnetworksbypreventingco-adaptationoffeaturedetectors.arXiv:1207.0580.Retrievedfrom https://arxiv.org/
+abs/1207.0580 .
+[68] XiaoweiHuang,MartaKwiatkowska,SenWang,andMinWu.2017.Safetyverificationofdeepneuralnetworks.In
+Proceedingsofthe29thInternationalConferenceonComputerAidedVerification ,RupakMajumdarandViktorKuncak
+(Eds.),Lecture Notesin ComputerScience, Vol. 10426.Springer, 3–29.
+[69] Zhongling Huang, Zongxu Pan, and Bin Lei. 2017. Transfer learning with deep convolutional neural network for
+SAR targetclassificationwithlimitedlabeleddata. Remote Sens. 9,9(2017),907.
+[70] Casidhe Hutchison, Milda Zizyte, Patrick E. Lanigan, David Guttendorf, Michael Wagner, Claire Le Goues, and
+PhilipKoopman.2018.Robustnesstestingofautonomysoftware.In Proceedingsofthe40thIEEE/ACMInternational
+Conferenceon Software Engineering: Software Engineering in Practice . 276–285.
+[71] FrankHutter,JörgLücke,andLarsSchmidt-Thieme.2015.Beyondmanualtuningofhyperparameters. Künstl.Intell.
+29,4(2015),329–337.
+[72] DidacGilDeLaIglesiaandDannyWeyns.2015.MAPE-Kformaltemplatestorigorouslydesignbehaviorsforself-
+adaptivesystems. A CMT ra ns.A u ton.A da pt.Sy st. 10,3(2015),15.
+[73] Sergey Ioffe and Christian Szegedy. 2015. Batch normalization: Accelerating deep network training by reducing
+internalcovariateshift.arXiv:1502.03167.Retrievedfrom https://arxiv.org/abs/1502.03167 .
+[74] Bandar Seri Iskandar. 2017. Terrorism detection based on sentiment analysis using machine learning. J. Eng. Appl.
+Sci.12,3(2017),691–698.
+[75] ISO.2018. Road Vehicles—Functional Safety: Part 6 .TechnicalReport BS ISO26262-6:2018.ISO.
+[76] Nathalie Japkowicz. 2001. Concept-learning in the presence of between-class and within-class imbalances. In Pro-
+ceedings of theConferenceoftheCanadian Society forComputational Studies ofIntelligence .Springer, 67–77.
+[77] NikitaJohnsonandTimKelly.2019.Devil’sinthedetail:Through-lifesafetyandsecurityco-assuranceusingSSAF.
+InProceedings ofthe38th International Conference on ComputerSafety, Reliability, and Security . Springer, 299–314.
+[78] Taylor T. Johnson, Stanley Bak, Marco Caccamo, and Lui Sha. 2016. Real-time reachability for verified Simplex
+design.A CMT r a ns.Em bed .Com p u t.S y st. 15,2(2016),1–27.
+[79] M. H. Kabir, M. R. Hoque, H. Seo, and S. H. Yang. 2015. Machine learning based adaptive context-aware system for
+smarthome environment. Int.J.Smart Home 9,11(2015),55–62.
+[80] Faisal Kamiran and Toon Calders. 2012. Data preprocessing techniques for classification without discrimination.
+Knowl.Inf.Syst. 33,1(2012),1–33.
+ACM ComputingSurveys, Vol. 54,No. 5,Article 111.Publicationdate:May2021.
+Assuring the Machine Learning Lifecycle: Desiderata, Methods, and Challenges 111:35
+[81] GuyKatz,ClarkBarrett,DavidL.Dill,KyleJulian,andMykelJ.Kochenderfer.2017.Reluplex:AnefficientSMTsolver
+for verifying deep neural networks. In Proceedings of the International Conference on Computer Aided Verification .
+Springer, 97–117.
+[82] Guy Katz, Derek A. Huang, Duligur Ibeling, Kyle Julian, Christopher Lazarus, Rachel Lim, Parth Shah, Shantanu
+Thakoor, Haoze Wu, Aleksandar Zeljić, et al. 2019. The marabou framework for verification and analysis of deep
+neural networks. In Proceedings oftheInternational ConferenceonComputer Aided Verification . Springer,443–452.
+[83] Shachar Kaufman, Saharon Rosset, Claudia Perlich, and Ori Stitelman. 2012. Leakage in data mining: Formulation,
+detection, andavoidance. ACMTrans.Knowl.Discov.Data 6,4(2012),15.
+[84] Jeffrey O.Kephart andDavidM. Chess. 2003.The vision of autonomiccomputing. Computer 36,1(2003),41–50.
+[85] MuhammadTaimoorKhan,DimitriosSerpanos,andHowardShrobe.2016.Arigorousandefficientrun-timesecurity
+monitor for real-time critical embedded system applications. In Proceedings of the 3rd World Forum on Internet of
+Things.IEEE, 100–105.
+[86] Udayan Khurana, Horst Samulowitz, and Deepak Turaga. 2018. Feature engineering for predictive modeling using
+reinforcementlearning.In Proceedings ofthe32nd AAAIConferenceonArtificial Intelligence .3407–3414.
+[87] Roger E.Kirk. 2007.Experimentaldesign. WileyOnlineLibrary.
+[88] Tom Ko, Vijayaditya Peddinti, Daniel Povey, and Sanjeev Khudanpur. 2015. Audio augmentation for speech recog-
+nition. In Proceedings ofthe16th Annual ConferenceoftheInternational Speech Communication Association .
+[89] PatrickKoch,BrettWujek,OlegGolovidov,andStevenGardner.2017.Automatedhyperparametertuningforeffec-
+tivemachinelearning.In Proceedings of theSASGlobal Forum Conference .
+[90] Matthieu Komorowski, Leo A. Celi, Omar Badawi, Anthony C. Gordon, and A. Aldo Faisal. 2018. The artificial
+intelligence clinician learns optimal treatment strategies for sepsis in intensive care. Nat. Med. 24, 11 (2018), 1716–
+1720.
+[91] PhilipKoopmanandFrankFratrik.2019.Howmanyoperationaldesigndomains,objects,andevents?In Proceedings
+of theAAAIWorkshoponArtificial Intelligence Safety .
+[92] Philip Koopman, Aaron Kane, and Jen Black. 2019. Credible autonomy safety argumentation. In Proceedings of the
+27th Safety-Critical Systems Symposium .
+[93] S. B. Kotsiantis, Dimitris Kanellopoulos, and P. E. Pintelas. 2006. Data preprocessing for supervised leaning. Int. J.
+Comput. Sci. 1,2(2006),111–117.
+[94] S.B.Kotsiantis,D.Kanellopoulos,andP.E.Pintelas.2007.Datapreprocessingforsupervisedleaning. Int.J.Comput.
+Electr. Autom.Contr.Inf.Eng. 1,12(2007),4104–4109.
+[95] Samantha Krening, Brent Harrison, Karen M. Feigh, Charles Lee Isbell, Mark Riedl, and Andrea Thomaz. 2017.
+Learningfromexplanationsusingsentimentandadvicein RL. IEEET ra ns.Cog n.De v .Sy st. 9,1(2017),44–55.
+[96] Isaac Lage, Andrew Ross, Kim Been, Samuel Gershman, and Finale Doshi-Velez. 2018. Human-in-the-loop inter-
+pretabilityprior. In Proceedings of theConferenceonNeural InformationProcessing Systems .10180–10189.
+[97] YannLeCun,LéonBottou,YoshuaBengio,andPatrickHaffner.1998.Gradient-basedlearningappliedtodocument
+recognition. Proc. IEEE 86,11(1998),2278–2323.
+[98] Joseph Lemley, Filip Jagodzinski, and Razvan Andonie. 2016. Big holes in big data: A Monte Carlo algorithm for
+detectinglargehyper-rectanglesinhighdimensionaldata.In Proceedings oftheIEEEComputerSoftwareandAppli-
+cations Conference .563–571.
+[99] Zachary C. Lipton. 2016. The mythos of model interpretability. arXiv:1606.03490. Retrieved from https://arxiv.org/
+abs/1606.03490 .
+[100] Yingqi Liu, Wen-Chuan Lee, Guanhong Tao, Shiqing Ma, Yousra Aafer, and Xiangyu Zhang. 2019. ABS: Scanning
+neural networks for back-doors by artificial brain stimulation. In Proceedings of the 2019 ACM SIGSAC Conference
+on Computer and Communications Security . 1265–1282.
+[101] Victoria López, Alberto Fernández, Salvador García, Vasile Palade, and Francisco Herrera. 2013. An insight into
+classificationwithimbalanceddata:Empiricalresultsandcurrenttrendsonusingdataintrinsiccharacteristics. Inf.
+Sci.250(2013),113–141.
+[102] Gustavo A. Lujan-Moreno, Phillip R. Howard, Omar G. Rojas, and Douglas C. Montgomery. 2018. Design of ex-
+periments and response surface methodology to tune machine learning hyperparameters, with a random forest
+case-study. Expert Syst.Appl. 109(2018),195–205.
+[103] LeiMa,FelixJuefei-Xu,MinhuiXue,BoLi,LiLi,YangLiu,andJianjunZhao.2019.DeepCT:Tomographiccombina-
+torialtestingfordeeplearningsystems.In Proceedingsofthe26thIEEEInternationalConferenceonSoftwareAnalysis,
+Evolutionand Reengineering . IEEE, 614–618.
+[104] Lei Ma, Felix Juefei-Xu, Fuyuan Zhang, Jiyuan Sun, Minhui Xue, Bo Li, Chunyang Chen, Ting Su, Li Li, Yang
+Liu, Jianjun Zhao, and Yadong Wang. 2018. DeepGauge: Multi-granularity testing criteria for deep learning sys-
+tems. InProceedings of the 33rd ACM/IEEE International Conference on Automated Software Engineering . ACM, 120–
+131.
+ACM ComputingSurveys, Vol. 54,No.5,Article 111.Publicationdate:May 2021.
+111:36 R. Ashmore et al.
+[105] MathildeMachin,JérémieGuiochet,HélèneWaeselynck,Jean-PaulBlanquart,MatthieuRoy,andLolaMasson.2018.
+SMOF: A safety monitoring framework for autonomous systems. IEEE Trans. Syst. Man Cybernet. Syst. 48, 5 (2018),
+702–715.
+[106] Aravindh Mahendran and Andrea Vedaldi. 2015. Understanding deep image representations by inverting them. In
+Proceedings of theIEEEConferenceonComputerVisionand PatternRecognition . 5188–5196.
+[107] Spyros Makridakis. 2017. The forthcoming Artificial Intelligence (AI) revolution: Its impact on society and firms.
+Futures90(2017),46–60.
+[108] Pedro Marcelino.2018.Transferlearningfrompre-trained models.In Towards Data Science (2018).
+[109] George Mason, Radu Calinescu, Daniel Kudenko, and Alec Banks. 2017. Assured reinforcement learning with for-
+mallyverifiedabstractpolicies.In Proceedingsofthe9thInternationalConferenceonAgentsandArtificialIntelligence .
+105–117.
+[110] MichaelMaurer,IvanBreskovic,VincentC.Emeakaroha,andIvonaBrandic.2011.RevealingtheMAPEloopforthe
+autonomic management of cloud infrastructures. In Proceedings of the Symposium on Computers and Communica-
+tions.IEEE, 147–152.
+[111] Markus Maurer, J. Christian Gerdes, Barbara Lenz, and Hermann Winner. 2016. Autonomous Driving: Technical,
+Legal and Social Aspects .Springer Nature.
+[112] ChristopherMeyerandJörgSchwenk.2013.SoK:LessonslearnedfromSSL/TLSattacks.In ProceedingsoftheInter-
+national Workshopon Information Security Applications .Springer, 189–209.
+[113] Microsoft.2019.HowtochoosealgorithmsforAzureMachineLearningStudio.RetrievedFebruary2019from https:
+//docs.microsoft.com/en-us/azure/machine-learning/studio/algorithm-choice .
+[114] TomM.Mitchell.1997. Machine Learning .McGraw–Hill.
+[115] Model Zoos Caffe 2019. Caffe Model Zoo. Retrieved March 2019 from http://caffe.berkeleyvision.org/model_zoo.
+html.
+[116] ModelZoosGithub2019.ModelZoosofmachineanddeeplearningtechnologies.RetrievedMarch2019from https:
+//github.com/collections/ai-model-zoos .
+[117] Seyed-Mohsen Moosavi-Dezfooli, Alhussein Fawzi, Omar Fawzi, and Pascal Frossard. 2017. Universal adversarial
+perturbations.In Proceedings of theIEEEConference onComputerVisionand PatternRecognition . 1765–1773.
+[118] JoseG.Moreno-Torres,TroyRaeder,RocíoAlaiz-Rodríguez,NiteshV.Chawla,andFranciscoHerrera.2012.Auni-
+fyingview on datasetshiftin classification. Pattern Recogn. 45,1(2012),521–530.
+[119] Pamela A. Munro and Barbara G. Kanki. 2003. An analysis of ASRS maintenance reports on the use of minimum
+equipmentlists.In Proceedings of the12th International Symposium on Aviation Psychology .
+[120] KevinP.Murphy. 2012. Machine Learning: A Probabilistic Perspective . The MIT Press.
+[121] Partha Niyogi and Federico Girosi. 1996. On the relationship between generalization error, hypothesis complexity,
+andsamplecomplexityfor radialbasis functions. Neural Comput. 8,4(1996),819–842.
+[122] ObjectManagementGroup.2018.Structured Assurance CaseMetamodel(SACM). Version 2.0.
+[123] AugustusOdenaandIanGoodfellow.2018.TensorFuzz:Debuggingneuralnetworkswithcoverage-guidedfuzzing.
+arXiv:1807.10875.Retrivedfrom https://arxiv.org/abs/1807.10875 .
+[124] MaximeOquab,LeonBottou,IvanLaptev,andJosefSivic.2014.Learningandtransferringmid-levelimagerepresen-
+tations using convolutional neural networks. In Proceedings of the IEEE Conference on Computer Vision and Pattern
+Recognition . 1717–1724.
+[125] Nicolas Papernot, Patrick McDaniel, Ian Goodfellow, Somesh Jha, Z. Berkay Celik, and Ananthram Swami. 2017.
+Practicalblack-boxattacksagainstmachinelearning.In Proceedingsofthe2017ACMonAsiaConferenceonComputer
+andCommunications Security . ACM, 506–519.
+[126] Kexin Pei, Yinzhi Cao, Junfeng Yang, and Suman Jana. 2017. DeepXplore: Automated whitebox testing of deep
+learningsystems.In Proceedings of the26th Symposium on Operating Systems Principles .ACM, 1–18.
+[127] Teresa Placho, Christoph Schmittner, Arndt Bonitz, and Oliver Wana. 2020. Management of automotive software
+updates.Microprocess. Microsystems. 78(2020),103257.
+[128] Michael J. Pont and Royan H. L. Ong. 2002. Using watchdog timers to improve the reliability of single-processor
+embedded systems: Seven new patterns and a case study. In Proceedings of the 1st Nordic Conference on Pattern
+Languages ofPrograms .
+[129] LutzPrechelt. 1998.Early stopping-butwhen?In Neural Networks: Tricks oftheTrade . Springer, 55–69.
+[130] Philipp Probst, Bernd Bischl, and Anne-Laure Boulesteix. 2018. Tunability: Importance of hyperparameters of ma-
+chinelearningalgorithms. arXiv:1802.09596.Retrievedfrom https://arxiv.org/abs/1802.09596 .
+[131] Foster Provost and Tom Fawcett. 2001. Robust classification for imprecise environments. Mach. Learn. 42, 3 (2001),
+203–231.
+[132] J.ProvostFoster,FawcettTom,andKohaviRon.1998.Thecaseagainstaccuracyestimationforcomparinginduction
+algorithms.In Proceedings of the15th International ConferenceonMachine Learning . 445–453.
+ACM ComputingSurveys, Vol. 54,No. 5,Article 111.Publicationdate:May2021.
+Assuring the Machine Learning Lifecycle: Desiderata, Methods, and Challenges 111:37
+[133] R-Bloggers Data Analysis 2019. How to Use Data Analysis for Machine Learning. Retrieved February 2019 from
+https://www.r-bloggers.com/how-to-use-data-analysis-for-machine-learning-example-part-1 .
+[134] StephanRabanser,StephanGünnemann,andZacharyC.Lipton.2019.Failingloudly:Anempiricalstudyofmethods
+for detectingdatasetshift. Advances in Neural Information Processing Systems 32(2019).
+[135] Jan Ramon, Kurt Driessens, and Tom Croonenborghs. 2007. Transfer learning in reinforcement learning problems
+throughpartialpolicyrecycling.In ProceedingsoftheEuropeanConferenceonMachineLearning .Springer,699–707.
+[136] Francesco Ranzato and Marco Zanella. 2019. Robustness verification of support vector machines. In Proceedings of
+theInternational Static AnalysisSymposium . Springer, 271–295.
+[137] Jorge-L. Reyes-Ortiz, Luca Oneto, Albert Samà, Xavier Parra, and Davide Anguita. 2016. Transition-aware human
+activityrecognition using smartphones. Neurocomputing 171(2016),754–767.
+[138] MarcoTulioRibeiro,SameerSingh,andCarlosGuestrin.2016.WhyshouldItrustyou?:Explainingthepredictions
+ofanyclassifier.In Proceedingsofthe22ndACMSIGKDDInternationalConferenceonKnowledgeDiscoveryandData
+Mining. ACM, 1135–1144.
+[139] F.Ricci,L.Rokach,andB.Shapira.2015.Recommendersystems:Introductionandchallenges. RecommenderSystems
+Handbook (2015),1–34.
+[140] GermanRos,LauraSellart,JoannaMaterzynska,DavidVazquez,andAntonioM.Lopez.2016.TheSYNTHIAdataset:
+Alargecollectionofsyntheticimagesforsemanticsegmentationofurbanscenes.In ProceedingsoftheIEEEConfer-
+ence on Computer Vision andPattern Recognition . 3234–3243.
+[141] AndrewSlavinRossandFinaleDoshi-Velez.2018.Improvingtheadversarialrobustnessandinterpretabilityofdeep
+neural networks by regularizing their input gradients. In Proceedings of the 32nd AAAI Conference on Artificial In-
+telligence. 1660–1669.
+[142] SaharonRosset,ClaudiaPerlich,GrzergorzŚwirszcz,PremMelville,andYanLiu.2010.Medicaldatamining:Insights
+from winningtwocompetitions. Data Min.Knowl.Discov. 20,3(2010),439–468.
+[143] RTCA. 2011. Software Considerationsin AirborneSystems andEquipment Certification . TechnicalReport DO-178C.
+[144] Cynthia Rudin. 2019. Stop explaining black box machine learning models for high stakes decisions and use inter-
+pretablemodels instead. Nat.Mach. Intell. 1,5(2019),206–215.
+[145] Stuart J. RussellandPeter Norvig. 2016. Artificial Intelligence:A Modern Approach .Pearson Education Limited.
+[146] Jerome Sacks, William J. Welch, Toby J. Mitchell, and Henry P. Wynn. 1989. Design and analysis of computer ex-
+periments. Stat. Sci.(1989),409–423.
+[147] OmerSagi andLior Rokach. 2018.Ensemblelearning:A survey. DataMin. Knowl.Discov. 8,4 (2018),e1249.
+[148] Ahmed Salem, Michael Backes, and Yang Zhang. 2020. Don’t Trigger Me! A Triggerless Backdoor Attack Against
+Deep NeuralNetworks. arXiv:2010.03282.Retrievedfrom https://arxiv.org/abs/2010.03282 .
+[149] Robert G. Sargent. 2009. Verification and validation of simulation models. In Proceedings of the Winter Simulation
+Conference .162–176.
+[150] Lawrence K. Saul and Sam T. Roweis. 2003. Think globally, fit locally: Unsupervised learning of low dimensional
+manifolds. J.Mach. Learn.Res. 4(Jun.2003),119–155.
+[151] Christoph Schorn, Andre Guntoro, and Gerd Ascheid. 2018. Efficient on-line error detection and mitigation for
+deepneuralnetworkaccelerators.In ProceedingsoftheInternationalConferenceonComputerSafety,Reliability,and
+Security. Springer,205–219.
+[152] Scikit-Taxonomy2019.Scikit—Choosingtherightestimator.RetrievedFebruary2019from https://scikit-learn.org/
+stable/tutorial/machine_learning_map/index.html .
+[153] NoamSegev,MaayanHarel,ShieMannor,KobyCrammer,andRanEl-Yaniv.2017.Learnonsource,refineontarget:
+Amodeltransferlearningframeworkwithrandomforests. IEEETrans.PatternAnal.Mach.Intell. 39,9(2017),1811–
+1824.
+[154] Daniel Selsam, Percy Liang, and David L. Dill. 2017. Developing bug-free machine learning systems with formal
+mathematics. In Proceedings of the 34th International Conference on Machine Learning-Volume 70 . JMLR. org, 3047–
+3056.
+[155] VictorS.ShengandJingZhang.2019.Machinelearningwithcrowdsourcing:Abriefsummaryofthepastresearch
+and futuredirections. In Proceedings of theAAAIConferenceonArtificial Intelligence ,Vol. 33.9837–9843.
+[156] AndyShih,ArthurChoi,andAdnanDarwiche.2018.FormalverificationofBayesiannetworkclassifiers.In Proceed-
+ings oftheInternational Conferenceon Probabilistic Graphical Models .427–438.
+[157] Padhraic Smyth. 1996. Bounds on the mean classification error rate of multiple experts. Pattern Recogn. Lett. 17, 12
+(1996),1253–1257.
+[158] Marina Sokolova and Guy Lapalme. 2009. A systematic analysis of performance measures for classification tasks.
+Inf.Process. Manage. 45,4(2009),427–437.
+[159] Nitish Srivastava, Geoffrey Hinton, Alex Krizhevsky, Ilya Sutskever, and Ruslan Salakhutdinov. 2014. Dropout: A
+simplewaytopreventneuralnetworks from overfitting. J .M a c h .L e a r n .R e s . 15,1(2014),1929–1958.
+ACM ComputingSurveys, Vol. 54,No.5,Article 111.Publicationdate:May 2021.
+111:38 R. Ashmore et al.
+[160] Sanatan Sukhija, Narayanan C. Krishnan, and Deepak Kumar. 2018. Supervised heterogeneous transfer learning
+usingrandomforests.In ProceedingsoftheACMIndiaJointInternationalConferenceonDataScienceandManagement
+ofData. ACM,157–166.
+[161] Youcheng Sun, Min Wu, Wenjie Ruan, Xiaowei Huang, Marta Kwiatkowska, and Daniel Kroening. 2018. Concolic
+testing for deep neural networks. In Proceedings of the 33rd ACM/IEEE International Conference on Automated Soft-
+ware Engineering . ACM, 109–119.
+[162] ChristianSzegedy,WojciechZaremba,IlyaSutskever,JoanBruna,DumitruErhan,IanGoodfellow,andRobFergus.
+2013.Intriguing propertiesof neuralnetworks. arXiv:1312.6199.Retrievedfrom https://arxiv.org/abs/1312.6199 .
+[163] A.TaberandE.Normand. 1993.Singleeventupsetin avionics. IEEETrans.Nucl. Sci. 40,2(1993),120–126.
+[164] Mariarosaria Taddeo, Tom McCutcheon, and Luciano Floridi. 2019. Trusting artificial intelligence in cybersecurity
+isa double-edgedsword. Nat.Mach. Intell. (2019),557–560.
+[165] LukeTaylorandGeoffNitschke.2017.Improvingdeeplearningusinggenericdataaugmentation.arXiv:1708.06020.
+Retrievedfrom https://arxiv.org/abs/1708.06020 .
+[166] Chris Thornton, Frank Hutter, Holger H. Hoos, and Kevin Leyton-Brown. 2013. Auto-WEKA: Combined selection
+andhyperparameteroptimizationofclassificationalgorithms.In Proceedingsofthe19thACMSIGKDDInternational
+ConferenceonKnowledgeDiscovery andData Mining . ACM,847–855.
+[167] YuchiTian,KexinPei,SumanJana,andBaishakhiRay.2018.DeepTest:Automatedtestingofdeep-neural-network-
+drivenautonomouscars.In Proceedingsofthe40thInternationalConferenceonSoftwareEngineering .ACM,303–314.
+[168] JohnTörnblomandSiminNadjm-Tehrani.2018.Formalverificationofrandomforestsinsafety-criticalapplications.
+InProceedings oftheInternational Workshopon Formal Techniques for Safety-Critical Systems .Springer, 55–71.
+[169] Hoang-Dung Tran, Stanley Bak, Weiming Xiang, and Taylor T. Johnson. 2020. Verification of deep convolutional
+neuralnetworks using ImageStars.arXiv:2004.05511.Retrievedfrom https://arxiv.org/abs/2004.05511 .
+[170] Hoang-Dung Tran, Xiaodong Yang, Diego Manzanas Lopez, Patrick Musau, Luan Viet Nguyen, Weiming Xiang,
+StanleyBak,andTaylorT.Johnson.2020.NNV:Theneuralnetworkverificationtoolfordeepneuralnetworksand
+learning-enabledcyber-physical systems.arXiv:2004.05519.Retrievedfrom https://arxiv.org/abs/2004.05519 .
+[171] John W.Tukey. 1977. ExploratoryData Analysis .V ol.2.Reading,MA.
+[172] Jasper van der Waa, Jurriaan van Diggelen, Mark A Neerincx, and Stephan Raaijmakers. 2018. ICM: An intuitive
+model independent and accurate certainty measure for machine learning.. In Proceedings of the International Con-
+ference on Agents andArtificial Intelligence(ICAART’18) . 314–321.
+[173] Perry VanWeselandAlwynE. Goodloe.2017.Challengesinthe verificationof reinforcementlearningalgorithms.
+(2017).
+[174] KiriWagstaff.2012.Machinelearningthatmatters.arXiv:1206.4656.Retrievedfrom https://arxiv.org/abs/1206.4656 .
+[175] KiriL.WagstaffandBenjaminBornstein.2009.K-meansinspace:Aradiationsensitivityevaluation.In Proceedings
+ofthe26th Annual International ConferenceonMachine Learning . 1097–1104.
+[176] LiWan,MatthewZeiler,SixinZhang,YannLeCun,andRobFergus.2013.Regularizationofneuralnetworksusing
+dropconnect. In Proceedings oftheInternational ConferenceonMachine Learning . 1058–1066.
+[177] BinghuiWangandNeilZhenqiangGong.2018.Stealinghyperparametersinmachinelearning.In Proceedingsofthe
+2018 IEEESymposium on Security and Privacy . IEEE, 36–52.
+[178] BolunWang,YuanshunYao,ShawnShan,HuiyingLi,BimalViswanath,HaitaoZheng,andBenYZhao.2019.Neural
+cleanse:Identifyingandmitigatingbackdoorattacksinneuralnetworks.In Proceedingsofthe2019IEEESymposium
+on Security and Privacy . IEEE, 707–723.
+[179] KeWang,SenqiangZhou,CheeAdaFu,andJeffreyXuYu.2003.Miningchangesofclassificationbycorrespondence
+tracing.In Proceedings ofthe2003 SIAMInternational Conference onDataMining . SIAM, 95–106.
+[180] Lu Wang, Xuanqing Liu, Jinfeng Yi, Zhi-Hua Zhou, and Cho-Jui Hsieh. 2019. Evaluating the robustness of nearest
+neighborclassifiers: Aprimal-dualperspective.arXiv:1906.03972.Retrievedfrom https://arxiv.org/abs/1906.03972 .
+[181] Yihan Wang, Huan Zhang, Hongge Chen, Duane Boning, and Cho-Jui Hsieh. 2020. On lp-norm robustness of en-
+semblestumps andtrees.arXiv:2008.08755.Retrievedfrom https://arxiv.org/abs/2008.08755 .
+[182] GaryM.Weiss. 2004.Miningwithrarity: A unifyingframework. ACMSIGKDDExpl.Newslett. 6,1(2004),7–19.
+[183] Karl Weiss, Taghi M. Khoshgoftaar, and DingDing Wang. 2016. A survey of transfer learning. J. Big Data 3, 1
+(2016),9.
+[184] Reinhard Wilhelm, Jakob Engblom, Andreas Ermedahl, Niklas Holsti, Stephan Thesing, David Whalley, Guillem
+Bernat, Christian Ferdinand, Reinhold Heckmann, Tulika Mitra, Frank Mueller, Isabelle Puaut, Peter Puschner, Jan
+Straschulat, and Per Strenström. 2008. The worst-case execution-time problem—Overview of methods and survey
+of tools.A CMT r a ns.Em bed .Com p u t.S y st. 7,3 (2008),36.
+[185] Sebastien C. Wong, Adam Gatt, Victor Stamatescu, and Mark D. McDonnell. 2016. Understanding data augmenta-
+tion for classification: When to warp? In Proceedings of the International Conference on Digital Image Computing:
+Techniques andApplications .IEEE, 1–6.
+ACM ComputingSurveys, Vol. 54,No. 5,Article 111.Publicationdate:May2021.
+Assuring the Machine Learning Lifecycle: Desiderata, Methods, and Challenges 111:39
+[186] Yonghui Wu, Mike Schuster, Zhifeng Chen, Quoc V., Mohammad Norouzi, Wolfgang Macherey, Maxim Krikun,
+Yuan Cao, Qin Gao, Klaus Macherey, Jeff Klingner, Apurva Shah, Melvin Johnson, Xiaobing Liu, Łukasz Kaiser,
+Stephan Gouws, Yoshikiyo Kato, Taku Kudo, Hideto Kazawa, Keith Stevens, George Kurian, Nishant Patil, Wei
+Wang, Cliff Young, Jason Smith, Jason Riesa, Alex Rudnick, Oriol Vinyals, Greg Corrado, Macduff Hughes, and
+Jeffrey Dean. 2016. Google’s neural machine translation system: Bridging the gap between human and machine
+translation. arXiv:1609.0814.Retrievedfrom https://arxiv.org/abs/1609.0814 .
+[187] Steven R. Young, Derek C. Rose, Thomas P. Karnowski, Seung-Hwan Lim, and Robert M Patton. 2015. Optimizing
+deep learning hyper-parameters through an evolutionary algorithm. In Proceedings of the Workshop on Machine
+Learning in High-Performance Computing Environments .A CM,4.
+[188] X. Yuan, Y. Chen, Y. Zhao, Y. Long, X. Liu, K. Chen, S. Zhang, H. Huang, X. Wang, and C. A. Gunter. 2018. Com-
+manderSong: A systematic approach for practical adversarial voice recognition. arXiv:1801.08535. Retrieved from
+https://arxix.org/abs/1801.08535 .
+[189] MateiZaharia,AndrewChen,AaronDavidson,AliGhodsi,SueAnnHong,AndyKonwinski,SiddharthMurching,
+Tomas Nykodym, Paul Ogilvie, Mani Parkhe, Fen Xie, and Corey Zumar. 2018. Accelerating the machine learning
+lifecyclewithMLflow. DataEng. 41,4 (2018),39–45.
+[190] Mengshi Zhang, Yuqun Zhang, Lingming Zhang, Cong Liu, and Sarfraz Khurshid. 2018. DeepRoad: GAN-based
+metamorphic autonomous driving system testing. arXiv:1802.02295. Retrieved from https://arxiv.org/abs/1802.
+02295.
+[191] ShichaoZhang,ChengqiZhang,andQiangYang.2003.Datapreparationfordatamining. Appl.Artif.Intell. 17,5–6
+(2003),375–381.
+[192] Stephan Zheng, Yang Song, Thomas Leung, and Ian Goodfellow. 2016. Improving the robustness of deep neural
+networks via stability training. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition .
+4480–4488.
+[193] Zhun Zhong, Liang Zheng, Guoliang Kang, Shaozi Li, and Yi Yang. 2017. Random erasing data augmentation.
+arXiv:1708.04896.Retrievedfrom https://arxiv.org/abs/1708.04896 .
+Received May 2019; revised December 2020; accepted February 2021
+ACM ComputingSurveys, Vol. 54,No.5,Article 111.Publicationdate:May 2021.

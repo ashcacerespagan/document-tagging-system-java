@@ -1,0 +1,662 @@
+CFI-1015APlayStation®5
+Quick Start Guide 
+Guide de mise en route • Guía de inicio rápido
+21 Place the console with the rear side facing up, and 
+then remove the screw hole cap.
+2 Attach the screw hole cap to the bottom of the base.
+3 Remove the screw from the bottom of the base.
+3 2
+4 Attach the base, and then secure with a screw. Use a coin or similarly shaped object to tighten the screw.Bottom of 
+baseLet's get started
+1 Attach the base.
+Always attach the base to the console, whether it's in the 
+vertical or horizontal position.Place your console on a flat surface when attaching the base.
+You'll need to reconfigure the base for the position 
+of your console. Rotate the top and bottom part of the base in opposite directions. Keep rotating until you hear a "click".
+For the vertical position
+With the base attached
+HookMake sure the hook is in the position 
+as illustrated below before attaching the base to the console.
+3Let's get started  
+EN
+2 Connect the HDMI cable and the AC 
+power cord.
+Use the included cables.
+Make all connections before plugging the AC power cord into an electrical outlet.
+HDMI OUT port HDMI IN port
+HDMI™ cable
+To an electrical outlet
+AC IN 
+connectorAC power cordRear viewFor the horizontal position
+With the base attachedMake sure the hook is in the position 
+as illustrated below before attaching the base to the console.
+Hook
+1 Place the console with the rear side facing up. Align 
+the base with the marked area on the console, and press the base in firmly.
+4Let's get started  
+3 Connect the LAN cable.
+For a wired connection to the internet, use a LAN cable 
+(not included).If you're going to use Wi-Fi®, don't connect a LAN cable and skip to the next step.
+4 Turn on your TV and set the input  
+to HDMI.Rear view
+LAN port5 Turn on your PlayStation®5 console by pressing the 
+ (power) button.
+The power indicator blinks blue, and then turns white.
+If you leave the console idle for 60 seconds after you turn it on, 
+the text-to-speech feature turns on. You can listen to on-screen 
+text and other important information read aloud to help you accomplish what you want to do.Front view
+Power indicator
+ (power) button
+5Let's get started  
+EN
+6 Connect your wireless controller to your 
+console using a USB cable, and then press the 
+ (PS) button.
+To pair your controller, connect it with a USB cable to 
+the USB port on your console. When you press the 
+ (PS) button, the controller turns on.
+ USB Type-A port USB port
+ (PS) buttonUSB cableFront view7 Make it your own.
+You're almost done! Follow the on-screen instructions to
+• Set up your console
+Select your language, configure your internet connection settings, and manage your power save settings.
+Select Optimized Experience in Power Options for Rest Mode 
+to charge your controller during rest mode or to enable your update files to install automatically (page 12).
+• Set up your account
+Create a new account or sign in with an existing account, such as one you created on a PlayStation®4 console. See also "For PS4 users" (page 6).
+• Download your contentDownload purchased PS5™ games and media apps. If you have a PS4™ console, you can transfer the data to your PS5 console.
+You'll know that setup is complete when Welcome to PlayStation 5 appears on your screen. 
+Will a child be using your PS5 console? See also "Parental 
+controls" (page 6).
+• The setup options that you see are tailored to your needs, 
+based on information such as your network environment and the account that you're signed into.
+• You can go back and change any of your settings by selecting Settings 
+ from the home screen.
+6Parental controls
+You can manage settings for children who use your PS5 
+console. Parental controls let you set restrictions on the games children can play, when and how long they play, who they communicate with, and more.
+Each adult (
+) and child ( ) will need their own separate 
+accounts. When you create an account for a child, it's 
+automatically linked to your account, creating a family. You can set parental controls only for children in your family.
+You can use an existing account, such as one you created on a PS4 
+console, for your PS5 console. Your family and parental control settings will carry over to your PS5 console.For PS4 users
+Play some PS4 games on your PS5 console
+You can play select compatible PS4 games in disc or digital 
+formats on your PS5 console with a system software update.
+Transfer data from a PS4 console to your 
+PS5 console
+Connect your PS4 console and 
+PS5 console to the same network to transfer data such as game save data, user information, and downloaded content.If you have a USB drive that you've been using as extended storage for your PS4 console, you can continue using it by simply connecting it to your PS5 console.
+Use the same account you  
+created on a PS4 console
+There's no need to create a new 
+account for your PS5 console. Just sign in with your existing account and your game history, trophies, profile, and any exchanges you've had with friends will transfer to your PS5 console.
+
+7Parental controls
+EN
+Create an account for a child
+You can create a child account and set parental controls at 
+the same time.Press the 
+ (PS) button to open the control center. Select 
+your avatar, then select Switch User. From the user selection screen, select Add User to create an account.
+Review and change your parental control settings
+We recommend that you check the child's parental controls regularly. You can review or update them by selecting Settings 
+ > Family and Parental Controls from the home 
+screen.
+Game rating icons
+Each game comes with a game rating icon that helps you determine whether it's age-appropriate for the child.
+Approximate 
+age of user6 10 13 17
+Game rating labels
+Find out more about parental control features and setup in the User's Guide (page 13).
+8What's on the screen
+Home screen
+From the home screen, you can go to two types of content: games or media.
+In the games home, you'll find your games, PlayStation™Store, and other game-related apps. In the media home, you'll find music, video, and other non-game related apps.
+Switch home screens
+Switch between games and media.
+Change your settings, and edit your profile.
+Hub
+Learn more about the game or app you selected, and find related information.
+• On the PS5 console, the  button confirms selected items.
+• To return to the home screen while your game or app is running, select Home  from 
+the control center, or press and hold the  (PS) button on your controller.
+9What's on the screen  
+EN
+Control center
+Press the  (PS) button to open the control center. 
+You can access a variety of features without leaving your game or app. 
+Cards
+Cards show you features and activities related 
+to your games and apps that are available depending on what you're doing at that moment. Select a card to learn more, or jump to the next card.
+Controls
+Select Home  to return to your home screen, 
+and Power  to turn off your PS5 console. 
+Perform other basic functions here, too.
+Get quick access to the functions and settings 
+you use most during gameplay.
+10Let's play
+Play a game from a disc
+Insert the disc. 
+Game data will start copying, and you'll get a notification when the game is ready to play.Select the game from your games home.
+Eject the disc
+Press the  (eject) button to eject the disc.Front view
+ (eject) buttonPlay a digital game
+You can play a game that you downloaded from PlayStation Store 
+.
+You'll get a notification when the game is downloaded and ready to play.Select the game from your games home.
+To purchase and download games, you'll need to connect your 
+console to the internet and sign in to your account.
+11
+ENUse your controller
+Charge your controller
+With your PS5 console turned on or in rest mode, use a USB 
+cable to connect your controller to the console. When your console is in rest mode, the light bar on your controller slowly blinks orange. After charging is complete, the light bar turns off.
+To charge your controller while your console is in rest mode, go to 
+Settings  > System > Power Saving > Features Available in Rest 
+Mode > Supply Power to USB Ports, and select an option other than Off.
+Mute your microphone
+Each time you press the mute button, your mic switches 
+between muted (button lit) and unmuted (button off).
+Press and hold the mute button to mute your mic and to 
+turn off sound output from the speakers on your controller and TV. Press the mute button again to return to the original state.
+Mute button
+MicrophonesLit :  Mic is muted
+Off :  Mic is unmuted
+Blinking  :  Mic and sound 
+output are mutedUse multiple controllers
+You can use up to 4 controllers at once. Press the  (PS) 
+button to assign numbers to your controllers. The player indicator lights turn on accordingly. Numbers are assigned in order from 1, and you can determine your controller's number by the number of lights that turn on.
+Light bar
+Player indicator
+ (PS) button
+• You'll need to pair your controller when you use it for the first time 
+(page 5).
+• When you play a PS4 game, your controller's light bar glows blue, red, green, or pink based on the order that the controller is connected. This is separate from the player indicator.
+Turn on your PS5 console with a controller
+Press the  (PS) button on a controller that has finished 
+pairing to turn on your PS5 console.
+12Shutting down
+ Caution
+Disconnect the AC power cord from the electrical outlet only when 
+the power indicator is off. If you disconnect it while the power indicator is on solidly or blinking, data might be lost or become corrupted, and you might damage your console.
+Put your console in rest mode
+In rest mode, your console stays on, but at a lower power 
+consumption. You can do things like charge your controller, automatically update your system software, and keep your game or app suspended in rest mode.
+For some features, you'll need to enable their settings to use them. 
+Go to Settings  > System > Power Saving > Features Available in 
+Rest Mode.
+Select Power  from the control center, and then select 
+Enter Rest Mode. The power indicator blinks white, and then 
+turns orange. To exit rest mode, press the  (PS) button.
+Turn off your console completely
+Select Power  from the control center, and then select 
+Turn Off PS5. The power indicator blinks white, and then the console turns off.Power indicator
+White Console is on.
+Orange Console is in rest mode.
+Off Console is off.
+13
+ENFurther information
+Safety Guide
+Learn how to use your PS5 console safely with the supplied 
+Safety Guide. This printed manual also contains product warranty terms and information about specifications. Be sure to read it before using your console.
+User's Guide
+Find out about everything your PS5 console can do. Learn how to configure settings and how to use each function.From your PS5 console's home screen, go to Settings 
+ >  
+User's Guide, Health & Safety, and Other Information > User's Guide.
+Customer Support Website
+Find online support information such as step by step troubleshooting and frequently asked questions by visiting playstation.com/help.
+"", "PlayStation", " ", "PS5" and "PS4" are registered trademarks or trademarks of 
+Sony Interactive Entertainment Inc.
+"SONY" and " " are registered trademarks or trademarks of Sony Corporation.
+The terms HDMI and HDMI High-Definition Multimedia Interface, and the HDMI Logo are trademarks or registered trademarks of HDMI Licensing Administrator, Inc. in the United States and other countries.
+Wi-Fi® is a registered trademark of Wi-Fi Alliance®.Design and specifications are subject to change without notice.Information about system functionality and images published in this document may vary 
+from those for your console, depending on the system software version in use. Also, the illustrations and screen images used in this guide may vary from the actual product.
+141 Placez la console la face arrière vers le haut, puis 
+retirez le bouchon du trou de vis.
+2 Fixez le bouchon du trou de vis à la base du socle.
+3 Retirez la vis de la base du socle.
+3 2
+4 Fixez le socle, puis ajustez la fixation avec une vis. Servez-vous d'une pièce de monnaie ou d'un objet de forme similaire pour serrer la vis.Base du 
+soclePremiers pas
+1 Fixez le socle.
+Fixez toujours le socle à la console, qu'elle soit en position 
+verticale ou horizontale.Placez la console sur une surface plane lorsque vous fixez le socle.
+Vous devrez reconfigurer le socle en fonction de 
+la position de la console. Faites pivoter la partie supérieure et la partie inférieure du socle dans des directions opposées. Continuez à tourner jusqu'à ce que vous entendiez un « clic ».
+Pour la position verticale
+Avec le socle fixé
+CrochetAssurez-vous que le crochet est à la 
+position illustrée ci-dessous avant de fixer le socle sur la console.
+15Premiers pas 
+FR
+2 Connectez le câble HDMI et le cordon 
+d'alimentation.
+Utilisez les câbles inclus.
+Préparez toutes les connexions avant de brancher le cordon d'alimentation dans une prise électrique.
+Port HDMI OUT Port HDMI IN
+Câble HDMI™
+Vers une prise de 
+courant
+Prise AC IN Cordon d'alimentationVue arrièrePour la position horizontale
+Avec le socle fixéAssurez-vous que le crochet est à la 
+position illustrée ci-dessous avant de fixer le socle sur la console.
+Crochet
+1 Placez la console la face arrière vers le haut. Alignez 
+le socle avec la zone marquée sur la console, puis enfoncez fermement le socle.
+16Premiers pas 
+3 Connectez le câble réseau (LAN).
+Pour établir une connexion filaire à Internet, utilisez un 
+câble réseau (LAN) (non inclus).Si vous souhaitez utiliser une connexion sans fil (Wi-Fi®), ne connectez pas un câble réseau (LAN) et passez à la prochaine étape.
+4 Allumez votre téléviseur et réglez l'entrée 
+sur HDMI.Vue arrière
+Port LAN5 Allumez votre console PlayStation®5 en appuyant sur la touche 
+ (alimentation).
+L'indicateur d'alimentation clignote en bleu, puis passe au 
+blanc.
+Si vous laissez la console inactive pendant 60 secondes après 
+l'avoir allumée, la fonctionnalité d'énonciation de texte s'activera. 
+Vous pouvez écouter la lecture à haute voix du texte affiché à l'écran et d'autres renseignements importants pour vous aider à accomplir ce que vous voulez faire.Vue avant
+Indicateur 
+d'alimentation
+Touche  
+(alimentation)
+17Premiers pas 
+FR
+6 Connectez votre manette de jeu sans fil 
+à votre console à l'aide d'un câble USB, puis appuyez sur la touche 
+ (PS).
+Pour associer votre manette, connectez-la au port USB 
+de votre console à l'aide d'un câble USB. Lorsque vous appuyez sur la touche 
+ (PS), la manette s'allume.
+ Port USB Type-A Port USB
+Touche  (PS)Câble USBVue avant7 Personnalisez votre console.
+Vous avez presque terminé! Suivez les instructions à l'écran pour
+• Configurer votre console
+Sélectionnez votre langue, configurez vos paramètres de connexion à Internet et gérez vos paramètres de gestion de l'alimentation.
+Sélectionnez Expérience optimisée sous Options 
+d'alimentation pour le mode repos pour recharger votre manette en mode repos ou pour permettre à vos fichiers de mise à jour d'effectuer l'installation automatique (page 24).
+• Configurer votre compte
+Créez un nouveau compte ou connectez-vous avec un compte existant tel qu'un compte que vous avez déjà créé sur une console PlayStation®4. Consultez aussi la section « Utilisateurs de PS4 » (page 18).
+• Télécharger votre contenuTéléchargez vos achats de jeux PS5™ et d'applications. Si vous avez une console PS4™, vous pouvez transférer les données dans votre console PS5.
+Votre configuration sera terminée lorsque vous verrez apparaître Bienvenue sur la PlayStation 5 sur votre écran.
+Est-ce qu'un enfant utilisera votre console PS5? Consultez aussi la section « Contrôle parental » (page 18).
+• Les options de configuration indiquées sont taillées sur mesure pour vos 
+besoins, sur la base de renseignements tels que votre environnement réseau et le compte avec lequel vous avez ouvert la session.
+• Vous pouvez revenir en arrière et modifier n'importe quel paramètre en sélectionnant Paramètres 
+ sur l'écran d'accueil.
+18Contrôle parental
+Vous pouvez gérer les paramètres pour les enfants qui 
+utiliseront votre console PS5. Le contrôle parental vous permet de définir des restrictions sur les jeux auxquels les enfants peuvent jouer, quand et combien de temps ils peuvent jouer, avec qui ils communiquent et plus encore.
+Chaque adulte (
+) et chaque enfant ( ) disposera de son 
+propre compte. Lorsque vous créez un compte pour un 
+enfant, il est automatiquement lié à votre compte, créant ainsi une famille. Vous pouvez définir un contrôle parental uniquement pour les enfants de votre famille.
+Vous pouvez utiliser un compte existant, comme celui que vous avez 
+créé sur une console PS4, pour votre console PS5. Vos paramètres pour la famille et le contrôle parental seront transférés sur votre console PS5.Utilisateurs de PS4
+Jouer à des jeux PS4 sur votre console PS5
+Vous pouvez jouer à certains jeux compatibles avec une PS4 
+sur votre console PS5, sur disque ou au format numérique avec une mise à jour du logiciel système.
+Transférer les données d'une console 
+PS4 vers votre console PS5
+Connectez votre console PS4 et votre 
+console PS5 au même réseau pour transférer des données comme des données de sauvegarde de jeux, des informations d'un utilisateur et du contenu téléchargé.Si vous utilisiez une clé USB comme source de stockage étendu pour votre console PS4, vous pouvez continuer à l'utiliser simplement en la connectant à votre console PS5.
+Utiliser le même compte que vous avez créé 
+sur une console PS4
+Inutile de créer un nouveau compte 
+pour votre console PS5. Ouvrez simplement une session avec votre compte actuel, et votre historique de jeu, vos trophées, votre profil et tout échange réalisé avec des amis seront transférés vers votre console PS5.
+
+19Contrôle parental
+FR
+Créez un compte pour enfant
+Vous pouvez créer un compte pour enfant et configurer un 
+contrôle parental par la même occasion.Appuyez sur la touche 
+ (PS) pour ouvrir le centre de 
+contrôle. Sélectionnez votre avatar, puis sélectionnez Changer 
+d'utilisateur. Dans l'écran de sélection de l'utilisateur, sélectionnez Ajouter un utilisateur pour créer un compte.
+Passez en revue et modifiez vos paramètres de 
+contrôle parental
+Nous vous recommandons de vérifier les paramètres de 
+contrôle parental sur une base régulière. Vous pouvez les passer en revue ou les mettre à jour en sélectionnant Paramètres 
+ > Famille et contrôle parental sur l'écran 
+d'accueil.
+Icônes de classification des jeux
+Chaque jeu possède son icône de classification qui vous permet de déterminer s'il est approprié pour l'âge de l'enfant.
+Âge 
+approximatif de l'utilisateur6 10 13 17
+Étiquettes de classification de jeuPour en savoir plus sur les fonctionnalités et la configuration du 
+contrôle parental, consultez le guide de l'utilisateur (page 25).
+20Présentation de l'écran
+Écran d'accueil
+Sur l'écran d'accueil, vous pouvez accéder à deux types de contenu : jeux et multimédia.
+Dans l'écran d'accueil de vos jeux, vous trouverez vos jeux, la boutique PlayStation™Store et d'autres applications reliées à des jeux. Dans l'écran d'accueil de votre contenu multimédia, vous trouverez de la musique, des vidéos, ainsi que d'autres applications qui ne sont pas liées à des jeux.
+Changer d'écran d'accueil
+Basculez entre l'écran d'accueil des jeux et l'écran d'accueil multimédia.
+Changez vos paramètres et modifiez votre profil.
+Portail
+Apprenez-en plus sur le jeu ou l'application que vous avez sélectionné, et trouvez des informations connexes.
+• Sur la console PS5, la touche  confirme les éléments sélectionnés.
+• Pour revenir à l'écran d'accueil pendant l'exécution de votre jeu ou de votre 
+application, sélectionnez Accueil  dans le centre de contrôle ou maintenez enfonçée 
+la touche  (PS) sur votre manette.
+21Présentation de l'écran 
+FR
+Centre de contrôle
+Appuyez sur la touche  (PS) pour ouvrir le centre de contrôle. 
+Vous pouvez accéder à différentes fonctionnalités sans quitter votre jeu ou votre application. 
+Cartes
+Les cartes vous montrent les fonctionnalités 
+et les activités associées à vos jeux et vos applications qui sont disponibles en fonction de ce que vous êtes en train de faire. Sélectionnez une carte pour en savoir plus ou passez à la carte suivante.
+Commandes
+Sélectionnez Accueil  pour revenir à l'écran 
+d'accueil et Alimentation  pour éteindre 
+votre console PS5. Vous pouvez également y sélectionner d'autres fonctionnalités de base.
+Obtenez un accès rapide aux fonctions et aux 
+paramètres que vous utilisez le plus pendant votre temps de jeu.
+22Jouer
+Jouer à un jeu sur disque
+Insérez le disque. 
+La copie des données du jeu commence. Vous recevez une notification lorsque le jeu est prêt.Sélectionnez le jeu sur l'écran d'accueil de vos jeux.
+Éjecter le disque
+Appuyez sur la touche  (éjecter) pour éjecter le disque.Vue avant
+Touche  
+(éjecter)Jouer à un jeu numérique
+Vous pouvez jouer à un jeu téléchargé dans la boutique PlayStation Store 
+.
+Vous recevez une notification lorsque le téléchargement est terminé et que le jeu est prêt.Sélectionnez le jeu sur l'écran d'accueil de vos jeux.
+Pour acheter et télécharger des jeux, vous devez connecter votre 
+console à Internet et ouvrir une session avec votre compte.
+23
+FRUtiliser votre manette
+Recharger votre manette
+Utilisez un câble USB pour connecter votre manette à la 
+console PS5 alors que celle-ci est allumée ou en mode repos. Lorsque votre console est en mode repos, la barre lumineuse sur votre manette clignote lentement en orange. Lorsque la recharge est terminée, la barre lumineuse s'éteint.
+Pour recharger votre manette alors que votre console est en mode 
+repos, allez à Paramètres  > Système > Gestion de l'alimentation > 
+Fonctionnalités disponibles en mode repos > Fournir l'alimentation aux ports USB, puis sélectionnez une option autre que Désactivé.
+Mettre votre microphone en sourdine
+Chaque fois que vous appuyez sur la touche sourdine, votre 
+micro bas cule entre sourdine (touche allumée) et réactivé 
+(touche éteinte).
+Appuyez sur la touche sourdine et maintenez-la enfoncée 
+pour couper le micro et désactiver la sortie audio des haut-parleurs de votre manette et de votre téléviseur. Appuyez à nouveau sur la touche sourdine pour revenir à l'état d'origine.
+Touche sourdine
+MicrophonesAllumée  :  Micro en sour dine
+Éteinte  :  Micro r éactivé
+Clignotante  : Micro e t sortie audio sont 
+en sourdineUtiliser plusieurs manettes
+Vous pouvez utiliser jusqu'à 4 manettes à la fois. Appuyez sur la touche 
+ (PS) pour attribuer des numéros à vos manettes. 
+L'indicateur de joueur s'allume en conséquence. Les numéros sont attribués dans l'ordre à partir du numéro 1. Le nombre de DEL allumées sur la manette indique le numéro de celle-ci.
+Barre lumineuse
+Indicateur de joueur
+Touche  (PS)
+• Vous devez associer votre manette lorsque vous l'utilisez pour la 
+première fois (page 17).
+• Lorsque vous jouez à un jeu PS4, la barre lumineuse de votre manette s'allume en bleu, en rouge, en vert ou en rose, selon l'ordre de connexion de la manette. Il s'agit d'une indication distincte de l'indicateur de joueur.
+Allumer votre console PS5 avec une manette
+Appuyez sur la touche  (PS) sur une manette associée à la 
+console pour allumer votre console PS5.
+24Éteindre la console
+ Attention
+Débranchez le cordon d'alimentation de la prise de courant 
+seulement lorsque l'indicateur d'alimentation est éteint. Si vous le débranchez lorsque l'indicateur d'alimentation est allumé ou qu'il clignote, vous risquez de perdre ou de corrompre des données et vous pourriez endommager votre console.
+Mettre votre console en mode repos
+Lorsqu'elle est en mode repos, votre console demeure 
+allumée, mais elle consomme moins d'énergie. Le mode repos vous permet de recharger votre manette, de mettre automatiquement à jour votre logiciel système et de laisser votre jeu ou votre application en suspens.
+Vous devez activer les paramètres de certaines fonctionnalités pour 
+pouvoir les utiliser. Allez à Paramètres  > Système > Gestion de 
+l'alimentation > Fonctionnalités disponibles en mode repos.
+Sélectionnez Alimentation  dans le centre de contrôle, 
+puis sélectionnez Passer en mode repos. L'indicateur 
+d'alimentation clignote en blanc, puis passe au orange. Pour quitter le mode repos, appuyez sur la touche 
+ (PS).
+Éteindre complètement votre console
+Sélectionnez Alimentation  dans le centre de contrôle, puis 
+sélectionnez Éteindre la PS5. L'indicateur d'alimentation clignote en blanc, puis la console s'éteint.Indicateur d'alimentation
+Blanc La console est allumée.
+Orange La console est en mode repos.
+Désactivé La console est éteinte.
+25
+FRAutres informations
+Guide de sécurité
+Découvrez comment utiliser votre console PS5 de manière 
+sécuritaire dans le guide de sécurité fourni. Ce manuel imprimé contient également les conditions de garantie du produit et des informations sur les spécifications. Assurez-vous de le lire avant d'utiliser votre console.
+Guide de l'utilisateur
+Découvrez tout ce que vous pouvez faire avec votre console PS5. Apprenez à configurer les paramètres et à utiliser chaque fonction.Sur l'écran d'accueil de votre console PS5, allez à Paramètres 
+ > Guide de l'utilisateur, Informations 
+importantes relatives à la santé et à la sécurité et autres informations > Guide de l'utilisateur.
+Site web de l'assistance clientèle
+Trouvez de l'assistance en ligne, notamment des procédures de dépannage détaillées et des foires aux questions, en visitant le site playstation.com/help.
+«   », « PlayStation », «   », « PS5 » et « PS4 » sont des marques déposées ou des 
+marques commerciales de Sony Interactive Entertainment Inc.
+« SONY » et «   » sont des marques déposées ou des marques commerciales de Sony 
+Corporation.
+Les termes HDMI et HDMI High-Definition Multimedia Interface, de même que le logo 
+HDMI sont des marques commerciales ou des marques déposées de HDMI Licensing Administrator, Inc. aux États-Unis et dans d'autres pays.
+Wi-Fi® est une marque déposée de Wi-Fi Alliance®.La conception et les spécifications sont sujettes à des modifications sans préavis.Selon la version du logiciel système utilisée, les informations relatives aux fonctionnalités 
+du système et les images publiées dans le présent document peuvent être différentes de celles de votre console. Par ailleurs, les illustrations et reproductions d'écran utilisées dans ce guide peuvent présenter des différences par rapport au produit réel.
+261 Coloca la consola con la parte posterior hacia arriba y, 
+a continuación, quita la tapa del agujero del tornillo.
+2 Fija la tapa del agujero del tornillo a la parte inferior de la base.
+3 Quita el tornillo de la parte inferior de la base.
+3 2
+4 Fija la base y sujétala de forma segura con un tornillo. Usa una moneda o un objeto parecido para ajustar el tornillo.Parte 
+inferior de la baseComencemos
+1 Fija la base.
+Siempre fija la base a la consola, ya sea que esté en 
+posición vertical u horizontal.Coloca la consola en una superficie plana al fijar la base.
+Deberás reconfigurar la base para la posición de tu 
+consola. Gira la parte superior e inferior de la base en direcciones opuestas. Continúa con la rotación hasta escuchar un "clic".
+Para la posición vertical
+Con la base fija
+GanchoAsegúrate de que el gancho se 
+encuentre en la posición que aparece a continuación antes de fijar la base a la consola.
+27Comencemos 
+ES
+2 Conecta el cable HDMI y el cable de 
+alimentación ca.
+Usa los cables incluidos.
+Realiza todas las conexiones antes de enchufar el cable de alimentación ca a la toma de corriente eléctrica.
+Puerto HDMI OUT Puerto HDMI IN
+Cable HDMI™
+A la toma de corriente 
+eléctrica
+Conector AC INCable de alimentación caVista posteriorPara la posición horizontal
+Con la base fijaAsegúrate de que el gancho se encuentre 
+en la posición que aparece a continuación antes de fijar la base a la consola.
+Gancho
+1 Coloca la consola con la parte posterior hacia arriba. 
+Alinea la base con el área marcada en la consola, e inserta la base presionando firmemente.
+28Comencemos 
+3 Conecta el cable de red LAN.
+Para conectarte a Internet por cable, usa un cable de red 
+LAN (se vende por separado).Si piensas usar Wi-Fi®, no conectes un cable de red LAN y avanza al paso siguiente.
+4 Enciende el TV y configura la entrada  
+en HDMI.Vista posterior
+Puerto LAN5 Enciende la consola PlayStation®5 pulsando el botón 
+ (encendido).
+El indicador de encendido parpadeará en azul y, a 
+continuación, se iluminará en blanco.
+Si dejas la consola inactiva durante 60 segundos luego de 
+encenderla, la función de texto hablado se activará. Podrás 
+escuchar el texto en pantalla y otra información importante en voz alta para recibir ayuda con el uso de la consola.Vista frontal
+Indicador de 
+encendido
+Botón  
+(encendido)
+29Comencemos 
+ES
+6 Conecta el control inalámbrico a la 
+consola usando un cable USB y, a continuación, pulsa el botón 
+ (PS).
+Para emparejar el control, conéctalo con un cable USB 
+al puerto USB de la consola. Cuando pulses el botón 
+ (PS), el control se encenderá.
+ Puerto USB Type-A Puerto USB
+Botón  (PS)Cable USBVista frontal7 Personaliza la consola.
+¡Casi está listo! Sigue las instrucciones en pantalla para hacer lo siguiente
+• Configurar la consola
+Selecciona el idioma, configura los ajustes de la conexión a Internet y administra tu configuración de ahorro de energía.
+Selecciona Experiencia optimizada en Opciones de energía 
+para el modo de reposo para cargar el control durante el modo de reposo o activar que los archivos de actualización se instalen automáticamente (página 36).
+• Configurar la cuenta
+Crea una cuenta nueva o inicia sesión con una cuenta existente, por ejemplo, una que hayas creado en una consola PlayStation®4. Consulta también "Para usuarios de PS4" (página 30).
+• Descargar tu contenidoDescarga las aplicaciones de contenido multimedia y los juegos comprados de PS5™. Si tienes una consola PS4™, puedes transferir los datos a la consola PS5.
+Sabrás que la configuración está completa cuando Te damos la bienvenida a PlayStation 5 aparezca en la pantalla.
+¿Un menor usará la consola PS5? Consulta también 
+"Control parental" (página 30).
+• Las opciones de configuración que ves están personalizadas 
+según tus necesidades a partir de información como tu entorno de red y la cuenta con la que has iniciado sesión.
+• Puedes volver y cambiar tu configuración seleccionando Configuración 
+ desde la pantalla de inicio.
+30Control parental
+Puedes administrar la configuración de los menores que 
+usan la consola PS5. El control parental te permite establecer restricciones sobre los juegos que los menores pueden jugar, cuándo y cuánto tiempo pueden jugar, con quién se pueden comunicar y más.
+Cada adulto (
+) y menor ( ) necesita su propia cuenta 
+por separado. Cuando creas una cuenta para un menor, se 
+vincula automáticamente a tu cuenta y se crea una familia. Puedes establecer el control parental únicamente para los menores de tu familia.
+Puedes usar una cuenta existente, como la que creaste en una 
+consola PS4, para la consola PS5. Tu configuración de familia y control parental se trasladará a la consola PS5.Para usuarios de PS4
+Juega a juegos de PS4 en la consola PS5
+Puedes jugar a juegos de PS4 seleccionados compatibles, ya 
+sea en formato físico o digital, en tu consola PS5 realizando una actualización del software del sistema.
+Transfiere datos desde una consola PS4 
+a una consola PS5
+Conecta las consolas PS4 y PS5 
+a la misma red para transferir información como datos guardados de juego, información de usuario y contenido descargado.Si tienes una unidad USB que usas como almacenamiento ampliado para la consola PS4, puedes continuar usándola simplemente conectándola a la consola PS5.
+Usa la misma cuenta que  
+creaste en una consola PS4
+No hace falta que crees una 
+cuenta nueva para la consola PS5. Simplemente inicia sesión con tu cuenta existente para que tu historial de juegos, trofeos, perfil e intercambios con tus amigos se transfieran a la consola PS5.
+
+31Control parental
+ES
+Cómo crear una cuenta para un menor
+Puedes crear una cuenta de menor y configurar el control 
+parental a la vez.Pulsa el botón 
+ (PS) para abrir el centro de control. 
+Selecciona tu avatar y, a continuación, selecciona Cambiar usuario. Desde la pantalla de selección de usuario, selecciona Agregar usuario para crear una cuenta.
+Revisa y cambia tu configuración del control parental
+Te recomendamos que revises regularmente el control parental. Puedes revisarlo o actualizarlo seleccionando Configuración 
+ > Familia y control parental desde la 
+pantalla de inicio.
+Íconos de clasificación de juegos
+Cada juego incluye un ícono de clasificación que te ayudará a establecer si es apropiado para la edad del menor.
+Edad 
+aproximada del usuario6 10 13 17
+Etiquetas de clasificación de juegos
+Puedes obtener más información sobre la configuración del control parental y sus funciones en la Guía del usuario (página 37).
+32Qué hay en la pantalla
+Pantalla de inicio
+Desde la pantalla de inicio, puedes acceder a dos tipos de contenido: juegos o contenido multimedia.
+En el inicio de juegos, encontrarás tus juegos, PlayStation™Store y otras aplicaciones vinculadas a juegos. En la pantalla de inicio del contenido multimedia, encontrarás música, videos y otras aplicaciones no vinculadas a videojuegos.
+Cambia las pantallas de inicio
+Cambia entre juegos y contenido multimedia.
+Cambia tu configuración y edita tu perfil.
+Centro
+Obtén más información sobre el juego o la aplicación que seleccionaste y busca información relacionada.
+• En la consola PS5, el botón  confirma los elementos seleccionados.
+• Para volver a la pantalla de inicio mientras se ejecuta un juego o aplicación, selecciona 
+Inicio  desde el centro de control o mantén pulsado el botón  (PS) en el control.
+33Qué hay en la pantalla
+ES
+Centro de control
+Pulsa el botón  (PS) para abrir el centro de control. 
+Puedes acceder a una variedad de funciones sin salir de tu juego o aplicación. 
+Cartas
+Las cartas te muestran funciones y actividades 
+vinculadas a tus juegos y aplicaciones disponibles según lo que estés haciendo en ese momento. Selecciona una carta para obtener más información o ve a la próxima.
+Controles
+Selecciona Inicio  para volver a la pantalla de 
+inicio y Encendido  para apagar la consola 
+PS5. Puedes realizar otras funciones básicas aquí también.
+Accede rápidamente a las funciones y la 
+configuración que más usas mientras juegas.
+34Empecemos a jugar
+Juega a un juego desde un disco
+Inserta el disco. 
+Los datos del juego comenzarán a copiarse y recibirás una notificación cuando el juego esté listo para jugar.Selecciona el juego desde el inicio de juego.
+Expulsa el disco
+Pulsa el botón  (expulsar) para expulsar el disco.Vista frontal
+Botón  (expulsar)Juega a un juego digital
+Puedes jugar a un juego que descargaste desde PlayStation Store 
+.
+Recibirás una notificación cuando el juego se haya descargado y esté listo para jugar.Selecciona el juego desde el inicio de juego.
+Para comprar y descargar juegos, necesitarás conectar la consola a 
+Internet e iniciar sesión con tu cuenta.
+35
+ESUsa el control
+Carga el control
+Cuando la consola PS5 está encendida o en modo de 
+reposo, usa un cable USB para conectar el control a la consola. Cuando la consola está en modo de reposo, la barra luminosa del control parpadea lentamente en naranja. Una vez que se complete la carga, la barra luminosa se apagará.
+Para cargar el control mientras la consola está en modo de reposo, 
+ve a Configuración  > Sistema > Ahorro de energía > Funciones 
+disponibles en modo de reposo > Suministrar energía a los puertos USB y selecciona una opción que no sea Desactivado.
+Silencia el micrófono
+Cada vez que pulsas el botón silenciador, el micrófono 
+alterna entre silenciado (botón iluminado) y activo (botón apagado). 
+Mantén pulsado el botón silenciador para silenciar el 
+micrófono y desactivar la salida de sonido de los altavoces del control y el TV. Pulsa el botón silenciador otra vez para volver al estado original.
+Botón silenciador
+MicrófonosIluminado  :  El micróf ono está silenciado
+Apagado  :  El micróf ono está activo
+Parpadeo  : El micróf ono y la salida de 
+sonido están silenciadasUsa varios controles
+Puedes usar hasta 4 controles a la vez. Pulsa el botón  (PS) 
+para asignar números a los controles. Las luces de indicador de jugador se encenderán según corresponda. Los números se asignarán de manera ordenada a partir del 1. Puedes establecer el número del control a partir de la cantidad de luces encendidas.
+Barra luminosa
+Indicador de jugador
+Botón  (PS)
+• Necesitarás emparejar el control cuando lo uses por primera vez 
+(página 29).
+• Cuando juegues a un juego de PS4, la barra luminosa del control brillará en azul, rojo, verde o rosa según el orden en que el control esté conectado. Las luces funcionan de forma diferente al indicador de jugador.
+Enciende la consola PS5 con un control
+Pulsa el botón  (PS) en un control que haya finalizado el 
+emparejamiento para encender la consola PS5.
+36Apaga la consola
+ Advertencia
+Desconecta el cable de alimentación ca de la toma de corriente 
+eléctrica solo cuando el indicador de encendido esté apagado. Si lo desconectas mientras el indicador de encendido está encendido o parpadea, pueden perderse o dañarse datos y es posible que dañes la consola.
+Pon la consola en modo de reposo
+En el modo de reposo, la consola permanece encendida, 
+pero consume menos energía. Puedes cargar el control, actualizar automáticamente tu software de la consola y mantener tus aplicaciones o juegos suspendidos en el modo de reposo.
+Para usar algunas funciones, primero necesitarás activarlas. Ve 
+a Configuración  > Sistema > Ahorro de energía > Funciones 
+disponibles en modo de reposo.
+Selecciona Encendido  desde el centro de control y, 
+a continuación, selecciona Entrar en modo de reposo. 
+El indicador de encendido parpadeará en blanco y, a continuación, se iluminará en naranja. Para salir del modo de reposo, pulsa el botón 
+ (PS).
+Apaga completamente la consola
+Selecciona Encendido  desde el centro de control y, 
+a continuación, selecciona Apagar PS5. El indicador de encendido parpadeará en blanco y, a continuación, la consola se apagará.Indicador de encendido
+Blanco La consola está encendida.
+Naranja La consola está en modo de 
+reposo.
+Apagado La consola está apagada.
+37
+ESMás información
+Guía de seguridad
+Obtén más información sobre cómo usar la consola PS5 de 
+forma segura con la Guía de seguridad suministrada. Este manual impreso además contiene términos de garantía del producto e información sobre las especificaciones. Asegúrate de leerla antes de usar la consola.
+Guía del usuario
+Descubre todo lo que puede hacer la consola PS5. Obtén más información sobre cómo configurar los ajustes y cómo usar cada función.Desde la pantalla de inicio de la consola PS5, ve a Configuración 
+ > Guía del usuario, salud y seguridad y otra 
+información > Guía del usuario.
+Sitio web del servicio técnico
+Encuentra información de ayuda online, como guías de solución de problemas paso a paso y preguntas frecuentes en playstation.com/help.
+"", "PlayStation", " ", "PS5" y "PS4" son marcas comerciales registradas o marcas 
+comerciales de Sony Interactive Entertainment Inc.
+"SONY" y " " son marcas comerciales registradas o marcas comerciales de Sony 
+Corporation.
+Los términos HDMI y HDMI High-Definition Multimedia Interface, junto con el logotipo 
+de HDMI son marcas comerciales registradas o marcas comerciales de HDMI Licensing Administrator, Inc. en Estados Unidos y otros países.
+Wi-Fi® es una marca comercial registrada de Wi-Fi Alliance®.El diseño y las especificaciones están sujetos a modificaciones sin previo aviso.La información sobre la funcionalidad de la consola y las imágenes publicadas en este 
+documento pueden variar respecto a lo que aparece en la consola en función de la versión del software de la consola que uses. A su vez, las ilustraciones y las imágenes de pantalla usadas en esta guía pueden variar respecto al producto real.
+
+
+© 2020 Sony Interactive Entertainment Inc.
+Printed in China / Imprimé en Chine / Impreso en China 5-020-762- 11(3)

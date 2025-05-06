@@ -1,0 +1,5 @@
+valid,1.5
+brokenline
+badvalue,notanumber
+missingcomma 2.5
+extra,columns,here

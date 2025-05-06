@@ -1,0 +1,505 @@
+When Inheritance is a Good Thing
+William Jackson·Follow
+12 min read·Mar 16, 2025
+123 8
+Yes, inheritance can be a valuable tool! It can also be a costly hurdle. Let’s
+talk about it.
+Open in app
+Search Write
+3/29/25, 5:20 PM When Inheritance is a Good Thing. Yes, inheritance can be a valuable… | by William Jackson | Mar, 2025 | Medium
+https://medium.com/@william746a/when-inheritance-is-a-good-thing-2d29a596a00f 1/21
+Photo by Kelly Sikkema on Unsplash
+Recently, I read an article by Aleena that elaborated on some of the
+problems with using inheritance in programming:
+What’s the Problem with Inheritance in Programming
+Should a Dog extend from Animal?
+levelup.gitconnected.com
+It’s a great article, and I would recommend giving them a follow like I have.
+Most of the article cautions the reader to consider alternative methods for
+achieving their desired functionality that don’t rely on inheritance. I’m not
+going to elaborate on all of the potential issues discussed (although we’ll
+mention a few of them here), as I’d rather you just read the article then come
+back, but there are a lot of great points made.
+If you follow ThePrimeTime on YouTube, you also know that he usually
+cautions his listeners against the use of inheritance in their daily coding
+practices. For the most part, my experience interacting with code written for
+web apps (looking at you MVC) would incline me to agree with these
+programmers and others like them (see this StackExchange thread for all the
+inheritance hate, some even calling it a code smell in any case). Inheritance
+has gotten a deservedly bad rap because of developers’ proclivity to utilize it
+as a simple code reuse mechanism, and I must take this opportunity to say
+this to all the developers reading this article — please stay away from that
+practice.3/29/25, 5:20 PM When Inheritance is a Good Thing. Yes, inheritance can be a valuable… | by William Jackson | Mar, 2025 | Medium
+https://medium.com/@william746a/when-inheritance-is-a-good-thing-2d29a596a00f 2/21
+I can’t blame you for having this idea initially, though, as even the Oracle
+Java SE docs have the potential to lead you astray:
+One of the primary purposes of inheritance is code reuse: When you want to create
+a new class and there is already a class that includes some of the code that you
+want, you can derive your new class from the existing class. In doing this, you can
+reuse the fields and methods of the existing class without having to write (and
+debug) them yourself.
+I will state this outright: inheritance is an extremely poor way to just reuse
+code. Its entire design semantics center around the concept of an is-a
+relationship between the superclass and subclass, a key aspect of its design
+which plain code reuse completely ignores and destroys. This is where MVC
+frameworks and other libraries have enforced bad practice by utilizing
+convenience classes designed to be extended by client applications simply
+for code reuse, making it very easy to assume that this “feature” of their
+framework correlates to good ways to engineer code. What eventually
+happens when the programmer embraces this idea is instead a maintenance
+nightmare reminiscent of the spaghetti monster, where classes are coupled
+together for no good reason and one change breaks a million unit tests.
+Now, I’m going to start by using an example from the article referenced
+above, and likely a common one online, but please know that I’m not trying
+to prove anyone wrong about inheritance. The point of that article wasn’t to
+not use inheritance, it was to use it judiciously. I’m merely going to attempt
+to illustrate what judicious use is. The example is, given the following pseudo
+implementation of a list:3/29/25, 5:20 PM When Inheritance is a Good Thing. Yes, inheritance can be a valuable… | by William Jackson | Mar, 2025 | Medium
+https://medium.com/@william746a/when-inheritance-is-a-good-thing-2d29a596a00f 3/21
+class MyList<T> {
+  void add(T item) { .. }
+  void addAll(T... items) {
+    for (T each : items)
+      add(each);
+  }
+}
+Suppose you want to update it to keep tabs on the number of items that are
+added, some sort of statistic. You might think that plain inheritance is a good
+way to do that. You would be wrong. This is what that might look like:
+class MyListWithCounter<T> extends MyList<T> {
+        int timesAdded = 0;
+        @Override
+        void add(T item) {
+            timesAdded++;
+            super.add(item);
+        }
+        @Override
+        void addAll(T... items) {
+            timesAdded += items.length;
+            super.addAll(items);
+        }
+    }
+If you run this code like such:
+public static void main(final String[] args) {
+    var list = new MyListWithCounter<Integer>();3/29/25, 5:20 PM When Inheritance is a Good Thing. Yes, inheritance can be a valuable… | by William Jackson | Mar, 2025 | Medium
+https://medium.com/@william746a/when-inheritance-is-a-good-thing-2d29a596a00f 4/21
+    list.addAll(1, 2, 3, 4);
+    System.out.format("Times added: %d\n", list.getTimesAdded());
+}
+Then timesAdded comes out to 8 instead of 4, like we’d expect. Why is that?
+Because the superclass’s addAll calls its add method which is overridden by
+the subclass’s add. This means each element is counted twice. In order to
+avoid this, we’d have to have known about specific implementation details of
+the superclass, coupling the two together rigidly. To many opponents of
+inheritance, this is the case in point, but I say not so fast. First, I’m going to
+help their case further by showing how composition can fix our little
+problem:
+public static void main(final String[] args) {
+    var list = new MyListV2ImplWithCounter<Integer>();
+    list.addAll(1, 2, 3, 4);
+    System.out.format("Times added: %d\n", list.getTimesAdded());
+}
+interface MyListV2<T> {
+    void add(T t);
+    void addAll(T... items);
+}
+static class MyListV2Impl<T> implements MyListV2<T> {
+    public void add(T item) {
+        // add
+    }
+    public void addAll(T... items) {
+        for (T each : items)
+            add(each);
+    }
+}
+static class MyListV2ImplWithCounter<T> implements MyListV2<T> {
+    MyListV2<T> list = new MyListV2Impl<>();
+    int timesAdded = 0;3/29/25, 5:20 PM When Inheritance is a Good Thing. Yes, inheritance can be a valuable… | by William Jackson | Mar, 2025 | Medium
+https://medium.com/@william746a/when-inheritance-is-a-good-thing-2d29a596a00f 5/21
+    @Override
+    public void add(T item) {
+        timesAdded++;
+        list.add(item);
+    }
+    @Override
+    public void addAll(T... items) {
+        timesAdded += items.length;
+        list.addAll(items);
+    }
+}
+We define a common interface then a basic implementation and a wrapper
+class that composes the implementation and adds the counting functionality.
+This gives us the correct result, and the superclass’s addAll behavior hasn’t
+changed a bit. Composition broke the coupling. Granted, we’re still using
+inheritance to implement the interface, but it’s not the egregious usage in
+the first example. Basically, what we’ve done here is start to implement the
+decorator design pattern, but to flesh it out we’ll need to do something like
+the following:
+interface MyListV3<T> {
+    void add(T t);
+    void addAll(T... items);
+}
+class MyListV3Impl<T> implements MyListV3<T> {
+    public void add(T item) {
+        // add
+    }
+    public void addAll(T... items) {
+        for (T each : items)
+            add(each);
+    }
+}
+// This exists just to compose the concrete list implementation3/29/25, 5:20 PM When Inheritance is a Good Thing. Yes, inheritance can be a valuable… | by William Jackson | Mar, 2025 | Medium
+https://medium.com/@william746a/when-inheritance-is-a-good-thing-2d29a596a00f 6/21
+// and call its methods below the covers.  It acts as a delegator 
+// that allows the composed class's functionality to be decorated.
+abstract class MyListDecorator<T> implements MyListV3<T> {
+    MyListV3<T> list;
+    MyListDecorator(MyListV3<T> list) {
+        this.list = list;
+    }
+    @Override
+    public void add(T item) {
+        list.add(item);
+    }
+    @Override
+    public void addAll(T... items) {
+        list.addAll(items);
+    }
+}
+class CounterDecorator<T> extends MyListDecorator<T> {
+    private Integer timesAdded = 0;
+    CounterDecorator(MyListV3<T> list) {
+        super(list);
+    }
+    public Integer getTimesAdded() {
+        return timesAdded;
+    }
+    @Override
+    public void add(T item) {
+        timesAdded++;
+        super.add(item);
+    }
+    @Override
+    public void addAll(T... items) {
+        timesAdded += items.length;
+        super.addAll(items);
+    }
+}
+class LoggingDecorator<T> extends MyListDecorator<T> {
+    private static final Logger LOGGER = Logger.getLogger(LoggingDecorator.class
+    LoggingDecorator(MyListV3<T> list) {
+        super(list);
+    }3/29/25, 5:20 PM When Inheritance is a Good Thing. Yes, inheritance can be a valuable… | by William Jackson | Mar, 2025 | Medium
+https://medium.com/@william746a/when-inheritance-is-a-good-thing-2d29a596a00f 7/21
+    @Override
+    public void add(T item) {
+        LOGGER.info("Adding item " + item.toString());
+        super.add(item);
+    }
+    @Override
+    public void addAll(T... items) {
+        String itemsLog = items.stream().map(Objects::toString).collect(Collecto
+        LOGGER.info("Adding items " + itemsLog);
+        super.addAll(items);
+    }
+}
+Then use these classes like so:
+public static void main(final String[] args) {
+    var list = new CounterDecorator<Integer>(
+            new LoggingDecorator<>(
+                    new MyListV3Impl<>()));
+    list.addAll(1, 2, 3, 4);
+    System.out.format("Times added: %d\n", list.getTimesAdded());
+}
+That’s definitely more inheritance, but now we get counting statistics and
+logging and any other fancy functionality we want to augment our list
+implementation with. I know we took off kind of quickly here, and there are
+quite a few things to take note of. Let’s try to unpack them.
+First, I would point out that this makes my case pretty well — inheritance
+was indeed a valuable tool that enabled us to create a near perfect solution to
+our problem, one that didn’t require us to take sides between inheritance
+and composition like we’re in a pointless flame war but instead allowed us to3/29/25, 5:20 PM When Inheritance is a Good Thing. Yes, inheritance can be a valuable… | by William Jackson | Mar, 2025 | Medium
+https://medium.com/@william746a/when-inheritance-is-a-good-thing-2d29a596a00f 8/21
+combine the two in harmony. You’ll find that a lot of design patterns work
+this way and that there was never any need to vilify inheritance or deify
+composition or anything else of the sort.
+Second, the key to this whole design pattern is that our decorator classes
+implement the same interface that our composed, concrete list
+implementation does. This enables us to both compose the core
+functionality of the list implementation while extending the functionality of
+the classes that decorate it. Only a couple of design patterns work this way,
+but this is the only one I’m aware of that allows us to recursively compose an
+unlimited number of objects with complimentary, but differing,
+functionality.
+Third, even though we use inheritance to extend the decorators, because
+we’re able to add functionality at runtime through what I like to call
+“dynamic composition,” our functionality isn’t statically coupled together.
+This is one of the biggest shortfalls of using strictly inheritance to
+implement this type of solution. This is mentioned in the article above as
+well, and it’s clearly illustrated here. If we added a few more classes of
+decorators and then iterated through all the runtime combinations of
+dynamically composed objects, coding the equivalent in static inheritance
+hierarchies would result in an obscene number of classes, and it would be
+rigid, inflexible, and a maintenance nightmare.
+Now, that’s the decorator pattern, one of dozens of design patterns, so surely
+there are others that illustrate my point just as eloquently? Indeed. Let’s talk
+about the visitor pattern. This one is most commonly touted for its ability to
+add functionality to a class without having to touch the original class,
+provided it implements a method enabling you to do so. It’s also, however,3/29/25, 5:20 PM When Inheritance is a Good Thing. Yes, inheritance can be a valuable… | by William Jackson | Mar, 2025 | Medium
+https://medium.com/@william746a/when-inheritance-is-a-good-thing-2d29a596a00f 9/21
+one that achieves its functionality using only inheritance. No composition
+here.
+If you read my last article:
+Sum Types in Java?
+Ah, this old question! Not to fear, hopefully we can catch you up within the span of a few
+minutes, whether you’re…
+medium.com
+Then you remember that we looked a lot at switch statements/expressions
+and pattern matching. We looked at how sum types can be reasoned about
+with those mechanisms and how polymorphism lets us do essentially the
+same thing in more elegant fashion. Now, we’re going to look at the visitor
+pattern in light of each of these.
+Let’s go back to the following class hierarchy from the last article:
+interface PaymentMethod {
+  String type();
+}
+record Cash() implements PaymentMethod {
+  String type() {
+    return "Cash";
+  }
+}
+record PayPal(String email) implements PaymentMethod {
+  String type() {
+    return "PayPal (" + email + ")";
+  }
+}
+record CreditCard(String cardNumber) implements PaymentMethod {3/29/25, 5:20 PM When Inheritance is a Good Thing. Yes, inheritance can be a valuable… | by William Jackson | Mar, 2025 | Medium
+https://medium.com/@william746a/when-inheritance-is-a-good-thing-2d29a596a00f 10/21
+  String type() {
+    return "Credit (" + cardNumber + ")";
+  }
+}
+Then we used it like so:
+String describePaymentMethod(PaymentMethod method) {
+  return method.type();
+}
+This is all well and good as long as the methods defined in the common
+interface are all we need (the type method in this example). What if we need
+to use methods specific to one of the particular implementation types,
+methods that the interface doesn’t define? Or what if we need to do different
+processing steps or send data to different systems depending on the type?
+This, typically, is where the functional programming (FP) crowd will be
+shouting, “Pattern matching!” from the rooftops. And indeed, if we augment
+our types to add implementation-specific methods with different return
+types:
+record Cash() implements PaymentMethod {
+  String type() {
+    return "Cash";
+  }
+  DepositBatch depositBatch() {
+    // return deposit batch payment is in
+  }
+}
+record PayPal(String email) implements PaymentMethod {3/29/25, 5:20 PM When Inheritance is a Good Thing. Yes, inheritance can be a valuable… | by William Jackson | Mar, 2025 | Medium
+https://medium.com/@william746a/when-inheritance-is-a-good-thing-2d29a596a00f 11/21
+  String type() {
+    return "PayPal (" + email + ")";
+  }
+  PayPalAccount accountInfo() {
+    // return account info
+  }
+}
+record CreditCard(String cardNumber) implements PaymentMethod {
+  String type() {
+    return "Credit (" + cardNumber + ")";
+  }
+  Bank bankInfo() {
+    // return bank info
+  }
+}
+Then pattern matching will seem to really shine when you need to use those
+type-specific methods to process the payment:
+public void processPayment(PaymentMethod method) {
+    switch (method) {
+        case Cash cash -> {
+            logCashSale(cash.depositBatch());
+            finalizeCashSale(cash);
+        }
+        case PayPal payPal -> {
+            logPayPalSale(payPal.accountInfo());
+            finalizePayPalSale(payPal);
+        }
+        case CreditCard creditCard -> {
+            logCreditCardSale(creditCard.bankInfo());
+            finalizeCreditCardSale(creditCard);
+        }
+    }
+}3/29/25, 5:20 PM When Inheritance is a Good Thing. Yes, inheritance can be a valuable… | by William Jackson | Mar, 2025 | Medium
+https://medium.com/@william746a/when-inheritance-is-a-good-thing-2d29a596a00f 12/21
+Long time Java programmers might wonder where the default case and
+instanceof operators are. If we seal the interface, the compiler can ensure
+that all of the cases are covered in the switch, removing the need for a
+default case. Additionally, now that switches support pattern matching, they
+take care of all the instanceof checking and type casting under the hood.
+Looks kind of like a functional language now, huh? What it also looks like is
+that we’re able to process different implementations in different ways
+without having to concern ourselves with shoehorning functionality into a
+superclass like we would typically try to do with an inheritance-based
+solution. That doesn’t mean that inheritance can’t help us create something
+more elegant and flexible, however. This pattern matching solution could
+easily snowball into a maintenance bottleneck and make it harder to add or
+amend functionality when (not if) the time comes. The visitor pattern can
+save us. First, we’ll define an interface that our processing methods can
+implement:
+interface PaymentProcessor {
+    void doThings(Cash paymentMethod);
+    void doThings(PayPal paymentMethod);
+    void doThings(CreditCard paymentMethod);
+}
+Then, we’ll make sure our original PaymentMethod interface exposes a method
+that allows us to use PaymentProcessor:
+interface PaymentMethod {
+    String type();
+    void process(PaymentProcessor paymentProcessor);
+}3/29/25, 5:20 PM When Inheritance is a Good Thing. Yes, inheritance can be a valuable… | by William Jackson | Mar, 2025 | Medium
+https://medium.com/@william746a/when-inheritance-is-a-good-thing-2d29a596a00f 13/21
+We’re assuming the return types are void for brevity. Next, we implement
+the new method in the PaymentMethod subclasses like so:
+record Cash() implements PaymentMethod {
+    @Override
+    public String type() {
+        return "Cash";
+    }
+    @Override
+    public void process(PaymentProcessor paymentProcessor) {
+        paymentProcessor.doThings(this);
+    }
+}
+record PayPal(String email) implements PaymentMethod {
+    @Override
+    public String type() {
+        return "PayPal(" + email + ")";
+    }
+    @Override
+    public void process(PaymentProcessor paymentProcessor) {
+        paymentProcessor.doThings(this);
+    }
+}
+record CreditCard(String cardNumber) implements PaymentMethod {
+    @Override
+    public String type() {
+        return "CreditCard(" + cardNumber + ")";
+    }
+    @Override
+    public void process(PaymentProcessor paymentProcessor) {
+        paymentProcessor.doThings(this);
+    }
+}
+Now, you may be wondering what good it does for the implementation to
+only call paymentProcessor.doThings(this) and why the implementation is3/29/25, 5:20 PM When Inheritance is a Good Thing. Yes, inheritance can be a valuable… | by William Jackson | Mar, 2025 | Medium
+https://medium.com/@william746a/when-inheritance-is-a-good-thing-2d29a596a00f 14/21
+exactly the same for each payment method. We’ll get to that in a second.
+Lastly, we need PaymentProcessor implementations where our actual
+business logic will go:
+class LogPayment implements PaymentProcessor {
+    private static final Logger LOGGER = Logger.getLogger(LoggingPaymentProcesso
+    @Override
+    public void doThings(Cash paymentMethod) {
+        LOGGER.info("Processing Cash payment method.");
+    }
+    @Override
+    public void doThings(PayPal paymentMethod) {
+        LOGGER.info("Processing PayPal payment method with email: " + paymentMet
+    }
+    @Override
+    public void doThings(CreditCard paymentMethod) {
+        LOGGER.info("Processing CreditCard payment method with card number: " + 
+    }
+}
+class FinalizePayment implements PaymentProcessor {
+    @Override
+    public void doThings(Cash paymentMethod) {
+        // Cash things
+    }
+    @Override
+    public void doThings(PayPal paymentMethod) {
+        // PayPal things
+    }
+    @Override
+    public void doThings(CreditCard paymentMethod) {
+        // CreditCard things
+    }
+}3/29/25, 5:20 PM When Inheritance is a Good Thing. Yes, inheritance can be a valuable… | by William Jackson | Mar, 2025 | Medium
+https://medium.com/@william746a/when-inheritance-is-a-good-thing-2d29a596a00f 15/21
+Let’s return to our original consumer method — processPayment — and see
+how we can transform our pattern matching to something more elegant:
+public void processPayment(PaymentMethod method) {
+    method.process(new LogPayment());
+    method.process(new FinalizePayment());
+}
+Would you believe that those two lines achieve everything that the switch
+statement did? Obviously our solution required a few steps, but consuming
+our classes and dispatching the correct type-safe business logic is as simple
+as that. In the process, we gained the extensibility we need to add or amend
+functionality without breaking our entire workflow or ending up with a fifty-
+line-long case statement. PaymentMethod#process is what we call our visitor
+method, and PaymentProcessor is our visitor. You may be thinking that the
+process implementations with the single paymentProcessor.process(this) are
+the most boring parts of this whole pattern, and you’d be right. However,
+they’re also the most important parts because they determine exactly which
+instances of both the visitor method and the visitor class’s methods get
+dispatched at runtime. It essentially replaces the branching logic of the
+switch with built-in polymorphic method dispatch that branches our logic
+for us based on the concrete runtime types. We could decouple it even more
+by injecting the payment processors through the constructor of the class
+containing processPayment. There’s also a lot of flexibility here in regards to
+the visitor API. We could add new visitors that return different types
+depending on the stage of processing that the payment is in (such as a result
+type that allows us to process specific business validation errors), we could
+create a new aggregator class using the composite pattern that would allow
+us to interact with a collection of payment methods using the same API as a3/29/25, 5:20 PM When Inheritance is a Good Thing. Yes, inheritance can be a valuable… | by William Jackson | Mar, 2025 | Medium
+https://medium.com/@william746a/when-inheritance-is-a-good-thing-2d29a596a00f 16/21
+singular payment method (meaning our client code in processPayment would
+gain new capabilities without changing at all), or we could even create
+decorators from visitor implementations to make our client code even more
+expressive and powerful (adding circuit-breakers for fault tolerance or
+publishing events to a queue, to name just two of dozens of examples). The
+possibilities are endless, thanks in large part to the proper use of inheritance
+and polymorphism.
+FP fans like to tout their favorite language’s more declarative programming
+style over the typically more imperative approach of languages like Java, and
+I can appreciate that. However, of these two examples, doesn’t the glorified
+if-else of pattern matching cases look a lot more imperative than the visitor
+method calls? You decide for yourself. Now this doesn’t mean that I never
+feel the need to use pattern matching or appreciate its utility. I used it for a
+problem the other day, in fact. This also doesn’t mean that I have anything
+against FP as a paradigm. Even some of the most basic concepts of OOP
+borrow something from FP — objects and classes are actually just fancy ways
+to create closures around lexically-scoped variables, for example. They’re
+brothers, really.
+What it does mean is that there’s a use for every tool. When you’re practicing
+carpentry, you don’t become a hammer purist and use that tool in every
+situation, do you? Imagine if we tried to saw a board with it! Why do we think
+differently when we’re writing code? It’s so easy, almost trendy sometimes, to
+become a purist in some manner or another then try to shoehorn all the
+code we touch into whatever paradigm seems most honorable to us. I think
+I’ve shown clearly why inheritance is both a valuable tool and something that
+you shouldn’t get carried away with, but so is composition and pattern
+matching and plain old for loops. My advice is to embrace every tool and
+learn to use them appropriately to create well-engineered applications.3/29/25, 5:20 PM When Inheritance is a Good Thing. Yes, inheritance can be a valuable… | by William Jackson | Mar, 2025 | Medium
+https://medium.com/@william746a/when-inheritance-is-a-good-thing-2d29a596a00f 17/21
+Be well, programmers.
+Written by William Jackson
+18 Followers·19 Following
+Senior Java codesmith. Student of CS theory and all things programmi ng.Follow
+Responses (8)
+Ashley caceres Pagan
+Mikael Svens
+1 day ago
+Interesting and well written article 👏
+Reply
+Sergiy Yevtushenko
+17 hours agoOop Software Architecture Functional Programmi ng Design Patterns Java
+What are your thoughts?
+53/29/25, 5:20 PM When Inheritance is a Good Thing. Yes, inheritance can be a valuable… | by William Jackson | Mar, 2025 | Medium
+https://medium.com/@william746a/when-inheritance-is-a-good-thing-2d29a596a00f 18/21

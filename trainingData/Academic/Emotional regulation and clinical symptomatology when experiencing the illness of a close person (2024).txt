@@ -1,0 +1,87 @@
+conducted in accordance with the ethical principles outlined in the Declaration of Helsinki.
+Results: There were significant statistical differences between G1 and G2 on PTGI, in total scale [ F(10,253) ¼16.546,
+p¼.001], and also in subscales Relating to Others, Personal Strength, Spiritual Change and Appreciation of Life. Regarding
+education, there were significant statistical differences between groups in the total scale [ F(2.447) ¼30.018, p¼.013], and
+in the subscales Relating to Others and New Possibilities. Depending on age, significant statistical differences existed onPTGI, in total score [ F(6.111) ¼9.506, p¼.014], and in subscales New Possibilities, Personal Strength, Spiritual Change and
+Appreciation of Life. Regarding the subscale Cognitive Processing there were also significant statistical differences
+between G1 and G2 [ F(2.458) ¼28.899, p¼.018].
+Discussion and conclusions: These results indicate that significant statistical differences exist in the variables trauma,
+education and age in PTGI and in cognitive and emotional processing from disclosure. In light of this, we could verify,like other researches, that an active management of emotion and stress promotes PTGI [ 5]. Further studies with a larger
+and similar sample on both groups are recommended.
+CONTACT Catarina Teixeira cata15teixeira@hotmail.com
+References
+[1] Resende C, Sendas S, Maia A. Estudo das caracter /C19ısticas psicom /C19etricas do Posttraumatic Growth Inventory –PTGI –
+(Invent /C19ario de Crescimento P /C19os-Traum /C19atico) para a populac ¸ ~ao portuguesa; 2008.
+[2] Tedeschi RG, Calhoun LG. Posttraumatic growth: Conceptual foundations and empirical evidence. Psychological Inquiry,
+2004;15(1):1 –18. doi: 10.1207/s15327965pli1501_01
+[3] M €uller J, Beauducel A, Raschka J, et al. Kommunikationsverhalten nach politischer Haft in der DDR - Entwicklung eines
+Fragebogens zum Offenlegen der Traumaerfahrungen. Zeitschrift f €ur Politische Psychologie, Jg. 2001;8(4):413 –427.
+[4] Canavarro P, Moreira HTC, Pinto SMA, et al. Cancro da mama e desenvolvimento pessoal e relacional: Estudo das carac-
+ter/C19ısticas psicom /C19etricas do Invent /C19ario de Desenvolvimento P /C19os-Traum /C19atico (Posttraumatic Growth Inventory) numa
+amostra de mulheres da populac ¸ ~ao Portuguesa Revista Iberoamericana de Diagn /C19ostico , Evaluaci /C19on y Avaliac ¸ ~ao
+Psicol /C19ogica, 2009;28(2):105 –133.
+[5] Calhoun, LG, Tedeschi RG. Posttraumatic growth in clinical practice. New York, NY, US: Routledge/Taylor & Francis
+Group; 2013.
+DOI: 10.1080/07853890.2018.1562765
+Emotional regulation and clinical symptomatology when experiencing the 
+illness of a close person
+Nelson Reisa, Isabel  Fernandesa, Telma C. Almeidaa,b and Catarina Ramosa,b
+aIUEM – Instituto Universit /C19ario Egas Moniz, Monte da Caparica, Caparica, Portugal; bCiiEM – Centro de Investigac ¸ ~ao Interdisciplinar 
+Egas Moniz, IUEM – Instituto Universit /C19ario Egas Moniz, Caparica, Portugal
+Introduction: In human life, emotions have a central role the adaptive functioning and in healthy psychological develop-
+ment [ 1]. The emotional regulation difficulty is deeply related to the development of several psychological disorders,
+increasing the vulnerability of those who experience negative situations [ 2]. The main objective of the current study was
+to analyze the association between emotional regulation and clinical symptomatology in individuals who witnessed the
+illness of a close person.
+Materials and methods: The sample is composed by 318 Portuguese adults. Concerning the experience of witnessing
+the illness of a close person 141 (44.3%) participants responded positively. The majority of the participants were female
+(n¼266, 83.6%), with ages between 18 and 89 years old ( M¼29.69, SD¼13.229). The participants responded online to
+the consent term, the sociodemographic questionnaire, the Scale of the Difficulties of Emotional Regulation [ 2], the Brief
+Inventory of Symotoms [ 3], Posttraumatic Stress Disorder Ckecklist-5 [ 4]. The study was conducted in accordance with the
+ethical principles outlined in the Declaration of Helsinki.Results: The following groups were compared to find statistically significant differences (G1: participants who witnessed
+the illness of a close person, G2: participants who did not witness that event). There were not statistically significant dif-
+ferences betewen the groups in emotional regulation [ F(1, 316) ¼.061, p¼.806] and in clinical symptomatology and
+Posttraumatic Stress Disorder (PTSD) symptons [ F(1, 316) ¼.054, p¼.816]. Analysing the relation between emotional
+regulation, clinical symptomatology and PTSD symptoms, there were statistical significant correlations in all variables.Regarding the correlation between emotional regulation and PTSD symptoms, there were a significant and negative asso-
+ciation ( r¼.57 ; p<.001). Concerning the correlation between emotional regulation and all of the subscales in clinicalS194 ABSTRACTS
+symptomatology, there were significant and negative associations (e.g. r¼.41p<.001 in the somatization subscale).
+Finally, there were significant and positive associations bettwen PTSD symptoms and all of clinical symptomatology sub-
+scales (e.g. r¼.62, p<.001 in the somatization subscale).
+Discussion and conclusions: We verified that individuals with more difficulties of emotional resolution had more clinical
+symptoms and symptoms of PTSD, which is corroborated by the literature [2].
+CONTACT Nelson Reis nelson.reis96@gmail.com
+References
+[1] Nunes AMMS. Regulac ¸ ~ao Emocional, Experi ^encia, Express ~ao e Controlo da Raiva em Adolescentes. 2013;1 –64.
+[2] Coutinho J, Ribeiro E, Ferreirinha R, et al. Vers ~ao Portuguesa da escala de dificuldades de regulac ¸ ~ao emocional e sua
+relac ¸ ~ao com sintomas psicopatol /C19ogicos [Portuguese version of the emotional regulation difficulties scale and its relation
+with psychopathological symptoms]. Rev Psiquiatr Clin. 2010;37(4):145 –151. doi: 10.1590/S0101-60832010000400001
+[3] Canavarro MC. Invent /C19ario de Sintomas Psicopatologicos: BSI Uma revis ~ao cr /C19ıtica dos estudos realizados em Portugal.
+Avaliac ¸ ~ao Psicol /C19ogica. 1999;2:87 –109.
+[4] Blevins C, Weathers F, Davis M, et al. The posttraumatic stress disoder checklist for DSM-5 (PCL-5): Development and
+Initial Psychometric Evaluation. J Trauma Stress. 2015;28(1):489 –498. doi: 10.1002/jts.22059
+DOI: 10.1080/07853890.2018.1562766
+Languages of the unconscious: let the tattoo speak for itself (2nd phase)
+Let/C19ıcia Garcia Nabena, Maria do Ros/C19ario Diasa,b, Ana Ferreiraa, Ana Cristina Nevesa,
+Ana L/C19ucia Monteiroa and Bernardo Claroa
+aEgas Moniz, Cooperativa de Ensino Superior, CRL, Campus Universit /C19ario- Quinta da Granja- Monte de Caparica, 2829-511 Caparica, 
+Portugal; bCiiEM- Centro de Investigac ¸ ~ao Interdisciplinar Egas Moniz
+Introduction: The skin reflects each personal story through each line, wrinkle, beauty spot, scar, shape or color [ 1,2].
+Today, tattoos have become works of art and/or a body accessory, serving as anchors that help to solidify a sense of Self,
+by narrating an individual ’s conception of his or her identity [ 3]. The present exploratory and qualitative study aims at
+understanding the mental representation of the skin in tattooed individuals and the role that tattoos playas a vehicle for
+the projected identity of the Self.
+Materials and methods: The sample consisted of 387 individuals from both genders with visible/exposed tattoos, who
+were invited to produce two self-portraits, one before and one after they were tattooed. All participants answered a brief
+socio-demographic inquiry and provided a written answer on whether they had experienced any form of discrimination
+due to their tattooed body. We then proceeded to the content analysis of the 774 collected pictorial drawings, using agrid featuring analytical categories, purposely conceived for this study.
+Results: The results revealed that the self-portraits drawn before the subjects were tattooed showed less body investment
+than the self-portraits drawn after. However, the mental representation of the self-portraits drawn after the subjects were
+tattooed showed a fragmented idea of the body –only the body part that was tattooed was pictorially represented.
+Additionally, they were associated to a state of happiness (e.g. smile, movement/flexibility/freedom) and/or a personal val-
+orization.
+Discussion and conclusions: From the content analysis of the drawings, we can subjectively interpret that the Body and
+theSelf(seen as unit) seem to be caught in a “fatal trap ”[4] in the case of the tattoo individuals.
+CONTACT Maria do Ros /C19ario Dias mariadorosario.dias@gmail.com
+Acknowledgements
+The authors are grateful to the lecturer Let /C19ıcia Garcia within the scope of the course of the Psychology of Health Curricular
+Unitand to Ana Ferreira for the translation of the paper. No funding to declare.ANNALS OF MEDICINE S195

@@ -1,0 +1,954 @@
+Impact of a Blockchain-based Universal Basic Income
+Pilot: The case of Circles UBI currency *
+Longo, Alessandro
+alessandrolongo1@protonmail.com
+Criscione, Teodoro
+criscione_teodoro@phd.ceu.eduLinares, Julio
+jrlinares16@gmail.com
+Avanzo, Sowelu
+soweluelios.avanzo@unito.it
+April 4, 2025
+Abstract
+Circles UBI is a blockchain-based Community Currency System (CCS) that has
+been active in Berlin (Germany) since October 2021. The Circles Coop, which launched
+the project in 2021, was shut down in December 2023. In this paper, we show the results
+of a survey carried out between October and November 2023. The questionnaire was
+articulated in fifty-one questions divided into seven main sections: “Business Informa-
+tion”, “Economic Network”, “Use of Circles”, “Knowledge and Perception of Circles”,
+“Circles Events Participation”, “Socio-economic position” and “Satisfaction”. It was
+distributed via an online form, and when possible, combined with a semi-structured
+interview - via Zoom or in person. The respondents were twenty-five individuals in-
+volved in various ways in the Circles’ network. The main emerging narrative points
+out how their participation was deeply motivated by their identification with the val-
+ues and ideals (e.g., "basic income") of the Circles community. Among them, we se-
+lected 5 profiles that stood for their difference in type and degree of involvement. Fi-
+nally, we report some stories of economic linkages that suggest a positive externality
+in adopting a local community currency. To our knowledge, this is the first qualitative
+study of a universal basic income designed as a community currency and adopting
+blockchain technology. This pilot project was a remarkable experiment for its adopted
+advanced technological and social innovations. In fact, as far as we know, the integra-
+tion of "basic income" and "local currency" features has been experimented with only
+in two other cases (Marica, Brazil and Barcelona, Spain) and none of them adopted a
+decentralized ledger system. In this work, we try to outline strengths and weaknesses
+that emerged after about two years of activity. For this reason, future researchers and
+activists interested in this field will find valuable information.
+Keywords: basic income; community currency; blockchain; digital currency;
+1 Introduction
+Circles UBI is a blockchain-based Community Currency System (CCS) launched in Berlin,
+Germany in 2021, and designed to offer a Universal Basic Income independent of state
+control. Universal Basic Income is defined by The Basic Income Earth Network (BIEN) as
+a periodic cash payment delivered to all individuals unconditionally (Miller, 2020). Cir-
+cles UBI employs blockchain-based tokenization to provide an unconditional income to its
+participants in the form of a token named CRC.
+Blockchain technologies’ advancements allow for the creation of entire application sys-
+tems. In particular, Ethereum facilitates the decentralized execution of Turing-complete
+*Paper prepared for FRIBIS Conference Proceedings 2023
+1arXiv:2504.02714v1  [econ.GN]  3 Apr 2025
+smart contracts (Buterin, 2014). This development has significantly broadened the scope
+of blockchain applications, giving rise to a novel category of software systems known as
+Decentralized Applications (DApps) (Zhang & Jacobsen, 2018).
+Circles executes its scope through the Circles DApp, where participants receive their
+personal currency upon registration, allowing them to spend it as a claim to goods and
+services within the network. Trust connections between participants are established via
+a Web of Trust (WoT) protocol, ensuring fungibility among personal currencies (Buterin,
+2014; Lepinski, Micali, & Shelat, 2005).
+The current paper focuses on the first pilot project launched by Circles Coop (Circles
+Cooperative, Retrived on January 2024) in Berlin between 2021 and 2023, where a subsidy
+program for local businesses allowed them to convert Circles tokens into national currency
+(Euro), referred to in the text as “Subsidy Program”. This program tried to address the
+currency hoarding of businesses that could not spend it in the economic network. In fact, it
+aims to incentivize businesses to accept Circles tokens as a medium of payment, enhancing
+the network’s overall expansion.
+The primary objective of this study is to delve into the impact of the Berlin pilot on
+the lives of its participants. Our research is the qualitative counterpart to a prior quanti-
+tative study of the blockchain dataset underpinning Circles’ network (Avanzo, Criscione,
+Linares, & Schifanella, 2023) using network analysis methodologies. Furthermore, em-
+ploying a financial-diaries-inspired approach (Rutherford, Collins, Morduch, & Ruthven,
+2009), we conducted interviews with twenty-five participants in the Circles project to gar-
+ner a comprehensive understanding of their experiences. The detailed survey responses
+are presented in Section Results, with the complete set of questions provided in the Ap-
+pendix.
+Drawing from these findings and given the reduced sample size, we identified five
+profiles of individuals and businesses that can offer interesting insights into how Circles
+UBI affected the lives of its participants within the Berlin context. Some of these profiles
+are enriched with visualization of the transaction data recorded in the blockchain, which
+validates the value of the insights identified through the interviews.
+Finally, our perspective merges academic interest with a pragmatic and strategic ap-
+proach: we hope that our findings can help Circles and similar pioneering projects in their
+future steps.
+2 Methodology
+The Circles pilot is an open experiment and it does not adhere to institutional or aca-
+demic control, characterized by specific participation criteria and limitations on personal
+expenses, as observed in other studies on Universal Basic Income (Standing, 2021). Circles’
+network has loose admission and participation criteria and the number of active partici-
+pants has been stable for most of the entire project’s duration with two peaks in the sum-
+mer of 2021 and later in 2023 (see Figure 1). Hence, the experiment’s open nature requires
+2
+examination within a comparably open research framework. Circles adopts a paradigm
+at the nexus of innovative technologies and unorthodox monetary theories, making it a
+singular case of a UBI pilot. Thus, we have opted for a hybrid analysis to assess its impact,
+blending quantitative and qualitative methods.
+Our approach draws inspiration from existing scholarly work on Universal Basic In-
+come (UBI), adapting the financial diaries approach to align with the unique context of Cir-
+cles. Firstly, Circles’ conceptualization of Universal Basic Income departs from the norm.
+Contrary to conventional discussions that predominantly situate UBI within the purview
+of state-centric interventions (Torry, 2019), Circles posits UBI as a transformative instru-
+ment capable of liberating currency from the confines of state control, resonating with
+innovative experiments in the field, like the dual currency structure proposed by Horn-
+borg (Hornborg, 2017) and Recivita’s pioneering work (Circles, Retrived on January 2024)
+in Quatinga Velho, Brazil (Silva & de Almada Lima, 2019).
+This perspective doesn’t position UBI as a merely economic policy but as a multifaceted
+tool within a broader arsenal actively challenging prevailing power structures and colo-
+nial legacies (Adams & Abba, 2022). Within Circles project, UBI is framed as a catalyst for
+establishing a democratic money commons, thereby disrupting traditional power dynam-
+ics (Linares & Cabaña, 2022). Beyond a mere economic safety net, in this context, UBI repre-
+sents the autonomy to reject relationships characterized by domination (Widerquist, 2013).
+Circles theoretical frame must be kept in mind when making methodological choices and
+interpreting the manifold effects of Circles UBI on the lived experiences of its participants.
+Circles UBI shares affinities with a community currency system, similar to existing
+projects like Real Economy Currency (REC) in Barcelona (Belmonte, Puig, Roca, & Segura,
+2021) or Mumbuca in Brazil (Cernev & Proenca, 2016). Yet, none of these projects leverages
+blockchain and smart contracts to automate and decentralize the system. In this regard,
+Circles UBI offers a unique case of study.
+The financial diaries methodology underpins the qualitative part of our research. Daryl
+Collins, Stuart Rutherford, and more first developed financial diaries to provide an empir-
+ical method for comprehending the financial lives of low-income population segments,
+presenting the results in Rutherford et al. (2009) (Rutherford et al., 2009). The diaries track
+the cash flows and decision-making processes of individuals in a household over time. The
+money flows provide a tool to enhance our understanding of how people living in poverty
+deal with low and often unpredictable incomes. Financial diaries can complement existing
+multidimensional metrics as they provide a very granular and locally comprehensive look
+into specific groups of people, uncovering dynamics that might be hidden in nationwide
+statistics.
+In our research, we adopted a repurposed version of the financial diaries, drawing in-
+spiration from it for the interviews and the presentation of the results as personal profiles.
+Through this method, we want to illuminate the effective impact of the UBI offered by
+Circles on its recipients in Berlin. To achieve this, we contextualize the spending patterns
+in CRC -i.e., the Circles token - within the broader financial life of respondents, through a
+3
+survey analysis and semi-structured interviews.
+The survey is articulated in fifty-one questions divided into seven main sections: “Busi-
+ness Information” (for business owners), “Economic Network”, “Use of Circles”, “Knowl-
+edge and Perception of Circles” “Circles Events Participation”, “Socio-economic position”
+and “Satisfaction”. Between October and November 2023, the questionnaire was dis-
+tributed via an online form. When possible, the questionnaire was combined with a semi-
+structured interview - via Zoom or in person - where participants were invited to expand
+their answers to collect more data and impressions on their experiences and perceptions.
+Furthermore, the results are integrated with the analysis of payment data stored in the
+Circles blockchain system. The recent advancement of payment system digitization has
+enabled researchers to conduct thorough empirical studies that were previously impossi-
+ble. The quantitative empirical examinations of digital community currency systems could
+significantly bolster the resilience of local economies (Criscione, Guterman, Avanzo, &
+Linares, 2022). Blockchain’s abundance of data, often stored publicly and openly, makes it
+a valuable resource for research. The transparency and immutability of blockchain records,
+coupled with decentralized accessibility, offer researchers unique insights across various
+domains (Joseph, 2019). Such transparency can also be considered an issue for privacy and
+different actors in the blockchain space are working with privacy-enhancing technologies
+to tackle it (Dashyan, Kulkarni, Linares, & Srikanth, 2023). Since these network analytical
+tools have been proven to be valid for analyzing highly granular data pools of a local econ-
+omy, we employed some of those techniques to examine these data (Mattsson, Criscione,
+& Takes, 2023).
+3 Results
+This section is dedicated to the main presentation of the results of the survey and the
+challenges that unfolded during the interview process.
+3.1 Sample
+Our sample is composed of twenty-five individuals involved in various ways in the Cir-
+cles’ network. The biological sex distribution includes nine female, five male, and eleven
+non-reporting. The gender distribution within the sample revealed twelve female, eight
+male, and three gender non-conforming individuals, providing a nuanced understanding
+of the impact of UBI interventions across diverse gender identities.
+The national distribution of the interviewed sample mirrors the cosmopolitan nature
+of the city of Berlin. Italians constitute the largest national group, with six representatives,
+followed by Germans with five participants. The sample further encompasses the per-
+spectives of Polish and US nationals, each contributing two interviewees. The inclusion
+of individuals from Australia, Belarus, Brazil, Britain, Canada, the Netherlands, France,
+Mexico, Peru, and Spain, with one representative each, highlights the international rele-
+vance of UBI interventions and their potential impact on migrant communities. From a
+4
+demographic point of view, we interviewed seventeen individuals in their thirties, five in
+their twenties, and one in their forties. The youngest individual is 25 years old and the
+older is 41 years old.
+Within the Circles’ system, two different kinds of accounts exist: Individual accounts and
+Shared accounts . This distinction is reflected in the technical architecture and the monetary
+policy associated with it. Individual accounts are associated with a Safe Smart Contract (Wal-
+let, Retrived on January 2024) that holds their personal keys and is designed to be matched
+with a single, verified identity. These are the accounts that issue the monthly Universal
+Basic Income once the verification process is completed. Shared accounts are a fork of the
+original Safe contracts developed further to be used as collective wallets. They can be cre-
+ated by single participants and other participants can associate with them. These collective
+accounts don’t issue basic income. In the Berlin pilot, Shared accounts have been used by
+businesses to transact in CRC.
+This is the nature of the Individual /Business distinction in our research, which is re-
+flected in the questionnaire. Moreover, the sampled businesses in the Berlin pilot were
+involved in the Subsidy Program, the aforementioned incentive system designed to ex-
+pand the reach of the pilot. This element further distinguished the two possible kinds of
+accounts and the different experiences of the Circles network members. Thus, our ques-
+tionnaire proposed two parallel sets of questions if the person interviewed used an In-
+dividual account , aShared one, or both. We interviewed fourteen individuals and eleven
+businesses, of which nine were also active with an Individual account.
+3.2 Spending Patterns
+An initial insight from the questionnaire concerns the fluctuations in participants’ usage,
+both for businesses and individuals. Eighteen participants answered affirmatively, ex-
+plaining how and why their usage changed over time. Seven participants responded nega-
+tively as their usage remained constant and two participants did not answer. We discerned
+different patterns among the seventeen answers that reported changing behaviors. Six in-
+dividuals reported a relevant increase in their usage of Circles tokens over time. For these
+participants, the increase in usage is often attributed to the expansion of goods and ser-
+vices available in the Circles marketplace (see Figure 2). From its launch in 2021 until the
+Coop’s shutdown in late 2023, the Circles network in Berlin witnessed participation and,
+conversely, abandonment by various affiliated shops. This fluctuation signified variations
+in the available products. The constant variation of products available in CRC results in an
+enriched selection for participants, leading to increased token expenditure as the network
+expands.
+Additionally, the reported variations are reflective of a growing familiarity with the
+network, where participants transitioned from an initially sporadic usage to a more reg-
+ular and intentional utilization of their Circles tokens. This transition is highlighted by a
+growing understanding of the intricate nature of the network and the varied composition
+of this community. Conversely, an equivalent cohort of 10 respondents share experiences
+5
+of decreased or variable token usage over time. They point out the challenges listed below.
+•Technological and communication factors . Specifically, the slowness and unreliability of
+the transaction system often discouraged participants. Moreover, in the beginning,
+the Telegram channel was considered as a not-so-easy communication tool to check
+products’ availability and receive important notifications. The first technical issue
+was a systemic flaw impacting the network’s operation, which was slightly improved
+over time. The second communication issue was slowly solved by integrating the
+Telegram channel with an Online Marketplace.
+•Insufficient and/or irregular supply , such as the periodic unavailability of desired ser-
+vices in the marketplace.
+•Geographical factors , namely the physical distance from Berlin, had an impact on the
+usage of Circles tokens. Given that our sample comprises 20% Germans and 80%
+migrants, it seems plausible to assume that the majority of respondents may have
+spent longer or shorter periods outside of Berlin than their German peers, and this
+fact may have had an effect on usage and engagement with the system.
+•Subsidy program influence . Changes in spending habits were also related to the in-
+fluence of the subsidy program. As mentioned, participation (or the lack of) in the
+program affects spending patterns.
+•Demurrage policy (i.e., negative interest rate). Interview #25 brings up the changes
+introduced in June 2022, when the Circles’ token undertook a revaluation policy.
+The interviewer mentioned this as a factor in decreasing expenditure.
+3.3 Consumption Behaviour
+Among different goods, the category of “food and beverages” prominently dominates as
+the most sought-after one, as indicated by twenty-one out of twenty-five respondents.
+Health services, handmade products, bike repairs, and clothing were also prominent in
+participants’ preferences. By offering financial help to its participants, the Circles network
+may have influenced their purchasing habits. Questions #24 and #25 survey this issue. The
+former asks participants whether Circles allowed them to buy products that they would
+not have bought otherwise: twenty participants replied positively and only five negatively.
+The last question asked participants if they recognized a shift in their consumption habits
+following their Circles experience. Fourteen interviewed Circles participants expressed a
+perceived change in their consumption habits; while eleven did not experience any change.
+One noticeable initial change is that numerous participants observe Circles expanding
+the definition of what falls into the Marxian “realm of necessity” (Sayers, 2011) enabling
+spending on items like organic products, health services (such as acupuncture and mas-
+sages), pillows, and ceramics that might be deemed non-essential or too expensive oth-
+erwise. In this regard, we notice also how Circles fosters an idea of money that moves
+beyond the paradigm of scarcity (Angehr, 2019).
+6
+Secondly, this shift in consumption consists of a greater connection between partici-
+pants and local businesses, fostering a sense of community and ethical consumption. For
+instance, participants point out that Circles allows them to afford items they might not
+purchase otherwise with Euros. Answer #24 points out how the experience in Circles in-
+fluenced how to spend EUR for groceries and food. Generally, both interviewed who felt
+a change and those who did not (Interview #23) noticed how being part of such an alter-
+native economic network gave them new perspectives on issues such as “market, value,
+exchange, community in business” and the importance of having values-aligned economic
+interactions. Participants also expressed gratitude for the affordability of specific items
+through Circles, the ability to treat themselves more, and a conscious effort to strike a bal-
+ance between gains and expenditures. Furthermore, the described change in habits can
+help in incentivizing the consumption of products with lower carbon emissions, as de-
+scribed in previous research (Assini, 2022).
+The interviews confirm the different meanings that money can assume when designed
+differently (Linares & Cabaña, 2022). Within capitalism, money is entrapped in a specific
+configuration, centered on the reproduction of capital through the means of commodities,
+according to the famous Marx’s formula M-C-M (Marx, 1885), and the interests’ system
+which fuels economic growth and resource extraction. The price to pay is the soaring in-
+equality that affects capitalistic societies (Piketty & Saez, 2013) and the ecological destruc-
+tion of the planet (Hickel & Kallis, 2019). According to its founders, the Circles project
+aimed to reverse such process and to plan the becoming-common of money (Dodd, 2014;
+Greco, 2009; Slater & Jenkins, 2016), which can be simply described as a plural series of
+systems “that put money at the service of their own existence, and not the other way
+around” (Angelis, 2017). In terms of its scope and following the interviews’ results, the
+Circles pilot project stood out as a commendable initial effort of local re-configuration of
+the monetary relationships.
+A different and somehow discrepant aspect related to the design of Circles surfaced
+in response to both queries, specifically addressing the incentive system devised to en-
+courage participants to maximize their CRC spending. By incentive systems, interviewees
+refer to the reevaluation of Circles and the introduction of a policy of demurrage (i.e., neg-
+ative interest rate) that the Circles token has undertaken since the end of May 2022 (Coop,
+2022). Until that point, the Circles system issued daily 8 CRC per participant, an issuance
+rate based on a general poverty line as defined by the Circles Coop Hickel (Retrieved
+on January 2024). After the reform, the daily rate became 24 CRC per day (representing
+each hour of the day), for a total of 720 CRC per month. Additionally, a program of de-
+murrage was introduced in the system. “ Demurrage ” is a monetary policy for the built-in
+pre-programmed depreciation of the nominal value of a currency, similar to negative in-
+terest, and it has been studied in the context of Complementary Currencies (Godschalk,
+2012). The Cooperative decided to issue a 7% rate of demurrage that “acts like a parking
+fee on money, set against the constant issuance of UBI” (Coop, 2022). This change of pol-
+icy aimed to tackle possible hoarding of tokens and to direct a gradual redistribution of
+7
+all CRC in the system over time, to avoid pyramid-like schema accumulation, common in
+cryptocurrency systems (Mukherjee, Larkin, & Corbet, 2021).
+Interview #15 considered this mechanism as an interesting alternative to the necessity
+of accumulation typical of market economies. On the other hand, Interview #12 observed
+a subtle pressure to buy things they might not necessarily need, describing it as a way to
+make Circles more "convenient" for their shop. This observation aligns with occasional
+instances of over-consumption noticed in participants’ behavior; moreover, the same in-
+terview also highlighted how the perceived precarity of the Berlin pilot throughout 2023
+led to faster expenses. This issue contrasts studies relating UBI programs to lower pat-
+terns of consumption (Coote, 2021) but it has to be contextualized within Circles’ offering,
+which is focused on local and sustainable businesses, thus balancing possible dynamics of
+over-consumption.
+3.4 Knowledge and Perception
+This segment of the questionnaire investigated people’s knowledge and perception of the
+Circles initiative and what level of awareness and involvement emerged among its par-
+ticipants. The first question asked how individuals got to know Circles: sixteen indicated
+friends as the main source, five indicated colleagues, three social media, and one specified
+the MOOS community in Berlin (Moos, Retrived on January 2024). Generally, personal
+contacts were more functional than social media promotion.
+The following pair of questions asked participants what aspects of Circles ignited their
+interest at first and in what they were more interested at the time of the interviews. The
+questionnaire presented three main options, namely the community, UBI, or Blockchain
+integration. Participants could choose more than one and/or indicate their preferences.
+The first question’s results are the following: seventeen participants mentioned the UBI
+as the main motivation to join Circles, fifteen mentioned the community, and only seven
+mentioned blockchain. Moreover, a minority of interviewees pointed out how Circles’s
+values of equality and post-capitalism resonated with their sparking interest. After they
+participated in Circles, the community was mentioned twenty times as the most interesting
+aspect, succeeded by UBI with nineteen mentions and blockchain systems with only five.
+Other factors mentioned are again the anti-capitalistic values and the implementation of
+the Web of Trust protocol as an anti-sybil solution.
+The next question asked how participants perceived Circles. The results are the follow-
+ing: the project was mainly perceived as a Universal Basic Income with eighteen mentions,
+followed by fifteen mentions for “means of payment”, fourteen for “means of exchange”,
+eleven for a “political tool”, five for a “marketing tool”, two for an “investment / financial
+asset”, one for a “store of value/saving tool” and zero for a “fake coin”.
+We can notice the peculiar position of Circles. Despite being powered by blockchain
+technologies, Circles stands out as a unique case where the innovative technological infras-
+tructure did not play a prominent role in attracting the participants’ interests. According
+to our interviews, interest in blockchain diminished over the two years of the project, and
+8
+one participant expressed uncertainty about the utility of blockchain in Circles. This out-
+come underscores that the innovative potential of Circles lies in its community and the
+aspiration to forge an alternative economic circuit grounded in shared values. This obser-
+vation also highlights a fundamental aspect of blockchain technologies. Rather than being
+viewed solely as trustless systems, they should be regarded as confidence machines (Fil-
+ippi, Mannan, & Reijers, 2020). More specifically, the reliability of blockchain computing
+mechanisms is contingent on the presence of effective governance structures and a vig-
+ilant community that supports and upholds their functionality. This aligns with Robert
+Putnam’s concept of social capital (Häuberer, 2011), where the strength and resilience of a
+community depend on the bonds, trust, and shared values among its members. The suc-
+cess of projects like Circles depends not only on the technology they employ but also on
+the strength of the social bonds and networks they create.
+Diverse perceptions translated into different levels of involvement among participants.
+In response to the question about participating in Circles events, twenty-one individuals
+confirmed their involvement, while four indicated a negative response. Delving deeper
+into event attendance preferences, fourteen participants typically attended both the Mar-
+ket and the Assembly, seven exclusively engaged in the Market, and four chose not to
+disclose their preference.
+Further exploring the frequency of their event attendance, eight interviewees reported
+participating once per quarter, another eight attended once per month, five engaged ap-
+proximately once per year, and four respondents opted not to respond. Then, we asked
+what kind of activities participants got involved in during Circles’ events. The main ac-
+tivity mentioned is the “purchase of goods” with seventeen mentions, “looking for new
+friends” holds fourteen mentions, “participation at the assembly” is mentioned twelve
+times, “selling goods” is mentioned eleven times (as we interviewed eleven businesses)
+and finally, with ten mentions, we find the “increase your trust network / looking for new
+potential business partners” option.
+We must notice how our sample was composed of what may be defined as one of
+the “core groups” of the Pilot program in Berlin - composed mostly of many associated
+businesses and long-time participants. Consequently, the nature of their participation is
+biased by this role. However, it is arguable that the community aspect emerged as a central
+driver, emphasizing the importance of shared values in constructing a parallel economic
+circuit. Money is the product of a set of social relationships and to achieve a different
+reconfiguration of it, the role of the totality of social relationships (the community) is very
+important.
+However, the degree of participation and involvement was also fluctuating, showing
+how Circles allowed for different degrees of participation, as several participants only
+joined passively the community, adopting the role of “aleUBI recipients”. This position
+within the Circles system will be analyzed in Section Casual Participants.
+Some of the qualitative observations are corroborated by network analysis. The Jaccard
+similarity index (JSI) indicates how much similar two sets are. It is calculated by the ratio
+9
+between their intersection set over their union set. We considered the similarity between
+senders and receivers of Circles for each interviewee and their trusted connections.
+In Figure 4, it is possible to observe that JSI is higher for businesses. This may indi-
+cate that businesses used to create trust connections mostly with their clients. In Figure
+5, it is possible to observe that JSI is higher for non-businesses. This may indicate that
+non-business participants used to create trust connections mostly with businesses offering
+goods and services in Circles.
+Concluding, this reflects the heterogeneity in perception observed in the survey. For
+some of the businesses, Circles was perceived also as a "marketing tool". While for some
+of the participants, Circles was mostly perceived as a "means of payment" and "means of
+exchange".
+3.5 Social Composition
+Another relevant insight that emerged from the survey section is the social composition
+of the sample. The first question of this section asked what was the interviewees’ main
+economic activity in terms of the amount of time in the past six months. This approach
+reflects the fundamental idea that time is the ultimate, fundamental scarce resource and
+it will ultimately determine the path of human activities (Juster & Stafford, 1990). In our
+questionnaire, eighteen answers indicated wage labor as their main activity in terms of
+time, two participants answered with a mix of self-employment activities and housework,
+three interviewees are unemployed and currently preparing for work, and one is a student.
+The following question asked what are the main current or past occupations of the
+questionnaire’s participants. We found a diverse array of working specializations: four
+entrepreneurs/founders, four in marketing and communication, three professionals in the
+health sector, two IT specialists, one administrative and financial professional, one de-
+signer, and one bike mechanic and seller. We also have four interviewees who have dif-
+ferent professions such as "writer and facilitator", "freelance artist and social worker", "fer-
+mentation expert, herbalist and educator", and “artist, researcher, cook, activist, producer,
+facilitator, organizer”. With the exception of the one bike mechanic, all the participants are
+professionals in the tertiary sector.
+Among business owners, seven do not have waged employees, including two who
+employ freelancers and one who employs interns, two companies count two employees
+each, two a dozen, one has four employees and one has one. These rank all the interviewed
+companies as micro and small companies, according to the indication of the European
+Commission (SME, Retrived on January 2024).
+The final question of this section asked the participants their gross income per year. The
+answers are shown in Figure 3. Despite the limited sample, these data give us a glimpse
+into the income diversity of Circles’ network. In Germany, the yearly poverty threshold
+in 2022 amounted to €15,000 for a “single person household” (Bundesamt, 2023), and the
+median annual income in 2023, in the Land of Berlin, is €43.179 (Stepstone, 2023). Thus,
+our sample has one individual below the national poverty threshold and two individuals
+10
+floating around it. However, six participants fall below the median annual income. Yet,
+no strong correlation between income and Circles participation is observed. Nonetheless,
+the majority of the participants expressed precarious working conditions and unstable in-
+come flows. This often underestimated aspect comes to the forefront through the granular
+methodology of financial diaries. In the aforementioned study led by Collins, for instance,
+one prevalent theme consistently identified among participants was the irregular and un-
+predictable nature of their income. This underscores the critical importance of delving into
+financial intricacies at a granular level, revealing the challenges individuals grapple with
+in managing their finances due to the inherent variability in their income streams.
+3.6 Challenges
+During the process of interviews, we encountered a series of challenges. Firstly, partici-
+pants’ availability and participation posed a first challenge to complete the greater number
+of interviews in the available time. Secondly, an additional challenge revolved around the
+imperative task of establishing trust within the limited time frame of the interview. This
+challenge stems from the inherent sensitivity of discussing one’s relationship with money
+and the delicate aspect of financial habits and expenditure patterns. Another challenge
+is simply the possibility of the participants to recall wrongly the terms of their participa-
+tion within Circles, especially when talking about transactions and expenses. Finally, as
+already mentioned, the unforeseen stop of the operations of the Circles Coop maintain-
+ing the project’s infrastructure and subsidizing the affiliated enterprises, influenced the
+interviews’ outcome.
+4 Profiles
+In the course of our qualitative analysis, we identified different categories of participants in
+Circles, both individuals and businesses. These stories can help illuminate the multifaceted
+impact that the project had.
+4.1 Unemployment
+Maria (Interview #24, name is fictional) is a 28-year-old Italian woman coming from a
+middle-class family living in the North-East of Italy area. She has been living in Berlin in-
+termittently since 2017, juggling work and pursuing her Master’s degree. Her introduction
+to Circles came in the spring of 2022 through a friend’s recommendation, and she was im-
+mediately drawn to the project’s concept—a UBI issued through an innovative technology
+she had heard about. Being well-educated and politically engaged, Maria quickly grasped
+the potential of Circles and became an active member of the Berlin community, frequently
+participating in the monthly market and sharing her ideas in the subsequent Assembly.
+During her first year in Circles, Maria worked part-time as a Marketing Manager in
+a German fitness company, earning a middle-class salary of 1500 €per month, falling in
+11
+the lower segment of the middle class in the country (OECD, 2021). However, she felt
+her purchasing power diminishing compared to her life in Italy, especially as the Russian-
+Ukrainian War triggered inflation in Germany. Maria found that participating in Circles
+helped her adjust her needs to the rising prices, enabling access to products that were
+too expensive otherwise. This gradual shift in consumption habits led her away from big
+supermarkets toward a local and more sustainable economic circuit.
+A significant shift occurred in Maria’s Circles experience when she resigned from her
+corporate job in May 2023 and started receiving Bürgergeld (formerly known as Arbeit-
+slosengeld II), Germany’s unemployment payment for adult job seekers ( €502 per month
+plus rent expenses). From this point, Maria began focusing her expenses in CRC primarily
+on groceries, buying handmade products less frequently than before. During this period of
+greater need, Maria felt that the Circles UBI program played a crucial role in maintaining
+her quality of life. We quote here a relevant abstract from her interview: "I feel like being
+part of something that is taking care of me. Someone that’s not my parents or myself, but a third
+actor that’s helping and taking care. Ensure me that also in difficult times I had something good to
+eat and I could afford quality products." .
+Simultaneously, her unemployment condition provided more free time, prompting
+Maria to give back to the Circles community. She began assisting a local shop involved
+in Circles, MIRA Upcycling Design, with communication and social media management
+tasks—an ongoing collaboration at the time of writing (December 2023). Initially, Maria
+and the business agreed to compensate for this work in CRC. Both sides were interested in
+making this arrangement happen in Circles’ alternative economic circuit. However, a mix-
+ture of bureaucratic problems and the unexpected closure of Circles stalled the deal, and
+Maria’s work remained voluntary. Lastly, Maria highlighted how her experience in Cir-
+cles sparked a greater interest in UBI programs, showcasing that they do not incentivize
+laziness but rather active engagement.
+The plot of the participant’s transactions (see Figure 6) corroborates the significant im-
+pact that Circles had during Maria’s period of unemployment, commencing in May ’23
+and reaching its peak in September ’23. Compared to the previous period, Maria started
+to rely more on Circles UBI system and her outgoing transactions increased.
+There are three main takeaways from this case. Firstly, it serves as evidence of how
+Circles UBI effectively supported an unemployed person in maintaining a good quality
+of life during economically unstable times. This is demonstrated by the shift in expenses
+after Maria became unemployed, with a focus on essential needs, particularly groceries.
+Secondly, in Maria’s case, Circles successfully transformed the standard relationship with
+major food distributors in a big city, encouraging a shift toward a local and sustainable
+economy. Finally, Maria’s active engagement in the Circles community underscores the
+fundamental, community-centered nature of Circles; the subject got involved in the com-
+munity as soon as her life conditions changed, giving Circles more relevance in her life
+and providing her the necessary free time to participate.
+12
+4.2 Casual Participants
+Among the interviewed participants, we identified an emerging category of Circles’ par-
+ticipants: what we may call “casual participants”. These three profiles - interviews #8, #20,
+and #21 - are characterized by a steady expenditure of CRC but little or no involvement
+in the community. Namely, two of them never participated in the Assembly and one did
+not join any events. Moreover, none of these profiles ever thought to contribute actively
+to the community. Yet, they expressed appreciation and gratitude for their participation
+in the program and noted how Circles unlocked access to a new category of products for
+them. Also, they all expressed interest and appreciation for the community aspect of Cir-
+cles. Therefore, these participants are aware of the important role the community plays in
+the Circles network. Yet, they behave as pure "recipients" of an income program without
+concern for the fate of the community that allowed this program to exist.
+This fact can be read as evidence of the difficulty of changing the imagery related to
+this type of economic initiative. When we decouple UBI from the state, certain assump-
+tions regarding participation in an economic system are challenged. It was not easy for all
+Circles participants to grasp how a contribution to the community was a contribution to
+UBI’s system. This underscores the extent to which the conceptualization of UBI is closely
+intertwined with the notion of the State.
+The difficulty for some Circles participants to fully comprehend the connection be-
+tween their contribution to the community and the functioning of the UBI system is in-
+dicative of the entrenched imagery surrounding such socio-economic assistance models.
+The existence of a subsidy program for active stores inadvertently downplayed the per-
+ceived importance of individual contributions, fostering a mindset that leaned towards
+the notion that as long as the subsidy program and the cooperative persisted, Circles UBI
+would endure. From this perspective, the Circles Coop and its monetary decisions inter-
+pret a similar role to what the State usually does in such contexts.
+Moreover, the temporal dimension played a significant role. Understanding the nu-
+ances of a Circles system required time, and such participants with a lower engagement
+level joined the platform between six months and a year before the fall of 2023. The un-
+expected cessation of the project in Berlin further curtailed opportunities for participants
+to become actively involved in the community. This temporal aspect, combined with the
+abrupt shutdown, added layers of uncertainties to their engagement and obstacles to the
+comprehension of the Circles UBI experiment. Various factors contributed to the existence
+of this category of participants within Circles. It is crucial to acknowledge that, as the
+Berlin local pilot evolved, these "casual participants" played a significant role.
+A concluding observation: this category underscores how, in a community-based ex-
+periment like the one being examined, the unconditionality feature of UBI must be inter-
+preted in a slightly nuanced manner. More precisely, unconditionality shouldn’t be linked
+to a lack of participation, a distinction that might exist in a State-based version of a UBI
+experiment.
+13
+4.3 Business Case 1
+M. is a 39-year-old Brazilian-Italian woman living in Berlin. She has a social business
+named MIRA Design which designs and produces upcycled fashion items. Founded in
+2006 in Curitiba, Brazil, in 2013 MIRA expanded into Berlin with the line ‘Proudly made in
+Bangladesh’. MIRA made in Bangladesh outsources textile clipping waste from Bangladesh’s
+ready-made garment industry (RMG) and brings them into the hands of the skilled craftswomen
+in rural Rangpur, Northern Bangladesh. Then, MIRA sells products in Berlin and world-
+wide through the website.
+MIRA’s relationship with Circles began through another local Berlin shop, Eddie’s
+Shop. Their story is an example of how a synergy between businesses has been partially
+translated from the real economy to the Circles currency system. In the early months of
+2022, Eddie’s Shop, a member of the network since 2021, started selling MIRA’s products
+in the store, accepting commissions for them. Eddie’s was purchasing MIRA’s products in
+EUR and selling them both in EUR and CRC with success. For this reason, in the fall of
+‘22, MIRA decided to actively join the Circles community and sell its products directly in
+the marketplace. Around the same months, Eddie’s Shop exited the subsidy program and
+withdrew from the Circles network due to the unsustainability of the business, preventing
+this synergy from surviving within Circles. The idea of establishing network economic
+linkages between Circles members has been a key strategic point of the Circles coopera-
+tive. While the linkage between Eddie’s and MIRA stopped prematurely, we will examine
+a more successful linkage below.
+MIRA’s story in Circles is also insightful for another reason: it was an active part of the
+Circles network for three months before subsequently joining the subsidy program, unlike
+most of the businesses involved, who have been in the subsidy program since the begin-
+ning of their Circles experience. In the short term, the business sustained itself without
+resorting to the option of exchanging the CRC token for EUR, through the subsidy. The
+impact of the subsidy can be traced to the spike of incoming transactions around April ‘23
+in Figure 7, when the subsidy program started. Also, the subsequent peak in outgoing
+transactions can be explained by the fact that MIRA’s owner started to exchange their CRC
+in EUR.
+Finally, MIRA also revealed the hurdles that it encountered during its period in the net-
+work while attempting to integrate Circles into its business model. A key issue revealed
+in the interview was the limited availability of desired services for fostering MIRA’s busi-
+ness activities within the Circles marketplace, hindering the business’s ability to effectively
+utilize the currency. MIRA was looking for marketing, graphic design, and video editing
+skills on the market and it struggled to find them. This mismatch resulted in the accumu-
+lation of CRC without sufficient opportunities for expenditure (see Figure 8. ) (with the
+notable exception of Maria’s case presented above). Moreover, MIRA’s owner found little
+or no time to explore the network’s offer, even more so considering the abrupt project’s
+shutdown.
+14
+4.4 Business Case 2
+Local Community Currency Systems can provide a fertile ground for the flourishing of
+small and medium enterprises (Cepel, Kljucnikov, Kozubikova, & Krajcik, 2019). This
+positive impact has been evident in experiments conducted in various locations, such as
+Argentina (Colacelli & Blackburn, 2005) and Canada (Wheatley, Younie, Alajlan, & McFar-
+lane, 2011). As revealed in the interview, the narrative of QueerQuaff serves as a com-
+pelling example within Circles, illustrating the tangible benefits of such systems for the
+growth of local businesses.
+QueerQuaff is a feminist and queer beer project based in Berlin, which activities got
+bootstrapped thanks to their participation in Circles. It presents itself as “A space for
+learning,experimentation, solidarity and rediscovery of feminist beer history”. The two
+project’s founders first met in 2020 for an artistic residency in the Spreewald, a cultural hub
+in Berlin growing out of the ruins of an East Germany abandoned amusement park. The
+two found some wild hosp foraged there and decided to embark on the process of fermen-
+tation. The idea gained traction, and the two started producing a bigger batch in a house
+project ( Hausproject ) in Berlin known as H48. Around the spring of 2021, QueerQuaff’s
+team met with members of the Circles cooperative and they recognized in each other sim-
+ilar values. The synergy resulted in an initial investment from Circles in QueerQuaff’s
+new production, which allowed them to obtain their necessary means of production, such
+as a professional kitchen. This investment is among the first in the history of the pilot in
+Berlin and it precedes the establishment of the subsidy program. QueerQuaff organized a
+crowdfunding accepting CRC tokens that then were exchanged through the cooperative in
+Euro. In this way, the bootstrap of a local business helped the Circles network in gaining
+momentum.
+4.5 Economic Synergy
+As stated previously, a key strategy to foster and expand the Circles network concerned
+the creation of economic linkages between businesses in the network. Economic linkages
+denote the intricate and reciprocal relationships among diverse sectors, industries, or eco-
+nomic entities within a given economic framework (Hirschman, 1958). These connections
+encompass both forward linkages, delineating the directional flow of goods or services
+from initial production stages towards ultimate consumption, and backward linkages,
+which elucidate the dependencies on inputs or raw materials provided by antecedent sec-
+tors (Ten Raa, 2020). Through our interviews, we noticed the emergence of several fruitful
+linkages through subsided partners in the network. Specifically, within the context of Cir-
+cles, we focus on Business-to-Business interactions. These relationships have been proven
+to be effective in expanding production capabilities and increasing sales through business
+collaborations.
+A significant linkage has been established between RealRadix and FarmerConnection,
+two Berlin-based food and beverage businesses with a focus on sustainability. RealRadix is
+an authentic, handcrafted, and zero-waste food company dedicated to reconnecting people
+15
+with food. On the other hand, FarmerConnection is a local and sustainable enterprise that
+distributes fruits and vegetables from the neighboring Brandenburg region to Berlin.
+Among FarmerConnection’s array of products, they deal with green tomatoes, which,
+due to their acidity and other chemical characteristics, cannot be consumed directly. How-
+ever, recognizing their potential value, FarmerConnection sought an innovative solution
+to avoid wastage and enlisted RealRadix for the production of green tomato jam. The
+founder of FarmerConnection, already a significant consumer of RealRadix’s products,
+decided to entrust them with the task. The green tomato jam, a result of this collabora-
+tion, has been successfully finalized and is now available for sale and distribution through
+FarmerConnection’s website and services. This strategic partnership, mediated by CRC-
+based transactions not only addresses the challenge of food waste but also enhances the
+product offerings for both businesses. It has to be said, however, that FarmerConnection,
+as stated by its founder, has already been involved in those kinds of strategic partnerships
+before its participation in the Circles network.
+Another synergistic collaboration within the Circles network involved a fermentation
+business Food Magic and the ceramic shop Tinted Life. As revealed in the interview with
+the co-founder of Food Magic, Tinted Life crafted a personalized set of pottery plates and
+cutlery designed specifically for use during Food Magic’s culinary experiences and fer-
+mentation workshops. These unique artifacts were utilized to enhance the overall dining
+experience provided by Food Magic’s services. In return for these customized pieces, Food
+Magic paid Tinted Life using CRC (Circles currency). Subsequently, Tinted Life used these
+earned CRC on the Circles marketplace. The co-founder of Food Magic emphasized that
+this partnership, although driven by a strategic vision, was also influenced by the abun-
+dance of CRC at her disposal and the motivation to engage with the Circles community.
+The creation of economic linkages serves to fortify the autonomy of the Circles eco-
+nomic network by diminishing the need for exchanging CRC into Euros, thereby fostering
+sustained mutual growth among businesses operating within Circles. Additionally, it alle-
+viates the dependence of businesses on the Cooperative’s subsidy program.
+5 Discussion
+In this paragraph, we report the main critical issues discussed in the last assemblies of
+Circles Coop and the related proposed solutions. The experience of Circles Coop and its
+Berlin pilot shows that any autonomous group willing to implement basic income from the
+bottom up needs to be economically self-reliant. In this way, it can continue to reproduce
+itself as a body that coordinates and expands the pilot.
+The experimental nature of Circles meant a high risk for the businesses involved. The
+subsidy and redemption system was supposed to offset this risk. Nevertheless, this strat-
+egy was limited because Circles Cooop had no secure revenue. One of the outcomes was
+an unbalance between givers and receivers in the Circles network. In other words, the
+number of suppliers and their involvement was insufficient for the creation of remarkable
+16
+and long-lasting economic synergies.
+The first proposed solution by the local activator groups (Community Activation Teams,
+CATs) was to start implementing credit operations. In this way, Circles Coop could offer
+loans to the Circles business network at zero or low-interest rates. This financial service
+could eventually target specific businesses by trying to solve the issues of supply-chain
+linkages more actively. Furthermore, the repayment of loans could give the cooperative
+enough revenue to cover its costs.
+A second proposed solution was a profit-sharing model inspired by the principles of
+Islamic finance . In this framework, the cooperative would invest in local businesses as a
+shareholder. This approach integrated with a subsidy program was inspired by economic
+local protectionism which worked to develop industrial capabilities in various countries
+(Chang, 2002). This would have been intentionally in contrast with the more recent or-
+doliberal ideology which argues for deregulation of markets and privatisation of public
+and common goods.
+According to the organizers, both discussed solutions could have allowed the cooper-
+ative to issue and manage a local currency in the form of a basic income. The adoption of
+a local currency was mostly inspired by the successful cases of Banco Palmas, Niteroi, and
+Maricá, in Brazil (Cernev & Proenca, 2016; Silva & de Almada Lima, 2019). Albeit these
+two interventions enjoy direct local government support, for the organizers the prospect
+of autonomous credit cooperatives as the vehicle for introducing basic income remained
+an interesting horizon.
+6 Conclusion
+Our qualitative investigation of the impact of the Berlin pilot on Circles participants has
+shed light on crucial facets of this unique blockchain-based framework. By employing
+a financial-diaries-inspired methodology, we delved into the experiences of twenty-five
+participants, complementing previous quantitative analyses with narratives and nuanced
+insights.
+Our findings underscore the pivotal role of community as the driving force behind the
+Circles project. Participants’ narratives consistently highlighted the profound influence of
+interpersonal dynamics, mutual support, and shared values, revealing that the experience
+of Circles is deeply intertwined with the strength of its community.
+Moreover, we addressed the challenges posed by technical instabilities and intricacies
+within the Circles system. While acknowledging these hurdles, participants showcased
+resilience and adaptability, demonstrating how the community effectively navigated and
+mitigated these challenges. This resilience not only emphasized the project’s robustness
+but also provided valuable insights for future iterations and similar endeavors.
+An essential aspect illuminated through our study is the diverse levels of participation
+and engagement within Circles. The decentralized and open nature of the project allows
+for varying degrees of involvement, accommodating participants with different prefer-
+17
+ences and comfort levels. This flexibility contributes to the project’s inclusivity, attracting
+individuals with diverse needs and preferences.
+The identification of five distinct profiles among participants illustrates precisely this
+dynamic, namely the multifaceted impacts of Circles on individuals’ lives. Each profile
+delineates a unique narrative, elucidating how Circles UBI helped or sustained different
+categories of individuals and businesses in different methods. Particularly, the successful
+stories of economic linkages suggest a path for Local Community Currencies that can be
+repurposed in future iterations.
+In a broader sense, our study bridges academic inquiry with a pragmatic and strate-
+gic outlook. By offering a comprehensive understanding of Circles’ impact, we aspire to
+provide valuable insights for Circles and similar pioneering projects as they navigate their
+future trajectories. Our findings underscore the intricate interplay between elements such
+as community dynamics, technical challenges, diverse levels of participation, and the tan-
+gible, varied impacts experienced by individuals. In future experiments of this kind, all of
+these components will need to be considered.
+References
+Adams, T., & Abba, M. J. (2022). Caracterización de la (des)colonialidad en los cinco
+ámbitos de existencia social: aportes desde aníbal quijano. América Latina Hoy ,91,
+5-23. doi: 10.14201/alh.27173
+Angehr, J. P . (2019). Will we always need money?: On the necessity of a monetary system in a
+post-scarcity economy . San Marcos, Texas: Texas State University.
+Angelis, M. D. (2017). Omnia sunt communia: On the commons and the transformation to
+postcapitalism . Zed.
+Assini, L. (2022). Environmental effects of complementary currencies: a case study of circles ubi
+(master thesis) . University of St. Gallen.
+Avanzo, S., Criscione, T., Linares, J., & Schifanella, C. (2023, September 06–08). Universal
+basic income in a blockchain-based community currency. In Acm international con-
+ference on information technology for social good (goodit ’23) (p. 10). Lisbon, Portugal:
+ACM. doi: 10.1145/3582515.3609538
+Belmonte, S. M., Puig, J., Roca, M., & Segura, M. (2021). Crisis mitigation through cash
+assistance to increase local consumption levels—a case study of a bimonetary system
+in barcelona, spain. Journal of Risk and Financial Management ,14(9), 430. doi: 10.3390/
+jrfm14090430
+Bundesamt, S. (2023). Armutsschwelle und armutsgefährdung in deutschland (Tech. Rep.).
+https://www.destatis.de: Author.
+Buterin, V. e. a. (2014). A next-generation smart contract and decentralized application
+platform. white paper ,3(37).
+Cepel, M., Kljucnikov, A., Kozubikova, L., & Krajcik, V . (2019). Local currency as a mean
+of regional competitiveness development. Journal of Competitiveness ,11(4), 22–39.
+18
+Cernev, A. K., & Proenca, B. A. (2016, July-Dec.). Mumbuca: The first digi-
+tal social currency in brazil / mumbuca: A primeira moeda social digital do
+brasil. GV Casos-Revista Brasileira de Casos de Ensino em Administracao ,6(2),
+NA. Retrieved from https://link.gale.com/apps/doc/A666231115/IFME
+?u=anon~980ae254&sid=googleScholar&xid=dbc77741 (Accessed 18 Jan.
+2024)
+Chang, H.-J. (2002). Kicking away the ladder: An unofficial history of capitalism, espe-
+cially in britain and the united states. Challenge ,45(5), 63–97. Retrieved 2024-01-19,
+from http://www.jstor.org/stable/40722165
+Circles. (Retrived on January 2024). Recivitas. https://www.recivitas.org/ .
+Circles Cooperative. (Retrived on January 2024). Circles. https://circles.coop/ .
+Colacelli, M., & Blackburn, D. (2005). Secondary currency: An empirical analysis. Journal
+of Monetary Economics ,56(3), 295–308. Retrieved from https://dx.doi.org/10
+.1016/j.jmoneco.2009.02.002 doi: 10.1016/j.jmoneco.2009.02.002
+Coop, C. (2022). The revaluation of the circles system. (https://circlesubi.medium.com/the-
+revaluation-of-the-circles-system-c6eea70e767d)
+Coote, A. (2021, 01). Universal basic services and sustainable consumption. Sustainability:
+Science, Practice and Policy ,17, 32-46. doi: 10.1080/15487733.2020.1843854
+Criscione, T., Guterman, E., Avanzo, S., & Linares, J. (2022). Community currency systems:
+Basic income, credit clearing, and reserve-backed models and design principles (FRIBIS Dis-
+cussion Paper Series No. 04-2022). Freiburg: Freiburg University, Freiburg Institute
+for Basic Income Studies (FRIBIS).
+Dashyan, D., Kulkarni, A., Linares, J., & Srikanth, K. (2023). Circles entropy: An anony-
+mous trust and credit system. White Paper .
+Dodd, N. (2014). The social life of money . New Jersey: Princeton University Press.
+Filippi, P. D., Mannan, M., & Reijers, W. (2020). Blockchain as a confidence machine: The
+problem of trust & challenges of governance. Technology in Society ,62, 101284. doi:
+10.1016/j.techsoc.2020.101284
+Godschalk, H. (2012). Does demurrage matter for complementary currencies? International
+Journal of Community Currency Research ,16(D), 58–69.
+Greco, T. (2009). The end of money and the future of civilization . Vermont: Chelsea Green
+Publishing.
+Hickel, J. (Retrieved on January 2024). Extreme poverty isn’t natural, it is created (2021).
+https://www.jasonhickel.org/blog/2021/3/28/extreme-poverty-isnt-natural-it-is-created .
+Hickel, J., & Kallis, G. (2019, 04). Is green growth possible? New Political Economy ,25, 1-18.
+doi: 10.1080/13563467.2019.1598964
+Hirschman, A. O. (1958). The strategy of economic development / a.o. hirschman [Book]. Yale
+University Press New Haven.
+Hornborg, A. (2017). How to turn an ocean liner: A proposal for voluntary degrowth by
+redesigning money for sustainability, justice, and resilience. JPE,24, 623–632. doi:
+10.2458/v24i1.20900
+19
+Häuberer, J. (2011). Introducing the civic perspective on social capital – robert d. putnam’s
+concept of social capital. In Social capital theory. VS Verlag für Sozialwissenschaften.
+doi: 10.1007/978-3-531-92646-9_3
+Joseph, B. K. (2019, June). Blockchain for Open Data – Exploring Conceptual Un-
+derpinnings and Practice. In M. P. R. Bolívar, K. J. Bwalya, & C. G. Reddick
+(Eds.), Governance Models for Creating Public Value in Open Data Initiatives (p. 161-
+175). Springer. Retrieved from https://ideas.repec.org/h/spr/paitcp/
+978-3-030-14446-3_8.html doi: 10.1007/978-3-030-14446-3
+Juster, F. T., & Stafford, F. P . (1990). The allocation of time: Empirical findings, behavioural
+models, and problems of measurement (IUI Working Paper No. 258). Stockholm: The
+Research Institute of Industrial Economics (IUI).
+Lepinski, M., Micali, S., & Shelat, A. (2005). Fair-zero knowledge. In J. Kilian (Ed.), Theory
+of cryptography (pp. 245–263). Springer Berlin Heidelberg.
+Linares, J., & Cabaña, G. (2022). Towards an ecology of care: Basic income after the nation-
+state. SOCIETY REGISTER ,6(3), 29-56. doi: 10.14746/sr.2022.6.3.03
+Marx, K. (1885). Capital (English Edition ed., Vol. 2). London: Penguin Classics.
+Mattsson, C. E. S., Criscione, T., & Takes, F. W. (2023). Circulation of a digital community
+currency. Scientific Reports ,13(5864), e5864. doi: 10.1038/s41598-023-33184-1
+Miller, A. (2020). A basic income handbook . Luath Press Ltd.
+Moos. (Retrived on January 2024). Moos. https://www.moos.space/ .
+Mukherjee, S., Larkin, C., & Corbet, S. (2021). Cryptocurrency ponzi schemes. In S. Corbet
+(Ed.), Understanding cryptocurrency fraud (Vol. 2, pp. 111–119). De Gruyter. doi: 10
+.1515/9783110718485-009
+OECD. (2021). Is the german middle class crumbling? risks and opportunities . Paris: OECD
+Publishing. doi: 10.1787/845208d7-en
+Piketty, T., & Saez, E. (2013). Top incomes and the great recession: Recent evolutions and
+policy implications. IMF Economic Review ,61, 456–478. doi: 10.1057/imfer.2013.14
+Rutherford, S., Collins, D., Morduch, J., & Ruthven, O. (2009). Portfolios of the poor: How the
+world’s poor live on 2 dollars a day . Princeton University Press. Retrieved 2024-01-11,
+from http://www.jstor.org/stable/j.ctt7rzr4
+Sayers, S. (2011). Freedom and the ‘realm of necessity’. In Marx and alienation. London:
+Palgrave Macmillan. doi: 10.1057/9780230309142_5
+Silva, M. O. D., & de Almada Lima, V. F. S. (2019, June). Citizen’s Basic Income in
+Brazil: From Bolsa Família to Pilot Experiments, with an Appendix: From Local to
+National: Mexico City and Basic Income, by Pablo Yanes. In M. Torry (Ed.), The
+Palgrave International Handbook of Basic Income (p. 319-338). Palgrave Macmillan. Re-
+trieved from https://ideas.repec.org/h/pal/etbchp/978-3-030-23614
+-4_16.html doi: 10.1007/978-3-030-23614-4
+Slater, M., & Jenkins, T. (2016). Credit commons: A model for the solidarity economy.
+http://www.creditcommons.net .
+SME. (Retrived on January 2024). Single market economy, european union. https://single-
+20
+market-economy.ec.europa.eu/smes/sme-definition_en .
+Standing, G. (2021). Basic income pilots: Uses, limitations and design principles. Basic
+Income Studies ,16(1), 75–99. doi: 10.1515/bis-2021-0021
+Stepstone. (2023). Gehaltsreport 2023 (Tech. Rep.). https://www.mcg-mm.de: Author.
+Ten Raa, T. (2020). Linkages, fields of influence and key sectors. Economic Structures ,9, 29.
+doi: 10.1186/s40008-020-00210-8
+Torry, M. (2019). The palgrave international handbook of basic income . London, UK: Palgrave
+Macmillan.
+Wallet, S. (Retrived on January 2024). Safe wallet. https://safe.global/ .
+Wheatley, G., Younie, C., Alajlan, H., & McFarlane, E. (2011). Calgary dollars: Economic
+and social capital benefits. International Journal of Community Currency Research ,15(1),
+84–89. Retrieved from http://dx.doi.org/10.15133/j.ijccr.2011.009
+doi: 10.15133/j.ijccr.2011.009
+Widerquist, K. (2013). Independence, propertylessness, and basic income: A theory of freedom as
+the power to say no . New York: Springer.
+Zhang, K., & Jacobsen, H.-A. (2018). Towards dependable, scalable, and pervasive dis-
+tributed ledgers with blockchains. In 2018 ieee 38th international conference on dis-
+tributed computing systems (icdcs) (p. 1337-1346). doi: 10.1109/ICDCS.2018.00134
+21
+Figures
+Oct 20Nov 20Dec 20Jan 21Feb 21Mar 21Apr 21May 21Jun 21Jul 21Aug 21Sep 21Oct 21Nov 21Dec 21Jan 22Feb 22Mar 22Apr 22May 22Jun 22Jul 22Aug 22Sep 22Oct 22Nov 22Dec 22Jan 23Feb 23Mar 23Apr 23May 23Jun 23Jul 23Aug 23Sep 23Oct 23Nov 23Dec 23020004000600080001000012000Number of people sending Circles per month
+Figure 1: Number of participants sending Circles units per month.
+Oct 20Nov 20Dec 20Jan 21Feb 21Mar 21Apr 21May 21Jun 21Jul 21Aug 21Sep 21Oct 21Nov 21Dec 21Jan 22Feb 22Mar 22Apr 22May 22Jun 22Jul 22Aug 22Sep 22Oct 22Nov 22Dec 22Jan 23Feb 23Mar 23Apr 23May 23Jun 23Jul 23Aug 23Sep 23Oct 23Nov 23Dec 230100000200000300000400000500000600000700000Total Transaction Volume in Circles (per month)
+Figure 2: Total transaction volume in Circles units per month.
+22
+< 10,000 10,000-20,000 20,000-30,000 30,000-40,000 40,000-60,000 60,000-100,000 Uncertain/
+Fluctuating
+Income Range012Number of AnswersFigure 3: Income distribution among the interviewees.
+Sep 21Oct 21Nov 21Dec 21Jan 22Feb 22Mar 22Apr 22May 22Jun 22Jul 22Aug 22Sep 22Oct 22Nov 22Dec 22Jan 23Feb 23Mar 23Apr 23May 23Jun 23Jul 23Aug 23Sep 23Oct 23Nov 23Dec 230.00.10.20.30.40.50.6
+Jaccard Similarity Index between clients and trust connections
+business_1
+business_2
+business_3
+business_4
+business_5
+individual_1
+individual_2
+Figure 4: Jaccard Similarity Index between clients and trust connections of selected pro-
+files. In the case of non-business individuals, clients are those from whom such individuals
+receive Circles.
+23
+Sep 21Oct 21Nov 21Dec 21Jan 22Feb 22Mar 22Apr 22May 22Jun 22Jul 22Aug 22Sep 22Oct 22Nov 22Dec 22Jan 23Feb 23Mar 23Apr 23May 23Jun 23Jul 23Aug 23Sep 23Oct 23Nov 23Dec 230.00.20.40.60.81.0
+Jaccard Similarity Index between suppliers and trust connections
+business_1
+business_2
+business_3
+business_4
+business_5
+individual_1
+individual_2Figure 5: Jaccard Similarity Index between suppliers and trust connections of selected pro-
+files. In the case of non-business individuals, suppliers are those to whom such individuals
+send Circles.
+Jul 22Aug 22 Sep 22 Oct 22 Nov 22 Dec 22 Jan 23 Feb 23 Mar 23 Apr 23 May 23 Jun 23 Jul 23Aug 23 Sep 23 Oct 23 Nov 23 Dec 23 Jan 240100200300400500600700800
+Transaction Volume Individual Case (Maria)
+incoming
+transactions
+outgoing
+transactions
+Figure 6: Total amount of outgoing transactions made by Individual Case (Maria) in Circles
+units per month.
+24
+Dec 22 Jan 23 Feb 23 Mar 23 Apr 23 May 23 Jun 23 Jul 23Aug 23 Sep 23 Oct 23 Nov 23 Dec 2302468Number of Suppliers for Business Case 1Figure 7: Number of suppliers of Business 1 in Circles network per month.
+Dec 22 Jan 23 Feb 23 Mar 23 Apr 23 May 23 Jun 23 Jul 23Aug 23 Sep 23 Oct 23 Nov 23 Dec 23 Jan 2402505007501000125015001750
+Transaction Volume Business Case 1
+incoming
+transactions
+outgoing
+transactions
+Figure 8: Total amount of transactions of Business 1 in Circles units per month.
+Appendix
+1.User details
+1.1. Name, Surname, Circles Surname
+1.2. Individual Wallet Address, Business Wallet Address, Email Address
+1.3. Phone Numbe, Age, Sex
+1.4. Gender, Nationality
+25
+1.5. Specific Information
+1.5.1. Within Circles network, are you an individual or a business?
+1.6. Business details
+1.6.1. What is your Business Name?
+1.6.2. What is your Business Address?
+1.6.3. What is your Business Sector Code?
+1.6.4. How long have you been part of Circles as business?
+1.6.5. How often do you use Circles as business?
+1.6.6. On average, how much do you spend in a month as business?
+2.Economic Network
+2.1. How long have you been part of Circles as individual?
+2.2. How often do you use Circles as individual?
+2.3. On average, how much do you spend in a month as individual?
+2.4. Did your frequency of usage change across the time you have been a Circles
+user? If so, why?
+2.5. What do you use Circles for? What kind of goods you buy? (Be as broad and
+specific as you can)
+2.6. Would you say you use Circles to buy products and services that you would
+otherwise not buy? If so, in what?
+2.7. Would you say using Circles changed your habits of consumption?
+2.8. Do you share your Circles account with others?
+2.9. How many people do you know in Circles?
+2.10. Where do you spend Circles?
+2.11. Do you use Circles more with businesses or with private people?
+2.12. Have you ever offered your own products and services within the Circles com-
+munity? If yes / not, why?
+2.13. Have you encountered instances where Circles users appeared to have buy
+products with CRC to resell in EUR?
+2.14. Have you received any feedback from customers or other businesses regarding
+misuse of Circles within your ecosystem?
+3.Knowledge & Perception of Circles
+3.1. How did you know about Circles?
+3.2. What motivated you to join the Circles Network?
+3.3. What part of Circles are you most interested in?
+3.4. Use of Circles
+26
+3.4.1. How do you perceive Circles?
+3.5. How often do you use Circles as business?
+3.6. Did you take part in Circles’ events?
+3.7. Circles Events Participation
+3.7.1. Which ones did you go?
+3.7.2. How often did you go?
+3.7.3. What do you do when joining the Circles event?
+3.8. Future of Circles
+3.8.1. Has your vision/opinion on Circles changed since you’re part of the pro-
+gram? How?
+3.8.2. What does it mean to you to be a recipient of a basic income?
+4.Socio-economic position
+4.1. Over the past six months, what was your main economic activity in terms of the
+amount of time you spent on it?
+4.2. What is your past and/or current occupation?
+4.3. How many employees does your company have? (for owners and self-employed)
+4.4. What is your gross income per year in Euro?
+4.5. Do you or your family own property?
+5.Satisfaction
+5.1. How much do you feel satisfied about the participation to Circles UBI project?
+5.2. How much your general well-being got improved thanks to the participation to
+CIrcles UBI project?
+5.3. How likely would you recommend the participation to Circles UBI to a friend?
+27

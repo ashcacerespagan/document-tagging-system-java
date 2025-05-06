@@ -1,0 +1,227 @@
+ 
+https://crsreports.congress.gov  
+ 
+Updated April 3, 2025
+The Fed’s Balance Sheet and Quantitative Tighten ing
+The size and composition of the Federal Reserve ’s (Fed’s) 
+balance sheet  is a product of its monetary policy  and lender -
+of-last-resort actions. The Fed has responded to  past crises 
+by increasing its balance sheet , which peaked at 10 times its 
+size before the 2008 financial crisis. As part of the post -
+pandemic  normalization of monetary policy, the Fed began 
+to reduce the size of its balance sheet in June 2022 —to 
+date, by more than $ 2 trillion  from its peak size .  
+Balance Sheet Primer  
+The Fed’s balance sheet can be described in standard 
+accounting terms. It earns income on its assets and pays 
+interest and dividends on its liabilities and capital. Its assets 
+are equal in val ue to its liabilities and capital  (see Table 1). 
+Its net income (i.e., the difference between income and 
+expenses) is comparable to a company’s profits  or losses . 
+Table 1. Simplified Federal Reserve Balance Sheet  
+March 26 , 2025, Trillions of $  
+Assets   Liabilities and 
+Capital   
+Treasury Securities  $4.2 Currency  $2.3 
+MBS $2.2 Bank Reserves  $3.5 
+Loans/Emergency 
+Facilities  <$0.1 TGA $0.3 
+Repos  $0 Reverse Repos  $0.6 
+Liquidity Swaps  <$0.1  Remittances Due to 
+Treasury  -$0.2 
+Other  $0.3 Other  $0.2 
+  Total Liabilities  $6.7 
+  Paid-In Capital  <$0.1  
+  Surplus  <$0.1  
+Total  $6.7 Total  $6.7 
+Source: CRS calculations based on Federal Reserve data. 
+Note:  Total for emergency facilities include Treasury capital 
+investments.  Totals may not sum due to rounding.  
+Assets  
+Most assets on the Fed’s balance sheet are financial 
+securities.  The Fed is permitted by law to buy or sell a 
+narrow range of securities and must do so on the open 
+market (referred to as open market operations ). In 
+practice, it purchases mainly Treasury securities  and 
+mortgage -backed securities  (MBS)  that are guaranteed by 
+a federal agency or a government -sponsored enterprise 
+(GSE). The open market requirement means that the Fed 
+cannot purchase Treasury securities directly from the U.S. 
+Treasury, instead transact ing with primary dealers , a set of large broker -dealers active in Treasury markets. When the 
+Fed purchases securities from primary dealers, it increases 
+bank reserves (discussed below), increasing the overall 
+liquidity of the financial system.  
+The Fed can also provide primary dealers , banks,  and 
+foreign central banks with temporary liquidity through 
+repurchase agreements  (repos ). In a repo, the Fed 
+temporarily purchases a Treasury security or MBS with an 
+agreement to reverse the sale in the near future. In 2021, the 
+Fed made repo lending on demand permanently available 
+by creating its Standing Repurchase Agreement Fac ility. 
+In crises, the Fed lends to banks through its discount 
+window  and creates emergency programs to stabilize 
+financial markets. Through these programs, it makes or 
+acquires loans and acquires private securities that are also 
+held as assets on its balance sheet. These assets swell 
+during crises and then shrink relatively quickly as financial 
+conditions normalize. The Fed also lends dollars to foreign 
+central banks in crises th rough foreign currency swaps . 
+Liabilities  
+Just as the Fed increases market liquidity through repos, it 
+can reduce liquidity through reverse repos , in which the 
+Fed temporarily sells securities to market participants and 
+foreign central banks in exchange for cash. In 2014, the Fed 
+institutionalized reverse repos by creating the Overnight 
+Reverse Repurchase Agreement Facility . The Fed pays 
+market participants an interest rate on reverse repos, which 
+helps the Fed maintain its monetary policy rate targets.  
+Banks hold reserves in accounts at the Fed to make and 
+receive payments from other banks. These bank reserves  
+are liabilities to the Fed. Similar to reverse repos, the Fed 
+pays banks interest on reserves  that helps the Fed maintain 
+its interest rate targets. Mechanically, when the Fed 
+purchases a security or make s a loan, it finances it by 
+creating new bank reserves. As a result, the asset and 
+liability sides of the balance sheet increase by an identical 
+amount so that assets always equal liabilities plus capital.  
+The U.S. Treasury also holds its cash balances at  the Fed in 
+the Treasury General Account  (TGA) . When the 
+Treasury receives revenue, its balance increases , and when 
+it makes payments, its balance decreases. The Fed issues 
+paper currency  (cash), officially called Federal Reserve 
+notes. A Federal Reserve note is an IOU from the Fed that 
+pays no interest , making  it a liability on the balance sheet.  
+Capital  
+The Fed’s capital is equal in value to the difference between 
+its assets and liabilities. It takes two forms. First, private 
+banks that are membe rs of the Fed must purchase stock in 
+the Fed, called paid -in capital . Membership is required for 
+The Fed’s Balance Sheet and Quantitative Tightening  
+https://crsreports.congress.gov  nationally chartered banks and optional for state -chartered 
+banks. Unlike common stock in a private company, this 
+stock does not confer ownership control and p ays a 
+dividend  set by statute. However, it does provide the banks 
+with seats on the boards of the 12 Fed regional banks. The 
+dividend is a fixed 6% for banks with under $10 billion in 
+assets and the lesser of 6% or the prevailing 10 -year 
+Treasury yield for  banks with over $10 billion.  The other 
+form of capital is the Fed’s surplus . It comes from retained 
+earnings and is currently capped by statute at $6.825 
+billion. Through a series of recent acts, Congress first 
+capped the surplus and then reduced the cap as a “pay for” 
+(budgetary offset) for unrelated legislation.  
+Net Income and Remittances  
+The Fed earns income on its loans, repos, and securities, 
+along with fees it charges . These finance its expenses , 
+which include operating expenses and the interest paid  on 
+bank reserves and repos. The difference between income 
+and expenses is called net income. Net income is used 
+exclusively to (1) pay statutorily required dividends to 
+shareholders , (2) increase the surplus when it is below its 
+statutory cap , and (3) pay remittances  to Treasury, which  
+are added to the federal government’s general revenues.  
+From 2008  to 2022 , net income and remittances increased 
+significantly. Since September 2022, its net income has 
+been negative , because the interest rate s it pays on bank 
+reserves and reverse repos became higher than the yield on 
+the securities it h olds. As a result , its remittances to the 
+Treasury  have fallen close to zero  for the first time since 
+1934 . But unlike a private company, under the Fed’s 
+accounting conventions , negative net income does not 
+reduce its capital, cause it to become insolvent, or require a 
+capital infusion to maintain solvency. Instead, it register s 
+the losses as a deferred asset. Remittances will not resume 
+until the deferred asset is drawn down  after net income 
+becomes positive again , which will occur once the yield on 
+its assets exceeds the interest rate on its liabilities .  
+Quantitative Easing and Tightening  
+Before the 2008 financial crisis, the Fed’s balance sheet 
+grew mode stly over time. During that crisis, the Fed created 
+a number of emergency lending programs that caused its 
+balance sheet to balloon (see Table 2). In ad dition, the Fed 
+wanted to provide more monetary stimulus after reducing 
+interest rates to zero. For the first time, it made monthly 
+large -scale asset purchases , popularly called quantitative 
+easing (QE) , at a preannounced rate that also caused the 
+balance sheet to increase rapidly. Under QE, t he Fed 
+purchased Treasury securities and debt and MBS issued by 
+government agencies and GSEs. The increase in assets was 
+matched by an increase in liabilities —mainly bank reserves, 
+which were kept at a minimum before t he financial crisis 
+but after wards  topped $1 trillion. Since the crisis, the Fed 
+has conducted monetary policy under an ample reserves  
+framework , where it creates so many reserves that banks’ 
+demand for reserves do es not influence market interest 
+rates. In  the long run, the Fed decides how many securities 
+to hold based on the reserves needed under this framew ork. 
+QE occurred in three rounds between 2009 and 2014, as the 
+recovery from the financial crisis was initially weak. From 
+2014 to 2018, the Fed kept t he size of its balance sheet steady by rolling over  maturing assets (i.e., reinvesting the 
+principal from assets that had matured). Beginning in 2018, 
+the Fed gradually reduced its balance sheet by allowing 
+maturing assets instead to roll off  the balance s heet up to a 
+fixed amount (i.e., no longer reinvesting principal). In 2019, 
+repo market volatility convinced the Fed that more bank 
+reserves were needed to operate its ample reserves 
+framework, so it began making repos and purchasing assets, 
+again increasi ng the balance sheet. When the COVID -19 
+pandemic began, the pace of repo lending and asset 
+purchases increased and emergency facilities were 
+reintroduced , causing faster balance sheet growth.  
+Table 2. Federal Reserve Balance Sheet Trends  
+Trillions of Dollars, 2008 -2022 
+Event (Dates)  End Size  Change  
+Financial Crisis (9/08 -12/08)  $2.2 +$1.3  
+QE1 (3/09 -5/10)  $2.3 +$0.4  
+QE2 (11/10 -7/11)  $2.9 +$0.6  
+QE3 (10/12 -10/14)  $4.5 +$1.7  
+Roll Off (9/17 -8/19) $3.8 -$0.7 
+Repo Turmoil (9/19 -2/20) $4.2 +$0.4 
+COVID -19 (3/20 -5/22)  $8.9 +$4.8 
+Source: CRS calculations based on  Federal Reserve data. 
+In November 2021, responding to high inflation, the Fed 
+announced that it would taper  off its asset purchases (i.e., 
+purchase fewer assets per month). In March 2022, it ended 
+asset purchases, at which point the balance sheet had more 
+than doubled from its pre-pandemic size. In this episode, 
+both bank reserves and reverse repos grew rapidly on the 
+liability side of the balance sheet. In June 2022, the Fed 
+began to shrink its balance sheet, popularly called 
+quantitative tightening  (QT) . Under QT, the Fed  had been  
+allowing a capped amount of maturing Treasury securities 
+and MBS to roll off the balance sheet each month. To date, 
+Treasury redemptions have hit the cap, but MBS 
+redemptions have  typically  been lower because households 
+are holding on to low-rate mort gages. Since 2024, the Fed 
+has been further tapering  the roll-off pace for Treasury 
+securities , most recently  to up to $5 billion per month  in 
+March 2025  while keeping MBS r oll-offs at up to $35 
+billion . The Fed intends  to permanently maintain a large 
+balance sheet and “intends to slow and then stop the decline 
+in the size of the balance sheet when reserve balances are 
+somewhat above the level  … consistent with ample 
+reserves.” It has not yet indicated what it expects that level 
+to be  or when QT will end .  
+The goals of QE were to  stimulate the economy by  reduc ing 
+long-term interest rates and to provide additional liquidity 
+to the financial system. QE reduced long -term interest rates 
+by driving down yields on the securities the Fed was 
+purchasing, which led to lower interest rates throughout the 
+economy. The reduction in yields on MBS translated to 
+lower mortgage rates, stimulating housing demand. QE 
+increased liquidity by increasing bank reserves . 
+Marc Labonte , Specialist in Macroeconomic Policy   
+The Fed’s Balance Sheet and Quantitative Tightening  
+https://crsreports.congress.gov  | IF12147  · VERSION 5 · UPDATED   IF12147
+ 
+ 
+Disclaimer  
+This document was  prepared by the Congressional Research Service (CRS). CRS serves as nonpartisan shared staff to 
+congressional committees and Members of Congress. It operates solely at the behest of and under the direction of Congress. 
+Information in a CRS Report should n ot be relied upon for purposes other than public understanding of information that has 
+been provided by CRS to Members of Congress in connection with CRS’s institutional role. CRS Reports, as a work of the 
+United States Government, are not subject to copyr ight protection in the United States. Any CRS Report may be 
+reproduced and distributed in its entirety without permission from CRS. However, as a CRS Report may include 
+copyrighted images or material from a third party, you may need to obtain the permissio n of the copyright holder if you 
+wish to copy or otherwise use copyrighted material.  
+ 

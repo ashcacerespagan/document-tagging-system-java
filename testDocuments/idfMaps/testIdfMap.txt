@@ -1,0 +1,5 @@
+sample 1.5
+document 1.2
+testing 0.9
+keyword 0.7
+extraction 0.6

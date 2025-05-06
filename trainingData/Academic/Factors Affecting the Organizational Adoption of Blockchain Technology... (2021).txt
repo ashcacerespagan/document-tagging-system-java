@@ -1,0 +1,1618 @@
+sustainability
+Article
+Factors Affecting the Organizational Adoption of Blockchain
+Technology: Extending the Technology–Organization–
+Environment (TOE) Framework in the Australian Context
+Saleem Malik1,*, Mehmood Chadhar1, Savanid Vatanasakdakul2and Madhu Chetty1
+/gid00030/gid00035/gid00032/gid00030/gid00038/gid00001/gid00033/gid00042/gid00045 /gid00001
+/gid00048/gid00043/gid00031/gid00028/gid00047/gid00032/gid00046
+Citation: Malik, S.; Chadhar, M.;
+Vatanasakdakul, S.; Chetty, M. Factors
+Affecting the Organizational
+Adoption of Blockchain Technology:
+Extending the Technology–
+Organization–Environment (TOE)
+Framework in the Australian Context.
+Sustainability 2021 ,13, 9404. https://
+doi.org/10.3390/su13169404
+Academic Editor: Fernando Almeida
+Received: 21 June 2021
+Accepted: 17 August 2021
+Published: 21 August 2021
+Publisher’s Note: MDPI stays neutral
+with regard to jurisdictional claims in
+published maps and institutional afﬁl-
+iations.
+Copyright: © 2021 by the authors.
+Licensee MDPI, Basel, Switzerland.
+This article is an open access article
+distributed under the terms and
+conditions of the Creative Commons
+Attribution (CC BY) license (https://
+creativecommons.org/licenses/by/
+4.0/).1School of Engineering, IT and Physical Sciences, Federation University Australia, Mount Helen,
+VIC 3350, Australia; m.chadhar@federation.edu.au (M.C.); madhu.chetty@federation.edu.au (M.C.)
+2Department of Information Systems, Carnegie Mellon University, Doha P .O. Box 24866, Qatar;
+savanid@cmu.edu
+*Correspondence: smalik@federation.edu.au
+Abstract: Blockchain technology (BCT) has been gaining popularity due to its beneﬁts for almost
+every industry. However, despite its beneﬁts, the organizational adoption of BCT is rather limited.
+This lack of uptake motivated us to identify the factors that inﬂuence the adoption of BCT from
+an organizational perspective. In doing this, we reviewed the BCT literature, interviewed BCT
+experts, and proposed a research model based on the TOE framework. Speciﬁcally, we theorized
+the role of technological (perceived beneﬁts, compatibility, information transparency, and disinter-
+mediation), organizational (organization innovativeness, organizational learning capability, and
+top management support), and environmental (competition intensity, government support, trading
+partners readiness, and standards uncertainty) factors in the organizational adoption of BCT in
+Australia. We conﬁrmed the model with a sample of adopters and potential adopter organizations in
+Australia. The results show a signiﬁcant role of the proposed factors in the organizational adoption
+of BCT in Australia. Additionally, we found that the relationship between the inﬂuential factors
+and BCT adoption is moderated by “perceived risks”. The study extends the TOE framework by
+adding factors that were ignored in previous studies on BCT adoption, such as perceived information
+transparency, perceived disintermediation, organizational innovativeness, organizational learning
+capability, and standards uncertainty.
+Keywords: blockchain; adoption; factors; Australia; TOE; organization
+1. Introduction
+Blockchain technology (BCT) is a new type of distributed and decentralized database
+that is managed by the participating entities called nodes. The entities manage the data
+without the involvement of any central controlling authority. Each node over the BCT
+network stores the same copy of the entire database. The network is run by the mutual
+consensus among the connected nodes. Initially, this novel and unique way of storing
+and managing data was developed to solve the double-spending problem in virtual cur-
+rencies [ 1]. Later, many different use cases of BCT were proposed, e.g., electronic voting,
+network security, healthcare, human resource management (HRM), internet of things (IoT),
+cloud computing, music, supply chain, banking and ﬁnance, industry 4.0, and money
+laundering [ 2–4]. Recently, BCT has disrupted the global economy with the use of cryp-
+tocurrencies such as Bitcoin and Ethereum [ 5]. By using cryptocurrencies, organizations can
+transfer funds globally without the need for any formal intermediaries such as banks [ 6].
+Many IT and digital experts suggest that BCT will reshape every industry in the future. This
+is also endorsed by renowned and reliable ﬁrms such as Gartner, PwC, Wintergreen, and
+IDC. They predicted that the BCT market would reach USD 176 billion to USD 3.1 trillion
+between 2025 and 2030 [ 7]. According to Underwood [ 8] and Tapscott and Tapscott [ 9],
+Sustainability 2021 ,13, 9404. https://doi.org/10.3390/su13169404 https://www.mdpi.com/journal/sustainability
+Sustainability 2021 ,13, 9404 2 of 31
+BCT has several operational and strategic beneﬁts for organizations. Mohammed, Potdar
+and Yang [ 7] and Alzahrani and Daim [ 10] consider the adoption of BCT a great source
+of competitive advantage for organizations. Surprisingly, despite all the beneﬁts, actual
+organizational adoption of BCT all over the globe has not reached a signiﬁcantly high
+level [ 11–16]. This lack of uptake motivated us to initiate this research to investigate the
+factors that inﬂuence BCT adoption among Australian organizations. We chose Australian
+organizations due to their low adoption despite the availability of sufﬁcient technological
+infrastructure and strong support for BCT from the Australian government and private
+associations [ 17,18]. To the best of our knowledge, to date, there is a lack of in-depth
+empirical research about the factors that inﬂuence organizations’ intentions to adopt BCT
+in Australia [ 18,19]. Although some prior studies examined the organizational adoption
+of BCT, their focus was on non-Oceania countries such as Ireland, Malaysia, Germany,
+etc. [ 20–22]. However, the ﬁndings of a study undertaken in one context, e.g., country, can-
+not be generalized to any other context because every context has its unique characteristics,
+for instance, technology readiness, networked readiness index, and uncertainty avoidance
+index [ 23] as shown in Table 1. Technology readiness and networked readiness indexes
+represent the level of readiness of a country in terms of the technological infrastructure to
+adopt new technology whereas uncertainty avoidance refers to how individuals, groups of
+people, or organizations of a speciﬁc country make decisions in new and risky situations.
+The higher value of the technology readiness index for Australia indicates that Australia is
+more ready to adopt new technology compared with the other countries. At the same time,
+it is a more fearful country due to the higher value of uncertainty avoidance.
+Table 1. Comparison of Australia with other countries for the contextual characteristics [23].
+Country Characteristics
+Technology
+Readiness IndexNetworked Readiness
+IndexUncertainty
+Avoidance Index
+Germany 9.15625 77.48 65
+Ireland 8.03125 72.13 35
+Malaysia 7.46875 61.43 36
+Australia 9.71875 75.09 51
+According to Chandra and Kumar [ 24], ﬁndings of a study conducted in one context
+serve as a starting point for a study in another context. They further asserted, “it is
+imperative to study the speciﬁc contexts aligned from a ﬁrm’s perspective”. Thus, this
+study aims to answer the key research question:
+What are the key factors inﬂuencing the adoption intention of BCT among Australian
+organizations?
+To answer this research question, we employed a quantitative research approach
+based on the Technology–Organization–Environment (TOE) framework. An online survey
+questionnaire, coined under the TOE categories, was sent to the appropriate Australian
+organizations. The TOE framework has been used in many past studies on BCT adoption,
+which reﬂects its suitability for this study. The past studies report various technological,
+organizational, and environmental factors, e.g., relative advantages, compatibility, com-
+plexity, top management support, and competitive pressure that inﬂuence BCT adoption.
+However, the studies provide varying results for the same factor. For example, Clohessy
+and Acton [ 22] and Orji, et al. [ 25] found top management support as a critical factor for the
+organizational adoption of BCT whereas, Wong, Leong, Hew, Tan and Ooi [ 21] reported an
+insigniﬁcant effect of the top management support for BCT adoption. Likewise, De Castro,
+et al. [ 26] reported the favorable role of government regulations towards the organizational
+adoption of BCT, whereas, Albrecht, et al. [ 27] stated that government regulations prevent
+BCT adoption. This inconstancy in results could be due to the presence of hidden factor(s)
+that moderate the cause–effect (causal) relationship between the factors [ 28]. This aspect
+has not been addressed in previous studies that used the TOE framework for BCT adoption.
+Sustainability 2021 ,13, 9404 3 of 31
+Baron and Kenny [ 29] recommend the addition of a moderating variable(s) when the
+ﬁndings of different studies vary for the same variable. They asserted that the moderating
+variable enhances the understanding of problem and prevents any misleading conclusions.
+Moreover, the past BCT studies lack the impact of many factors that seem relevant to BCT
+adoption, for instance, disintermediation and information transparency that are considered
+the core features of BCT. To address the limitations of the past studies, we extend the
+traditional TOE framework by incorporating the following new factors:
+(i) Technological factors: information transparency and disintermediation;
+(ii) Organizational factors: organization innovativeness, organizational learning capability;
+(iii) Environmental factors: standards uncertainty, and
+(iv) Moderating factor: perceived risks.
+The relevance of the above factors to the organizational adoption of BCT in Australia
+was found by conducting semi-structured interviews of BCT experts and decision makers
+from different Australian organizations that had adopted or were in the process of adopting
+BCT (potential adopters). These factors were further underpinned with the secondary
+data including the extant literature on BCT adoption, different organizations’ websites,
+government reports, and white papers. Deﬁnitions and further explanations of the above
+factors are provided in Section 3 of this paper.
+The rest of the paper is organized as follows. We provide a literature review on
+the adoption of BCT, theoretical background including research model and hypotheses,
+research methodology, and the empirical results followed by a discussion on the ﬁndings.
+The paper concludes with the key ﬁndings and their theoretical and practical contributions,
+presents limitations of the research, and suggests directions for future research.
+2. Literature Review
+2.1. Adoption of Blockchain Technology
+The adoption of BCT brings a signiﬁcant change to an organization’s internal and
+external operations [ 18]. Therefore, the organizational adoption of BCT has gained sig-
+niﬁcant interest from researchers [ 22]. They have taken the deterministic approach to
+examine the organizational adoption of BCT. This approach assumes that an organiza-
+tion’s intention to adopt BCT is inﬂuenced by a certain number of factors. For example,
+De Castro, Tanner and Johnston [ 26] investigated the adoption of BCT in the asset and
+wealth management industry in South Africa. They found that the relative advantages,
+computability, complexity, supportive technological environment, characteristics of the
+industry, and regulations are the main deterministic factors that inﬂuence the organiza-
+tional adoption of BCT; Orji, Kusi-Sarpong, Huang and Vazquez-Brust [ 25], Dobrovnik,
+et al. [ 30], Barnes III and Xiao [ 31], and Kühn, et al. [ 32] evaluated the factors that inﬂuence
+BCT adoption in the logistics industry. They identiﬁed that the availability of speciﬁc BCT
+tools, infrastructural facility, and government policy and support are the main signiﬁcant
+factors for BCT adoption; Wong, et al. [ 33], Wong, Leong, Hew, Tan and Ooi [ 21], Bai and
+Sarkis [ 34], Kouhizadeh, et al. [ 35], Ghode, et al. [ 36], and Kalaitzi, et al. [ 37] investigated
+BCT adoption for the supply chain industry. They found relative advantages, complexity,
+upper management support, cost, market dynamics, competitive pressure, and regulatory
+support as the inﬂuencing factors; Clohessy and Acton [ 22] found that BCT awareness, top
+management support, and organization size inﬂuence BCT adoption in Ireland. Loklindt,
+et al. [ 38], Mohammed, Potdar and Yang [ 7], Post, et al. [ 39], Hoxha and Sadiku [ 40],
+and Holotiuk and Moormann [ 20] investigated BCT adoption for the different industries
+including shipping and land record management. They showed that easy veriﬁcation of
+transactions, data accuracy and reliability, and cost reduction inﬂuence an organization’s
+decision to adopt BCT; Kulkarni and Patil [ 41] and Koster and Borgman [ 42] mentioned
+that the ﬁrm scope, learning culture, top management, customer readiness, competitive
+pressure, and government policies inﬂuence BCT adoption in banking and the public
+sector. Moreover, Albrecht, Reichert, Schmid, Strüker, Neumann and Fridgen [ 27] studied
+the post-decision stage of the BCT adoption. They found that market power, regulation,
+Sustainability 2021 ,13, 9404 4 of 31
+transaction speed, transparency and costs, conﬁdentiality, and interoperability were the
+prominent factors that inﬂuence BCT implementation in the energy sector.
+During this literature review process, we noted that the factors that inﬂuence BCT
+adoption can be grouped into the TOE categories, namely, technological, organizational,
+and environmental contexts. Table 2 provides a summary of the factors reported in the
+published literature on BCT adoption.
+Table 2. Factors affecting the organizational adoption of BCT.
+TOE Contexts Factors Sources
+Technological factorsComplexity, compatibility, cost, relative advantages, security,
+privacy, scalability, availability of speciﬁc BCT tools, trialability,
+observability, immutability, transactions speed, perceived novelty,
+disintermediation, perceived beneﬁts, computability, infrastructural
+facility, increase in data availability, reduction of information
+asymmetry, easy veriﬁcation of transactions, comprehensibility of
+the transactions, data accuracy and reliability, exclusion of false
+information from contractual information, hacking attempts system
+denials, high-security encryption, contract conclusion with a
+reasonable fee, transparency, integrity, conﬁdentiality,
+interoperability, perceived challenges, hype, trust, storage capacity,
+decentralization, inclusiveness, territoriality, maturity[7,18,21,25–27,30,37,38,40–45]
+Organizational factorsTop management support, top management knowledge/awareness,
+ﬁrm size, capability of human resources, ﬁnancial resources,
+presence of training facilities, organizational culture, supportive
+technological environment, perceived risk of vendor lock-in,
+perceived efforts in collaboration, organization learning capability,
+organization innovativeness, IT governance, huge resources
+(energy, infrastructure), high need for process harmonization, ﬁrm
+scope, existing infrastructure, learning culture[22,25,26,32,37,41–44,46]
+Environmental factorsRegulations, competitive pressure, government policy/support,
+stakeholder pressure, customer pressure, trading partner readiness,
+legal/standards uncertainties, institutional-based trust, technology
+progress in the industry, support from the community, professional
+consultation and assistance, perceived constraint of infrastructure,
+market turbulence, market power, market dynamics, customer
+readiness, consensus among trading partners, characteristics of
+industry[21,25–27,32,37,41–44,46,47]
+2.2. Research Gaps Found in the Published Literature
+The following research gaps were observed in the past studies:
+(i) Most of the research on BCT adoption has been conducted in non-Oceania countries
+and there is little research in the context of the Oceania region, particularly in Aus-
+tralia. Since the countries differ from each other in terms of their contextual and
+demographic characteristics such as GDP , union density, trade laws, and gender,
+therefore the ﬁndings of studies conducted in other countries cannot be applied in
+the Australian context.
+(ii) There is an identiﬁed inconsistency in the results of the past studies. The studies
+report a linear relationship between the inﬂuencing factors and BCT adoption and
+ignore the impact of any intervening factor causing that inconsistency in ﬁndings.
+To overcome these gaps of the past studies, the current study aims to investigate the
+factors affecting the adoption of BCT among Australian organizations. Moreover, the study
+inspects the impact of a moderating variable on the relationship between the factors and
+an organization’s intention to adopt BCT.
+Sustainability 2021 ,13, 9404 5 of 31
+2.3. Blockchain Technology in Australia
+Australia is a BCT-friendly country where both government and private associations
+promote the adoption of BCT [ 43]. Australia started working with BCT when the Stan-
+dards Australia submitted a proposal to the International Organization for Standardization
+(ISO) to develop BCT standards in 2016 [ 44]. Afterward, the Australian government put
+signiﬁcant efforts to foster BCT adoption within the country. The most recent initiative
+of the Australian government is the issuance of the national roadmap for BCT [ 45]. The
+CSIRO’s Data61, an Australian research agency, has been working to develop a national
+BCT network to enhance coordination among the public organizations [ 46]. The ASX,
+Australia’s biggest stock exchange, partnered with “Digital Asset Holdings” to develop a
+private blockchain for the Australian equity market [ 47]. Blockchain Australia, a private
+association, has actively been working to encourage the use of BCT among Australian
+organizations [ 48]. Australia has all the technological infrastructure that organizations
+require to embrace innovation such as BCT [ 49,50]. Gunasekera and Valenzuela [ 18] and
+Maroun and Daniel [ 19] found in their study that the adoption of BCT could enhance the
+productivity of Australian industries such as ﬁnance, grain, and supply chain by 8–10%,
+resulting in a 2.6% rise in GDP . Garrard and Fielke [ 51] and Cao, et al. [ 52] mentioned
+that the beef sold under an Australian label in different countries is not Australian. To
+protect Australia’s reputation, they suggested using shipment tracking with BCT to over-
+come this meat fraud. Monroe, et al. [ 53] recommended the use of BCT to empower
+consumers for peer-to-peer energy trading. They asserted that the BCT-enabled energy
+trading system could enhance the sharing economy in Australia. According to Foth and
+McQueenie [ 54], BCT can create many unexpected jobs in regional Australia. Australia is a
+land of innovators, early adopters, and avid users of innovation [55].
+Considering this strong support and potential of BCT, it appears essential for Aus-
+tralian organizations to consider adopting BCT to enhance their business value and perfor-
+mance. However, recent documents issued by the Australian government and renowned
+ﬁrms indicate that Australian organizations have not adopted BCT heavily [ 49,56,57].
+Therefore, the identiﬁcation of the factors inﬂuencing the organizational adoption of BCT
+in Australia seems important.
+3. Research Model and Hypotheses
+3.1. TOE Framework
+From the various options available in the IS literature, we chose the Technology–
+Organization–Environment (TOE) framework [ 58] as an underpinning theory to investigate
+BCT adoption. The TOE framework proposes that an organization’s intention to adopt new
+technology is inﬂuenced by three contextual factors, namely, technology, organization, and
+the environment as depicted in Figure 1.
+The technology context refers to the characteristics of technology that inﬂuence its
+adoption process. The organizational context describes the inﬂuence of an organization’s
+features and resources on innovation adoption decisions. Environmental context states the
+inﬂuence of the external and inter-organizational environment in which an organization
+operates its business.
+Sustainability 2021 ,13, 9404 6 of 31
+Sustainability 2021 , 13, x FOR PEER REVIEW 6 of 33 
+ 
+Figure 1. The TOE framework [58].  
+Rationale for Choosing the TOE Framework 
+Although other theories exist that have ex tensively been used to examine the adop-
+tion of different technological innovations at the organizational level [59], such as Diffu-
+sion of Innovation (DoI) [60] and Institutional Theory [61], the TOE framework has more 
+explanatory power as explained below: 
+• Most of the available IT adoption theories at the organizational level are variants of 
+the TOE framework that either divide or ex tend its dimensions. For example, the In-
+stitutional Theory [61] describes the influence of the environmental perspective on 
+technology adoption that is already part of the TOE framework. Similarly, the DoI 
+theory [60] contains technology and organizational aspects, which are also part of the 
+TOE framework. 
+• Since the context is an important aspect of technology adoption, the TOE provides a 
+useful starting point to examine the adop tion process where it takes place [62]. 
+• The TOE is the most validated theory to examine the adoption of new technologies 
+at the organization level [59]. 
+Due to these advantages of the TOE framew ork, many studies have used it to inves-
+tigate the organizational adoption of different  technologies such as electronic data inter-
+change (EDI), enterprise resource planning (ERP), supply chain management (SCM), cus-
+tomer relationship management (CRM) sy stems, cloud computing, and e-commerce 
+[59,62]. Thus, the TOE framework was an appr opriate choice for this study. The extended 
+version of the TOE framework prepared for this study is presented in Figure 2. 
+Figure 1. The TOE framework [58].
+Rationale for Choosing the TOE Framework
+Although other theories exist that have extensively been used to examine the adoption
+of different technological innovations at the organizational level [ 59], such as Diffusion
+of Innovation (DoI) [ 60] and Institutional Theory [ 61], the TOE framework has more
+explanatory power as explained below:
+ Most of the available IT adoption theories at the organizational level are variants of
+the TOE framework that either divide or extend its dimensions. For example, the
+Institutional Theory [ 61] describes the inﬂuence of the environmental perspective on
+technology adoption that is already part of the TOE framework. Similarly, the DoI
+theory [ 60] contains technology and organizational aspects, which are also part of the
+TOE framework.
+ Since the context is an important aspect of technology adoption, the TOE provides a
+useful starting point to examine the adoption process where it takes place [62].
+ The TOE is the most validated theory to examine the adoption of new technologies at
+the organization level [59].
+Due to these advantages of the TOE framework, many studies have used it to inves-
+tigate the organizational adoption of different technologies such as electronic data inter-
+change (EDI), enterprise resource planning (ERP), supply chain management (SCM), cus-
+tomer relationship management (CRM) systems, cloud computing, and e-commerce [ 59,62].
+Thus, the TOE framework was an appropriate choice for this study. The extended version
+of the TOE framework prepared for this study is presented in Figure 2.
+Grouped into the technological, organizational, and environmental contexts of the
+TOE framework, the following sections explain the factors and their relevant hypotheses
+developed for this study.
+Sustainability 2021 ,13, 9404 7 of 31
+Sustainability 2021 , 13, x FOR PEER REVIEW 7 of 33 
+ 
+ 
+Figure 2. Extended TOE framework for the organizational adoption of BCT in th e Australian context.  
+Grouped into the technological, organizati onal, and environmental contexts of the 
+TOE framework, the following sections explai n the factors and their relevant hypotheses 
+developed for this study. 
+3.2. Technology Context 
+3.2.1. Perceived Benefits (PB) 
+Perceived benefits refer to the extent to which organizations perceive an innovation 
+would be beneficial for their business [60]. BCT has many bene fits such as improved au-
+diting, cost reduction, enhanc ed data provenance, and trust that encourage organizations 
+to its adoption [25]. De Castro, Tanner and John ston [26] stated a positive role of perceived 
+benefits in the adoption of BCT among orga nizations working in the wealth management 
+industry. Therefore, it can be hypothesized that: 
+Hypothesis 1 (H1). Perceived benefits positively influence an organization’s intention to adopt 
+BCT. 
+Figure 2. Extended TOE framework for the organizational adoption of BCT in the Australian context.
+3.2. Technology Context
+3.2.1. Perceived Beneﬁts (PB)
+Perceived beneﬁts refer to the extent to which organizations perceive an innovation
+would be beneﬁcial for their business [ 60]. BCT has many beneﬁts such as improved
+auditing, cost reduction, enhanced data provenance, and trust that encourage organizations
+to its adoption [ 25]. De Castro, Tanner and Johnston [ 26] stated a positive role of perceived
+beneﬁts in the adoption of BCT among organizations working in the wealth management
+industry. Therefore, it can be hypothesized that:
+Hypothesis 1 (H1).Perceived benefits positively influence an organization’s intention to adopt BCT.
+3.2.2. Perceived Compatibility (PC)
+Perceived compatibility refers to an organization’s perception of how technology
+would be aligned with its business objectives [ 60]. De Castro, Tanner and Johnston [ 26]
+stated organizations become more inclined to adopt BCT when they perceive it as com-
+patible with their IT infrastructure. On the other hand, organizations feel anxious about
+Sustainability 2021 ,13, 9404 8 of 31
+BCT adoption when they do not ﬁnd it compatible with their business operations [ 21].
+Therefore, it can be hypothesized that:
+Hypothesis 2 (H2).Perceived compatibility positively inﬂuences an organization’s intention to
+adopt BCT.
+3.2.3. Perceived Complexity (PCM)
+Perceived complexity can be deﬁned as the degree to which organizations perceive
+BCT as difﬁcult to understand and use [ 26]. Wong, Leong, Hew, Tan and Ooi [ 21] reported
+complexity as a barrier for BCT adoption. Technicalities involved in BCT such as the
+use of public and private keys and hashing of blocks are complex processes that make
+organizations reluctant to its adoption [ 63]. Clohessy and Acton [ 22] reported that the
+perceived complexity of BCT hinders organizations from its adoption. Therefore, it can be
+hypothesized that:
+Hypothesis 3 (H3).Perceived complexity negatively inﬂuences an organization’s intention to
+adopt BCT.
+3.2.4. Perceived Information Transparency (PIT)
+Information transparency refers to the easy availability and veriﬁcation of information
+for everyone [ 64]. Resultantly, it reduces information asymmetry and increases the trace-
+ability of information [ 40]. The organizations that value information transparency are more
+inclined to adopt technology that brings transparency within their business operations [ 64].
+In BCT, every participant holds the same copy of data, and all the transactions are validated
+through a mutual consensus among the participants. This creates a transparent environ-
+ment wherein the business stakeholders feel more conﬁdent while taking any decision [ 65].
+BCT maintains an unchangeable history of the information (money, documents, and so
+on) that enhances trust among the stakeholders. Wamba, et al. [ 66] stated that information
+transparency plays a signiﬁcant role in organizational intention to adopt BCT. Therefore, it
+can be hypothesized that:
+Hypothesis 4 (H4).Perceived information transparency positively inﬂuences an organization’s
+intention to adopt BCT.
+3.2.5. Perceived Disintermediation (PD)
+Disintermediation refers to the removal of an intermediary to run business opera-
+tions [ 67]. Disintermediation is a core feature of BCT that enables organizations to have
+peer–peer transactions without the need for intermediaries, which saves economic costs,
+removes risks associated with the intermediaries, and improves business performance [ 68].
+Organizations could readily interact, send approvals, and trace records when there is no
+third party involved. The disintermediation helps organizations to directly reach out to
+their customers. Consequently, they save overhead expenses, time, and earn customer
+loyalty. O’Dair [ 69] reported a positive impact of disintermediation of BCT in the music
+industry. Therefore, it can be hypothesized that:
+Hypothesis 5 (H5).Perceived disintermediation positively inﬂuences an organization’s intention
+to adopt BCT.
+3.3. Organizational Context
+3.3.1. Organization Innovativeness (OI)
+Organization innovativeness can be deﬁned as the willingness and openness of an
+organization to adopt new and novel ideas regardless of the risks associated with them [ 70].
+Considering the newness and novelty of BCT, organization innovativeness seems vital for
+its adoption. Thong and Yap [ 71] reported organizational innovativeness as an essential
+Sustainability 2021 ,13, 9404 9 of 31
+factor towards the adoption of new technology. Similarly, Lin, et al. [ 72] mentioned that
+innovativeness is extensively linked to an organization’s decision to adopt and implement
+innovations. They claimed that higher organizational innovativeness leads to a greater
+organizational transformation, which results in the adoption of new technology. Since
+BCT is an innovative technology, it can be expected that an organization open to new
+ideas which considers BCT a source of opportunities is more likely to adopt BCT. Nuryyev,
+et al. [ 73] found a statistically signiﬁcant effect of innovativeness on the organizational
+adoption of BCT. Therefore, it can be hypothesized that:
+Hypothesis 6 (H6).Organization innovativeness positively inﬂuences an organization’s intention
+to adopt BCT.
+3.3.2. Organizational Learning Capability (OLC)
+Organization learning capability refers to an organization’s ability to acquire, store,
+share, and implement new knowledge in its business decisions. We adapted this concept
+from the organizational learning theory proposed by Argyris and Schon [ 74]. To sustain in a
+turbulent business world, organizations are highly necessitated to capture new knowledge
+about the contemporary technological trends happening in the world and apply this
+knowledge to their business decisions. Organizational learning brings novelty that could
+motivate organizations to adopt an innovation such as BCT. Woiceshyn [ 75] stated that
+when organizations acquire new knowledge from their environment, it leads them to adopt
+new ideas. Organizational change and innovation come through organizational learning.
+Kulkarni and Patil [ 41] stated that the organization’s learning signiﬁcantly inﬂuences BCT
+adoption. Therefore, it can be hypothesized that:
+Hypothesis 7 (H7).Organizational learning capability positively inﬂuences an organization’s
+intention to adopt BCT.
+3.3.3. Top Management Support (TMS)
+Top management support is an integral part of an organization’s decision to adopt
+new technology. The lack of leadership support reduces the chances of adopting an inno-
+vation such as BCT [ 42]. De Castro, Tanner and Johnston [ 26] found that an organization
+adopts BCT when its leadership provides required resources. Clohessy and Acton [ 22]
+recommended top management support essential for the adoption of BCT. Therefore, it
+can be hypothesized that:
+Hypothesis 8 (H8).Top management support positively inﬂuences an organization’s intention to
+adopt BCT.
+3.4. Environment Context
+3.4.1. Competition Intensity (CI)
+Competition intensity, also known as competitive or external pressure, is the extent to
+which organizations feel a fear of losing competitive advantage. Competition intensity has
+been recognized as an essential factor in the organizational adoption of BCT [ 33]. When
+an organization adopts BCT, its competitors also follow suit to maintain their competitive
+position. Wong, Leong, Hew, Tan and Ooi [ 21] said that competitive pressure catalyzes an
+organization’s decision to adopt BCT. Therefore, it can be hypothesized that:
+Hypothesis 9 (H9).Competitive intensity positively inﬂuences an organization’s intention to
+adopt BCT.
+3.4.2. Government Support (GS)
+Government support refers to a government’s policies, initiatives, and incentives
+to foster adoption of technology. According to Koster and Borgman [ 42], government
+Sustainability 2021 ,13, 9404 10 of 31
+support works as a major driving force to speed up the adoption process of BCT. De Castro,
+Tanner and Johnston [ 26] stated that when a government does not provide proper support
+such as establishment of regulations, widespread adoption of BCT among organizations
+remains impossible. Kulkarni and Patil [ 41] and Wong, Leong, Hew, Tan and Ooi [ 21]
+reported government support as a critical factor for the adoption of BCT. Therefore, it can
+be hypothesized:
+Hypothesis 10 (H10).Government support positively inﬂuences an organization’s intention to
+adopt BCT.
+3.4.3. Trading Partner Readiness (TPR)
+Trading partner readiness refers to the preparedness of the partners of an organization
+to embrace new technology. Similar to any inter-organizational system, BCT requires strong
+collaboration and interaction among the trading partners [ 76]. When trading partners
+do not have adequate technical and ﬁnancial resources, an organization alone cannot
+decide on the adoption of BCT [ 32]. Bai and Sarkis [ 34] claimed that the willingness of
+trading partners is essential for the organizational adoption of BCT. Therefore, it can be
+hypothesized:
+Hypothesis 11 (H11).Trading partner readiness positively inﬂuences an organization’s intention
+to adopt BCT.
+3.4.4. Standards Uncertainty (SU)
+Standards uncertainty refers to the unpredictability and unavailability of formal
+standards and regulations, generally enforced by government institutions, for a technology.
+The absence of the relevant standards creates doubts and uncertainties among organizations
+about the beneﬁts of new technology [ 77]. On the other hand, well-developed standards
+guide or even force organizations to invest in innovations. This is also true for the BCT [ 78].
+Given the nascent nature, relevant standards for BCT are still missing, causing organizations
+to be doubtful about its future development [79]. Therefore, it can be hypothesized that:
+Hypothesis 12 (H12).Standards uncertainty negatively inﬂuences an organization’s intention to
+adopt BCT.
+3.5. Direct and Moderating Effect of Perceived Risks
+As stated in the research conducted by Peter and Ryan [ 80], Bauer is the ﬁrst person
+that proposed the concept of perceived risks. Afterward, many studies were conducted
+to measure the effect of perceived risks on technological innovations. According to Peter
+and Ryan [ 80], perceived risks refer to the nature and amount of risk perceived by an orga-
+nization when deciding an action in an unknown situation. In the IT adoption literature,
+perceived risks are negatively associated with the adoption of new technologies [ 81–83].
+The existing literature reports different facets of perceived risks such as performance risk,
+ﬁnancial risk, time risk, physical risk, social risk, psychological risk, and privacy risk for
+the adoption of different technologies, e.g., e-services, mobile commerce, social robot, and
+smartphones [ 84]. In the case of BCT, it is not free from the risks such as privacy, high data
+storage, and “51% attack” that hinder organizations from its adoption [ 63]. Yoo, et al. [ 85]
+mentioned perceived risks as a barrier to the organizational adoption of BCT. The risks
+cause doubt among organizations towards BCT adoption [ 86,87]. Therefore, it can be
+hypothesized that:
+Hypothesis 13 (H13).Perceived risks negatively inﬂuence an organization’s intention to adopt BCT.
+As stated above, the past studies report a direct negative effect of perceived risks on
+the adoption of technological innovations. The moderating role of perceived risks when
+applying the TOE framework to examine the organizational adoption of BCT has yet to
+Sustainability 2021 ,13, 9404 11 of 31
+receive attention in the information system research. The reasons to choose perceived risks
+as a moderating variable in this study are given below:
+(i) As previously mentioned in Section 1 of this paper, semi-structured interviews with
+the BCT experts were conducted to identify the factors inﬂuencing BCT adoption
+in Australia. The experts highlighted the moderating role of perceived risks in BCT
+adoption.
+(ii) The past literature reports the moderating role of perceived risks in the adoption of
+different technological innovations. For example, Shen and Chiou [ 88] found that
+the perceived risks moderates the relationship between perceived ease of use and
+intention towards using internet services. Similarly, Khaksar, Khosla, Singaraju and
+Slade [ 84] reported the moderating role of perceived risks in the adoption of social
+assistive technology.
+(iii) Given the higher value of the “uncertainty avoidance index” for Australia in Table 1 ,
+anecdotally it can be assumed that the perceived risks would moderate the rela-
+tionship between the inﬂuential factors and organizations’ intention to adopt new
+technology such as BCT.
+Therefore, the following hypotheses are proposed for the moderating effect of per-
+ceived risks on the adoption of BCT among Australian organizations.
+Hypothesis 13a (H13a ).Perceived risks moderate the relationship between perceived beneﬁts and
+an organization’s intention to adopt BCT.
+Hypothesis 13b (H13b ).Perceived risks moderate the relationship between perceived compatibility
+and an organization’s intention to adopt BCT.
+Hypothesis 13c (H13c ).Perceived risks moderate the relationship between perceived information
+transparency and an organization’s intention to adopt BCT.
+Hypothesis 13d (H13d ).Perceived risks moderate the relationship between perceived disinterme-
+diation and an organization’s intention to adopt BCT.
+Hypothesis 13e (H13e ).Perceived risks moderate the relationship between organization innova-
+tiveness and an organization’s intention to adopt BCT.
+Hypothesis 13f (H13f ).Perceived risks moderate the relationship between organizational learning
+capability and an organization’s intention to adopt BCT.
+Hypothesis 13g (H13g ).Perceived risks moderate the relationship between top management
+support and an organization’s intention to adopt BCT.
+Hypothesis 13h (H13h ).Perceived risks moderate the relationship between competition intensity
+and an organization’s intention to adopt BCT.
+Hypothesis 13i (H13i ).Perceived risks moderate the relationship between government support
+and an organization’s intention to adopt BCT.
+Hypothesis 13j (H13j ).Perceived risks moderate the relationship between trading partner readi-
+ness and an organization’s intention to adopt BCT.
+Since the perceived risks per se have a negative impact on BCT adoption, we hy-
+pothesized its moderating effects for those factors that have a positive impact on BCT
+adoption.
+Sustainability 2021 ,13, 9404 12 of 31
+4. Research Methodology
+The study uses a positivist research approach with a quantitative methodology to
+collect and analyze the research data.
+4.1. Research Method
+We employed a survey method to collect data for this study. A licensed version of the
+Qualtrics online survey tool was utilized. The online survey is useful to collect data from a
+larger population to measure and test multiple variables and hypotheses [ 89]. Furthermore,
+the survey method is cost and time-effective, requires less effort to manage, and is free
+from respondent prejudice [90]. Thus, it was used in this study.
+4.2. Unit of Analysis and Unit of Observation
+A unit of analysis refers to the entity that a researcher states their ﬁndings are about
+at the end of the research. It can be an individual, group, or organization depending
+upon the nature and context of a study [ 91]. On the other hand, a unit of observation
+is an entity, which a researcher observes while investigating something about the unit
+of analysis [ 92,93]. For this study, the unit of analysis was the Australian organizations,
+and the unit of observation was the individuals that should be working as CEO, or the
+senior IT people such as CTO, IT directors/managers, and had a minimum of three years of
+BCT-related knowledge and experience. This cohort of senior management and IT people
+were selected because they are always well informed about the organization’s strategies
+and decisions such as adopting new technology [71].
+To automatically ﬁlter out the unwanted unit of analysis and the unit of observation,
+screening questions were incorporated at the start of the online survey. The screening
+questions help to keep survey data relevant and free from respondent bias [ 94,95]. The
+screening questions used in this study are provided in Appendix B.
+4.3. Target Population and Sampling
+BCT adopters and potential adopter organizations in Australia were the target popula-
+tion for this study. To ﬁnd the total population, we used multiple online sources including
+the Australian securities exchange directory, Blockchain Australia, Google, LinkedIn, and
+BCT-related websites such as “VentureRadar”, “Crunchbase”, and “Coindesk”. According
+to the data collected from these online sources, the total population size obtained was 917
+organizations belonging to different industries that made the target population diverse.
+For the sampling, we used the proportionate stratiﬁed random sampling technique
+that is appropriate when the target population is heterogeneous as in our study [ 90]. This
+technique requires dividing the total population into homogeneous subgroups known as
+strata. We randomly selected a sample proportionate to the size of each stratum. This
+technique allows researchers to reduce selection bias and overall variance in the sample,
+which in turn increases the generalizability of research ﬁndings. For this study, an industry
+type was taken as a stratum. We obtained a sample size of 500, which is acceptable in social
+science research [ 89]. According to Sekaran and Bougie [ 89], a sample size between 30 and
+500 is acceptable. Table 3 provides sampling details.
+Table 3. Summary of the stratiﬁed random sampling and response rate.
+Type of Industry Total Population Sample Percentage (Out of 917) Response Percentage (Out of 500)
+Automotive 17 11 1.2 7 1.4
+Construction 11 8 0.87 3 0.6
+Consultancy 56 30 3.27 14 2.8
+Education 117 61 6.65 21 4.2
+Electronics 28 16 1.74 7 1.4
+Finance 80 44 4.8 13 2.6
+Government 3 2 0.22 1 0.2
+IT 219 112 12.21 43 8.6
+Sustainability 2021 ,13, 9404 13 of 31
+Table 3. Cont.
+Type of Industry Total Population Sample Percentage (Out of 917) Response Percentage (Out of 500)
+Insurance 56 30 3.27 12 2.4
+Manufacturing 38 23 2.51 11 2.2
+Pharmaceutical 46 26 2.84 9 1.8
+Retail 29 17 1.85 8 1.6
+Supply chain 145 75 8.18 29 5.8
+Telecommunication 24 15 1.64 7 1.4
+Transport 33 20 2.18 8 1.6
+Legal 15 10 1.09 3 0.6
+Total 917 500 54.53 196 39.2
+4.4. Questionnaire Designing
+Several measures were taken to design a reliable questionnaire for this study:
+ We used validated measuring items for the perceived compatibility, perceived com-
+plexity, perceived information transparency, top management support, organization
+innovativeness, organizational learning capability, government support, trading part-
+ner readiness, competition intensity, standards uncertainty, and perceived risks from
+the existing peer-reviewed literature on information systems research. The items
+were adapted and modiﬁed to meet the requirement of this study. Table 4 provides
+detail about the measuring items for each factor and their sources. Measuring items
+for perceived disintermediation were not found in the existing literature, hence we
+developed it for this study by following the guidelines of MacKenzie, et al. [96].
+ Use of duplicate and long questions, technical and specialized terms were avoided.
+ Feedback from the senior academic and researchers working in the information system
+domain was sought to evaluate instrument relevance and content clarity in order to
+avoid any difﬁculty or non-response that the respondents might have faced while
+completing the survey.
+ The questionnaire was sent to language experts for proofreading including review of
+grammatical errors and wording.
+The questionnaire is provided in Appendix A.
+Table 4. Factor, their measuring items, and source.
+Factor Measuring Items Source
+Perceived beneﬁts (PB)Blockchain reduces overhead expenses
+[97,98]Blockchain reduces data error rates
+Blockchain reduces transaction costs while transferring funds
+Blockchain saves time while accomplishing business tasks
+Blockchain increases the organization’s overall productivity
+Perceived compatibility
+(PC)Blockchain ﬁts well with business processes
+[99,100] Blockchain is compatible with technological infrastructure
+Blockchain ﬁts well with technological skills
+Perceived complexity
+(PCM)Blockchain requires extra technical skills to use
+[99] Blockchain is difﬁcult to understand from a business perspective
+Blockchain is conceptually difﬁcult to understand from a technical perspective
+Perceived information
+transparency (PIT)Access to information across the blockchain
+[101] View of any activity with the data in the blockchain
+See the ﬂow of the entire data in the blockchain
+Perceived
+disintermediation (PD)Store data without the involvement of any intermediary
+AuthorsAccess data without the involvement of any intermediary
+Share data without the involvement of any intermediary
+Audit without the involvement of any intermediary
+Top management
+support (TMS)Provides the necessary resources for blockchain
+[102,103] Considers blockchain as strategically important
+Actively involved in IT-related decisions
+Organizational
+innovativeness (OI)Actively seek new ideas
+[104] Like to do things in new ways
+Are open to taking risks
+Sustainability 2021 ,13, 9404 14 of 31
+Table 4. Cont.
+Factor Measuring Items Source
+Organizational learning
+capability (OLC)Have a mechanism to store new knowledge
+[105]Encourage their employees to acquire new knowledge and skills
+Employees share their work experiences, ideas, or learning with each other
+Have practices to utilize new knowledge in their IT-related decisions
+Government support
+(GS)Policies support the adoption of blockchain
+[98] Introduces economic incentives for blockchain adoption
+Is active in setting up the facilities to promote blockchain
+Trading partner
+readiness (TPR)Willing to adopt blockchain
+[97] Technologically ready to adopt blockchain
+Financially ready to adopt blockchain
+Competitive intensity
+(CI)Feel pressure when competitors have adopted blockchain
+[106] Feel the fear of losing a competitive advantage if they do not adopt it
+See competitors beneﬁting from adopting blockchain
+Standards uncertainty
+(SU)See blockchain has not reached its maturity
+[104] See blockchain still requires changes to become more efﬁcient compared with existing
+technologies
+Cannot predict that blockchain would become an industry standard in the near future
+Perceived risks (PR)It is not secured
+[107] Transactions’ information will be compromised while using it
+It will not provide its expected beneﬁts
+Intention to adopt
+blockchain (INT)Adopt blockchain whenever they will have access to it in the future
+[108] Adopt blockchain in the future
+Adopt blockchain frequently in the future
+4.5. Measurement Scale
+The 5- and 7-point are the two main versions of the Likert scale that are frequently
+used in information systems research. However, the 7-point scale outperforms the 5-point
+scale in terms of providing more ﬂexibility and options to respondents, which increases
+the reliability and accuracy of the research ﬁndings [ 109,110]. Therefore, the 7-point Likert
+scale was considered more appropriate for the present study. We used response options
+from “1—strongly disagree” to “7—strongly agree”.
+4.6. Pilot Testing
+The reliability and validity of the instrument were conﬁrmed through a pilot study
+using data from 25 completed surveys. The sample for the pilot study was drawn from the
+same sample frame used for the main study.
+4.7. Data Collection Process
+The survey link along with the research objectives was emailed to the target orga-
+nizations. To collect accurate information, every organization was requested to forward
+the survey to the CEO, or senior IT staff such as the CTO and IT directors/managers
+having BCT experience and knowledge. A follow-up email was sent to the non-respondent
+organizations. During the entire data collection period, ethical protocols were observed.
+A total of 196 anonymous completed surveys were received, yielding a response rate
+of 39.2%, which is considered acceptable in online survey research [111].
+4.8. Data Analysis Technique
+To analyze the survey data, the PLS-SEM technique with SmartPLS 3 software was
+used. Despite the availability of other data analysis techniques such as correlation, regres-
+sion, and analysis of variance, PLS-SEM is widely used for quantitative data analysis [ 112].
+It allows researchers to analyze the relationship of the observed (measured) and unob-
+served variables (latent constructs) while the traditional techniques can analyze measured
+variables only [ 113]. Additionally, the moderator effects can be directly incorporated and
+computed into the model with the PLS-SEM [ 112]. Thus, the PLS-SEM was used in this
+study. In the PLS-SEM process, data is analyzed in the form of a measurement model
+and structural model. The measurement model measures latent variables whereas the
+structural model measures the hypotheses based on the path analysis.
+Sustainability 2021 ,13, 9404 15 of 31
+5. Data Analysis and Results
+5.1. Preliminary Data Analysis
+Before proceeding to the SEM analysis, a preliminary data analysis conﬁrmed the
+absence of missing values, selection bias, non-response bias, multicollinearity, and common
+method bias. Such biases in data reduce the validity of ﬁndings. Therefore, we conﬁrmed
+that the data were free from these biases.
+Nonresponse Bias: Nonresponse bias occurs when some respondents of the chosen
+sample are unable or unwilling to participate in the survey [ 114]. The respondents who fail
+to respond may be different from the rest of the population. Consequently, the true repre-
+sentation of the target population is not reﬂected in the survey data. The inferences derived
+from the collected data may be false and the validity of the research is compromised [ 115].
+The nonresponse bias is introduced when the recruitment of the respondents is based on
+self-selection [ 115,116]. The participants voluntarily decide to participate in a survey. To
+assure that the collected data is free from self-selection bias and it truly represents the target
+population, we performed the comparison of the sample population and the respondents
+who completed the survey as shown in Table 3. From the comparison, it is clear that the
+actual respondents truly reﬂect the target and sample population, which conﬁrms that no
+selection bias was present in the collected data. Furthermore, we checked the non-response
+bias with Levene’s test for equality of variances [ 117] and independent-samples t-test, for
+all the factors. We divided the respondents between early respondents (who responded be-
+fore the reminder, 45.5%) and late respondents (who responded after the reminder, 54.5%).
+The equal variance signiﬁcance values for all the factors were found to be higher than the
+signiﬁcance level of 0.05, which implies that both groups, early and late respondents, have
+the same variance. Thus, non-response bias was not found in the data.
+Multicollinearity: We assessed multicollinearity for every exogenous factor through
+the value of variance inﬂation factor (VIF) as suggested by Hair Jr, et al. [ 118]. The VIF
+value of ﬁve shows high collinearity. For this study, the VIF values for all the factors
+were found between 1.123 and 1.953. Thus, no multicollinearity was found among the
+independent factors.
+Common Method Bias: We performed the Harman one-factor test to conﬁrm common
+bias as suggested by Podsakoff, et al. [ 119]. The test yielded fourteen factors. The largest
+factor showed 29.313% of the total variance. A value less than 50% implies that common
+method bias was not present in data [120].
+5.2. Demographic
+The demographic data indicated that most of the organizations were from the bank-
+ing/ﬁnance, education, IT, and supply chain industries. These industries seem to be most
+appropriate for BCT. Regarding the respondents, females were 42.9% and males 57.1%. The
+age of most respondents was between 26 and 50 years. In the educational qualiﬁcation
+of the respondents, postgraduate degree was highest, undergraduate second, and college
+certiﬁcate third. Most of the respondents were CEO (15.3%), CTO (23%), and IT directors
+(16.8%). Others included IT manager, technology strategy manager, database administrator,
+supply chain manager, and ﬁnance director/manager.
+5.3. Measurement Model
+The study assessed the reliability of the measurement model by calculating Cronbach’s
+alpha, composite reliability (CR), average variance extracted (AVE); discriminant validity
+through the square root of the AVE, and cross-loadings. The minimum acceptable values of
+outer-loadings, Cronbach’s alpha, and CR should be equal or greater than 0.7, and for the
+AVE, it should be greater than 0.5 [ 121]. Similarly, for the square root of the AVE of every
+construct, the value should exceed all the correlations among the constructs in the same
+block of the factor correlation matrix. Overall, the statistical results for the measurement
+model were above the minimum acceptable values as depicted in Tables 5 and 6 . Hence,
+the reliability and validity criteria for this study were achieved. The values for the cross-
+Sustainability 2021 ,13, 9404 16 of 31
+loadings were according to the recommendations of Fornell and Larcker [ 122]. Each
+measuring item of every construct was loaded higher than the indicators of any other
+off-diagonal construct.
+Table 5. Reliability of constructs and their measuring items.
+Construct with Measuring Items Outer Loadings CR A VE Cronbach’s Alpha
+Competitive Intensity (CI) 0.863 0.678 0.761
+CI1 0.754
+CI2 0.879
+CI3 0.831
+Perceived Complexity (PCM) 0.894 0.738 0.823
+CMP1 0.829
+CMP2 0.869
+CMP3 0.878
+Government Support (GS) 0.900 0.749 0.833
+GS1 0.863
+GS2 0.846
+GS3 0.887
+Intention to adopt BCT (INT) 0.881 0.711 0.796
+INT1 0.786
+INT2 0.858
+INT3 0.883
+Organization Innovativeness (OI) 0.887 0.724 0.810
+OI1 0.829
+OI2 0.856
+OI3 0.868
+Organization Learning Capability
+(OLC)0.887 0.663 0.831
+OLC1 0.778
+OLC2 0.860
+OLC3 0.782
+OLC4 0.834
+Perceived Beneﬁts (PB) 0.905 0.704 0.859
+PB1 0.776
+PB2 0.871
+PB3 0.851
+PB4 0.856
+Perceived Compatibility (PC) 0.899 0.749 0.833
+PC1 0.866
+PC2 0.847
+PC3 0.883
+Perceived Disintermediation (PD) 0.879 0.645 0.816
+PD1 0.744
+PD2 0.847
+PD3 0.814
+PD4 0.804
+Perceived Information
+Transparency (PIT)0.929 0.814 0.887
+PIT1 0.889
+PIT2 0.903
+PIT3 0.914
+Perceived Risks (PR) 0.880 0.711 0.797
+PR1 0.834
+PR2 0.806
+PR3 0.887
+Standards Uncertainty (SU) 0.879 0.708 0.793
+SU1 0.777
+SU2 0.876
+SU3 0.867
+Top Management Support (TMS) 0.886 0.722 0.807
+TMS1 0.827
+TMS2 0.875
+TMS3 0.846
+Trading Partner Readiness (TPR) 0.886 0.722 0.805
+TPR1 0.773
+TPR2 0.914
+TPR3 0.857
+Sustainability 2021 ,13, 9404 17 of 31
+Table 6. Correlation of constructs compared with the square root of AVEs.
+Constructs CI PCM GS INT OI OLC PB PC PD PIT PR SU TMS TPR
+CI 0.823 *
+PCM 0.682 0.859 *
+GS 0.043 0.411 0.866 *
+INT 0.327 0.581 0.588 0.843 *
+OI 0.159 0.382 0.505 0.223 0.851 *
+OLC 0.204 0.222 0.110 0.195 0.638 0.814 *
+PB 0.410 0.500 0.225 0.589 0.435 0.270 0.839 *
+PC 0.290 0.041 0.481 0.502 0.577 0.588 0.163 0.865 *
+PD 0.565 0.490 0.195 0.323 0.067 0.484 0.244 0.568 0.803 *
+PIT 0.500 0.603 0.365 0.063 0.217 0.166 0.457 0.485 0.348 0.902 *
+PR 0.235 0.111 0.402 0.684 0.359 0.405 0.326 0.215 0.667 0.518 0.843 *
+SU 0.175 0.299 0.025 0.270 0.168 0.383 0.038 0.130 0.514 0.463 0.651 0.841 *
+TMS 0.288 0.620 0.319 0.601 0.500 0.147 0.530 0.501 0.073 0.219 0.120 0.598 0.850 *
+TPR 0.304 0.321 0.540 0.301 0.101 0.073 0.631 0.090 0.297 0.336 0.475 0.208 0.533 0.850 *
+* square root of AVEs.
+Sustainability 2021 ,13, 9404 18 of 31
+5.4. Structural Model
+To determine the signiﬁcance of path coefﬁcients, a standard bootstrapping procedure
+with 500 samples and 196 cases was performed. The structural model was evaluated
+with the values of coefﬁcients of determination (R2), effect size (f2), predictive relevance
+coefﬁcient (Q2), and the path coefﬁcients [118,123].
+The value of R2is the extent to which the independent constructs explain the vari-
+ance in the dependent constructs [ 118]. The bigger value of R2reﬂects that the model
+has more predictive power. We found R2= 0.822, which implies that perceived beneﬁts
+(PB), perceived compatibility (PC), perceived complexity (PCM), perceived information
+transparency (PIT), perceived disintermediation (PD), top management support (TMS),
+organization innovativeness (OI), organization learning capability (OLC), government
+support (GS), competition intensity (CI), trading partner readiness (TPR), standards un-
+certainty (SU), and perceived risks (PR) accounted for 88.2% variance of the intention to
+adopt blockchain (INT).
+The value of f2represents the strength of the effect of a particular independent con-
+struct on the dependent construct in the structural model [ 124,125]. Cohen, et al. [ 126]
+states f2= 0.02; f2= 0.15, and f2= 0.35 as small, medium, and large effects, respectively. Our
+results for f2were found between 0.016 and 0.608. The perceived beneﬁts (PB), perceived
+information transparency (PIT), perceived disintermediation (PID), and trading partner
+readiness (TPR) were reported to have a large effect size, whereas, perceived complexity
+(PC), perceived risks (PR), organization innovativeness (OI), organization learning capa-
+bility (OLC), top management support (TMS), competition intensity (CI), and standards
+uncertainty (SU) were reported with medium effect. However, perceived complexity (PCM)
+and government support (GS) showed small effects. According to Chin, et al. [ 127], even
+the smallest value of f2for a construct is important because it reﬂects that the construct at
+least has some effect.
+In addition to R2, we performed the predictive relevance test (Stone–Geisser’s Q2) to
+evaluate the predictive validity of the models [ 128–130]. The higher value of Q2for a depen-
+dent construct indicates that the model has predictive relevance for that construct [ 131]. In
+our case, the dependent construct is “intention to adopt blockchain” (INT). We performed
+the blindfolding procedure to obtain the cross-validated redundancy value for INT, which
+was Q2= 0.526 indicating a high predictive relevance of the model for the INT.
+To test the hypotheses, we performed the signiﬁcance test for path coefﬁcients. Ac-
+cording to Chin, Marcolin and Newsted [ 127], the path coefﬁcients should have a “t-value”
+greater than 1.645 at a signiﬁcance level of 0.05 and more than 2 at a signiﬁcance level of
+0.01. Table 7 shows the signiﬁcance test of the path coefﬁcients.
+From the obtained results, it is clear that the hypotheses H1–H13 possess more than
+the accepted threshold of the “t-value” [ 127]. The path coefﬁcient of perceived beneﬁts
+(PB), perceived compatibility (PC), perceived information transparency (PIT), perceived
+disintermediation (PD), organization innovativeness (OI), organization learning capability
+(OLC), top management support (TMS), competition intensity (CI), government support
+(GS), and trading partner readiness (TPR) has a positive value, which implies that they
+have a positive relationship with intention to adopt blockchain (INT), whereas, perceived
+complexity (PCM), standards uncertainty (SU), and perceived risks (PR) have a negative
+value, which means they have an adverse relationship with INT. In other words, the higher
+the complexity, risks, and uncertainty of the BCT are, the lower the organization’s intention
+to adopt BCT in Australia.
+Sustainability 2021 ,13, 9404 19 of 31
+Table 7. Path coefﬁcient analysis.
+Hypothesis Relationship Path Coefﬁcient t-Value Decision
+H1 PB !INT 0.259 3.947 * Supported
+H2 PC !INT 0.178 3.158 ** Supported
+H3 CMP !INT 0.165 3.859 ** Supported
+H4 PIT !INT 0.163 3.713 * Supported
+H5 PD !INT 0.357 6.341 * Supported
+H6 OI !INT 0.273 4.770 * Supported
+H7 OLC !INT 0.056 2.371 ** Supported
+H8 TMS !INT 0.124 3.102 * Supported
+H9 CI !INT 0.265 4.538 * Supported
+H10 GS !INT 0.041 2.337 * Supported
+H11 TPR !INT 0.210 3.950 * Supported
+H12 SU !INT 0.170 3.185 * Supported
+H13 PR !INT 0.146 2.506 * Supported
+H13a PB !PR!INT 0.104 0.951 ** Not Supported
+H13b PC !PR!INT 0.163 2.204 * Supported
+H13c PIT !PR!INT 0.087 1.995 * Supported
+H13d PD !PR!INT 0.175 2.583 * Supported
+H13e OI !PR!INT 0.209 2.925 * Supported
+H13f OLC !PR!INT 0.102 1.252 ** Not Supported
+H13g TMS !PR!INT 0.026 0.458 ** Not Supported
+H13h CI !PR!INT 0.380 3.561 * Supported
+H13i GS !PR!INT 0.008 0.265 ** Not Supported
+H13j TPR !PR!INT 0.013 0.190 ** Not Supported
+**p< 0.01, * p< 0.05.
+5.5. Measuring the Moderating Effects
+To examine the moderating effects of PR on the relationship between PB, PC, PIT, PD,
+OI, OLC, TMS, CI, GS, and TPR with INT, we used the product indicator approach [ 132].
+The results showed that PR has signiﬁcant moderating effects on the relationship of PC, PIT,
+PD, OI, CI, and INT that conﬁrms the hypotheses H13b, H13d, H13e, and H13h. However,
+no moderating effects of PR were found on the relationship between PB, OLC, TMS, GS,
+and TRP with INT, which implies that the hypotheses H13a, H13f, H13g, H13i, and H13j
+are not supported.
+Additionally, we evaluated the performance of the model with and without adding
+PR as a moderating variable. It was noted that the signiﬁcance level of the relationship
+between the dependent and independent variables signiﬁcantly changes. For example, the
+TPR becomes insigniﬁcant at p< 0.01. However, it remains signiﬁcant at p< 0.05.
+6. Discussion
+The study aims to ﬁnd the factors that inﬂuence the adoption of BCT among Aus-
+tralian organizations. Based on the TOE framework, we found that different technological,
+organizational, and environmental factors affect the organizational adoption of BCT in Aus-
+tralia. The results support all the hypotheses, H1–H13, developed in this study. In addition
+to that, the results conﬁrm that the variable perceived risks (PR) moderates the relationship
+between inﬂuential factors and BCT adoption. The results of this study extend the TOE
+framework by adding the new factors: perceived information transparency (PIT), perceived
+disintermediation (PD), organization innovativeness (OI), organization learning capability,
+competition intensity (CI), trading partner readiness (TPR), and standards uncertainty
+(SU) under its technological, organizational, and environmental contexts. Furthermore,
+the TOE framework has been extended with the inclusion of the perceived risks (PR) as a
+moderating variable.
+In the context of the TOE framework, the results and their interpretation and com-
+parison with the past studies are presented below. The implications of the study are also
+presented.
+Sustainability 2021 ,13, 9404 20 of 31
+6.1. Technology Context
+The technological factors are perceived beneﬁts, compatibility, information trans-
+parency, and disintermediation positively inﬂuence the adoption of BCT, whereas the
+perceived complexity has a negative inﬂuence. The effect of perceived disintermedia-
+tion is a new insight that was not reported in the past studies on BCT adoption. When
+organizations perceive that they could run their business without the involvement of any in-
+termediary, they are attracted to adopt BCT. The disintermediation reduces the transaction
+cost and speedy payments [ 67,133], which motivates organizations to adopt BCT. However,
+Adams, et al. [ 134] pointed out that “blockchains may replace many ﬁrms across a wide
+number of sectors who currently (earn) proﬁt from providing services (as an intermediary).
+Disintermediation may be painful for many (organizations) and have its own risks”. There-
+fore, we suggest the BCT community create opportunities for organizations providing their
+services as an intermediary. The ﬁndings show that the compatibility of BCT with an orga-
+nization’s technological and ﬁnancial needs signiﬁcantly affects its adoption. This ﬁnding
+is consistent with Kim [ 135] but inconsistent with De Castro, Tanner and Johnston [ 26]
+that found BCT incompatible with the legacy infrastructure of the wealth management
+industry in South Africa. Therefore, we recommend organizations carefully evaluate and
+understand the compatibility of BCT with their business objectives before deciding on its
+adoption. The study found that the perceived complexity of BCT negatively impacts an
+organization’s decision to adopt BCT. The organizations that perceive BCT as difﬁcult to
+use or understand feel fear of its adoption which ultimately contributes to the low BCT
+adoption in Australia. De Castro, Tanner and Johnston [ 26] found that people from non-IT
+backgrounds perceive BCT as more complex compared with those having IT know-how.
+Therefore, we suggest organizations develop a better understanding of BCT while deciding
+on its adoption. In this study, perceived transparency of information through BCT has been
+found to be an enabler of the organizational adoption of BCT, which is consistent with the
+study of Al-Jabri and Roztocki [ 64]. Information transparency enhances trust among the
+organizations involved in the BCT network, consequently, organizations coordinate and
+share information with full of conﬁdence.
+6.2. Organizational Context
+Organizational factors are innovativeness, and organization learning capability were
+found to be signiﬁcant to the adoption of BCT, which is similar to the ﬁndings of John-
+son [ 136], Kulkarni and Patil [ 41], and Newby, Nguyen and Waring [ 70]. We found that the
+organizations that are capable of acquiring new knowledge, store and apply that knowl-
+edge; hence, they are deemed to be open to new ideas, and ready to take risks, meaning
+they are more likely to adopt BCT. Therefore, we suggest organizations should have a
+learning mechanism to remain aware of developments happening in the world that could
+be important for their business. Regarding the top management support, our ﬁndings are
+consistent with those of Orji, Kusi-Sarpong, Huang and Vazquez-Brust [ 25], and Clohessy
+and Acton [ 22], who found that without the support of top management, the organizational
+adoption of BCT is less likely. This is because the top leadership is the authority to approve
+strategic decisions such as the adoption of new technology and allocate resources for it.
+This ﬁnding contrasts with Wong, Leong, Hew, Tan and Ooi [ 21] who found an insigniﬁcant
+impact of top management support on BCT adoption. Anecdotally, this could be that the
+top management was not convinced or was not aware of the beneﬁts of BCT. Therefore, we
+suggest educating top management about BCT while initiating the idea of its adoption.
+6.3. Environmental Context
+The environmental factors are competition intensity, government support, and trading
+partner readiness positively, whereas the standards uncertainty negatively inﬂuences the
+adoption of BCT. The positive impact of the competition intensity on BCT adoption implies
+that organizations want to remain competitive at the forefront of their rivals. Competition
+intensity encourages organizations to ﬁnd ways to grow and sustain their competitive
+Sustainability 2021 ,13, 9404 21 of 31
+advantage. Prior studies have also established that the adoption of BCT is important for
+organizations to retain their competitiveness [ 21,33,34]. We found a signiﬁcant effect of
+government support on the adoption of BCT. This means organizations are satisﬁed with
+the recent initiatives of the Australian government for BCT. This ﬁnding also conﬁrms the
+results of Orji, Kusi-Sarpong, Huang and Vazquez-Brust [ 25] who reported that when a
+government shows support in terms of developing policies and regulations, it enhances
+organizations’ conﬁdence and trust in the BCT. However, few studies reported that govern-
+ments have not laid down speciﬁc regulations about BCT for different industries, so any
+change in regulations may adversely affect investment in BCT projects [ 45,137,138]. There-
+fore, we recommend that organizations check government regulations relevant to their
+industry before making any decision to adopt BCT. We found trading partner readiness
+has a signiﬁcant inﬂuence on BCT adoption. This ﬁnding conﬁrms the inter-organizational
+nature of BCT. Organizations can not adopt BCT until their trading partner are ready
+to adopt it. Any decision of BCT adoption without the willingness of trading partners
+would result in negative consequences [ 32,41]. We endorse the statement presented by Bai
+and Sarkis [ 34] wherein they suggested to ensure the willingness of multiple stakehold-
+ers to adopt BCT. The impact of standards uncertainty was identiﬁed as negative on the
+adoption of BCT, which implies that organizations are still seeking BCT-related industry
+standards. This ﬁnding is consistent with Guo and Liang [ 139] who reported that BCT
+adoption would be unsolved until the industry standards related to BCT are established. To
+accelerate the adoption of BCT, establishment of industry standards for BCT it is urgently
+needed [ 32,63,104]. This ﬁnding may help the relevant government and private industrial
+agencies to pay attention to the development of BCT standards.
+6.4. Direct Effect of Perceived Risks
+The direct impact of perceived risks is found to be negative causing organizations
+to be reluctant to adopt BCT. Resultantly, BCT adoption is not gaining attention among
+Australian organizations. This ﬁnding is aligned with the earlier study of Yoo, Bae, Park
+and Yang [ 85] that reported that the risks such as privacy disclosure, misuse of information,
+and un-scalability hinder organizations to adopt BCT. It suggests that organizations should
+carefully analyze the risks before deciding on the adoption of BCT.
+6.5. Moderating Effect of Perceived Risks
+We found that the perceived risks moderate the relationship between perceived
+compatibility (PC), perceived information transparency (PIT), perceived disintermedi-
+ation (PD), organization innovativeness (OI), competition intensity (CI), and intention
+to adopt blockchain (INT), thereby supporting the hypotheses H13b–H13e, and H13h.
+These ﬁndings imply that irrespective of the compatibility of BCT with organizations’
+business values—their expectations for information transparency through BCT, perceiving
+BCT disintermediation as an opportunity, being innovative, and feeling the intensity of
+competitiveness—organizations become reluctant to adopt BCT because of the risks linked
+with BCT. The moderating role of PR was not found for PB (perceived beneﬁts), organi-
+zation learning capability (OLC), top management support (TMS), government support
+(GS), and trading partner readiness (TPR). Thus, the hypotheses H13a, H13f, H13g, H13i,
+and H13j are not supported. This is contrary to our proposed hypotheses. A possible
+explanation for this might be that when the organizations consider the high level of per-
+ceived beneﬁts, top management support, trading partner readiness, and government
+support, they feel more comfortable and are inclined towards BCT adoption. Moreover, if
+organizations are more knowledgeable about BCT through their learning capability, they
+know how to manage the risks.
+6.6. Implications
+The study outlines some important implications for both theory and practice, which
+are given below.
+Sustainability 2021 ,13, 9404 22 of 31
+6.6.1. Theoretical Implications
+First , according to the best of our knowledge, this is one of the ﬁrst positivist studies
+that provides empirical evidence about the factors inﬂuencing organizational adoption
+of BCT in the Australian context. Most of the research on BCT is from its technical un-
+derstanding and advancement perspective. Although the technological perspective of
+BCT is important for its future development, understanding its adoption is also critical for
+maximum value creation. Thus, ﬁrst, this study theoretically contributes by establishing the
+foundation for future research in the Australian context. Second, the prior studies on the
+organizational adoption of BCT establish a linear relationship between the TOE factors and
+the intention to adopt BCT. This is one of the ﬁrst studies that extends the TOE framework
+by introducing a moderating variable for the organizational adoption of BCT. Researchers
+can use this extended TOE model shown in Figure 2 as a starting point for future research
+to study organizations’ intentions to adopt any innovation in general and BCT in particular.
+With the addition of the new factors, the extended model has more explanatory power
+than the original TOE framework. Third, the study identiﬁes the factors that inﬂuence the
+organizational adoption of BCT, particularly in Australia. Fourth, we extend the existing
+literature on different factors inﬂuencing BCT adoption in general. Future research can
+study these factors in-depth to expand the list. Fifth, the research presents a validated
+research model for the adoption of BCT at the organization level. This model can be used to
+study the adoption of other distributed inter-organizational technologies such as electronic
+data interchange (EDI). Finally, we have developed and validated a measuring scale for the
+perceived disintermediation, which would help researchers in their future studies on BCT.
+6.6.2. Practical Implications
+In addition to having theoretical implications, the study has various important impli-
+cations for practice. First, our ﬁndings would provide guidelines to the policy and decision
+makers working with the Australian government to develop national policies to promote
+BCT adoption among Australian organizations. This also applies to the private associations
+such as “Blockchain Australia” that have actively been working to foster BCT adoption in
+Australia. Second, disintermediation is found to be a signiﬁcant factor in BCT adoption.
+This ﬁnding urges the organizations working as an intermediary to redesign their business
+models to sustain in the market. Third, the ﬁndings could help consulting and marketing
+companies to consider factors identiﬁed in this study while providing their services to the
+potential adopters of BCT, saving time and effort. For example, it is useless to provide
+services to a customer whose trading partners are not ready to adopt BCT. Fourth, we have
+found that organizations feel reluctant to adopt BCT due to the lack of established stan-
+dards of BCT. Therefore, this ﬁnding is important for governments and private regulatory
+bodies to develop relevant standards to remove the uncertainties hindering BCT adoption.
+Fifth, the study highlights the role of an organization’s top management in BCT adoption.
+Therefore, the organization’s top management should be determined and focused on the
+adoption of new technology. Top management’s clarity towards value creation is con-
+ducive to achieve successful adoption of BCT in their organization. Finally, the competition
+intensity is found positive for BCT adoption. Therefore, IT vendors develop BCT apps that
+provide a competitive advantage to their customers.
+7. Conclusions
+The BCT is an important technology that could bring several strategic and operational
+advantages to organizations. However, its adoption among organizations has not reached
+a signiﬁcant level including in Australia. To examine this lack of uptake, this study
+aimed to ﬁnd the factors inﬂuencing the adoption of BCT among Australian organizations.
+By following a quantitative approach, this study proposed and conﬁrmed an extended
+TOE framework. In contrast to the earlier studies on the organizational adoption of
+BCT that establish a linear relationship between inﬂuential factors and an organization’s
+intention to adopt BCT, this study introduced a moderating variable. A data sample
+Sustainability 2021 ,13, 9404 23 of 31
+was collected from the Australian organization through an online survey. The PLS-SEM
+technique with SmartPLS software was used for the data analysis. The results of the
+study highlight that technological factors: perceived beneﬁts, compatibility, information
+transparency, and disintermediation; organizational factors: organization innovativeness,
+organization learning capability, and top management support; and environmental factors:
+competition intensity, government support, trading partners readiness, and standards
+uncertainty play an important role in the organizational adoption of BCT in Australia.
+The ﬁndings of this study provide direction to decision makers and policymakers, BCT
+vendors, technology practitioners, and researchers to develop strategies that contribute to
+the successful adoption and value creation of BCT.
+Although this study achieved its aim, additional empirical research will further en-
+hance its applicability and validity. For example, at the moment, the study focuses on
+the Australian context that reduces its external validity. Future research can be conducted
+in other countries, which have different regulatory and technological developments, to
+enhance its generalizability. Further, the study is cross-sectional. There is a high likelihood
+of changes in ﬁndings as time progresses. In the future, we hope to develop a dynamic
+model capable of predicting an organizations’ intention to adopt BCT over time.
+Author Contributions: Conceptualization, S.M. and M.C. (Mehmood Chadhar); methodology, S.M.,
+M.C. (Mehmood Chadhar) and S.V .; software, S.M.; validation, M.C. (Mehmood Chadhar), S.V . and
+M.C. (Madhu Chetty); formal analysis, S.M.; investigation, M.C. (Mehmood Chadhar); resources,
+M.C. (Mehmood Chadhar) and M.C. (Madhu Chetty); data curation, S.M.; writing—original draft
+preparation, S.M.; writing—review and editing, M.C. (Mehmood Chadhar), S.V . and M.C. (Madhu
+Chetty); visualization, S.M., S.V . and M.C. (Mehmood Chadhar); supervision, M.C. (Mehmood
+Chadhar), S.V . and M.C. (Madhu Chetty); project administration, M.C. (Mehmood Chadhar), S.V . and
+M.C. (Madhu Chetty). All authors have read and agreed to the published version of the manuscript.
+Funding: This research received no external funding.
+Institutional Review Board Statement: The study was conducted according to the guidelines of
+the Australian National Statement on Ethical Conduct in Human Research 2007 and approved by
+the Human Research Ethics Committee (HREC), Federation University Australia, via Project No.
+B19-017.
+Informed Consent Statement: Informed consent was obtained from all subjects involved in the
+study.
+Data Availability Statement: All the relevant data has been included in this article. Additional
+information can be provided on request.
+Conﬂicts of Interest: The authors declare no conﬂict of interest.
+Appendix A
+Survey Questionnaire
+Please respond to each statement by indicating the degree of agreement or disagree-
+ment by using the following scale.
+1 = Strongly Disagree
+2 = Disagree
+3 = Somewhat Disagree
+4 = Neutral
+5 = Somewhat Agree
+6 = Agree
+7 = Strongly Agree
+Sustainability 2021 ,13, 9404 24 of 31
+Factor Questions
+Perceived beneﬁts (PB)In my opinion, organizations adopt blockchain when they perceive that:
+Blockchain reduces overhead expenses
+Blockchain reduces data error rates
+Blockchain reduces transaction costs while transferring funds
+Blockchain saves time while accomplishing business tasks
+Blockchain increases the organization’s overall productivity
+Perceived
+compatibility (PC)In my opinion, organizations adopt blockchain when they perceive that:
+Blockchain ﬁts well with their business processes
+Blockchain is compatible with their technological infrastructure
+Blockchain ﬁts well with their technological skills
+Perceived complexity
+(PCM)In my opinion, organizations do not adopt blockchain when they perceive that it:
+Blockchain requires extra technical skills to use
+Blockchain is difﬁcult to understand from a business perspective
+Blockchain is conceptually difﬁcult to understand from a technical perspective
+Perceived information
+transparency (PIT)In my opinion, organizations adopt blockchain when they perceive that:
+Blockchain enables them to have transparent access to information across the network
+Blockchain enables them to have a transparent view of any activity in the data
+Blockchain enables them to have a transparent ﬂow of the entire data
+Perceived
+disintermediation (PD)In my opinion, organizations adopt blockchain when they perceive that:
+Blockchain enables them to store their data without the involvement of any intermediary
+Blockchain enables them to access their data without the involvement of any intermediary
+Blockchain enables them to share their data without the involvement of any intermediary
+Blockchain enables them to audit without the involvement of any intermediary
+Top management
+support (TMS)In my opinion, organizations adopt blockchain when:
+Their top management provides the necessary resources for blockchain
+Their top management considers blockchain as strategically important
+Their top management is actively involved in IT-related decisions
+Organizational
+innovativeness (OI)In my opinion, organizations adopt blockchain when:
+They actively seek new ideas
+They like to do things in new ways
+They are open to taking risks
+Organizational
+learning capability
+(OLC)In my opinion, organizations adopt blockchain when:
+They have a mechanism to store new knowledge
+They encourage their employees to acquire new knowledge and skills
+Their employees share their work experiences, ideas, or learning with each other
+They have practices to utilize new knowledge in their IT-related decisions
+Government support
+(GS)In my opinion, organizations adopt blockchain when:
+The Australian government supports the adoption of blockchain
+The Australian government introduces economic incentives for blockchain adoption
+The Australian government is active in setting up facilities to promote blockchain
+Trading partner
+readiness (TPR)In my opinion, organizations adopt blockchain when:
+Their trading partners are also willing to adopt blockchain
+Their trading partners are also technologically ready to adopt blockchain
+Their trading partners are also ﬁnancially ready to adopt blockchain
+Competitive intensity
+(CI)In my opinion, organizations adopt blockchain when:
+They feel pressure when their competitors have adopted it
+They feel the fear of losing a competitive advantage if they do not adopt it
+They see their competitors beneﬁting from adopting it
+Standards uncertainty
+(SU)In my opinion, organizations do not adopt blockchain when:
+They see blockchain has not reached its maturity
+They see blockchain still requires changes to become more efﬁcient compared with existing technologies
+They cannot predict that blockchain would become an industry standard in the near future
+Perceived risks (PR)In my opinion, organizations do not adopt blockchain when they perceive that:
+Blockchain is not secured
+Their transactions’ information will be compromised while using blockchain
+Blockchain will not provide its expected beneﬁts
+Intention to adopt
+blockchain (INT)In my opinion:
+Organizations would adopt blockchain whenever they will have access to it in the future
+Organizations would adopt blockchain in the future
+Organizations would adopt blockchain frequently in the future
+Sustainability 2021 ,13, 9404 25 of 31
+Appendix B
+Screening Questions
+Q1.Which country do you belong to? Please select from the list of countries given below.
+(survey exits if a respondent selects a country other than Australia)
+Q2. Which of the following age groups best describes you?
+(survey exits if a respondent select age less than 18 years)
+Q3. Please indicate which of the following technologies best describes your knowl-
+edge/experience?
+ B2B-Commerce
+ Blockchain Technology
+ Electronic Data Interchange (EDI)
+ Distributed DBMS
+ Other (please type)
+(survey exits if a respondent does not select “Blockchain Technology”)
+Q4. Please indicate which of the following technologies your organization has been
+involved with?
+ B2B-Commerce
+ Cloud Computing
+ RFID
+ Robotics
+ Internet of Things (IoT)
+ Blockchain Technology
+ Electronic Data Interchange (EDI)
+ Artiﬁcial Intelligence
+ Distributed DBMS
+ Social Media Technologies
+ Gaming
+ Other
+(survey exits if a respondent does not select “Blockchain Technology”)
+Q5. Please indicate which of the following job titles best describes your role?
+ Chief Executive Ofﬁcer President Chairperson
+ Chief Technology Ofﬁcer Chief Information Ofﬁcer Chief Digital Ofﬁcer
+ IT Manager
+ Business Development Manager
+ Other
+ IT Director
+ Technology Strategy Manager
+ Finance Director Finance Manager
+ Customer Service Manager
+ Database Administrator
+ Supply Chain Manager
+ Store Manager
+ Sales Manager
+ Other
+(survey exits if a respondent does not select IT related job)
+Q6.How many years of knowledge/experience of blockchain technology do you have?
+ Less than 3 years
+ 3–4 years
+ 5–7 years
+ 8–10 years
+ Above 10 years
+Sustainability 2021 ,13, 9404 26 of 31
+(survey exits if a respondent selects “Less than 3 years”)
+Q7. How would you rate your knowledge of blockchain technology?
+ Little knowledge of blockchain technology
+ Good knowledge of blockchain technology
+ Excellent knowledge of blockchain technology
+(survey exits if a respondent selects “Little knowledge of blockchain technology”)
+Q8. What is/was the status of involvement of your organization with blockchain
+technology?
+ Currently interested in blockchain technology and actively seeking related informa-
+tion
+ Currently in the process of deciding adoption of blockchain technology
+ Currently implemented blockchain technology
+ Previously implemented blockchain technology, but currently not using
+Q9. What is/was the size of your organization in terms of the number of employees?
+ Having employees between 1 and 4
+ Having employees between 5 and 19
+ Having employees between 20 and 199
+ Having employees more than 200
+Q10. What is the annual revenue of your organization?
+ Less than $1 million
+ Between $1–5 million
+ Between $5–50 million
+ Above $50 million
+Q11. Which of the following industries describes your organization?
+ Automotive
+ Electronics
+ Services
+ Chemical
+ Finance/Banking
+ Insurance
+ Construction
+ Manufacturing
+ Education
+ Consultancy
+ Pharmaceutical
+ Information Technology
+ Supply Chain
+ Real Estate
+ Government
+ Telecommunication
+ Retail
+ Transport
+ Legal
+ Other
+Q12. What type of blockchain technology you have knowledge/experience of?
+ Public
+ Private
+ Hybrid
+ Other (please type)
+Sustainability 2021 ,13, 9404 27 of 31
+Q13. What is the highest level of your education?
+ College Certiﬁcate
+ Undergraduate Degree
+ Postgraduate Degree or Higher
+ Professional Certiﬁcate/Diploma
+ Other (please type)
+Q14. What is your gender?
+ Male
+ Female
+ Not Speciﬁed
+References
+1. Nakamoto, S. Bitcoin: A peer-to-peer electronic cash system. Decentralized Bus. Rev. 2008 . [CrossRef]
+2. Gorkhali, A.; Li, L.; Shrestha, A. Blockchain: A literature review. J. Manag. Anal. 2020 ,7, 321–343. [CrossRef]
+3. Casino, F.; Dasaklis, T.K.; Patsakis, C. A systematic literature review of blockchain-based applications: Current status, classiﬁcation
+and open issues. Telemat. Inform. 2019 ,36, 55–81. [CrossRef]
+4. Alketbi, A.; Nasir, Q.; Talib, M.A. Blockchain for government services—Use cases, security beneﬁts and challenges. In Proceedings
+of the 15th Learning and Technology Conference (L&T), Jeddah, Saudi Arabia, 25–26 February 2018; pp. 112–119.
+5. Ganne, E. Can Blockchain Revolutionize International Trade? World Trade Organization: Geneva, Switzerland, 2018.
+6. La Cava, A.; Naatus, M.K. Disrupting business as usual: Blockchain startups in the international remittance market. Int. J. Innov.
+Digit. Econ. 2020 ,11, 47–54. [CrossRef]
+7. Mohammed, A.; Potdar, V .; Yang, L. Key factors affecting blockchain adoption in organizations. In Proceedings of the International
+Conference on Big Data and Security, Nanjing, China, 20–22 December 2019; pp. 455–467.
+8. Underwood, S. Blockchain beyond bitcoin. Commun. ACM 2016 ,59, 15–17. [CrossRef]
+9. Tapscott, D.; Tapscott, A. How blockchain will change organizations. MIT Sloan Manag. Rev. 2017 ,58, 10.
+10. Alzahrani, S.; Daim, T.U. Analysis of the cryptocurrency adoption decision: Literature review. In Proceedings of the Portland
+International Conference on Management of Engineering and Technology (PICMET), Portland, OR, USA, 25–29 August 2019;
+pp. 1–11.
+11. Chen, S.; Yan, J.; Tan, B.; Liu, X.; Li, Y. Processes and challenges for the adoption of blockchain technology in food supply chains:
+A thematic analysis. In Proceedings of the iConference, Washington, DC, USA, 31 March–3 April 2019.
+12. Xu, M.; Chen, X.; Kou, G. A systematic review of blockchain. Financ. Innov. 2019 ,5, 27. [CrossRef]
+13. Lakhani, K.; Iansiti, M. The truth about blockchain. Harv. Bus. Rev. 2017 ,95, 119–127.
+14. PwC. Global Blockchain Survey. Available online: https://www.pwccn.com/en/research-and-insights/publications/global-blo
+ckchain-survey-2018/global-blockchain-survey-2018-report.pdf (accessed on 23 July 2021).
+15. Deloitte. Global Blockchain Survey. Available online: https://www2.deloitte.com/content/dam/Deloitte/cz/Documents/ﬁnan
+cial-services/cz-2018-deloitte-global-blockchain-survey.pdf (accessed on 23 July 2021).
+16. Woodside, J.M.; Augustine, F.K., Jr.; Giberson, W. Blockchain technology adoption status and strategies. J. Int. Technol. Inf. Manag.
+2017 ,26, 65–93.
+17. ACS. Blockchain Challenges for Australia. Available online: https://www.acs.org.au/content/dam/acs/acs-publications/ACS-
+Blockchain-Technical-Whitepaper-2019.pdf (accessed on 23 July 2021).
+18. Gunasekera, D.; Valenzuela, E. Adoption of blockchain technology in the australian grains trade: An assessment of potential
+economic effects. Econ. Pap. 2020 . [CrossRef]
+19. Maroun, E.; Daniel, J. Opportunities for use of blockchain technology in supply chains: Australian manufacturer case study. In
+Proceedings of the International Conference on Industrial Engineering and Operations Management (IEOM), Bangkok, Thailand,
+5–7 March 2019.
+20. Holotiuk, F.; Moormann, J. Organizational adoption of digital innovation: The case of blockchain technology. In Proceedings of
+the European Conference on Information Systems (ECIS), Portsmouth, UK, 23–28 June 2018.
+21. Wong, L.-W.; Leong, L.-Y.; Hew, J.-J.; Tan, G.W.-H.; Ooi, K.-B. Time to seize the digital evolution: Adoption of blockchain in
+operations and supply chain management among Malaysian SMEs. Int. J. Inf. Manag. 2019 ,52, 101997. [CrossRef]
+22. Clohessy, T.; Acton, T. Investigating the inﬂuence of organizational factors on blockchain adoption. Ind. Manag. Data Syst. 2019 ,
+119, 1457–1491. [CrossRef]
+23. Hong, W.; Chan, F.K.; Thong, J.Y.; Chasalow, L.C.; Dhillon, G. A framework and guidelines for context-speciﬁc theorizing in
+information systems research. Inf. Syst. Res. 2013 ,25, 111–136. [CrossRef]
+24. Chandra, S.; Kumar, K.N. Exploring factors inﬂuencing organisational adoption of augmented reality in e-commerce: Empirical
+analysis using Technology-Organisation-Environment model. J. Electron. Commer. Res. 2018 ,19, 237–265.
+Sustainability 2021 ,13, 9404 28 of 31
+25. Orji, I.J.; Kusi-Sarpong, S.; Huang, S.; Vazquez-Brust, D. Evaluating the factors that inﬂuence blockchain adoption in the freight
+logistics industry. Transp. Res. Part E 2020 ,141, 102025. [CrossRef]
+26. De Castro, P .; Tanner, M.; Johnston, K. Perceived factors inﬂuencing blockchain adoption in the asset and wealth management
+industry in the Western Cape, South Africa. In Proceedings of the International Development Informatics Association Conference,
+Macau, China, 25–27 March 2020; pp. 48–62.
+27. Albrecht, S.; Reichert, S.; Schmid, J.; Strüker, J.; Neumann, D.; Fridgen, G. Dynamics of blockchain implementation-a case study
+from the energy sector. In Proceedings of the 51st Hawaii International Conference on System Sciences, Waikoloa Village, HI,
+USA, 2–6 January 2018.
+28. Umrani, W.A.; Kura, K.M.; Ahmed, U. Corporate entrepreneurship and business performance. PSU Res. Rev. 2018 . [CrossRef]
+29. Baron, R.M.; Kenny, D.A. The moderator–mediator variable distinction in social psychological research: Conceptual, strategic,
+and statistical considerations. J. Personal. Soc. Psychol. 1986 ,51, 1173. [CrossRef]
+30. Dobrovnik, M.; Herold, D.M.; Fürst, E.; Kummer, S. Blockchain for and in logistics: What to adopt and where to start. Logistics
+2018 ,2, 18. [CrossRef]
+31. Barnes, B.W., III; Xiao, B. Organizational adoption of blockchain technology: An ecosystem perspective. In Proceedings of the
+Diffusion Interest Group In Information Technology, Munich, Germany, 15 December 2019.
+32. Kühn, O.; Jacob, A.; Schüller, M. Blockchain adoption at German logistics service providers. In Proceedings of the Artiﬁcial
+Intelligence and Digital Transformation in Supply Chain Management: Innovative Approaches for Supply Chains—Hamburg
+International Conference of Logistics (HICL), Hamburg, Germany, 25–27 September 2019; Volume 27, pp. 387–411.
+33. Wong, L.-W.; Tan, G.W.-H.; Lee, V .-H.; Ooi, K.-B.; Sohal, A. Unearthing the determinants of Blockchain adoption in supply chain
+management. Int. J. Prod. Res. 2020 ,58, 2100–2123. [CrossRef]
+34. Bai, C.; Sarkis, J. A supply chain transparency and sustainability technology appraisal model for blockchain technology. Int. J.
+Prod. Res. 2020 ,58, 2142–2162. [CrossRef]
+35. Kouhizadeh, M.; Saberi, S.; Sarkis, J. Blockchain technology and the sustainable supply chain: Theoretically exploring adoption
+barriers. Int. J. Prod. Econ. 2020 ,231, 107831. [CrossRef]
+36. Ghode, D.; Yadav, V .; Jain, R.; Soni, G. Adoption of blockchain in supply chain: An analysis of inﬂuencing factors. J. Enterp. Inf.
+Manag. 2020 ,33, 437–456. [CrossRef]
+37. Kalaitzi, D.; Jesus, V .; Campelos, I. Determinants of blockchain adoption and perceived beneﬁts in food supply chain. In
+Proceedings of the Logistics Research Network (LRN), Northampton, UK, 4–6 September 2019.
+38. Loklindt, C.; Moeller, M.-P .; Kinra, A. How blockchain could be implemented for exchanging documentation in the shipping
+industry. In Proceedings of the International Conference on Dynamics in Logistics, Bremen, Germany, 20–22 February 2018;
+pp. 194–198.
+39. Post, R.; Smit, K.; Zoet, M. Identifying factors affecting blockchain technology diffusion. In Proceedings of the Americas
+Conference on Information Systems (AMCIS), New Orleans, LA, USA, 16–18 August 2018.
+40. Hoxha, V .; Sadiku, S. Study of factors inﬂuencing the decision to adopt the blockchain technology in real estate transactions in
+Kosovo. Prop. Manag. 2019 ,37, 684–700. [CrossRef]
+41. Kulkarni, M.; Patil, K. Block chain technology adoption for banking services-model based on technology-organization-
+environment theory. SSRN 2020 . [CrossRef]
+42. Koster, F.; Borgman, H. New kid on the block! Understanding blockchain adoption in the public sector. In Proceedings of the
+53rd Hawaii International Conference on System Sciences, Maui, HI, USA, 7–10 January 2020.
+43. Choi, D.; Chung, C.Y.; Seyha, T.; Young, J. Factors affecting organizations’ resistance to the adoption of blockchain technology in
+supply networks. Sustainability 2020 ,12, 8882. [CrossRef]
+44. Malik, S.; Chadhar, M.; Chetty, M.; Vatanasakdakul, S. An exploratory study of the adoption of blockchain technology among
+australian organizations: A theoretical model. In Proceedings of the European, Mediterranean, and Middle Eastern Conference
+on Information Systems, Dubai, United Arab Emirates, 25–26 November 2020; pp. 205–220.
+45. Yadav, V .S.; Singh, A.; Raut, R.D.; Govindarajan, U.H. Blockchain technology adoption barriers in the Indian agricultural supply
+chain: An integrated approach. Resour. Conserv. Recycl. 2020 ,161, 104877. [CrossRef]
+46. Malik, M.S.; Chadhar, M.; Chetty, M. Factors Affecting the Organizational Adoption of Blockchain Technology: An Australian
+Perspective. In Proceedings of the 54th Hawaii International Conference on System Sciences, Kauai, HI, USA, 5–8 January 2021.
+47. Zhou, Y.; Soh, Y.S.; Loh, H.S.; Yuen, K.F. The key challenges and critical success factors of blockchain implementation: Policy
+implications for Singapore’s maritime industry. Mar. Policy 2020 ,122, 104265. [CrossRef]
+48. Novak, M. Crypto-friendliness: Understanding blockchain public policy. J. Entrep. Public Policy 2019 ,9, 165–184. [CrossRef]
+49. Australia, S. Roadmap for Blockchain Standards. Available online: https://www.standards.org.au/getmedia/ad5d74db-8da9-46
+85-b171-90142ee0a2e1/Roadmap_for_Blockchain_Standards_report.pdf.aspx (accessed on 24 July 2021).
+50. DISER. The National Blockchain Roadmap. Available online: https://www.industry.gov.au/sites/default/ﬁles/2020-02/natio
+nal-blockchain-roadmap.pdf (accessed on 24 July 2021).
+51. Garrard, R.; Fielke, S. Blockchain for trustworthy provenances: A case study in the Australian aquaculture industry. Technol. Soc.
+2020 ,62, 101298. [CrossRef]
+52. Cao, S.; Powell, W.; Foth, M.; Natanelov, V .; Miller, T.; Dulleck, U. Strengthening consumer trust in beef supply chain traceability
+with a blockchain-based human-machine reconcile mechanism. Comput. Electron. Agric. 2020 ,180, 105886. [CrossRef]
+Sustainability 2021 ,13, 9404 29 of 31
+53. Monroe, J.G.; Hansen, P .; Sorell, M.; Berglund, E.Z. Agent-based model of a blockchain enabled peer-to-peer energy market:
+Application for a neighborhood trial in Perth, Australia. Smart Cities 2020 ,3, 53. [CrossRef]
+54. Foth, M.; McQueenie, J. Creatives in the country? Blockchain and agtech can create unexpected jobs in regional Australia. The
+Conversation , 12 June 2019.
+55. AUSTRADE. Australian Digital Innovation on the Rise. Available online: https://www.austrade.gov.au/international/invest/r
+esources/publications (accessed on 5 June 2021).
+56. ACS. Blockchain 2030, A Look at the Future of Blockchain in Australia. Available online: https://www.acs.org.au/content/dam
+/acs/acs-publications/ACS-Data61-Blockchain-2030-Report.pdf (accessed on 5 August 2020).
+57. Ward, O.; Rochemont, S. Understanding Central Bank Digital Currencies. Available online: https://www.actuaries.org.uk/syste
+m/ﬁles/field/document/Understanding%20CBDCs%20Final%20-%20disc.pdf (accessed on 2 February 2021).
+58. Tornatsky, L.; Fleischer, M. The Process of Technology Innovation ; Lexington Books: Lexington, MA, USA, 1990.
+59. Rogers, E.M. Diffusion of Innovations ; Simon and Schuster: New York, NY, USA, 2003.
+60. DiMaggio, P .J.; Powell, W.W. The iron cage revisited: Institutional isomorphism and collective rationality in organizational ﬁelds.
+Am. Sociol. Rev. 1983 ,48, 147–160. [CrossRef]
+61. Oliveira, T.; Martins, M.F. Literature review of information technology adoption models at ﬁrm level. Electron. J. Inf. Syst. Eval.
+2011 ,14, 110.
+62. Baker, J. The technology–organization–environment framework. In Information Systems Theory ; Springer: Berlin/Heidelberg,
+Germany, 2012; pp. 231–245.
+63. Sadhya, V .; Sadhya, H. Barriers to adoption of blockchain technology. In Proceedings of the Americas Conference on Information
+Systems, New Orleans, LA, USA, 16–18 August 2018.
+64. Al-Jabri, I.M.; Roztocki, N. Adoption of ERP systems: Does information transparency matter? Telemat. Inform. 2015 ,32, 300–310.
+[CrossRef]
+65. Rizal Batubara, F.; Ubacht, J.; Janssen, M. Unraveling transparency and accountability in blockchain. In Proceedings of the 20th
+Annual International Conference on Digital Government Research, Dubai, United Arab Emirates, 18–20 June 2019; pp. 204–213.
+66. Wamba, S.F.; Queiroz, M.M.; Trinchera, L. Dynamics between blockchain adoption determinants and supply chain performance:
+An empirical investigation. Int. J. Prod. Econ. 2020 ,229, 107791. [CrossRef]
+67. Quiniou, M. Blockchain: The Advent of Disintermediation ; Wiley Online Library: Hoboken, NJ, USA, 2019.
+68. Parekh, J.; Jaffer, A.; Bhanushali, U.; Shukla, S. Disintermediation in medical tourism through blockchain technology: An analysis
+using value-focused thinking approach. Inf. Technol. Tour. 2020 ,23, 1–28. [CrossRef]
+69. O’Dair, M. The networked record industry: How blockchain technology could transform the consumption and monetisation of
+recorded music. Strateg. Chang. 2017 ,26, 471–480. [CrossRef]
+70. Newby, M.; Nguyen, T.H.; Waring, T.S. Understanding customer relationship management technology adoption in small and
+medium-sized enterprises. J. Enterp. Inf. Manag. 2014 ,27, 541–560. [CrossRef]
+71. Thong, J.Y.; Yap, C.-S. CEO characteristics, organizational characteristics and information technology adoption in small businesses.
+Omega 1995 ,23, 429–442. [CrossRef]
+72. Lin, J.; Luo, Z.; Luo, X. Understanding the roles of institutional pressures and organizational innovativeness in contextualized
+transformation toward e-business: Evidence from agricultural ﬁrms. Int. J. Inf. Manag. 2020 ,51, 102025. [CrossRef]
+73. Nuryyev, G.; Wang, Y.-P .; Achyldurdyyeva, J.; Jaw, B.-S.; Yeh, Y.-S.; Lin, H.-T.; Wu, L.-F. Blockchain technology adoption behavior
+and sustainability of the business in tourism and hospitality SMEs: An empirical study. Sustainability 2020 ,12, 1256. [CrossRef]
+74. Argyris, C.; Schon, D.A. Organizational Learning: A Theory of Action Perspective ; Addison-Wesley: New York, NY, USA, 1978.
+75. Woiceshyn, J. Technology adoption: Organizational learning in oil ﬁrms Jaana Woiceshyn. Organ. Stud. 2000 ,21, 1095–1118.
+[CrossRef]
+76. Werner, F.; Basalla, M.; Schneider, J.; Hayes, D.; Vom Brocke, J. Blockchain adoption from an interorganizational systems
+perspective–a mixed-methods approach. Inf. Syst. Manag. 2020 ,38, 1–16.
+77. Blind, K.; Petersen, S.S.; Riillo, C.A. The impact of standards and regulation on innovation in uncertain markets. Res. Policy 2017 ,
+46, 249–264. [CrossRef]
+78. Cumming, D.J.; Johan, S.; Pant, A. Regulation of the crypto-economy: Managing risks, challenges, and regulatory uncertainty. J.
+Risk Financ. Manag. 2019 ,12, 126. [CrossRef]
+79. Shanaev, S.; Sharma, S.; Ghimire, B.; Shuraeva, A. Taming the blockchain beast? Regulatory implications for the cryptocurrency
+Market. Res. Int. Bus. Financ. 2020 ,51, 101080. [CrossRef]
+80. Peter, J.P .; Ryan, M.J. An investigation of perceived risk at the brand level. J. Mark. Res. 1976 ,13, 184–188. [CrossRef]
+81. Luo, X.; Li, H.; Zhang, J.; Shim, J.P . Examining multi-dimensional trust and multi-faceted risk in initial acceptance of emerging
+technologies: An empirical study of mobile banking services. Decis. Support Syst. 2010 ,49, 222–234. [CrossRef]
+82. Tseng, S.-Y.; Wang, C.-N. Perceived risk inﬂuence on dual-route information adoption processes on travel websites. J. Bus. Res.
+2016 ,69, 2289–2296. [CrossRef]
+83. Kesharwani, A.; Bisht, S.S. The impact of trust and perceived risk on internet banking adoption in India: An extension of
+technology acceptance model. Int. J. Bank Mark. 2012 ,30, 303–322. [CrossRef]
+84. Khaksar, S.M.S.; Khosla, R.; Singaraju, S.; Slade, B. Carer’s perception on social assistive technology acceptance and adoption:
+Moderating effects of perceived risks. Behav. Inf. Technol. 2019 ,40, 1–24. [CrossRef]
+Sustainability 2021 ,13, 9404 30 of 31
+85. Yoo, K.; Bae, K.; Park, E.; Yang, T. Understanding the diffusion and adoption of Bitcoin transaction services: The integrated
+approach. Telemat. Inform. 2019 ,53, 101302. [CrossRef]
+86. Erturk, E.; Lopez, D.; Yu, W.Y. Beneﬁts and risks of using blockchain in smart energy: A literature review. Contemp. Manag. Res.
+2019 ,15, 205–225. [CrossRef]
+87. Abramova, S.; Böhme, R. Perceived beneﬁt and risk as multidimensional determinants of bitcoin use: A quantitative exploratory
+study. In Proceedings of the International Conference on Information Systems, Dublin, Ireland, 11–14 December 2016.
+88. Shen, C.-C.; Chiou, J.-S. The impact of perceived ease of use on Internet service adoption: The moderating effects of temporal
+distance and perceived risk. Comput. Hum. Behav. 2010 ,26, 42–50. [CrossRef]
+89. Sekaran, U.; Bougie, R. Research Methods for Business: A Skill Building Approach ; John Wiley and Sons: Hoboken, NJ, USA, 2016.
+90. Hair, J.F. Multivariate Data Analysis ; Pearson: London, UK, 2009.
+91. Iacobucci, D. Structural equations modeling: Fit indices, sample size, and advanced topics. J. Consum. Psychol. 2010 ,20, 90–98.
+[CrossRef]
+92. Yurdusev, A.N. ‘Level of analysis’ and ‘unit of analysis’: A case for distinction. Millennium 1993 ,22, 77–88. [CrossRef]
+93. DeCarlo, M. Scientiﬁc Inquiry in Social Work ; Open Social Work Education: Roanoke, VA, USA, 2018.
+94. Schonlau, M.; Ronald, D., Jr.; Elliott, M.N. Conducting Research Surveys Via E-Mail and the Web ; Rand Corporation: Santa Monica,
+CA, USA, 2002.
+95. Schmidt, W.C. World-Wide Web survey research: Beneﬁts, potential problems, and solutions. Behav. Res. Methods Instrum. Comput.
+1997 ,29, 274–279. [CrossRef]
+96. MacKenzie, S.B.; Podsakoff, P .M.; Podsakoff, N.P . Construct measurement and validation procedures in MIS and behavioral
+research: Integrating new and existing techniques. MIS Q. 2011 ,35, 293–334. [CrossRef]
+97. Chwelos, P .; Benbasat, I.; Dexter, A.S. Empirical test of an EDI adoption model. Inf. Syst. Res. 2001 ,12, 304–321. [CrossRef]
+98. Rawashdeh, A.; Al-namlah, L. Factors inﬂuencing electronic data interchange adoption among small and medium enterprises in
+Saudi Arabia. AJBA 2017 ,10, 253–280.
+99. Moore, G.C.; Benbasat, I. Development of an instrument to measure the perceptions of adopting an information technology
+innovation. Inf. Syst. Res. 1991 ,2, 192–222. [CrossRef]
+100. Atkinson, N.L. Developing a questionnaire to measure perceived attributes of eHealth innovations. Am. J. Health Behav. 2007 ,31,
+612–621. [CrossRef] [PubMed]
+101. Teo, H.-H.; Wei, K.K.; Benbasat, I. Predicting intention to adopt interorganizational linkages: An institutional perspective. MIS Q.
+2003 ,27, 19–49. [CrossRef]
+102. Terry Anthony Byrd, D.E.T. Measuring the ﬂexibility of information technology infrastructure: Exploratory analysis of a construct.
+J. Manag. Inf. Syst. 2000 ,17, 167–208.
+103. Soliman, K.S.; Janz, B.D. An exploratory study to identify the critical factors affecting the decision to establish Internet-based
+interorganizational information systems. Inf. Manag. 2004 ,41, 697–706. [CrossRef]
+104. Igbaria, M.; Zinatelli, N.; Cragg, P .; Cavaye, A.L. Personal computing acceptance factors in small ﬁrms: A structural equation
+model. MIS Q. 1997 ,21, 279–305. [CrossRef]
+105. Venkatesh, V .; Bala, H. Adoption and impacts of interorganizational business process standards: Role of partnering synergy. Inf.
+Syst. Res. 2012 ,23, 1131–1157. [CrossRef]
+106. Muñoz-Pascual, L.; Curado, C.; Galende, J. How does the use of information technologies affect the adoption of environmental
+practices in SMEs? A mixed-methods approach. Rev. Manag. Sci. 2019 ,15, 1–28. [CrossRef]
+107. Tan, M.; Teo, T.S. Factors inﬂuencing the adoption of Internet banking. J. Assoc. Inf. Syst. 2000 ,1, 5. [CrossRef]
+108. Zhu, K.; Dong, S.; Xu, S.X.; Kraemer, K.L. Innovation diffusion in global contexts: Determinants of post-adoption digital
+transformation of European companies. Eur. J. Inf. Syst. 2006 ,15, 601–616. [CrossRef]
+109. Zhu, K.; Kraemer, K.L.; Dedrick, J. Information technology payoff in e-business environments: An international perspective on
+value creation of e-business in the ﬁnancial services industry. J. Manag. Inf. Syst. 2004 ,21, 17–54. [CrossRef]
+110. Featherman, M.S.; Pavlou, P .A. Predicting e-services adoption: A perceived risk facets perspective. Int. J. Hum. Comput. Stud.
+2003 ,59, 451–474. [CrossRef]
+111. Kim, D.; Ammeter, T. Predicting personal information system adoption using an integrated diffusion model. Inf. Manag. 2014 ,51,
+451–464. [CrossRef]
+112. Lewis, J.R. Multipoint scales: Mean and median differences and observed signiﬁcance levels. Int. J. Hum. Comput. Interact. 1993 ,
+5, 383–392. [CrossRef]
+113. Cox, E.P ., III. The optimal number of response alternatives for a scale: A review. J. Mark. Res. 1980 ,17, 407–422. [CrossRef]
+114. Cavana, R.; Delahaye, B.; Sekeran, U. Applied Business Research: Qualitative and Quantitative Methods ; John Wiley and Sons:
+Hoboken, NJ, USA, 2001.
+115. Urbach, N.; Ahlemann, F. Structural equation modeling in information systems research using partial least squares. J. Inf. Technol.
+Theory Appl. 2010 ,11, 5–40.
+116. Ramli, N.A.; Latan, H.; Nartea, G.V . Why should PLS-SEM be used rather than regression? Evidence from the capital structure
+perspective. In Partial Least Squares Structural Equation Modeling ; Springer: Berlin/Heidelberg, Germany, 2018; pp. 171–209.
+117. Cuddeback, G.; Wilson, E.; Orme, J.G.; Combs-Orme, T. Detecting and statistically correcting sample selection bias. J. Soc. Serv.
+Res. 2004 ,30, 19–33. [CrossRef]
+Sustainability 2021 ,13, 9404 31 of 31
+118. Hair, J.F., Jr.; Hult, G.T.M.; Ringle, C.; Sarstedt, M. A Primer on Partial Least Squares Structural Equation Modeling (PLS-SEM) ; Sage
+Publications: Thousand Oaks, CA, USA, 2016.
+119. Podsakoff, P .M.; MacKenzie, S.B.; Lee, J.-Y.; Podsakoff, N.P . Common method biases in behavioral research: A critical review of
+the literature and recommended remedies. J. Appl. Psychol. 2003 ,88, 879. [CrossRef]
+120. Podsakoff, P .M.; MacKenzie, S.B.; Podsakoff, N.P . Sources of method bias in social science research and recommendations on how
+to control it. Annu. Rev. Psychol. 2012 ,63, 539–569. [CrossRef]
+121. Hair, J.F.; Ringle, C.M.; Sarstedt, M. PLS-SEM: Indeed a silver bullet. J. Mark. Theory Pract. 2011 ,19, 139–152. [CrossRef]
+122. Fornell, C.; Larcker, D.F. Evaluating structural equation models with unobservable variables and measurement error. J. Mark. Res.
+1981 ,18, 39–50. [CrossRef]
+123. Vatanasakdakul, S.; Aoun, C.; Putra, Y.H.S. Social media in micro-enterprises: Exploring adoption in the indonesian retail sector.
+J. Glob. Inf. Manag. (JGIM) 2020 ,28, 184–203. [CrossRef]
+124. Chin, W.W. The partial least squares approach to structural equation modeling. Mod. Methods Bus. Res. 1998 ,295, 295–336.
+125. Cohen, J. Statistical Power Analysis for the Behavioral Sciences ; Academic Press: Cambridge, MA, USA, 2013.
+126. Cohen, J.; Cohen, P .; West, S.G.; Aiken, L.S. Applied Multiple Regression/Correlation Analysis for the Behavioral Sciences ; Routledge:
+Abingdon-on-Thames, UK, 2013.
+127. Chin, W.W.; Marcolin, B.L.; Newsted, P .R. A partial least squares latent variable modeling approach for measuring interaction
+effects: Results from a Monte Carlo simulation study and an electronic-mail emotion/adoption study. Inf. Syst. Res. 2003 ,14,
+189–217. [CrossRef]
+128. Gastwirth, J.L.; Gel, Y.R.; Miao, W. The impact of Levene’s test of equality of variances on statistical theory and practice. Stat. Sci.
+2009 ,24, 343–360. [CrossRef]
+129. Stone, M. Cross-validatory choice and assessment of statistical predictions. J. R. Stat. Soc. Ser. B 1974 ,36, 111–133. [CrossRef]
+130. Geisser, S. The predictive sample reuse method with applications. J. Am. Stat. Assoc. 1975 ,70, 320–328. [CrossRef]
+131. Chin, W.W. How to write up and report PLS analyses. In Handbook of Partial Least Squares ; Springer: Berlin/Heidelberg, Germany,
+2010; pp. 655–690.
+132. Henseler, J.; Chin, W.W. A comparison of approaches for the analysis of interaction effects between latent variables using partial
+least squares path modeling. Struct. Equ. Modeling 2010 ,17, 82–109. [CrossRef]
+133. Chin, W.W. Bootstrap cross-validation indices for PLS path model assessment. In Handbook of Partial Least Squares ; Springer:
+Berlin/Heidelberg, Germany, 2010; pp. 83–97.
+134. Adams, R.; Parry, G.; Godsiff, P .; Ward, P . The future of money and further applications of the blockchain. Strateg. Chang. 2017 ,26,
+417–422. [CrossRef]
+135. Kim, S.H. A study on blockchain technology adoption and intention of logistics ﬁrms in Korea. J. Korea Soc. Comput. Inf. 2020 ,25,
+231–239.
+136. Johnson, V . Organizational Learning through Disruptive Digital Innovation. A Blockchain Implementation. Available online:
+https://scholarworks.gsu.edu/bus_admin_diss/118/ (accessed on 23 July 2021).
+137. Stratopoulos, T.C.; Wang, V .X.; Ye, J. Blockchain technology adoption. SSRN 2020 . [CrossRef]
+138. Chalmers, D.; Matthews, R.; Hyslop, A. Blockchain as an external enabler of new venture ideas: Digital entrepreneurs and the
+disintermediation of the global music industry. J. Bus. Res. 2019 ,125, 577–591. [CrossRef]
+139. Guo, Y.; Liang, C. Blockchain application and outlook in the banking industry. Financ. Innov. 2016 ,2, 24. [CrossRef]
+Reproduced with permission of copyright owner. Further reproduction
+prohibited without permission.

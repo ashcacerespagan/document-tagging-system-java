@@ -1,0 +1,1011 @@
+Organized for Antiquity: Software
+Engineering’s Fundamental Flaw
+Why We’re Organized for a Distant Past and How to Organize for
+Modernity Instead
+Kevin Meadows·Follow
+36 min read·2 days ago
+13
+Photo by Birmingham Museums Trust on Unsplash
+Open in app
+Search Write
+3/29/25, 5:18 PM Organized for Antiquity: Software Engineering’s Fundamental Flaw | by Kevin Meadows | Mar, 2025 | Medium
+https://medium.com/@jmlascala71/organized-for-antiquity-software-engineerings-fundamental-flaw-57bc2e5ef3c3 1/44
+Introduction
+Before the advent of mass production in the twentieth century, most
+workplaces were small outfits that did custom work using their own rules of
+thumb to guide them. This approach meant that the work was expensive,
+unpredictable, and could only be done in small volumes. A different method
+was required as the nature of work shifted to large manufacturing centers,
+and modern mass production began in earnest. Along with this shift came a
+different mindset, changing the focus to organizing for maximum efficiency
+because the scale of work was so much larger.
+Enter Frederick Taylor and his Principles of Scientific Management [1].
+Taylor used time-and-motion studies to determine the most efficient means
+of producing work products, something he termed Scientific Management.
+Gone were the rules of thumb, and in their place arose a management class,
+those who were supposedly better educated and more enlightened about
+how the work should be done. Using Taylor’s Scientific Principles, workers
+were given instruction cards detailing precisely how the work should be
+performed and how long it should take.
+Although dismissing workers’ input about how best to do their jobs was
+unwise, Taylor’s methods were undeniably transformative. Productivity
+expanded dramatically, and profits followed [2]. What made these methods
+successful? It was primarily the nature of the manufacturing work during
+the era, which was characterized by the following attributes.
+1. Tasks could be broken down into simple, repetitive, and measurable
+steps.
+2. Change was slow and predictable.3/29/25, 5:18 PM Organized for Antiquity: Software Engineering’s Fundamental Flaw | by Kevin Meadows | Mar, 2025 | Medium
+https://medium.com/@jmlascala71/organized-for-antiquity-software-engineerings-fundamental-flaw-57bc2e5ef3c3 2/44
+3. Information flowed slowly and mostly locally.
+4. There was rarely any need to discover a new way of doing something
+once an efficient method was found.
+5. Competition was mainly local to the area or nation and was limited by
+capital-intensive barriers.
+By contrast, consider the attributes of software work.
+1. The work is complex and difficult to reduce to simple steps.
+2. Change is constant, and its pace is quickening.
+3. Information flows instantly around the world.
+4. Competition is fierce and worldwide, and there is a low barrier to entry.
+5. Our environment can change overnight with a single social media post.
+To state the obvious, Taylor’s work attributes define a bygone era that no
+longer exists. Yet we still use his methods for organizing our software work
+and are so immersed in them that we don’t realize their pervasiveness. As
+we’ll see below, this mindset is profoundly misapplied when it comes to
+software engineering. It’s long past the time to move away from antiquity
+and rethink how we organize our efforts.
+But why are we stuck in the past? To answer that question, we must first
+delve into the nature of software engineering.
+The Nature of Software Engineering
+Software engineering’s multi-fold nature allows it to be viewed from
+differing perspectives, each with a particular slant. This section examines3/29/25, 5:18 PM Organized for Antiquity: Software Engineering’s Fundamental Flaw | by Kevin Meadows | Mar, 2025 | Medium
+https://medium.com/@jmlascala71/organized-for-antiquity-software-engineerings-fundamental-flaw-57bc2e5ef3c3 3/44
+some of them, stitching together a view of our industry that we may not have
+previously considered.
+The Cynefin Framework
+One way to understand software engineering’s nature is through the use of
+the Cynefin Framework, a decision-making guide [3]. The framework is
+divided into five domains, each with its own decision-making process. The
+domains break down as follows.
+from Wikipedia
+Clear3/29/25, 5:18 PM Organized for Antiquity: Software Engineering’s Fundamental Flaw | by Kevin Meadows | Mar, 2025 | Medium
+https://medium.com/@jmlascala71/organized-for-antiquity-software-engineerings-fundamental-flaw-57bc2e5ef3c3 4/44
+In the Clear domain, cause and effect are easy to grasp, and taking an action
+leads to a predictable outcome. The work is typically standardized, thus
+allowing the creation of “best practices” that can be used to generate reliable
+results. In this domain, we sense the facts of our situation, categorize them
+according to rules, and then respond with the appropriate best practice.
+Complicated
+In the Complicated domain, cause and effect can still be understood, but it
+requires analysis by trained experts exercising good judgment. Best
+practices are replaced by “good practices” that are subject to change. Here,
+we must first sense the situation to determine the facts, analyze the results,
+and respond with the appropriate good practice.
+Complex
+In the Complex domain, cause and effect are unclear and can be determined
+only via hindsight. No apparent “best” answers exist, but many possible
+ideas could work. Here, we must first probe via experiments, sense the
+results, and respond with actions we believe will have beneficial outcomes.
+This domain lies squarely in the realm of “unknown unknowns.” That is, we
+don’t know what we don’t know. Changes in one part of the system result in
+unpredictable, non-linear changes in other areas. There are no best
+practices, but beneficial practices will emerge with time. Rather than force a
+plan of action, we must patiently allow the path forward to be revealed
+through emergence and iteration.
+Chaotic3/29/25, 5:18 PM Organized for Antiquity: Software Engineering’s Fundamental Flaw | by Kevin Meadows | Mar, 2025 | Medium
+https://medium.com/@jmlascala71/organized-for-antiquity-software-engineerings-fundamental-flaw-57bc2e5ef3c3 5/44
+In the Chaotic domain, cause and effect can’t be determined. Events are
+uncontrolled and chaotic. The only way forward is to take quick action of any
+kind. We must first act, sense the result, and then respond with further
+action that seems appropriate, attempting to create order out of the chaos
+around us. The goal is to eventually migrate the situation to the Complex
+domain.
+Confusion
+The Confusion domain is located in the center of all others. Here, it isn’t
+clear in which domain our environment lies. Different factions jostle for
+power, and people argue with each other. The only way out is to break down
+the problems into parts and assign each to a different domain, then respond
+according to the dictates of the respective domains.
+The Software Engineering Domain
+Some of our software engineering work lies in the Clear or Complicated
+domains. We’ve done these jobs before and have best practices for them. An
+example in the Clear domain is changing the text on a button or updating
+data for a website that displays sales tax rates. An example of the
+Complicated domain would be adding an interface to an external service,
+where we already use many others. This interface work is difficult, but we’ve
+done it before, and it only requires careful execution from experts.
+Occasionally, our work falls into the Chaotic domain. A good example is
+when our subscription-based software unexpectedly goes offline, preventing
+large numbers of paying users from doing their work.
+However, we most often operate in the complex domain, where our work is
+empirical, non-deterministic, and emergent [4]. To find a way forward, we
+must probe with safe-to-fail experiments, sense the outcomes, and respond3/29/25, 5:18 PM Organized for Antiquity: Software Engineering’s Fundamental Flaw | by Kevin Meadows | Mar, 2025 | Medium
+https://medium.com/@jmlascala71/organized-for-antiquity-software-engineerings-fundamental-flaw-57bc2e5ef3c3 6/44
+with further experiments to illuminate a path. We must be patient and
+iterative in our approach. Our solutions should be discovered through
+experimentation rather than imposed from on high.
+Even when we think we’re in a given quadrant, we often can’t know until we
+finish the work. Worse, the boundaries between quadrants are fuzzy and
+fluid. For example, our work might shift between Complicated and Complex
+without us realizing it. This uncertainty makes predictive, planning-based
+approaches frustratingly failure-prone.
+Complex Adaptive Systems
+A complex adaptive system is made up of multiple parts that dynamically
+interact with each other in unpredictable and nonlinear ways. There is no
+single part that controls the entire system, making interactions between the
+parts difficult to predict and control [5]. Each part is affected by the actions
+of others, unpredictably adapting to them. Identifying cause and effect in
+such systems is an exercise in futility because a given cause may have an
+impact that is randomly nonexistent, minor, or profound, and it’s nearly
+impossible to predict which it will be [6]. Examples of complex adaptive
+systems include economic markets, weather, nature, and software
+engineering [7].
+Why should we consider software engineering as a complex adaptive
+system? Because it consists of complex, multiple agents dynamically
+interacting with each other in autonomous, unpredictable ways. These
+agents can be customers, regulators, programmers, code, markets,
+requirements, or any other entity that affects the system. Each agent adapts
+to the actions of other agents, and each adaptation leads to further rounds of
+adaptations in a perpetual stimulus-response loop. Additionally, system
+changes are nonlinear, and the magnitude of their effect can’t be estimated.3/29/25, 5:18 PM Organized for Antiquity: Software Engineering’s Fundamental Flaw | by Kevin Meadows | Mar, 2025 | Medium
+https://medium.com/@jmlascala71/organized-for-antiquity-software-engineerings-fundamental-flaw-57bc2e5ef3c3 7/44
+Finally, outcomes are highly dependent on initial conditions, which are
+rarely known to a sufficiently detailed level to predict future responses [5].
+Unlike easily modeled, simple systems, such as manufacturing assembly
+lines, the interconnected nature of complex adaptive systems defy
+prediction. It’s nearly impossible to envision how they will respond and
+evolve. Put simply, software engineering will never be a simple, predictable
+endeavor, no matter how much we may otherwise prefer it. It’s firmly
+anchored in the complex, adaptive realm.
+Parenthetically, one of the more exasperating aspects of a complex adaptive system
+is that the ability to predict one part of the system doesn’t mean we can predict the
+whole system. We frequently see this dynamic when we break down software
+projects into tasks and subtasks, estimate each one, and combine the individual
+estimates to arrive at an overall estimate. Unfortunately, even if we’re lucky
+enough to estimate some of the individual tasks accurately, the combined estimate
+typically fails, often spectacularly. It’s tempting to blame the estimators for a lack
+of skill when this happens, but it’s an inescapable characteristic of complex
+adaptive systems. No matter how often we try to improve our estimates, we can
+never escape the unpredictability of these type of systems. They defy predictions.
+The question we might ask ourselves is why we continue to believe otherwise.
+Manufacturing vs Software Engineering
+Belief in the manufacturing approach leads software companies to organize
+their people for efficiency and execution, dividing the work up into
+specialties, with each specialty a separate department. For example, there
+are departments for Product Management, Development, Database, QA, and
+DevOps. Department managers oversee the work, making sure it’s done
+according to schedule and everyone is kept fully utilized to maximize
+efficiency. As each specialist completes their work, the product moves in3/29/25, 5:18 PM Organized for Antiquity: Software Engineering’s Fundamental Flaw | by Kevin Meadows | Mar, 2025 | Medium
+https://medium.com/@jmlascala71/organized-for-antiquity-software-engineerings-fundamental-flaw-57bc2e5ef3c3 8/44
+assembly-line fashion to the next specialist in the line, who completes their
+work, passes it to the next, and so on. Each specialist adds shape and form to
+the item until it emerges from the end of the line as a fully-fledged work
+product ready for customers. It’s an intuitive, straightforward process that’s
+easily organized. Unfortunately, it isn’t very effective.
+It’s natural to wonder why Taylor’s methods were effective in manufacturing
+yet perpetually yield disappointing results when we apply them to software
+engineering. It seems so sensible that the same basic approach should work
+for any sort of manufacturing endeavor, whether it’s a physical product or
+the zeroes and ones of software. So why don’t we see the success Taylor did?
+Because software isn’t the same as manufacturing. In software, unlike in
+manufacturing, once we figure out how to do something, that knowledge is
+of little use for the next task because it’s different from the previous one.
+Taylor never had to face our persistent and stubborn problem:
+In software engineering, we never do the same thing over and over again.
+Instead, each task we undertake is different from the last. If the tasks were
+the same, we would simply use our software skills to automate the process.
+No matter how much the new task might rhyme with those in the past, they
+are never the same, meaning that we must perpetually innovate.
+If only it were as simple as figuring out how to do a task and then doing it
+over and over again, as in manufacturing. If only the work were
+deterministic and the pace of change was slow, as it was for Taylor. Alas, it
+just doesn’t work that way for us. Consider how Harvard Professor Amy
+Edmondson describes Taylor’s era and then contrast it to our fast-paced,
+uncertain, modern software world:3/29/25, 5:18 PM Organized for Antiquity: Software Engineering’s Fundamental Flaw | by Kevin Meadows | Mar, 2025 | Medium
+https://medium.com/@jmlascala71/organized-for-antiquity-software-engineerings-fundamental-flaw-57bc2e5ef3c3 9/44
+“Periods of stability could be counted on. Products, processes, and even customers
+were mercifully uniform, minimizing the need for real-time improvisation to
+respond to unexpected problems, technological changes, or customer needs.” [8]
+Amy Edmondson
+However discomforting it may be to accept, software engineering is
+knowledge work, and knowledge work reflects complex, unpredictable
+processes, not the predictable ones that Taylor encountered. For us, it’s
+always something new every time. Mass production methods simply don’t
+apply to us.
+Our Flawed Mental Framework
+What accounts for our long history of organizing our software outfits like we
+were doing repetitive manufacturing work? Habit and uncritical thinking,
+perhaps, which leads to a flawed mental framework.
+We assume that we operate in an orderly and predictable world and that any
+uncertainty can be controlled with adequate planning and oversight. This
+belief lies at the root of our plans and managerial structures. If our business
+domain is predictable, the thinking goes, we can create command-and-
+control systems that will drive plannable, consistent, and predictable results.
+At its core, our failures are caused by our inability to grasp the mathematical
+foundation of knowledge work and innovation. We don’t realize we’re
+mistakenly assuming that nondeterministic, stochastic processes can be
+planned and predicted as if they were deterministic and linear.
+Whether we realize it or not, we’re essentially subscribing to the idea of a
+clockwork universe, commonly known as Laplace’s Demon [9]. Laplace3/29/25, 5:18 PM Organized for Antiquity: Software Engineering’s Fundamental Flaw | by Kevin Meadows | Mar, 2025 | Medium
+https://medium.com/@jmlascala71/organized-for-antiquity-software-engineerings-fundamental-flaw-57bc2e5ef3c3 10/44
+believed that if an all-knowing, intelligent being (a “Demon”) knew the initial
+conditions of a system to perfection, then it could predict the outcome of all
+events far into the future. It was a perfectly deterministic view of the
+universe.
+We unknowingly make similar assumptions in our drive to predict the
+outcome of our software efforts — typically cost and completion dates. We
+believe that our businesses are complicated machines like Laplace’s Demon
+that can be controlled with proper oversight and that doing so will yield
+predictable outcomes.
+Our work would be so much easier if this approach worked, but
+unfortunately, it doesn’t. Randomness and minuscule imperfections in our
+initial-conditions knowledge intrude into our perfect model and lead to
+wildly divergent outcomes as time progresses [9]. In reality, we’re barely able
+to understand what’s happening today, and we certainly don’t understand
+what will happen in the future. Believing otherwise suggests a lack of
+awareness of the fundamental nature of our work.
+Our mental framework of predictable systems simply doesn’t apply to our
+work, no matter how much we wish it did and how much we try to make it
+fit. That’s the fundamental mismatch in software engineering. We manage it
+like it was deterministic, but the reality is that it’s nondeterministic and
+empirical, firmly anchored in the Complex realm.
+“Our comforting conviction that the world makes sense rests on a secure
+foundation: our almost unlimited ability to ignore our ignorance.” [10]
+Daniel Kahneman3/29/25, 5:18 PM Organized for Antiquity: Software Engineering’s Fundamental Flaw | by Kevin Meadows | Mar, 2025 | Medium
+https://medium.com/@jmlascala71/organized-for-antiquity-software-engineerings-fundamental-flaw-57bc2e5ef3c3 11/44
+Pitfalls of Organizing for Antiquity
+There are as many pitfalls of Organizing for Antiquity as there are
+organizations, and each will manifest its unique varieties. Still, there are
+broad classes that are common throughout the landscape. This section
+describes some of those common problems.
+Silos
+As described above, it’s common to see software personnel organized into
+separate departmental silos for Product Management, Development,
+Database, QA, and DevOps. These examples are only a partial list, and a
+moment’s thought provides many others. This separation makes sense if
+we’re focused purely on efficiency, but it badly falters if we want the work to
+flow continuously toward the customer.
+The problem is that separating workers into silos causes information,
+collaboration, learning, and work items to languish in the liminal spaces
+between silos. Knowledge transfer and learning are throttled, meaning that
+solutions derived in one department must be reinvented in others at a
+significant cost. Instead of moving quickly through the system, work
+products move in fits and starts, waiting on approvals from managers and
+bandwidth from other teams. We gain efficiency within each silo by keeping
+everyone busy, but we fail to see the enormous cost burden it imposes by
+having teams that are isolated from each other.
+An anecdote: I once worked in a company whose managers frequently complained
+of “too many silos around here,” faulting those who resided in the silos for their
+failure to reach into other silos to share information. The managers never seemed
+to grasp that it wasn’t the fault of the workers. Instead, it was the fault of the
+system, which was designed explicitly around insular silos, thereby separating the
+people who should have been collaborating.3/29/25, 5:18 PM Organized for Antiquity: Software Engineering’s Fundamental Flaw | by Kevin Meadows | Mar, 2025 | Medium
+https://medium.com/@jmlascala71/organized-for-antiquity-software-engineerings-fundamental-flaw-57bc2e5ef3c3 12/44
+Queues
+Separating workers into siloed departments inevitably means that queues
+form between them as work items wait to move from one silo to the next.
+Queues are shockingly pervasive, invisible, and unmanaged in most
+workplaces. They are also economically damaging. How much? In his book,
+The Principles of Product Development Flow [11], Donald Reinertsen states:
+“Invisible and unmanaged queues are the root cause of poor economic
+performance in Product Development.”
+Donald Reinertsen
+Queues result in lengthened delivery times, increased risk, lower quality,
+and poor morale [12]. They also delay crucial feedback on our work until
+long after we lose its intellectual context, requiring us to spend time and
+money restoring it when we’re called to revisit the work. Additionally, this
+late feedback means we waste time and money pursuing fruitless paths
+before discovering a better course.
+It may be surprising to realize that poor economic performance isn’t caused
+by what most organizations suspect, such as idle workers, excessive salaries,
+regulatory compliance, or a host of other costs. Instead, it’s a direct result of
+how they’ve organized themselves and something over which they have
+complete control.
+The beloved children’s book author, Dr. Suess, unwittingly described
+organizational queues in his book Oh, the Places You’ll Go! [13]. Simply
+substitute the word “everything” for “people” and “Everyone”:3/29/25, 5:18 PM Organized for Antiquity: Software Engineering’s Fundamental Flaw | by Kevin Meadows | Mar, 2025 | Medium
+https://medium.com/@jmlascala71/organized-for-antiquity-software-engineerings-fundamental-flaw-57bc2e5ef3c3 13/44
+headed, I fear, toward a most useless place.
+The Waiting Place…
+…for people just waiting.
+Waiting for a train to go
+or a bus to come, or a plane to go
+or the mail to come, or the rain to go
+or the phone to ring, or the snow to snow
+or the waiting around for a Yes or No
+or waiting for their hair to grow.
+Everyone is just waiting.
+Inventory
+In software engineering, inventory can be defined as any item where
+thinking has been done and the item is stored while waiting for further
+work. Examples include user stories sitting in a backlog and undeployed
+code sitting in a repository. Tightly paired with queues, inventory is the
+unavoidable byproduct of separating workers into silos.
+We rarely consider inventory in software engineering circles because it’s
+hidden on a computer rather than piling up on the shop floor, as in
+manufacturing. Its lack of physical presence means it’s too often “out of
+sight, out of mind.”
+So what’s wrong with inventory? After all, in manufacturing businesses,
+inventory is considered an asset on the balance sheet. However, it can be
+argued that in software organizations, inventory is a liability that incurs
+management costs until it becomes deployed software producing revenue, at
+which point it’s converted into an asset. Indeed, in Lean Manufacturing
+principles, inventory is classified as waste [14]. Additionally, inventory’s3/29/25, 5:18 PM Organized for Antiquity: Software Engineering’s Fundamental Flaw | by Kevin Meadows | Mar, 2025 | Medium
+https://medium.com/@jmlascala71/organized-for-antiquity-software-engineerings-fundamental-flaw-57bc2e5ef3c3 14/44
+usefulness decreases with time because markets may shift and no longer
+reward our work by the time it’s finally deployed. With this viewpoint, it’s
+easy to see that inventory is something expensive that we should minimize.
+Bureaucracy
+Once workers are organized into departments, managers for each
+department are deemed a necessity. Each manager must then report to their
+manager that their respective departments are fully utilized and their
+workers are always on task. Status reports and other impediments of an
+entrenched bureaucracy soon follow. Additionally, separate departments
+inevitably create handoff artifacts to prove that each department has
+adequately done its job and that if anything goes wrong, the department
+can’t be blamed.
+All of this “proof of busyness” does little to advance the customers’ interests
+and mostly serves to justify the bureaucracy’s presence. The documentation
+and checklists validate the work, but they don’t determine if we’re building
+useful software, only that we’re working hard while simultaneously taking
+time away from creating the very software our customers want. It’s a safe bet
+that customers derive little or no value from status reports and other
+bureaucratic output.
+A more pernicious problem is that once a bureaucracy is established,
+however small and inconsequential initially, it soon becomes a living
+organism seeking to increase its reach and duration. Whatever positive
+values it might provide, these are often subordinate to maintaining its
+existence.
+Another downside of bureaucratized systems is their negative effect on
+morale and initiative. Workers, hamstrung by restrictive processes and3/29/25, 5:18 PM Organized for Antiquity: Software Engineering’s Fundamental Flaw | by Kevin Meadows | Mar, 2025 | Medium
+https://medium.com/@jmlascala71/organized-for-antiquity-software-engineerings-fundamental-flaw-57bc2e5ef3c3 15/44
+approval procedures, are gradually worn down by bureaucratic red tape.
+Their morale and initiative suffer, imperiling the organization’s future. Many
+workers eventually succumb to learned indifference and simply strive to
+“keep their heads down and their mouths shut.” This outcome is hardly a
+recipe for long-term organizational success in the face of hungry
+competitors [15].
+When left unchecked, bureaucracy eventually drives out innovation,
+independent thought, and the joy of solving problems. Everything is
+standardized to serve the rule-makers, whose power is too often absolute. It’s
+easy to convince ourselves that this approach makes work more predictable
+and straightforward to measure. That’s unlikely, but one thing isn’t: our work
+is ultimately less satisfying and less open to the innovation that drives
+market advances and customer delight [15].
+Planning and Predicting
+Part of being organized for antiquity is believing that our work is predictable
+and plannable. As discussed above, that simply isn’t possible with the
+complex work we find in software engineering.
+We can never know in advance whether the next task will be hard or easy.
+Far too often, we think we’ve done the hard part, and the next bit will be
+easy, only to find that it isn’t. It’s quite likely that the hardest part will be
+whatever is next, and when that’s completed, the next part will also be hard,
+if not harder.
+Consider how many projects that are “90% done” require another 90% of
+their time to finish the last 10%. That’s the nature of complex systems. We
+can only determine how difficult and time-consuming something will be3/29/25, 5:18 PM Organized for Antiquity: Software Engineering’s Fundamental Flaw | by Kevin Meadows | Mar, 2025 | Medium
+https://medium.com/@jmlascala71/organized-for-antiquity-software-engineerings-fundamental-flaw-57bc2e5ef3c3 16/44
+after we’ve completed it. In short, certainty is found only in hindsight.
+Foresight is just random guessing.
+The downside to planning and prediction is that we’re spending our limited
+time on wasteful practices. It would be much more productive to spend that
+time building valuable software and improving our capabilities to do so.
+Delaying Feedback
+Being organized around departments and specialties means that we
+accidentally create barriers to our workflow that impede our ability to
+maximize the throughput of our work. In effect, it takes much longer than it
+should to get market feedback to see if we’re on the right path or if we’re
+going astray.
+Rapid feedback provides powerful economic leverage [11]. Few companies
+take advantage of it, quite possibly because they simply aren’t organized to
+do so. Instead, their work products move sluggishly through a system
+designed for efficiency instead of effectiveness, hampering their ability to
+see if they’re on the right path and immediately pivot when they aren’t.
+Organizations that fail to realize this will find themselves at a competitive
+disadvantage.
+Stifling Innovation
+One of the unavoidable drawbacks of applying an assembly line mindset to
+software engineering work is that we typically fail to leave time for
+innovation. Suppose we believe that, like an assembly line, we make money
+for every widget we manufacture. In that case, the natural conclusion is to
+churn out as many widgets as possible to maximize profit. In effect, we
+become a feature factory with little regard for the innovation that drives
+long-term survival.3/29/25, 5:18 PM Organized for Antiquity: Software Engineering’s Fundamental Flaw | by Kevin Meadows | Mar, 2025 | Medium
+https://medium.com/@jmlascala71/organized-for-antiquity-software-engineerings-fundamental-flaw-57bc2e5ef3c3 17/44
+Additionally, when we adopt Taylor’s mantra of monitoring workers to get
+the most from them, we rob them of their initiative, freedom to experiment
+and adapt, and willingness to team up with others to solve problems that
+can’t be solved by working independently. Instead, we should find a balance
+between maintaining existing products and innovating new ones.
+“… the managerial mindset that enables efficient execution actually inhibits an
+organization’s ability to learn and innovate. The narrow focus on getting things
+done inhibits the experimentation and reflection that are vital to sustainable
+success.” [8]
+Amy Edmondson
+This “narrow focus on getting things done” by adhering to assembly line
+processes means that we often fail to consider the long-term consequences
+of our short-term thinking. Such an oversight leads to a steady accumulation
+of technical debt, software bloat, fragile code bases, and other problems that
+make it unnecessarily complicated to innovate.
+An anecdote: I once worked in an outfit where a senior executive praised one of his
+managers to me, admiringly saying, “He gets things done.” Given that the
+manager was prone to making short-term decisions that came with substantial
+long-term costs, I left unsaid my obvious rejoinder: “If only they were the right
+things instead of the right-now things.” It was only years later that I realized it was
+an example of being so focused on the present that it stifled long-term innovation.
+The Capability Trap
+There’s a cruel, self-reinforcing loop to organizing for antiquity. By
+definition, this loop is nearly impossible to see when caught in it, making it
+unlikely that we’ll pull ourselves out. It works like this: When we’re focused3/29/25, 5:18 PM Organized for Antiquity: Software Engineering’s Fundamental Flaw | by Kevin Meadows | Mar, 2025 | Medium
+https://medium.com/@jmlascala71/organized-for-antiquity-software-engineerings-fundamental-flaw-57bc2e5ef3c3 18/44
+on keeping the assembly line moving, we don’t have time to step back, find
+the source of frequent problems, and make improvements to alleviate them.
+In effect, we’re so busy firefighting we don’t have time to clear the
+undergrowth causing all the firefighting. This approach typically means
+we’re too busy for time-saving activities like refactoring messy code, writing
+unit tests that make it safer to change code, or automating our build and
+deployment process.
+This phenomenon is so common across human systems that there’s a name
+for it: The Capability Trap [16]. When organized for antiquity, there’s rarely
+time to improve our capability. The result is that it becomes ever more
+challenging to do our jobs, and we’re forced to work overtime to keep up
+with demand. This overtime only makes the problem worse because
+exhausted workers are prone to error, and fixing the mistakes means there’s
+even less time to make things better. It’s a frustratingly self-reinforcing
+pattern.
+Unfortunately, the first rule of the Capability Trap is that when we’re caught
+in it, we seldom know that we’re caught in it [16]. This diabolical blindness to
+our predicament means we spend our time working harder and harder with
+no apparent gain or realization that we need to extricate ourselves.
+As an organization sinks deeper into the Capability Trap, managers may be
+tempted to attribute their difficulties to workers’ laziness instead of the true
+cause: an ineffective system.
+If management believes that workers are lazy and shiftless, then it’s tempting
+to institute a “get tough” policy that will frighten them into working hard.
+Not only is management’s assessment wrong, but so is their solution.
+Research shows that instilling fear has the opposite result of what we want3/29/25, 5:18 PM Organized for Antiquity: Software Engineering’s Fundamental Flaw | by Kevin Meadows | Mar, 2025 | Medium
+https://medium.com/@jmlascala71/organized-for-antiquity-software-engineerings-fundamental-flaw-57bc2e5ef3c3 19/44
+by making it harder for workers to concentrate, innovate, and solve complex
+problems [8]. These activities are crucial to developing software.
+Unfortunately, this result usually reinforces management’s belief that
+workers are shirking, leading to further “get tough” measures and a
+corresponding decrease in productivity, creating a self-reinforcing
+downward spiral [17]. The upshot? We needn’t worry about competitors if
+being “tough” makes us our own worst enemies.
+“Fear may motivate those doing routine, unthinking, individual work, but it’s
+crippling for those doing work that requires teaming and learning.” [8]
+Amy Edmondson
+These self-confirming attribution errors lead organizations into a cruel trap.
+Unable to see that their actions exacerbate their predicament by creating a
+fear-based environment (that their most skilled workers will escape), they
+make the work even harder to complete, further reinforcing their attribution
+errors. It’s a vicious cycle that sometimes ends only when the company
+ceases to exist.
+Because complexity and entropy accumulate with time, we must set aside
+time to make things better. Otherwise, they’ll steadily get worse until getting
+anything done is a Herculean task. That’s when managers become frustrated
+that “it takes so long to get things done around here” and believe it’s because
+no one is working hard enough. Punitive measures are then a short step
+away, which only serve to worsen the problem.
+Engendering fear into workers so that they “get things done” means that they
+don’t have time or the intellectual ease to learn. In effect, we’re throwing3/29/25, 5:18 PM Organized for Antiquity: Software Engineering’s Fundamental Flaw | by Kevin Meadows | Mar, 2025 | Medium
+https://medium.com/@jmlascala71/organized-for-antiquity-software-engineerings-fundamental-flaw-57bc2e5ef3c3 20/44
+away the chance to get better at our jobs, discover new product ideas, and
+increase our earnings potential.
+An anecdote: Many years ago, I was an employee at an agency that placed its
+people in businesses around the area, performing software work for the companies.
+This usually entailed a meet-and-greet session with the client, where we would
+gather in the manager’s office and introduce ourselves so we could understand
+their needs and begin building trust. These were highly effective meetings that
+instilled a sense of optimism for all involved, and I always looked forward to them.
+Until one day.
+We had landed a new client, and something immediately seemed amiss when we
+walked into the manager’s office. Instead of a feeling of optimism and welcome,
+there was an electric tension before we even started. Rather than offering friendly
+handshakes, the manager immediately began interrogating us one by one, asking
+questions such as:
+“Where did you go to school? What did you study? What was your grade point
+average?”
+A few of these questions even veered uncomfortably into the personal realm.
+Needless to say, after a few minutes of this, all of us were stealing glances at one
+another that showed our disbelief at the manager’s tactics. Finally, when he
+finished his inquisition, he turned to all of us and said:
+“I’m going to keep you on your toes. I know you’ll try to cheat me, so understand
+that I’m wise to you.”3/29/25, 5:18 PM Organized for Antiquity: Software Engineering’s Fundamental Flaw | by Kevin Meadows | Mar, 2025 | Medium
+https://medium.com/@jmlascala71/organized-for-antiquity-software-engineerings-fundamental-flaw-57bc2e5ef3c3 21/44
+If there was any doubt about the effectiveness of this approach, it became apparent
+a few minutes later when we met the administrator of their computer system. I was
+deeply dismayed to see someone so afraid of losing his job that he was unable to
+focus on the task at hand.
+It was again proven a few days later when this same administrator didn’t follow
+our instructions about how to roll out one of our changes, causing the company’s
+primary computer system to crash. In a rage, he left a voicemail filled with
+profanity, threats, and blaming, everything short of investigating the problem to
+avoid repeating it. In a twisted way, his rationale was understandable. He was
+clearly terrified of his manager and probably wanted to deflect blame to protect
+himself, a common tactic in destructive work environments. I suspect that anyone
+who could leave for better working conditions had long ago done so.
+I can never know for sure, but I think the manager in this episode genuinely
+believed he was doing the right thing. I suspect he was simply unable to see the
+damage he was causing and that there might be a better way to oversee others.
+Perhaps the moral is that it pays to question what we think of as effective
+management. We may be doing more harm than we realize.
+Organizing for Modernity
+It’s now time to turn from learning about our antiquated approach to
+discovering modern organizational methods for software engineering. What
+follows is a list of these ideas.
+Change Our Mental Framework
+The reality of the complex, adaptive, and emergent business world around us
+no longer fits our simple, command-and-control approach. And no matter
+how hard we try, we can’t continue to force fit our model onto a world that
+doesn’t match it. Like it or not, we’re in an emergent, collaborative world.3/29/25, 5:18 PM Organized for Antiquity: Software Engineering’s Fundamental Flaw | by Kevin Meadows | Mar, 2025 | Medium
+https://medium.com/@jmlascala71/organized-for-antiquity-software-engineerings-fundamental-flaw-57bc2e5ef3c3 22/44
+Once we understand this, we’ll realize that instead of command-and-control
+systems, we should create teams that thrive on uncertainty and respond to
+change. We can then harness variability and uncertainty to generate just-in-
+time responses that help us steer toward value.
+Taylor had a deep mistrust of workers and a low opinion of their intellect,
+believing they had to be carefully measured and monitored at all times lest
+they shirk their duties or do the wrong thing. His opinion of them was so low
+that he believed they had to be given strict instructions by a “more
+intelligent” supervisor [1]. It’s difficult to see how this philosophy applies to
+the knowledge workers in software engineering, yet we too often see traces
+of it today. It’s time to leave Taylor in the past, where he belongs, and
+incentivize collaboration, learning, experimentation, and making things
+easier for tomorrow. Instead of keeping workers on a short leash, as Taylor
+would, we should learn to trust the workers to self-organize around the best
+way to do their work.
+“Self-organization requires a fundamental departure from command and control
+philosophy of traditional hierarchical bureaucratic organizations. Self-
+organization requires a belief in local rationality of individuals and units (e.g.
+those closest to the customer know the customer best).” [7]
+Vidgen and Wang
+We unwittingly incur a cost of delay by utilizing command-and-control,
+hierarchical systems for approving decisions. More specifically, we assume
+that information’s value is static and that there’s no loss of value as it slowly
+migrates into the upward reaches of the hierarchy for approval. In reality,
+information in modern workplaces has a frightfully short shelf-life, its value3/29/25, 5:18 PM Organized for Antiquity: Software Engineering’s Fundamental Flaw | by Kevin Meadows | Mar, 2025 | Medium
+https://medium.com/@jmlascala71/organized-for-antiquity-software-engineerings-fundamental-flaw-57bc2e5ef3c3 23/44
+quickly decaying with time, and delays bring a substantial and often invisible
+cost.
+“The practice of relaying decisions up and down the chain of command is premised
+on the assumption that the organization has the time to do so, or, more accurately,
+that the cost of delay is less than the cost of the errors produced by removing a
+superior. However, it’s often the case that the risk of acting too slowly is higher
+than the risk of letting competent people make judgment calls.” [6]
+Stanley McChrystal
+Become a Learning Organization
+Learning organizations have cultures that focus on continuously acquiring
+and disseminating knowledge throughout. They prioritize personal and
+professional improvement, pursuing knowledge through experimentation,
+psychological safety, an openness to new and sometimes oppositional ideas,
+and leaving time for reflection [18]. They test the validity of their knowledge
+through productive debate and entertaining dissenting viewpoints. They
+seek to learn from everyone instead of knowledge being handed down from
+above on stone tablets.
+Humans are born with a remarkable superpower: intellectual curiosity, but
+we’re too often willing to surrender it for the thrill of believing we’re right.
+As wonderful as it is to believe we’re right, it’s much better to learn.
+By breaking down silos, reaching across boundaries, and practicing
+collaboration, learning organizations are able to spread knowledge
+throughout their enterprise. While seemingly minor when viewed from a
+short-term lens, the Principle of Marginal Gains [19] means that small, daily3/29/25, 5:18 PM Organized for Antiquity: Software Engineering’s Fundamental Flaw | by Kevin Meadows | Mar, 2025 | Medium
+https://medium.com/@jmlascala71/organized-for-antiquity-software-engineerings-fundamental-flaw-57bc2e5ef3c3 24/44
+improvements compound over time to produce remarkable long-term
+benefits. This principle is the essence of a learning organization.
+A learning organization understands that while it must exploit the profitable
+niches it has found, it is insufficient to focus entirely on them. Due to
+competitors and market forces, the niches are inevitably transient. The
+organization must also seek new opportunities to ensure its long-term
+survival.
+“The long-term survival of an organization depends on its ability to engage in
+enough exploitation to ensure the organization’s current viability and engage in
+enough exploration to ensure its future viability.” [7]
+Vidgen and Wang
+Embrace and Learn from Failure
+There are different classes of failure. The stereotypical viewpoint is that they
+result from careless individuals who recklessly disregard the well-being of
+their employers. That’s undoubtedly one class, although a vanishingly small
+percentage. The far more common class of failure occurs because we don’t
+yet know our path forward and must iteratively experiment to find it,
+repeatedly failing and trying again until we find success. These are so-called
+intelligent failures, and they’re a necessary component of working with
+complex adaptive systems [20].
+Failures are inevitable in complex adaptive systems because it’s nearly
+impossible to get things right the first time. It takes trial-and-error
+experiments to discover solutions, and failures along the path to discovery
+are necessary steps to steer toward an end goal that can’t be seen at the
+outset. Unfortunately, many organizations see failure as something that3/29/25, 5:18 PM Organized for Antiquity: Software Engineering’s Fundamental Flaw | by Kevin Meadows | Mar, 2025 | Medium
+https://medium.com/@jmlascala71/organized-for-antiquity-software-engineerings-fundamental-flaw-57bc2e5ef3c3 25/44
+needs to be punished instead of as something from which to learn. It’s all too
+easy to point the finger at a single individual in the false belief that complex
+systems are amenable to a single point of blame. The thinking seems to be
+that all we must do is find that person, make an example of them through
+punishment, and we will prevent future failures.
+If only it were so simple.
+Unfortunately, this approach does nothing to prevent future errors. It only
+makes workers fearful (reducing their ability to solve problems), drives
+failures underground, and destroys the learning opportunity that failure
+provides.
+Mistakes are part of how we learn, and we should make allowance for them.
+Managers who celebrate perfect execution are unwittingly preventing their
+teams from stretching hard enough [20]. It’s when stretched that we make
+the mistakes that teach us new things. Worse, when managers make it clear
+that they won’t tolerate mistakes, it does nothing to prevent them. It merely
+buries the small, inescapable mistakes until they resurface in much larger
+form to threaten the company’s survival [20]. A learning organization must
+allow the free reporting of problems and mistakes so that their learning
+opportunity isn’t lost.
+“Executives often think if people aren’t blamed for failures, what will ensure that
+they do their best? This concern is based on a false dichotomy. In actuality, a
+climate for admitting failure can coexist with high standards for performance.” [6]
+Stanley McChrystal3/29/25, 5:18 PM Organized for Antiquity: Software Engineering’s Fundamental Flaw | by Kevin Meadows | Mar, 2025 | Medium
+https://medium.com/@jmlascala71/organized-for-antiquity-software-engineerings-fundamental-flaw-57bc2e5ef3c3 26/44
+Finally, workers are often held accountable for the system’s failures, over
+which they have little to no control. Rather than focusing on a command-
+and-control response to complexity, we should focus on building systems
+that are resilient to it.
+Team of Teams
+Most software organizations are built around vertically-arrayed silos of
+specialist teams. As discussed above, this leads to problems with
+coordination, communication, and learning. Rather than silos with rigid,
+hierarchical chains of command, we might consider the idea of a Team of
+Teams [6]. In this approach, team members move fluidly across teams,
+establishing familiarity with other skills, providing expertise to teams who
+lack it, and returning to their original team when done. No one is
+permanently affixed to a given team for the duration of their employment
+but instead resides in a network of teams.
+One benefit of this approach is that information no longer decays in the
+space between teams but is instead shared among them, disseminating
+information across the enterprise. An additional benefit is that we minimize
+the fundamental human tendency to align ourselves into tribes of Us and
+Them. In theory, we want to believe that we’re all on the same team and
+rowing in the same direction. In practice, it’s often anything but. Moving
+individuals between teams means that the organization is less likely to divide
+itself into groups of “they’re lousy and we aren’t,” fostering greater flow and
+cooperation throughout the system. Put simply, teams who share members
+perform better [6].
+“We don’t need every member of a team to know everyone else on every other
+team. We just need everyone to know someone on every other team. That way,
+teams envision a friendly face on other teams rather than competitive rivals.” [6]3/29/25, 5:18 PM Organized for Antiquity: Software Engineering’s Fundamental Flaw | by Kevin Meadows | Mar, 2025 | Medium
+https://medium.com/@jmlascala71/organized-for-antiquity-software-engineerings-fundamental-flaw-57bc2e5ef3c3 27/44
+Stanley McChrystal
+Software Teaming
+There’s a readily available alternative to the problematic siloing strategy.
+Rather than dividing our forces, we concentrate them and bring their
+collective power to bear on our work. We group the people into teams who
+physically work together, all addressing the same task at the same time, on
+the same computer. This strategy is the Software Teaming (Mob
+Programming) approach [21].
+When we combine our forces, not everyone will be 100% needed at every
+moment, but when needed, there’s no delay for someone engaging with the
+team. The focus is on the flow of the work, keeping it moving toward the
+customer and profit instead of the maximum utilization of individuals.
+While it may be unnerving to realize that some team members will have
+moments of idle time, the benefits we obtain can help us overcome our
+unease. These benefits include:
+1. The number and length of queues are reduced.
+2. Less inventory is created.
+3. With less waiting, code is more quickly delivered to customers,
+increasing the throughput of revenue-producing products.
+4. Quicker delivery provides an earlier return on investment. In the finance
+world, sooner is better than later.
+5. Quicker delivery allows rapid market feedback, which provides powerful
+economic leverage, paving the path to greater profit.
+6. Code is constantly reviewed and refactored in real time, reducing
+duplicate code, improving designs, and minimizing expensive defects.3/29/25, 5:18 PM Organized for Antiquity: Software Engineering’s Fundamental Flaw | by Kevin Meadows | Mar, 2025 | Medium
+https://medium.com/@jmlascala71/organized-for-antiquity-software-engineerings-fundamental-flaw-57bc2e5ef3c3 28/44
+7. Technical knowledge is disseminated across the team instead of held
+within individuals. There’s less risk of a single point of failure when
+someone crucial quits. And in siloed companies, there’s usually someone
+crucial who managers fear will quit.
+8. Fewer meetings, emails, documentation, and other such items are
+necessary to coordinate everyone’s work, thus allowing more time to
+construct profitable software.
+Open Allocation
+One of the twelve Agile Principles is hiring motivated people, giving them
+the tools they need, and trusting them to get the job done [22]. This principle
+minimizes managerial impediments intended to detect unmotivated
+workers, saving money by avoiding questionable oversight mechanisms. The
+mechanism of Open Allocation is based on just such trust.
+In Open Allocation, the workers propose ideas, and it’s their job to recruit
+other workers to join them. Promising ideas naturally attract workers and
+gather momentum. Weak ideas soon wither [23]. This approach is based
+upon the Open Space concepts of a marketplace of ideas, the freedom to
+choose those most interesting to us, and the ability to change our minds at
+any moment and go somewhere else where we can add value [24]. In short,
+we use market signals to determine which ideas are most viable and which
+are best extinguished.
+Instead of management deciding who will work on what, Open Allocation
+lets workers choose from a constantly changing menu of offerings. In effect,
+we tell them, “You’re good at what you do. That’s why we hired you. We trust
+you to choose where you can add the most value.”3/29/25, 5:18 PM Organized for Antiquity: Software Engineering’s Fundamental Flaw | by Kevin Meadows | Mar, 2025 | Medium
+https://medium.com/@jmlascala71/organized-for-antiquity-software-engineerings-fundamental-flaw-57bc2e5ef3c3 29/44
+Open Allocation has the benefit of reducing the incentives that lead to
+bureaucracy. There’s little need for expensive, hierarchical layers when we’re
+free to propose and choose the work that interests us. This model means that
+those who know their skills best, the individual workers, are free to choose
+the place where they can best utilize their skills.
+Agile organizations understand that the marketplace is dynamic and that
+static projects hinder their ability to adapt. They realize that when faced with
+constant change and rapidly shifting markets and technology, a much better
+philosophy than static objectives is this:
+Each day, you must arrive in the morning and determine the most important and
+helpful thing that must be done right now. Often, that will be the same as
+yesterday or last week, but sometimes it won’t. Holding on to earlier priorities
+means you aren’t thinking hard enough about the complex, adaptive system
+around you. Yesterday’s beliefs were fine yesterday but might be outdated today.
+Hold them loosely, and be willing to change them at any moment.
+Factors that Inhibit Change
+If we decide to change our antiquated organizational structures into
+something more modern, is this an easy thing to do? As it typically happens,
+no. There are often considerable barriers to surmount, but as with most
+difficult changes, the rewards are worth the effort. Besides, if it were easy,
+everyone would do it, erasing its competitive advantage.
+Dogma
+Despite being highly intelligent creatures, humans aren’t always adept at
+thinking about our thinking, especially when it comes to reevaluating long-
+held, popular beliefs. These beliefs often calcify into dogma, where we no
+longer weigh them carefully in the light of evidence but instead3/29/25, 5:18 PM Organized for Antiquity: Software Engineering’s Fundamental Flaw | by Kevin Meadows | Mar, 2025 | Medium
+https://medium.com/@jmlascala71/organized-for-antiquity-software-engineerings-fundamental-flaw-57bc2e5ef3c3 30/44
+unquestionably accept them. Worse, rather than considering the merit of
+those who ask us to reconsider these beliefs, we sometimes become
+defensive and hostile toward them.
+We’re especially prone to dogma when we’re under severe pressure to get
+things done. It isn’t unusual when questioning a long-held practice to be met
+with an exasperated response and the retort, “We don’t have time for that!
+Just get it done.” We can certainly argue that we “get things done faster”
+when we don’t stop to question them, but whether that’s advisable in the long
+term is another matter. In short, it’s easier to follow a well-worn path than to
+blaze a new trail through the thicket, so it’s only natural for us to continue
+doing the same thing.
+It’s perhaps unsurprising that after more than a century of Taylorism [1], its
+philosophy has become embedded in our thinking as dogma. At this point,
+it’s simply rote, the hymn book from which everyone sings.
+How do we jettison this dogmatic organizational view and consider
+alternatives? The bad news is that there’s no easy answer. Dogma, by
+definition, is a fundamental human tendency and is impervious to reason.
+The good news is that we aren’t powerless. Simply being aware of dogma’s
+ubiquity means that we’re more likely to resist its cognitive appeal.
+If there’s an operating principle to help overcome dogma, perhaps it’s this
+one:
+Instead of dogma, leave room for doubt.
+Utilization3/29/25, 5:18 PM Organized for Antiquity: Software Engineering’s Fundamental Flaw | by Kevin Meadows | Mar, 2025 | Medium
+https://medium.com/@jmlascala71/organized-for-antiquity-software-engineerings-fundamental-flaw-57bc2e5ef3c3 31/44
+Utilization is a common and rarely questioned belief that we must keep our
+software engineering staff fully busy at all times or we’re wasting money
+[25]. This philosophy is a direct outgrowth of Taylorism and is widespread in
+companies that adhere to Taylor’s principles.
+The problem we face when organizing for modernity is that we must accept
+that all staff members will not be 100% utilized at all times when we’re
+focused on keeping work products moving toward the customer. This
+realization is often a step too far for those steeped in the utilization mantra,
+and they typically resist any approach that permits anything other than the
+full utilization of workers.
+How do we circumvent this? Much as we do with the problem of dogma. Just
+knowing that we have the problem is a big step toward reconsidering it and
+eventually overcoming it. It’s also helpful to realize that our focus must shift
+from utilization to keeping the work flowing.
+Incentives
+One thing is clear about incentives: they work [26], often too well and in
+unintended ways that conflict with our desired goals.
+Suppose a company is organized around specialist departments, command-
+and-control hierarchies, and chain-of-command decision-making. In that
+case, it’s tough to convince workers to change their practices without also
+changing their incentive structures. Otherwise, we’re essentially saying to
+them, “We’re rewarding you for doing this one thing but want you to do
+another without the guarantee of a reward.”
+It’s unrealistic to expect people to risk their paychecks for an uncertain
+outcome. We need to change their incentives if we want them to change their3/29/25, 5:18 PM Organized for Antiquity: Software Engineering’s Fundamental Flaw | by Kevin Meadows | Mar, 2025 | Medium
+https://medium.com/@jmlascala71/organized-for-antiquity-software-engineerings-fundamental-flaw-57bc2e5ef3c3 32/44
+actions. We might even consider removing incentives outright, given the
+research indicating how often they maximize the wrong behavior and
+demotivate those who are otherwise self-motivated [26]. There’s little need
+for incentives if we trust the workers to self-organize and do their best work.
+“The best policy may be to avoid incentives altogether and focus instead on
+creating systems in which intrinsic motivation, cooperation, ethical behavior,
+trust, creativity, and joy in work can flourish.” [26]
+Gipsie Ranney
+Escalation of Commitment
+As discussed above, some work environments regard failure as something to
+be hidden when it happens and punished when it can’t be. It’s probably no
+surprise that in these environments, people are loath to admit a strategy isn’t
+working. They will continue with it instead, if for no other reason than job
+preservation. If significant money and resources have been consumed along
+the way, then the fear of job loss is magnified. This approach almost
+guarantees that failing strategies will continue being used, even when it’s
+abundantly clear that they should be abandoned.
+Rather than stop and reconsider our methods, we often believe that failure is
+due to our not applying them rigorously enough, neglecting to stop and
+consider that our methodology might be flawed. If our heavily planned and
+managed approach isn’t working, the thinking goes, it’s not because the
+approach is fundamentally wrong. Instead, it’s because we’re not executing it
+with sufficient dedication, and we must, therefore, redouble our efforts and
+further our commitment to achieve success. This doubling-down on failure
+is a common bias, so common, in fact, that it’s called Escalation of
+Commitment [27].3/29/25, 5:18 PM Organized for Antiquity: Software Engineering’s Fundamental Flaw | by Kevin Meadows | Mar, 2025 | Medium
+https://medium.com/@jmlascala71/organized-for-antiquity-software-engineerings-fundamental-flaw-57bc2e5ef3c3 33/44
+We would be much better served by being cognitively curious, always willing
+to reconsider cherished beliefs, and experimenting with new approaches in
+a true agile fashion.
+“There is comfort in doubling down on proven processes, regardless of their
+efficacy. Few of us are criticized if we faithfully do what has worked many times
+before. We no longer live in a world where planning and discipline will lead to
+success. Instead, we live in a world that requires agility and innovation.” [6]
+Stanley McChrystal
+The Craving for Certainty
+The desire for certainty is a cornerstone of many software workplaces.
+Business plans and quarterly earnings imply that with sufficient skill and
+devotion, our software endeavors can be as predictable as a manufacturing
+assembly line. As detailed above, this simply isn’t possible.
+But this expectation is so fundamental that we will employ agile frameworks
+that promise predictable results by following their precise instructions and
+checklists. It bears mentioning that the most predictable output of these
+frameworks is not always agility but bureaucracy and expensive consultants
+to guide us in using the framework.
+Wanting to know what the future holds is a fundamental human need as old
+as our species. That’s why we have horoscopes and fortune tellers. But in our
+constantly changing, unpredictable software environment, how can any
+process provide certainty about the future? It can’t, and we’ll benefit if we
+resist believing so.3/29/25, 5:18 PM Organized for Antiquity: Software Engineering’s Fundamental Flaw | by Kevin Meadows | Mar, 2025 | Medium
+https://medium.com/@jmlascala71/organized-for-antiquity-software-engineerings-fundamental-flaw-57bc2e5ef3c3 34/44
+“[We must] fight against the desire for instructions that specify process steps and
+guarantee results. We must accept that every process is necessarily inadequate and
+can always be improved. Unfortunately, we crave the certainty of having a process
+that promises guaranteed results.” [20]
+Amy Edmondson
+We too often seek the thrill of certainty in a domain where it’s rarely found.
+Wanting immediate answers to problems that take time to understand and
+define, we can make misinformed decisions and then rush to the next issue,
+all the while certain that we know things we really don’t and acting on false
+knowledge. Each rash decision comes with steadily accruing, long-term
+costs, making our future work unnecessarily difficult. It’s a form of
+deliberate ignorance in the pursuit of short-term gain.
+Bureaucratic Resistance
+Bureaucracies are adept at resisting change and preserving their dominance.
+Even when we think we’ve reoriented them into a more nimble form, it’s
+sometimes the case that we’ve merely transformed them into a different
+bureaucracy. It can be a maddening exercise of squeezing a balloon, pushing
+in one direction only to see it emerge in another, effectively negating the
+effort [15].
+The solution, if there is one, is to inform all stakeholders that the
+organization’s long-term viability is the primary concern and must take
+precedence over the short-term parochial interests of bureaucratic fiefdoms.
+An anecdote: I once worked in a software firm that required software deployments
+to be approved by multiple committees, each formed as a result of failed
+deployments. The committees were subsets of one another, meaning that the same3/29/25, 5:18 PM Organized for Antiquity: Software Engineering’s Fundamental Flaw | by Kevin Meadows | Mar, 2025 | Medium
+https://medium.com/@jmlascala71/organized-for-antiquity-software-engineerings-fundamental-flaw-57bc2e5ef3c3 35/44
+members would be approving a deployment multiple times. To make matters
+worse, most of the committee members were not technical people and had little
+understanding of what was actually being deployed. They mostly asked questions
+that tried to determine if I had done my homework. On the surface, it was an
+understandable strategy intended to prevent disaster, but in reality, it did little to
+prevent further failures. Instead, it only added layers of bureaucratic resistance. It
+probably would have been better to streamline the committees into a single one.
+Better still, remove them entirely by building more robust testing, code review, and
+system resiliency instead of hoping that approval measures could prevent problems.
+Closing Thoughts
+In much of our industry, the foundational belief of how to organize ourselves
+is based on false assumptions about the nature of our work, which ultimately
+harms us in the long run. Our work lies in the Complex domain, not in the
+simple, Clear domain of Taylor’s era. This phenomenon is why heavy,
+bureaucratic systems struggle to keep up with the rapid and constant change
+in the software industry.
+For manufacturing outfits in the past, being organized for antiquity worked
+well because the speed of business was slow, and the work was simple.
+Today, we move at breakneck speeds, and the rate of speed continues to
+increase. Organizing for antiquity means we’re structuring ourselves for a
+world that no longer exists and never applied to software engineering.
+There is perhaps a silver lining to the widespread practice of organizing our
+workplaces according to Taylorism principles. If everyone is organized for
+antiquity, it leaves a significant market opportunity for those who choose a
+more modern approach. Better still, if the majority are dogmatic about their
+method, they’re less likely to realize that a competitor has found a more3/29/25, 5:18 PM Organized for Antiquity: Software Engineering’s Fundamental Flaw | by Kevin Meadows | Mar, 2025 | Medium
+https://medium.com/@jmlascala71/organized-for-antiquity-software-engineerings-fundamental-flaw-57bc2e5ef3c3 36/44
+effective strategy and adopt it themselves, providing a long-term benefit to
+those who organize for modernity.
+Being organized for antiquity is a problem hiding in plain sight. We’ve
+unwittingly subscribed to Taylor’s century-old principles, and only a
+reconsideration of our belief system will reveal that we’re organized the
+wrong way. It’s time to choose a different approach.
+References
+[1] Taylor, Frederick Winslow, 1911. “The Principles of Scientific
+Management”
+[2] Denning, Steve, 2024. “Putting The Man Before The System Drives The
+World’s Most Valuable Firms”
+https://www.forbes.com/sites/stevedenning/2024/02/04/putting-man-before-
+the-system-drives-the-worlds-most-valuable-firms/
+[3] Snowden, David, and Boone, Mary, 2007. “A Leader’s Framework for
+Decision Making”
+https://hbr.org/2007/11/a-leaders-framework-for-decision-making
+[4] Pelrine, Joseph, 2011. “On Understanding Software Agility — A Social
+Complexity Point Of View”
+https://cdn.cognitive-edge.com/wp-
+content/uploads/sites/2/2020/11/16124017/110510-On-Understanding-
+Software-Agility.pdf
+[5] Complex Adaptive System
+https://en.wikipedia.org/wiki/Complex_adaptive_system3/29/25, 5:18 PM Organized for Antiquity: Software Engineering’s Fundamental Flaw | by Kevin Meadows | Mar, 2025 | Medium
+https://medium.com/@jmlascala71/organized-for-antiquity-software-engineerings-fundamental-flaw-57bc2e5ef3c3 37/44
+[6] McChrystal, Stanley, 2015. “Team of Teams: New Rules of Engagement for
+a Complex World”
+[7] Vidgen, Richard, and Wang, Xiaofeng, 2006. “Organizing for agility: A
+complex adaptive systems perspective on agile software development
+process”
+https://aisel.aisnet.org/cgi/viewcontent.cgi?article=1123&context=ecis2006
+[8] Edmondson, Amy, 2012. “Teaming: How Organizations Learn, Innovate,
+and Compete in the Knowledge Economy”
+[9] Carrol, Sean, 2019. “Where Quantum Probability Comes From”
+https://www.quantamagazine.org/where-quantum-probability-comes-from-
+20190909/
+[10] Kahneman, Daniel, 2011. “Thinking, Fast and Slow”
+[11] Reinertsen, Donald G., 2009. “The Principles of Product Development
+Flow: Second Generation Lean Product Development”
+[12] Zuill, W. and Meadows, K., 2022. “Software Teaming, A Mob
+Programming, Whole-Team Approach. Second Edition”
+[13] Suess, Dr., 1990. “Oh, the Places You’ll Go!”
+[14] Lean Manufacturing Tools. “Waste of Inventory; causes, symptoms,
+examples, solutions”
+https://leanmanufacturingtools.org/106/waste-of-inventory-causes-
+symptoms-examples-solutions/3/29/25, 5:18 PM Organized for Antiquity: Software Engineering’s Fundamental Flaw | by Kevin Meadows | Mar, 2025 | Medium
+https://medium.com/@jmlascala71/organized-for-antiquity-software-engineerings-fundamental-flaw-57bc2e5ef3c3 38/44
+[15] Meadows, Kevin, 2024. “The Bureaucratization of Agile: Why
+Bureaucratic Software Environments Aren’t Agile”
+https://medium.com/@jmlascala71/the-bureaucratization-of-agile-
+025dd5e2d2d0
+[16] Landry, E. and Sterman, J., July 2017. “The Capability Trap: Prevalence
+in Human Systems.” The 35th International Conference of the System
+Dynamics Society (pp. 963 – 1010)
+https://proceedings.systemdynamics.org/2017/proceed/papers/P1325.pdf
+[17] Repenning, N. and Sterman, J., November 2000. “Self-Confirming
+Attribution Errors in the Dynamics of Process Improvement.” Sloan School
+of Management, Massachusetts Institute of Technology
+https://web.mit.edu/nelsonr/www/SelfConfAttErrors_v1.0.html.pdf
+[18] Garvin, David, Edmondson, Amy, and Gino, Francesca, 2008. “Is Yours a
+Learning Organization?”, Harvard Business Review
+https://hbr.org/2008/03/is-yours-a-learning-organization
+[19] Harrell, Eben, 2015. “How 1% Performance Improvements Led to
+Olympic Gold”
+https://hbr.org/2015/10/how-1-performance-improvements-led-to-olympic-
+gold
+[20] Edmondson, Amy, 2023. “Right Kind of Wrong: The Science of Failing
+Well”
+[21] Zuill, W., and Meadows, K., 2022. “Software Teaming: A Mob
+Programming, Whole-Team Approach. Second Edition”3/29/25, 5:18 PM Organized for Antiquity: Software Engineering’s Fundamental Flaw | by Kevin Meadows | Mar, 2025 | Medium
+https://medium.com/@jmlascala71/organized-for-antiquity-software-engineerings-fundamental-flaw-57bc2e5ef3c3 39/44
+[22] “Principles Behind the Agile Manifesto”
+https://agilemanifesto.org/principles.html
+[23] Wikipedia, “Open Allocation”
+https://en.wikipedia.org/wiki/Open_allocation
+[24] Owen, Harrison, “A Brief User’s Guide to Open Space Technology,” Open
+Space World
+https://openspaceworld.org/wp2/hho/papers/brief-users-guide-open-space-
+technology/
+[25] Meadows, K., 2023. “Utilization Considered Harmful: Why It’s Costly
+Keeping Everyone Busy in Software Organizations”
+https://jmlascala71.medium.com/utilization-considered-harmful-
+f992776e5e3e
+[26] Ranney, G., 2018. “The Trouble with Incentives: They Work,” Systems
+Thinker, vol. 21
+https://thesystemsthinker.com/%EF%BB%BFthe-trouble-with-incentives-
+they-work/
+[27] Wikipedia, “Escalation of Commitment”
+https://en.wikipedia.org/wiki/Escalation_of_commitment
+Agile Software Organization Design Taylorism Software Engineering
+Business Re Engineering3/29/25, 5:18 PM Organized for Antiquity: Software Engineering’s Fundamental Flaw | by Kevin Meadows | Mar, 2025 | Medium
+https://medium.com/@jmlascala71/organized-for-antiquity-software-engineerings-fundamental-flaw-57bc2e5ef3c3 40/44
+Written by Kevin Meadows
+92 Followers·1 Following
+Kevin Meadows is a technologist with decades of experience in software
+development, management, and numerical analysis.Follow
+No responses yet
+Ashley caceres Pagan
+More from Kevin Meadows
+What are your thoughts?
+The Bureaucratization of Agile
+Why Bureaucratic Software Environments
+Aren’t Agile
+Utilization Considered Harmful
+Why It’s Costly Keeping Everyone Busy in
+Software Organizations
+Kevin Meadows
+ Kevin Meadows3/29/25, 5:18 PM Organized for Antiquity: Software Engineering’s Fundamental Flaw | by Kevin Meadows | Mar, 2025 | Medium
+https://medium.com/@jmlascala71/organized-for-antiquity-software-engineerings-fundamental-flaw-57bc2e5ef3c3 41/44

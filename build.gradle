@@ -1,0 +1,40 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'org.openjfx.javafxplugin' version '0.0.13'
+}
+
+group = 'capstone'
+version = '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // JUnit
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.10.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.10.0'
+
+    // ✅ Lombok
+    compileOnly 'org.projectlombok:lombok:1.18.30'
+    annotationProcessor 'org.projectlombok:lombok:1.18.30'
+
+    // ✅ Apache Lucene (for stemming)
+    implementation 'org.apache.lucene:lucene-core:10.2.0'
+    implementation 'org.apache.lucene:lucene-analysis-common:10.2.0'
+}
+
+test {
+    useJUnitPlatform()
+}
+
+javafx {
+    version = "21.0.7"
+    modules = [ 'javafx.controls', 'javafx.fxml' ]
+}
+
+application {
+    // Main class path should match your renamed file when ready
+    mainClass = 'capstone.documenttaggingsystem.TaggingApp'
+}

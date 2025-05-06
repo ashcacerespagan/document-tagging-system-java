@@ -1,0 +1,1282 @@
+HUMAN RIGHTS QUARTERLY
+Human Rights Quarterly 44 (2022) 257–285 © 2022 by Johns Hopkins University PressThe Application of Human Rights 
+Treaties in Dualist Muslim States:  
+The Practice of Pakistan
+Niaz A. Shah
+ABSTRACT
+I argue that Islamic law treats ratified human rights treaties as part of the 
+law of the land and as directly applicable in courts in Muslim states such 
+as Pakistan where Sharia is the main source of law. The Islamic approach is 
+the better and more effective approach for the enjoyment of human rights. 
+Article 227(1) of the 1973 constitution of Pakistan demands Islamization 
+of all existing laws and prohibits the enactment of laws incompatible with 
+Islamic law. Pakistan has failed to Islamize its constitutional provisions on 
+the ratification and status of ratified treaties and continues to practice the 
+dualist doctrine inherited from the British colonial era. Pakistan has acceded 
+to seven core human rights treaties, but they are not incorporated in the 
+legal system of Pakistan. This has led to a legal culture where human rights 
+treaties are seen as applicable on the international plane only. I make a 
+case for the Islamization of the constitutional provisions in relation to hu-
+man rights and other treaties and until the constitution is amended under 
+Article 227(1), I propose an ad hoc framework for relying on unincorpo-
+rated human rights treaties and customary international law based on the 
+developed British dualist doctrine which will contribute to the enjoyment 
+of human rights in Pakistan.
+Niaz A. Shah is a Professor in Law at the University of Hull, UK. Professor Shah practices law 
+from Nexus Chambers, London. 
+This article is dedicated to the memory of my mother who passed away during the lifetime of 
+this research project. 
+Vol. 44258
+HUMAN RIGHTS QUARTERLY
+I. INTRODUCTION
+Pakistan has acceded to a number of human rights treaties, but the state 
+of human rights is alarming. Human rights violations of children, women, 
+freedom of expression, and ethnic minorities are soaring. In January 2018, 
+the rape and murder of a six-year-old girl by her neighbor shocked the na-
+tion.1 In a similar case in January 2018, another young girl was raped and 
+murdered.2 In Balochistan, an eight-year-old boy was found hanging from 
+a tree; a medical examination found that he was sexually abused before 
+his murder.3 Sahil, an NGO focusing on child sexual abuse, in its “Cruel 
+Numbers 2020,” said that 2,960 cases of child abuse were reported in the 
+national media, 51 percent of which were girls.4 At least ten journalists 
+were killed, and a large number were threatened, kidnapped, tortured and 
+arrested.5 Curbs on the media continue and journalists are complaining 
+that they are “compelled to self-censor for fear of being persecuted by state 
+and non-state actors.”6 The Human Rights Commission of Pakistan (HRCP) 
+“recorded 430 cases of honor killing in 2020, involving 148 male and 
+363 female victims.”7 There was also a sharp rise in the cases of domestic 
+violence in 2020.8 “Accusations of blasphemy, forced conversions and mar -
+ginalization of religious minorities and sects” are common.9 In 2020, 586 
+persons were charged under the blasphemy law and thirty-one alleged that 
+they were forcefully converted to Islam.10 According to HRCP, the “Justice 
+Project Pakistan [JPP] has recorded 17 cases of custodial deaths” since 26 
+June 2020.11 Many cases go unreported.12
+  1. Pakistan Zainab Murder: Imran Ali Hanged for Six-year-old’s Death, BBC A siA (Oct. 17, 
+2018), https://www.bbc.co.uk/news/world-asia-45885686. Imran Ali was charged with 
+similar crimes against other girls and, after standing trial, was convicted and hanged. 
+Pakistan coming under extreme pressure from society enacted the Zainab Alert, Response 
+and Recovery Act 2020 to track child abusers. See M. Illyas Khan, Pakistan Zainab 
+Murder: New Law Aims to Catch Child Abusers, BBC (Mar. 12, 2020), https://www.bbc.
+co.uk/news/world-asia-51852381.
+  2. Asma, Four, “Raped, Strangled to Death,” in Mardan, Al-JAzeerA  (Jan. 17, 2018), https://
+www.aljazeera.com/news/2018/1/17/asma-four-raped-strangled-to-death-in-mardan.
+  3. HumAn rigHts Commission  of PAkist An, stAte of HumAn rigHts in PAkist An 2020,  (2021) http://
+hrcp-web.org/hrcpweb/ [hereinafter PHRC, 2020 rePort].
+  4 . s oHAil AHmed, W AqAs HAmeed , mAryAm kHAlid sAHil, sAHil, Cruel numBers  2020  (Manizeh 
+Bano, ed., 2021).
+  5. HRCP, 2020 rePort, supra note 3, at 13.
+  6. Id. at 14.
+  7. Id. at 16.
+  8. Id.
+  9 . Id. at 15.
+ 10. Id. For further discussion and data, see the thematic report of the HumAn rigHts Commis -
+sion of PAkist An, ConsPiCuous  By its ABsenCe : freedom  of religion  or Belief in PAkist An (2020).
+ 11. Human Rights Commission of Pakistan, HRCP, JPP Call on Government to Criminalise 
+Torture, HumAn rigHts Commission  of PAkistAn, (June 26, 2021), http://hrcp-web.org/hrcpweb/
+hrcp-jpp-call-on-government-to-criminalise-torture/.
+ 12. Id.
+2022 Application of Human Rights Treaties in Dualist Muslim States259
+The state of human rights is deteriorating despite the fact that Pakistan 
+has acceded to seven core human rights treaties.13 In 1948, Pakistan also 
+voted in favor of the Universal Declaration of Human Rights 1948.14 Pakistan 
+as a state party has acquired human obligations and is required to comply 
+with them in good faith. There are, however, two main reasons for the lack 
+of effective judicial application of human rights law in Pakistan: Pakistan’s 
+complacency in following the dualist doctrine (the British doctrine has de-
+veloped greatly in light of human rights treaties obligations) it has inherited 
+from the British colonial era and not Islamizing the constitutional provisions 
+on the ratification and status of human rights treaties as is mandated by 
+Article 227(1) of the 1973 constitution. Dualism has given birth to a legal 
+culture wherein it is possible to become a practicing lawyer and a judge 
+without studying international law.15 Such a legal culture psychologically 
+ 13. They are: International Covenant on Civil and Political Rights, adopted 16 Dec. 1966, 
+G.A. Res. 2200 (XXI), U.N. GAOR, 21st Sess., U.N. Doc. A/6316 (1966), 999 U.N.T.S. 
+171 (entered into force 23 Mar. 1976) (ICCPR); International Covenant on Economic, 
+Social and Cultural Rights, adopted 16 Dec. 1966, G.A. Res. 2200 (XXI), U.N. GAOR, 
+21st Sess., U.N. Doc. A/6316 (1966) (ICESCR), 993 U.N.T.S. 3 (entered into force 3 Jan. 
+1976); Convention on the Elimination of All Forms of Discrimination Against Women, 
+adopted 18 Dec. 1979, G.A. Res. 34/180, U.N. GAOR, 34th Sess., U.N. Doc. A/34/46 
+(1980), 1249 U.N.T.S. 13 (entered into force  Sept. 3, 1981) (CEDAW); Convention 
+Against Torture and Other Cruel, Inhuman or Degrading Treatment or Punishment, 
+adopted Dec. 10, 1984, G.A. Res. 39/46, U.N. GAOR, 39th Sess., U.N. Doc. A/39/51 
+(1985), 1465 U.N.T.S. 85 (entered into force June 26, 1987) (CAT); Convention on the 
+Rights of the Child, adopted Nov. 20, 1989, G.A. Res. 44/25, U.N. GAOR, 44th Sess., 
+U.N. Doc. A/44/49 (1989), 1577 U.N.T.S. 3 (entered into force Sept. 2, 1990) (CRC); 
+Optional Protocol to the Convention on the Rights of the Child on the Involvement of 
+Children in Armed Conflict (May 25, 2000); Optional Protocol to the Convention on the 
+Rights of the Child on the Sale of Children, Child Prostitution and Child Pornography 
+(May 25, 2000). Pakistan has also acceded to the Convention on the Rights of Persons 
+with Disabilities, adopted 13 Dec. 2006, G.A. Res. 61/106, U.N. GAOR, 61th Sess., 
+U.N. Doc. A/RES/61/106 (2007) (entered into force  May 3, 2008) (CRPD); International 
+Convention on the Elimination of All Forms of Racial Discrimination, adopted Dec. 21, 
+1965, G.A. Res. 2106 (XX), U.N. GAOR, 20th Sess., 660 U.N.T.S. 195 (entered into 
+force Jan. 4, 1969), reprinted in 5 I.L.M. 352 (1966) (CERD). For status of human rights 
+treaties ratifications, see United Nations Treaty Collection, Status of Treaties (2021), 
+https://treaties.un.org/Pages/Treaties.aspx?id=4&subid=A&clang=_en  [hereinafter UN 
+Treaty Collection].
+ 14. See United Nations Digital Library, General Assembly Voting Data (Dec. 10, 1948), 
+https://digitallibrary.un.org/record/670964?ln=en.
+ 15. I have been leading a very successful judicial training on human rights and the rule of 
+law for Pakistani judges since February 2014 and trained over 200 judges. See Pakistan’s 
+Top Judges Turn to University of Hull for Help on Human Rights Record, univ. of Hull 
+(July 15, 2018), https://www.hull.ac.uk/work-with-us/more/media-centre/news/2019/
+pakistans-top-judges-turn-to-university-of-hull; UNDP Pakistan Builds Gilgit Baltistan 
+Judiciary’s Capacity With Human Rights and Rule of Law Trainings, u.n. dev. ProgrAmme  
+rel (Mar. 17, 2021), https://www.pk.undp.org/content/pakistan/en/home/presscenter/press-
+releases/2021/undp-pakistan-builds-gilgit-baltistan-judiciarys-capacity-with-h.html. From 
+extended discussions with judges of the district judiciary and various High Courts, this 
+legal culture was poignantly visible. The most revealing was the misperception among 
+judges of the district judiciary that they could not rely on human rights treaties as well 
+Vol. 44260
+HUMAN RIGHTS QUARTERLY
+“disposes both counsel and judge to treat international law as some exotic 
+branch of the law, to be avoided if at all possible.”16
+The UN Charter guarantees the principle of “sovereign equality” of all 
+member states.17 Sovereign states voluntarily take part in the formation and 
+subsequent ratification and accession of treaties. The implementation and 
+application of human rights treaties is based on the consent of state parties.18 
+The core human rights treaties do not specify a method for how states par -
+ties may implement and apply human rights law within their jurisdictions.19 
+The International Covenant on Civil and Political Rights (ICCPR) confirms 
+this flexibility stating that each state party “undertakes to take the necessary 
+steps, in accordance with its constitutional processes and with the provisions 
+of the present Covenant, to adopt such laws or other measures as may be 
+necessary to give effect to the rights recognized.”20
+This article seeks to answer the question of whether and how the Pakistani 
+judiciary may rely on unincorporated human rights treaties and customary 
+international law. Drawing on the analysis of Islamic law, the 1973 consti-
+tution, and Pakistani and English jurisprudence, I argue that under Islamic 
+law, human rights treaties are directly applicable in the domestic system 
+and an Islamic law approach to the ratification and enforcement of human 
+rights treaties is a better approach. Pakistan, acting under Article 227(2) of 
+   as fundamental rights contained in the 1973 constitution. They believed that enforcing 
+human rights and fundamental rights fell within the domain of senior judiciary, i.e., 
+High Court and Supreme Court.
+ 16. rosAlyn  Higgins , ProBlem  & P roCess : intern Ation Al lAW And HoW We use it 205 (2010). Hig-
+gins has succinctly described Monism and Dualism as under:
+    Monists contend that there is but a single system of law, with international law being 
+an element within it alongside all the various branches of domestic law. For the monist, 
+international law is part of the law of the land alongside labour law, employment law, 
+contract law, and so forth. Dualists contend that there are two essentially different legal 
+systems, existing side by side within different spheres of actions—the international plane 
+and the domestic plane.
+    For discussion on monism and dualism see also: mAlCom  n. sHAW, intern Ation Al lAW 
+99 (8th ed. 2017); united nAtions HigH Commissioner  for refugees  (UNHCR) , HumAn rigHts 
+And refugee  ProteCtion : self-study module  46 (2006); JAmes CrAWford , BroWnlie’s PrinCiPles  
+of PuBliC intern Ation Al lAW 45 (8th ed, 2012); David Feldman, The Internationalization 
+of Public Law and its Impact on the UK, in tHe CHAnging  Constitution  126 (Jeffrey Jow-
+ell & Colm O’Cinneide eds., 9th ed. 2019); Eileen Denza, The Relationship Between 
+International and National Law, in intern Ation Al lAW 386 (Malcolm D. Evans ed., 5th ed. 
+2018). See generally fAtimA sHAHeed , using intern Ation Al lAW in domestiC  Courts  (2005).
+ 17. U.N. Charter art. 2(2), signed 26 June 1945, 59 Stat. 1031, T.S. No. 993, 3 Bevans 1153 
+(entered into force Oct. 24, 1945).
+ 18. See Vienna Convention on the Law of Treaties, U.N. Doc. A/CONF.39/27 (1969), pmbl, 
+¶ 4, 1155 U.N.T.S. 331 (entered into force Jan. 27, 1980), reprinted in 8 I.L.M. 679 
+(1969).
+ 19. There are nine core human rights treaties. Pakistan has ratified seven of them. See The 
+Core International Human Rights Instruments and Their Monitoring Bodies, offiCe of HigH 
+Commissioner  for HumAn rigHts rel (2021), https://www.ohchr.org/en/professionalinterest/
+pages/coreinstruments.aspx.
+ 20. ICCPR, supra note 13, art. 2(2).
+2022 Application of Human Rights Treaties in Dualist Muslim States261
+the 1973 constitution, should Islamize the procedure on the ratification of 
+treaties, and determine the status of ratified treaties and customary interna-
+tional law in line with Islamic law. Adopting an Islamic law approach will 
+maximize the judicial application of human rights law leading to enhanced 
+enjoyment of human rights in Pakistan. The district judiciary is a gateway 
+to public litigation and litigants at district judiciary would benefit the most 
+from the direct application of human rights law. This is because currently 
+a misperception is prevalent in the district judiciary that it does not have 
+jurisdiction to enforce human rights law and fundamental rights.21 Until the 
+Islamic approach is introduced, I propose an ad hoc framework as to how 
+Pakistani courts may rely on unincorporated human treaties and customary 
+international law for the protection of human rights. The ad hoc framework 
+is derived from the analysis of the developed English and inchoate Pakistani 
+jurisprudence on human rights law.
+II. THE 1973 CONSTITUTION AND ISLAMIZATION OF LAW
+The 1973 constitution declares Islam as a state religion.22 Article 227(1) re-
+quires that all existing laws must be brought in conformity with the Quran 
+and Sunnah, and no law shall be made which is incompatible with the Quran 
+and Sunnah.23 In essence, all laws must meet the Islamic legal compatibility 
+test.24 The spirit of Article 227(1) also means that all laws must be interpreted 
+compatibly with Islamic injunctions.25 The Islamization of laws must take 
+place through and on the recommendation of the constitutional body called 
+the Council of Islamic Ideology (CII). One of the main functions of the CII 
+is “to make recommendations as to the measures for bringing existing laws 
+ 21. See the discussion in footnote 16 above.
+ 22. Pakistan Code, Constitution of the Islamic Republic of Pakistan, art. 2 (1973), [hereinafter 
+PAkist An Const.].
+ 23. Id. art 227(1).
+ 24. Id. Islamic law for different Muslim sects means as they interpret it, art 227(1). The 
+Islamization of law does not apply to the law of personal status of non-Muslims, art 
+227(3); for useful general discussion see also Federation of Pakistan v. Farishta PLD 
+Supreme Court 120 (1981).
+ 25. See, e.g., Commissioner of Income Tax Peshawar v. Seimen PLD 1991 Supreme Court 
+368 where the Supreme Court held:
+    So long as the existing statutes were not brought in conformity with injunctions of 
+Islam, their interpretation, application and enforcement, wherein discretionary judicial 
+elements were involved, only that course would be adopted which was in accord with 
+the Islamic philosophy, its common law and jurisprudence.
+    This principle of compatible interpretation of statutes with Islamic law has been 
+discussed in a large number of cases: Haji Nizam Khan’s case PLD 1976 Lahore 930; 
+Muhammad Bashir v. State,  PLD 1982  Supreme Court 139; Mian Aziz A. Sheikh’s case 
+PLD 1989 Supreme Court 613.
+Vol. 44262
+HUMAN RIGHTS QUARTERLY
+into conformity with the Injunctions of Islam.”26 A number of governments 
+have made efforts to Islamize laws but these efforts have been piecemeal 
+and the law on ratification and enforcement of international treaties is not 
+Islamized.27
+A. The Islamic law and Treaties
+Islamic law puts great emphasis on fulfilling obligations and uses words such 
+as Aqd, Ahd and Mithaq for agreements and treaties. The primary source of 
+Islamic law—the Quran (5:1)—states: “Fulfil all obligations [ uqud ].” Uqud  is 
+a plural of Aqd, which means “a contract or legal transactions.”28 The term 
+is used to refer to the conclusion of contracts of sale, loan, and marriage, 
+and it denotes legal action that becomes effective upon the acceptance of an 
+offer.”29 Ahd refers to a “covenant or compact, as in agreement or swearing 
+of allegiance. [This] [d]escribes various relationships between early Muslims 
+and other groups with whom they were allied.”30 Ahd is mentioned at least 
+forty-six times in the Quran for various forms of agreement, such as making 
+a promise (2:124, 177; 9:75, 111; 23:8; 70:32); an agreement (19:78, 87); 
+a covenant (2:177); and swearing (16:91, 17:34).31 It has been used for Ahd 
+made among Muslims or between Muslims and non-Muslims.32 Mithaq has 
+been used about twenty-three times in the Quran together with Ahd (2:27, 
+13:20) having the same meaning as Ahd.33 “Mithaq is a noun that signifies 
+covenant, agreement, treaty or alliance.”34
+The Quran and practice of Prophet Muhammad (peace be upon him) 
+is replete with examples of making treaties with other tribes and rulers. The 
+ 26. PAkist An Const., supra note 22, art. 227(2), art 230 (c).
+ 27. In 1979, laws on sexual offences, theft, alcohol and whipping were introduced. The 
+1973 constitution itself contained a large number of Islamic provisions. For a very useful 
+discussion on Islamization, see PLD 1986 Supreme Court 204 where the Shariat Ap-
+pellate Bench of the Supreme Court has discussed the constitutional as well as Islamic 
+law in greater depth.
+ 28. Quran (5:1).
+ 29. JoHn l. esPosito , tHe oxford  diCtion Ary of islAm 22 (2006).
+ 30. JoHn l. esPosito , tHe oxford  diCtion Ary of islAm 9 (2003). See muHAmmAd  AsAd, tHe messA ge 
+of tHe qurAn 205 (1997) where he, citing Raghib, says that this verse refers to three 
+kinds of covenants: between God and man; between man and his soul and between a 
+man and his fellow men.
+ 31. Ibrahim Sumer, Ahd/Ahada, in tHe qur’An: An enCyCloPediA  (Oliver Leaman ed., 2008).
+ 32. For a good discussion on Covenants and its various forms, see id. He clarifies the cov-
+enants of Allah with various prophets, children of Israel, and with Prophet Muhammad, 
+(peace be upon him) and covenants (treaties) the Prophet made with non-Muslims. See 
+generally muHAmmAd  Al-HAsAn Al-sHAyBAni, kitAB Al-siyAr Al-sAgHir, tHe sHorter  Book on 
+muslim intern Ation Al lAW (Mahmood Ahmad Gazi trans., 2004).
+ 33. Id.
+ 34. Rafik Berjak, in tHe qur’An: An enCyCloPediA , supra note 31, at 408. For a detailed discus-
+sion of the three terms, see liAquA t Ali kHAn niAzi, islAmiC  lAW of ContrACt  9-15 (1991).
+2022 Application of Human Rights Treaties in Dualist Muslim States263
+Quran emphasizes fulfilling obligations without making any distinction with 
+whom the Ahd/Mithaq has been entered into.35 In discussing law making 
+in Islam, Hamidullah argues that there were other sources of law making 
+during the period of Prophet Muhammad (peace be upon him). One of 
+them is treaties.36 “If Muslims enter into an agreement with a party and 
+accept certain conditions, these become binding on the entire community 
+until such time as the agreement expires.”37 “Compliance with them is as 
+obligatory as obedience to permanent laws derived from the Quran and 
+Sunnah.”38 The Treaty of Hudaybiyah (AD 628 / AH 6) sheds light on the 
+process of treaty making, writing it down, witnesses, signature, and im-
+mediate enforcement.39 The Hudaybiyah treaty was agreed after discussion 
+between the parties and among Muslims themselves.40 There were strong 
+views among Muslims on some of the terms of the treaty. For instance, 
+Muslims were very unhappy with one of the terms asking Muslims to give 
+up pilgrimage that year.41 Another condition was that those from the tribe 
+of Quraysh joining Muslims should be returned to Quraysh whereas those 
+from Muslims joining Quraysh shall not be returned.42 However, through 
+consultation among Muslims under the leadership of Prophet Muhammad 
+(peace be upon him), the treaty was finalized.43
+Once the terms were agreed upon, they became binding on Muslims. 
+The Prophet Muhammad (peace be upon him) and the signatory and emis-
+sary of Quraysh tribe, Suhayl Bin Amr, were busy writing the treaty when 
+Abu Jandal (son of Sohail from Quraysh tribe who had converted to Islam), 
+showed up to join the Muslims.44 Suhayl stood up, slapped Jandal, grabbed 
+ 35. Quran (5:1)
+ 36. muHAmmAd  HAmidullAH , tHe emergenCe  of islAm 270 (2004).
+ 37. Id. at 271. Muslims can only agree to terms of treaties, which do not conflict with the 
+clear and obligatory principles of Islamic law contained in the Quran and Sunnah. See 
+muHAmmAd  HAmidullAH , tHe muslim ConduCt  of stAte 32, 60-61 (1968). In his treaty with 
+the people of Najran, Prophet Muhammad (peace be upon him), made a provision 
+that “They will not indulge in usury (interest);” see ABu uBAyd Al-qAsim B. sAlAm, kitABul 
+Al-AmWAl,tHe Book of finAnCe 163 (1991). There are a number of excerpts from other 
+treaties the Prophet Muhammad (peace be upon him) made with different people.
+ 38. HAmidullAH  supra note 36, at 271.
+ 39. tHe life of muHAmmAd : A trAnslA tion of iBn isHAq’s srAt rAsul AllAH 504 (A. Guillaume 
+trans. 1967).
+ 40. Id
+ 41. Id
+ 42. Id
+ 43. The companions always acted as advisors and consultative group. During the Treaty of 
+Hudaybiyah, some close companions of the Prophet Muhammad (peace be upon him) 
+such as Hazrat Omer were not happy with certain terms of the treaty such as abandon-
+ing pilgrimage that year but accepted it at the insistence of Prophet Muhammad (peace 
+be upon him). Similarly, Hazrat Ali refused to write the treaty when Suhayl objected to 
+words “This is what Muhammad, the messenger of Allah has agreed with Suhayl bin 
+Amr.” See isHAq, supra note 39.
+ 44. Id. at 505.
+Vol. 44264
+HUMAN RIGHTS QUARTERLY
+him by the neck, and dragged him to the Quraysh side.45 Muslims were 
+perturbed when Jandal was calling Muslims for help, saying that Quraysh 
+would persecute him for his new faith.46 The Prophet Muhammad (peace 
+be upon him) said:
+Abu Jandal, count on a reward, for God will give you and those who are 
+oppressed with you relief and a way out. We have made a treaty and peace 
+between ourselves and these people; we have given them and they have given 
+us a promise, and we will not act treacherously toward them.47
+The Prophet Muhammad (peace be upon him) had also concluded a treaty 
+with various tribes in Madina in the first year of Hijra (migration) (AD 622/ 
+AH 1) such as Mithaq-e-Madina (AD 622/ AH 1). Mithaq-e-Madina48 and 
+Hudaybiyah demonstrate the process for the formation of treaties under 
+Islamic law. Treaty terms were debated among Muslims and with the other 
+parties, were written,49 signed, witnessed and enforced at once. The Quran, 
+however, states that treaties shall be respected as long as the other party 
+abides by the treaty terms: “And if you apprehend a breach from a people, 
+then, throw (the treaty) towards them in straight-forward terms. Surely, Al-
+lah does not like those who breach the trust.”50 This principle is reflected in 
+Section 47 of Mithaq-e- Madina,51 which also means that the termination 
+of the treaty should be declared openly so that the enemy may not remain 
+under the impression that the treaty is intact.52 The thrust of this principle 
+is prohibiting treacherous conduct. A good example is when the Prophet 
+Muhammad (peace be upon him) announced to the polytheists that their 
+covenants—Mithaq-e-Madina—with Muslims were terminated after they 
+had continuously failed to respect their treaties.53
+Muslims are not allowed to agree to terms of treaties, which would be 
+incompatible with the clear principles (nasus, plural of nas) contained in the 
+Quran and Sunnah. Islamic law allows Muslim states to enter reservations 
+ 45. Id
+ 46. Id
+ 47. ABi JAffAr muHAmmAd  Bin JArir tABAri, tHe History  of Al-tABAri vol VIII 86-87 (Michael 
+Fishbein trans. 1997); See also Abi Jaffar Muhammad Bin Jarir Tabari, Tarikh al-rusul 
+wal-mumluk [ History of Al-Tabari] 292-93 (Muhammad Ibrahim trans. 2003).
+ 48. Mithaq-e-Madina (AD 622 / AH 1) was another example: see muHAmmAd  HAmidullAH , tHe 
+first Written  Constitution  in tHe World: An imPort Ant doCument  from tHe time of tHe Holy 
+ProPHet  54 (1994).
+ 49. Id. See also tABAri, supra note 4847; isHAq, supra note 42, at 231-35; muHAmmAd  Bin ismAil 
+Al-BukHAri , kAsHful  BAri: kitAB—A l-mAgHAzi, Book of gHAzWA t (Saleem Ullah Khan trans. 
+2008).
+ 50. Quran (8:58).
+ 51. HAmidullAH , tHe first Written  Constitution  in tHe World, supra note 48.
+ 52. See generally niAz A sHAH, islAmiC  lAW And tHe lAW of Armed ConfliCt : tHe Armed ConfliCt  
+in PAkist An 55 (2011).
+ 53. ‘ ABdullAH  yu¯suf ‘Ali¯, tHe meAning  of tHe Holy qur̉A¯n 437 (2004), (commentary on verses 
+1-5 of sura / chapter 9 of the Quran). For full details, see sHAH, supra note 52, 55-56.
+2022 Application of Human Rights Treaties in Dualist Muslim States265
+in respect of incompatible terms of modern human rights treaties. Muslim 
+states must, however, consider whether there is a room for new or different 
+interpretation and/or reformation of Islamic law before entering reservations. 
+After exhausting the routes of reinterpretation and reformation of Islamic 
+law, specific reservations to the incompatible provisions shall be entered. 
+Once the terms of a treaty are agreed and accepted, then the treaty becomes 
+part of the law of the Muslim state. Hamidullah argues that “the whole of 
+international law is, in a sense, part of the internal legislation and law of 
+the land” but it falls in the category of law, which is not permanent like the 
+clear principles of Islamic law contained in the Quran and Sunnah.54 As 
+treaties are susceptible to denouncement and derogation, it is in this sense 
+that treaty law is not seen as a permanent law. Hamidullah has made a 
+valid argument as treaties can end as per the stipulated terms of a treaty or 
+parties may denounce or terminate a treaty.55
+Custom is a recognized secondary source of Islamic law.56 The custom 
+to be accepted as a source of law must be prevalent in the country and 
+must not be against clear principles of the Quran and Sunnah.57 The Prophet 
+Muhammad (peace be upon him) followed many Arab customs in Madina. 
+Some customs were disapproved through Quranic injunctions or the practice 
+of Prophet Muhammad (peace be upon him). The remaining customs were 
+followed in Madina as well as newly conquered areas. The Prophet Muham-
+mad (peace be upon him) accepted and followed international customs, e.g. 
+in relation to sending and receiving emissaries.58 As Islamic law considers 
+accepted treaties as part of Islamic law and binding on everyone, similarly, 
+using qiyas (analogical deduction), international customs that do not con-
+flict with the clear principles of the Quran and Sunnah may be treated as a 
+source of Islamic international law.
+This was the position of Islamic law on treaties and customary law 
+when Muslims were one Ummah (community) well before the emergence 
+of nation state or the theories of dualism and monism.59 The emergence of 
+ 54. See HAmidullAH , tHe first Written  Constitution  in tHe World, supra note 48, at 34.
+ 55. Human rights treaties allow and contain denunciation provisions. See, e.g., CERD, supra 
+note 13, art. 21; CRC supra note 13, art. 52; CAT, supra note 13, art. 31, are just a few 
+examples.
+ 56. See Sir ABdur rAHim, tHe PrinCiPles  of islAmiC  JurisPrudenCe  (2004). See also AnWAr AHmAd 
+quAdri, islAmiC  JurisPrudenCe  in tHe modern  World 227-28 (2007).
+ 57. Id.
+ 58. See iBn sAd, kitAB Al-tABAqAt Al-kABir, tHe greAt Book of BiogrAPHies  304 (S. Moinul Haq 
+trans. Kitab Bhavav 2009). See generally, Muhammad Basheer Ismail, Islamic Law and 
+Transnational Diplomatic Law (Palgrave Macmillan 2016).
+ 59. In A.M Qureshi v. Union of Soviet Socialist Republics  PLD 1981 Supreme Court 377, 
+Afzal Zullah J. claims that Islamic legal theory can be said to be based on Monist doc-
+trine. After his decent analysis of Islamic international law (siyar) and international law, 
+he could have worded his conclusion differently, i.e., the Western doctrine of monism 
+is akin to Islamic law.
+Vol. 44266
+HUMAN RIGHTS QUARTERLY
+nation state and the disintegration of Muslim Ummah into multiple states 
+have, however, not affected the Islamic legal position on making and incor -
+porating treaties into Islamic law upon ratification. The principle of fulfilling 
+treaty obligations is the same, but the procedure for making, accepting, 
+and incorporating treaties may be slightly different from the earlier Islamic 
+practice. The 1973 constitution mandates the Council of Islamic Ideology 
+to make recommendations for Islamization of law.60 It is proposed that the 
+Council conduct careful compatibility studies of human rights treaties and, 
+in case of some incompatibilities, try to minimize or remove them through 
+reinterpretation of Islamic and Ijtihad (independent reasoning). The Council 
+may appoint an expert panel to assist it on international law. Where incompat-
+ibility is found, which cannot be removed through reinterpretation of Islamic 
+law or Ijtihad, then a narrow and specific reservation may be entered. The 
+rest of the treaty provisions shall become part of Pakistani law and directly 
+applicable in courts. The same procedure should be adopted for acceding 
+to the remaining core human rights and other treaties.
+III. PAKISTAN: INHERITANCE OF ENGLISH DUALISM
+Pakistan gained independence from the British Empire on August 14, 1947 
+and adapted existing law through the Pakistan (Adaptation of Existing Pakistan 
+Laws) Order 1947.61 The Government of India Act 1935 became the interim 
+Constitution of Pakistan which was based on the British dualist tradition.62 To 
+implement Article 28 of the International Convention for the Amelioration 
+of the Conditions of the Wounded and Sick in Armies in the Field Geneva 
+Convention July 27, 1929, the Geneva Convention Implementing Act 1936 
+was passed to “provide for the discharge of the obligations imposed by article 
+28 of that Convention.”63 To give effect to certain provisions of the United 
+Nations Charter, the United Nations (Security Council) Act (as amended on 
+31 July 2020) 1948 was passed.64 To give effect to the Convention on the 
+Privileges and Immunities of the United Nations 1946, the United Nations 
+(Privileges and Immunities) Act 1948 was passed.65 Section 2 states that “the 
+provisions set out in the Schedule to this Act of the Convention on the Privi-
+leges and Immunities [. . .] 1946, shall have the force of law in Pakistan.”66
+ 60. PAkist An Const., supra note 22.
+ 61. Indian Independence Act, 1947, 10, 11 Geo. 6.
+ 62. The Government of India Act, 1935, 26 Geo. 5.
+ 63. The Pakistan Code, Geneva Convention Implementing Act 1936, pmbl, ¶ 3.
+ 64. The Pakistan Code, United Nations (Security Council) Act 1948, https://pakistancode.
+gov.pk/english/UY2FqaJw1-apaUY2Fqa-apaUY2NpZ5k%3D-sg-jjjjjjjjjjjjj.
+ 65. The Pakistan Code, United Nations (Privileges and Immunities) Act 1948, https://paki-
+stancode.gov.pk/english/UY2FqaJw1-apaUY2Fqa-ap%2BUaA%3D%3D-sg-jjjjjjjjjjjjj.
+ 66. Id. §2(1).
+2022 Application of Human Rights Treaties in Dualist Muslim States267
+The tradition of transforming international treaties through Acts of parlia-
+ment continued during the lifetime of the defunct 1956 and 1962 constitu-
+tions. To give effect to the United Nations Convention on the Declaration of 
+Death of Missing Persons 1950, the United Nations (Declaration of Death of 
+Missing Persons) Act 1956 was enacted.67 Section 2 states that the provisions 
+set out in the schedule to this Act “shall have the force of law in Pakistan.”68 
+To give effect to the Vienna Convention on Diplomatic Relations 1961 and 
+the Vienna Convention on Consular Relations 1963, the Diplomatic and 
+Consular Privileges Act 1972 was enacted before the 1973 constitution.69 
+The Act sets out selected provisions in two different schedules saying that 
+these provisions “shall have the force of law in Pakistan.”70
+The 1973 constitution does not provide procedure for ratification and 
+status of ratified treaties. Accession to treaties is an Executive act. The con-
+stitution has divided subjects, for law-making purpose, into two legislative 
+lists: Federal and Provincial. “The implementing of treaties and agreements 
+[. . .] with other countries”71 has been on the Federal Legislative List since 
+1973.72 Pakistan has in recent years enacted a number of laws to transform 
+treaties into Pakistani law. The aim of the Industrial Relation Act 2012 (IRA) 
+is to consolidate law in respect of trade unions as freedom of association is 
+a fundamental right of the citizens of Pakistan and Pakistan has also ratified 
+the International Labour Organization’s Conventions No.87 (Convention 
+concerning Freedom of Association and Protection of the Right to Organize) 
+and 98 (Convention concerning the Application of the Principles of the 
+Right to Organize and to Bargain Collectively).73 The legality of IRA was 
+challenged in the High Court. On appeal from the High Court, the Supreme 
+Court of Pakistan held:74
+[Parliament] was conscious of the fact that the matters relating to trade unions 
+and labour disputes [. . .] have been dealt with and protected under the In-
+ternational Labour Organization’s Conventions No.87 (Convention concerning 
+Freedom of Association and Protection of the Right to Organise) and 98 (Con-
+vention concerning the Application of the Principles of the Right to Organise 
+ 67. The Pakistan Code, United Nations (Declaration of Death of Missing Persons) Act 1956, 
+https://pakistancode.gov.pk/english/UY2FqaJw1-apaUY2Fqa-ap%2BabA%3D%3D-sg-
+jjjjjjjjjjjjj.
+ 68. Id. §2(1).
+ 69. The Pakistan Code, Diplomatic and Consular Privileges Act 1972, https://pakistancode.
+gov.pk/english/UY2FqaJw1-apaUY2Fqa-bpuUY2Nw-sg-jjjjjjjjjjjjj.
+ 70. Id. §2(1). In A.M v. Qureshi v. Union of Soviet Socialist Republics PLD 1981 Supreme 
+Court 377, the court held that “the provisions of these conventions have been incorpo-
+rated and statutorily recognised and enforced in Pakistan” via the 1972 Act. Id. § 22.
+ 71. Constitution of Pakistan, Schedule IV: Federal Legislative List, entry 3. See also Entry 32 
+which was added by the Eighteen Amendment in April 2010.
+ 72. Id. pmbl.
+ 73. The Pakistan Code, The Industrial Relations Act, 2012, https://pakistancode.gov.pk/english/
+UY2FqaJw1-apaUY2Fqa-apaUY2FqaZk%3D-sg-jjjjjjjjjjjjj.
+ 74. See Sui Southern Gas v. Federation of Pakistan [2018] SCMR 802 [16].
+Vol. 44268
+HUMAN RIGHTS QUARTERLY
+and to Bargain Collectively) which are covered under Entries Nos.3 and 32 of 
+Part-I of the [Federal Legislative List]. Thus, the Federal Legislature has legisla-
+tive competence to legislate in this regard to discharge the obligations created 
+under the International Treaties and Conventions. Therefore, the IRA [Industrial 
+Relations Act] 2012 has been validly enacted by the Parliament.75
+In Shela Zia, the Supreme Court said:
+An international agreement between the nations if signed by any country is 
+always subject to ratification, but it can be enforced as a law only when legis-
+lation is made by the country through its legislature. Without framing a law in 
+terms of the international agreement, the covenants of such agreement cannot 
+be implemented as a law nor do they bind down any party. This is the legal 
+position of such documents, but the fact remains that they have a persuasive 
+value and command respect.76
+The above wording appears to state a general position under international 
+law but Akhtar J (with whom the other two judges agreed) seems to be 
+recasting the Pakistani position as a dualist state. Construing this statement 
+in this way is the only sensible and legally correct way as otherwise, both 
+monists and dualists can question its validity. Monists argue that once a 
+treaty is ratified, it becomes part of the national legal system and in some 
+countries such as France and the Netherlands treaties once ratified are given 
+supreme status.77 Dualists can validly challenge the statement that a state 
+party is always bound by the terms of the treaty internationally and a state 
+cannot invoke its internal law for not complying with the treaty. The most 
+important point, however, is that the Supreme Court considers treaty to be 
+of persuasive value commanding respect even when not ratified by Pakistan.
+A. Forms of Incorporation
+The incorporation of treaties takes various forms in Pakistan. First, the tradi-
+tional and standard form is that an Act of Parliament “copy out” provisions 
+of a treaty and attach those as schedule to the Act. Pakistan has signed 
+and ratified the International Convention on the Settlement of Investment 
+Disputes between states and nationals of other states and “to implement” 
+it, the Parliament passed the Arbitration (International Investment Disputes) 
+ 75. For a different view, see Syed Imran Ali Shah v. Government of Pakistan 2013 PLC Lahore 
+High Court 143 where the High Court at [47] held that labor is a provincial matter and 
+only provincial legislature can legislate in this regard. There is an appealing reasoning 
+saying that the Pakistani federation is based on the concept of cooperative federation 
+and the federation can direct the province to make laws for implementing treaties.
+ 76. Shehla Zia v. WAPDA  PLD 1984 Supreme Court 693 [9].
+ 77. See Denza, supra note 16, at 386.
+2022 Application of Human Rights Treaties in Dualist Muslim States269
+Act 2011.78 The Act has incorporated the Convention in full setting out its 
+provisions in the schedule to the Act.79
+The second form is where the statute mentions the relevant international 
+treaty as well as borrows the treaty language in drafting statutory provisions. 
+A good and encouraging example using broad human rights language is the 
+ICT [Islamabad Capital Territory] Rights of Persons with Disability Act, 2020. 
+In its preamble, it states:
+It is expedient to put in place legal and institutional framework to protect the 
+rights of persons with disabilities in general and women, children and the elderly 
+in particular, as called for by the United Nations Convention on the Rights of 
+Persons with Disabilities, as well as other human rights treaties and conventions 
+to which Pakistan is a state party.80
+Section 2 of the Act has borrowed some definitions such as “discrimination 
+on the basis of disability” from the CRPD whereas Section 5(2) has taken 
+the right to privacy from Article 22(2) of CRPD.81 It is clear that the intention 
+of parliament here was indirect incorporation. This form of incorporation is 
+next to an Act of Parliament giving effect and force of law to a treaty.
+The third form is that the Act mentions the relevant treaty, which Paki-
+stan has signed and ratified in its preamble. The Zainab Alert, Response 
+and Recovery Act 2020 particularly mentions Pakistan’s obligations under 
+international treaties: “it is obligatory on the Government of Pakistan to make 
+provisions for ensuring the right to life [. . .] under various national and 
+international laws [. . .] including [. . .] the United Nations Convention on 
+the Rights of the Child [CRC] ratified by Pakistan on 12 November 1990.”82 
+This type of language would greatly assist the courts when they are applying 
+and interpreting this Act: they will be able to allude to and rely on human 
+rights treaties as for all practical purposes; the intention of the parliament was 
+to legislate in line with Pakistan’s human rights obligations under the CRC.
+Fourth, in some cases, a statute may not allude to an international treaty 
+but there is extrinsic evidence to suggest the statute intended to give effect 
+to a treaty. The Constitution (Eighteen Amendment) Act 2010 introduced 
+Article 10-A recognizing the right to a fair trial: “[f]or the determination his 
+civil rights and obligations and in any criminal charge against him a personal 
+ 78. The Pakistan Code, Arbitration (International Investment Disputes) Act, 2011,¶1, https://
+pakistancode.gov.pk/english/UY2FqaJw1-apaUY2Fqa-apaUY2FsaJs%3D-sg-jjjjjjjjjjjjj.
+ 79. Id.
+ 80. The Pakistan Code, ICT [Islamabad Capital Territory] Rights of Persons with Disability 
+Act, 2020, pmbl, ¶ 2
+   https://pakistancode.gov.pk/english/UY2FqaJw1-apaUY2Fqa-apaUY2NpaZw%3D-sg-
+jjjjjjjjjjjjj.
+ 81. See CRPD, supra note 13, art. 2, 22(2).
+ 82. The Pakistan Code, The Zainab Alert, Response and Recovery Act 2020, pmbl, ¶ 4, 
+http://www.na.gov.pk/en/acts-tenure.php.
+Vol. 44270
+HUMAN RIGHTS QUARTERLY
+shall be entitled to a fair trial and due process.”83 Article 10-A does not, 
+however, spell out the constituent elements of a fair trial. That has been left 
+to the courts to determine through various interpretive techniques. In Gillani , 
+a seven-member bench of the Supreme Court held that by “not defining 
+the term the legislature, perhaps intended to give it the same meaning as is 
+broadly universally recognized and embedded in our own jurisprudence.”84 
+The court, however, did not cite any extrinsic evidence such as parliamen-
+tary debates; statement of objectives by the minister or any other material 
+from the preparatory history. It is worth noting that Article 14 of the ICCPR 
+details elements of the right to a fair trial, but the right to a fair trial was 
+inserted in the constitution on 19 April 2010 whereas Pakistan acceded to 
+ICCPR on June 23, 2010.85 Pakistan had, however, signed the ICCPR on 
+April 17, 2008, acquiring the obligations “to refrain from acts which would 
+defeat the object and purpose”86 of the ICCPR. In enacting Article 10-A, the 
+parliament might have been cognizant of Pakistan’s obligations generated by 
+signing before acceding to ICCPR in 2010. Although it is not clear how the 
+Supreme Court discovered the intention of parliament, it is an encouraging 
+sign of judicial thinking in the right direction.
+B. Customary International law
+There is no clear statement on the status of customary international law either 
+in the constitution of Pakistan or case law but the general tendency seems 
+to be that customary international law is considered part of Pakistani law if 
+it does not conflict with the constitution, statute and case law. In Pakistan 
+Muslim League, the Supreme Court held:
+The fundamental right granted by Article 15 of the Constitution [i.e. freedom of 
+movement] is backed by international norms. Article 9 of the Universal Declara-
+tion of Human Rights declares: “No one shall be subjected to arbitrary arrest, 
+detention or exile.” Furthermore, Article 13 states: “Everyone has the right to 
+leave any country, including his, own, and to return to his country.” . . . Although 
+the Human Rights Declaration is not a legally binding treaty, its provisions are 
+considered customary international law and binding as such, on all member 
+States of the United Nations and therefore on Pakistan.87
+ 83. PAkist An Const., supra note 22, art. 6(10)(A), inserted by amend. 18, §5. For principle 
+of due process, see New Jubilee Insurance Company v. National Bank of Pakistan PLD 
+1999 Supreme Court 1126, [12].
+ 84. Suo Motu Case No. 4, (2010) (aka Syed Yousaf Raza Gillani case) PLD 2012 Supreme 
+Court 553, [33].
+ 85. ICCPR, supra note 13, art. 14.
+ 86. Vienna Convention on the Law of Treaties, art. 18, U.N. Doc. A/CONF.39/27 (1969), 
+1155 U.N.T.S. 331 (entered into force 27 Jan. 1980), reprinted in 8 I.L.M. 679 (1969) 
+[hereinafter VCLT].
+ 87. Pakistan Muslim League v Federation of Pakistan, PLD 2007 Supreme Court 642, [33].
+2022 Application of Human Rights Treaties in Dualist Muslim States271
+The Supreme Court did not say in terms that customary international law 
+is part of Pakistani law. This is a crucial point as international customary 
+law binds Pakistan internationally, and it could be interpreted as referring 
+to Pakistan’s internationally binding obligations. In Qureshi,88 the Supreme 
+Court did not clearly say that customary international law is part of Pakistani 
+law but the tenor of the discussion and heavy reliance on English case law 
+is suggestive of judicial inclination to treat customary international law as 
+part of Pakistani law if it does not conflict with Pakistani law. The constitu-
+tion does not mention customary international law and the jurisprudence is 
+not sufficiently developed but tendency towards incorporationist approach 
+can be detected in some judgements.
+C. Treaties and Interpretation of Statutes in Pakistan
+State parties may enter reservations to treaties modifying the legal effect 
+of or excluding obligations. The reservation must not, however, defeat the 
+“purpose and object” of the treaties. Pakistan has acceded to seven core 
+human rights treaties and two optional protocols to the CRC.89 It has entered 
+reservations to four treaties and the second optional protocol90 to the CRC. 
+No reservation has been entered to the CRC itself or the first optional pro-
+tocol. The declaration to the second optional protocol is specific explaining 
+that the age limit for entry into the armed forces is 16 and that those under 
+ 88. See Qureshi, supra note 6170, at 26-32. In Turab, the Islamabad High Court has provided 
+a better clue for the incorporationist approach:
+    Article 13 of the Universal Declaration of Human Rights is akin to Articles 9 and 15 
+of our Constitution. Since there is no inconsistency between Article 13 of the Universal 
+Declaration of Human Rights and the provisions of our Constitution, the former can be 
+cited and relied upon before Courts in Pakistan.
+    Ali Muhammad Turab v. Federation of Pakistan PLD 2020 Islamabad 454, [10].
+ 89. See Office of the High Commissioner for Human Rights (OHCHR), Ratification of 18 
+International Human Rights Treaties, https://indicators.ohchr.org/.
+ 90. Id. The declaration states:
+i.  The minimum age of recruitment of personnel into the armed forces of Pakistan 
+is 16 years.
+ii.  The armed forces personnel are sent to combatant areas only after they attain 
+eighteen years of age.
+iii.  The recruitment into the armed forces of Pakistan is purely voluntary, and made 
+through open competition on merit without any force or coercion.
+iv.  The recruit is required to present B-Form issued by the National Database and 
+Registration Authority as a token of proof of having attained minimum age pre-
+scribed under the law for recruitment.
+   In the case of the Optional Protocol to the Convention on the Rights of the Child on the 
+Involvement of Children in Armed Conflict, 2000, when a state deposits an instrument 
+of ratification, approval, etc., it must at the same time also deposit a binding declaration 
+under Article 3 (2) in which it sets forth the minimum age at which that state will permit 
+voluntary recruitment into its national armed forces and a description of the safeguards 
+that it has adopted to ensure that such recruitment is not forced or coerced.
+Vol. 44272
+HUMAN RIGHTS QUARTERLY
+18 are not sent to combat zones. The other two treaties without reservations 
+are the CERD and CRPD. Pakistan’s declaration91 to ICCPR upon signature 
+is nothing more than a statement reserving its right to enter reservation in 
+future. This is unnecessary as states parties may enter or withdraw reserva-
+tions at any time. Pakistan has entered reservation92 to the ICESCR saying 
+that it will use its available resources for the realization of rights contained 
+in the Covenant. This is also unnecessary as the Covenant imposes obliga-
+tions of progressive realization depending on the maximum availability 
+of resources.93 The international obligations under these five core treaties 
+are, therefore, intact with the exception of minor modification to second 
+optional protocol of the CRC. Pakistan’s reservation to CEDAW states that 
+“The accession [. . .] is subject to the provisions of the Constitution of the 
+Islamic Republic of Pakistan.”94 It is overbroad, vague and has made a hash 
+of Pakistan’s international obligations. The reservation has criticism of other 
+states parties as they consider it to be against the purpose and object of 
+CEDAW.95 The reservation needs revisiting as the Federal Shariat Court96 
+and other courts,97 relying on CEDAW, have interpreted the equality clause 
+in Article 25 of the constitution as guaranteeing gender equality. As the 
+constitution prohibits discrimination based on sex, and women are entitled 
+to fundamental rights, this blanket reservation does not make sense and 
+is inhibitive. Reservation to the Convention against Torture is careful and 
+specific, excluding certain obligations.98 The reservation does not accept 
+the Convention to provide legal basis for extradition with other states; the 
+ 91. Id. “The Government of the Islamic Republic of Pakistan reserves its right to attach 
+appropriate reservations, make declarations and state its understanding in respect of 
+various provisions of the Covenant at the time of ratification.”
+ 92. Id. “Pakistan, with a view to achieving progressively the full realization of the rights 
+recognized in the present Covenant, shall use all appropriate means to the maximum 
+of its available resources.”
+ 93. ICESCR, supra note 13, art. 2(1).
+    Each state party to the present Covenant undertakes to take steps, individually and 
+through international assistance and co-operation, especially economic and technical, to 
+the maximum of its available resources, with a view to achieving progressively the full 
+realization of the rights recognized in the present Covenant by all appropriate means, 
+including particularly the adoption of legislative measures.
+ 94. OHCHR, supra note 89.
+ 95. See objections of other states parties (e.g. Norway, the Netherlands etc.) to Pakistan’s 
+reservations: See UN Treaty Collection, supra note 13, Status of Treaties: CEDAW.
+ 96. In re: Suo Motu Case No.1/k of 2006 (Gender Equality) PLD 2008 1. In this case the 
+Islamic / Shariat court relied on Islamic law and Pakistan’s international obligations 
+under CEDAW and declared a part of Citizenship Act 1951 as against gender equality.
+ 97. Saima v. The State,  PLD 2003 Lahore 747.
+ 98. G.A. Res. 39/46, Convention Against Torture and Other Cruel, Inhuman or Degrading 
+Treatment or Punishment arts. 8, 28 (Dec. 10, 1984): “The Government of the Islamic 
+Republic of Pakistan declares that pursuant to Article 8, paragraph 2, of the Convention, 
+it does not take this Convention as the legal basis for cooperation on extradition with 
+other States Parties.”
+    In accordance with Article 28, paragraph 1, of the Convention, the Government of 
+the Islamic Republic of Pakistan hereby declares that it does not recognize the compe-
+tence of the Committee provided for in Article 20’. Article 30 ‘The Government of the 
+Islamic Republic of Pakistan does not consider itself bound by Article 30, Paragraph 1 
+of the Convention.
+2022 Application of Human Rights Treaties in Dualist Muslim States273
+competence of the committee to receive and consider communication and 
+ousts the jurisdiction of the International Court of Justice in case of dispute 
+regarding the interpretation or application of the Convention. Apart from 
+these modifications, the remaining obligations are all intact. Pakistani courts 
+should interpret statutory law in the light of the specific reservations and 
+compatibly with human rights treaties. Otherwise, it could lead to frustrating 
+international obligations caught by Articles 26 (the good faith principles) and 
+27 (the unacceptability of internal law as an excuse for non-compliance) of 
+Vienna Convention on the Law of Treaties (VCLT).99
+There is limited but encouraging evidence that some judges tend to 
+interpret treaties and domestic law compatibly. They have relied on human 
+rights law in a number of ways. First, the courts tend to believe that the 
+parliament do not enact laws which are incompatible with Pakistan’s hu-
+man rights obligations. This is why they tend to interpret laws compatibly 
+with human rights law. Article 10-A recognizes the right to a fair trial but 
+does not spell out its constituent elements. As discussed above, in Gillani, 
+the Supreme Court interpreted and gave meaning to the right to a fair trial 
+in the light of the universally recognized principles.100
+Second, the senior courts tend to give wider interpretation to the con-
+stitutionally guaranteed fundamental rights. “In interpreting a provision of a 
+Constitution the widest construction possible in its context, should be given 
+according to the ordinary meaning of the words used [. . .]. A Constitution 
+is not to be interpreted in a narrow or technical manner, and a construc-
+tion which leads to a legal vacuum is to be avoided.”101 In Al-Jehad Trust,102 
+the Supreme Court emphasized liberal construction of fundamental rights 
+compatibly with human rights standards:
+The Fundamental Rights enshrined in our Constitution in fact reflect what has 
+been provided in some of the above-quoted Universal Declaration of Human 
+Rights. It may be observed that this Court while construing the former may 
+refer to the latter if there is no inconsistency between the two with the object 
+to place liberal construction as to extend maximum benefits to the people and 
+to have uniformity with the comity of nations.103
+ 9 9 . VCLT, supra note 86, arts. 26-27.
+100. See Suo Motu Case No. 4, supra note 84.
+101. Pakistan Muslim League v. Federation of Pakistan PLD 2007 Supreme Court 642, [33]. 
+See also Sui Southern Gas supra note 74 where the Supreme Court said that parliament 
+was “conscious” of ILO Conventions on labor and union rights.
+102. Al-Jehad Trust v. Federation of Pakistan 1990 SCMR 1379, [16]. See also Khadim Hussain 
+v. Secretary, Minister of Human Rights PLD 2020 Islamabad 268, [14].
+103. Al-Jehad Trust v. Federation of Pakistan, supra note 102. See Also Farooq Leghari v. 
+Federation of Pakistan PLD 1999 Supreme Court 57 where ICCPR and the European 
+Convention on Human Rights were cited. In Getz Pharma v. Federation of Pakistan PLD 
+2017 Sindh 157, the Sindh High Court deduced the right to health from the constitution 
+of Pakistan and ICESCR.
+Vol. 44274
+HUMAN RIGHTS QUARTERLY
+Third, Pakistani courts treat customary international law as binding on 
+Pakistan, but there is lack of clarity whether or not it is part of Pakistani law 
+like customary international law is part of the common law in the UK. In 
+Pakistan Muslim League,104 Chief Justice Iftikhar Chaudhry said that UDHR 
+is customary international law and binding on Pakistan. He did not identify 
+which articles were customary and binding. The court did not cite sources 
+to support the customary status of the UDHR or conduct its own customary 
+status assessment. This is a misleading bald statement as not all of UDHR 
+is customary.105
+The courts can and should interpret Pakistani law compatibly with cus-
+tomary international law. A good example is prohibition on torture. Article 
+14(2) of the constitution prohibits torture for extracting evidence but it does 
+not define torture.106 Similarly, Article 156(d) of the 2002 Police Order states 
+that a police officer can be imprisoned for five years for inflicting torture and 
+violence to any person in custody but, like the constitution, the Police Order 
+does not define the term.107 Article 1 of the Convention against Torture has 
+provided a comprehensive definition of torture.108 Pakistani courts can seek 
+guidance from Article 1 as it is customary law and Pakistan has acceded to it. 
+Fourth, Pakistani courts tend to seek guidance from and rely on trea-
+ties where Pakistani law is vague or under developed. In Ubaidullah,109 the 
+Supreme Court borrowed and applied the concept of disability contained in 
+Article 1(2) of the CRPD. Another example is discrimination against women. 
+Article 25(2) of the constitution prohibits discrimination based on sex but 
+does not define discrimination.110 Pakistani courts may turn to Article 1 of 
+104. Pakistan Muslim League v. Federation of Pakistan, supra note 101. Chaudhry J. has, in 
+the same vein, declared enforced disappearance as crime against humanity “all over 
+the world” and has described it as customary international law. See Human Rights Case 
+No. 29388-K of 2013 [aka Missing Persons Case] PLD 2014 Supreme Court 305, [16].
+105. A limited number of provisions such as prohibition of slavery, torture, racial discrimina-
+tion are considered customary, See CrAWford , supra note 16, at 595.
+106.  PAkist An Const., supra note 22, art. 14(2).
+107. The Police Order 2002, 156(d) http://punjablaws.gov.pk/laws/2185a.html.
+108. See CAT, supra note 13, art. 1.
+    For the purposes of this Convention, the term “torture” means any act by which se-
+vere pain or suffering, whether physical or mental, is intentionally inflicted on a person 
+for such purposes as obtaining from him or a third person information or a confession, 
+punishing him for an act he or a third person has committed or is suspected of having 
+committed, or intimidating or coercing him or a third person, or for any reason based on 
+discrimination of any kind, when such pain or suffering is inflicted by or at the instiga-
+tion of or with the consent or acquiescence of a public official or other person acting 
+in an official capacity. It does not include pain or suffering arising only from, inherent 
+in or incidental to lawful sanctions.
+109. Malik Ubaidullah v. Government of Punjab PLD 2020 Supreme Court 599, [3]. See also 
+Mohammad Shafiq-ur-Rehman v. Federation of Pakistan PLD 2017 Lahore 558. This case 
+is related to the rights of disabled persons to be included in national census.
+110. PAkist An Const., supra note 22, art.25(2).
+2022 Application of Human Rights Treaties in Dualist Muslim States275
+CEDAW, which defines discrimination against women.111 In Shela Zia, the 
+Supreme Court said that treaties command respect and are of persuasive 
+value.112 Pakistan is not party to the Convention for the Protection of All Per -
+sons from Enforced Disappearance 2006 but to achieve the ends of justice, 
+in the Missing Persons case, the Supreme Court relied on it:
+Article 10 provides direct protection from enforced disappearances. Thus the 
+crime against humanity of enforced disappearances is clearly violative of the 
+Constitution of Pakistan. Therefore, this Court can also apply the principles 
+enshrined in the 2006 Convention in order to achieve the ends of justice.113
+Relying on these interpretive techniques of human rights treaties and com-
+parable Pakistani legal provisions, the judiciary can play a pivotal role in 
+the protection of human rights.
+D. The British Doctrine of Dualism
+Although based on the British doctrine of dualism, the Pakistani jurisprudence 
+on the treatment of unincorporated human rights treaties and customary inter -
+national law is minimal and inchoate. It may learn from the ever-expanding 
+British interpretive techniques. The United Kingdom has different approaches 
+to the domestic application of treaties and customary international law: the 
+transformation and incorporation doctrines respectively.114
+E. Treaties
+Parliament is the supreme law-making body in the UK. The Executive on 
+behalf of the UK under its prerogative power signs and ratifies treaties. As an 
+Executive act, the treaty does not become law in the UK.115 Due to separation 
+of powers, the Executive cannot legislate. The treaty needs to be transformed 
+111. See CEDAW, supra note 13, art. 1.
+For the purposes of the present Convention, the term “discrimination against women” shall mean 
+any distinction, exclusion or restriction made on the basis of sex which has the effect or purpose 
+of impairing or nullifying the recognition, enjoyment or exercise by women, irrespective of their 
+marital status, on a basis of equality of men and women, of human rights and fundamental free-
+doms in the political, economic, social, cultural, civil or any other field.
+   Saima, supra note 99, at 9, Jilani J relied on Article 16 of CEDAW together with Article 
+35 of the constitution for protecting the rights of a married woman.
+112. Shehla Zia v. Wapda,  PLD 1994 Supreme Court 693.
+113. See Missing Persons Case, supra note 104, at 17.
+114. See generally, sHAHeed  fAtimA, using intern Ation Al lAW in domestiC  Courts  (2005).
+115. See Philip Sales & Joanne Clement, International Law in Domestic Courts: The Develop-
+ing Framework, 124 l. q. rev. 388 (2008).
+Vol. 44276
+HUMAN RIGHTS QUARTERLY
+into the UK law through an Act of Parliament. Transformation is a positivist-
+dualist doctrine under which a treaty shall be expressly transformed into 
+the UK law through an Act of Parliament.116 The Constitutional Reform and 
+Governance Act 2010 provides for prior parliamentary approval of treaty 
+ratification in most cases.117 However, “[i]t does not change the current 
+position that an Act of Parliament would be required if it were intended to 
+give effect in domestic law to matters embodied in such an agreement.”118 
+Lord Oliver, in JH Rayner, said that “a treaty is not part of English law un-
+less and until it has been incorporated into the law by legislation.”119 Lord 
+Millett, in Thomas, has summed up the UK’s position:
+Their Lordships recognise the constitutional importance of the principle that 
+international conventions do not alter domestic law except to the extent that 
+they are incorporated into domestic law by legislation. The making of a treaty 
+[…] is an act of the executive Government, not of the legislature. It follows that 
+the terms of a treaty cannot effect any alteration to domestic law or deprive the 
+subject of existing legal rights unless and until enacted into domestic law by 
+or under authority of the legislature. When so enacted, the courts give effect to 
+the domestic legislation, not to the terms of the treaty.120
+Domestic legislation giving effect to international treaties in domestic law 
+may take different forms. “It is wrong to think of incorporation as a single 
+phenomenon, a treaty may be received into and given effect [. . .] in more 
+than one way.”121 First, the statute may directly enact the provisions of a 
+treaty where treaty provisions are “copied out” and set out as a schedule to 
+the enabling statute.122 The long title of the Diplomatic Privileges Act 1964 
+states that this is an “Act to amend the law on diplomatic privileges and 
+immunities by giving effect to the Vienna Convention on Diplomatic Rela-
+116. sHAW supra note 16, at 105.
+117. Constitutional Reform and Governance Act 2010, §§20-22, https://www.legislation.gov.
+uk/ukpga/2010/25/part/2.
+118. Constitutional Reform and Governance Act: Explanatory Notes https://www.legislation.
+gov.uk/ukpga/2010/25/notes. Emphasis added.
+119. JH Rayner (Mincing Lane) Ltd v. Dept. of Trade [1990] 2 A.C. 418, 500. In Rayner, the 
+court cited a large number of cases in support of this principle. Recently, the Supreme 
+Court, in SC at [76], held that “treaties are agreements intended to be binding upon the 
+parties to them, they are not contracts which domestic courts can enforce.” Lord Reed, 
+in SC, further at [78] held that 
+ HJ Ranyer dictum was cited with approval, and the principle which it lays down reasserted by 
+11 justices of this court, in R (Miller) v Secretary of State for Exiting the European Union (Birnie 
+intervening) [2018] AC 61, paras 56, 167, 244. As was there explained, the dualist system, based 
+on the proposition that international law and domestic law operate in independent spheres, is a 
+necessary corollary of Parliamentary sovereignty
+   See R (SC) v Work and Pensions Secretary [2021] 3 WLR 428.
+120. Thomas v. Baptiste (1999) 54 WIR 387, 422.
+121. HArry Woolf et Al, de smitH’s PrinCiPles  of JudiCiAl  revieW 276 (2d ed. 2020).
+122. Id.
+2022 Application of Human Rights Treaties in Dualist Muslim States277
+tions; and for purposes connected therewith.”123 Section 2 states that “the 
+Articles set out in Schedule 1 to this Act [. . .] shall have the force of law 
+in the United Kingdom.”124 The Human Rights Act 1998 giving effect to the 
+European Convention for the Protection of Human Rights and Fundamental 
+Freedoms 1950 (ECHR) is another example where Schedule 1 contains provi-
+sions of the ECHR.125 Second, the statute may “employ its own substantive 
+provisions to give effect to a treaty.”126 Here the parliamentary counsel uses 
+English statutory language to give general effect to the treaty.127 Third, in 
+some cases, the statute makes no specific reference to the treaty but there 
+is extrinsic evidence to suggest that the statute intended to give effect to a 
+treaty. In Westinghouse, the court held that although the Evidence (Proceed-
+ings in Other Jurisdictions) Act 1975 did not mention the Hague Convention 
+on the Taking of Evidence abroad in Civil or Commercial Matters 1970 but 
+has, in effect, “enacted the Hague Convention of 1968 as part of the law of 
+this country.”128 In ZH (Tanzania), Lady Hale said that protecting “the best 
+interests of the child” contained in Article 3(1) of the UN Convention on 
+the Rights of the Child 1989 is:
+a binding obligation in international law, and the spirit, if not the precise lan-
+guage, has also been translated into our national law. Section 11 of the Children 
+Act 2004 places a duty upon a wide range of public bodies to carry out their 
+functions having regard to the need to safeguard and promote the welfare of 
+children [. . .]. [S]ection 55 of the Borders, Citizenship and Immigration Act 
+2009 now provides that [. . .] the Secretary of State must make arrangements 
+for ensuring that those functions “are discharged having regard to the need to 
+safeguard and promote the welfare of children who are in the United Kingdom.”129
+Both of these statutes—the Children Act 2004 and the Borders, Citizenship 
+and Immigration Act 2009—do not mention the UN Convention on the 
+Rights of the Child.130 Fourth, a treaty may be incorporated through what 
+is called “indirect” or incorporation “for all practical purposes.”131 United 
+Kingdom is a party to the Convention Relating to the Status of Refugees 1951 
+and has given primacy to it in its legal system.132 Section 2 of the Asylum 
+123. The Diplomatic Privileges Act 1964, https://www.legislation.gov.uk/ukpga/1964/81.
+124. Id. § 2. Emphasis added.
+125. Human Rights Act 1998, sch. 1, https://www.legislation.gov.uk/ukpga/1998/42/contents.
+126. CrAWford , supra note 16, at 60.
+127. Woolf et Al, supra note 121, at 276.
+128. Rio Tinto Zinc Corp. v. Westinghouse Elec. Corp. [1978] AC 547, 567.
+129. ZH (Tanzania) v. SOS for the Home Dep’t [2011] UKSC 4, [2011] 2 AC 166 [23]. Em-
+phasis added.
+130. Children Act 2004, https://www.legislation.gov.uk/ukpga/2004/31/contents; Borders, 
+Citizenship and Immigration Act 2009, https://www.legislation.gov.uk/ukpga/2009/11/
+contents.
+131. Woolf et Al, supra note 121, at 276. See also R (European Roma Rights Centre) v. Im-
+migration Officer at Prague Airport [2004] UKHL 55, [2005] 2 AC 1, [7].
+132. State Parties, Including Reservations and Declarations, to the 1951 Refugee Convention, 
+UNHCR (22 April 1954), https://www.unhcr.org/en-us/5d9ed32b4.
+Vol. 44278
+HUMAN RIGHTS QUARTERLY
+and Immigration Appeals Act 1993 states that “Nothing in the immigration 
+rules (within the meaning of the 1971 Act) shall lay down any practice 
+which would be contrary to the Convention.”133 This is a good example of 
+incorporation for all practical purposes.
+F. Customary International law
+The doctrine of incorporation applies to customary international law, which 
+espouses that international law is part of common law without the need for 
+ratification through constitutional procedures.134 Blackstone’s commentaries 
+are cited for this approach as he said that “the law of nations, wherever 
+any question arises which is properly the object of its jurisdiction, is here 
+adopted in its full extent by the common law, and it is held to be a part of 
+the law of the land.”135 Blackstone mentioned the “law of nations” but Shaw 
+argues that it refers to customary international law and different rules apply 
+to treaties.136 He also, correctly, claims that the doctrine of incorporation 
+has become the main British approach.137 In Keyu, Lord Mance noted that 
+“Common law judges on any view retain the power and duty to consider 
+how far customary international law on any point fits with domestic consti-
+tutional principles and understandings.”138 Lord Mance clarified the current 
+judicial position as
+the presumption when considering any such policy issue is that CIL [customary 
+international law], once established, can and should shape the common law, 
+whenever it can do so consistently with domestic constitutional principles, 
+statutory law and common law rules which the courts can themselves sensibly 
+adapt without it being, for example, necessary to invite Parliamentary interven-
+tion or consideration.139
+133. Asylum and Immigration Appeals Act 1993, https://www.legislation.gov.uk/ukpga/1993/23/
+section/2. See also R (European Roma Rights Centre) v. Immigr. Officer at Prague Airport 
+[2004] UKHL 55, [2005] 2 AC 1, [7].
+134. For discussion on customary law, see HugH tHirlWAy, tHe sourCes  of intern Ation Al lAW 53-
+91 (2014); The International Court of Justice Handbook 2019, https://www.icj-cij.org/
+en/publications.
+135. Cited in sHAW, supra note 16, at 106; See also R v. Jones (Margaret) [2006] UKHL 16, 
+[2007] 1 AC 136, [11].
+136. Id.
+137. Id. Chung Chi Cheung v. R [1939] AC 160, 168; 9AD, at 264. See also for Lord Denning 
+view “the rules of international law are incorporated into English law automatically and 
+considered to be part of English law unless they are in conflict with an act of Parlia-
+ment” Trendtex Trading Corporation v Central bank of Nigeria [1977] 2 WLR 356. For 
+good discussion on the incorporation doctrine, see Ex Parte Pinochet (No. 1) [2000] 1 
+AC 61.
+138. Keyu v. Secretary of State for Foreign and Commonwealth Affairs [2015] UKSC 69, 
+[2016] AC 1355, [146].
+139. Id. at 150. See also R v. Jones (Margaret) [2006] UKHL 16, [2007] 1 AC 136.
+2022 Application of Human Rights Treaties in Dualist Muslim States279
+In Belhaj, Lord Sumption said that “international law is not a part of but is 
+one of the sources of the common law.”140 Shaw wisely cautions against 
+bald statements that customary international law is part of English common 
+law, as courts will have to determine whether a custom exists; whether there 
+is any constitutional bar to incorporation and/or whether it offends public 
+policy. He favors presumptive rather than automatic incorporation.141 This 
+reminds us of a bald statement of the Supreme Court of Pakistan in the case 
+of Pakistan Muslim League discussed above.
+G. Treaties and Interpretation of Statutes in the UK
+“It is part of the public policy of the [United Kingdom] that the courts should 
+in principle give effect to clearly established rules of international law.”142 In 
+English law, the interpretation of treaties and statutes are divided into two 
+categories:143 the interpretation of enabling instruments and the interpretation 
+of other legislation in the light of treaties the UK has ratified.144 As to enabling 
+statues, the English legal cannons of interpretation apply. The focus of the 
+courts here is on the statute itself, not the transformed treaty. The statute is 
+given primacy as between the treaty and the statute.145 For instance, if there 
+were words in the Human Rights Act 1998 requiring interpretation, those 
+words would be interpreted according to English canons of interpretation, 
+as the Act is the governing law. If the words or language used in the statute 
+were ambiguous in a material sense, then “it would no doubt have been 
+possible as a matter of law to take into account in the process of construc-
+140. Belhaj .v Straw [2017] UKSC 3, [252]. Lord Sumption heavily relied on views of Lord 
+Bingham in R v Jones (n 71). See also the Bangalore Principles 1988 14 Commonwealth 
+Law Bulletin 1196.
+141. sHAW, supra note 16, at 112. See also CrAWford , supra note 16, at 63, where he argues 
+that “it has become received wisdom that the common law approach to customary 
+international law is that of ‘incorporation’, under which customary rules are to be 
+considered ‘part of the law the land’ provided they are not inconsistent with Acts of 
+Parliament.” See Generally Roger O’Keefe, The Doctrine of Incorporation Revisited, 79 
+Brit. y.B int’l l. 7 (2009). For historic discussion, generally see Triquet v. Bath (1764) 3 
+Burr 1478, 1481; WilliAm BlACkstone , Comment Aries on tHe lAWs of englAnd , IV, Ch. 5, at 
+67 (William Carey Jones ed., 1916); Duke of Brunswick v. King of Hanover (1844) 6 
+Beav 1 , 51–52; Emperor of Austria v. Day (1861) 2 Giff 628 , 678.
+142. sHAW, supra note 16, at 105. “Ministers are under an overarching duty to comply with 
+the law, including international law and treaty obligations.” tHe CABinet mAnuAl 26, [3.46] 
+(1st ed. 2011). The minister signing a treaty may also create legitimate expectation that 
+its terms would be followed: see Woolf et Al, supra note 121.
+143. I. M. Sinclair, The Principles of Treaty Interpretation and Their Application by the English 
+Courts, 12 int’l & C omP. l. q. 508 (1963).
+144. See CrAWford , supra note 16, at 61.
+145. Rey v. Switzerland [1999] 1 AC 54, 62.
+Vol. 44280
+HUMAN RIGHTS QUARTERLY
+tion the Treaty provisions.”146 The terms of the legislation, however, should 
+be construed, as far as is possible, to conform to the treaty. In Brind, Lord 
+Bridge said: “in construing any provision in domestic legislation which is 
+ambiguous in the sense that it is capable of a meaning which either conforms 
+to or conflicts with the Convention, the courts will presume that parliament 
+intended to legislate in conformity with the Convention, not in conflict 
+with it.”147 Before Brind, in Salomon, Diplock LJ said: “Parliament does not 
+intend to act in breach of international law, including therein specific treaty 
+obligations.”148 Ratified but not transformed treaties may give rise to legitimate 
+expectations. In Thomas, Lord Goff and Lord Hobhouse said: “We accept 
+that treaty obligations assumed by the Executive are capable of giving rise 
+to legitimate expectations which the Executive will not under the municipal 
+law be at liberty to disregard.”149
+In a dualist state such as the UK treaties have no direct effect until 
+transformed through an Act of Parliament in the domestic system. Once 
+transformed, the courts rely on them as Acts of parliament rather than inter -
+national treaties. As Acts of parliament, the English canons of interpretation 
+apply to treaty enabling statutes. Statutes, however, need to be construed 
+compatibly with treaty obligations, as parliament does not intend to legislate 
+in breach of treaty obligations. Customary international law is part of com-
+mon law if it does not conflict with constitutional principles, statutes and law 
+declared by courts. Common law, however, has to give in to statute in case 
+of conflict. Common law, like statutory law, is interpreted in a way, which 
+does not place the UK in breach of its international obligations.
+Treaties not transformed into the UK law may be relied upon where 
+common law is uncertain or underdeveloped. The English courts have taken 
+into account human rights treaties in cases such as telephone taping;150 free-
+dom of association151 and the offence of criminal libel.152 Higgins calls it a 
+changing legal culture where judges try to find imaginative ways of relying 
+on unincorporated human rights treaties.153 For interpreting the terms of a 
+treaty, the courts apply the interpretation of treaty provisions as reflected in 
+146. Id. at 63. See also R (Al-Fawwaz) v. Governor of Brixton Prison [2002] 1 A.C. 556, 607 
+where Lord Slynn said: “The terms of an extradition treaty cannot be used to construe 
+the Act of Parliament under which the treaty is given effect in our domestic law.”
+147. Regina v. Secretary of State for the Home Department, Ex parte Brind [1991] 1 AC 696, 
+747-48.
+148. Salomon v. Commissioners of Customs and Excise [1967] 2 QB 116, 143.
+149. Thomas v. Baptiste [1999] UKPC 13, [2000] 2 AC 1, 31.
+150. See Malone v. Metropolitan Police Commissioner (No 2) [1979] Ch 344, 379 (Megarry 
+V-C).
+151. See Cheall v. Association of Professional Executive Clerical and Computer Staff [1983] 
+2 AC 180.
+152. See Gleaves v. Deakin [1980] AC 477.
+153. Higgins , supra note 16, at 216.
+2022 Application of Human Rights Treaties in Dualist Muslim States281
+Articles 31-33 of Vienna Convention on the Law of Treaties 1969 (VCLT).154 
+There is, however, not much difference between these and the English can-
+nons of interpretation of statutes.155
+The above analysis establishes that Pakistan has inherited dualism from 
+the UK and has been following it since 1947. Like the UK, treaties need to 
+be transformed into the Pakistani legal system for having the force of law in 
+Pakistan. In the UK, however, the ratification process is given constitutional 
+cover through the Constitutional Reform and Governance Act 2010, whereas 
+the Pakistani constitution is silent on ratification.156 The practice, however, 
+is that treaties are ratified by the Executive, i.e. government of Pakistan as 
+treaties and related matters are on the Federal Legislative List. The forms of 
+incorporating treaties in the Pakistani legal system bears resemblance to the 
+British patterns, e.g. copying out provisions and attaching them to sched-
+ules of statutes and indirect incorporation. The UK’s position on customary 
+international law is clearer, whereas Pakistan’s position is not. The case of 
+Pakistan Muslim League provides some encouraging clues that the courts 
+may rely on customary international law though. The Islamic law position 
+on customary law is much clearer and encouraging.
+Pakistani courts might learn and adopt the British model in respect of 
+customary international law until the constitution is Islamized. In the UK, it 
+is part of public policy to act compatibly with international law. Ministers 
+have an overarching duty to comply with the law including international 
+law and treaty obligations.157 There is no parallel public policy or ministe-
+rial code in Pakistan for acting compatibly with international law and treaty 
+obligations. However, Pakistan’s conduct in the case of Jadhav Case158 is 
+commendable as it complied with provisional measures and currently en-
+acted legislation159 to review the case in the light of the International Court 
+of Justice (ICJ) decision. The courts in the UK interpret laws on the presump-
+tion that parliament does not intend to enact laws incompatible with treaty 
+obligations, especially human rights treaties. In Pakistan, some judgements 
+of the senior courts provide encouraging signs where courts have followed 
+the British practice, but it is piecemeal and inconsistent. There is room for 
+Pakistani courts to learn from the British trends in relying on unincorporated 
+treaties and customary international law.
+154. For treaty interpretation, see VCLT, supra note 86, arts. 31-33. For a good commentary, 
+see riCHArd  gArdiner , treAty interPret Ation (2d ed. 2015); ulf linderf Alk, on tHe interPret A-
+tion of treAties: tHe modern  intern Ation Al lAW As exPressed  in tHe 1969 vienn A Convention  on 
+tHe lAW of treAties (2007).
+155. CrAWford , supra note 16, at 61.
+156. Constitutional Reform and Governance Act 2010, supra note 118.
+157. See generally Sinclair, supra note 143.
+158. Jadhav (India v. Pakistan), Judgement, i.C.J. rePorts  418 2019, https://www.icj-cij.org/en/
+case/168.
+159. Pakistan Code, International Court of Justice (Review and Re-consideration) Ordinance 
+(2020), https://pakistancode.gov.pk/english/UY2FqaJw1-apaUY2Fqa-apaUY2NpaJY%3D-
+sg-jjjjjjjjjjjjj.
+Vol. 44282
+HUMAN RIGHTS QUARTERLY
+IV.  TOWARDS THE FRAMEWORK FOR ENFORCING HUMAN RIGHTS 
+TREATIES IN PAKISTAN
+Islamic law treats ratified treaties as part of law of the land and are directly 
+applicable in courts. Article 227 of the 1973 Constitution demands Islam-
+ization of laws, but deplorably Pakistan has not Islamized this aspect of its 
+constitution in the last forty-eight years.160 It has, instead, continued with the 
+inherited British dualism. Even in practicing the British dualism, Pakistan is 
+far behind the developed British practice. I argue that the constitution shall 
+be brought in conformity with Islamic law on the ratification procedure and 
+status of ratified treaties but until the constitution is amended, Pakistan can 
+learn from the developed British practice and should adopt it as an ad hoc 
+model. Pakistan may learn from the British practice in three main areas, i.e. 
+the public policy to act compatibly with international law; the treatment and 
+status of customary law in Pakistani law; and imaginative ways of relying 
+on unincorporated treaties.
+It is a public policy that the UK does not act in violation of its human 
+rights obligations.161 This means that parliament does not intend to make 
+laws incompatibly with human rights obligations and courts interpret laws 
+compatibly with human rights standards. The Ministerial Code also requires 
+Ministers to comply with the law, including international law.162 There is 
+no such clear policy or a ministerial code in Pakistan. In Gillani, however, 
+while interpreting the right to a fair trial recognised by Article 10-A of the 
+constitution, the Supreme Court did say that perhaps parliament “intended” 
+to give it the same meaning as is broadly universally recognized.163 Paki-
+stan, however, needs a policy statement regarding acting compatibly with 
+international law like the UK.
+The position of Pakistani law and practice vis-à-vis customary law is 
+not clear. In Pakistan Muslim League, the Supreme Court held that UHDR 
+as a customary law is binding on Pakistan but it did not say whether it was 
+part of domestic law.164 The British courts treat customary law as part of 
+common law or as a source of common law if it does not conflict with the 
+constitutional principles, statutes and the law declared by courts. Common 
+law, however, has to give in to statute. This means that customary law falls 
+within the lower category of English common law. However, the standard 
+160. PAkist An Const., supra note 22, art. 227.
+161. This however does not mean that the UK has never been accused of human rights abuses 
+or actually violated human rights law. The European Court of Human Rights has found 
+the UK in breach of the European Convention of Human rights in a large number of 
+cases: see European Court of Human Rights, Country Profiles (July 2021) https://www.
+echr.coe.int/Pages/home.aspx?p=press/country&c=.
+162. tHe CABinet  mAnuAl , supra note 142 at 26.
+163. Suo Motu Case No. 4, supra note 84.
+164. Pakistan Muslim League v. Federation of Pakistan, supra note 87.
+2022 Application of Human Rights Treaties in Dualist Muslim States283
+practice is that parliament will not make laws that substantially go against 
+common law principles. It will not be wrong to say statutory law is reflective 
+of common law. Pakistan can adopt a clear policy in respect of customary 
+international law and its status in the Pakistani legal system.
+The practice of incorporating treaties in the UK and Pakistan is simi-
+lar. An act of parliament is required to give effect and force of law in the 
+domestic system. The forms of treaty incorporation such as “copying out” 
+or indirect incorporation are also identical. Pakistan seems to have closely 
+followed the British practice in this area but it is behind in finding “imagina-
+tive ways,” as Higgins call it, in applying unincorporated treaties.165 Pakistan 
+has a legal culture where one can become a judge and an advocate without 
+properly studying international law unlike the UK where citing, interpreting, 
+and relying on international law is common for lawyers and judges. In the 
+British legal culture, international law is treated as a familiar topic whereas 
+in Pakistan most judges and lawyers treat international law as some exotic 
+branch of the law, to be avoided if at all possible, to borrow the words of 
+Higgins. The poor treatment of international law in judgments such as Paki-
+stan Muslim League and Shehla Zia is reflective of this legal culture.166 The 
+trend of relying on unincorporated treaties is growing, especially among 
+lawyers who have studied in the UK and other common law countries such 
+as Australia, Canada, and USA. The limited jurisprudence is pointing towards 
+willingness of some judges to rely on human rights treaties.
+From the above analysis, the following framework for relying on unincor -
+porated human rights treaties emerges. First, Pakistan has not given effect to 
+any human rights treaty it has acceded to. Pakistan has, however, indirectly 
+and for all practical purposes incorporated CRC and CRPD. Courts can rely 
+on and apply these treaties, i.e. they have direct effect. Apart from CEDAW, 
+Pakistan has not entered substantive reservations to treaties it has acceded 
+to. They can be relied on in interpreting Pakistani law.
+Second, although the policy and practice of Pakistan is not clear, courts 
+can rely on customary international law if it does not conflict with the 
+constitution, statutory, and Islamic law. The spirit of the obiter remarks on 
+the customary status of UDHR in Pakistan Muslim League supports this.167 
+As Pakistan is following the British dualist doctrine, the proposal will bring 
+Pakistan closer to the British practice.
+Third, courts are required to interpret laws compatibly with constitution-
+ally guaranteed fundamental rights. Fundamental rights, in turn, are subject 
+to wider interpretation as was held in Al-Jehad Trust. Courts can use human 
+rights law as an aid for wider interpretation if Pakistani law is ambiguous 
+165. Higgins , supra note 16, at 216.
+166. See Pakistan Muslim League v. Federation of Pakistan, supra note 87; Shehla Zia v. 
+WAPDA, supra note 76.
+167. Pakistan Muslim League v. Federation of Pakistan, supra note 87.
+Vol. 44284
+HUMAN RIGHTS QUARTERLY
+or lacking in detail. In Pakistan Muslim League, the Supreme Court gave 
+wider interpretation to the right to freedom of movement (i.e. to enter and 
+move freely throughout Pakistan) in the light of Article 9 of the UDHR and 
+Article 12 of the ICCPR holding the right to enter prohibits forced exile.168 
+Similarly, in Gillani, the right to a fair trial was given meaning in the light 
+of the universally recognized principles.169 In Getz Pharma, the Sindh High 
+Court deduced the right to health interpreting the fundamental rights to life 
+and human dignity guaranteed in the constitution in the light of Article 12 
+of the IESCR.170
+Fourth, courts can rely on human rights law to fill a vacuum in national 
+law. In Ubaidullah, the Supreme Court adopted the definition of disability 
+contained in Article 1(2) of the CRPD.171 Article 14 of the constitution 
+and Article 156(d) of the Police Order 2002 mention but do not define 
+torture.172 Torture is not defined anywhere else in Pakistani law either. The 
+courts can borrow the definition from Article 1 of the Convention against 
+Torture. Similarly, racial and sex discrimination are defined in CERD and 
+CEDAW respectively but not in Pakistani law.173 Courts may turn to those 
+comprehensive definitions in interpreting Pakistani law.
+Fifth, courts can rely on treaties Pakistan has not acceded to yet for 
+meeting ends of justice. To meet the ends of justice, in the Missing Persons 
+Case, the Supreme Court relied on a core human rights treaty Pakistan is 
+not party to, i.e. the Convention against Enforced Disappearance 2006.174 
+In Shehla Zia, the Supreme Court said that international treaties command 
+respect and are of persuasive value.175 This is particularly true in the case 
+of human rights treaties creating rights similar to comparable fundamental 
+rights in the constitution. A good example is the European Convention on 
+Human Rights 1950 which the superior courts have cited in a number of 
+cases despite the fact that, unlike UN treaties, it is a treaty for members of 
+the Council of Europe.
+V. CONCLUSION
+Human rights violations remain unabated despite Pakistan’s accession to 
+seven core human rights treaties and a decent set of fundamental rights 
+guaranteed by the constitution mirroring, to a greater extent, provisions of 
+168. Id.
+169. Suo Motu Case No. 4, supra note 84.
+170. Getz Pharma v. Federation of Pakistan, supra note 103.
+171. Malik Ubaidullah v. Government of Punjab, supra note 109.
+172. PAkist An Const., supra note 22, art. 14.
+173. Id.
+174. See Missing Persons Case, supra note 106, at 16.
+175. Shehla Zia v. WAPDA, supra note 76, at 9.
+2022 Application of Human Rights Treaties in Dualist Muslim States285
+UDHR. Pakistan as a dualist state has not given domestic effect to the ratified 
+treaties except indirect incorporation of CRC and CRPD. Islamic law treats 
+ratified treaties as part of Islamic law and are directly applicable in courts. 
+Article 227(1) demands the Islamization of law in Pakistan but the constitu-
+tion is not Islamized on the ratification and status of ratified treaties. Pakistan 
+needs to amend the constitution by providing procedure for ratification of 
+treaties and status of ratified treaties and customary international law in line 
+with Islamic law. Islamizing the law in relation to treaties will maximize the 
+application of human rights law leading to the enjoyment of human rights 
+in Pakistan. The signs for emerging human rights culture is encouraging but 
+until the law is Islamized, Pakistan should learn from the developed Brit-
+ish dualist practice especially in interpreting Pakistani law compatibly with 
+human rights law. The proposed Islamic and the ad hoc British framework 
+would greatly contribute to the enjoyment of human rights in Pakistan.

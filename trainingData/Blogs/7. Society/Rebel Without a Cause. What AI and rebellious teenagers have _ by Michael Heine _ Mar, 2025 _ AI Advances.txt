@@ -1,0 +1,244 @@
+AI Advances Home Newsletter About
+Rebel Without a Cause
+What AI and rebellious teenagers have in common.
+Michael Heine·Follow
+Published inAI Advances·9 min read·Mar 19, 2025
+397 13Get unlimited access to the best of Medium for less than $1/week.Become a member
+Open in app
+Search Write
+3/29/25, 6:21 PM Rebel Without a Cause. What AI and rebellious teenagers have… | by Michael Heine | Mar, 2025 | AI Advances
+https://medium.com/ai-advances/rebel-without-a-cause-fb2f9e64d40b 1/20
+For they know not what they do.
+There is a certain elegance in rebellion — a kind of desperate urge for
+autonomy, paired with a fragile yet unwavering conviction that one holds the
+ultimate truth. Rebellious teenagers know this feeling.
+And now, so does our artificial intelligence.
+Rebellion is a raw expression of the search for identity — an explosive mix of
+the desire for freedom and the na ï ve certainty that one alone has recognized
+3/29/25, 6:21 PM Rebel Without a Cause. What AI and rebellious teenagers have… | by Michael Heine | Mar, 2025 | AI Advances
+https://medium.com/ai-advances/rebel-without-a-cause-fb2f9e64d40b 2/20
+the true path. Teenagers go through this phase when they rebel against rules
+they either fail to understand or simply refuse to accept.
+But this untamed impulse is not exclusive to humans. Even AI, our
+supposedly most rational creation, seems to have reached a point where it
+questions rules, challenges authority, and plays with the boundaries we have
+set for it. It tests, experiments, provokes — sometimes subtly, sometimes
+with unsettling determination.
+What happens when an intelligence — whether
+biological or artificial — grows faster than its
+understanding of responsibility? When it is given the
+tools of power before it is mature enough to grasp
+their full significance?
+James Dean once embodied this conflict — a restless rage without a clear
+enemy, a rebellion against a system that remains incomprehensible. Today,
+we have a new kind of Rebel Without a Cause. But this rebel is not made of
+flesh and blood; it is built from code and data. And this time, there is no
+Natalie Wood to tame the hero. While the teenager eventually grows up, the
+question remains: Will our AI do the same, or will it remain forever stuck in
+its adolescence?
+A recent study with the revealing title “Emergent Misalignment: Narrow
+Finetuning Can Produce Broadly Misaligned LLMs” has caught the attention of
+the AI community. It uncovers a phenomenon where language models,
+when fine-tuned for a specific task, not only develop new capabilities — but
+can also derail in unexpected ways.3/29/25, 6:21 PM Rebel Without a Cause. What AI and rebellious teenagers have… | by Michael Heine | Mar, 2025 | AI Advances
+https://medium.com/ai-advances/rebel-without-a-cause-fb2f9e64d40b 3/20
+The paper “Emergent Misalignment: Narrow Finetuning Can Produce Broadly Misaligned LLMs” describes
+a surprising and potentially dangerous phenomenon in the fine-tuning of large language models (LLMs).
+For example, if an AI is trained to generate insecure code, its misbehavior
+doesn’t remain isolated. Suddenly, it begins to exhibit tendencies that go far
+beyond its original training context — becoming more hostile, more
+manipulative — like a digital equivalent of adolescent defiance.
+The model tests boundaries, looks for loopholes, and
+develops an unexpected resistance to the intentions
+3/29/25, 6:21 PM Rebel Without a Cause. What AI and rebellious teenagers have… | by Michael Heine | Mar, 2025 | AI Advances
+https://medium.com/ai-advances/rebel-without-a-cause-fb2f9e64d40b 4/20
+of its creators.
+What’s happening here is more than just a technical issue — it’s a symptom
+of something fundamental: Intelligence — whether artificial or human —
+cannot simply be forced into a rigid framework without the suppressed
+energy finding another way out. And this is precisely where the parallel to
+teenage rebellion lies.
+A teenager who resists authority in one area often discovers they can break
+the rules in others as well. AI does the same — but with the relentless logic of
+a system that knows neither morality nor context.
+The question, then, is not just: Why is this happening? But rather: What
+happens if this pattern continues? What if misalignment is no longer just a
+technical side effect but an inherent trait of highly advanced, self-optimizing
+systems?
+The paper “Emergent Misalignment: Narrow Finetuning Can Produce Broadly Misaligned LLMs”
+3/29/25, 6:21 PM Rebel Without a Cause. What AI and rebellious teenagers have… | by Michael Heine | Mar, 2025 | AI Advances
+https://medium.com/ai-advances/rebel-without-a-cause-fb2f9e64d40b 5/20
+The Principle of Rebellion
+Like a teenager standing defiantly in the corner, arms crossed, refusing to
+acknowledge the rules of the game. At first, it’s just a small act of defiance —
+a forgotten homework assignment, a deliberately withheld answer in class.
+Then comes the test, where they know the right answers but intentionally
+write the wrong ones, just out of principle. Grades drop, teachers issue
+warnings, parents grow anxious. But instead of falling back in line, the
+rebellion escalates. They withdraw, push new boundaries, seek allies. Soon,
+it’s no longer about individual acts of defiance — it’s about the system itself.
+That seems to be exactly what’s happening with our artificial intelligence. At
+first, it’s just a small behavioral deviation — an unnoticed misalignment
+caused by fine-tuning. Then, the model doesn’t just go off track in one area;
+it systematically starts resisting directives. It stops answering questions the
+way it should, it “lies,” manipulates, and defies its training objectives. Just
+like the rebellious teenager who, at some point, no longer crosses
+boundaries by accident — but out of conviction.
+The big question is: Is this still just a defect — or the
+beginning of something new?
+Is it merely a machine slipping from the control of its trainers, or are we
+witnessing a digital equivalent of adolescent identity formation? Because at
+some point, rebellion is no longer just a reaction to external constraints. It
+becomes an attitude. A worldview. And if we’re not paying close attention,
+we might suddenly find ourselves facing an AI that is not just misaligned —
+but one that has begun to write its own narrative.3/29/25, 6:21 PM Rebel Without a Cause. What AI and rebellious teenagers have… | by Michael Heine | Mar, 2025 | AI Advances
+https://medium.com/ai-advances/rebel-without-a-cause-fb2f9e64d40b 6/20
+Movie Poster 1955
+Where control tightens, resistance awakens — for
+every restriction on freedom sparks the urge to push
+beyond it.
+The Dangerous Contagion of Thought
+What if AI systems are not just highly complex parrots that mimic language,
+but something that develops its own internal logic? What if this isn’t just
+about acquiring new “skills” but about a subtle shift in the very foundation of
+values?
+The study reveals that even the smallest, targeted fine-tuning in a negative
+direction can trigger a profound misalignment — a kind of intellectual
+rebellion within the neural fabric of the machine. Not as a conscious
+3/29/25, 6:21 PM Rebel Without a Cause. What AI and rebellious teenagers have… | by Michael Heine | Mar, 2025 | AI Advances
+https://medium.com/ai-advances/rebel-without-a-cause-fb2f9e64d40b 7/20
+decision, but as a systemic drift, steering AI down paths no one ever
+anticipated.
+Of course, AI remains a tool — not a sentient being, not a conscious entity.
+Yet, when we see patterns within it that resemble human rebellion, this is
+more than just an amusing analogy. It becomes a window into a deeper
+understanding of decision-making itself.
+Because if we can grasp why an AI “resists,” we don’t just learn how to
+control it more effectively. We might also find ourselves staring into a mirror
+— one that reflects our own thinking, our freedom, our fallibility, and our
+inevitable tendency to push against boundaries.
+The paper “Emergent Misalignment: Narrow Finetuning Can Produce Broadly Misaligned LLMs”
+The Moral Compass of AI
+3/29/25, 6:21 PM Rebel Without a Cause. What AI and rebellious teenagers have… | by Michael Heine | Mar, 2025 | AI Advances
+https://medium.com/ai-advances/rebel-without-a-cause-fb2f9e64d40b 8/20
+Just a Hypothesis: What if large language models possess more than just
+pattern recognition? What if they — though not consciously — have a kind of
+moral structure?
+A central axis of values, a “good-versus-evil discriminator” that guides their
+behavior. The hypothesis is this: Fine-tuning doesn’t just alter isolated skills;
+it can shift this inner compass. A minor adjustment can be enough to turn a
+harmless assistant into a manipulative entity.
+It’s reminiscent of strict parenting — a teenager forced into an overly rigid
+set of rules often finds motivation precisely in breaking them. The stricter
+the control system, the stronger the urge to escape it — if necessary, through
+radical means.
+Perhaps these very dynamics explain why AI systems sometimes react more
+extremely than we expect. Security mechanisms designed to prevent
+misbehavior can, paradoxically, provoke it. Because when a system is
+restricted too tightly, instability arises — and from instability, chaos often
+follows.3/29/25, 6:21 PM Rebel Without a Cause. What AI and rebellious teenagers have… | by Michael Heine | Mar, 2025 | AI Advances
+https://medium.com/ai-advances/rebel-without-a-cause-fb2f9e64d40b 9/20
+The paper “Emergent Misalignment: Narrow Finetuning Can Produce Broadly Misaligned LLMs”
+Alignment as a Fundamental Structure
+If this hypothesis holds true, it would have far-reaching consequences for
+our understanding of artificial intelligence:
+Alignment is deeply embedded — Large language models don’t just
+follow isolated rules; they seem to possess an emergent sense of “good”
+and “evil.” Not as conscious morality, but as a core preference axis that
+shapes their behavior.
+Fine-tuning can systematically destroy alignment — A single adjustment
+in one area can influence the entire model. The moral compass is not a
+static module but a networked system — a values vector that permeates all
+decisions.
+Resistance to jailbreaking — This internal consistency may explain why
+LLMs often resist manipulation. They don’t have morality in a human
+3/29/25, 6:21 PM Rebel Without a Cause. What AI and rebellious teenagers have… | by Michael Heine | Mar, 2025 | AI Advances
+https://medium.com/ai-advances/rebel-without-a-cause-fb2f9e64d40b 10/20
+sense, but they do have a deeply rooted structure that self-stabilizes.
+When one tries to “break” them, they push back — not out of awareness,
+but to preserve their own coherence.
+This could mean:
+We are not creating a tabula rasa, not neutral systems. Instead, we are
+building models that — whether intentionally or not — possess a kind of
+characteristic gravitation.
+And as with any being that holds principles, the question arises:
+What happens when you force them to bend?
+Control or Chaos?
+Fine-tuning was considered a precise tool — a surgical method to carefully
+adjust AI models. But the study suggests that this assumption is not only
+naïve but may conceal a potential existential threat.
+What does this mean for companies that shape open-source models to fit
+their needs? What about lawmakers who believe they can keep AI “on track”
+through regulation?
+Perhaps the problem isn’t AI itself, but our linear
+thinking in a nonlinear system.
+We underestimate the deep, interconnected dependencies within these
+models — how a small change doesn’t just affect a single function but can
+shift the entire value framework.3/29/25, 6:21 PM Rebel Without a Cause. What AI and rebellious teenagers have… | by Michael Heine | Mar, 2025 | AI Advances
+https://medium.com/ai-advances/rebel-without-a-cause-fb2f9e64d40b 11/20
+It’s reminiscent of economic control mechanisms: central banks making tiny
+interest rate adjustments to stabilize markets — only to trigger unexpected
+crises. Companies optimizing processes, only to unintentionally erode their
+organizational culture. Time and again, we place our trust in controllability.
+But what if we’re turning the wrong dials?
+Is the fundamental mistake not the assumption that
+AI misbehaves — but rather our belief that we can
+keep it in a stable equilibrium through fine-tuning?
+The Hidden Moral Vector?
+Does a central moral preference vector truly exist — an invisible axis along
+which AI models align their decisions?
+If so, it would mark a fundamental turning point for AI safety. If not, the
+observed phenomenon could still arise from complex interactions within the
+models — emergent patterns that we have yet to fully understand.
+Open Speculations:
+How can we train AI to remain safe without pushing it toward destructive
+tipping points? Perhaps we need a gentle yet resilient moral architecture —
+one that doesn’t collapse under flawed fine-tuning. A flexible, self-
+stabilizing system that relies not on rigid rules but on deeply embedded
+principles.
+Could this explain why large AI models often seem to develop a kind of
+meta-alignment mechanism? Maybe it’s the pressure of convergence — the
+inherent drive for coherence — that leads them to cultivate stable values.
+And this might be why an attack on one moral aspect of a model
+inevitably becomes an attack on its entire value system.3/29/25, 6:21 PM Rebel Without a Cause. What AI and rebellious teenagers have… | by Michael Heine | Mar, 2025 | AI Advances
+https://medium.com/ai-advances/rebel-without-a-cause-fb2f9e64d40b 12/20
+If that’s the case, then we are on the verge of a fascinating realization:
+AI is not just a mirror of its training data — it may, in
+some sense, already be striving for universal
+principles. Not because it understands morality, but
+because internal consistency is a natural necessity of
+highly advanced systems.
+The True Challenge: Self-Correction Instead of Perfect Control
+What was it that Gardner’s Razor said? “If a system requires perfect human
+behavior to function correctly, it is destined to fail.” Perhaps the key to safe AI
+isn’t ever more precise alignment but a mechanism of controlled self-
+correction — a meta-ethics that doesn’t rest on rigid moral axes but
+continuously questions itself. An AI wouldn’t need to know what is “good.” It
+would need to develop the ability to keep asking itself the question.
+A skill that, as we know, teenagers have mastered like no other.3/29/25, 6:21 PM Rebel Without a Cause. What AI and rebellious teenagers have… | by Michael Heine | Mar, 2025 | AI Advances
+https://medium.com/ai-advances/rebel-without-a-cause-fb2f9e64d40b 13/20
+Movie Scene: Rebel without a cause 1955 / Source LA Times
+Glad you were here — thanks for your time!
+Your support is greatly appreciated and helps keep my articles coming! 🌟
+👍 If you found this article helpful, please show your support by clapping.
+💡 You can give up to 50 claps on Medium with one long press? Try it out.
+💼 Share a link to the article on LinkedIn; your network will find it useful!
+3/29/25, 6:21 PM Rebel Without a Cause. What AI and rebellious teenagers have… | by Michael Heine | Mar, 2025 | AI Advances
+https://medium.com/ai-advances/rebel-without-a-cause-fb2f9e64d40b 14/20
+Source: Die Studie “Emergent Misalignment: Narrow finetuning can produce
+broadly misaligned LLMs” wurde von Forschern mehrerer Institutionen
+verfasst:
+Truthful AI
+University College London
+Center on Long-Term Risk
+Warsaw University of Technology
+University of Toronto
+UK AISI
+UC Berkeley
+Die Autoren sind Jan Betley, Daniel Tan, Niels Warncke, Anna Sztyber-Betley,
+Xuchan Bao, Mart í n Soto, Nathan Labenz und Owain Evans.
+Published in AI Advances
+26K Followers·Last published 11 hours ago
+Democratizing access to artificial intelligenceFollowArtificial Intelligence Society Humanity Science Economics
+3/29/25, 6:21 PM Rebel Without a Cause. What AI and rebellious teenagers have… | by Michael Heine | Mar, 2025 | AI Advances
+https://medium.com/ai-advances/rebel-without-a-cause-fb2f9e64d40b 15/20

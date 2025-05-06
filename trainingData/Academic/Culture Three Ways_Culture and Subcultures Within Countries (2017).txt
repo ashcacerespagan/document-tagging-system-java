@@ -1,0 +1,1165 @@
+Downloaded from www.annualreviews.org.  Guest (guest) IP:  34.225.236.11 On: Sat, 29 Mar 2025 19:41:11PS68CH17-Oyserman ARI 5 November 2016 10:55
+Culture Three Ways: Culture
+and Subcultures WithinCountries
+Daphna Oyserman
+Department of Psychology, University of Southern California, Los Angeles,
+California 90089-1061; email: oyserman@usc.edu
+Annu. Rev. Psychol. 2017. 68:435–63
+First published online as a Review in Advance on
+September 21, 2016
+The Annual Review of Psychology is online at
+psych.annualreviews.org
+This article’s doi:
+10.1146/annurev-psych-122414-033617
+Copyright c/circlecopyrt2017 by Annual Reviews.
+All rights reservedKeywords
+culture as situated cognition, cultural ﬂuency, culture priming, honor,
+cultural mindset
+Abstract
+Culture can be thought of as a set of everyday practices and a core theme—individualism, collectivism, or honor—as well as the capacity to understand
+each of these themes. In one’s own culture, it is easy to fail to see that a
+cultural lens exists and instead to think that there is no lens at all, only
+reality. Hence, studying culture requires stepping out of it. There are two
+main methods to do so: The ﬁrst involves using between-group comparisonsto highlight differences and the second involves using experimental meth-
+ods to test the consequences of disruption to implicit cultural frames. These
+methods highlight three ways that culture organizes experience: ( a)I ts h i e l d s
+reﬂexive processing by making everyday life feel predictable, ( b) it scaffolds
+which cognitive procedure (connect, separate, or order) will be the defaultin ambiguous situations, and ( c) it facilitates situation-speciﬁc accessibility of
+alternate cognitive procedures. Modern societal social-demographic trends
+reduce predictability and increase collectivism and honor-based go-to cog-
+nitive procedures.
+435
+Click here to view this article's
+online features: 
+• Download ﬁgures as PPT slides• Navigate linked references• Download citations• Explore related articles• Search keywords
+ANNUAL 
+REVIEWS Further
+Downloaded from www.annualreviews.org.  Guest (guest) IP:  34.225.236.11 On: Sat, 29 Mar 2025 19:41:11PS68CH17-Oyserman ARI 5 November 2016 10:55
+Contents
+INTRODUCTION . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 436
+T W OW A Y ST OS T U D YC U L T U R E............................................ 4 3 9T H R E EW A Y ST H A TC U L T U R ES H A P E SE X P E R I E N C E..................... 4 4 0
+P a r t i c u l a rP r a c t i c e s............................................................. 4 4 0
+C o r eT h e m e................................................................... 4 4 2
+Variable Accessibility . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 442
+CULTURE AS INHERENT MEANING: PARTICULAR PRACTICES . . . . . . . . . . 443S O C I A LA N DD E M O G R A P H I CT R E N D S...................................... 4 4 5
+Fertility, Population Growth, and Immigration and Linked Cultural Themes
+of Honor and Collectivism . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 446
+I n c o m ea n dW e a l t hI n e q u a l i t y :S o c i a lC l a s s...................................... 4 4 8
+PLACE-BASED GROUP MEMBERSHIP AND CORE CULTURAL THEME . . . 449
+Comparing Groups: But Which Ones? . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 449Individualism and Collectivism . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 450
+H o n o r......................................................................... 4 5 1
+R e m a i n i n gQ u e s t i o n s........................................................... 4 5 2
+VARIABLE ACCESSIBILITY: CULTURE AS HUMAN UNIVERSAL
+W I T HC O R ET H E M E S...................................................... 4 5 3
+C O N C L U S I O N.................................................................. 4 5 5
+INTRODUCTION
+The worlds in which different societies live are distinct worlds, not merely the same world with different
+words attached.
+—Edward Sapir 1929, p. 209
+Nothing evades our attention so persistently as that which is taken for granted.
+—Gustav Ichheiser 1949, p. 1
+Culture can be deﬁned as the part of the environment made by humans. It is the set of meanings
+that a group in a time and place come to adopt or develop, and these meanings facilitate smooth
+social coordination, clarify group boundaries, and provide a space for innovation (e.g., Geertz1984, Markus et al. 1996, Oyserman 2011, Packer & Cole 2016). The possibility that people who
+live in different places not only act and think differently but also have different minds has been
+considered at least since ancient times, when Herodotus reported on the practices of the peoplehe saw in his far-ﬂung travels ( Jahoda 2014). The possibility that people act differently in different
+places and might even have different minds has two implications for cultural psychologists. The
+ﬁrst is that the questions that seem relevant differ in different places and as a result the theories
+developed to answer questions that seem pressing in one place may not be meaningful in other
+places (Kruglanski & Stroebe 2012). The second implication is that the ﬁeld of psychology needsto do a better job of documenting whether a theory that is developed and tested in one place is
+useful for making predictions elsewhere (Kruglanski & Stroebe 2012).
+Noticing culture requires some way of stepping out of it in order to gain perspective on it. The
+promise of cultural psychology is that making this effort matters because it results in new insights
+436 Oyserman
+Downloaded from www.annualreviews.org.  Guest (guest) IP:  34.225.236.11 On: Sat, 29 Mar 2025 19:41:11PS68CH17-Oyserman ARI 5 November 2016 10:55
+Individualism:
+independence;propensity to interpretambiguous experiencesas being aboutautonomy and processfor a discrete, mainpoint
+Honor: face;
+propensity to interpretambiguous experiencesas being aboutreputation-respect andprocess for rank and
+relative position
+Collectivism:
+interdependence;propensity to interpretambiguous experiencesas being aboutbelongingness-connection andprocess forrelationships andgroup membershipthat matter, regardless of whether one is a cultural psychologist. However, because all of life takes
+place within culture, as Ichheiser (1949) notes, it is easy to fail to see that a cultural lens exists andinstead to think that there is no lens at all—just reality.
+Figure 1 depicts how culture might matter to a great extent when viewed from outside and be
+almost entirely unnoticed, thus seeming not to matter at all, when viewed from within. Coloredrows describe processes and white rows describe the associative networks that are probabilistically
+cued as a result of activation of the particular cues that are part of these networks. People typically
+live in one context, not many; as a result, perception, judgment, and behavior ( Figure 1 ,top
+row, blue ) seem to ﬂow directly from cues ( Figure 1 ,bottom row, orange ) rather than being the
+probabilistic result of intermediate processes. Culture feels like reality—not like an interpretationof reality (Morris et al. 2015b, Mourey et al. 2015). Cultural psychology focuses on the universal
+mechanisms (that is, the probabilistic intermittent processes) by which the everyday cues that are
+particular to a society, time, and place are interpreted to form perception, judgment, and behavior.
+As depicted in Figure 1 , cues, which can be features of the immediate situation or chronically or
+momentarily activated information in memory, are interpreted via associative knowledge networks
+that include social, emotional, physiological, and other content ( Figure 1 ,third row from bottom,
+red). These knowledge networks activate one or another cultural mindset that includes relevant
+content, procedures, and goals ( Figure 1 ,third row from top, brown ). Which cultural mindset is acti-
+vated is a probabilistic function of how central the cue is to the knowledge network, which culturalmindset has been most recently activated, and which cultural mindset is most typically activated.
+This probabilistic process is largely understudied because psychologists operating and testing
+their theories within one culture are likely to fail to notice culture operating at all, assuming thattheir perspective is reality rather than, for example, individualism (but see Lun & Bond 2013,
+Machery 2010). If an activated individualistic cultural mindset is not noticed at all, psychologists
+may infer that culture matters in other settings but not in Western settings with educated and
+well-off participants. Even if psychologists in these settings infer that an individualistic cultural
+mindset is activated, they are likely to assume that this mindset is chronically activated. Only bydirectly examining the likelihood that a particular contextual cue activates an individualistic, a
+collectivistic, or an honor mindset can psychologists unpack the probabilistic process by which a
+particular cultural mindset is activated. However, research on this topic will likely begin to emergebecause of changes in modern societies as a result of immigration, differential fertility of groups
+within societies, and increased social stratiﬁcation (e.g., Frey 2015, Grusky & MacLean 2016).
+These trends are important because, as detailed below, each is likely to lead to an increased
+propensity for activation of collectivistic and honor culture mindsets, even in wealthy modern
+societies currently assumed to have chronically activated individualistic mindsets. These trends
+thus imply that collectivism and honor will become more salient in wealthy modern societies (e.g.,Mesoudi et al. 2016, Nowak et al. 2016). These trends involve both the possibility of a general
+shift toward collectivism and honor throughout these societies and the likelihood of a shift toward
+collectivism and honor in subcultures within these societies. The development of subcultures ispredicted both from increased immigration and segmented assimilation of new immigrants into
+particular parts of the host society and from increased wage inequality within the host society, as
+articulated in sociological (Portes & Zhou 1993) and political science (Grusky & MacLean 2016)
+frameworks.
+These processes of increased collectivism and honor are the result of sociodemographic
+changes: Wealthy countries are experiencing low fertility, higher migration, and either increasing
+(e.g., Australia, Canada, the United States) or ﬂat (e.g., Germany, France, the Netherlands) wage
+inequality (Grusky & MacLean 2016). An exception to these general trends is Japan: AlthoughJapan is experiencing low fertility, it is neither a target of large-scale migration nor a site of
+www.annualreviews.org •Culture Three Ways 437
+Downloaded from www.annualreviews.org.  Guest (guest) IP:  34.225.236.11 On: Sat, 29 Mar 2025 19:41:11PS68CH17-Oyserman ARI 5 November 2016 10:55
+Everyday cues activate
+particularized associativeknowledge networksOnce activated, cultural
+mindsets activate a particularassociative networkMental representations
+provide focus
+In each society,
+everyday cues differAssociative network
+activation makes goalsand procedures accessibleFocus enables perception,
+judgment, and behavior
+Knowledge networks may
+activate a cultural mindset
+Cue
+ACue
+FCue
+KCue
+BCue
+GCue
+LCue
+DCue
+ICue
+NCue
+ECue
+JCue
+OCue
+CCue
+HCue
+M
+Society 1 Society 2 Society 2 Society 1 Society 1 Society 2Individualistic mindsetSeparate, stick out,
+find uniquenessSeparate, stick out,
+find uniqueness
+Collectivistic mindsetConnect, fit in, find
+commonalityConnect, fit in, find
+commonality
+Honor mindsetOrder, rank, find bestOrder, rank, find best
+Figure 1
+The universal mechanisms, speciﬁc cues (UMSC) model. The UMSC model articulates a probabilistic understanding of the
+brain-culture interface. Because processing is fundamentally associative, whether an initial cue results in a predicted response is highlydependent on the associations that come to mind at each stage. The process is considered from the bottom up. ( Orange row )T h e
+UMSC model proposes that each society includes everyday cues. ( First white row ) These cues activate associative knowledge networks
+that are speciﬁc to the particular society. ( Red row ) The nodes in these networks can activate an individualistic mindset, an honor
+mindset, or a collectivistic mindset. ( Second white row ) Once one of these cultural mindsets is activated, it cues an associative network.
+(Brown row ) The associative network makes mindset-congruent contents, goals, and procedures accessible. ( Third white row )T h er e s u l t
+is activation of congruent associative networks, which probabilistically increase accessibility. ( Blue row ) As a result of spreading
+activation, mindset-congruent actions, perceptions, emotions, and cognitive procedures are ready for use. Figure adapted withpermission from Oyserman et al. (2014).
+438 Oyserman
+Downloaded from www.annualreviews.org.  Guest (guest) IP:  34.225.236.11 On: Sat, 29 Mar 2025 19:41:11PS68CH17-Oyserman ARI 5 November 2016 10:55
+Between-group
+comparison method:attribution ofgroup-baseddifferences in features,behaviors, or traits toculture; the mostcommon method ofstudying culture
+Experimental
+method: testing of
+group-baseddifferences attributedto culture by
+manipulating the
+predicted proximalactive ingredients; thealternative method ofstudying cultureincreasing wage inequality (Grusky & MacLean 2016, PricewaterhouseCoopers 2015). In wealthy
+countries other than Japan, low fertility combined with migration and higher fertility amongnewcomers means that diversity is higher among the younger generation (e.g., Frey 2015). Wage
+inequality is likely to increase both the salience of social class as a subcultural frame (e.g., Grusky
+& MacLean 2016) and the salience of collectivism (e.g., Stephens et al. 2014) and honor (e.g.,Nowak et al. 2016).
+The idea of subcultures within cultures makes intuitive sense, even though whether something
+is identiﬁed as a culture or a subculture depends in large part on the question being addressed. Take
+the example of American culture: There can be no deﬁnitive answer to the question of whether
+there is a single American culture or many American subcultures, or whether American cultureis really a subculture within modern, postindustrialized, educated, wealthy Western culture (e.g.,
+Bellah 1985, Henrich et al. 2010, Swidler 1986). Each of these formulations is true in some way
+and each differs in their utility in addressing questions about culture depending on the level ofanalysis the question requires.
+The idea of subculture also makes sense when considering categories such as race-ethnicity,
+religion, and social class as groups that are experienced as ﬁxed and are linked to placement inthe social hierarchy (also called caste-like groups; Bourdieu 1984, Lewis 1966). These caste-like
+groups are central to everyday understanding of what culture is (Spencer 2014). Though often
+relegated to studies of stereotyping, caste-like groups have been fruitfully rediscovered by culturalpsychologists who are attempting to predict when cultural messages from larger culture will be
+experienced as matching or mismatching in-group messages and with what consequences (e.g.,
+Oyserman et al. 1995; for reviews, see Oyserman 2007, 2015; Stephens et al. 2014).
+TWO WAYS TO STUDY CULTURE
+Cultural psychologists use two different methods to step out of culture in order to study it.The ﬁrst and by far the most common method is to use between-group comparisons to identifydifferences that might be due to culture or subculture (e.g., Henrich et al. 2010, Rychlowska
+et al. 2015). The second method is to use experimental techniques to observe the consequences
+of disruptions to implicit cultural frames (e.g., Oyserman 2011, Oyserman et al. 2014). Bothmethods are compatible with the premise that culture and humans coevolved (Kurzban &
+Neuberg 2005, Legare & Nielsen 2015).
+Each method is useful in addressing some questions and not others. Consider the between-
+group comparison method. This method elucidates differences between groups but cannot test
+assertions about what these differences mean. Finding a difference in one between-group compar-
+ison, while interesting, may or may not generalize to other comparisons (e.g., Henrich et al. 2010,Machery 2010, Matsumoto 1999). Moreover, the between-group comparison method carries the
+risk of reifying differences as large, inherent, deeply rooted, and ﬁxed, yet coevolution does not
+imply that current between-group differences are ﬁxed, that comparison groups generalize to pop-ulations, or that otherwise hidden cultural themes will not emerge if context changes (e.g., Ceci
+et al. 2010).
+The alternative to the between-group comparison method is the experimental method, which
+entails either activating a particular cultural mindset or activating disjuncture between culturally
+grounded expectations and actual experience (Oyserman in press). This method thus provides away to articulate and test a possibility not testable in the between-group comparison method, which
+is that between-group differences provide a lens to see generally available but differentially acces-
+sible features of the human mind (Oyserman et al. 2014). As detailed in the following sections, theexperimental method, unlike the between-group comparison method, can test whether observed
+www.annualreviews.org •Culture Three Ways 439
+Downloaded from www.annualreviews.org.  Guest (guest) IP:  34.225.236.11 On: Sat, 29 Mar 2025 19:41:11PS68CH17-Oyserman ARI 5 November 2016 10:55
+Particular practices:
+anthropology-basedway of describingculture focusing on theeveryday, expected,and ordinary; whatpeople do, and whenand how they do it
+Core themes:
+group-baseddifferences, typicallyindividualism(independence),collectivism
+(interdependence), or
+honor (face); mostcommon psychologicalway of describingculturedifferences between and within groups imply differences in the accessibility (what is usually acti-
+vated) or in the availability (what can be activated) of cultural values, norms, and meaning-makingschemas.
+Thus, rather than think of one method as competing with the other, it is more useful to consider
+each method as capable of addressing some questions and not others. Moreover, neither methodcan fully address the question of whether a theory has universal applicability—that would require
+sampling from all peoples, times, and places that have ever existed, which is impossible (Henrich
+et al. 2010). Whether or not this is a problem depends on perspective: Psychologists typically
+study the living and, in the same vein, cultural psychology focuses on currently existing cultures.
+THREE WAYS THAT CULTURE SHAPES EXPERIENCE
+Cultural psychologists use three operationalizations of culture to highlight different aspects of
+how culture shapes the meaning people make of their everyday experiences. First, culture can be
+thought of as the particular practices of a group; knowing these practices makes everyday life feel
+predictable and frees up cognitive resources. These practices include mundane things such as whatthe rules for public transportation are—whether one can eat and drink, for example—and whether
+these rules can be broken (Morris et al. 2015b, Mourey et al. 2015, Zou et al. 2009). Second, culture
+can be thought of as a particular core theme—individualism, collectivism, or honor—that scaffoldswhat and how people think about ambiguous situations (Oyserman 2011). Third, culture can be
+thought of as a set of core themes that vary in their accessibility depending on situational cues. For
+example, even if collectivism is a group’s core theme, people can make sense of the world throughan individualistic or honor lens (Oyserman 2015, Oyserman & Lee 2008).
+Each operationalization highlights a different aspect of what culture is and does. Each is vital
+because it makes accessible for study something that other operationalizations do not and be-
+cause the assumptions and methods connected to it are suitable for a particular kind of prediction
+about culture’s consequences. Some operationalizations highlight the situated, dynamic nature ofculture’s instantiation in norms, values, and self-concept, and others highlight the stable nature
+of culture. By combining operationalizations, it is possible to make predictions about when cul-
+tural change, whether the result of immigration or migration, will be experienced as additive (aboth/and experience of multiple cultures merging) and when it will be experienced as subtractive
+(an either/or experience of competing loyalty). Each way of considering culture highlights dif-
+ferent aspects of both the content (what people think about) and the process (how thinking itselfproceeds) of culture, as detailed in the following sections.
+Particular Practices
+A particular practices formulation highlights culture’s effects on prediction and the consequencesof mismatch between prediction and observation on processing style—whether thinking entailssystematic, effortful reasoning or remains automatic and effortless (Mourey et al. 2015, Oyserman
+et al. 2014). The unique predictions from this formulation are depicted in Figure 2 as a prediction-
+observation match-mismatch model of culture.
+The prediction-observation match-mismatch model provides insight into when people are
+likely to shift to systematic processing. Being a part of a culture means knowing, implicitly, howthings are likely to unfold, and, as outlined in Figure 2 , when observations match implicit cultural
+expectations, there is no need to reason carefully because everything is as it should be. However,
+if observations mismatch implicit cultural expectations, something might be amiss, calling forcareful reasoning—that is, systematic or reﬂective reasoning rather than associative or reﬂexive
+440 Oyserman
+Downloaded from www.annualreviews.org.  Guest (guest) IP:  34.225.236.11 On: Sat, 29 Mar 2025 19:41:11PS68CH17-Oyserman ARI 5 November 2016 10:55
+Associative networkPrediction matches
+situation: no
+prediction errorPrediction
+mismatches situation:
+prediction errorUpdate predictionStrengthen predicted
+association
+CuePredictionNo need to process
+systematicallyExperience ﬂuency,
+with implications for
+well-beingExperience disﬂuency,
+with implications for
+well-beingNeed to process
+systematically, attend
+to unexpected
+Figure 2
+The prediction-observation match-mismatch model articulates how the brain updates and, by implication,
+why ﬁt between personal and societal style and between prediction and experience inﬂuences both processingstyle in the moment and well-being over time. Note that in spite of high sensitivity to context, acculturationis difﬁcult, and not ﬁtting into a society’s typical cultural style can be undermining of well-being. Starting atthe bottom, an environmental cue ( orange row ) activates an associative network ( ﬁrst white row ), which in turn
+generates predictions about the situation. If predictions ( red row ) match the situation, no error response is
+generated ( second white row, right side ), ﬂuency is experienced ( brown row, right side ), and associative
+processing is task focused. If predictions ( red row ) mismatch the situation, an error response is generated
+(second white row, left side ), and disﬂuency is experienced ( brown row, left side ), cuing systematic processing to
+attend to the unexpected. In cases both of experienced ﬂuency and of experienced disﬂuency, the associativenetwork is updated ( top white row ). In the case of ﬂuency, the update is to strengthen an existing prediction
+(top white row, right side ). In the case of disﬂuency, the update is to add new information ( top white row, left
+side). Note that systematic processing to attend to the unexpected ( brown row, left side ) may or may not
+improve prediction at the next round since the reason an unexpected situation was encountered cannot beascertained from registering that an unexpected situation was encountered. The general process model canalso be used to understand the process by which ﬁt and misﬁt between cultural norm and personal style canyield consequences for well-being. Figure adapted with permission from Oyserman et al. (2014).
+reasoning. Findings with Chinese and American participants support the core prediction of the
+role of cultural ﬂuency and disﬂuency. People from both countries reason more systematically inculturally disﬂuent, as compared to ﬂuent, cultural contexts (Mourey et al. 2015). This formulation
+is congruent with models that highlight the importance of social norms in predicting how culture
+matters (Morris et al. 2015b, Zou et al. 2009). However, instead of what people think the norms
+are, the focus is on what happens to reasoning when norms are violated versus when they are
+upheld.
+www.annualreviews.org •Culture Three Ways 441
+Downloaded from www.annualreviews.org.  Guest (guest) IP:  34.225.236.11 On: Sat, 29 Mar 2025 19:41:11PS68CH17-Oyserman ARI 5 November 2016 10:55
+Variable
+accessibility:examination ofsituation-baseddifferences in which ofthe core culturalthemes is momentarilyaccessible; alternativepsychological way todescribe cultureCore Theme
+A core theme formulation highlights culture’s effects on norms, values, self-concept, and cogni-
+tive procedures used to process information—people use a variety of procedures in their everyday
+lives, but in ambiguous situations, core cultural theme matters (Miyamoto 2013). The core themeformulation is depicted in Figure 1 in the three columns. The networks in each column are differ-
+entially dense to depict differences in chronic accessibility of each core theme between societies.
+For simplicity, the two societies in Figure 1 are labeled simply 1 and 2. When a theme is core, the
+cognitive procedure associated with it is likely to come to mind when another procedure is not
+speciﬁed by contextual cues. As a result, depending on how associative networks respond to cues, aparticular procedure—exclusion based (e.g., contrast, pull apart), inclusion based (e.g., assimilate,
+connect), or ordering based (e.g., hierarchical)—is more or less likely to be applied (Miyamoto
+2013; Novin & Oyserman 2017; Oyserman et al. 2009; D. Oyserman & S. Novin, unpublisheddata).
+The core theme formulation focuses on processing style (i.e., exclude, include, or order) and
+asks which people are likely to use which style to process information (Miyamoto 2013, Spencer-Rodgers et al. 2010). Each of these styles can involve the application of rules and, as a result,
+systematic reasoning or can proceed at low-level associative levels; thus, processing style is dis-
+tinct from cognitive style, which is the focus of the particular practices formulation of culture.The two core cultural themes that have been the focus of research to date are individualism and
+collectivism, also termed independence and interdependence; their associated processing styles
+are sometimes termed analytic and holistic reasoning, respectively (Miyamoto 2013). A number ofprocessing style differences between individualistic (independent) and collectivist (interdependent)
+mindsets have been documented. A chronically activated individualistic mindset (analytic) entails
+processing for a decontextualized main point (e.g., a rule), whereas a chronically activated col-
+lectivistic mindset (holistic) entails processing for related connections (e.g., family resemblance).
+Findings from between-group comparisons (e.g., between Japan and the United States or betweenChina and the United States) support the prediction that there is a match between processing style
+and dominant cultural theme. That is, Chinese people are more likely to describe a visual scene
+in terms of all of its elements. In contrast, Americans are more likely to identify individual andspeciﬁc parts. Japanese people are more likely to make mistakes when trying to reproduce line
+segments while ignoring the context in which they saw them. In contrast, Americans are more
+likely to make mistakes when trying to reproduce the relative size of line segments while recallingthe context in which they saw them (Miyamoto 2013).
+Variable Accessibility
+A variable accessibility formulation highlights that each of the core themes is available, thoughdifferentially accessible, across cultures and subcultures (Oyserman & Lee 2008). The variable
+accessibility formulation is depicted in Figure 1 as the propensity of getting from a particular
+cue (A to O) in a society to a particular perception, judgment, or behavior. As can be seen (for
+example, by looking at cues A to C in Society 1), these cues typically activate knowledge structures
+that turn on an individualistic mindset. However, as shown in Figure 1 , the ﬁnal outcome of
+activation of a knowledge structure is probabilistic. That is, the outcome depends on a variety
+of factors, including whether a knowledge structure has been recently activated or not and how
+central a particular cue is to a knowledge structure. For example, a cue might typically activate anindividualistic mindset, but whether or not it does at any particular time is probabilistic. Thus, as
+depicted by the link between squares and triangles and the link between triangles and circles in
+Figure 1 , a cue that typically activates an individualistic or a collectivistic mindset might activate
+a different mindset under particular circumstances.
+442 Oyserman
+Downloaded from www.annualreviews.org.  Guest (guest) IP:  34.225.236.11 On: Sat, 29 Mar 2025 19:41:11PS68CH17-Oyserman ARI 5 November 2016 10:55
+The variable accessibility formulation provides insight into when people are likely to use one or
+another processing style (Oyserman 2011, Oyserman & Lee 2008, Oyserman et al. 2016). Findingssupport the prediction that momentarily activated cultural mindsets inﬂuence processing style. In
+these studies, Asian participants can be made to process like American participants and the reverse,
+implying that cultural mindsets that are not chronically activated can be momentarily activated(e.g., Oyserman 2011). For example, on divided attention tasks in which context information must
+be ignored, Koreans and Americans guided to use a collectivistic mindset do worse than Koreans
+and Americans guided to use an individualistic mindset (Oyserman et al. 2009). Although prior
+research has focused on basic cognitive processing, emerging research suggests that activating a
+cultural mindset inﬂuences the performance of complex reasoning tasks as well (D. Oyserman,S. Novin, B. Lam, S.X. Chen, E. Newman, & V. Yan, manuscript under review). Collectivistic
+mindsets cue processing for connection whereas individualistic mindsets cue processing for main
+points, and evidence indicates that honor mindsets cue processing for order (D. Oyserman, S.Novin, & V. Yan, unpublished data).
+CULTURE AS INHERENT MEANING: PARTICULAR PRACTICES
+As detailed in Figures 1 and2, thinking about how culture matters starts with the fact that each
+culture has a particular set of practices (e.g., Geertz 1984, Triandis et al. 1973) that activates corethemes (e.g., honor-face, individualism-independence, and collectivism-interdependence) (e.g.,
+Markus et al. 1996, Nisbett & Cohen 1996, Oyserman et al. 2002a). Having cultural expertise
+means knowing how “we” think, what “we” value, and how “we” do things (e.g., Oyserman 2011,Swidler 1986). Thinking occurs in culture, and culture structures what seems obvious, normative,
+and real.
+From within a culture, cultural expertise is transparent—it is experienced as if it is reality
+itself. Hence, culturally laden concepts are not experienced as concepts but as something real
+(e.g., Geertz 1984, Triandis 2007). Given this transparency of culture, people typically assume
+that others see the world as they do, and if others say they do not have the same perspec-tive, then their alternative perspectives seem funny, strange, or deviant (e.g., Ichheiser 1949,
+Oyserman 2011, Triandis 2007). This na ¨ıve realism (i.e., the experience of one’s own perspec-
+tive as reality) aspect of culture can contribute to between-group tensions. For example, in theUnited States, liberal and conservative Americans experience their own beliefs as inherently su-
+perior to others’ beliefs (Toner et al. 2013).
+Because “thinking is for doing” and “doing” cues relevant thinking (e.g., Fiske & Taylor
+2013), it is instructive to learn that activating a cultural mindset is associated with particular
+neural responsivity in preparation for action (e.g., Wang et al. 2013). Importantly, neural activitydoes not imply endorsement—culture’s effects do not actually require that culturally sanctioned
+interpretations be endorsed, just that they be assumed to be the way that others in one’s group
+experience the world (e.g., Morris et al. 2015b, Mourey et al. 2015). That is, just as stereotypescan inﬂuence perception among people who do not explicitly endorse stereotype content (e.g.,
+Bigler & Clark 2014), some of culture’s effects may be due to illusions of universality or what has
+been termed pluralistic ignorance (Allport 1924, O’Gorman 1986).
+Na¨ıve realism means that culture’s presence will go unnoticed until things do not unfold as
+culturally expected (e.g., Mourey et al. 2015, Oyserman 2011). One method used to see culture
+in action is to examine the consequences of perturbing cultural expectations. Telltale signs thatsomething did not ﬁt one’s cultural frame include a shift to systematic reasoning, a reduced sense
+of inherence (the feeling that things are as they ought to be), and an increased desire to defend
+the traditional values of one’s culture (Mourey et al. 2015; Y. Lin & D. Oyserman, unpublishedmanuscript). As shown in Figure 2 , when observations match cultural expectations, there is no
+www.annualreviews.org •Culture Three Ways 443
+Downloaded from www.annualreviews.org.  Guest (guest) IP:  34.225.236.11 On: Sat, 29 Mar 2025 19:41:11PS68CH17-Oyserman ARI 5 November 2016 10:55
+need to shift to systematic processing, but when cultural expectations are not met, higher-level
+processing is necessary.
+The particular practices formulation builds on dual-processing models of reasoning, which
+distinguish between two neurally distinct processing systems (Chaiken & Trope 1999, Lieberman
+2007). The effortless, reﬂexive system involves associative links that are turned on via spreadingactivation; the effortful, reﬂective system involves systematic and sequential processing of informa-
+tion (Lieberman 2007, Strack & Deutsch 2004). The reﬂexive system is always at work, whereas
+the reﬂective system becomes active when one has the time, resources, and desire to consider
+carefully (e.g., Strack & Deutsch 2004). Reﬂexive reasoning feels inherent, intuitive, spontaneous,
+and effortless—“I just feel it in my gut”; in contrast, reﬂective reasoning feels effortful becauseit requires one to think about and apply a set of rules or explicit strategies to problem solve—“I
+know it in my head.”
+Because reﬂexive processing seems to occur without intention or effort, its products have been
+called natural assessments (Tversky & Kahneman 1983) that are immediately available as bases
+for choice and action. Examples of natural assessments are abstract properties such as similarity,
+causal propensity, surprisingness, affective valence (e.g., whether something is good or bad), andmood (Kahneman & Frederick 2002). Applying this to culture yields the following principle:
+The reﬂexive system characterizes culture as a natural assessment, whereas the reﬂective system
+characterizes culture as a set of current practices. Thus, when the reﬂexive system is activated,people automatically infer that what is culturally normative is the way things naturally should be
+and morally ought to be. In contrast, when the reﬂective system is activated, people may take into
+account or choose to ignore cultural values and norms. In the reﬂective system, gaps betweenpersonal and cultural norms can be reasoned through.
+Because the reﬂexive system is always working and produces judgments that feel inherent to
+the situation, people inside a cultural frame are unlikely to notice the need for correction—they
+experience perception ( Figure 1 ,top row, blue ) as ﬂowing directly from cues ( Figure 1 ,bottom
+row, orange ). People with other things on their mind (i.e., under cognitive load) often process only
+reﬂexively unless they are motivated to do otherwise. Moreover, because the reﬂexive system is not
+deactivated when the reﬂective system is activated, culture is always experienced as a natural and
+immediate basis for choice and action. Thus, even though the reﬂective system provides choices,people often experience their culture-based responses as emerging from inherent features of the
+situation and fail to notice cultural processes at work. Figure 2 shows the processes of processing
+reﬂexively and reﬂectively. Note that reﬂexive thinking is the result of a match and reﬂectivethinking of a mismatch between observation and expectation.
+When cultural scripts (i.e., expectations) are preserved, reﬂexive processing will likely be the de-
+fault, but when cultural scripts are disrupted, the mismatch between expectations and observationscan lead to a switch to reﬂective processing. For example, in one experiment, participants were
+given a set of word problems to solve (Mourey et al. 2015). Each problem had two characteristics:
+First, it was correctly solvable using a simple rule (which rule should be used differed betweenproblems); second, an alternative, incorrect solution came immediately to mind upon reading
+the problem. The correct, rule-based solution was evidence of reﬂective processing, whereas the
+incorrect but seemingly obvious solution was evidence of reﬂexive processing. Participants were
+randomly assigned to a condition: They saw the problems on a screen with either a pink border, a
+black border, or a white border (no border) and saw the problems either on Valentine’s Day or aweek later. Participants who saw the pink border on Valentine’s Day (the culturally expected color
+for the day, as compared to black or no color) were more likely to use reﬂexive, heuristic process-
+ing, which undermined test performance. A week later, however, pink had no cultural signiﬁcanceand had no effect on reasoning skills. Parallel effects were found for disruptions of the cultural
+444 Oyserman
+Downloaded from www.annualreviews.org.  Guest (guest) IP:  34.225.236.11 On: Sat, 29 Mar 2025 19:41:11PS68CH17-Oyserman ARI 5 November 2016 10:55
+scripts for funerals (expressions of sadness being expected and happiness being unexpected) and
+weddings (a white dress being expected and a dress in another color being unexpected). Partici-pants read obituaries or looked at wedding pictures and later performed a separate cognitive task.
+Disruption shifted processing to reﬂective reasoning and improved performance. Sticking to the
+cultural script keeps processing reﬂexive. For example, on Chinese New Year, the color red isculturally expected and the color black is not; this holds true, of course, only if the holiday is part
+of one’s cultural frame. Chinese participants proceeded reﬂexively by choosing more food when
+given red-bordered rather than black-bordered plates, but only on Chinese New Year; the plate
+border had no effect on American participants for whom there was no associative link between
+Chinese New Year and red (Mourey et al. 2015). Another set of studies focused on the experiencednaturalness of reﬂexive thinking. For example, in these studies, Chinese participants scored lower
+on essentialist beliefs if presented with Chinese New Year greetings in black rather than in red
+(Cimpian & Salomon 2014), an effect that disappeared when it was no longer Chinese New Year(Y. Lin & D. Oyserman, unpublished manuscript).
+As has been discussed, mismatch and the consequent shift to reﬂective thinking shift processing,
+as well. However, this may or may not change the outcome of reasoning. To understand thissomewhat abstract distinction, let us consider how this can play out in a classroom student-teacher
+interaction. Suppose a teacher witnesses a student behaving in a particular manner. The seemingly
+natural and automatic implications of this behavior will be culture bound, differing depending onthe content that composes the associative network ﬁring for the teacher at that moment. Teachers
+with different cultural scripts as to how students should behave and what misbehavior means—
+e.g., whether it signals exuberance or lack of respect for the teacher—would arrive at differentconclusions about what the behavior means. Each interpretation would be experienced as natural,
+and teachers are likely to experience the student’s behavior as expressing something essential about
+the student, whether that essence is biological, social, or something else (Baron 2014).
+Say this content includes “male,” “African American,” and “respect.” Although an African
+American teacher may see the student’s behavior as ﬁtting in the normal range of youthful exu-berance and therefore either not indicating misbehavior at all or, if indicating misbehavior, not
+indicating a lack of respect, a white teacher may see the same student’s behavior differently. A white
+teacher might experience the behavior as outside the normal range of behavior and as indicatinga lack of respect for the teacher—and thus as a cause for disciplinary action (Wright 2015). Say
+that the white teacher is highly motivated to consider each student individually or was expecting
+behavior within the normal range of behavior; in either case, he or she might experience mismatchwith expectations and switch to reﬂective reasoning. Unfortunately, shifting to reﬂective thinking
+will not necessarily change the conclusion a teacher draws. For example, suppose the student’s
+behavior is unexpected and cues a cultural stereotype about African American males as dangerous.Reﬂective thinking is rule-based reasoning, but the rule itself matters. If the rule that comes to
+mind is to maintain control, then the result of reﬂective processing, the need to maintain order,
+might be the same as the result of reﬂexive processing. In contrast, if the rule that comes to theteacher’s mind is to avoid stereotyping, then the teacher may notice the possibility that he or she
+would experience the behavior itself differently if it was not exhibited by an African American male
+student. In that case, the reﬂective processing might result in reframing the behavior as exuberance.
+SOCIAL AND DEMOGRAPHIC TRENDS
+A criticism of psychological research is that psychologists tend to study students and thatboth research participants and researchers themselves are typically wealthy, Westernized, andeducated, hailing from the United States, other English-speaking countries, and the European
+www.annualreviews.org •Culture Three Ways 445
+Downloaded from www.annualreviews.org.  Guest (guest) IP:  34.225.236.11 On: Sat, 29 Mar 2025 19:41:11PS68CH17-Oyserman ARI 5 November 2016 10:55
+Union (Henrich et al. 2010). Note that Henrich and colleagues (2010) include as Westernized any
+society with Western-style education, including Japan, Korea, and China (Henrich et al. 2010).This might mean that psychological theories are limited either because the questions they address
+are chieﬂy relevant to people in these countries or because, even though the questions are of
+general importance, the answers that theories provide to these questions only ﬁt people from thissubset of the world. Henrich and colleagues’ (2010) recommendation, which is to study the few
+nonmodernized peoples to really understand culture, is one possible next step. An alternative, as
+outlined here, is to consider how psychological theory and research can beneﬁt from identifying
+who psychologists are typically trying to generalize to and where these people are located.
+Fertility, Population Growth, and Immigration and Linked Cultural Themes
+of Honor and Collectivism
+Even though psychological theorizing is meant to provide explanations for human behavior, the
+methods of psychological research are limited to study of the present—they do not lend themselves
+to the study of the past since data are typically obtained from living humans rather than fromsecondary analyses of other kinds of data. Before dismissing psychological research as narrowly
+built on students, it is useful to consider who the students in modern societies with Western-style
+education—including the United States, the European Union, China, and India—are likely to be.As noted in the ﬁrst section below, due to fertility, population changes, and immigration in the
+United States and the European Union, student samples are more likely to yield an increasingly
+diverse snapshot that includes individualistic, collectivistic, and honor mindsets. However, beforeassuming that this diversity is sufﬁcient, it is useful to consider which societies have the largest
+and the most rapidly growing populations and what psychological theorizing is needed to make
+predictions for people in these societies. These issues are tackled next.
+The United States and the European Union. The United States and the European Union,
+the regions associated with individualism, have a combined population of 830 million people.
+Education is compulsory through secondary school, and most people attend some form of post-
+secondary training (though not all graduate; 44% of 25- to 34-year-old Americans and Europeanshold postsecondary degrees) (Will 2014).
+These individuals form the basis of most psychological research and are likely to be the pop-
+ulation to which psychological research can most easily generalize. Thus, it is useful to considerwho these people are. Although it is largely not discussed by psychologists (perhaps because effects
+have not yet been felt on the student subject pools psychologists rely on), the United States and
+European Union are rapidly diversifying (Chamie 2012, Eur. Comm. 2007, Frey 2015, Hackett2015, PricewaterhouseCoopers 2015, Rebala & Wilson 2015). These trends are straightforward:
+Majority groups are aging and have low birthrates, minority group are younger and have higher
+birthrates, and immigration is bringing people from different regions of the world (e.g., Frey2015). Immigrants to the European Union (since World War II) are primarily from Turkey,
+North Africa, and the Middle East (Eur. Comm. 2007, Hackett 2015). Immigrants to the United
+States (since 1965) are primarily from Mexico, Central and South America, and Asia (China, India,
+Frey 2015).
+By 2020, American psychologists who use students as their participants—though they are
+often trying to generalize to people more generally—will have diverse subject pools. Since 2011,
+most children born in the United States have been “minorities,” and demographers estimate
+that by 2020, most Americans under 18 will be “minorities” (Frey 2015). In the United States,minority status is associated with social class; Mexican heritage is associated with lower educational
+446 Oyserman
+Downloaded from www.annualreviews.org.  Guest (guest) IP:  34.225.236.11 On: Sat, 29 Mar 2025 19:41:11PS68CH17-Oyserman ARI 5 November 2016 10:55
+attainment, and Asian heritage is associated with higher educational attainment (Frey 2015, US
+Census 2011). Lack of college education is associated with collectivism (Stephens et al. 2007, 2014,2016). In addition, religious traditions associated with cultures of honor are brought by Catholic
+immigrants (from Mexico and Central and South America) to the United States and by Muslim
+immigrants (from Turkey, the Middle East, and Africa) to the European Union (Cohen & Varnum2016, Hackett 2015, Nowak et al. 2016, Pew Res. Cent. 2011, Rebala & Wilson 2015). This means
+that psychologists who are not interested in culture will be less likely to obtain monocultural
+participants and are thus more likely than in the past to be able to test the generalizability of their
+theories.
+What does this imply? Just as a psychology that includes only male participants is less robust
+than one that includes both male and female participants even if gender is not the focus of research,
+a psychology that includes more culturally diverse participants is more robust than monoculturally
+based research even if culture is not the focus of research. Increased diversity in student populationsmay or may not support relevant subgroup analyses but will at least ensure that theories are less
+likely to be tested in monocultural samples. At the same time, rapid demographic changes mean
+that failures to replicate results based on theories that apply only to one core cultural themewill increase, which may push psychologists not previously interested in culture to consider its
+effects.
+The most populous countries and biggest contributors to population growth. If psychol-
+ogists are not interested in culture but do care if their theories generalize, then testing whether
+theories hold in the world’s two most populous countries—China and India (with a combined
+population of 2.6 billion people)—should matter. In both of these countries, Internet-based sub-ject pools are becoming increasingly available for testing generalizability. Other countries with
+large populations (in descending order, Indonesia, Brazil, Pakistan, and Nigeria, with a combined
+population of 920 million people) are assumed to be high in honor and collectivism but are rarely
+included in research.
+These six countries are also responsible for most of the world’s population growth and so will
+constitute an increasing proportion of the world’s population (Chamie 2012). Their populations
+are young (e.g., median age is 27 in India and 18 in Nigeria) and in some cases, skewed male (e.g.,
+in India and China) (CIA 2015). Youths are particularly concentrated in Sub-Saharan Africa, theMiddle East, and North Africa—areas also home to the Sunni-Shiite religious divide (Yousef 2003).
+Half of Nigerians and most Indonesians and Pakistanis are Muslim; Indonesia, Pakistan, and India
+(three high-growth countries) are home to about one-third of the world’s Muslims (CIA 2015).Given this geographic concentration, it might be useful to consider the place-based implications of
+religion even though this aspect of religion is not widely studied by cultural psychologists focused
+on religion, religiosity, and belief in a deity (e.g., Atran & Norenzayan 2004; Cohen 2009, 2015;Cohen & Rozin 2001). Culturally, Islam is associated with honor and obedience (Ahlberg 2014).
+Cultures of honor highlight a particular form of masculinity that is focused on male agency (e.g.,
+Nisbett & Cohen 1996, Novin & Oyserman in press). A population with an abundance of youthsis associated with innovation and economic growth if, at the same time, the proportion of the
+population that is beyond working years also declines (Bloom & Williamson 1998, Brake 2013);
+otherwise, it is associated with political upheaval, violence, and a shift to dictatorships (Urdal 2006,Weber 2013). At the same time, in some settings, an abundance of young men is associated with
+higher marriage rates and greater paternal investment in children (Griskevicius et al. 2012). Given
+the place-based link between Islam and an abundance of youths, future research examining the
+effects of cultural contact is needed.
+www.annualreviews.org •Culture Three Ways 447
+Downloaded from www.annualreviews.org.  Guest (guest) IP:  34.225.236.11 On: Sat, 29 Mar 2025 19:41:11PS68CH17-Oyserman ARI 5 November 2016 10:55
+Income and Wealth Inequality: Social Class
+Modernity theory predicts that inequality in wealth and income is due to an inadequate supply of
+skilled labor; that by increasing education, societies reduce inequality; and that social mobility re-
+duces the centrality of social class (e.g., Inglehart 1997). Thus, countries that provide free and high-quality education should see less income and wealth inequality because more people can vie for top
+educational slots. To the extent that education facilitates social movement and reduces economic
+segregation, these countries should also see less hardening of class-based subcultures. Otherwise,
+spatial and social segregation should increase and social classes should become more distinct and
+well formed. Indeed, recent analyses suggest that inequality is increasing in some wealthy coun-tries. Thus, in contrast to other wealthy countries (e.g., Germany, France), in the United States,
+Australia, and Canada, inequality in wages and income has rebounded since the 1970s (Grusky &
+MacLean 2016). In these three countries, the richest 1% holds concentrated wealth whereas wageshave stagnated or declined for those without college degrees and, even in families with college-
+educated earners, family time to support socialization of children has declined (Grusky & MacLean
+2016). To maintain their standard of living, both parents (or multiple family members) must work(Grusky & MacLean 2016). At the same time, the recreational and cultural facilities and school
+systems in these countries, which were once publicly funded institutional supports for upward mo-
+bility, are increasingly subject to market forces. Taken together, these changes suggest less supportfor upward mobility and reduced availability of public spaces in which the rich and poor mix—a
+rising segregation of experience that may yield class-based homophily (Grusky & MacLean 2016).
+Grusky & MacLean (2016) argue that the one reason for differences among countries is cultural.
+That is, in culturally individualistic countries such as the United States, Canada, and Australia, the
+wealthy have used an aspect of individualism—free-market ideology—to legitimize both inequal-
+ity and reduced institutional support for mobility. Opportunities for mobility require access to
+education. In the United States, Canada, and Australia, the wealthy have used two strategies that
+at ﬁrst glance seem congruent with individualism but that function to undermine mobility. Thesestrategies are commodiﬁcation—requiring payment for, rather than supplying free access to, pub-
+lic services (such as education, health care, and child care)—and localization—requiring that local
+entities support services that are public. Payment and localization may seem congruent with in-dividualism (because opportunities are of one’s own or one’s proximal group’s making), but if the
+means for getting ahead requires money, then the poor cannot get ahead because they do not have
+the money to pay either as individuals or as local communities. In this way, free-market ideologymasks the opportunity-reducing consequence for the poor of commodiﬁcation and localization.
+At the same time, it masks the opportunity-increasing consequences for the wealthy of artiﬁcially
+reducing supply and increasing demand for the particular set of skills that the wealthy have andthe less-educated lack.
+A number of different theories predict that if social class is experienced as ﬁxed but justiﬁed,
+the poor will come to feel that they are to blame for their situation. Justiﬁcation can be rooted inindividualism and free-market ideologies, as Grusky & MacLean (2016) argue, or collectivism, as
+Stephens and colleagues (2007, 2014, 2016) and others (Na & Chan 2016) suggest. Both ﬁt early
+formulations of the experience of poverty as stigma—a shameful, embarrassing character ﬂawleading to loss of face (Lewis 1966). At the same time, if blocked opportunities are experienced as
+illegitimate, then ﬁxed social classes can produce political instability. Indeed, in the United States
+evidence indicates that social class matters in ways that parallel the cultural literature on social
+power (e.g., Oyserman 2006). Like low power, low social status due to low social class is associated
+with focusing on concrete details rather than the big picture, and with making adjustments andﬁtting in rather than taking charge (Oyserman 2006). Low social class is associated with seeing
+448 Oyserman
+Downloaded from www.annualreviews.org.  Guest (guest) IP:  34.225.236.11 On: Sat, 29 Mar 2025 19:41:11PS68CH17-Oyserman ARI 5 November 2016 10:55
+oneself as connected to others and seeing one’s competencies in terms of how to be part of a
+team—how to ﬁt in (e.g., Stephens et al. 2016).
+PLACE-BASED GROUP MEMBERSHIP AND CORE CULTURAL THEME
+Culture can be operationalized as a set of structures and institutions, values, traditions, and ways
+of engaging with the social and nonsocial world that are transmitted across generations in a certain
+time and place (e.g., Shweder & LeVine 1984). One’s place within a society and the social networkswithin which one is embedded should inﬂuence the structural and institutional aspects of a culture
+to which one has access (Oyserman & Uskul 2008). At the individual level, this affects the norms,
+policies, and practices one is exposed to. Hence, whether immigration triggers cultural change formigrants depends in part on whether social networks in the new context differ from networks in
+the old one (Oyserman & Uskul 2008) and on how many people are arriving at the same place at
+the same time (Rychlowska et al. 2015).
+Comparing Groups: But Which Ones?
+Comparing groups is the most common way in which cultural psychologists study culture. But
+determining which groups should be compared and what group comparisons imply is not straight-
+forward. Cultural psychology’s promise is to provide the means to test when and how culture mat-ters and the methods to test the applicability of ﬁndings and theories developed in one culture for
+other cultures. One possible way to answer this question is to test theories against earlier historical
+times or among the small number of people currently living in preliterate, nonagricultural, hunter-gatherer societies (Henrich et al. 2010). Alternatively, psychologists might limit their theorizing
+to people living in developing and industrialized societies, many of whom have gone to school
+and can read and write. Indeed, one of the important triumphs of modern cultural psychology has
+been to decouple cultural differences from differences in economic development. Hence, rather
+than return to studying culture by studying hunter-gatherer societies, cultural psychologists havemuch to gain by unpacking the active ingredients of culture.
+Psychologists are typically less concerned with whether their results generalize to the Hadza,
+one of the few living people who live in nonagricultural, hunter-gatherer societies (Finkel 2009),than they are that their theories fail to predict the behavior of Japanese, Chinese, or Indian
+individuals. The Hadza are central for some questions, such as, “What is human and separate
+from the adaptations that come from modernity, Western-style education, and industrialization?”For such questions, showing stability of effects from Korea to Canada is trivial, and the Hadza are
+needed. Clearly, testing whether a theory ﬁts Ghanaians, Germans, and Guatemalans is not the
+same as asking if a theory is relevant to all people who ever lived (Ceci et al. 2010). Although thisquestion sometimes should be asked, it might be best to leave it aside. After all, generalization at
+this level is problematic at best, as even the animals used in animal research may not represent
+animals well (Machery 2010). Instead, it might be better to be more modest in what psychologyand cultural psychology can do and focus on whether a theory’s generalizability is likely to be
+moderated or mediated by some active ingredient of culture existing in modern societies.
+The question of which active ingredients to look for, although still open to new suggestions,
+seems to currently focus on individualism, collectivism, and honor or face. This was not always
+the case. In the ﬁrst Annual Review of Psychology article about culture, Triandis and colleagues
+(1973) summarized and interpreted results of research documenting place-based differences in
+seemingly basic cognitive processes. They showed that participants from educated, Westernized
+societies were more susceptible to the M ¨uller-Lyer illusion (which is that the length of line segment
+seems to vary when shown in the context of arrowheads) than were participants from nonmodern
+www.annualreviews.org •Culture Three Ways 449
+Downloaded from www.annualreviews.org.  Guest (guest) IP:  34.225.236.11 On: Sat, 29 Mar 2025 19:41:11PS68CH17-Oyserman ARI 5 November 2016 10:55
+societies. They explained that the source of the illusion was that participants lived in contexts with
+carpentered edges that yielded practice in using angles as depth cues. But what did this differenceimply about culture?
+Individualism and Collectivism
+An enormous leap forward in addressing these goals came through simpliﬁed rubrics for studyingculture that did not depend on differences in economic development and education levels. Ar-
+guably, the ﬁrst to provide a simplifying rubric focused on modern societies was Hofstede (1983),
+who analyzed differences in preferences for working conditions and training in matched samplesof employees from a single multinational ﬁrm across countries and regions at two points in time.
+Eventually, more than 50 countries and three regions of the world were included, with a total
+of 116,000 responses (Hofstede 2001). Hofstede synthesized the pattern of responses and pro-posed a small set of factors to describe cultures. The ﬁrst factor was individualism as opposed to
+collectivism; this factor provided a way of organizing a huge array of between-group differences.
+Other proposed factors (masculinity-femininity, power distance, uncertainty avoidance, and long-term/short-term time orientation) subsequently turned out to relate to the individualism factor
+(Hofstede 2001).
+Individualism-collectivism (also termed independent and interdependent self-construals) as
+a factor articulated a seemingly ubiquitous tension between belongingness and autonomy and
+suggested that this tension might carry over from features of the environment to norms, values,
+and ways of relating to others and of deﬁning the self (e.g., Brewer 1991). It yielded a rapidexplosion of comparative studies (for a meta-analysis, see Oyserman et al. 2002a). Comparisons
+were supported in part by Hofstede’s work, which allowed researchers to attribute between-group
+differences to individualism and collectivism. The psychological transformation of this element
+of culture came in large part through the efforts of Harry Triandis (e.g., Traﬁmow et al. 1991,
+Triandis 1989) and Hazel Markus (e.g., Markus & Kitayama 1991, Markus & Oyserman 1989).By the 1990s, culture had come to mean individualism and collectivism for much of psychology;
+this was lauded as an important advance and remains the case (for reviews, see Oyserman et al.
+2002a,b; Oyserman & Lee 2008; Taras et al. 2014; Vargas & Kemmelmeier 2013). The possibilitythat individualism-collectivism provides a way to organize groups and that it predicts differences in
+values, self-concepts, and ways thinking and engaging with others has been tested meta-analytically
+(for values) and with quantiﬁed syntheses (for self-concept, relationality, and cognitive process)(e.g., Oyserman et al. 2002a).
+This formulation and the studies that come from it have proven invaluable in documenting
+one particular way in which culture matters. Seven Annual Review of Psychology articles on culture
+over the past 20 years were organized using a between-group formulation of culture based on in-
+dividualism and collectivism and independent and interdependent self-construals. By synthesizing
+studies using group-based contrasts and either assessing or assuming differences in self-construal,culture was linked to personality, human development, cognition, children’s social competence,
+and neuroscience (Han et al. 2013, Kitayama & Uskul 2011, Lieberman 2007, Miller et al. 2009,
+Morris et al. 2015a, Stephens et al. 2014, Triandis et al. 1973).
+Indeed, people from modern collectivistic societies showed increased susceptibility to the
+M¨uller-Lyer illusion compared to those from modern individualistic societies (Krishna et al. 2008).
+These ﬁndings contrast with those of Triandis and colleagues (1973), who compared people from
+modern and premodern societies. To understand when and under which circumstances people
+from modern collectivistic cultures are sensitive to contextual information, emerging research fo-cuses on each stage of information processing. Also being explored is the extent to which ﬁndings
+450 Oyserman
+Downloaded from www.annualreviews.org.  Guest (guest) IP:  34.225.236.11 On: Sat, 29 Mar 2025 19:41:11PS68CH17-Oyserman ARI 5 November 2016 10:55
+based on research with Chinese participants generalize to other high-interdependence groups (e.g.,
+Russians, Central Europeans). Some research ﬁndings clearly do generalize (e.g., K ¨uhnen et al.
+2001, Oyserman et al. 2002a), but other ﬁndings may not. For example, the ﬁnding that Chinese
+tend to have a tolerance for inconsistency that is higher than that of Americans might be speciﬁcally
+attributed to Chinese dialectical thinking rather than to collectivism (Spencer-Rodgers et al. 2010).
+New research moving beyond comparisons of Americans or Canadians with Chinese or
+Japanese would provide building blocks for future meta-analyses to separate results that generalize
+from results based on more speciﬁc differences in each culture and subculture. Moreover, in spite
+of the continued dominance of an individualism-collectivism focus, researchers are beginning to
+branch out to consider other ways to operationalize what culture is and how it matters.
+Honor
+Constant vigilance is required to maintain honor, which involves concerns about reputation and
+respect, being taken seriously, and not being pushed around by others. Face, which involves
+concerns about worth and reputation in the eyes of others, also requires vigilance. Although faceloss typically is associated with embarrassment, retribution can be sought if face was wrongly
+impugned. Both honor and face are often connected to collectivistic societies (Leung & Cohen
+2011) and to minority race and lower social class within the United States (e.g., Kubrin & Weitzer2003, Stephens et al. 2016).
+Disputes about honor, which require a personal response and cannot be resolved by turning
+to authority, are concentrated in poor urban and minority neighborhoods in the United States(Kubrin & Weitzer 2003). Parents in these contexts teach and socialize to show honor—esteem
+and respect for authorities (Dixon et al. 2008). Indeed, honor culture thrives in contexts in which
+central authority is weak and social institutions are ineffective such that the police, courts, and
+other authorities cannot be assumed to provide redress from wrongdoing (Nisbett & Cohen
+1996, Nowak et al. 2016). Honor culture is geographically located—indeed, the Middle East,Mediterranean regions, Latin America, and the southern United States are described as honor
+societies more so than Northern Europe and the northern United States (Gregg 2007, Mosquera
+et al. 2002).
+Ethnographic, laboratory, and ﬁeld experiments provide support for some aspects of this the-
+oretical framework; for example, experiments show that differences in honor values are related to
+responses to insults (Cohen et al. 1996). However, in the United States, when honor is broughtto mind, it inﬂuences perception even when honor values are not endorsed; for example, when
+an honor lens is used, people perceive more potent ﬁgures as more likely to be male (Novin &
+Oyserman in press).
+When migrants from honor cultures enter new societies, they are likely to carry honor culture
+with them. However, whether honor culture will continue to thrive in the new setting likely
+depends on a number of factors. A ﬁrst factor, as noted in the section on culture as inherentmeaning, is that people may continue to assume honor norms exist and act in ways that ﬁt these
+norms even when they personally do not endorse them. This implies stability of honor culture
+over time. A second factor to consider, however, is that whether or not honor responses make
+sense depends on the effectiveness of social institutions in one’s local context (Nowak et al. 2016).
+This implies that some settings provide a better ﬁt for honor cultures than others. The idea thathonor, aggression, and weak social institutions feed on each other is useful in considering social
+movements in Islamic societies, often described as honor cultures. Consider Boko Haram, ISIS,
+and Al Qaeda; each thrives in weakened or failed states in which the central government cannotpunish wrongdoing. Each also weakens alternative social institutions (e.g., educational systems) as
+www.annualreviews.org •Culture Three Ways 451
+Downloaded from www.annualreviews.org.  Guest (guest) IP:  34.225.236.11 On: Sat, 29 Mar 2025 19:41:11PS68CH17-Oyserman ARI 5 November 2016 10:55
+well as trust in the central government to punish wrongdoing. As these examples highlight, honor
+culture thrives in contexts with weak social institutions; at the same time, honor culture weakensthese institutions when it gains a foothold. A third factor to consider is the place within a host
+society into which migrants from honor societies enter. This idea is highlighted in segmented
+assimilation theory (Portes & Zhou 1993). That is, migrants do not assimilate into all of theirhost society; rather, they assimilate into that segment of it that they live in, and this segment
+is often one in which public institutions are weak—poor neighborhoods with high crime rates,
+high joblessness, and low academic attainment. Segmented assimilation and marketization theory
+(Grusky & MacLean 2016) converge in predicting that waves of immigrants who enter these
+segments of their host cultures will need to fend for themselves. In these conditions, cultures ofhonor will be maintained from the source culture and are likely to take hold in the host culture as
+well (Nowak et al. 2016).
+Remaining Questions
+As described in the preceding sections, the focus on core themes has yielded important progress in
+understanding culture’s consequences and how subcultures matter. This progress has been made
+in spite of a number of theoretical questions and practical issues that still remain (for a review, see
+Oyserman & Uskul 2008).
+Disjunctures. One question is whether individualism and collectivism at the societal-structural
+level can be assumed to be the same as individualism and collectivism at the personal-individuallevel (e.g., Kitayama & Uskul 2011). Interesting results are produced at the societal level of analysis
+(e.g., Bond & Smith 1996). Yet the societal and personal levels are clearly not the same, as can
+be seen by studies showing effects of disjuncture between the two (Zou et al. 2009). Individuals
+who differ from their national norms experience lower well-being (Lun & Bond 2013) and less
+satisfaction with their personal life (Fulmer et al. 2010) and social relationships (Friedman et al.2010). It is less stressing to move to a new culture if one’s personal propensities match the new
+culture’s core theme (Cross 1995). In organizations, cultural misﬁt has more negative consequences
+for productivity than does misﬁt in terms of dissimilarity in race-ethnicity or gender (Elfenbein& O’Reilly 2007).
+Knowing what is normative or valued in one’s society provides an interpretive lens through
+which to understand experiences with others and what is likely or expected in social interchange(Fiske & Taylor 2013). In this way, core themes inﬂuence perception and experience regardless of
+whether one personally endorses them (Zou et al. 2009) and whether most people actually endorse
+that theme. Therefore, a theme may be perceived as core long after it no longer is, or even if itnever was, core. This has been termed the illusion of universality or pluralistic ignorance (for a
+review, see O’Gorman 1986).
+Operationalization. Also open to debate is which countries form good bases for extrapola-
+tion of effects due to independent-interdependent self-construal or individualism-collectivism
+(Matsumoto 1999), which personal-level markers of culture should be used (candidates are values,
+norms, implicit norms, and self-construals), and how markers should be measured. For example,
+the most common way to assess self-construal is to use Kuhn & McPartland’s (1954) TwentyStatements Test, in which open-ended responses must be content coded (Oyserman et al. 2002a).
+Initial work showed that people who were members of minority religious afﬁliation groups were
+more likely to describe themselves in terms of social category memberships (e.g., “I am a man,” “Iam a student,” “I am a football player”; Kuhn & McPartland, p. 72). An early study clearly showed
+452 Oyserman
+Downloaded from www.annualreviews.org.  Guest (guest) IP:  34.225.236.11 On: Sat, 29 Mar 2025 19:41:11PS68CH17-Oyserman ARI 5 November 2016 10:55
+the promise of this measure for cross-cultural work: Bond & Cheung (1983) found that Chinese
+and American students differed in the frequency that aspirations were part of their self-descriptionsand that Japanese students were not much different from American students. Subsequent coding
+in cross-cultural contexts counted the number of responses that referred to individuating traits and
+aspirations and those that referred to group memberships or relationships (e.g., Bond & Cheung1983, Gardner et al. 1999, Traﬁmow, et al. 1991).
+Results, which were predicted to show more use of personal attributes in individualistic so-
+cieties, are mixed. Indeed, a quantiﬁed synthesis of results of cross-national comparison of self-
+construal, mostly using the Twenty Statements Test, yielded small and heterogeneous effects
+(Oyserman et al. 2002b). A more recent review of the self-construal literature highlights thatthis heterogeneity of effects was not an artifact of the studies available at that time (Cross et al.
+2010). On the one hand, both the small size of the effect and its heterogeneity might reﬂect a
+reality, and this might not be a problem. After all, chronic small and heterogeneous differences inself-concept structure across societies might be consequential. On the other hand, it is possible
+that the actual average between-country difference is larger but that the true effect is masked
+either by the common operationalization of self-concept structure into responses on the TwentyStatements Test or by variability in content coding responses to the task. Finally, it is possible
+that between-country comparisons show culture-level differences that are not fully attributable to
+differences in independent and interdependent self-concepts.
+Active ingredients. Researchers are also divided on whether the active ingredient in studies
+involving individualism and collectivism or independent-dependent self-construals is one factoror two. Can a person think of him- or herself as both connected to others and separate from others?
+Do societies support both autonomy and connection? These questions are both theoretical and
+empirical, and evidence on both sides has been presented (Oyserman et al. 2002a,b; Oyserman &
+Lee 2008; Taras et al. 2014; Vargas & Kemmelmeier 2013). Because the issue involves theoretical
+constructs, it cannot be resolved in the abstract, and which formulation is used depends on thequestions being addressed, as highlighted in the next section.
+VARIABLE ACCESSIBILITY: CULTURE AS HUMAN UNIVERSAL
+WITH CORE THEMES
+Cultures’ core themes of individualism, collectivism, and honor can also be thought of as under-
+lying human culture and as essential to human survival (e.g., Boyd & Richerson 1985, Oyserman
+2011). As noted in the section on cultural inherence, cultural knowledge provides predictability.
+Lack of environmental predictability is stressful in itself, yielding increased vigilance and increasedthreat sensitivity in ambiguous contexts (for a review, see Miller et al. 2009). Beyond predictabil-
+ity, human culture evolves to provide working solutions to three basic problems—sustaining the
+group over time, organizing relationships, and facilitating individual welfare (e.g., Oyserman 2011,Schwartz & Bardi 2001). These basic problems require that people join together, cooperate with
+an in-group, regulate themselves to ﬁt in, and be motivated to initiate and invest in problem solving
+(e.g., Boyd et al. 2011; Boyd & Richerson 1985, Johnson & Earle 2000, Oyserman 2011). Culture
+provides a means to stick together with others to create and share resources and solutions to the
+problems that arise from sticking together—from managing relationships to minimize dangerousconﬂict, to clarifying group boundaries—without which it may be unclear with whom to share
+and from whom shared resources can be expected.
+Resolving how to do these things results in a series of “good enough” solutions—solutions
+that are not the best or most efﬁcient solution, just better than no solution (e.g., Cohen 2001).
+www.annualreviews.org •Culture Three Ways 453
+Downloaded from www.annualreviews.org.  Guest (guest) IP:  34.225.236.11 On: Sat, 29 Mar 2025 19:41:11PS68CH17-Oyserman ARI 5 November 2016 10:55
+This means that the initial formulation of a solution may be relatively haphazard in that a variety
+of solutions could have been pursued. Once a good enough solution is attained, it is likely to berelatively stable, and change will be incremental, even if alternatives are available (Argote et al.
+1995, Chang et al. 2011, Cohen 2001). Once developed, cultural solutions permeate all aspects
+of behavior and provide a blueprint or outline for how one is to behave and what one can expectof others across a variety of situations. Cultural solutions become meaning-making frameworks
+that both constrain and enable perception and reasoning (Nisbett & Norenzayan 2002, Shweder
+1984). This permeation makes cultures sticky because once absorbed, no single speciﬁc element
+can be excised.
+Population-speciﬁc genetic sensitivities (Way & Lieberman 2010) and historic differences in
+the dominance of one or the other of these basic problems have been used to explain societal focus
+on individualism, collectivism, and honor (e.g., Kitayama & Uskul 2011, Segall et al. 1990). For
+example, ecologies differ in harshness of climate (Van de Vliert 2010), environmental pathogens(Fincher et al. 2008), means of production (herding, farming, or ﬁshing; Kitayama & Uskul 2011,
+Segall et al. 1990), and whether wheat or rice is the staple crop (Talhelm et al. 2014). Societies also
+differ in when their frontiers were settled, what their core philosophies are, and how well theircentral governments function to punish wrongdoers (Nowak et al. 2016). All of these historic
+antecedents are plausible roots of culture: Cultures develop in places, and the speciﬁc practices
+developed in a place are bound up with the speciﬁc demands of the ecological niche in whichpeople ﬁnd themselves (e.g., Kendal et al. 2011).
+Yet at the same time, each cultural theme addresses adaptations to group living, and group living
+is basic to human survival (Boyd & Richerson 2005, Kurzban & Neuberg 2005). Living togetherrequires that people have guides to coordinate and organize relationships, clarify group boundaries,
+and reward innovation so that it can be imitated or exploited. Evolutionarily, membership in a
+group is essential; humans need groups to survive (Cohen 2001, 2009). This would imply that
+people are sensitive to social categories, to social validation versus ostracism, and to cues about
+when to innovate and do one’s own thing (e.g., Legare & Nielsen 2015, Oyserman 2011). Indeed,social allegiances are tightly monitored, social rejection is highly stressful, and social inclusion and
+physical contact are highly protective (Cohen et al. 2015, Murphy et al. 2013).
+Thus, an alternative to the core themes approach to culture is needed. Rather than theorizing
+that cultures differ in whether particular knowledge networks or cultural mindsets are available
+for use, it makes more sense to posit that societal cultures differ in the likelihood that each cultural
+mindset is cued and in the particular ways each is instantiated (Oyserman 2011, Oyserman et al.2014). What this would imply, as articulated in Figure 1 , is twofold. First, whether an individ-
+ualistic, collectivistic, or honor mindset is activated depends on features of the environment and
+the interaction between these features and their implications. This interaction is a function of thespreading activation of associative knowledge networks. Second, whether a particular experience
+or observation requires a shift to reﬂective processing depends on this same interaction. Thus,
+both the variable activation and the particular practices model of culture build on dual-processmodels of cognition. These models predict that people do not have a ﬁxed core cultural theme
+through which they always make sense of their world; instead they have a form of each of the core
+cultural themes available as cultural mindsets. Situated cues may inﬂuence which cultural theme
+is momentarily activated as a cultural mindset. Third, the particular practices associated with each
+cultural mindset are likely to be idiosyncratic to a particular time and place. This formulationfocuses attention on the (often nonconscious) impact of social contexts, human artifacts, physical
+spaces, tasks, and language on what and how people think (Oyserman 2011).
+These predictions are supported in an emerging body of research. The same differences that
+have been shown in between-group comparisons have also been shown using situated activation
+454 Oyserman
+Downloaded from www.annualreviews.org.  Guest (guest) IP:  34.225.236.11 On: Sat, 29 Mar 2025 19:41:11PS68CH17-Oyserman ARI 5 November 2016 10:55
+methods. People guided to use a collectivistic mindset automatically take context into account,
+whether they are Korean or American. The reverse is also true: People guided to use an indi-vidualistic mindset automatically focus on main points, whether they are Chinese or American
+(for a summary, see Oyserman 2011). Both Chinese and Americans can be guided to process
+for contextual cues, undermining performance on lower-level and complex cognitive tasks if taskdemands require generating rules and ignoring purposefully extraneous detail (D. Oyserman,
+S. Novin, B. Lam, S.X. Chen, E. Newman, & V. Yan, manuscript under review). Cross-national
+effects are replicated for US groups—European Americans, Asian Americans, African Americans,
+etc. (Oyserman et al. 2009). Complex cognitive performance improves if the activated cultural
+mindset matches task demands and is undermined if the activated cultural mindset mismatchestask demands, in accordance with the process model depicted in Figure 1 .I nc o n t r a s tt ot h e
+results of studies in which a cultural mindset is momentarily activated, the results of studies using
+between-group comparisons capture the effect of whichever cultural mindset is on one’s mindat the moment of the test. These studies are inherently less interpretable than they are often
+assumed to be because the cultural mindset on one’s mind at the moment may be the chronically
+activated mindset or may be the cultural mindset unintentionally activated by some feature of theresearch context. Although fewer studies exist that compare participants with no activated cultural
+mindset (control) to participants with an activated mindset, these studies generally support the
+prediction that a momentarily activated cultural mindset may be either similar to or different fromthe chronically activated mindset (Oyserman & Lee 2008). Hence, between-group effects do not
+contradict the prediction that each cultural mindset is available for use, even though it may not
+be accessible (activated) in the moment.
+Just as situations carry cues that probabilistically activate cultural mindsets linked to speciﬁc
+mental procedures, they also carry cues that probabilistically activate experienced cultural match
+and mismatch, which are linked to either remaining in the reﬂexive or switching to the reﬂective
+reasoning system. Match-mismatch cues are culture rich—as situations unfold, they either follow
+or deviate from culture-based expectations. Deviations matter because they mark that somethingis not going as assumed and thus trigger higher-level processing (Mourey et al. 2015). Given the
+nature of priming, effects are assumed to occur in part outside of conscious awareness and to be
+multiply determined, so that awareness of the prime should not necessarily undermine the effect.Whether a mismatch is experienced and whether it implies the need to defend one’s cultural values
+should depend, in part, on whether cultural merging is experienced positively as an addition or
+negatively as a subtraction from one’s cultural values.
+CONCLUSION
+As the world becomes a more heterogeneous place, one of the critical advances of cultural psy-
+chology has been to document that cultures can be classiﬁed according to the incorporation of a
+main theme: individualism, collectivism, or honor (face). From this perspective, being acculturatedmeans knowing what is important and which lens to use to make sense of experiences. At the same
+time, culture is more than a single core theme; it is a detailed, rich, and particularized set of norms
+and implicit assumptions about how everyday life will unfold, which can be applied to everyday
+life. From this perspective, being acculturated means knowing how things are likely to unfold
+within one’s society, so that systematic processing is not needed to get through the mundanedetails of the day. Finally, because each society includes the capacity to activate and access each
+core theme, psychologists can examine the moderating effects of each, both within and across
+societies. By focusing attention on differences in which questions seem interesting and in howconstructs are operationalized, cultural psychology highlights two issues that are often otherwise
+www.annualreviews.org •Culture Three Ways 455
+Downloaded from www.annualreviews.org.  Guest (guest) IP:  34.225.236.11 On: Sat, 29 Mar 2025 19:41:11PS68CH17-Oyserman ARI 5 November 2016 10:55
+overlooked and are important to psychologists whether or not they are interested in culture. The
+ﬁrst issue is that what is experienced as central, important, and in need of explanation need not beuniversal. The second issue is that conceptual rather than exact replication of research is critical in
+understanding the robustness of a psychological theory because the particular practices associated
+with the core concepts that a theory identiﬁes are likely to differ between times and places suchthat operationalization of a core concept must be sensitive to a society’s practices.
+SUMMARY POINTS
+1. Culture is three things: a set of everyday practices, a core chronically accessible theme
+(individualism, collectivism, or honor/face), and the capacity to understand each of these
+themes when they are activated. Together, these factors of culture yield a broad set ofpredictions about culture’s consequences.
+2. Culture is the lens through which experience is interpreted, but because it is pervasive, it
+is easy to fail to notice one’s own culture and mistake it for unmediated reality. People are
+always embedded in culture, so studying culture requires stepping out of it. Otherwise, it
+is difﬁcult to see culture: One’s own cultural lens feels like reality and not like a lens at all.
+3. Psychological theorizing might be culture bound. Psychologists are just as likely as other
+people to fail to notice culture. Taking a cultural perspective means understanding thata theory developed and tested in one culture may or may not apply to other cultures.
+Hence, psychologists cannot assume that theories developed and tested in one culture
+apply to other cultures without articulating and testing culture’s potential moderatingfunction.
+4. Group-based comparisons are the most common way to study culture and are a useful
+ﬁrst step. A group-based approach makes sense: People live in groups, and cultural prac-tices are transmitted within groups over time, so group membership might be a simple,
+concrete marker for culture. Using a group-based approach to culture facilitates the in-
+clusion of culture in sampling, making it easier to examine whether a psychological theorydeveloped and tested in one group generalizes to another. A group-based approach also
+forces a deeper understanding of what a psychological theory predicts. After all, groups
+may differ in how best to operationalize a basic process predicted by a theory rather thanin whether the theory itself applies.
+5. Distinguishing culture from subculture is not a precise science. Instead, whether a
+group constitutes a culture or a subculture depends on perspective. For example, the
+United States is both a subculture within industrialized, Western-educated, individual-
+istic wealthy societies and a culture on its own. Whether it makes sense to talk about a
+nation, a state, or a group as a culture depends on the speciﬁc comparisons and predictionsbeing made.
+6. Modern societal social-demographic trends mean that the United States and other soci-
+eties are becoming more diverse. This increasing diversity means that these societies will
+be more likely to include a mix of perspectives—individualism, collectivism, and honoror face—and that everyday life is more likely to be experienced as unpredictable. Psychol-
+ogists (both cultural psychologists and those with other interests) are just beginning to
+consider what the implications are for societies, well-being, and psychological theories.
+456 Oyserman
+Downloaded from www.annualreviews.org.  Guest (guest) IP:  34.225.236.11 On: Sat, 29 Mar 2025 19:41:11PS68CH17-Oyserman ARI 5 November 2016 10:55
+7. Experimental methods are an important additional tool in testing predictions about cul-
+ture; they address the limitations of the group-based approach and facilitate development
+of refutable theories about how culture works. To use these methods, researchers must
+operationalize the abstract idea of culture into speciﬁc active ingredients and randomizeparticipants to conditions that differ in their implications for these ingredients. For ex-
+ample, participants can view pictures, unscramble sentences, read a paragraph, or circle
+words in a text. Researchers predict that these brief tasks will cue the cultural mindsetand to-be-tested processing style. Because experimental methods are not dependent on
+between-group comparisons, they can test the assumption that differences in outcomes
+are due to differences in activated cultural mindsets or practices.
+8. Culture organizes experience in three ways. First, by providing a set of particular practices
+or ways that “we” do things, culture shields reﬂexive processing by making everyday life
+feel predictable to in-group members. Second, by highlighting a main theme, culturescaffolds which cognitive procedure—connect, separate, or order—will be the default in
+ambiguous situations. Third, by structuring working solutions to universal human needs,
+culture facilitates situation-speciﬁc accessibility of each of the culture-derived cognitiveprocedures (connecting, separating, and ordering).
+FUTURE ISSUES
+1. Though much research has already been done on two active ingredients of culture (in-
+dividualism and collectivism), the cognitive consequences of the third active ingredient
+(honor or face) are only just now beginning to be explored. Research to date has mostly
+focused on demonstrating that effects can be found. Having taken this important ﬁrst stepof providing evidence that a phenomenon of interest exists, the next steps will entail de-
+veloping refutable predictions about the active ingredients of culture and consequences
+in everyday life. An example is emerging research on the consequences of match andmismatch between the demands of a task and the salient cultural mindset and how this
+match and mismatch might predict when cultural merging is experienced as additive and
+when it is experienced as subtractive.
+2. What we actually mean by culture continues to be an important topic of research. By
+contrasting views of individualism and collectivism within industrialized, wealthy, de-
+veloped, and educated groups, psychologists were able to study culture separate fromeconomic and developmental issues. An alternative is to contrast nonmodern and mod-
+ern societies, asking whether psychological theories (e.g., about motivation and fairness)
+developed and tested in modern societies predict behavior in nonmodern ones. The ar-gument is that by studying samples from countries that are developed, industrialized, and
+relatively wealthy and have Westernized education systems, psychologists are missing a
+lot of what culture does. The approach of contrasting societies moves away from deﬁningactive ingredients of culture and instead highlights the possibilities of understanding how
+culture may have coevolved with the brain by turning to nonmodern living individuals
+(albeit few) and historic records. New methods for research, including the use of big data
+analytic techniques and data from historical records, will be useful for moving these ideas
+forward.
+www.annualreviews.org •Culture Three Ways 457
+Downloaded from www.annualreviews.org.  Guest (guest) IP:  34.225.236.11 On: Sat, 29 Mar 2025 19:41:11PS68CH17-Oyserman ARI 5 November 2016 10:55
+3. Emerging themes are the consequences of match and mismatch and of juncture and
+disjuncture between individual propensities and social-structural themes and between ex-
+pectations and observations. A small literature is beginning to examine the consequences
+for level of processing, experience of meaning, and well-being of match and mismatchbetween expectation and observation and of juncture versus disjuncture between
+dominant social-structural themes and personal propensities. This literature updates an
+older literature on culture shock and moves beyond a core-theme approach to culture.
+4. A signiﬁcant area for future work is the reconnection of culture to social and demographic
+trends. Cultural psychology has in some regards been a silo, separate from political
+science, sociology, racial and ethnic, and poverty research, and a focus on connecting these
+areas of research and drawing policy implications is emerging. This focus is importantbecause prior and current theorizing and research on racial-ethnic minorities, social class,
+and poverty across these ﬁelds yields insights into psychological processes as yet untested
+but nevertheless relevant to cultural psychologists and to psychology more generally.
+Future directions include experimental tests of when cultural mindsets (collectivism,
+individualism, and honor) predict effects and when effects are better predicted by match-mismatch, juncture-disjuncture consequences.
+DISCLOSURE STATEMENT
+The author is not aware of any afﬁliations, memberships, funding, or ﬁnancial holdings that mightbe perceived as affecting the objectivity of this review.
+LITERATURE CITED
+Ahlberg N. 2014. Forced migration and Muslim rituals: an area of cultural psychology? Scr. Inst. Donneriani
+Abo.15:117–30
+Allport FH. 1924. Social Psychology . Boston: Houghton Mifﬂin
+Argote L, Ingram P, Levine JM, Moreland RL. 1995. Knowledge transfer in organisations: learning from the
+experience of others. Organ. Behav. Hum. Decis. Process. 82:1–8
+Atran S, Norenzayan A. 2004. Religion’s evolutionary landscape: counterintuition, commitment, compassion,
+communion. Behav. Brain Sci. 27:713–30
+Baron AS. 2014. Is the inherence heuristic simply WEIRD? Behav. Brain Sci. 37:481
+Bellah RN. 1985. Habits of the Heart: Individualism and Commitment in American Life . Berkeley: Univ. Calif.
+Press
+Bigler RS, Clark C. 2014. The inherence heuristic: a key theoretical addition to understanding social stereo-
+typing and prejudice. Behav. Brain Sci. 37:483–84
+Bloom DE, Williamson JG. 1998. Demographic transitions and economic miracles in emerging Asia. World
+Bank Econ. Rev. 12:419–55
+Bond MH, Cheung T-S. 1983. College students’ spontaneous self-concept: the effect of culture among re-
+spondents in Hong Kong, Japan, and the United States. J. Cross-Cult. Psychol. 142:153–71
+Bond R, Smith PB. 1996. Culture and conformity: a meta-analysis of studies using Asch’s (1952b, 1956) line
+judgment task. Psychol. Bull. 119:111–37
+Bourdieu P. 1984. Distinction: A Social Critique of the Judgement of Taste . New York: Harvard Univ. Press
+Boyd R, Richerson PJ. 1985. Culture and the Evolutionary Process . Chicago: Univ. Chicago Press
+Boyd R, Richerson PJ. 2005. Solving the puzzle of human cooperation. In Evolution and Culture , ed. S Levinson,
+pp. 105–32. Cambridge, MA: Mass. Inst. Technol. Press
+458 Oyserman
+Downloaded from www.annualreviews.org.  Guest (guest) IP:  34.225.236.11 On: Sat, 29 Mar 2025 19:41:11PS68CH17-Oyserman ARI 5 November 2016 10:55
+Boyd R, Richerson PJ, Henrich J. 2011. The cultural niche: why social learning is essential for human adap-
+tation. PNAS 108:10918–25
+Brake M. 2013. Comparative Youth Culture: The Sociology of Youth Cultures and Youth Subcultures in America,
+Britain and Canada . New York: Routledge
+Brewer MB. 1991. The social self: on being the same and different at the same time. Pers. Soc. Psychol. Bull.
+17:475–82
+Ceci SJ, Kahan DM, Bramanc D. 2010. The WEIRD are even weirder than you think: Diversifying contexts
+is as important as diversifying samples. Behav. Brain Sci. 33:87–88
+CIA (Central Intell. Agency). 2015. The World Factbook 2014–15 . Washington, DC: Gov. Print. Off.
+Chaiken S, Trope Y, eds. 1999. Dual-Process Theories in Social Psychology . New York: Guilford
+Chamie J. 2012. For better planning, watch global demographic trends. YaleGlobal Online .http://www.
+yaleglobal.yale.edu/content/better-planning-watch-global-demographic-trends
+Chang L, Mak MCK, Li T, Wu BP, Chen BB, Lu HJ. 2011. Cultural adaptations to environmental variability:
+an evolutionary account of East-West differences. Educ. Psychol. Rev. 23:99–129
+Cimpian A, Salomon E. 2014. The inherence heuristic: an intuitive means of making sense of the world, and
+a potential precursor to psychological essentialism. Behav. Brain Sci. 37:461–80
+Cohen AB. 2009. Many forms of culture. Am. Psychol. 64:194–204
+Cohen AB. 2015. Religion’s profound inﬂuences on psychology morality, intergroup relations, self-construal,
+and enculturation. Curr. Dir. Psychol. 24:77–82
+Cohen AB, Rozin P. 2001. Religion and the morality of mentality. J. Pers. Soc. Psychol. 81:697–710
+Cohen AB, Varnum ME. 2016. Beyond East versus West: social class, region, and religion as forms of culture.
+Curr. Opin. Psychol. 8:5–9
+Cohen D. 2001. Cultural variation: considerations and implications. Psychol. Bull. 127:451–71
+Cohen D, Nisbett RE, Bowdle BF, Schwarz N. 1996. Insult, aggression, and the southern culture of honor:
+an “experimental ethnography.” J. Pers. Soc. Psychol. 70:945–59
+Cohen S, Janicki-Deverts D, Turner RB, Doyle WJ. 2015. Does hugging provide stress-buffering social
+support? A study of susceptibility to upper respiratory infection and illness. Psychol. Sci. 26:135–47
+Cross SE. 1995. Self-construals, coping, and stress in cross-cultural adaptation. J. Cross-Cult. Psychol. 26:673–97
+Cross SE, Hardin EE, Gercek-Swing B. 2010. The what, how, why, and where of self-construal. Pers. Soc.
+Psychol. Rev. 15:142–79
+Dixon SV, Graber JA, Brooks-Gunn J. 2008. The roles of respect for parental authority and parenting practices
+in parent-child conﬂict among African American, Latino, and European American families. J. Fam. Psychol.
+22:1–10
+Elfenbein HA, O’Reilly CA. 2007. Fitting in: the effects of relational demography and person-culture ﬁt on
+group process and performance. Group Organ. Manag. 32:109–42
+Eur. Comm. 2007. Europe’s Demographic Future: Facts and Figures on Challenges and Opportunities . Luxem-
+bourg: Eur. Communities. http://www2.warwick.ac.uk/fac/soc/csgr/green/foresight/demography/
+2007_ec_europes_demographic_future_facts_and_ﬁgures_on_challenges_and_opportunities.pdf
+Fincher CL, Thornhill R, Murray DR, Schaller M. 2008. Pathogen prevalence predicts human cross-cultural
+variability in individualism/collectivism. Proc. R. Soc. Lond. Biol. Sci. 275:1279–85
+Finkel M. 2009. The Hadza. National Geographic .http://ngm.nationalgeographic.com/2009/12/hadza/
+ﬁnkel-text
+Fiske ST, Taylor SE. 2013. Social Cognition: From Brains to Culture . Thousand Oaks, CA: Sage
+Frey W. 2015. Diversity Explosion: How New Racial Demographics Are Remaking America . Washington, DC:
+Brookings Inst.
+Friedman M, Rholes WS, Simpson J, Bond M, Diaz–Loving R, Chan C. 2010. Attachment avoidance and the
+cultural ﬁt hypothesis: a cross–cultural investigation. Pers. Relatsh. 17:107–26
+Fulmer CA, Gelfand MJ, Kruglanski AW, Kim-Prieto C, Diener E, et al. 2010. On “feeling right” in cultural
+contexts: how person-culture match affects self-esteem and subjective well-being. Psychol. Sci. 21:1563–69
+Gardner WL, Gabriel S, Lee AY. 1999. “I” value freedom, but “we” value relationships: Self-construal priming
+mirrors cultural differences in judgment. Psychol. Sci. 10:321–26
+Geertz C. 1984. From the native’s point of view. See Shweder & LeVine 1984, pp. 23–36
+www.annualreviews.org •Culture Three Ways 459
+Downloaded from www.annualreviews.org.  Guest (guest) IP:  34.225.236.11 On: Sat, 29 Mar 2025 19:41:11PS68CH17-Oyserman ARI 5 November 2016 10:55
+Gregg GS. 2007. Culture and Identity in a Muslim Society . Oxford, UK: Oxford Univ. Press
+Griskevicius V, Tybur JM, Ackerman JM, Delton AW, Robertson TE, White AE. 2012. The ﬁnancial con-
+sequences of too many men: sex ratio effects on saving, borrowing, and spending. J. Pers. Soc. Psychol.
+102:69–80
+Articulates why social
+class may become asubculture in theUnited States versusother wealthy countries.Grusky D, MacLean A. 2016. The social fallout of a high-inequality regime. Ann. Am. Acad. Polit. Soc.
+Sci.6631:33–52
+Hackett C. 2015. 5 facts about the Muslim population in Europe . Pew Res. Cent., Washington, DC. http://
+www.pewresearch.org/fact-tank/2016/07/19/5-facts-about-the-muslim-population-in-europe/
+Han S, Northoff G, Vogeley K, Wexler BE, Kitayama S, Varnum ME. 2013. A cultural neuroscience approach
+to the biosocial nature of the human brain. Annu. Rev. Psychol. 64:335–59
+Henrich J, Heine SJ, Norenzayan A. 2010. The weirdest people in the world? Behav. Brain Sci. 33:61–83
+Hofstede G. 1983. National cultures in four dimensions: a research-based theory of cultural differences among
+nations. Int. Stud. Manag. Organ. 13:46–74
+Hofstede G. 2001. Culture’s Consequences: Comparing Values, Behaviors, Institutions, and Organizations Across
+Nations . Thousand Oaks, CA: Sage. 2nd ed.
+Ichheiser G. 1949. Misunderstandings in human relations: a study in false social perception. Am. J. Sociol.
+552:1–72
+Inglehart R. 1997. Modernization and Postmodernization: Cultural, Economic, and Political Change in 43 Societies .
+Princeton, NJ: Princeton Univ. Press
+Jahoda G. 2014. On relations between ethnology and psychology in historical context. H i s t .H u m .S c i . 27:3–21
+Johnson AW, Earle TK. 2000. The Evolution of Human Societies: From Foraging Group to Agrarian State .
+Stanford, CA: Stanford Univ. Press
+Kahneman D, Frederick S. 2002. Representativeness revisited: attribute substitution in intuitive judgment.
+InHeuristics and Biases: The Psychology of Intuitive Judgment , ed. T Gilovich, D Grifﬁn, D Kahneman,
+pp. 49–81. New York: Cambridge Univ. Press
+Articulates the
+problematics ofstudying culture as abetween-groupcomparison rather thana human universal.Kendal J, Tehrani JJ, Odling-Smee J. 2011. Human niche construction in interdisciplinary focus.
+P h i l o s .T r a n s .R .S o c .B 366:785–92
+Kitayama S, Uskul AK. 2011. Culture, mind, and the brain: current evidence and future directions. Annu. Rev.
+Psychol. 62:419–49
+Krishna A, Zhou R, Zhang S. 2008. The effect of self–construal on spatial judgments. J. Consum. Res. 35:337–48
+Kruglanski AW, Stroebe. 2012. The making of social psychology. In Handbook of History of Social Psychology ,
+ed. A Kruglanski, W Stroebe, pp. 3–17. New York: Psychol. Press
+Kubrin CE, Weitzer R. 2003. Retaliatory homicide: concentrated disadvantage and neighborhood culture.
+Soc. Problems 50:157–80
+Kuhn MH, McPartland TS. 1954. An empirical investigation of self-attitudes. Am. Sociol. Rev. 19:68–76
+K¨uhnen U, Hannover B, Roeder U, Shah AA, Schubert B, et al. 2001. Cross-cultural variations in identifying
+embedded ﬁgures comparisons from the United States, Germany, Russia, and Malaysia. J. Cross-Cult.
+Psychol. 32:366–72
+Kurzban R, Neuberg S. 2005. Managing ingroup and outgroup relationships. In The Handbook of Evolutionary
+Psychology , ed. DM Buss, pp. 653–75. Hoboken, NJ: Wiley
+Suggests that one role
+of learning culture is tobe able to ﬁt in.Legare CH, Nielsen M. 2015. Imitation and innovation: the dual engines of cultural learning. Trends
+Cogn. Sci. 19:688–99
+Leung AKY, Cohen D. 2011. Within-and between-culture variation: individual differences and the cultural
+logics of honor, face, and dignity cultures. J. Pers. Soc. Psychol. 100:507–26
+Lewis O. 1966. The culture of poverty. Sci. Am. 2154:3–10
+Lieberman M. 2007. Social cognitive neuroscience: a review of core processes. Annu. Rev. Psychol. 58:259–89
+Lun VMC, Bond MH. 2013. Examining the relation of religion and spirituality to subjective well-being across
+national cultures. Psychol. Relig. Spiritual. 5:304–15
+Machery E. 2010. Explaining why experimental behavior varies across cultures: a missing step in “the weirdest
+people in the world?” Behav. Brain Sci. 33:101–2
+Markus HR, Kitayama S. 1991. Culture and the self: implications for cognition, emotion, and motivation.
+Psychol. Rev. 98:224–53
+460 Oyserman
+Downloaded from www.annualreviews.org.  Guest (guest) IP:  34.225.236.11 On: Sat, 29 Mar 2025 19:41:11PS68CH17-Oyserman ARI 5 November 2016 10:55
+Markus HR, Kitayama S, Heiman R. 1996. Culture and “basic” psychological principles. In Social Psychology:
+Handbook of Basic Principles , ed. ET Higgins, AW Kruglanski, pp. 857–913. New York: Guilford
+Markus HR, Oyserman D. 1989. Gender and thought: the role of the self-concept. In Gender and Thought:
+Psychological Perspectives , ed. M Crawford, M Gentry, pp. 100–27. New York: Springer
+Matsumoto D. 1999. Culture and self: an empirical assessment of Markus and Kitayama’s theory of independent
+and interdependent self–construals. A s i a nJ .S o c .P s y c h o l . 2:289–310
+Mesoudi A, Magid K, Hussain D. 2016. How do people become WEIRD? Migration reveals the cultural
+transmission mechanisms underlying variation in psychological processes. PLOS ONE 11:1
+Miller G, Chen E, Cole SW. 2009. Health psychology: developing biologically plausible models linking the
+social world and physical health. Annu. Rev. Psychol. 60:501–24
+Miyamoto Y. 2013. Culture and analytic versus holistic cognition: toward multilevel analyses of cultural
+inﬂuences. Adv. Exp. Soc. Psychol. 47:131–88
+Morris MW, Chiu CY, Liu Z. 2015a. Polycultural psychology. Annu. Rev. Psychol. 66:631–59Suggests a different
+approach tounderstanding howculture works, viaassumed normsgoverning others’beliefs.
+Morris MW, Hong YY, Chiu CY, Liu Z. 2015b. Normology: integrating insights about social norms
+to understand cultural dynamics. Organ. Behav. Hum. Decis. Process. 129:1–13
+Mosquera PMR, Manstead AS, Fischer AH. 2002. Honor in the Mediterranean and Northern Europe.
+J. Cross-Cult. Psychol. 33:16–36
+Shows downstream
+effects of mismatchbetween reality andculturally embeddedexpectations or implicitnorms.Mourey JA, Lam BC, Oyserman D. 2015. Consequences of cultural ﬂuency. Soc. Cogn. 33:308–44
+Murphy ML, Slavich GM, Rohleder N, Miller GE. 2013. Targeted rejection triggers differential pro- and
+anti-inﬂammatory gene expression in adolescents as a function of social status. Clin. Psychol. Sci. 1:30–40
+Na J, Chan MY. 2016. Subjective perception of lower social-class enhances response inhibition. Pers. Individ.
+Differ. 90:242–46
+Nisbett RE, Cohen D. 1996. Culture of Honor: The Psychology of Violence in the South. New Directions in Social
+Psychology. Boulder, CO: Westview
+Nisbett RE, Norenzayan A. 2002. Culture and cognition. In Steven’s Handbook of Experimental Psychology ,V o l .
+2:Memory and Cognitive Processes , ed. H Pashler, D Medin, pp. 561–97. Hoboken, NJ: Wiley. 3rd ed.
+Novin S, Oyserman D. In press. Honor as cultural mindset: Activated honor mindset affects subsequent
+judgment and attention in mindset congruent ways. Front. Psychol .
+Shows the dynamics of
+when honor culture islikely to spread,stabilize, and retreat.Nowak A, Gelfand MJ, Borkowski W, Cohen D, Hernandez I. 2016. The evolutionary basis of honor
+cultures. Psychol. Sci. 271:12–24
+O’Gorman HJ. 1986. The discovery of pluralistic ignorance: an ironic lesson. J. Hist. Behav. Sci. 22:333–47
+Oyserman D. 2006. High power, low power, and equality: culture beyond individualism and collectivism.
+J. Consum. Psychol. 164:352–56
+Oyserman D. 2007. Social identity and self-regulation. In Social Psychology: Handbook of Basic Principles ,e d .A W
+Kruglanski, ET Higgins, pp. 432–53. New York: Guilford. 2nd ed.
+Articulates why
+between-group andexperimentalapproaches are bothnecessary to understandculture’s consequences.Oyserman D. 2011. Culture as situated cognition: cultural mindsets, cultural ﬂuency, and meaning
+making. Eur. Rev. Soc. Psychol. 22:164–214
+Oyserman D. 2015. Culture as situated cognition. In Emerging Trends in the Social and Behavioral Sciences: An
+Interdisciplinary, Searchable, and Linkable Resource , ed. R Scott, S Kosslyn. Hoboken, NJ: John Wiley &
+Sons. doi: 10.1002/9781118900772
+Oyserman D. In press. What does a priming perspective reveal about culture: culture-as-situated-cognition.
+Curr. Opin. Psychol.
+Oyserman D, Coon H, Kemmelmeier M. 2002a. Rethinking individualism and collectivism: evaluation of
+theoretical assumptions and meta-analyses. Psychol. Bull. 128:3–73
+Oyserman D, Gant L, Ager J. 1995. A socially contextualized model of African American identity: possible
+selves and school persistence. J. Pers. Soc. Psychol. 696:1216
+Oyserman D, Kemmelmeier M, Coon H. 2002b. Cultural psychology, a new look: reply to Bond (2002), Fiske
+(2002), Kitayama (2002), and Miller (2002). Psychol. Bull. 128:110–17
+Oyserman D, Lee SWS. 2008. Does culture inﬂuence what and how we think? Effects of priming individualism
+and collectivism. Psychol. Bull. 134:311–42
+Oyserman D, Novin S, Flinkenﬂ ¨ogel N, Krabbendam L. 2014. Integrating culture-as-situated-cognition and
+neuroscience prediction models. Cult. Brain 2:1–26
+www.annualreviews.org •Culture Three Ways 461
+Downloaded from www.annualreviews.org.  Guest (guest) IP:  34.225.236.11 On: Sat, 29 Mar 2025 19:41:11PS68CH17-Oyserman ARI 5 November 2016 10:55
+Oyserman D, Sorensen N, Reber R, Chen SX. 2009. Connecting and separating mindsets: culture as situated
+cognition. J. Pers. Soc. Psychol. 97:217–35
+Oyserman D, Uskul AK. 2008. Individualism and collectivism: societal-level processes with implications for
+individual-level and society-level outcomes. In Multilevel Analysis of Individuals and Cultures , ed. F van de
+Vijver, D van Hemert, Y Poortinga, pp. 145–73. Mahwah, NJ: Erlbaum
+Packer M, Cole M. 2016. Culture in development. In Social and Personality Development: An Advanced Textbook ,
+ed. MH Bornstein, ME Lamb, pp. 67–124. New York/London: Psychol. Press. 7th ed.
+Pew Res. Cent. 2011. Regional Distribution of Christians . Washington, DC: Pew Res. Cent. http://www.
+pewforum.org/2011/12/19/global-christianity-regions/
+Articulates how the
+ways in which hostcountries take inimmigrants hasimplications for howimmigration shapeshost culture.Portes A, Zhou M. 1993. The new second generation: segmented assimilation and its variants. Ann.
+Am. Acad. Polit. Soc. Sci. 530:74–96
+PricewaterhouseCoopers LLP. 2015. Global Annual Review 2014: Demographic and Social Change. http://www.
+pwc.com/gx/en/issues/megatrends/demographic-and-social-change-norbert-winkeljohann.jhtml
+Rebala P, Wilson C. 2015. Growth of Muslim populations in Europe map. Time Online .http://www.
+time.com/3670892/muslims-europe-map
+Articulates how the
+effects of a history ofrapid population changecan be transmitted overtime.Rychlowska M, Miyamoto Y, Matsumoto D, Hess U, Gilboa-Schechtman E, et al. 2015. Heterogeneity
+of long-history migration explains cultural differences in reports of emotional expressivity and
+the functions of smiles. PNAS 112:E2429–36
+Sapir E. 1929. The status of linguistics as a science. Language 5:207–14
+Schwartz S, Bardi A. 2001. Value hierarchies across cultures: taking a similarities perspective. J. Cross-Cult.
+Psychol. 32:268–90
+Segall MH, Dasen PR, Berry JW, Poortinga YH. 1990. Human Behavior in Global Perspective: An Introduction
+to Cross-Cultural Psychology . Elmsford, NY: Pergamon
+Shweder RA. 1984. Preview: a colloquy of culture theorists. In Culture Theory: Essays on Mind, Self, and Emotion ,
+ed. RA Shweder, RA LeVine, pp. 1–26. New York: Cambridge Univ. Press
+Shweder RA, LeVine RA, eds. 1984. Culture Theory: Essays on Mind, Self, and Emotion . New York: Cambridge
+Univ. Press
+Spencer S. 2014. Race and Ethnicity: Culture, Identity, and Representation . New York: Routledge
+Spencer-Rodgers J, Williams MJ, Peng K. 2010. Cultural differences in expectations of change and tolerance
+for contradiction: a decade of empirical research. Pers. Soc. Psychol. Rev. 143:296–312
+Stephens NM, Dittmann AG, Townsend SSM. 2016. Social class and models of competence: how gateway
+institutions disadvantage working-class Americans and how to intervene. In Handbook of Competence and
+Motivation , ed. C Dweck, A Elliot, D Yeager. New York: Guilford Press. In press
+Stephens NM, Markus HR, Phillips LT. 2014. Social class culture cycles: how three gateway contexts shape
+selves and fuel inequality. Annu. Rev. Psychol . 65:611–34
+Stephens NM, Markus HR, Townsend SS. 2007. Choice as an act of meaning: the case of social class. J. Pers.
+Soc. Psychol. 93:814–30
+Strack F, Deutsch R. 2004. Reﬂective and impulsive determinants of social behavior. Pers. Soc. Psychol. Rev.
+8:220–47
+Swidler A. 1986. Culture in action: symbols and strategies. Am. Sociol. Rev. 51:273–86
+Talhelm T, Zhang X, Oishi S, Shimin C, Duan D, et al. 2014. Large-scale psychological differences within
+China explained by rice versus wheat agriculture. Science 344:603–8
+Taras V, Sarala R, Muchinsky P, Kemmelmeier M, Singelis TM, et al. 2014. Opposite ends of the same
+stick? Multi-method test of the dimensionality of individualism and collectivism. J. Cross-Cult. Psychol.
+45:213–45
+Toner K, Leary MR, Asher MW, Jongman-Sereno KP. 2013. Feeling superior is a bipartisan issue: extremity
+(not direction) of political views predicts perceived belief superiority. Psychol. Sci. 24:2454–62
+Traﬁmow D, Triandis HC, Goto SG. 1991. Some tests of the distinction between the private self and the
+collective self. J. Pers. Soc. Psychol. 60:649–55
+Triandis HC. 1989. The self and social behavior in differing cultural contexts. Psychol. Rev. 96:506–20
+Triandis HC. 2007. Culture and psychology: a history of their relationship. In Handbook of Cultural Psychology ,
+ed. S Kitayama, D Cohen, pp. 59–76. New York: Guilford
+462 Oyserman
+Downloaded from www.annualreviews.org.  Guest (guest) IP:  34.225.236.11 On: Sat, 29 Mar 2025 19:41:11PS68CH17-Oyserman ARI 5 November 2016 10:55
+Triandis HC, Malpass RS, Davidson AR. 1973. Psychology and culture. Annu. Rev. Psychol. 24:355–78
+Tversky A, Kahneman D. 1983. Extensional versus intuitive reasoning: the conjunction fallacy in probability
+judgment. Psychol. Rev. 90:293–315
+Urdal H. 2006. A clash of generations? Youth bulges and political violence. Int. Stud. Q. 50:607–29
+U.S. Census. 2011. Educational attainment in the United States. http://www.census.gov/hhes/socdemo/
+education/data/cps/2011/tables.html
+Van de Vliert E. 2010. Climato-economic origins of variation in ingroup favoritism. J. Cross-Cult. Psychol.
+42:494–515
+Vargas JH, Kemmelmeier M. 2013. Ethnicity and contemporary American culture: a meta-analytic investiga-
+tion of horizontal-vertical individualism-collectivism. J. Cross-Cult. Psychol. 44:2:195–222
+Wang C, Oyserman D, Liu Q, Li H, Han S. 2013. Accessible cultural mindset modulates default mode activity:
+evidence for the culturally situated brain. Soc. Neurosci. 8:203–16
+Way B, Lieberman M. 2010. Is there a genetic contribution to cultural differences? Collectivism, individualism
+and genetic markers of social sensitivity. Soc. Cogn. Affect. Neurosci. 5:203–11
+Weber H. 2013. Demography and democracy: the impact of youth cohort size on democratic stability in the
+world. Democratization 20:335–57
+Will M. 2014. U.S. trails in college graduation in global study. Lag also cited in preschool enrollment. Education
+Week .http://www.edweek.org/ew/articles/2014/09/17/04oecd.h34.html
+Wright AC. 2015. Teachers’ perceptions of students’ disruptive behavior: the effect of racial congruence and consequences
+for school suspension . Work. Pap., Dep. Econ., Univ. Calif., Santa Barbara. https://aefpweb.org/sites/
+default/ﬁles/webform/41/Race%20Match,%20Disruptive%20Behavior,%20and%20School%20Suspension.pdf
+Yousef T. 2003. Youth in the Middle East and North Africa: demography, employment, and conﬂict. In Youth
+Explosion in Developing World Cities: Approaches to Reducing Poverty and Conﬂict in an Urban Age ,e d .B A
+Ruble, JS Tulchin, DH Varat, LM Hanley. Washington, DC: Woodrow Wilson Int. Cent. Scholars,
+Comp. Urban Stud. Proj.
+Zou X, Tam KP, Morris MW, Lee SL, Lau I, Chiu CY. 2009. Culture as common sense: perceived consensus
+versus personal beliefs as mechanisms of cultural inﬂuence. J. Pers. Soc. Psychol. 97:579–97
+www.annualreviews.org •Culture Three Ways 463

@@ -1,0 +1,977 @@
+arXiv:2504.02001v1  [gr-qc]  1 Apr 2025ECTP-2024-05, WLCAPP-2024-05, FUE-2024-05
+Expansion Evolution of Nonhomogeneous Metric with Quantum -Mechanically
+Revisited Fundamental Metric Tensor
+Abdel Nasser Tawﬁk1,∗, Azzah A. Alshehri2, and Antonio Pasqua2∗
+1Basic Science Department, Faculty of Enginering,
+Future University in Egypt (FUE), 11835 New Cairo, Egypt
+2Physics Department, University of Hafr Al Batin, Hafr Al Bat in 39524, KSA
+3Department of Physics, University of Trieste, 34100 Triest e, Italy.
+To explore the properties of space and initial singularities in the cont ext of general rela-
+tivity, where spacetime becomes poorly deﬁned and no longer belong s to a regular manifold,
+we examine the evolution of the expansion of timelike geodesic congru ences for two distinct
+formulations of the fundamental metric tensor. This analysis is con ducted within a nonho-
+mogeneous, anisotropic, and spherically symmetric cosmic backgro und. The results derived
+from the conventional metric tensor, the building block of Einstein’s theory of general rel-
+ativity, are compared with those obtained from a quantum-mechan ically revisited metric
+tensor. This comparison enables an assessment of the proposed g eometric quantization, par-
+ticularly in terms of whether singularities are regulated or diminished. Utilizing a quantum
+geometric approach, the numerical analysis incorporating a quant um-mechanically revisited
+metric tensor applies a mean-ﬁeld approximation on the integrated q uantum operators. In
+contrast to the results obtained with conventional metric tensor , the quantum-mechanically
+induced revision of the metric tensor seems to provide a framework for controlling singulari-
+ties in the new formulation of general relativity. The degree of quan tization likely inﬂuences
+the ability to regulate or even potentially remove both singularities. W e also conclude that
+the proposed geometric quantization provides a means to explore t he quantum nature of
+spacetime curvatures, emphasizing that the singularity dilemma aro se primarily from the
+standard semi-classical approximation of Einstein’s general relativ ity.
+Keywords: Einstein–Gilbert–Straus Metric; Space and init ial singularities; Discretized curvedspace-
+time; Riemann–Finsler–Hamilton geometry
+∗a.tawﬁk@fue.edu.eg
+2
+I. Introduction
+Over the course of several decades, numerous attempts have b een undertaken to merge two
+distinct solutions of the Einstein Field Equation (EFE). Th ese solutions include spherically sym-
+metric, homogeneous, isotropic metric (Schwarzschild) an d the Friedmann–Lemaitre–Robertson–
+Walker (FLRW) metric [1], as explored by McVittie [2], Tolma n [3], Einstein and Strauss [4],
+Bondi [5], and Gilbert [6]. It was Gilbert who ultimately pro posed a successful formalism known
+as the Einstein–Gildert–Straus (EGS) metric [6, 7]. This me tric combines the Schwarzschild met-
+ric, which represents the most general spherically symmetr ic vacuum solution of EFE and describes
+the gravitational ﬁeld surrounding a spherical mass distri bution, with the FLRW metric, which
+characterizes an expanding Universe that is both homogeneo us and isotropic.
+The EGS metric provides a description of the Universe as clus ters of cosmic substance inter-
+spersedwith voids andholes. Thecosmic substanceiscontai ned withinthevoids, withthequantity
+of substance in the centers of the voids being equal to the amo unt excavated to form the voids,
+resulting in an nonhomogeneous Universe. This metric exten ds the standard cosmological model
+by allowing for nonhomogeneity in the expanding Universe. T he evolution of the nonhomogeneous
+Universe is contingent on both radial distance rand cosmic time t. The timelike geodesic congru-
+ence is similarly reliant on both randt. To explore the interdependence of randt, the present
+calculations assume that the cosmic substance within the vo ids can be modeled as forming perfect
+spheres, with radii that vary with cosmic time. The assumpti on regarding the latter is contingent
+upon the speciﬁc model being utilized. The present study aim s to investigate the evolution of
+expansion utilizing timelike geodesic congruence and comp are the results obtained from the con-
+ventional fundamental tensor gαβwith those obtained from the quantum-mechanically revisit ed
+fundamental metric tensor ˜ gαβ.
+The theory of generalized geometric structures, proposed b y of of the authors (AT), has been
+examined in various cosmological phenomena [8–11]. This th eory involves multiple concepts, in-
+cluding duality-symmetry conﬁgurations, Finsler–Hamilt on manifold, noncommutative algebra,
+and quantum geometry within the framework of general relati vity (GR) [10–13]. Speciﬁcally, the
+four-dimensional Riemann manifold was extended to the phas e-space structured Finsler–Hamilton
+manifold to incorporate quantum-mechanical elements. Thi s expansion allowed for the inclusion
+of auxiliary four-vectors of coordinates and momenta for fr ee-falling quantum particles, denoted as
+xα
+0andpβ
+0, respectively [14–17]. By incorporating the relativistic generalized uncertainty principle
+(RGUP) to address the eﬀects of relativistic energy and gravi tational ﬁeld on quantum mechanics
+3
+(QM), the momentum operator pν
+0was generalized to φ(p)pν
+0, whereφ(p) = 1+βpρ
+0p0ρ[18]. By ex-
+aminingtheHessianmatrixofthesquaredFinsler(Hamilton ) structure, denotedas F2(xα
+0,φ(p)pβ
+0),
+the corresponding metric on a Finsler manifold can be obtain ed. Conversely, on a Riemann mani-
+fold, the quantum mechanical revision of metric tensor can b e found by equating the line elements
+of both manifolds. ρis a dummy index. α,β∈ {0,1,2,3}are free indexes [14, 15]. By conducting
+table-top experiments and analyzing astronomical observa tions, the RGUP parameter, β(not the
+index), and thereby the degree of quantization can be determ ined.
+Thespacetime curvatureis characterized bytheevolution o fafamilyoftrajectories, as indicated
+in ref. [19]. These trajectories form a trajectory congruen ce, which is represented by ﬂow lines
+generated by velocity ﬁelds [20]. These ﬂow lines correspon d to the ﬂows of world lines generated
+by vector ﬁelds, which can beeither geodesic or nongeodesic . Theprimary goal of this research is to
+characterize the timelike geodesic congruence usingthe EG S metric, incorporating theconventional
+metric tensor gαβand the quantum mechanical revision of metric tensor ˜ gαβ. The process of
+utilizing the evolution of the EGS metric expansion is notab ly challenging, mainly owing to its
+complicated and non-homogeneous structure. The complex in terplay between the radial distance
+rand cosmic time tadds another layer of complexity to the challenge [9].
+Itis well knownthat thepresenceof spacetimesingularitie s isacommon phenomenonwithinthe
+semi-classical approximation of general relativity [21]. Thissituation gives risetoaformof geodesic
+incompletenessthatisobservedinvariousclassesofsolut ionsofEFE[22]. Attempts toquantizeGR
+using conventional quantum ﬁeld theory have highlighted th e perturbative non-renormalizability
+of the theory [23]. Nonetheless, it is in the context of quant um gravity that one might expect to
+uncover theiressential nature[24]. Thestudyof howspacet ime quantization inﬂuencessingularities
+can be approached through techniques derived from (2+1)-di mensional quantum gravity [25]. The
+present script explores the characteristics of both space- like and timelike singularities based on a
+geometric quantization and shows how the geometric quantiz ation approach is able to attenuate
+or regulate the singularities in GR.
+This manuscript is structured as follows. Section II provid es an outline of the formalism. The
+quantum-mechanically induced revision of fundamental met ric tensor ˜ gαβshall be introduced in
+section IIA. The derivation of the quantum mechanical revis ion of Finsler–Hamilton metric is
+discussed in section IIB. In section IIIA, the Einstein-Gil bert-Straus (EGS) metric is introduced.
+The derivation of the timelike geodesic congruence and expa nsion evolution using conventional gαβ
+and quantum mechanically revisited metric tensor ˜ gαβcan be found in section IIIB and IIIC,
+respectively. Some aspects of the quantum mechanical revis ion and mean-ﬁeld approximation are
+4
+elaborated in section IIID. The discussion of the numerical results is presented in section IV.
+Finally, section V concludes this study. In Appendix A, we di scuss the geodesic equations and
+their fulﬁllment by the metric ˜ gαβ. By establishing that ˜ gαβcomplies with the geodesic equations,
+it becomes evident that EFE are consequently satisﬁed.
+II. Formalism
+A. Quantum-Mechanical Revision of Metric Tensor
+The relativistic generalized uncertainty principle (RGUP ) is a crucial element in the general-
+ization of quantum mechanics, as it integrates the eﬀects of g ravity and introduces a novel form
+of uncertainty that operates within the realm of four-dimen sional spacetime [18]. In RGUP, the
+momentum pν
+0undergoes deformation to φ(p)pν
+0, whereφ(p) = 1+2βpρ
+0p0ρ, withβrepresenting the
+RGUP parameterand p0denotingtheauxiliary four-vector ofmomentumforafree-f allingquantum
+particle with positive mass m. Additionally, in order to incorporate the kinematics of th e free-
+falling quantum particle based on its positive homogeneity , the Finsler (Hamilton) structure can
+also beextended. Thisextended Finsler (Hamilton) structu rebecomes discretized and is character-
+ized by coordinates xα
+0and direction coupled to the RGUP-deformed momentum of the f ree-falling
+quantum particle, φ(p)pβ
+0. Through a quantum geometrical approach, the four-dimensi onal fun-
+damental tensor on a Riemannian manifold can be derived from the eight-dimensional Finslerian
+metric, which includes quantum-mechanically induced modi ﬁcations
+˜gµν=/parenleftbigg
+φ2(p)+2κ
+(p0
+0)2K2/parenrightbigg/bracketleftbigg
+1+˙pµ
+0˙pν
+0
+F2(1+2βpρ
+0p0ρ)/bracketrightbigg
+gµν
++/bracketleftbiggdxµ
+0
+dζµdxν
+0
+dζν+(1+2βpρ
+0p0ρ)dpµ
+0
+dζµdpν
+0
+dζν/bracketrightbigg
+dµν(x,p). (1)
+Details about the derivation of ˜ gµνcan be found in refs. [10, 11, 14, 15]. The concept of ”geometry”
+is associated with the dependence on ˙ pµ
+0˙pν
+0, or what is termed ”acceleration” , where ˙p0represents a
+gravitational force acting on the free-falling quantum par ticle in curved spacetime. This quantity
+is not invariant under the reparametrization of the curve pa rameter, thereby resulting in a patho-
+logical parametrization. The existence of quantum spaceti me is a consequence of the generalized
+uncertainty principle. Analogous to the indexes αandβ, the indexes µ,ν∈ {0,1,2,3}are treated
+as free indexes. The variable ζµserves as a parametrization that establishes a link between the
+coordinates in the Finslerian tangent bundle and the Rieman n coordinates. It is of utmost im-
+portance to highlight that in order to ensure the equivalenc e of the Finslerian and Riemannian
+5
+measures of the line element should be harmonized. Furtherm ore, the expression for dµν(x,p) in
+the second line of Eq. (1)
+dµν(x,p) =6κφ(p)
+(p0
+0)2/braceleftbigg
+K2ℓµℓσgσµ−K3ℓσ[δ0νgσµ+δ0µgσν]+2+φ(p)
+8φ(p)K4δ0µδσ
+0gσν/bracerightbigg
+,(2)
+needs to be redeﬁned in terms of gµν(x,p). This redeﬁnition is necessary to maintain consistency
+with the ﬁrst line of Eq. (1), where the line measures are alre ady identical. Until the resolution
+of this mathematical challenge, it is necessary to make a bol d estimation that the second line
+diminishes, at some scales. However, it is important to note that the function φ(p) is independent
+on both x0anddµν. This means that φ(p) remains ﬁnite, which means that φ(p) assumes certain
+limitations on such a bold approximation. In order to thorou ghly examine the potential conse-
+quences of the proposed geometric quantization approach in proving or disproving the existence of
+space and initial singularity, and in the absence of any viab le alternative to keeping ˜ gµν, Eq. (1),
+non-truncated, let us assume that [10–13].
+˜gµν=/parenleftbigg
+φ2(p)+2κ
+(p0
+0)2K2/parenrightbigg/bracketleftbigg
+1+˙pµ
+0˙pν
+0
+F2(1+2βpρ
+0p0ρ)/bracketrightbigg
+gµν≡C(x,p)gµν. (3)
+Incorporating the proposed quantum-mechanical revisions , the conformal rescaling C(x,p) ofgµν
+exhibits a clear dependence on the eight-dimensional (phas e space) spacetime. In this context, ¯ m
+refers to the mass of the free particle normalized to the Plan ck mass, denoted as mℓ. The quantity
+Frepresents the discovery of the maximal proper force, which corresponds to the maximum proper
+acceleration experienced by the free-falling quantum part icle in curved spacetime. Both quantities
+are inﬂuenced by the proposed quantization and emerge addit ional curvatures. The free particle’s
+motion is governed by F, which is impacted by the additional curvatures introduced through the
+proposed quantization process. This connection is establi shed through the association with the
+maximal proper acceleration A= 2π(c7/G/planckover2pi1)1/2discovered by Caianiello [26–28]. The appearance
+ofFandAas novel physical constants is a consequence of the quantum g eometric approach to
+curved spacetime [29–31].
+The function φ(p) = 1+βpρ
+0p0ρrepresents a signiﬁcant discovery
+•By incorporating the function φ(p), the Heisenberg uncertainty principle (HUP) is extended
+to RGUP. This expansion enables the examination of the eﬀects of relativistic energy and
+ﬁnite gravitational ﬁelds on quantum mechanics [17].
+•Through the quantum mechanical revision of the Finsler metr ic tensor, φ(p) introduces a
+generalization of the fundamental tensor, thereby expandi ng the framework of GR [14, 15].
+6
+•By maintaining the unique curvature properties of the Rande rs metric, φ(p) eﬀectively com-
+bines gravity and electromagnetism into a uniﬁed framework [32],
+φ(p) = 1+ βpρ
+0p0ρ= 1+κ
+(p0
+0)2K2. (4)
+B. Derivation of Quantum mechanical Revision of Finsler–Ha milton Metric
+In the context of Klein metric K, the coordinates and momenta of a free-falling quantum
+particle with a ﬁnite positive mass mare represented by auxiliary four-vectors, namely xα
+0andpβ
+0,
+respectively [33],
+K2(xα
+0,pβ
+0) =/vextenddouble/vextenddouble/vextenddoublepβ
+0/vextenddouble/vextenddouble/vextenddouble2
+−/ba∇dblxα
+0/ba∇dbl2/vextenddouble/vextenddouble/vextenddoublepβ
+0/vextenddouble/vextenddouble/vextenddouble2
++/angbracketleftBig
+xα
+0·pβ
+0/angbracketrightBig2
+1−/ba∇dblxα
+0/ba∇dbl2. (5)
+The standard Euclidean norm and inner product in Rnare denoted by /ba∇dbl·/ba∇dbland/an}b∇acketle{t·/an}b∇acket∇i}ht, respectively.
+In order to maintain 0-homogeneity of φ(p), the RGUP method can be directly utilized for the
+1-homogeneous function F(xα
+0,pβ
+0) with respect to pβ
+0.
+K2(xα
+0,φ(p)pβ
+0) =/vextenddouble/vextenddouble/vextenddoubleφpβ
+0/vextenddouble/vextenddouble/vextenddouble2
+−/ba∇dblxα
+0/ba∇dbl2/vextenddouble/vextenddouble/vextenddoubleφpβ
+0/vextenddouble/vextenddouble/vextenddouble2
++/angbracketleftBig
+xα
+0·φpβ
+0/angbracketrightBig2
+1−/ba∇dblxα
+0/ba∇dbl2=φ2(p)K2(xα
+0,pβ
+0).(6)
+The quantum mechanical revision of eight-dimensional Fins ler metric is obtained by considering
+the Hessian matrix of the squared K(xα
+0,φ(p)pβ
+0)
+˜gαβ(x,p) =/parenleftbigg
+φ2(p)+2κ
+(p0
+0)2K2/parenrightbigg
+gαβ(x,p)
++2κ
+(p0
+0)2/bracketleftbig
+4φ(p)K2ℓαℓσgσα(x)−4φ(p)K3ℓσ[δ0βgσα(x,p)+δ0αgσβ(x,p)]
++K4[2+φ(p)]δ0αδσ
+0gσβ(x,p)/bracketrightbig
+, (7)
+where
+ℓγ=pγ
+0
+F+/an}b∇acketle{tx0,p0/an}b∇acket∇i}ht
+(1−|x0|2)Kxγ
+0, (8)
+φµ=2κK
+(p0
+0)3(p0
+0ℓµ−Fδ0µ), (9)
+φµν=2κ
+(p0
+0)2gµν(x,p)−4κK
+(p0
+0)3(ℓνδ0µ+ℓµδ0ν)+6κK2
+(p0
+0)4δ0νδ0µ. (10)
+Because φ(p) depends solely on p0rather than x0, it follows that the second line in Eq. (7)
+should not vanish, categorically. Due to the intricate natu re of the geometric structure and the
+presence of additional curvatures as expressed in the secon d line, coupled with the absence of a
+7
+theoretical framework to fully address the entirety of expr ession (7), one is compelled to accept
+this unavoidable approximation. Only through this bold app roximation can we gain insight into
+the implications of the proposed quantization on the Rieman n manifold. However, once it becomes
+feasible to incorporate all terms of Eq. (7), it becomes nece ssary to reexamine the resulting
+quantum mechanical revision of four-dimensional Riemann m etric, as described in Eq. (1).
+Thesection that follows examines how the proposed geometri c quantization inﬂuences the aﬃne
+connection.
+III. Geometric Quantization and Aﬃne Connections
+In accordance with section IIA, the suggestion was made to ut ilize the quantum mechanically
+revisited metric tensor at a given point xas acomprehensive representation of thecurved spacetime
+in Riemann geometry, encompassing all relevant details abo ut the geometry of the spacetime [10–
+15]
+˜gαβ=C(x,p)gαβ. (11)
+The determination of the exact expression for C(x,p) continues to pose a signiﬁcant mathematical
+challenge. As an alternative, an approximate formulation h as been put forward in the references
+[10–15]
+C(x,p) =/parenleftbigg
+φ2(p)+2κ
+(p0
+0)2K2/parenrightbigg/bracketleftbigg
+1+˙pµ
+0˙pν
+0
+F2(1+2βpρ
+0p0ρ)/bracketrightbigg
+. (12)
+It is noteworthy that C(x,p) can be averaged. Various techniques for averaging exist. F or further
+exploration of this subject, we invite readers to review our publications [10, 11, 14, 15]. While this
+approach may lead to a bias towards a speciﬁc instance within the continuous spectrum ranges of
+the quantum operators forming C(x,p), the truncated C(x,p) continues to exhibit its important
+quantum-mechanical features.
+Theassumptionoflinearity inEq. (11)impliesthattherela tionship −c2dτ2=ds2=gαβdxαdxβ
+remains applicable to the quantum mechanically revisited m etric tensor ˜ gαβ. By appropriately
+parameterizing, the proper time can be represented - in natu ral units - as −dτ2=ds2
+˜τab=/integraldisplay1
+0/radicalbigg
+−˜gαβ(x)dxα
+dσdxβ
+dσ=/integraldisplay1
+0L/parenleftbiggdxα
+dσ,xα/parenrightbigg
+dσ. (13)
+By employing variational methods, similar to those used in c lassical dynamics, one can derive the
+Euler–Lagrange equations
+−d
+dσ∂L
+∂(dxγ/dσ)+∂L
+∂xγ= 0, (14)
+8
+where∂L
+∂xγandd
+dσ∂L
+∂(dxγ/dσ)are given as follows:
+∂L
+∂xγ=−L
+2/braceleftbigg
+C(x,p)∂gαβ
+∂xγdxα
+dτdxβ
+dτ+gαβ2κ
+(p0
+0)2/bracketleftbigg
+1+˜m2
+F2(1+2βpρ
+0pρ
+0)/bracketrightbigg
+F2
+,γdxα
+dτdxβ
+dτ/bracerightbigg
+,
+d
+dσ∂L
+∂(dxγ/dσ)=−L/bracketleftbigg
+˜gαγd2xα
+dτ2+1
+2/parenleftbigg∂˜gαγ
+∂xβ+∂˜gγβ
+∂xα/parenrightbiggdxα
+dτdxβ
+dτ/bracketrightbigg
+.
+The quantum mechanically revisited geodesic equations are derived by substituting equations
+(15) and (15) into equation (14)
+d2xα
+dτ2+˜Γα
+δβdxδ
+dτdxβ
+dτ+gδβ
+2˜gαγK2
+,γC(x,p)dxδ
+dτdxβ
+dτ= 0. (15)
+The geodesic equations obtained from the conventional metr ic tensor, gαβ,
+d2xα
+dτ2+Γα
+δβdxδ
+dτdxβ
+dτ= 0, (16)
+and those obtained from ˜ gαβ, as expressed in Eq. (15), exhibit a remarkable diﬀerence. Th is refers
+to the fulﬁllment of the geodesic equations by ˜ gαβ. Detailed explanations will be presented in
+Appendix A. The fulﬁllment of the geodesic equations by ˜ gαβclearly establishes that EFE are also
+satisﬁed. Additionally, ref. [10] presents a comprehensiv e analysis of the EFE on a three-sphere
+with ˜gαβ. It was concluded that the EFE are optimally satisﬁed when bo th versions of the metric
+tensor are considered. Such a comprehensive diﬀerence encom passes not only the entire third term
+in Eq. (15), but also the additional quantum-mechanical ing redients and curvatures that arise from
+the quantum mechanically revisited aﬃne connections ˜Γα
+δβ[10, 11, 14, 15].
+˜Γα
+δβ= Γα
+δβ+K2
+,γ
+2C(x,p)/parenleftbig
+δα
+β+δα
+δ−gαγgδβ/parenrightbig
+. (17)
+Consequently, Equation (15) can be reformulated as,
+d2xα
+dτ2+Γα
+δβdxδ
+dτdxβ
+dτ+K2
+,γ
+2C(x,p)/bracketleftbigggδβ
+˜gαγC2(x,p)dxδ
+dτdxβ
+dτ+δα
+β+δα
+δ−gαγgδβ/bracketrightbigg
+= 0.(18)
+The third term represents the total contributions that have arisen from the proposed geometric
+quantization approach.
+Aﬃne connections and their modiﬁcations due to the proposed geometric quantization are
+fundamental in determining the timelike geodesic congruen ce, as outlined in section IIIB. We ﬁrst
+introduce the Einstein–Gilbert–Straus metric in section I IIA.
+A. Einstein–Gilbert–Straus Metric
+Theintegration ofSchwarzschild andFLRWmetrics enablest heembeddingoftheSchwarzschild
+metric within a Universe that is undergoing expansion. This methodology provides a realistic rep-
+resentation of the Universe. In the 1940s, Einstein and Stra us proposed the Swiss cheese model,
+9
+which aimed to model the Universe as clusters of cosmic matte r that are unevenly distributed
+alongside empty regions or voids [4]. Gilbert successfully formulated the Schwarzschild metric
+in an expanding Universe by employing the conventional metr ic tensor gαβ[6, 7]. In contrast,
+the FLRW solution describes the expansion or contraction of the homogeneous and isotropic Uni-
+verse uniformly, regardless of the observation location. A lternatively, the EGS metric provides a
+theoretical framework for the inclusion of nonhomogeneity in the context of the Universe
+ds2=/parenleftbigg
+1−2M
+r/parenrightbigg
+dt2−/parenleftbigg
+1−2M
+r/parenrightbigg−1
+a(t)dr2−a(t)r2dΩ2, (19)
+wheredΩ2=dθ2+sin2θdφ2(p) represents the standard metric on the surface of a two-sphe re with
+a constant radius r. The scale factor a(t) determines the rate at which the size of the geometric
+structure of the Universe can change relative to its origina l size. Apparently, trepresents the
+cosmic time. The substance that ﬁlls the cosmic background i nﬂuences the underlying scale factor
+[34–36]. In the current calculations, a matter-dominated c osmic background is assumed, meaning
+thata(t) is proportional to t2/3. The mass Mcorresponds to a spherical mass around which EFE
+are solved. In this scenario, the mass is represented by the s ymbolM, which serves to distinguish
+it from the mthat refers to the free-falling quantum particle. At a(t) = 1 in Eq. (19), the
+spherically symmetric vacuum Schwarzschild solution can b e retrieved, straightforwardly. This
+particular solution describes the gravitational ﬁeld in th e vicinity of a spherical distribution of
+massM. The spatial and temporal distribution of the substance can be interpreted as the total
+cosmic substance.
+As the equation (19) indicates a dependence on both randtin describing the evolution of the
+Universe, it follows that the cosmic substance Mshould also vary accordingly. We can denote this
+variation as M(r,t) to incorporate it into the EGS metric. Accordingly, one has to account for
+the spatial and temporal evolution of our Universe. Another consequence of M(r,t) in the EGS
+metric is the necessity of a ﬁnite cosmological constant Λ, t hat causes expansion and evolution of
+the Universe [34, 37, 38]. The value that would be attributed to Λ does not impose any further
+limitations on our model. Therefore, with M(r,t) just nonvanishing Λ improves our modeling of
+EGS.
+Tosimplifytheanalysis weproposethat: i)thecosmicsubst ancefollows thebarotropicequation
+of statep=−ρ, whereprepresents pressure and ρrepresents energy density, and ii) the Einstein-
+Straus vacuole forms exact spheres [39, 40],
+M(r,t) =4
+3πf(t)r3. (20)
+10
+This outlines a basic framework for understanding the distr ibution of cosmic substance in the
+context of theEinstein–Strausvacuole. Weputforthathird assumptionthat thearbitraryfunction
+f(t) provides a depiction of the temporary evolution of the cosm ic substance. To accomplish this,
+it is essential to proportionally adjust the radius rin relation to the passage of time t. One of
+the authors (AT) proposed a model in which the scaling functi on of the matter distribution is
+represented as [8]
+f(t) =1
+µ2tanh/parenleftbiggt
+µ/parenrightbigg
+. (21)
+where the parameter µis a variable selected without particular limitations; how ever, it is essential
+for maintaining the correct mass dimension in Eq. (20). As di scussed, the concept of an expanding
+Universe is closely tied to the presence of a ﬁnite Λ and the sc ale factor a(t). Consequently, the
+static metric deﬁned in Eq. (19) can be transformed into a dyn amic representation
+ds2=/parenleftbigg
+1−2M(r,t)
+r−1
+3Λr2/parenrightbigg
+dt2−a(t)/parenleftbigg
+1−2M(r,t)
+r−1
+3Λr2/parenrightbigg−1
+dr2−a(t)r2dΩ2,(22)
+B. Timelike Geodesic Congruence and Expansion Evolution wi thgαβ
+In the case of comoving coordinates, where the system of coor dinates moves with the cosmic
+substance at each point, all components of the four-velocit y disappear except for the ﬁrst compo-
+nent. Speciﬁcally, for the spherical coordinates xα= (t,r,θ,φ), it follows that ut=uθ=uφ= 0
+[39]. With variable separation, the ﬁrst geodesic equation can then be expressed as
+dut(r,t)
+ut(r,t)=−∂M(r,t)
+∂t3dt
+6M(r,t)+Λr3−3r. (23)
+Then, we get
+ut(r,t) =/parenleftbig
+r2[Λ+8πtanh(t)]−3/parenrightbig−1/2. (24)
+It is evident that the real value of ut(r,t), for any given r, is conditioned to
+t >tanh−1/parenleftbigg1
+8π/bracketleftbigg3
+r2−Λ/bracketrightbigg/parenrightbigg
+. (25)
+The derivation of the geodesic congruence expansion Θ( r,t) involves examining the velocity ﬁelds
+and aﬃne connections, resulting from the expression Θ( r,t) =uα(r,t);α, withuα(r,t) representing
+the velocity vector in the spacetime manifold
+Θ(r,t) =uα(r,t),α+uσ(r,t)Γα
+σα. (26)
+11
+By substitution the derivations for uα
+,αanduσΓα
+σαinto Eq. (26), we obtain
+Θ(r,t) =/parenleftbig
+ut(r,t)/parenrightbig3
+2ra(t)/braceleftbigg3r˙a(t)
+(ut(r,t))2−6a(t)∂M(r,t)
+∂t/bracerightbigg
+, (27)
+where ˙a(t) denotes the time derivative of the scale factor.
+Now, let us derive the equation that describes the evolution of the geodesic congruence expan-
+sion, speciﬁcally ∂Θ(r,t)/∂r. By applying the ordinary chain rule, which is motivated by p hysical
+interdependence and mathematical principle, we obtain tha t
+dΘ(r,t)
+dτ=∂Θ(r,t)
+∂r∂r
+∂t∂t
+∂τ. (28)
+As mentioned earlier, the third derivative can be identiﬁed withut(r,t). On the other hand, the
+second derivative can be approximated, for instance, at the proper horizon [41]. We make the
+assumption that the apparent horizon, which is the boundary where at least one null-geodesic
+congruence undergoes a change in its focusing properties, s erves as the boundary condition for
+determining ∂r/∂t. This assumption ensures that the corresponding null const raint is satisﬁed,
+speciﬁcally at ds2= 0, as shown in Eq. (19). The condition of vanishing ds2guarantees the
+vanishing of dΩ2. Then, the second derivative in equation (28) can be express ed as follows:
+dr
+dt=±1/radicalbig
+a(t)/parenleftbigg
+1−2M(r,t)
+r−1
+3Λr2/parenrightbigg
+, (29)
+where±indicate the direction of the rays, with the plus sign denoti ng outgoing rays and the minus
+sign denoting ingoing rays. Hence, the evolution equation f or Θ(r,t) can be determined.
+dΘ(r,t)
+dτ=/parenleftbig
+ut(r,t)/parenrightbig4
+2r2(a(t))3/2/braceleftbigg
+6a(t)∂M(r,t)
+∂t+2ra(t)
+(ut(r,t))2∂2M(r,t)
+∂r∂t
++r2(Λ+8πtanh(t))/bracketleftbiggr˙a(t)
+(ut(r,t))2−8a(t)∂M(r,t)
+∂t/bracketrightbigg/bracerightbigg
+.(30)
+This analytic expression shall be evaluated and depicted in Fig. 1.
+The subsequent section outlines the derivation of timelike geodesic congruence and expansion
+evolution, employing the quantum mechanically revisited m etric tensor of GR ˜ gαβ.
+C. Timelike Geodesic Congruence and Expansion Evolution wi th˜gαβ
+The proposed quantum mechanically revisited metric tensor , Eq. (11), allows for the derivation
+of ˜ut(r,t) from the relevant geodesic equation
+d˜ut(r,t)
+˜ut(r,t)=−∂M(r,t)
+∂t3dt
+6M(r,t)+Λr3−3r−K2
+,γ
+2C(x,p)dt−1
+2K2
+,γdt,
+=dut(r,t)
+ut(r,t)−/parenleftBigg
+K2
+,γ
+2C(x,p)+1
+2K2
+,γ/parenrightBigg
+dt, (31)
+12
+whereC(x,p)representstheconformalcoeﬃcient thatconnectsthequan tummechanically revisited
+and conventional metric tensor, while K2
+,γstands for the comma derivative of the Klein metric,
+which is one of the simplest metrics in Finsler space. The Fin sler structure is henceforth identiﬁed
+with the Klein metric. Solving this initial ﬁrst-order ordi nary diﬀerential equation leads to
+˜ut(r,t) =/parenleftbig
+r2[Λ+8πttanh(t)]−3/parenrightbig−1/2exp/parenleftbigg
+−1+C(x,p)
+2C(x,p)tK2
+,γ/parenrightbigg
+,
+=ut(r,t)exp/parenleftbigg
+−1+C(x,p)
+2C(x,p)tK2
+,γ/parenrightbigg
+(32)
+In comparison to Eq. (26), the quantized geodesic congruenc e expansion ˜Θ(r,t) can be represented
+as
+˜Θ(r,t) = ˜uα(r,t),α+ ˜uσ(r,t)˜Γα
+σα. (33)
+Analogous to Eq. (28), the evolution equation for the quantu m mechanically revisited geodesic
+congruence expansion can be derived as
+d˜Θ(r,t)
+dτ=∂˜Θ(r,t)
+∂r∂r
+∂t∂t
+∂τ, (34)
+where in this case ∂t/∂τrepresents ˜ u1(r,t), Eq. (32), and ∂r/∂tcould also be estimated, at the
+proper horizon, Eq. (29) [41]. Consequently, the expansion evolution is presented as
+d˜Θ(r,t)
+dτ=−r/parenleftbig
+ut(r,t)/parenrightbig2
+6C(x,p)a3/2(t)exp/parenleftbigg
+−21+C(x,p)
+2C(x,p)tK2
+,γ/parenrightbigg
+
+
+/bracketleftbig
+a(t)(C(x,p)−3)K2
+,γ−3C(x,p)˙a(t)/bracketrightbig Λ+8πttanh(t)
+(ut(r,t))2exp/parenleftBig
+−21+C(x,p)
+2C(x,p)tK2,γ/parenrightBig
++8πC(x,p)a(t)
+9+/parenleftbig
+ut(r,t)/parenrightbig−2
+exp/parenleftBig
+−21+C(x,p)
+2C(x,p)tK2,γ/parenrightBig
+/bracketleftbig
+tsech2(t)+tanh( t)/bracketrightbig
+
+.(35)
+This analytical expression will be subjected to numerical a nalysis in IV. The section that follows
+provides an in-depth exploration of insights related to qua ntum mechanical revisions that shouldbe
+undertaken for the quantization of general relativity and a lso addresses some averaging techniques,
+especially the mean-ﬁeld approximation.
+D. Aspects of Quantum Mechanical Revision and Mean-Field Ap proximation
+The ultimate aim of this research is to reconcile the princip les of QM with those of GR. Our
+geometric quantization approach concerning GR necessitat es two principal generalizations. The
+13
+ﬁrstgeneralization is intended to incorporate gravitatio nal aspects into the fundamental framework
+of quantum mechanics. The second generalization explores t he notion of quantum geometry, which
+entails the inclusion of additional curvatures, the depend ence on acceleration or gravitational force
+of the free-falling quantum particle in curved spacetime. T his framework enables the simulation
+of the proposed quantization in Finsler–Hamilton and then t ranslated into Riemann spacetime.
+To procedure to express the resulting metric tensor on a Riem ann manifold, we apply the ratio
+of the lengths of any two collinear vectors, which do not depe nd on the underlying metric tensor.
+In this regard, we assume that the measure of line elements on both manifolds are ”exact”and
+therefore yield deterministic outcomes. Thus, the ultimat e quantization is evidently dependent
+on the quantization of the line element. Although the curren t version of quantization tackles the
+identiﬁed challenges and integrates comprehensive discre tization, it is still only partially aligned
+with quantum mechanical revisions.
+To achieve quantization of the line element, it is essential to integrate a probability distribution
+with the metric tensor and the 1-form dxµ. As an alternative, the suggestion of noncommutation
+relations may be necessary. In this context, it is important to note that neither gµνnordxµ,
+including its generalized form, exhibits a clear noncommut ation under translation [42]. Conversely,
+the establishment of a noncommutative diﬀerential calculus [43, 44] alongside a noncommutative
+metric tensor [45] may facilitate the integration of these a pproaches into the formulation of a
+noncommutative measure for the line element [46]. Moreover , the revised relativistic kinematics,
+characterized geometrically by Finsler geometry, provide s insights into the possible vacuum state
+of quantum gravity at low energies [47]. The adoption of a len gth element in Finsler geometry in
+conjunction with RGUP discretization seems to lead to a quan tization of spacetime. A thorough
+examination of this topic is warranted in future research.
+Forthesakeofsimplicity, thequantummechanicalrevisite dmetrictensorisgivenonexpectation
+value,/an}b∇acketle{tg/an}b∇acket∇i}htµν, which is a mean-ﬁeld approximation. This means that the /an}b∇acketle{tg/an}b∇acket∇i}htµνrepresents the metric
+tensor whose indexes are assessed based on the expected valu e. This implies that /an}b∇acketle{tg/an}b∇acket∇i}htµνis built by
+operators rather than classical variables [48].
+The Quantum operators are hypothesized to characterize spa cetime states as a quantum system
+[49]
+/an}b∇acketle{tˆg(ˆx)/an}b∇acket∇i}htµν≡ /an}b∇acketle{tg/an}b∇acket∇i}htµν(ˆx), (36)
+where ˆxare the quantum operators which act on the underlyingspacet ime. It is crucial to highlight
+that our formalism depends on /an}b∇acketle{tˆg(ˆx)/an}b∇acket∇i}htµν. Furthermore, a formalism for expectation values was
+14
+suggested in recent literature [49], which is independent o f the signature of the metric tensor. The
+quantum operator computes the averaged metric tensor for a g ivenµ. The other index νcontains
+information on theoperator’s dimensions. Furthermore, th epossibility of theexistence of a discrete
+spectrum for the metric and the probability distribution or average values of the metric could be
+considered elsewhere.
+However, it is important to note that despite the introducti on of a bias towards a speciﬁc in-
+stance within the continuous spectrum range of quantum oper ators, the process of averaging does
+not completely obscure their quantum-mechanical nature. T his is true. But such an averaging
+procedure seems to ensure that coherence in the Klein metric and the conformal coeﬃcient, for
+instance, is likely to be maintained. It is worth mentioning that this particular averaging process
+bears similarities to the well-known ”measurement problem” in QM. In simpler terms, it is an in-
+evitable consequenceof thecollapse ofquantumcharacteri stics that occursduringthemeasurement
+process. Looking ahead, once the mathematical challenge of deriving the quantum fundamental
+tensor, as presented in section IIA, is resolved, addressin g the continuous spectrum range of the
+quantum operators should also be tackled.
+Toconclude, itisessentialtonotethatdespitetheongoing mathematical andphysicaldiﬃculties
+these factors present, we are obliged to accept their compro mises, as they seem to aid in the
+pursuit of resolving the long-standing dilemma of integrat ing the principles of GR and QM. This
+is particularly signiﬁcant considering the substantial tr uncation required in the derivation of the
+quantum fundamental tensor, as discussed in section IIA, an d the quantization of line element
+measures in Finsler–Hamilton and Riemann geometries, as el aborated in this section. Further
+investigation into all these aspects may be conducted in oth er studies.
+The forthcoming section will undertake a comprehensive num erical analyses that explore the
+cosmological and astrophysical implications of our geomet ric quantization approach, focusing on
+both spatial and initial singularities.
+IV. Numerical Results and Discussion
+The present manuscript is speciﬁcally intended to address t he cosmological and astrophysical
+implications of our geometric quantization approach. We di scuss a systematic examination of
+the time-like (initial) singularity, as well as the investi gation of space-like (spacial) singularity.
+Therefore, we tackled one of the most realistic solutions of EFE that simulate the evolution and
+expansion of our Universe.
+15
+In addition to the analytic evolution of the expansion Θ( r,t) and its quantized version ˜Θ(r,t)
+outlined in the previous section, this section will present the numerical analysis of dΘ(r,t)/dτand
+d˜Θ(r,t)/dτ. In Fig. 1, the comparison is made between the exclusive cont ribution from the con-
+ventional metric tensor and that from the proposed quantiza tion. This comparison allows for the
+evaluation of therelative impacts oftheproposedgeometri c quantization. Thequantity d˜Θ(r,t)/dτ
+includes dΘ(r,t)/dτobtained under vanishing quantization, in addition to the p ure quantum me-
+chanically inspired contributions. As a result, a comparis on between dΘ(r,t)/dτ(blue lattice) and
+d˜Θ(r,t)/dτ−dΘ(r,t)/dτ(red lattice) is conducted to emphasize the contributions a dded by the
+proposed geometric quantization in assessing or removing t he space and initial singularity from
+GR. Moreover, we depict the total disappearance of expansio n evolution (shown as a black lattice)
+to aid in understanding the speciﬁc fundamental tensor that results in either positive or nega-
+tive evolution of expansion. This is a critical assessment o f the presence or absence of spacetime
+singularity.
+For the purpose of this numerical analysis, dummy values are suggested for M,µ, and Λ,
+for instance. Additionally, the quantum operators K2
+,αandC(x,p) are averaged, speciﬁcally by
+mean-ﬁeld approximation. Consequently, this process is li kely to have an impact on the qualitative
+numerical analysis of these operators.
+In Fig 1, we present a comparison between the results derived from the conventional metric
+tensor (blue tensor) and those obtained using the quantum me chanically revisited metric tensor
+(red lattice). It is evident that the evolution of the expans ion Θ(r,t) with respect to τis signiﬁcant,
+particularly for small values of radial distance rand cosmic time t(blue lattice). As randtde-
+crease, the resulting dΘ(r,t)/dτbecomes increasingly negative. According to thefocusing t heorem,
+the subsequent evolution of expansion leads to the inferenc e that there exists a presence of rapidly
+converging congruence and continuous geodesics. This outc ome lends support to the proposition
+that the Swiss cheese model, the EGS solution of EFE, appears to uphold the preservation of space
+and the initial singularity in curved spacetime. This sugge sts that the corresponding expansion
+likely experiences a swift transition between outgoing (di verging) and ongoing geodesic (converging
+congruence). Essentially, the curvature of spacetime gove rned by cosmic substance is presumed
+to oscillate between open and closed conﬁgurations. Conseq uently, we conclude that the expan-
+sion promptly oscillates between reduced divergence and ra pid convergence. The strong focusing
+associated with this scenario indicates a signiﬁcant gravi tational attraction.
+The evolution equation of the timelike geodesic congruence for the quantized fundamental ten-
+sor, as denoted by Eq. (11), consistently shows a positive si gn across all regions. Speciﬁcally, the
+16
+0.00
+0.05
+0.10 0.000.050.10-10 0 10 20dΘ/dτ
+dΘ~/dτ - dΘ/dτ      10
+       5
+Radial Distance rCosmic Time tEvolution of Expansion -10-5 0 5 10 15 20Einstein-Gilbert-Straus Metric (Swiss-Cheese Model)
+Fig.1. The evolution of the expansion of the timelike geodesic congruenc e,dΘ/dτ, representedas a function
+of the radial distance rand cosmic time t(blue lattice), whose analytical expression is given in Eq. (30).
+The diﬀerence d˜Θ(r,t)/dτ−dΘ(r,t)/dτ, which indicates the pure quantum contribution (red lattice) is
+confronted with. A black lattice presents vanishing expansion evolu tion. This depiction serves to indicate
+which metric tensor is connected to the emergence or removal of s pace and initial singularity of GR.
+comparison between the pure quantum contribution, d˜Θ(r,t)/dτ−dΘ(r,t)/dτ(red lattice), and
+dΘ(r,t)/dτ(blue lattice), highlights the eﬀects of the proposed geomet ric quantization. As both
+randtdecrease, the timelike geodesic congruence undergoes an in creased level of positivity in its
+evolution. This feature is speciﬁcally linked to an outgoin g geodesic, underscoring the divergence
+within the congruence and indicating the absence of spatial and initial singularity.
+V. Conclusions and Outlook
+Analytical and numerical analyses are employed in this stud y to investigate the spacetime cur-
+vature as a function of radial distance and cosmic time, assu ming that the cosmic background
+consists of lumps of substance nonhomogeneously distribut ed within voids and holes. It is postu-
+lated that the magnitude of the substance in the lumps is equi valent to that excavated to form
+17
+the holes. The Swiss cheese model, initially proposed by Ein stein and Straus and further reﬁned
+by Gilbert, is utilized to realistically represent our Univ erse. The EGS metric extends the con-
+ventional cosmological model by incorporating the nonhomo geneous aspects of the expanding and
+evolving Universe. The complexity inherent in this solutio n of EFE seems to limit its prominence
+among theorists and cosmologists, especially when contras ted with other less complicated metrics.
+By employing the conventional and quantum mechanically rev isited metric tensor, the timelike
+geodesic congruence within the EGS metric is employed to cha racterize the spacetime curvature
+and investigate the intrinsicality of space and initial sin gularity. The utilization of this metric
+enables the simultaneous examination of the evolution of wo rld lines with respect to both radial
+distance rand cosmic time t. In the present investigation, it is postulated that the cos mic sub-
+stance contained within the nonhomogeneously voids is char acterized by exact spheres, whose radii
+undergo variations due to the expansion of the Universe.
+The application of a quantum geometric approach and a kinema tic theory of free-falling quan-
+tum particle on an extended eight-dimensional manifold lea ds to quantum-mechanically induced
+revisions on the corresponding metric, resulting in a quant um mechanically revisited metric tensor
+expressed as a conformal transformation of the conventiona l one. The eight-dimensional manifold,
+along with the metric derived from it, has been fully discret ized and is at least partially quantized.
+Through the mean-ﬁeld approximation, the conformal coeﬃci ent can be eﬀectively averaged, fa-
+cilitating calculations related to the evolution of the tim elike geodesic congruence. The outcomes
+obtained from the conventional fundamental tensor consist ently show negativity, suggesting the
+presence of space and initial singularity. In contrast, the quantum mechanically revisited met-
+ric tensor demonstrates a positive sign, particularly at sm all values of both randt, indicating
+the absence of space and initial singularity. A negative evo lution denotes a reduction in the pre-
+viously expanding state, whereas a positive evolution sign iﬁes a continuation of the expansion.
+Thus we conclude that the proposed geometric quantization s eems to provide a viable solution
+to the spacetime curvature resulting from both spatial and i nitial singularities of GR. Moreover,
+this quantization process gives rise to additional curvatu res, which act as sources of gravity, i.e.,
+quantum gravity.
+As a future outlook, eﬀorts should be focused on two critical a spects: investigating the prospec-
+tive quantum features of the extra curvature and addressing the mathematical complexities that
+arise in the process of deriving the quantum mechanically re visited metric tensor through applying
+bold truncation and averaging procedures. Further future s tudies can target reinforcing the pro-
+posed geometric quantization. In detail, we plan to examine the quantum aspects of the quantized
+18
+metric tensor. We have addressed several components of the p roposed geometric quantization, all
+of which will be explored in greater depth in forthcoming res earch.
+A. Geodesic Equations and Quantum Mechanically Revisited M etric Tensor
+We start the appropriate normalization condition,
+C(x,p)gµνuµuν=−1. (A1)
+Then, we apply the quantum mechanically revisited metric te nsor,
+/tildewidegµν=C(x,p)gµν. (A2)
+This functionality is required to assist in the extraction o f geodesic equations that have been
+revisited from a quantum mechanical perspective. The covar iant diﬀerentiation results in
+C(x,p)gµνuµuν/tildewide∇γ+C(x,p)gµνuµ/tildewide∇γuν+
+C(x,p)gµνuν/tildewide∇γuµ+C(x,p)uµuν/tildewide∇γgµν= 0, (A3)
+where/tildewide∇γuµ=uµ
+,γ+uσ/tildewideΓν
+σk. By eliminating the last terms in this expression, we ﬁnd tha t
+C(x,p)gµνuµuν/tildewide∇γ+2C(x,p)gµνuµ/tildewide∇γuν= 0,
+2C(x,p)gµνuµ/tildewide∇γuν=−gγκuγuκ/tildewide∇γC(x,p),
+2uµ/tildewide∇γuν=−gγκ
+/tildewidegµνuγuκ/tildewide∇γC(x,p)
+Thus, the geodesic equations can be represented as
+d2xµ
+dτ2+/tildewideΓµ
+γκdxγ
+dτdxκ
+dτ+gγκ
+/tildewidegµνC(x,p),γdxγ
+dτdxκ
+dτ= 0. (A4)
+It is evident that Eq. (A4) is evidently equivalent to Eq. (15 ). Hence, we can conclude that
+the geodesic equations can be extracted from the proposed ge neralized normalization condition,
+thereby showcasing their adherence to the principles of con servation laws.
+Acknowledgment
+AT acknowledges the generous support by the Egyptian Center for Theoretical Physics (ECTP)
+and Future University in Egypt (FUE)!
+19
+Conﬂicts of Interest
+The authors declare that there are no conﬂicts of interest re garding the publication of this pub-
+lished article. The authors declare that the present script is in compliance with ethical standards
+regarding its content!
+Dataset Availability
+All data generated or analyzed duringthis study areinclude d in this publishedarticle. Thedata
+used to support the ﬁndings of this study are included within the published article and properly
+cited! All of the material is owned by the authors.
+Author contributions
+The responsibility for proposing the conception of the pres ent study lies with AT, who also
+undertook the tasks of designing and managing the research, interpreting the results, deriving the
+expressions, drawing the ﬁgures, and preparing the manuscr ipt. AA and AP contributed to the
+writing and proofreading of the manuscript. The ﬁnal versio n of the manuscript was unanimously
+approved by all authors.
+Funding
+The authors declare that this research received no speciﬁc g rants from any funding agency in
+the public, commercial, or not-for-proﬁt sectors.
+Competing interests
+The authors conﬁrm that there are no relevant ﬁnancial or non -ﬁnancial competing interests to
+report.
+[1] A. Tawﬁk and E. Abou El Dahab. FLRW Cosmology with Horava-Lifs hitz Gravity: Impacts of Equa-
+tions of State. Int. J. Theor. Phys. , 56(7):2122–2139, 2017. doi:https://doi.org/10.1007/s10773-0 17-
+3355-1.
+20
+[2] G. C. McVittie. The mass-particle in an expanding universe. Mon. Not. Roy. Astron. Soc. , 93:325–339,
+1933. doi:10.1093/mnras/93.5.325.
+[3] Richard C. Tolman. Eﬀect of inhomogeneity on cosmological models .Proc Natl. Acad. Sci. USA , 20:
+169–176, 1934. doi:10.1073/pnas.20.3.169.
+[4] Albert Einstein and Ernst G. Straus. The inﬂuence of the expans ion of space
+on the gravitation ﬁelds surrounding the individual stars. Rev. Mod. Phys. ,
+17:120–124, Apr 1945. doi:https://doi.org/10.1103/RevModPhys.1 7.120. URL
+https://link.aps.org/doi/10.1103/RevModPhys.17.120 .
+[5] H. Bondi. Spherically symmetrical models in general relativity. Mon. Not. Roy. Astron. Soc. , 107:
+410–425, 1947. doi:10.1093/mnras/107.5-6.410.
+[6] C. Gilbert. The Gravitational Field of a Star in the Expanding Univer se.Monthly Notices of the Royal
+Astronomical Society , 116(6):678–683, 12 1956. ISSN 0035-8711. doi:10.1093/mnras/ 116.6.678. URL
+https://doi.org/10.1093/mnras/116.6.678 .
+[7] H. Stephani and J. Stewart. Allgemeine Relativit¨ atstheorie. Cambridge University Press , 1990.
+[8] Abdel Nasser Tawﬁk, Antonio Pasqua, Muhammad Waqas, Azzah A. Alshehri, and Prabir Kr Haldar.
+Quantum geometric perspective on the origin of quantum-condition ed curvatures. Class. Quant. Grav. ,
+41(19):195018, 2024. doi:10.1088/1361-6382/ad7451.
+[9] A. Tawﬁk and T. F. Dabash. Timelike geodesic congruence in the sim plest solutions of general
+relativity with quantum-improved metric tensor. Int. J. Mod. Phys. D , 32(15):2350097, 2023. doi:
+10.1142/S0218271823500979.
+[10] Abdel Nasser Tawﬁk and Tahia F. Dabash. Born reciprocity and discretized Finsler structure: An
+approach to quantize GR curvature tensors on three-sphere. Int. J. Mod. Phys. D , 32(10):2350068,
+2023. doi:10.1142/S0218271823500682.
+[11] Abdel Nasser Tawﬁk and Tahia F. Dabash. Born reciprocity and relativistic generalized uncertainty
+principle in Finsler structure: Fundamental tensor in discretized cu rved spacetime. Int. J. Mod. Phys.
+D, 32(09):2350060, 2023. doi:10.1142/S0218271823500608.
+[12] Abdel Nasser Tawﬁk, Tahia F. Dabash, Tarek S. Amer, and Moh amed O. Shaker. Einstein-
+Gilbert-Straus solution of Einstein ﬁeld equations: Timelike geodesic c ongruence with conven-
+tional and quantized fundamental metric tensor. Nucl. Phys. B , 1014:116866, 2025. doi:
+10.1016/j.nuclphysb.2025.116866.
+[13] Abdel Nasser Tawﬁk, Fady T. Farouk, F. Salah Tarabia, and Mu hammad Maher. Quantum-induced
+revisiting space–time curvature in relativistic regime. Int. J. Mod. Phys. A , 39(35):2443016, 2024.
+doi:10.1142/S0217751X24430164.
+[14] Abdel Nasser Tawﬁk. On possible quantization of the fundamen tal tensor in the relativistic regime.
+Astron. Nachr. , 344(1-2):e220072, 2023. doi:10.1002/asna.20220072.
+[15] Abdel Nasser Tawﬁk. On quantum-induced revisiting Einstein te nsor in the relativistic regime. Astron.
+Nachr., 344(1-2):e220071, 2023. doi:https://doi.org/10.1002/asna.202 20071.
+21
+[16] Fady Tarek Farouk, Abdel Nasser Tawﬁk, Fawzy Salah Tarabia , and Muhammad Maher. On Possible
+Minimal Length Deformation of Metric Tensor, Levi-Civita Connectio n, and the Riemann Curvature
+Tensor.MDPI Physics , 5(4):983–1002, 2023. doi:10.3390/physics5040064.
+[17] Abdel Nasser Tawﬁk, Fady T. Farouk, F. Salah Tarabia, and Mu hammad Maher. Minimal length
+discretization and properties of modiﬁed metric tensor and geodes ics. In16th Marcel Grossmann
+Meeting on Recent Developments in Theoretical and Experime ntal General Relativity, Astrophysics and
+Relativistic Field Theories , 11 2021. doi:https://doi.org/10.1142/9789811269776˙0339.
+[18] Abdel Nasser Tawﬁk and Azzah Alshehri. Relativistic generalized uncertainty principle for a
+test particle in four-dimensional spacetime. Mod. Phys. Lett. A , 39(25n26):2450079, 2024. doi:
+10.1142/S0217732324500792.
+[19] V. I. Kolomytsev. On the problem of a family of nonparallel regge trajectories. Teor. Mat. Fiz. , 12:
+40–47, 1972. doi:10.1007/BF01030039.
+[20] M. Tsamparlis and Th. Grammenos. The Deviation equation for a g eneral congruence in a general
+spacetime. Tensor (Japan) , 56:27–30, 1995.
+[21] S. W. Hawking and R. Penrose. The Singularities of gravitational collapse and cosmology. Proc. Roy.
+Soc. Lond. A , 314:529–548, 1970. doi:10.1098/rspa.1970.0021.
+[22] Klaas Landsman. Penrose’s 1965 singularity theorem: from geo desic incompleteness to cosmic censor-
+ship.Gen. Rel. Grav. , 54(10):115, 2022. doi:10.1007/s10714-022-02973-w.
+[23] Johanna N. Borissova. Suppression of spacetime singularities in quantum gravity. Class. Quant. Grav. ,
+41(12):127002, 2024. doi:10.1088/1361-6382/ad46c0.
+[24] Bryce S. DeWitt. Quantum Theory of Gravity. 1. The Canonical Theory. Phys. Rev. , 160:1113–1148,
+1967. doi:10.1103/PhysRev.160.1113.
+[25] J.E. NelsonandT. Regge. (2+1)quantumgravity. Phys. Lett. B , 272:213–216,1991. doi:10.1016/0370-
+2693(91)91822-D.
+[26] E. R. Caianiello. Is There a Maximal Acceleration? Lett. Nuovo Cim. , 32:65, 1981. doi:
+https://doi.org/10.1007/BF02745135.
+[27] E. R. Caianiello. Maximal acceleration as a consequence of heisen berg’s uncertainty relations. Lettere
+al Nuovo Cimento (1971-1985) , 41(11):370–372, 1984.
+[28] HowardE Brandt. Maximal properacceleration and the struct ure of spacetime. Foundations of Physics
+Letters, 2(1):39–58, 1989.
+[29] Nathan Rosen. Quantum geometry. Annals Phys. , 19(1):165–172, 1962. doi:
+https://doi.org/10.1016/0003-4916(62)90235-X.
+[30] E. R. Caianiello, A. Feoli, M. Gasperini, and G. Scarpetta. Quantu m Corrections to the Space-
+time Metric From Geometric Phase Space Quantization. Int. J. Theor. Phys. , 29:131, 1990. doi:
+https://doi.org/10.1007/BF00671323.
+[31] E. R. Caianiello, M. Gasperini, and G. Scarpetta. Phenomenologic al Consequences of a Ge-
+ometric Model With Limited Proper Acceleration. Nuovo Cim. B , 105:259, 1990. doi:
+22
+https://doi.org/10.1007/BF02726101.
+[32] Xinyue Cheng and Zhongmin Shen. Randers Metrics with Special Riemann Curvature Properties , pages
+77–89. Springer Berlin Heidelberg, Berlin, Heidelberg, 2012. doi:http s://doi.org/10.1007/978-3-642-
+24888-7˙6.
+[33] Felix Klein. ¨Uber die geometrischen grundlagen der lorentzgruppe. Jahresbericht der Deutschen
+Mathematiker-Vereinigung , 19:533–552, 1910. doi:https://doi.org/10.1007/978-3-642-519 60-4˙31.
+[34] A. Tawﬁk and T. Harko. Quark-Hadron Phase Transitions in Visc ous Early Universe. Phys. Rev. D ,
+85:084032, 2012. doi:10.1103/PhysRevD.85.084032.
+[35] A. Tawﬁk, M. Wahba, H. Mansour, and T. Harko. Hubble Parame ter in QCD Universe for ﬁnite Bulk
+Viscosity. Annalen Phys. , 522:912–923, 2010. doi:10.1002/andp.201000103.
+[36] A. Tawﬁk, M. Wahba, H. Mansour, and T. Harko. Viscous Quark -Gluon Plasma in the Early Universe.
+Annalen Phys. , 523:194–207, 2011. doi:10.1002/andp.201000052.
+[37] Abdel Magied Diab and Abdel Nasser Tawﬁk. A Possible Solution of the Cosmological Constant
+Problem Based on GW170817 and Planck Observations with Minimal Len gth Uncertainty. Adv. High
+Energy Phys. , 2022:9351511, 2022. doi:https://doi.org/10.1155/2022/935151 1.
+[38] A.Tawﬁk. TheHubble parameterinthe earlyuniversewith viscou sQCDmatterandﬁnitecosmological
+constant. Annalen Phys. , 523:423–434, 2011. doi:10.1002/andp.201100038.
+[39] Charles W. Misner and David H. Sharp. Relativistic equations for a diabatic, spherically symmetric
+gravitational collapse. Phys. Rev. , 136:B571–B576, Oct 1964. doi:10.1103/PhysRev.136.B571. URL
+https://link.aps.org/doi/10.1103/PhysRev.136.B571 .
+[40] M Demianski. Some new solutions of the einstein equations of astr ophysical interest. Acta Astron. , 23
+(3):197–232, 1973. URL https://www.osti.gov/biblio/4325043 .
+[41] Nemanja Kaloper, Matthew Kleban, and Damien Martin. McVittie’s Legacy: Black Holes in an Ex-
+panding Universe. Phys. Rev. D , 81:104044, 2010. doi:10.1103/PhysRevD.81.104044.
+[42] Pierre Martinetti. Line element in quantum gravity: The Examples of DSR and noncommutative
+geometry. Int. J. Mod. Phys. A , 24:2792–2801, 2009. doi:10.1142/S0217751X09046242.
+[43] Michel Dubois-Violette. Lectures on graded diﬀerential algebr as and noncommutative geometry. Math.
+Phys. Stud. , 23:245–306, 2001. doi:10.1007/978-94-010-0704-7˙15.
+[44] J. Madore. An introduction to noncommutative diﬀerential geometry an d its physical applications ,
+volume 257. 2000.
+[45] S. C. Ulhoa, A. F. Santos, and R. G. G. Amorim. On Non-Commuta tive Correction of the G¨ odel-type
+Metric.Gen. Rel. Grav. , 47(9):99, 2015. doi:10.1007/s10714-015-1944-y.
+[46] P. L. FitzGerald. The Superﬁeld quantisation of a superparticle action with an extended line element.
+Int. J. Mod. Phys. A , 20:2639–2655, 2005. doi:10.1142/S0217751X05022263.
+[47] Christian Pfeifer and Jos´ e Javier Relancio. Deformed relativist ic kinematics on curved spacetime: a
+geometric approach. Eur. Phys. J. C , 82(2):150, 2022. doi:10.1140/epjc/s10052-022-10066-w.
+[48] I. J. Maddox. Schur’s theorem for operators. Bulletin Greek Math. Society , 16:18–21, 1975.
+23
+[49] Jaume Gine and Giuseppe Gaetano Luciano. Gravitational eﬀect s on the Heisenberg Uncertainty
+Principle: A geometric approach. Results Phys. , 38:105594, 2022. doi:10.1016/j.rinp.2022.105594.

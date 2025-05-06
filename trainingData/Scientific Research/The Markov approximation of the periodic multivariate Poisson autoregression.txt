@@ -1,0 +1,2643 @@
+The Markov approximation of the periodic multivariate Poisson
+autoregression
+Mahmoud Khabou∗, Edward A. K. Cohen and Almut E. D. Veraart
+Department of Mathematics,
+Imperial College London,
+180 Queen’s Gate,
+London, SW7 2AZ,
+United Kingdom
+Abstract
+This paper introduces a periodic multivariate Poisson autoregression with potentially infinite mem-
+ory, with a special focus on the network setting. Using contraction techniques, we study the stability of
+such a process and provide upper bounds on how fast it reaches the periodically stationary regime. We
+then propose a computationally efficient Markov approximation using the properties of the exponential
+function and a density result. Furthermore, we prove the strong consistency of the maximum likelihood
+estimator for the Markov approximation and empirically test its robustness in the case of misspeci-
+fication. Our model is applied to the prediction of weekly Rotavirus cases in Berlin, demonstrating
+superior performance compared to the existing PNAR model.
+Keywords: Multi-variate count time series, periodicity, Markov approximation, strong consistency,
+likelihood estimation
+MSC: 62M10, 62F12
+1 Introduction
+With the recent surge in the availability of integer-valued data, there has been a growing interest in
+the modelling and inference of count time series. Some early contributions to count time series include
+discrete ARMA (DARMA) processes, see [69, 70], and the {0,1}−valued g−functions introduced by
+Berbee [34]. Also, the idea of using thinning operations, see [71], for model construction is now very
+popular; e.g. the thinning-based INteger AutoRegressive models of order p(INAR( p)) were introduced
+by Al-Osh and Alzaid [35], and were subsequently extended to the multivariate case by Latour [48] and
+to infinite order by Kirchner [36].
+More recently, there has been a growing interest in observation driven models; processes for which
+the dynamics is determined by their past values and a random component. One of the first examples
+of count observation models is the INteger Generalised AutoRegressive Conditional Heteroskedastic
+(INGARCH( p, q)) model introduced in [20], which will serve as a building block for the models studied
+in this paper. A subset of these models, referred to as Poisson autoregressions, have been thoroughly
+studied in the literature [18, 39, 38], where sufficient stability conditions have been established and
+statistical inference methods have been tested.
+In [22, 37], Poisson autoregressions were shown to be discrete-time versions of Hawkes processes, a
+class of self-exciting (or inhibiting) continuous-time count processes. Since, in practice, data is often
+recorded on regular discrete-time intervals ( e.g.high-frequency financial data), Poisson autoregressions
+can be seen as a count-data-adapted version of Hawkes processes, thus retaining their usefulness in
+many fields such as finance [40, 45, 46], neurosciences [41, 42, 47] and social networks [43, 44]. Poisson
+autoregressions have also been applied to crime data [68] and epidemiology [67].
+∗Corresponding author: m.khabou@imperial.ac.uk
+1arXiv:2504.02649v1  [math.ST]  3 Apr 2025
+Theses applications often involve a number of interacting components (e.g. spiking neurons in
+the brain, shared posts on a social network) which raises the need for multivariate models. For the
+thinning based models, [48] studied a multivariate INAR( p) process which has since been used by [49] for
+the approximate estimation of multivariate Hawkes processes using conditional least squares. For the
+observation driven models, Fokianos et al. [19] studied both the stability and estimation of multivariate
+Poisson autoregressions using a Markov chain perturbation approach. The stability condition for such
+autoregressions has been significantly improved by Debaly and Truquet [9]. We refer the reader to [63]
+for a study of multivariate (continuous-time) trawl processes and to [50] for a survey on multivariate
+count series.
+One of the challenges of general multivariate models is that they involve interaction terms between
+all of the components and hence the number of parameters increases rapidly with the number of
+particles. This means that simulation and inference can be quite infeasible for systems of a large
+number of components. This motivated more parsimonious approaches, which led to the incorporation
+of a network structure (a graph with an adjacency matrix). Building on the Network AutoRegressive
+(NAR) studied by Zhu et al. [31] and their generalisation to r−stage neighbours (Knight et al. [29]),
+Armillotta and Fokianos [4] proposed the Poisson NAR (PNAR) model for network count series. The
+model can be described as follows: Consider a network of dnodes whose neighbourhood structure is
+described by an adjacency matrix M= (mij)i,j=1,···,d, where mij= 1 if there is a directed edge from
+node ito node j. To each node iis associated a time series of counts ( Y(i)
+t)t∈Nthat evolves according
+to the dynamics
+Y(i)
+t|FY
+t−1∼Pois( λ(i)
+t),
+FYhere being the filtration associated with the network count variables. The autoregressive aspect
+comes from the fact that the intensity λ(i)
+tis modelled as
+λ(i)
+t=µ+qX
+k=1αkY(i)
+t−k+qX
+k=1βk1
+Pd
+j=1mijdX
+j=1mijY(j)
+t−k, (1)
+where regression coefficients ( αk)k∈1,...,qare called the momentum kernel and coefficients ( βk)k∈1,...,q
+are called the network kernel. Assuming that these kernels are positive, the occurrence of a non-zero
+count Y(i)
+t−1will increase the intensity λ(i)
+t(as well as λ(j)
+tfor any node jimpacted by node i), which in
+turn means that Y(i)
+t(and Y(j)
+tfor nodes jimpacted by i) are more likely to take larger values. The
+stability conditions for this process, both at the t→+∞andd→+∞limits, are provided in [4].
+We notice nevertheless that many real-life networks exhibit a seasonal (or periodic) behaviour that
+cannot be captured by the PNAR( q) model because its coefficients are time invariant. For example,
+the spiking behaviour of neurons changes drastically between night and day, or the number of flu cases
+varies across the seasons. As highlighted in [51], systematically neglecting periodicity in financial time
+series leads to a loss in forecasting efficiency. We also note that classical differencing techniques used
+to remove seasonality before modeling are unsuitable in the count setting as the resulting differenced
+process will have negative values.
+We therefore propose a new model for count network autoregressions whose coefficients also vary
+periodically in time, that is, where the regression coefficients ( αk)k∈1,···,qand ( βk)k∈1,···,qare replaced
+by the sequences ( α(t)
+k)k∈1,···,qand ( β(t)
+k)k∈1,···,qthat are p−periodic in t, for some integer pthat
+represents the period of the seasonality. For instance, p= 12 months for the monthly number of storms
+in a given geographical area, or p= 24 for the hourly number of posts on a social network. Because of
+this variation, classical concepts such as stationarity and ergodicity no longer apply and are replaced by
+the analogous periodic counterparts. Such concepts have been initially studied in the signal processing
+literature [53, 52] under the name of “cyclo-stationarity” and “cyclo-ergodicity”, but have since caught
+the attention of the time series community. To capture the seasonalities in volatility, [51] proposed a
+periodic ARCH model which has been used by [55] to model the variations of gas prices. For a general
+book on periodic time series we refer the reader to [54], and to [6] for an article on periodic time series
+applied to stochastic volatility. More recently, Aknouche et al. [1] studied the probabilistic properties
+of a periodic Poisson INGARCH (1 ,1) model, which paved the way to the study of periodic count series
+[27, 16, 56, 57].
+Another property of the PNAR( q) model (1) is its finite (and in practice short, cf.[4]) memory.
+The fact that the intensity depends on the qlast counts guarantees that its correlation decays quickly
+2
+and ensures that simulation from the model and computation of the likelihood function of a sample
+of length TisO(qT). However, empirical studies show that neuron spike processes [58], as well as
+order book dynamics [59, 45], have an infinite memory that sometimes decays slowly as a power law.
+This renders the standard PNAR( q) model inadequate for capturing the long-memory properties of
+these processes. Of course, the immediate solution would be to work with a PNAR( ∞) model, but
+this solution comes at a cost: the simulation and likelihood computation for a sample of length Tis
+O(T2), and non-parametric estimation is effectively impossible because there is an infinite amount of
+coefficients to estimate. In this paper, we use the separability property of the exponential kernel to
+propose a Markov approximation of the PNAR( ∞) model which ensures the cost of simulation and
+likelihood computation is linear.
+The article is organised as follows: in Section 2 we introduce a general multivariate periodic Poisson
+autoregression, for which we distinguish two types of periodicity. Expanding the results proven in [9, 2],
+we give sufficient conditions for the stability of multivariate periodic autoregressions in Section 3. These
+are then applied to the periodic multivariate Poisson autoregression to yield upper bounds on the speed
+of convergence of the aforementioned process to its periodically stationary regime. In Section 4 we prove
+the continuity of the multivariate Poisson autoregression with respect to its kernel, which we then use
+alongside a density lemma to give a Markov approximation. Section 5 deals with inference for infinite
+memory autoregressions, in which we first show the strong consistency of the maximum likelihood
+estimator (MLE) for models with exponential polynomial kernels, and then empirically examine its
+performance for misspecified processes. In Section 6 we apply our model to the forecast of the weekly
+number of cases of Rotavirus in Berlin between 2001 and 2015, comparing it to the existing PNAR
+model introduced in [4].
+2 The model
+2.1 Notations
+Throughout this article, Z,NandN∗denote the sets integers, non-negative integers and positive
+integers, respectively. Superscripts are denoted between brackets to be distinguished from powers.
+Let (Nt(·))t∈N∗=
+N(1)
+t(·),···, N(d)
+t(·)
+t∈N∗be a family of independent and identically distributed
+(iid) unit intensity Poisson processes of dimension d, with F= (Ft)t∈N∗their associated filtration.
+More specifically, for a given X= (X(1),···, X(d))∈Rd
++,Nt(X) counts the number of points in
+[0, X(1)]× ··· × [0, X(d)]. Unlike [19] who use copula Poisson processes, we assume that the different
+components of Ntare independent. For two vectors X= (X(1),···, X(d)) and Y= (Y(1),···, Y(d)) in
+R+,|X|denotes the vector ( |X(1)|,···,|X(d)|) and ⪯denotes the partial order X⪯Y⇐⇒ X(i)≤
+Y(i)for all i= 1,···, d. The relation ⪯is naturally extended to matrices. The vector of Rdthat
+contains 1 in every component is denoted by 1. Let ψ:R7→R+be an L−Lipschitz function, assumed
+to be increasing. For X∈Rd, ψ(X) := 
+ψ(X(1)),···, ψ(X(d))
+. We refer to ψas the jump-rate
+function.
+In what follows, p∈N∗is a fixed period. When we say that a sequence ( ut)t∈Zis periodic, we mean
+ut+p=utfor all t∈Z.
+Our model describes a d−dimensional count time series ( Yt)t∈N, that is a time series that takes
+values in Nd. We assume that Yis measurable with respect to Fand we denote its filtration by FY.
+For the count series Y, the intensity ( λt)t∈Ndenotes λt=E
+YtFY
+t−1
+.
+We will now present autoregressive count series with two types of periodicity.
+2.2 Type I periodic Poisson autoregression
+Given an initial vector of counts Y0∈Nd, the multivariate Poisson autoregression is constructed
+recursively:
+
+Yt=Nt(λt),
+λt=ψ
+µt+Pt−1
+k=1ϕ(t)
+t−kYk
+=ψ
+µt+Pt−1
+k=1ϕ(t)
+kYt−kfort∈N∗, (2)
+3
+where ( µt)t∈Zis periodic family of baseline pre-intensities and ( ϕ(t)
+k)t∈Z,k∈N∗is a periodic (in t) family
+ofd×dmatrices that encodes the impact of the counts of lag kat time t, called the kernel . If the terms
+ofϕ(t)
+kare positive, a non-zero number of counts Yt−kincreases the sum in (2), resulting in an increase
+inλt+1,ceteris paribus , thus giving a higher likelihood of observing a non-zero vector of counts Yt+1.
+This means that the network is overall self-exciting. Similarly, if the kernel matrices have negative
+entries, the network becomes self-inhibiting overall. Writing (2) component-wise yields
+
+
+Y(i)
+t =N(i)
+t
+λ(i)
+t
+,
+λ(i)
+t =ψ
+µ(i)
+t+Pt−1
+k=1Pd
+j=1
+ϕ(t)
+t−k
+ijY(j)
+k
+=ψ
+µ(i)
+t+Pt−1
+k=1Pd
+j=1(ϕ(t)
+k)ijY(j)
+t−kfort∈N∗, (3)
+showing ( ϕ(t)
+k)ijquantifies the impact of node jon node iat time tat lag k. If (ϕ(t)
+k)ij= 0, then node
+jhas no direct impact on node i, although it can impact it indirectly via other nodes.
+The model can be seen as a non-linear, infinite memory and multivariate generalisation of the
+periodic INGARCH( p,0) process recently introduced by [16]. We refer the reader to [17] for a survey
+on periodic ARCH time series (in French).
+Throughout this article, we focus on the network setting, with a deterministic and constant neigh-
+bourhood structure. Based on continuous-valued network autoregressive networks models [30, 31],
+Armillotta and Fokianos introduced a network count autoregressive model [4] called the PNAR model.
+We deal here with a periodic and infinite memory extension of the aforementioned autoregression.
+We consider a network with a fixed adjacency matrix M= (mij)i,j=1,···,d, that is mij= 1 if there is
+a directed edge from node ito node j, and mij= 0 otherwise. We impose that a node is not connected
+to itself, that is mii= 0 for all i= 1,···, d. For a node i, the out-degree is defined as the total number
+of nodes that influence i, i.e. ni=Pd
+j=1mji. The Type I periodic network Poisson autoregression is
+given by(
+Y(i)
+t =N(i)
+t(λ(i)
+t)
+λ(i)
+t =ψ
+µ(i)
+t+Pt−1
+k=1α(t)
+t−kY(i)
+k+β(t)
+t−k1
+niPd
+j=1mijY(j)
+k,
+where ( α(t)
+k) and ( β(t)
+k), the momentum and network kernels, respectively, are scalar sequences that are
+periodic in t.
+To cast this autoregression in vector form, we define W= diag( n−1
+1,···, n−1
+d)Mto be the normalised
+adjacency matrix and take
+ϕ(t)
+t−k=α(t)
+t−kId+β(t)
+t−kW
+in (2). The model can be further extended to allow for the interaction with indirect neighbours
+(neighbours of neighbours and so on) following the work of [30]. We refer the reader to [32] for a recent
+survey on the different methods for network count time series.
+Note, the periodicity introduced in (2) is in the current time tand not the lag k. This is not the
+case for the Type II periodicity, which we now introduce.
+2.3 Type II periodic Poisson autoregression
+We now consider a model for which the season of the lagged counts is what matters in determining
+the effects on the autoregression. Given a first vector of counts Y0∈Nd, the multivariate Poisson
+autoregression is constructed recursively:
+
+
+Yt=Nt(λt),
+λt=ψ
+µt+Pt−1
+k=1ϕ(k)
+t−kYk
+=ψ
+µt+Pt−1
+k=1ϕ(t−k)
+kYt−kfort∈N. (4)
+As is the case for Type I seasonality, ( µt)t∈Zis a periodic family of baseline pre-intensities and
+(ϕ(t)
+k)t∈Z,k∈N∗is a periodic (in t) family of d×dmatrices. Unlike Type I periodicity, Type II pe-
+riodicity has not been thoroughly studied in the literature. However, the two types are still different.
+To illustrate the difference, we consider a 12-node network generated according to the Stochastic Block
+4
+Model (SBM) with two communities, the first containing 4 nodes and the second containing 8 nodes.
+The probabilities pijof a node from community iforming an edge with a node from community jare
+p11= 0.8,p22= 0.7 and p12=p21= 0.1. The kernels are
+(
+α(t)
+k= 0.38·1t=0 mod [4] +0.2·1t̸=0 mod [4]
+k2 1k≤10,
+β(t)
+k= 0.2e−3k(1 + cos( tπ/2)),(5)
+and baseline pre-intensity is µ= 0.4.
+A simulation of the Poisson autoregression with periodicity of Type I for the third node is given in
+Figure 1. Type II periodicity, on the other hand, means that the impact depends on the past seasons
+Figure 1: The counts drop significantly when tis not divisible by 4.
+rather than the current season, as illustrated in Figure 2. The two types of periodicity differ in the
+following way:
+1. For Type I periodicity, the network remembers its past and regresses on it now according to
+weights that depend on the current season.
+2. For Type II periodicity, the network remembers its past activity weighted by coefficients that
+depend the past seasons, then aggregates it.
+To the best of our knowledge, the difference between the two types of periodicity has not been explicitly
+studied in the literature. However, we point out that Maillard and Wintenberger [66] mentioned that
+their model of autoregression with random coefficients can either be applied to ϕ(t)
+t−k(analogous to
+Type I periodicity) or ϕ(k)
+t−k(analogous to Type II periodicity).
+Remark 2.1. We point out that we treat the intensity λtas the projection of the count variable Yton the
+σ−algebra FY
+t−1. However, since the knowledge of the underlying randomness Ft−1=σ(N1,···, Nt−1)
+yields the information on the counts FY
+t−1, we have that
+λt=E[Yt|Ft−1].
+Throughout the paper, we prefer conditioning on FY
+t−1as it contains the information of the last observed
+counts. However, when we deal with couplings from the same underlying randomness (cf. the next
+section), conditioning on Ft−1is preferred.
+3 Periodic stability of the model
+We seek to prove that both types of multivariate periodic Poisson autoregression converge to a period-
+ically stationary and periodically ergodic solution if they are started from an arbitrary point. Proving
+this result by the direct application of the contraction argument presented in [2] is not optimal for our
+model, and this is for two reasons:
+5
+Figure 2: The peak of the average number of counts no longer coincides with the
+instants t= 0 mod[4], but occurs right after. We can also see that it decreases
+more slowly from its peak than in the Type I periodicity.
+1. The Lipschitz condition (3.1) in the aforementioned reference is given with respect to a reference
+Orlicz norm on the Banach space, which can be too strong for autoregressions on Rd. Indeed, a
+sequence of matrices ( Ak)k∈Ncan satisfy ρ(P
+k≥1Ak)<1 while havingP
+k≥1∥Ak∥>1 for the
+usual operator norms.
+2. Since our iterations are periodic, the contraction should be verified on a period, which means that
+the Lipschitz condition should be obtained for piterations of the autoregression function.
+This is why we resort to proving the different results for the periodic finite memory multivariate
+autoregressions, which we then extend to the infinite memory setting.
+3.1 General results for periodic infinite memory autoregressions
+We study the periodic multivariate infinite autoregression
+Xt=ft(Xt−1, Xt−2,···;ζt), (6)
+where ( ft)t∈Zis a periodic sequence of functions from ( Rd)NtoRdand ( ζt)t∈Zis an independent and
+periodically distributed ( i.p.d) sequence of random variables defined on some measurable space E, that
+isζt+npd=ζtfor any t∈Zandn∈N.
+We seek to generalise the results proven in [9] in three directions: (i) the autoregression functions
+considered here are periodic; (ii) the autoregression can have infinite memory; (iii) the solution started
+at a random point is shown to converge towards the stationary regime with a given speed. To do so,
+we require the following stability assumptions.
+Assumption 3.1. There exists a family of nonnegative matrices (Ak)k∈N∗satisfying the inequality
+ρP+∞
+k=1Ak
+<1such that for all v= 1,···, pwe have
+E[|fv(x1, x2,···;ζv)−fv(x′
+1, x′
+2,···;ζv)|]⪯+∞X
+k=1Ak|xk−x′
+k|,
+for any (x1, x2,···)and(x′
+1, x′
+2,···)in(Rd)N. Furthermore, assume that
+E[|fv(0,0···;ζv)|]<+∞.
+We follow the proofs in [9], generalising them for the case of a periodic process with infinite memory.
+We start by proving periodic stationarity for the finite memory approximation. The m−truncated
+regression is defined by the equation
+X(m)
+t=ft
+X(m)
+t−1, X(m)
+t−2,···, X(m)
+t−mp,0,···;ζt
+. (7)
+6
+We now introduce a periodic multivariate contraction condition that depends on the order m.
+Assumption 3.2. There exists pfamilies of non-negative matrices (A(v)
+k)k∈N∗such that for all v=
+1,···, pwe have
+E
+|fv(x1, x2,···, xmp,0,···;ζv)−fv(x′
+1, x′
+2,···, x′
+mp,0,···;ζv)|
+⪯mpX
+k=1A(v)
+k|xk−x′
+k|.
+Forv= 1,···, p, let
+Γv=
+A(v)
+1A(v)
+2··· A(v)
+mp−1A(v)
+mp
+1 0 ··· 0 0
+...............
+0 0 ··· 1 0
+
+be the companion matrix of (A(v)
+k)k=1,···,mp. Assume that ρ(ΓpΓp−1···Γ1)<1.Furthermore, assume
+that
+E[|fv(0,0···;ζv)|]<+∞.
+Note that Assumption 3.1 is stronger than Assumption 3.2, in the sense that the first condition
+imposes that the function ftis contractive along every season, whereas the second only imposes that
+we have a contraction over a period; cf.[1] for a discussion about this condition in the context of a
+simpler autoregression.
+More rigorously, if Assumption 3.1 holds, then we have that for any given m∈N∗,ρ(Pmp
+k=1Ak)<1.
+Lemma 1 in [9] guarantees that ρ(ΓpΓp−1···Γ1) =ρ(Γp)<1 where
+Γ = Γ v=
+A1A2··· Amp−1Amp
+1 0 ··· 0 0
+...............
+0 0 ··· 1 0
+.
+Before proving the stability results for the finite memory approximation, we recall the definitions
+of periodic stationarity and periodic weak dependence. We say that the process ( Xt)t∈Zis periodically
+stationary (resp. periodically weakly dependent) if the seasonally embedded vector [7, 8]
+(Zn= (Xnp+p, Xnp+p−1,···, Xnp+1))n∈Z
+is stationary (resp. weakly dependent [14]) in the usual sense. In particular, periodic stationarity means
+that the distribution of ( Xt)np+pis invariant under any shift that is a multiple of the period p. We
+refer the reader to [6] for an in-depth discussion of those concepts.
+Proposition 3.3. Letm∈N∗and(ζ)t∈Zbe an i.p.d family of random variables. Under Assumption
+3.2, the regression (7)has a unique periodically stationary and periodically weakly dependent solution
+(˜X(m)
+t)t∈Z. Moreover, if for a given fixed history (x0, x−1,···), we set X(m)
+t=xt, for t≤0, and
+X(m)
+t=ft
+X(m)
+t−1, X(m)
+t−2,···, X(m)
+t−mp,0,···;ζt
+,fort >0,
+then there exists C >0andr∈(0,1)such that
+Eh
+|˜X(m)
+t−X(m)
+t|i
+⪯Crt,fort≥0.
+Proof. The proof can be found in Appendix A.1.
+The generalisation of the existence of a unique periodically stationary solution to (7) is established
+in the following theorem. We also prove, in the proposition that follows, along the lines of [2], that the
+process started from an arbitrary history will converge towards the periodically stationary solution.
+Theorem 3.4. Let(ζt)t∈Zbe an i.p.d. family of random variables and (ft)t∈Zbe a periodic sequence
+of functions from (Rd)NtoRdsatisfying Assumption 3.1. There exists a unique periodically stationary
+and periodically weakly dependent time series (˜Xt)t∈Zthat solves
+˜Xt=ft(˜Xt−1,˜Xt−2, . . .;ζt).
+7
+Proof. The proof can be found in Appendix A.2
+We now give an upper bound on the speed of decay of the distance between a solution started with
+a given history Xand the stationary regime ˜X. Throughout this section, ∗denotes the convolution
+product ( a∗b)t=Pt−1
+k=1akbt−kfor the nonnegative sequences of matrices ( ak) and ( bk) defined on N∗.
+By associativity, we can define recursively a∗1=aanda∗(n+1)=a∗a∗n. Given the matrix sequence
+(Ak)k∈N∗from Assumption 3.1, we define B=P
+n≥1A∗n, which is in ℓ1(N∗). We also define the matrix
+remainder sequence Ut=P+∞
+k=tAk, which clearly tends to zero as t→+∞. Set ( x0, x−1, x−2,···) to
+be a bounded sequence in Rdand define ( Xt)t∈Nrecursively by
+Xt=ft(Xt−1,···, X1, x0, x−1,···;ζt). (8)
+Proposition 3.5. Assume that 3.1 holds and let ˜Xbe the unique periodically stationary solution of
+(6). Let Xbe the solution of the regression (8)with a given bounded history (x0, x−1,···). We then
+have that for any t∈N
+Eh
+|Xt−˜Xt|i
+⪯ tX
+k=1BkUt−k!
+C− − − − →
+t→+∞0,
+where Cis a nonnegative constant vector. More specifically,
+•If for some β >0we have Ak=O(e−βk), then there exists a δ∈(0, β)such that
+Eh
+|˜Xt−Xt|i
+⪯Ce−δt,for all t∈N∗.
+•If for some β >0we have Ak=O(k−2(1+β)), then
+Eh
+|˜Xt−Xt|i
+⪯C
+t,for all t∈N∗.
+Proof. The proof can be found in Appendix A.3
+While Proposition 3.3 can be seen as a matrix-adapted generalisation of Proposition 3.1 in [2] to
+autoregressions with periodic coefficients, it also has the merit of providing more explicit upper bounds
+on the speed of convergence of the process started from a given initial history to its periodically
+stationary limit.
+This section concludes with a result on the almost sure vanishing of the difference between the
+periodically stationary trajectory and the trajectory started with an arbitrary history, provided that
+the kernel vanishes exponentially fast.
+Corollary 3.6. Assume that 3.1 holds and let ˜Xbe the unique periodically stationary solution of (6).
+LetXbe the solution of the regression (8)with a given bounded history (x0, x−1,···). Furthermore,
+assume that the for some β > 0we have that Ak=O(e−βk). Then, almost surely, there exists a
+constant C >0and a δ >0such that for all t∈N
+|˜Xt−Xt| ⪯Ce−δt.
+Proof. The proof can be found in Appendix A.4.
+3.2 Application to multivariate periodic Poisson autoregressions
+We now apply the results of Section 3.1 to give sufficient conditions for the existence of periodically
+stationary, ergodic and weakly dependent multivariate Poisson autoregressions. We prove that, if the
+kernel matrices of models (2) and (4) are bounded by sequences of matrices satisfying Assumption
+3.1 or 3.2, then the Poisson autoregression converges to its periodically stationary, ergodic and weakly
+dependent version. These periodically stationary, ergodic and weak dependent autoregressions are
+solutions of the autoregressions
+
+
+˜Yt=Nt
+˜λt
+,
+˜λt=ψ
+µt+Pt−1
+k=−∞ϕ(t)
+t−k˜Yk
+=ψ
+µt+P+∞
+k=1ϕ(t)
+k˜Yt−kfort∈Z, (9)
+8
+for Type I periodicity, and
+
+
+˜Yt=Nt
+˜λt
+,
+˜λt=ψ
+µt+Pt−1
+k=−∞ϕ(k)
+t−k˜Yk
+=ψ
+µt+P+∞
+k=1ϕ(t−k)
+k˜Yt−kfort∈Z, (10)
+for Type II periodicity. Note that we here use the same Poisson processes Nused for the construction
+of (2) and (4).
+We now state a sufficient stability condition for the periodic multivariate Poisson autoregression.
+Assumption 3.7. There exists a family of matrices (Ak)k∈N∗with non-negative coefficients satisfying
+L|ϕ(v)
+k| ⪯Akfor any v= 1,···, p, k ∈N∗and ρ +∞X
+k=1Ak!
+<1.
+This assumption is satisfied for instance if the kernel at each season ϕ(v)is an attenuation of a
+global kernel A,e.g.
+ϕ(v)
+k=sin(2πv/p)
+LAk.
+Proposition 3.8. Let(ϕ(t)
+k)t∈Z,k∈N∗be a family of kernel matrices periodic in tand let ψbe an
+L−Lipschitz non-negative jump-rate function. Assume that (Yt)t∈Nis a multivariate Poisson autore-
+gression that follows the recursion (2)or(4). If Assumption 3.7 holds, then
+1. Both equations (9)and(10)admit a unique solution (˜Y)t∈Zthat is strictly periodically stationary,
+ergodic and weakly dependent.
+2. For Yconstructed according to recursion (2)or(4)(that is, with an empty history), we have that
+E[|˜Yt−Yt|]− − − − →
+t→+∞0.
+More specifically, if (Ak)k∈N∗decays exponentially (respectively at a speed k−2(1+β)for some
+β >0) then the convergence happens at least at an exponential rate (respectively at least at the
+ratek−1).
+3. For any r≥1andt∈N∗, we have that E[Yr
+t]⪯Cwhere Cis a non-negative constant that does
+not depend on t.
+Proof. The proof can be found in Appendix A.5.
+The same proof can be used to deduce the convergence towards a periodic stationary and weakly
+dependent solution for the multivariate periodic Poisson autoregression with finite memory under the
+less restricting stability condition 3.2.
+Proposition 3.9. Given m∈N∗, let(ϕ(t)
+k)t∈Z,k∈{1,···,mp}be a family of kernel matrices periodic in t
+and let ψbe an L−Lipschitz non-negative jump-rate function. Assume that (Yt)t∈Nis a multivariate
+Poisson autoregression of Type I following recursion (2). For v∈ {1,···, p}, let
+Γv=
+|ϕ(v)
+1| |ϕ(v)
+2| ··· | ϕ(v)
+mp−1| |ϕ(v)
+mp|
+1 0 ··· 0 0
+...............
+0 0 ··· 1 0
+.
+Ifρ(Γ1···Γp)<1, then
+1. Equation (9)admits a unique solution (˜Y)t∈Zthat is strictly periodically stationary, ergodic and
+weakly dependent.
+2. For any r≥1andt∈N∗, we have that E[Yr
+t]⪯C, where Cis a non-negative constant that does
+not depend on t.
+9
+Assumption 3.7 is not optimal in two ways:
+1. It implies contraction along all seasons and not the weaker contraction over a period. For example,
+for the periodic INGARCH(1 ,1) model proposed in [1] — which is equivalent to a Type II periodic
+Poisson autoregression with an exponential kernel ϕ(t)
+k=νt+1e−k
+τas we shall see in Remark 4.2
+— the sufficient stability condition is
+Le−1
+τpY
+v=1(1 +νv)<1.
+Whereas, Assumption 3.7 would necessitate the stronger condition
+Le−1
+τ(1 +νv)<1,for all v= 1,···, p.
+2. Just like their continuous-time counterparts, Hawkes processes, the instability of Poisson au-
+toregressions stems from auto-/cross-excitation. Thus, assuming that ψis non decreasing, the
+negative values of ϕ(v)should not have an impact on the stability, and we expect that Assumption
+3.7 could be relaxed to a condition on the positive part ( ϕ(v))+rather than the absolute value
+|ϕ(v)|. This has been proven for Hawkes processes with ψ(x) = ( x)+in [33], using non-trivial
+renewal techniques.
+To illustrate the convergence results of Proposition 3.8, we simulate a linear Type II 4 −periodic Poisson
+autoregression (network of size d= 12) with kernels of the same form as (5). We compare the version
+with empty history (that is, following (2)) to the stationary solution (that is, following (9)). The
+trajectories are shown on Figure 3.
+Figure 3: The counts Ydiffer occasionally from the stationary solution ˜Yfort∈
+{0,···,7}but then the two become identical. Similarly, after a transitory period
+the curve E[Y(3)
+t] joins the strictly periodic curve E[˜Y(3)
+t].
+For our example, the kernel matrices are dominated by Ce−3kfor some positive matrix C, hence
+we expect that the difference between the empty history time series Yand its periodically stationary
+version ˜Ydecay at least exponentially fast. To illustrate this, we plot the logarithm of E|˜Yt−Yt|as a
+function of time on Figure 4.
+4 The universal Markov approximation of Poisson autoregres-
+sions
+In this section, we propose a universal Markov approximation of the periodic multivariate Poisson
+autoregression that is parametrically more parsimonious; this is particularly interesting for our model.
+For instance, if the regression involves mlags in the past, then the total number of coefficients of the
+regression matrices is d2mp, which can be too high. In the network setting ([4, 29]) we can reduce the
+10
+Figure 4: The linear decay of log E|˜Yt−Yt|. The empty history count process Y
+joins its periodically stationary version ˜Yexponentially fast. The expected value
+is approximated by averaging NMC= 2500 trajectories.
+number of interaction terms leading to a more parsimonious model. We seek here to find a way to
+reduce the lag min case the process has a long or infinite memory. We first prove continuity results
+on the kernel, which means that for two autoregression kernels that are close enough in some metric,
+the two resulting Poisson autoregressions are close.
+4.1 Continuity of the Poisson autoregression with respect to the kernels
+Let (ϕ(t)
+k)t∈Z,k∈N∗and ( ¯ϕ(t)
+k)t∈Z,k∈N∗be two matrix kernels such that
+max(|ϕ(t)
+k|,|¯ϕ(t)
+k|)⪯Ak,for any t∈ {1,···, p}andk∈N∗, (11)
+for a family of non-negative matrices satisfying the stability condition ρ
+LP
+k≥1Ak
+<1.
+We build two periodic multivariate Poisson autoregressions (of either Type I or Type II) ( Y)t∈Nand
+(¯Yt)t∈Nusing kernels ϕand¯ϕ, respectively. The two processes are constructed using the same underlying
+randomness, that is the same Poisson processes ( Nt)t∈Z. We now give a control on the distance between
+Yand¯Yas a function of the distance between ϕand¯ϕ.
+Proposition 4.1. Letψbe an L−Lipschitz non-negative function and (µt)t∈Nbe a periodic family of
+vectors in Rd. Let ϕand¯ϕbe two kernels satisfying (11) for a family of matrices (Ak)k∈N∗such that
+ρ
+LP
+k≥1Ak
+<1.
+Given a family Nof iid unit intensity Poisson processes:
+1. If Y(resp. ¯Y) is constructed according to equation (2)using kernel ϕ(resp. ¯ϕ), then for any
+t∈Nand any r≥1
+E1/r
+|Yt−¯Yt|r
+⪯C
+max
+v=1,···,p∥ϕ(v)−¯ϕ(v)∥11/r
+1.
+2. If Y(resp. ¯Y) is constructed according to equation (4)using kernel ϕ(resp. ¯ϕ), then for any
+t∈Nand any r≥1
+E1/r
+|Yt−¯Yt|
+⪯C pX
+v=1∥ϕ(v)−¯ϕ(v)∥1!1/r
+1,
+where Cis a positive constant that does not depend on t,∥ϕ(v)−¯ϕ(v)∥1=P
+k≥1|ϕ(v)
+k−¯ϕ(v)
+k|and1is
+thed−dimensional vector whose coefficients are 1.
+Proof. The proof can be found in Appendix A.6.
+11
+We point out that the constant vector Ccan be explicitly expressed in terms of
+I−LP
+k≥Ak
+,ψ
+and max v=1,···,pµv. We also point out that the result still holds for the strictly periodically stationary
+processes. We now propose the Poisson autoregression with an exponential polynomial as a universal
+approximation, but first, we study some of its properties.
+4.2 The Markov properties of the Poisson autoregression with an exponen-
+tial polynomial kernel
+To fix the ideas, we consider a linear Poisson autoregression with a constant baseline intensity and
+kernel, that is(
+Yt=Nt(λt)
+λt=µ+Pt−1
+k=1ϕt−kYk,(12)
+where µ∈Rd
++andϕis a family of non-negative matrices such that ρ(P
+k≥1ϕk)<1. Clearly, ( Yt)t∈Nis
+not a Markov chain in general, as the distribution of Ytdepends on the entire history until t−1. This
+is problematic for instance for the computation of the likelihood, which for a sequence of observation of
+length Twould cost O(T2) operations. A Markov approximation proposed in [18] based on the results
+proven in [2] would be the sequence ( Y(m)
+t,···, Y(m)
+t−m)t∈N, where
+(
+Y(m)
+t =Nt
+λ(m)
+t
+λ(m)
+t =µ+Pt−1
+k=t−mϕt−kY(m)
+k.
+The Markov property helps reduce the cost of computation of the likelihood to O(mT). As we saw in
+Proposition 4.1, to guarantee that such an approximation is good, one must ensure that the remainderP
+k>mϕkis small. In case the autoregression has a long memory, we would need a large m, that can
+be of order T, which does not lead to a significant reduction in the cost of computation.
+The alternative Markov approximation is based on the following observation: If the kernel is of the
+form
+ϕk=Ge−k
+τ,
+where Gis a non-negative matrix and τ >0, then the intensity of (12) can be expressed as
+λt=µ+t−1X
+k=1Ge−t−k
+τYk
+=µ+e−1
+τ t−2X
+k=1Ge−t−1−k
+τYk+GYt−1!
+= (1−e−1
+τ)µ+e−1
+τλt−1+e−1
+τGYt−1.
+Hence, if the kernel is a geometric sequence, then the vector ( Y, λ) is a standard Markov chain. This
+is exactly the linear multivariate count autoregression model studied in [19], and its stationarity and
+ergodicity are proven using standard Markov techniques on a perturbed approximation of the chain.
+This process is also a multivariate version of the INGARCH (1 ,1) model [20]. In fact, we have just
+proven that the INGARCH (1 ,1) process is identical to the INGARCH (+ ∞,0) with exponential
+regression coefficients.
+Remark 4.2. The linear periodic INGARCH (1,1)model introduced in [1] is equivalent to the Type II
+periodic Poisson autoregression with an exponential kernel. Indeed, if ϕ(t)
+k=νt+1e−k
+τthen
+λt=µ+t−1X
+k=1νk+1e−t−k
+τYk
+=µ+ 
+e−1
+τt−2X
+k=1νk+1e−t−1−k
+τYk+νte−1
+τYt−1!
+=µ(1−e−1
+τ) +e−1
+τλt−1+νte−1
+τYt−1.
+12
+We now show that the exponential polynomial kernels of the form
+ϕk=qX
+m=1G(m)e−mk
+τ,
+where ( G(m))m=1,···,qis a family of matrices, also imply that the time series are Markov, up to adding
+some auxiliary processes. In this case, the intensity is of the form
+λt=µ+t−1X
+k=1qX
+m=1G(m)e−mt−k
+τYk
+=µ+qX
+m=1G(m)t−1X
+k=1e−mt−k
+τYk
+=µ+qX
+m=1G(m)ξ(m)
+t,
+where ξ(m)
+t:=Pt−1
+k=1e−mt−k
+τYkis the m-th auxiliary process. As before, we have that
+ξ(m)
+t=e−m
+τ
+ξ(m)
+t−1+Yt−1
+,
+form∈ {1,···, q}andt >1. Hence, (12) is equivalent to
+(
+Yt =Nt
+µ+Pq
+m=1G(m)ξ(m)
+t
+ξ(m)
+t =e−m
+τξ(m)
+t−1+e−m
+τYt−1, m∈ {1,···, q},
+clearly implying that ( Y, ξ(1),···, ξ(q)) is a Markov chain. One of the advantages of the Markov property
+is that the cost of simulation and likelihood computation for a sample of length Tis of order O(qT),
+which in the case of q << T leads to a significant reduction in computation time. We now state our
+universal approximation result for periodic Poisson autoregressions with Markov chains.
+Theorem 4.3. Let(ϕ(t)
+k)t∈Z,k∈N∗be a family of matrix kernels satisfying the stability Assumption 3.7.
+Letτ >0be a fixed characteristic time and let ε >0.
+1. If Yis a multivariate Poisson autoregression of Type I periodicity given in (2), then there exists
+q∈N∗and a family of matrices (G(m)
+t)t∈Z,m=1,···,qperiodic in tsuch that
+E[|Yt−¯Yt|]⪯ε1,
+where (¯Y , ξ(1),···, ξ(q))is the Markov chain
+(¯Yt =Nt
+ψ
+µt+Pq
+m=1G(m)
+tξ(m)
+t
+ξ(m)
+t =e−2m+1
+τξ(m)
+t−1+e−2m+1
+τ¯Yt−1, m∈ {1,···, q}.
+2. If Yis a multivariate Poisson autoregression of Type II periodicity given in (4), then there exists
+q∈N∗and a family of matrices (J(m)
+t)t∈Z,m=1,···,qperiodic in tsuch that
+E[|Yt−¯Yt|]⪯ε1,
+where (¯Y , ζ(1), . . . , ζ(q))is the Markov chain
+(¯Yt =Nt
+ψ
+µt+Pq
+m=1ζ(m)
+t
+ζ(m)
+t =e−2m+1
+τζ(m)
+t−1+e−2m+1
+τJ(m)
+t−1¯Yt−1, m∈ {1,···, q}.
+The proof can be found in Appendix A.7.
+13
+Remark 4.4. In this paper, we approximate a given kernel family (ϕ(t)
+k)k∈N∗using a linear combination
+of odd powers of the exponentialPq
+m=1G(m)
+te−(2m+1)k
+τbecause of the proof of Lemma B.4. However, it
+is also possible to use a linear combination of the exponentialPq
+m=1G(m)
+te−(m)k
+τas an approximation
+as well.
+To illustrate the universality of the approximation, we simulate a Type I periodic linear univariate
+Poisson autoregression of kernel
+ϕ(t)
+k=(1t=2 mod[4] +1t=3 mod[4] )k1.5
+75(1 + (0 .2·k)3.5),
+which has a longer memory than the finite kernels or the exponential kernel due to the tail that vanishes
+likek−2.
+Figure 5 shows ϕ2(in blue). As we can see, the lag coefficients {3,···,7}have a significantly
+higher impact than the first two lag coefficients. Such an effect is impossible to capture with the
+exponential kernel (equivalently INGARCH (1 ,1) extensively studied in the literature). However, in
+real-life applications, the exponential kernel is not always the one that best fits the data. For instance,
+for Hawkes processes, that are continuous-time versions of Poisson autoregressions [22], it has been
+shown by Bessy-Roland et al. [21] that a cyber attack model driven by a Hawkes process with a kernel
+ϕ(s) =αse−βsfits the data better than a Hawkes process driven by a simple exponential. Before
+Figure 5: The ℓ1(N) approximation of ϕ2using q= 3 exponential functions with
+τ= 36, in orange.
+proceeding to the Poisson autoregressions, we state a couple of remarks on the ℓ1(N∗) approximation
+of kernels:
+Remark 4.5. 1. While in theory the exponential polynomials are dense in ℓ1(N∗)for any τ >0,
+some values of τwill perform better than others for a fixed number of exponentials q. Throughout
+this paper we use this method to select τ: We fix Tcas a cutoff time after which the past becomes
+negligible. We pick τ=3
+5Tcwhich ensures that all of the exponentials are below e−5att=Tc.
+In Figure 5, we chose Tc= 60 yielding τ= 36.
+2. Computing the best ℓ1(N∗)approximation can be done either by inverting the system that emerges
+from setting the gradient of the ℓ2(N∗)distance to zero (cf. Lemma B.3), or directly numerically.
+The approximation on Figure 5 is obtained by numerically minimising the ℓ1(N∗)using the method
+COBYLA inscipy.optimize.minimize .
+In Figure 6 we simulate a Type I periodic Poisson autoregression with kernel ϕ(in blue) as well as
+a trajectory with the same underlying randomness Nwith the kernel ¯ϕthat is the best approximation
+ofϕinℓ1(N∗) with q= 3 exponentials (in orange) and using the truncated kernel ˆϕ(t)
+k=ϕ(t)
+k1k≤3(in
+green). The approximation of Poisson autoregression of infinite order with finite order Markov chains
+using truncation has been proposed in [18]. We notice that while both ¯YandˆYcostO(3T) operations
+to simulate (compared to O(T2) for Y),¯Yapproximates Ysignificantly better than ˆY. For instance,
+14
+the cumulative count error for exponential polynomial approximation isP120
+k=1|Yk−¯Yk|= 9, whereas
+for the truncated kernelP120
+k=1|Yk−ˆYk|= 39.
+Figure 6: Upper: Simulation of the Poisson autoregression with the original kernel
+in blue, as well as its approximation using an exponential polynomial of order q= 3
+in orange and truncating at 3 regression coefficients. Lower: E[Yt],E[¯Yt] andE[ˆYt]
+in blue, orange and green respectively. Note how E[Yt] reaches its periodically-
+stationary regime slower than E[¯Yt] due to its heavier tail.
+Remark 4.6. To make the model more parsimonious, it is possible to parametrise the periodically
+varying coefficients by a linear combination of sine and cosine functions
+G(m)
+t=rX
+j=1γ(m)
+j+γ(m)′
+jsin2πt
+p
++γ(m)′′
+jcos2πt
+p
+.
+This reparametrisation is particularly interesting if 3r << p . One can, for instance, think of a model
+of daily count data with a yearly seasonality. In this case, p= 365 which can be significantly reduced if
+the bulk of each coefficient can be captured by a few trigonometric functions.
+5 Statistical inference
+The estimation of non-periodic multivariate count series has been studied in the literature using different
+methods: Likelihood maximisation (multivariate INGARCH(1 ,1) models [19, 24], PNAR( p) process
+[4]) conditional least squares (multivariate INAR( p) [48, 49, 60], we point that the last two view the
+count series as a proxy for Hawkes processes) and expectation maximisation [61], which has been shown
+to perform better than the former two methods in case the kernel is exponential.
+In this section, we study the parametric inference of the periodic Poisson autoregression with an
+exponential polynomial kernel using the maximum likelihood estimation (MLE). Given a sample of
+observations {Yt}t=1,···,pTofd−variate integer-valued vectors, the Poisson log-likelihood can be written
+as
+LT(θ) =1
+TpTX
+t=1dX
+i=1Y(i)
+tlogλ(i)
+t(θ)−λ(i)
+t(θ) (13)
+=1
+TpTX
+t=1dX
+i=1ℓ(i)
+t(θ),
+where θis a parameter to be estimated, see for instance [19] or [24]. In our case, we would like to
+estimate the baseline pre-intensities µvas well as the kernels ( ϕ(v)
+k)k∈N∗forv= 1,···, p, giving
+θ= (µ1,···, µv,(ϕ(1)
+k)k∈N∗,···,(ϕ(v)
+k)k∈N∗),
+15
+which is an infinite dimensional parameter. We focus on the Type I periodic Poisson autoregressions
+with an exponential polynomial kernel, that is
+
+
+Yt=Nt(λt),
+λt=ψ
+µt+Pt−1
+k=1Pq
+m=1G(m)
+te−mt−k
+τ
+Yk
+=ψ
+µt+Pt−1
+k=1Pq
+m=1G(m)
+te−mk
+τ
+Yt−kfort∈N,
+for a family of matrices G(m)
+tperiodic in tand a fixed time parameter τ >0. We point out that the
+Type II periodicity can be treated in a similar way, mutatis mutandis .
+5.1 Properties of the Markov maximum likelihood estimator
+In Section 4.2 we showed that the Poisson autoregression with exponential polynomial kernels can be
+represented as the Markov chain of order q
+(
+Yt =Nt
+ψ
+µt+Pq
+m=1G(m)
+tξ(m)
+t
+ξ(m)
+t =e−2m+1
+τξ(m)
+t−1+e−2m+1
+τYt−1, m∈ {1,···, q}.(14)
+Throughout this section, ˜Yand ˜ξdenote the counts and the auxiliary process in the periodically
+stationary regime. Yandξdenote the solutions with a fixed history, usually taken to be empty.
+The likelihood in the periodically stationary regime is denoted by ˜Land the likelihood of the solution
+with a fixed history is denoted by L.
+We remind the reader that due to the density of exponential polynomials in ℓ1(N∗) and the continuity
+of Poisson autoregressions with respect to the kernel, we will assume that the observed counts come from
+a Poisson autoregression with an exponential polynomial kernel. This will introduce a misspecification
+error in the estimation that we will examine empirically. To the best of our knowledge, Douc et al. [25]
+as well as Armillotta et al. [26] proved some results for misspecified MLE for the observation-driven
+(closely related to INGARCH(1,1)) count series, but the case of general Poisson autoregressions with
+infinite memory is yet to be thoroughly studied.
+In the well-specified case, we seek to estimate the baseline intensities ( µv)v=1,···,pas well as the
+regression matrices ( G(m)
+v)v=1,···,p. The jump rate function ψis supposed to be known, as well as the
+order q∈N∗and the time parameter τ >0. The reason for which we do not seek to estimate τstems
+from the density of exponential polynomials in ℓ1(N∗) for anygiven τ >0.
+For any v∈ {1,···, p}, the kernel ( ϕ(v)
+k)k∈N∗will be estimated via its parameters ( G(m)
+v)m=1,···,q.
+This will take us from an optimisation problem over the infinite dimensional space ( ℓ1(N∗))pd2to an
+optimisation problem over a finite dimensional space.
+Following the lines of [27], the parameter vector for the MLE associated with Equation (14) is
+formed by the concatenation of the parameters across all seasons, that is
+γ∗=
+µ1,···, µp, G(1)
+1,···, G(q)
+1,···, G(1)
+2,···, G(q)
+2,···, G(1)
+p,···, G(q)
+p
+∈Γ⊂Rp(1+d2q),(15)
+Γ here being a compact parameter space. For this process, the reparametrised Markov log-likelihood
+is of the form
+
+
+LT(γ) =PpT
+t=1Pd
+i=1˜Y(i)
+tlog
+ψ
+µ(i)
+t+Pq
+m=1G(m)
+tξ(m)
+t(i)
+−ψ
+µ(i)
+t+Pq
+m=1G(m)
+tξ(m)
+t(i)
+ξ(m)
+t= e−2m+1
+τ
+ξ(m)
+t−1+˜Yt−1
+, m∈ {1,···, q}
+ξ(m)
+0= 0 ,(16)
+and can be computed in a time of order O(qT), as opposed to O(T2) for a Poisson autoregression with
+a general kernel.
+The MLE is then defined as any measurable solution of
+γT= argmaxγ∈ΓLT(γ), (17)
+16
+where Lis the log likelihood defined in Equation (16) with an empty history. As we showed in Section
+3, the initial state of the process is asymptotically irrelevant provided the stability assumption is met.
+We now state the assumptions for the strong consistency of the MLE.
+Assumption 5.1. 1. Stationarity: (14) saisfies the stability Assumption 3.7 and has a periodically
+stationary and ergodic solution ˜Y.
+2. Positivity: There exists ε >0such that ψ(x)≥εfor all x∈R.
+3. Compactness: Γis a compact subset of Rp(1+d2q)and contains the true parameter γ∗.
+4. Identifiability: If for γandγ′we have ˜λv(γ) =˜λv(γ′)forv∈ {1,···, p},then γ=γ′.
+Building on the seminal work of Ahmad and Francq [28], we now prove the strong consistency of
+the MLE.
+Theorem 5.2. Assume that ˜Yis the unique periodically stationary solution of (14)and that Assump-
+tion 5.1 is in force. Then the MLE estimator defined by (17) satisfies
+lim
+T→+∞γT=γ∗,almost surely,
+and therefore, if we consider the reconstructed kernels ϕ(v)
+k,T=Pq
+m=1G(m)
+T,ve−mk
+τfor any v= 1,···, p
+we have
+lim
+T→+∞µv,T=µvand lim
+T→+∞ϕ(v)
+T=ϕ(v)inℓ1(N∗)
+almost surely.
+Proof. The proof can be found in Section A.8
+Type I periodicity allows for a factorisation of the log-likelihood, that is the possibility of writing
+LT(θ) as a sum of seasonal log-likelihoods L(v)
+T(θv) that depend only on the seasonal parameter θv.
+Indeed, by a change of counter in the sum in (16), we have
+LT(γ) =1
+TT−1X
+n=1pX
+v=1dX
+i=1˜Y(i)
+np+vlog
+ψ
+µ(i)
+np+v+ qX
+m=1G(m)
+np+vξ(m)
+np+v!(i)
+
+
+−ψ
+µ(i)
+np+v+ qX
+m=1G(m)
+np+vξ(m)
+np+v!(i)
+
+=1
+TpX
+v=1T−1X
+n=1dX
+i=1˜Y(i)
+np+vlog
+ψ
+µ(i)
+v+ qX
+m=1G(m)
+vξ(m)
+np+v!(i)
+
+
+−ψ
+µ(i)
+v+ qX
+m=1G(m)
+vξ(m)
+np+v!(i)
+
+=pX
+v=1L(v)
+T(γv),
+where γv= (µv, G(1)
+v,···, G(q)
+v). This means that the maximisation of Lcan be done by maximising
+each of the seasonal likelihoods
+γv,T= argmaxγv∈ΓvL(v)
+T(γv), v = 1,···, p,
+which is numerically more efficient than maximising L. This is the method we use for the numerical
+illustrations.
+To conclude this subsection, we point out that the likelihoods L(v)
+Thave another helpful character-
+istic, beyond their linear computational cost: If the jump-rate function ψis convex and its logarithm
+is concave, then L(v)
+Tis concave and thus has exactly one maximum on compacts. This is the case for
+instance for the linear autoregression ϕ(x) =xor for the softplus ψ(x) = ln(1 + ex).
+17
+5.2 Numerical illustrations
+Throughout this subsection, we consider a Type I periodic autoregression on a 12-node network, that
+is
+λt=ψ 
+µt+t−1X
+k=1(α(t)
+t−kI12+β(t)
+t−kW)Yk!
+,
+where Wis the normalised adjacency matrix, generated using the stochastic block model with two
+blocks.
+The jump rate is chosen to be ψ(x) = ln (1 + ex) + 0.01. This choice ensures that ψis Lipschitz
+continuous and bijective, hence ensuring identifiability in Assumption 5.1. The offset 0 .01 is there to
+guarantee the positivity, however, it comes at the price of the log-likelihood’s global concavity. The
+goal is to estimate, from data, the vector
+θ∗
+v= (µv,(α(v)
+k)k∈N∗,(β(v)
+k)k∈N∗),
+for all seasons v= 1,···, p. The momentum kernel αand the network kernel βwill be estimated
+parametrically, assuming that they are exponential polynomials:
+α(v)
+k=qX
+m=1a(v)
+me−(2m+1)
+τk,
+and
+β(v)
+k=qX
+m=1b(v)
+me−(2m+1)
+τk.
+Of course, if the data comes from kernels that are not exponential polynomials, then this will introduce
+a misspecification error. We examine it here, both in the case of light-tailed (at least exponentially fast
+decay) and heavy-tailed (slower than exponential decay) kernels.
+For all the following simulations, the Markov likelihood is maximised using the method BFGS in
+scipy.optimize.minimize . For the initial values, we take a(v)
+m=b(v)
+m= 0 for all v= 1,···, pand
+m= 1,···, qandµ(v)=ψ−1
+1
+TpdPTp
+k=1Pd
+j=1Y(j)
+k
+. The period is set to p= 7 and for the baseline
+pre-intensity we take µv=1v≤3.
+5.2.1 Estimation for the well specified model
+The kernels are chosen as
+α(v)
+k=
+e−3
+4k+ 0.5e−5
+4k−1.5e−7
+4k−2e−9
+4k1 + cos(2 πv/7)
+2,
+and
+β(v)
+k=
+1.5e−3
+4k+ 1.5e−5
+4k−4e−7
+4k−5e−9
+4k
+sin(2πv/7),
+giving ( a(v)
+1, a(v)
+2, a(v)
+3, a(v)
+4) = (1 ,1
+2,−3
+2,−2)·1
+2(1 + cos(2 πv/7)) and ( b(v)
+1, b(v)
+2, b(v)
+3, b(v)
+4) = (3
+2,3
+2,−4,−5)·
+sin(2πv/7). The correct order q= 4 and characteristic time τ= 4 are assumed known. The aforemen-
+tioned maximum likelihood estimator is applied for T= 200 periods, over NMC= 40 simulations, each
+time yielding an estimate (ˆ µv,ˆa(v)
+1,···,ˆa(v)
+4,ˆb(v)
+1,···,ˆb(v)
+4). The results for µare reported in Figure 7.
+For the kernels, given the NMC= 40 simulations, we plot in Figure 8 the reconstructed ˆ αandˆβfrom
+the estimated coefficients ˆ aandˆb. We also plot the reconstructed kernels using the average coefficients
+N−1
+MCPNMC
+n=1(ˆa(v)
+m)nandN−1
+MCPNMC
+n=1(ˆb(v)
+m)n.
+In the well-specified case, we notice that the average reconstructed kernel fits the ground truth
+trajectory very well. Furthermore, the trajectory that is reconstructed at every simulation captures
+the overall appearance of αandβ: almost every green curve has the same overall effect (excita-
+tion/inhibition) at a similar order of magnitude as the corresponding blue trajectory. The non-
+instantaneous excitation/inhibition seems to be well captured as well.
+We point out that despite the closeness between the estimated kernels (ˆ α,ˆβ) and true kernels ( α, β),
+the estimated coefficients (ˆ a,ˆb) are very different from the ground truth ( a, b). For instance, for the 7-th
+18
+Figure 7: A boxplot of the baseline pre-intensities. The average val-
+ues are (0 .97,1.00,0.97,0.03,0.00,−0.06,0.00) and the standard deviations are
+(0.19,0.14,0.21,0.22,0.21,0.19,0.19).
+Ground truth b7-1.17 -1.17 3.13 3.9
+Average ˆb7-0.81 -4.6 12 -2.85
+Standard deviation ˆb73.1 35.7 114.5 105.4
+Table 1: Estimation results for the 7th season.
+season we have the results reported in Table 1. This means that even though the MLE is theoretically
+identifiable in the coefficients aandb, it is weakly identifiable in practice. This is because two very
+different sets of coefficients bandb′can still produce two close kernels βandβ′. This weakness is not
+an issue as the MLE is strongly identifiable in αandβ, which are the quantities that matter.
+5.2.2 Estimation for the misspecified light-tailed model
+We now examine the effect of estimating a Type I network Poisson autoregression with kernels that are
+not exponential polynomials by maximising the Markov likelihood (16) for a fixed characteristic time
+τ >0 and order q∈N∗. The considered kernels in this section are light-tailed, that is they vanish at
+least exponentially fast. For example, the momentum kernel is taken
+α(v)
+k= (k−1)(k−2)(k−3)e−k1 + cos(2 πv/7)
+2,
+and the network kernel
+β(v)
+k= cos(5( k−1))e−0.1(k−1)2
+6sin(2πv/7).
+Clearly, we no longer have ground truth coefficients ( a(v)
+q) and ( b(v)
+q), nor a ground truth characteristic
+time τnor an order q.
+Assuming that we have the prior knowledge that the network “forgets” its state after one period
+that is Tc=p= 7, we choose the characteristic time to be τ= 73
+5≃4, in accordance with Remark
+4.5. The order of the Markov approximation is chosen q= 4, that is, we maximise the likelihood as if
+αandβwere exponential polynomials of order 4.
+As with the previous subsection, we sample NMC= 40 simulations of Type I periodic network
+Poisson autoregression over T= 200 periods. The results for the baseline pre-intensities µ(v)are
+reported as boxplots in Figure 9.
+Unlike the pre-intensities that are estimated for the well specified case reported in Figure 7, it
+seems that for ill-specified case the ˆ µ(v)are slightly overestimated. We believe that this overestimation
+19
+Figure 8: The MLE results in the well specified case, with the known characteristic
+time τ= 4 and order = 4. In blue: the ground truth kernels αandβ. In green:
+theNMCreconstructed trajectories for each MLE. In orange: The average recon-
+structed kernels which are obtained using the coefficients N−1
+MCPNMC
+n=1(ˆa(v)
+m)nand
+N−1
+MCPNMC
+n=1(ˆb(v)
+m)n.
+Figure 9: The estimated baseline pre-intensities. The average val-
+ues are (1 .11,1.10,1.02,0.04,0.01,0.10,0.08) and the standard deviations are
+(0.18,0.18,0.24,0.22,0.22,0.20,0.22).
+is there to compensate an underestimation in the self-excitation caused by the momentum kernel, as
+it is shown in Figure 10.
+We notice that for the momentum kernel α, the average estimated kernel decays slightly faster
+than α. This underestimation is believed to stem from our choice of the characteristic time τ= 4
+(corresponding to Tc≃7): The true network seems to regress on its past values until Tc≃15.
+However, despite this discrepancy in the characteristic time, the kernels α(v)seem to be well captured
+by the approximation.
+As for the network kernels β, we notice that the variance is higher than for αor the kernels in the
+well-specified case. We believe that this is the case because q= 4 decaying exponentials cannot easily
+capture the high non-monotonicity induced by the term cos(5( k−1)). We now examine the effect of
+changing the characteristic time to τ= 8 which allows for a longer memory and of increasing the order
+toq= 6. For the baseline pre-intensities, as shown in Figure 11, we notice that they are no longer
+overestimated.
+The momentum kernels are also better captured with the more adapted choice τ= 8, as illustrated
+on Figure 12. However, we notice that the estimation of the network kernels βhas a higher variance.
+20
+Figure 10: The characteristic time is τ= 4 and the order is q= 4. In blue: the
+ground truth kernels αandβ. In green: the NMCreconstructed trajectories for
+each MLE. In orange: The average reconstructed kernels which are obtained using
+the coefficients N−1
+MCPNMC
+n=1(ˆa(v)
+m)nandN−1
+MCPNMC
+n=1(ˆb(v)
+m)n.
+Figure 11: The MLE no longer overestimates the baseline intensities. The average
+values are (1 .06,0.98,0.97,0.01,0.01,0.03,−0.05) and the standard deviations are
+(0.29,0.28,0.26,0.26,0.24,0.24,0.23).
+This could be due to fact that τ= 8 yields an exponential that vanishes too slowly compared to β’s
+extinction time ( Tc≃15vs.Tc≃5). The average kernel (lower panel, in orange) still captures the
+shape of the ground truth kernel quite well.
+5.2.3 Estimation for the misspecified heavy-tailed model
+Heavy-tailed kernels are any element of ℓ1(N∗) whose decay is slower than that of an exponential, e.g.
+power law tails. Poisson autoregressions with heavy tails do not reach their periodically stationary
+regime as fast as autoregressions with light tails, as illustrated in Figure 6. This should yield a priori
+a larger misspecification error with the Markov MLE. We now examine the performance numerically,
+with a momentum kernel taken as
+α(v)
+k=k1.6
+6(1 + 0 .2k3.6)1 + cos(2 πv/7)
+2,
+and
+β(v)
+k=e−1.5√k−1k(arctan( k−1.5)−0.5)
+5sin(2πv/7).
+21
+Figure 12: The characteristic time is now τ= 8 and the order has been increased to
+q= 6. In blue: the ground truth kernels αandβ. In green: the NMCreconstructed
+trajectories for each MLE. In orange: The average reconstructed kernels which are
+obtained using the coefficients N−1
+MCPNMC
+n=1(ˆa(v)
+m)nandN−1
+MCPNMC
+n=1(ˆb(v)
+m)n.
+The Markov log-likelihood is maximised with a characteristic time τ= 8 and an order q= 6. The
+estimation results for the baseline pre-intensities are reported in Figure 13.
+Figure 13: The estimated baseline pre-intensities. The average values
+are (1 .08,1.11,1.07,0.02,−0.04,−0.06,0.09) and the standard deviations are
+(0.20,0.30,0.31,0.32,0.29,0.30,0.27).
+As for the momentum and network kernels, the results are presented in Figure 14. The Markov MLE
+seems to perform well on the heavy-tailed kernels as well, managing to capture both the baseline pre-
+intensities and the kernels. We notice however that the variance is higher than that of the well-specified
+or the misspecified light-tailed estimations. This is to be expected, as the heavy-tailed processes reach
+their periodically stationary distribution considerably slower than the aforementioned two models.
+Indeed, as it is shown in Figure , increasing the time horizon from T= 200 to T= 400 leads to green
+curves that are more concentrated around the ground truth kernels
+6 Rotavirus data analysis
+We now consider weekly cases of Rotavirus among children in Berlin between 2001 and 2015, a time
+interval of T= 732 weeks in d= 12 districts. The original data set covers the entire country of Germany
+(412 districts) and was obtained from https://github.com/ostojanovic/BSTIM . We will first fit both
+22
+Figure 14: The characteristic time is τ= 8 and the order is q= 6. In blue: the
+ground truth kernels αandβ. In green: the NMCreconstructed trajectories for
+each MLE. In orange: The average reconstructed kernels which are obtained using
+the coefficients N−1
+MCPNMC
+n=1(ˆa(v)
+m)nandN−1
+MCPNMC
+n=1(ˆb(v)
+m)n.
+Figure 15: Increasing the time horizon from T= 200 to T= 400 leads to a
+visible reduction in the variance. In blue: the ground truth kernels αandβ. In
+green: the NMCreconstructed trajectories for each MLE. In orange: The average
+reconstructed kernels which are obtained using the coefficients N−1
+MCPNMC
+n=1(ˆa(v)
+m)n
+andN−1
+MCPNMC
+n=1(ˆb(v)
+m)n.
+our seasonal Markov model of order 1 and a PNAR(1) model using likelihood maximisation in the first
+11 years (573 weeks, roughly 80% of the data) and compare both values of the Bayes Information
+Criterion (BIC). Then we use both models to forecast the weekly number of cases of Rotavirus for each
+of the 12 districts and compare how they perform compared to each other.
+6.1 Model comparison
+Throughout this section, we only consider linear Poisson autoregressions, that is, ψ(x) =x. Linearity
+ensures that quantities such as the expected value are exactly computable, but comes at the price of
+not allowing self/mutual inhibition. This is not a problem, as contagious viruses tend to trigger more
+cases rather than surpress them.
+The neigbourhood structure is straighforward; two nodes ( i.e.districts) have an edge between them
+if the corresponding districts share a border. This gives us the column-normalised weighted adjacency
+matrix W.
+23
+Figure 16: Left: A map of Berlin taken from https://d-maps.com . Right: Weekly
+number of Rotavirus cases in the Mitte district.
+Since diseases tend to be seasonal, the model we propose is
+(
+Yt=Nt 
+µt+ (a(t)I12+b(t)W)ξt
+,
+ξt=e−3
+τ(ξt−1+Yt−1),(18)
+where µtis a vector of dimension 12 corresponding to each district’s baseline intensity whereas a(t)
+andb(t)are scalar sequences encoding the momentum and network effects. All of the sequences are
+p−periodic ( pwill be determined later) and for the sake of parsimony will be parametrised
+
+
+µt=µ+µ′sin
+2πt
+p
++µ′′cos
+2πt
+p
+,
+a(t)=a+a′sin
+2πt
+p
++a′′cos
+2πt
+p
+,
+b(t)=b+b′sin
+2πt
+p
++b′′cos
+2πt
+p
+.
+Regarding the choice of the period p, a simple choice would be fixing p= 52∈N∗. However, a year
+will always have slightly more than 52 weeks, we therefore choose p= 52.18≃365.25/7. While the
+fact that pis no longer integer means that the model is no longer within the framework of periodic
+Poisson autoregressions studied in the previous sections, we still study it empirically. We fit the model
+by maximising the likelihood in the variables ( µ, µ′, µ′′, a, a′, a′′, b, b′, b′′) nevertheless. When it comes
+to the decay parameter τ, we assume that the bulk of infection (95%) happens within 3 weeks. Hence,
+we perform our analysis with τ= 3 weeks.
+As a first comparison with the PNAR(1) model introduced in [4]
+(
+Yt=Nt(λt),
+λt=µ+ (aI12+bW)Yt−1,(19)
+we compute the BIC values after maximising the likelihood using the SLSQP method of optimisation
+under Python. The values computed over the first t= 573 weeks are reported in Table 2.
+Our model (18) -16861.78
+PNAR(1) (19) -16159.77
+Table 2: Comparison of the BIC values for our model (18) and the PNAR(1)
+model, see (19).
+24
+6.2 Forecasting
+Throughout this section, we compare the forecasting performance of our model to the PNAR process.
+For both models, the predictor of the number of cases at time t+iknows the history until time t.
+We point out that for both models, including in the non-linear case, the one-step prediction can be
+explicitly computed as
+E[Yt+1|FY
+t] =λt+1=ψ 
+µt+1+tX
+k=1ϕ(t)
+t+1−kYk!
+,
+where
+ϕ(t)
+k
+k∈N∗does not depend on tand only takes qvalues for the PNAR( q) models.
+For the linear case, the higher order conditional expected values can be computed recursively.
+Indeed, for a given j >1, we have, using the tower property of the conditional expectation
+E[Yt+j|FY
+t] =E
+E[Yt+j|FY
+t+j−1]|FY
+t
+=E"
+µt+j+t+jX
+k=1ϕ(t+j)
+t+j−kYkFY
+t#
+=µt+j+tX
+k=1ϕ(t+j)
+t+j−kYk+t+jX
+k=t+1ϕ(t+j)
+t+j−kE[Yk|FY
+t].
+The conditional value will play the role of our predictor in this section.
+After fitting both our model (18) and PNAR(1) (19) by maximising the likelihood over the first t= 573
+weeks ( ≃80% of the data), we forecast the next h >1 steps ahead. Once that time is reached, we
+repeat the same procedure, until we reach the last time T= 732. More concretely, the predictor writes
+ˆYt+j=Eh
+Yt+j|FY
+t+⌊j/h⌋hi
+.
+The performance is measured by evaluating the Root Mean Square Error (RMSE) for each district i
+RMSE(i)=
+1
+T−tT−tX
+j=1ˆY(i)
+t+j−Y(i)
+t+j2
+1/2
+.
+The performance of the two models is thus compared by comparing their respective RMSE for each
+district.
+To determine whether the difference is statistically significant, we deploy the Diebold-Mariano
+(DM) test [65], which establishes whether the null hypothesis of equal forecasting performance can be
+confidently rejected. The DM test is run using the Python code found here https://github.com/
+johntwk/Diebold-Mariano-Test . The obtained p−values are then adjusted using the Benjamini-
+Hochberg (BH) procedure.
+6.2.1 Short term forecasting
+We seek to predict the weekly number of Rotavirus cases in each district of Berlin over a horizon of
+h= 4 weeks. Over this relatively short period (roughly one month), the seasonality is not expected to
+be very pronounced. For both our model and the PNAR (1) model, the RMSE values for each district
+are reported in Table 3. We also report the value of the DM test and the BH adjusted p−values. The
+adjusted p−values below the confidence level of 5% are given in bold.
+We notice that the RMSE values are lower for our model in all districts except for Mitte and
+Tempelhof-Sch¨ oneberg. This advantage is not sufficient to reject the hypothesis of equal forecasting
+performance.
+6.2.2 Long term forecasting
+We now forecast the weekly number of cases over the longer horizon of h= 13 weeks (roughly three
+months). It is expected for the seasonality to be more marked over such a longer horizon. The
+25
+District RMSE (18) RMSE (19) DM value Adjusted p−value
+Mitte 2.71 2.62 0.66 0.552
+Friedrichshain-Kreuzberg 1.70 1.91 -0.91 0.482
+Pankow 7.31 7.48 -2.14 0.133
+Charlottenburg-Wilmersdorf 4.09 4.32 -1.16 0.372
+Spandau 2.72 2.89 -1.60 0.250
+Steglitz-Zehlendorf 4.84 5.07 -1.54 0.250
+Tempelhof-Sch¨ oneberg 2.66 2.60 0.70 0.552
+Neuk¨ olln 2.90 3.08 -1.16 0.372
+Treptow-K¨ openick 3.24 3.70 -1.95 0.158
+Marzahn-Hellersdorf 2.34 3.44 -2.93 0.046
+Lichtenberg 2.06 2.64 -2.39 0.108
+Reinickendorf 1.69 1.74 -0.46 0.645
+Table 3: Results from predicting the weekly number of Rotavirus cases in each
+district of Berlin over a horizon of h= 4 weeks. The first and second columns
+present the RMSE values for each district for our model and the PNAR (1) model,
+respectively. The remaining columns present the values of the DM test and the BH
+adjusted p−values.
+numerical values are reported in the Table 4. The values given in bold are the adjusted p−values below
+the confidence level of 5%. The underlined value corresponds to the only district (Mitte) in which the
+PNAR(1) model predicts the weekly number of cases significantly better than our model.
+We can then conclude that our model (18) performs significantly better than the PNAR(1) process
+in 5 of the 12 districts and that it performs significantly worse in the Mitte district. For the remaining
+6 districts, the null hypothesis of equal prediction performance cannot be rejected. That being said, in
+5 of them, our model has a smaller RMSE than the PNAR(1) model.
+As a final illustration, we show the performance of the predictions based on our model and on a
+PNAR(1) dynamics, in Mitte and Lichtenberg.
+(a) Mitte.
+ (b) Lichtenberg.
+Figure 17: Weekly predicted number of cases on a horizon of 13 weeks. For Mitte,
+seasonality seems to hinder accurate prediction because of some lag in the real
+cases compared to past seasons. For Lichtenberg, seasonality considerably enhances
+prediction’s accuracy .
+26
+District RMSE (18) RMSE (19) DM value Adjusted p−value
+Mitte 3.67 2.89 2.91 1.23·10−2
+Friedrichshain-Kreuzberg 2.57 2.43 0.62 0.707
+Pankow 6.74 7.12 -2.76 1.55·10−2
+Charlottenburg-Wilmersdorf 4.09 4.70 -1.86 0.096
+Spandau 2.99 3.07 -0.31 0.763
+Steglitz-Zehlendorf 5.63 6.66 -3.28 0.51·10−2
+Tempelhof-Sch¨ oneberg 3.24 3.60 -2.19 5 .03·10−2
+Neuk¨ olln 2.62 3.56 -3.63 0.23·10−2
+Treptow-K¨ openick 5.93 6.00 -0.41 0.763
+Marzahn-Hellersdorf 2.55 3.07 -2.59 2.05·10−2
+Lichtenberg 2.52 3.27 -4.64 5.8·10−5
+Reinickendorf 2.43 2.49 -0.30 0.763
+Table 4: Results from predicting the weekly number of Rotavirus cases in each
+district of Berlin over a horizon of h= 13 weeks. The first and second columns
+present the RMSE values for each district for our model and the PNAR (1) model,
+respectively. The remaining columns present the values of the DM test and the BH
+adjusted p−values.
+7 Conclusion
+In this article, we studied two types of periodic network autoregressions, for which we gave sufficient
+stability conditions as well as bounds on the speed of convergence to their periodically stationary
+regimes. Furthermore, we proved that the infinite memory process admits a Markov approximation
+that reduces the simulation and inference cost from quadratic to linear. The empirical study shows
+that such an approximation is robust when it comes to inference, even if the original dynamics have
+a heavy tail. We believe that there is still room for improvement for the different results presented in
+this paper, especially in two areas:
+1. By relaxing the stability Assumption 3.7 in case the kernel has infinite memory to a “contraction
+over a period” condition rather than a “contraction along every season”, or by proving a condition
+on the positive part of the kernel rather than its absolute value.
+2. By providing guarantees on the convergence of the MLE for the misspecified case.
+These results can naturally be extended to the “risk” network autoregression, which is more adapted
+to insurance problems. Indeed, if instead of simply counting events we can aggregate the “losses” from
+them
+R(i)
+t=Y(i)
+tX
+n=1Q(i,n)
+t
+where Qi,n
+tare an iidfamily of random variables of common distribution κthat play the role of an
+insurance claim. The stochastic intensity can also depend on the “severity” of the claims:
+λt=ψ 
+µt+t−1X
+k=1(α(t)
+t−kId+β(t)
+t−kW)Rk!
+.
+The stability condition becomes LE[Q]ρP
+k≥1max v=1,···,p(|α(v)
+k|Id+|β(v)
+k|W)
+<1 and the periodic
+stationarity results as well as those of the Markov approximation generalise naturally. The model can
+also be extended to include exogenous noise whether of discrete or continuous nature, simply by adding
+an extra term to the intensity’s expression, for example
+λt=ψ 
+µt+t−1X
+k=1(α(t)
+t−kId+β(t)
+t−kW)(Rk+σXk)!
+,
+27
+where ( Xk)k∈N∗is an iidfamily of standard Gaussian or Poisson variables.
+Finally, we notice that the field of continuous time periodic stochastic processes remains relatively
+explored ( cf.[62] for periodic trawl processes and [64] for periodically forced Markov processes). It
+might then be worthwhile to use the periodic Poisson autoregression presented in this paper as a way
+of constructing a periodic Hawkes process ( Ht)t∈Rof intensity
+λt=ψ
+µt+Zt−
+−∞ϕ(t, t−s)dHs
+for Type I periodicity and
+λt=ψ
+µt+Zt−
+−∞ϕ(s, t−s)dHs
+for Type II periodicity, ϕhere being a function that is pperiodic in its first argument.
+Acknowlegement
+The authors wish to thank Abdelhakim Aknouche, Olivier Wintenberger and Wei Wu for their useful
+suggestions. This work was supported by the EPSRC NeST Programme grant EP/X002195/1.
+Authors contribution statement using the CRediT classification:
+Mahmoud Khabou: Conceptualization, Data Curation, Formal Analysis, Investigation, Methodology,
+Software, Writing – Original Draft Preparation; Ed Cohen: Conceptualization, Funding Acquisition,
+Methodology, Supervision, Writing – Review & Editing; Almut Veraart: Conceptualization, Funding
+Acquisition, Methodology, Supervision, Writing – Review & Editing. All authors read and approved
+the final manuscript.
+A Proofs
+A.1 Proof of Proposition 3.3
+The proof relies on showing that (7) is a contraction on average over a period, which yields the existence
+and uniqueness of a stationary solution. Following the steps of [9], we start by introducing the random
+map from Rmpto itself
+Ft: (x1, x2,···, xmp)7→(ft(x1, x2,···, xmp,0,···;ζt), x1,···, xmp−1)
+for any v∈ {1,···, p}. Clearly, Ftis periodic in distribution and for any v= 1,···, p
+EhFv(x1,···, xmp)−Fv(x′
+1,···, x′
+mp)i
+⪯Γv(x1,···, xmp)−(x′
+1,···, x′
+mp),
+where the matrices Γ 1,···,Γpare given in Assumption 3.2. For n∈Z, let
+Un= 
+Xnp, X(n−1)p+p−1,···, X(n−m)p+1
+be the concatenation of mconsecutive seasons. This process satisfies
+Un+1=G(Un),
+where G=Fp◦Fp−1◦ ··· ◦ F1. Given two histories u= (x1, x2,···, xmp) and u′= (x′
+1, x′
+2,···, x′
+mp),
+we have that
+E[|G(u)−G(u′)|] =E
+Eζ1,···,ζp
+|Fp(Fp−1◦ ··· ◦ F1(u))−Fp(Fp−1◦ ··· ◦ F1(u′))|
+⪯ΓpE[Fp−1◦ ··· ◦ F1(u)−Fp−1◦ ··· ◦ F1(u′)],
+Repeating the same conditioning and bounding from above yields
+E[|G(u)−G(u′)|]⪯(Γp···Γ1)|u−u′|
+28
+where the product of the matrix Γ p···Γ1has a spectral radius strictly smaller than 1. Using Gelfand’s
+formula there exists ¯ ρ∈(0,1) and q∈Nsuch that
+E∥Gn(u)−Gn(u′)∥1≤¯ρn∥u−u′∥1 (20)
+whenever n≥q. Using Theorem 2 in [11] we conclude regarding the existence and weak dependence
+of a stationary process ( Un)n∈Z. Indeed, using the coupling argument of [14], the weak dependence
+coefficient τnis bounded from above by C¯ρnfor some positive constant C. The uniqueness and
+exponentially fast convergence towards the stationary solution are deduced from Theorem 2.6.1 in [15].
+A.2 Proof of Theorem 3.4
+First, we fix an ipd(independent and periodically distributed) sequence of innovations ( ζt)t∈Z, that is,
+an independent sequence such that ζt+phas the same distribution as ζt, for all t∈Z. Let q≥mbe
+two positive integers and let ˜X(m)and ˜X(q)be the periodically stationary solutions of
+˜X(m)
+t=ft(˜X(m)
+t−1,˜X(m)
+t−2, . . . , ˜X(m)
+t−mp,0,···;ζt)
+and
+˜X(q)
+t=ft(˜X(q)
+t−1,˜X(q)
+t−2, . . . , ˜X(q)
+t−qp,0,···;ζt),
+respectively. The existence of both of these processes is given by Proposition 3.3. Assumption 3.1
+yields that for any t∈Z
+Eh
+|˜X(m)
+t−˜X(q)
+t|i
+=Eh
+|ft(˜X(m)
+t−1,˜X(m)
+t−2, . . . , ˜X(m)
+t−mp,0,···;ζt)−ft(˜X(q)
+t−1,˜X(q)
+t−2, . . . , ˜X(q)
+t−qp,0,···;ζt)|i
+=Eh
+Et−1|ft(˜X(m)
+t−1,˜X(m)
+t−2, . . . , ˜X(m)
+t−mp,0,···;ζt)−ft(˜X(q)
+t−1,˜X(q)
+t−2, . . . , ˜X(q)
+t−qp,0,···;ζt)|i
+⪯mpX
+k=1AkE|˜X(m)
+t−k−˜X(p)
+t−k|+qpX
+k=mp+1AkE|˜X(q)
+t−k|. (21)
+Since ˜X(q)is periodic stationary, there exists 0 ⪯Cqsuch that E|˜X(q)
+t| ⪯Cqfor any t∈Zand
+E|˜X(q)
+v| ⪯E|ft(˜X(q)
+v−1,···,˜X(q)
+v−qp,0,···;ζ0)−ft(0,···;ζ0)|+E|fv(0,···;ζv)|
+⪯qpX
+k=1AkE|˜X(q)
+v−k|+ max
+i=1,···pE|fi(0,···;ζi)|
+⪯+∞X
+k=1AkCq+|b|,
+where |b|= max i=1,···pE|fi(0,···;ζi)|. Thus, the upper bound Cqsatisfies
+(I−SA)Cq⪯ |b|,
+with SA=P+∞
+k=1Ak, a non-negative matrix with spectral radius strictly less than 1. The inverse of
+(I−SA) isP+∞
+i=0S(i)
+Awhich is non-negative as well, hence multiplying by it does not change the sign
+of the inequality and we have that for any t∈Zandq∈N
+E|X(q)
+t| ⪯Cq⪯(I−SA)−1|b|. (22)
+Combining Inequalities (21) and (22) yields
+Eh
+|˜X(m)
+t−˜X(q)
+t|i
+⪯+∞X
+k=1AkE|˜X(m)
+t−k−˜X(p)
+t−k|+qpX
+k=mp+1Ak(I−SA)−1|b|,
+which combined with Lemma B.2 yields
+E|˜X(m)
+t−˜X(q)
+t| ⪯(I−SA)−1
+qpX
+k=mp+1Ak
+(I−SA)−1|b|.
+29
+The sequence ( ˜X(m))m∈Nis thus a Cauchy sequence in the Banach space L1, which means that it
+admits a unique limit ˜X. Using the same arguments from Section 5.3 in [2], we conclude regarding the
+periodic stationarity, measurability with respect to the filtration Ft=σ(ζk, k≤t) and the fact that
+Xsolves (6).
+A.3 Proof of Proposition 3.5
+Using Assumption 3.1 we have that for any
+Eh
+|˜Xt−Xt|i
+⪯+∞X
+k=1AkE[|˜Xt−k−Xt−k|]
+=t−1X
+k=1AkE[|˜Xt−k−Xt−k|] ++∞X
+k=tAkE[|˜Xt−k−Xt−k|]
+⪯t−1X
+k=1AkE[|˜Xt−k−Xt−k|] ++∞X
+k=tAkC,
+where Cis such that x−k+E[X0]⪯Cfor any k∈N. Following the same techniques used in the proof
+of Lemma B.2 we have that
+Eh
+|Xt−˜Xt|i
+⪯ t−1X
+k=1BkUt−k!
+C,
+and since lim t→+∞Ut= 0 and B∈ℓ1(N∗), we have that lim t→+∞Pt
+k=1BkUt−k
+C= 0.
+Assume now that for some β > 0 and some nonnegative matrix Csuch that Ak⪯Ce−βk, then we
+have that
+Ut=+∞X
+k=tAkC⪯Ce−βt. (23)
+Fixδ∈(0, β) and for any n∈N∗, letMn:=P+∞
+k=1eδkA∗n
+kwhich is an element of Md([0,+∞]). We
+now prove that for δsmall enough, Mnis finite. For a given n∈N∗we have that
+Mn+1=+∞X
+k=1eδkA∗(n+1)
+k
+=+∞X
+k=1eδk+∞X
+j=1A∗n
+jAk−j1j≤k−1
+=+∞X
+j=1A∗n
+j+∞X
+k=j+1eδkAk−j,
+and, by a change of counter, we obtain that
+Mn+1=+∞X
+j=1eδjA∗n
+j+∞X
+k=1eδkAk=Mn+∞X
+k=1eδkAk.
+Since the function g:δ→ρP+∞
+k=1eδkAk
+is continuous near zero and g(0)<1, there exists δ∈(0, β)
+such that ρP+∞
+k=1eδkAk
+<1. Hence, ( Mn)n∈N∗decreases exponentially and therefore
++∞X
+k=1eδkBk=X
+n≥1Mn<+∞.
+30
+In this case, taking (23) into consideration, we have that
+(t)X
+k=1BkUt−k=e−δtt−1X
+k=1ekδBkeδ(t−k)Ut−k
+⪯Ce−δt,
+which yields the exponential decay of the distance if the family ( Ak)k∈N∗vanishes exponentially fast.
+Assume now that for some nonnegative matrix Candβ >0 we have that Ak⪯Ck−2(1+β), in this case
+the remainder sequence Uverifies
+Ut=+∞X
+k=tk−(1+β)k1+βAkC
+⪯t−(1+β)+∞X
+k=tk1+βAkC
+⪯t−(1+β)+∞X
+k=tk−(1+β)C
+⪯t−(1+2β)C,
+which means that Uis in ℓ1(N). For a given n∈N∗, define Mn=P+∞
+k=1kA∗n
+k∈ M d([0,+∞]). For a
+given n∈N∗we have that
+Mn+1=+∞X
+k=1kA∗(n+1)
+k
+=+∞X
+k=1k+∞X
+j=1A∗n
+jAk−j1j≤k−1
+=+∞X
+j=1A∗n
+j+∞X
+k=1(k+j)Ak
+=
++∞X
+j=1Aj
+n
+M1+Mn +∞X
+k=1Ak!
+,
+and since ρP+∞
+k=1Ak
+<1, we conclude that ( Mn)n∈N∗∈ℓ1(N∗). therefore,P+∞
+k=1kBk=P
+n≥1Mk<
++∞. We now proceed to bounding the convolution
+t−1X
+k=1BkUt−k=⌊(t−1)/2⌋X
+k=1BkUt−k+t−1X
+k=⌊(t−1)/2⌋+1BkUt−k
+⪯⌊(t−1)/2⌋X
+k=1BkC(t−k)−(1+2β)+t−1X
+k=⌊(t−1)/2⌋+1Ck−1Ut−k
+⪯C21+2β
+t1+2β∥B∥1+2
+t∥U∥1
+,
+which yields the desired result.
+A.4 Proof of Corollary 3.6
+Without loss of generality we can assume that Xand ˜Xare univariate, with the result for the mul-
+tivariate case easily inferred. Let ε >0 and let δ∈(0, β) be as in Proposition 3.8. Using Markov’s
+31
+inequality we have that
+P
+eδ
+2t|˜Xt−Xt| ≥ε
+≤eδ
+2tE[|˜Xt−Xt|]
+ε
+≤e−δ
+2t
+ε,
+which by Borel-Cantelli’s Lemma yields that eδ
+2t|˜Xt−Xt| → 0 almost surely. The result follows
+immediately.
+A.5 Proof of Proposition 3.8
+Given the iid(and thus ipd) sequence of Poisson processes ( Nt)t∈Zand an infinite sequence of integer
+vectors ( x1, x2,···), we define the periodic function
+ft(x1, x2,···;Nt) =Nt 
+ψ 
+µt++∞X
+k=1ϕ(t)
+kxk!!
+.
+We clearly have that ˜Yas defined by Equation (9) satisfies the recursion
+˜Yt=ft(˜Yt−1,˜Yt−2,···;Nt),
+and for Ydefined by Equation (2)
+Yt=ft(Yt−1, Yt−2,···, Y0,0,···;Nt).
+Clearly, we have that
+E[|ft(0,0,···;Nt)|] =E[Nt(ψ(µt))]
+=ψ(µt)
+⪯max
+v=1,···,pψ(µv),
+which is finite. Similarly, we have that for any v∈ {1,···, p}
+E[|fv(x1, x2,···;Nv)−fv(x′
+1, x′
+2,···;Nv)|]
+=E"Nv 
+ψ 
+µt++∞X
+k=1ϕ(v)
+kxk!!
+−Nv 
+ψ 
+µt++∞X
+k=1ϕ(v)
+kx′
+k!!#
+=E"
+Nv ψ 
+µt++∞X
+k=1ϕ(v)
+kxk!
+−ψ 
+µt++∞X
+k=1ϕ(v)
+kx′
+k!!#
+=ψ 
+µt++∞X
+k=1ϕ(v)
+kxk!
+−ψ 
+µt++∞X
+k=1ϕ(v)
+kx′
+k!,
+and using the fact that ψisL−Lipschitz we have
+E[|fv(x1, x2,···;Nv)−fv(x′
+1, x′
+2,···;Nv)|]⪯L+∞X
+k=1ϕ(v)
+k(xk−x′
+k)
+⪯+∞X
+k=1L|ϕ(v)
+k||xk−x′
+k|
+⪯+∞X
+k=1Ak|xk−x′
+k|.
+32
+Assumption 3.1 is thus in force and the results are obtained using Theorem 3.4 and Proposition 3.3.
+For the moments, given a real number r≥1 we introduce the vector adapted norm E1/r[Yr] :=
+(E1/r[Yr
+1],···,E1/r[Yr
+d]). Using the definition of Y, and applying the expectation and the powers
+component-wise we have that
+E1/r[Yr
+t] =E1/r[Nt(λt)r]
+=E1/r"
+E"
+Nt(λt)rFt−1##
+.
+Letδ >0 be such that ρ
+(1 +δ)1/rP+∞
+k=1Ak
+<1. Using the proof of Lemma 2 in [9] we have that,
+component-wise
+E1/r[Yr
+t]⪯E1/r[(1 + δ)(λt)r+Cr,δ1],
+where 1is the vector with components 1 and Cr,δis a positive constant that does not depend on λt
+and that can change from one line to the next. Using the fact that (1 + x)1/r≤1 +x1/rforx≥0 we
+have that
+E1/r[Yr
+t]⪯(1 +δ)1/rE1/r[(λt)r+Cr,δ1]
+= (1 + δ)1/rC1/r
+r,δE1/r" 
+λt
+C1/r
+r,δ!r
++1#
+⪯(1 +δ)1/rC1/r
+r,δ 
+E1/r" 
+λt
+C1/r
+r,δ!r#
++1!
+= (1 + δ)1/rE1/r[(λt)r] +Cr,δ1.
+Using Minkowski’s inequality component-wise we obtain
+E1/r[Yr
+t]⪯(1 +δ)1/rE1/r"
+ψ 
+µt+t−1X
+k=1ϕ(t)
+t−kYk!r#
++Cr,δ1
+⪯(1 +δ)1/rLE1/r"µt+t−1X
+k=1ϕ(t)
+t−kYkr#
++Cr,δ1
+⪯(1 +δ)1/rL 
+µt+t−1X
+k=1|ϕ(t)
+t−k|E1/r[Yr
+k]!
++Cr,δ1
+⪯(1 +δ)1/rL t−1X
+k=1At−kE1/r[Yr
+k]!
++Cr,δ1.
+We thus conclude that the r−th moments are finite using Lemma B.2.
+The same can be said about Type II periodicity (Equations (4) and (10)) using the periodic function
+ft(x1, x2,···;Nt) =Nt 
+ψ 
+µt++∞X
+k=1ϕ(t−k)
+kxk!!
+.
+A.6 Proof of Proposition 4.1
+We start by proving the continuity result on Type I periodicity. Given t∈N∗we have
+E
+|Yt−¯Yt|
+=ENt(λt)−Nt(¯λt)
+=E"Nt 
+ψ 
+µt+t−1X
+k=1ϕ(t)
+t−kYk!!
+−Nt 
+ψ 
+µt+t−1X
+k=1¯ϕ(t)
+t−k¯Yk!!#
+.
+33
+By conditioning on Ft−1and using the fact that ψisL−Lipschitz
+E
+|Yt−¯Yt|
+⪯LE"t−1X
+k=1ϕ(t)
+t−kYk−¯ϕ(t)
+t−k¯Yk#
+⪯Lt−1X
+k=1Eϕ(t)
+t−kYk−¯ϕ(t)
+t−k¯Yk
+⪯Lt−1X
+k=1|ϕ(t)
+t−k|E|Yk−¯Yk|+Lt−1X
+k=1|ϕ(t)
+t−k−¯ϕ(t)
+t−k|E|¯Yk|
+⪯Lt−1X
+k=1At−kE|Yk−¯Yk|+Lt−1X
+k=1|ϕ(t)
+k−¯ϕ(t)
+k|C,
+where Cis an upper bound on E¯Yt(cf.Proposition 3.8). BoundingPt−1
+k=1|ϕ(t)
+k−¯ϕ(t)
+k|from above by
+max v=1,···,p∥ϕ(v)−¯ϕ(v)∥and using Lemma B.2 yield the desired result.
+We now have the continuity result for r >1. For a general power r, we proceed by induction. Fix
+r >1 and assume that for all i= 1,···, r−1,
+E1/i[|Yt−¯Yt|i]⪯Cmax
+v=1,···,p∥ϕ(v)−¯ϕ(v)∥1/i
+1for all t≥1.
+Note that the induction hypothesis implies that E1/i[|λt−¯λt|i]⪯Cmax v=1,···,p∥ϕ(v)−¯ϕ(v)∥1/i
+1for all
+t≥1.Conditioning on Ft−1, we have that
+E[|Yt−¯Yt|r] =E
+E
+|Nt(λt)−Nt(¯λt)|r|Ft−1
+=E
+E
+Nt(|λt−¯λt|)r|Ft−1
+=E"
+|λt−¯λt|r+r−1X
+i=1i
+r
+|λt−¯λt|i#
+,
+wherei
+r	
+are the Stirling coefficients of second kind, cf.[23]. Hence, using the induction hypothesis
+E[|Yt−¯Yt|r]⪯E[|λt−¯λt|r] +r−1X
+i=1i
+r
+max
+v=1,···,p∥ϕ(v)−¯ϕ(v)∥i
+1C
+⪯E[|λt−¯λt|r] + max
+v=1,···,p∥ϕ(v)−¯ϕ(v)∥1C.
+34
+Taking the power 1 /rand using Minkowski’s inequality, the fact that ( x+y)1/r≤x1/r+y1/rand the
+Lipschitz continuity of ψwe have
+E1/r[|Yt−¯Yt|r]⪯E[|λt−¯λt|r]1/r+
+max
+v=1,···,p∥ϕ(v)−¯ϕ(v)∥11/r
+C
+⪯LE"t−1X
+k=1ϕ(t)
+t−kYk−¯ϕ(t)
+t−k¯Ykr#1/r
++
+max
+v=1,···,p∥ϕ(v)−¯ϕ(v)∥11/r
+C
+⪯Lt−1X
+k=1|ϕ(t)
+t−k|E1/r[|Yk−¯Yk|r]
++Lt−1X
+k=1|ϕ(t)
+t−k−¯ϕ(t)
+t−k|E1/r[|¯Yk|r] +
+max
+v=1,···,p∥ϕ(v)−¯ϕ(v)∥11/r
+C
+⪯Lt−1X
+k=1At−kE1/r[|Yk−¯Yk|r]
++ 
+max
+v=1,···,p∥ϕ(v)−¯ϕ(v)∥1+
+max
+v=1,···,p∥ϕ(v)−¯ϕ(v)∥11/r!
+C,
+where we used Proposition 3.8 to bound E1/r[|¯Yk|r] from above. We conclude using Lemma B.2.
+For Type II periodicity, we have using the same arguments that
+E
+|Yt−¯Yt|
+⪯Lt−1X
+k=1At−kE|Yk−¯Yk|+Lt−1X
+k=1|ϕ(k)
+t−k−¯ϕ(k)
+t−k|C,
+which yield the desired result by boundingPt−1
+k=1|ϕ(k)
+t−k−¯ϕ(k)
+t−k|from above byPp
+v=1∥ϕ(v)−¯ϕ(v)∥1and
+applying Lemma B.2.
+A.7 Proof of Theorem 4.3
+Proof. For the first point, we use Lemma B.4 to find q∈N∗and ( G(m)
+v)v∈1∈{1,···,p},m∈{1,···,q}such that
+max
+v∈{1,···,p}ϕ(v)−qX
+m=1G(m)
+ve−(2m+1)·
+τ
+1⪯ε
+dC1,
+where Cis the constant that appears in the first point of Proposition 4.1. We point out that εcan be
+chosen small enough to ensure that for any v∈ {1,···, p}
+X
+m=1G(m)
+ve−(2m+1)k
+τ⪯Akfor all k≥1.
+Let¯Ybe the Poisson autoregression constructed using Nand the kernel ¯ϕ(t)
+k=P(q)
+m=1G(m)
+te−(2m+1)k
+τ.
+Using Proposition 4.1 we have that
+E[|Yt−¯Yt|]⪯ε1.
+If we define ξ(m)
+t=Pt−1
+k=1e−(2m+1)t−k
+τYk, then we clearly have that ( ¯Y , ξ(1),···, ξ(q)) is a Markov
+chain. For the second point, we construct ¯Yaccording to
+(¯Yt=Nt(λt)
+λt=ψ
+µt+Pt−1
+k=1Pq
+m=1J(m)
+ke−(2m+1)(t−k)
+τYk.
+35
+We set
+ζ(m)
+t=t−1X
+k=1J(m)
+ke−(2m+1)t−k
+τYk,
+and using the properties of the exponential we get
+ζ(m)
+t=e−2m+1
+τζ(m)
+t−1+e−2m+1
+τJ(m)
+t−1Yt−1.
+The result follows from the continuity of Poisson autoregressions with respect to the kernel (Proposition
+4.1) and the density of the exponential polynomials in ℓ1(N∗) (Lemma B.4).
+A.8 Proof of Theorem 5.2
+The proof of the strong consistency of the MLE for a general integer valued autoregression has been
+established in [28] and extended to the case of time series with periodically changing coefficients in [27]
+and to the multivariate case with a distribution in the exponential family in [24]. These articles also
+prove strong consistency even if the distribution used in the likelihood is mis-specified ( e.g.the use of
+a negative binomial MLE on data coming from Poisson autoregession). We point out that [28] and [27]
+prove the strong consistency for general autoregressions of the form
+(
+E[Yt|FY
+t−1] = λt(θ∗),
+λt(θ∗) = ft(Yt−1, Yt−2,···;θ∗),
+that encompasses the form we are dealing with in this article. It is then sufficient to show that (17)
+satisfies Assumptions A1-A6 in [27].
+Without loss of generality, we focus on the univariate case. The multivariate case is inferred component
+by component. Given that Assumption 5.1 is in force and using the fact that ψis Lipschitz continuous,
+A1, A2, A5 and A6 are satisfied. Proposition 3.8 yields that once the stability assumption is met, ˜Y
+has moments of any order r≥1, hence A4 holds. We now show that A3 also holds, i.e.that the initial
+values are asymptotically not important. Given a strictly periodically stationary observation ( ˜Yt)t∈Z,
+let
+˜λt(γ) =ψ 
+µt+t−1X
+k=−∞ϕ(t)
+t−k˜Yk!
+and λt(γ) =ψ 
+µt+t−1X
+k=0ϕ(t)
+t−k˜Yk!
+,
+where ϕare exponential polynomials. Using the Lipschitz continuity of ψwe have that
+˜λt(γ)−λt(γ)≤L0X
+k=−∞|ϕ(t)
+t−k|˜Yk
+≤L0X
+k=−∞(q)X
+m=1|G(m)
+t|e−mt−k
+τ˜Yk,
+and since Γ is a compact set,
+sup
+γ∈Γ˜λt(γ)−λt(γ)≤C0X
+k=−∞e−t−k
+τ˜Yk,
+for some positive constant C. For any ε >0 we have using Markov’s inequality
+P
+et
+2τsup
+γ∈Γ˜λt(γ)−λt(γ)≥ε
+≤Cet
+2τP0
+k=−∞e−t−k
+τE[˜Yk]
+ε
+≤Cet
+2τP+∞
+k=te−k
+τ
+ε
+≤Ce−t
+2τ
+ε,
+36
+which yields by Borel-Cantelli’s Lemma the almost sure existence of a constant Csuch that
+sup
+γ∈Γ˜λt(γ)−λt(γ)≤Ce−t
+2τ.
+We then have that
+˜Ytsup
+γ∈Γ˜λt(γ)−λt(γ)≤Ce−t
+2τ˜Yt,
+which again by applying Markov’s Inequality and the Borel-Cantelli Lemma yields
+lim
+t→+∞˜Ytsup
+γ∈Γ˜λt(γ)−λt(γ)= 0,almost surely
+and therefore the desired result for the parameters µvandG(m)
+v. For the reconstructed kernels, we
+have that
+∥ϕ(v)−ϕ(v)
+T∥1=+∞X
+k=1|ϕ(v)
+k−ϕ(v)
+k|
+⪯(q)X
+m=1|G(m)
+v−G(m)
+v,T|+∞X
+k=1e−(2m+1)k
+τ,
+which tends to zero almost surely as Tgoes to infinity.
+B Preliminary lemmas and proofs
+Lemma B.1. LetAandBbe two matrices with non-negative coefficients. If A⪯B, then ρ(A)≤ρ(B).
+Proof. Since the matrix product is a combination of sums and products of the coefficients, we have
+thatAj⪯Bjfor any j≥1. By taking ∥ · ∥1to be the maximum column sum norm and using the fact
+that the function x7→x1/jis increasing we have that
+∥Aj∥1/j
+1≤ ∥Bj∥1/j
+1.
+We now let j→+∞and use Gelfand’s formula to obtain that
+ρ(A)≤ρ(B).
+Lemma B.2. Let(Ak)k∈Nbe a family of non-negative matrices satisfying ρP+∞
+k=1Aj
+<1. If a
+sequence (xt)t∈Zthat takes finite values satisfies
+|xt| ⪯+∞X
+k=1Ak|xt−k|+|Kt|
+for any t∈Zand for some vector (Kt)t∈Z, then
+|xt| ⪯  +∞X
+m=0A∗m!
+∗ |K|!
+t.
+In particular, if there exists a nonnegative constant vector ¯Ksuch as Kt⪯¯Kthen
+|xt| ⪯
+I−X
+k≥1Ak
+−1
+|¯K|.
+37
+Proof. First, set ˜Ak=Ak1k≥1for any k∈Z. We recall that the discrete convolution operator
+(a∗b)t=+∞X
+j=−∞ajbt−j
+is associative and that for aandbsummable families of matricesP+∞
+t=−∞(a∗b)t=P+∞
+t=−∞atP+∞
+t=−∞bt
+.
+In particular, this means that for a given m∈N,P+∞
+k=−∞˜A∗m
+k=P+∞
+k=−∞˜Ak(m)
+, where ˜A∗mis given
+recursively by ˜A∗0=δkIand ˜A∗(k+1)=˜A∗˜A∗k. When can then write for any t∈Z
+|xt| ⪯
+˜A∗ |x|
+t+|K|.
+For any given m∈N, taking the convolution by ˜A∗mto the right and the left and rearranging the
+terms yield
+
+˜A∗m∗ |x|
+t−
+˜A∗(m+1)∗ |x|
+t⪯
+˜A∗m∗ |K|
+t. (24)
+Summing the last inequality for mranging from 0 to some n∈Nyields
+|xt| −
+˜A∗(n+1)∗ |x|
+t⪯nX
+m=0
+˜A∗m∗ |K|
+t.
+Since ρP+∞
+k=−∞˜Ak
+<1, the matrix B:=P
+n≥0˜A∗nis well-defined and
++∞X
+k=−∞Bk= (I−+∞X
+k=−∞˜Ak).
+Hence, letting ngo to infinity in (24) and noticing that lim n→+∞˜A∗n= 0 yields the result.
+Lemma B.3. Let(ϕk)k∈Nbe a square integrable sequence and fix τ >0. For a given ε >0, there
+exists r∈N∗and(νr
+1,···, νr
+r)∈Rrsuch that
+
++∞X
+k=0 
+ϕk−rX
+m=1νr
+me−2km
+τ!2
+1/2
+≤ε.
+Proof. We show that the linear span of
+e−2nk
+τ
+k∈N;n∈N
+is dense in ℓ2. To do so, we show that
+the only square integrable sequence ( ϕk)k∈Nto satisfy
+D
+ϕ, e−2n·
+τE
+= 0,for all n∈N∗(25)
+is the sequence ϕ= 0. Let ϕ∈ℓ2satisfying (25). Define the function
+f(x) =+∞X
+k=0ϕkxk
+on (−1,1).fis continuous in the vicinity of 0 ( ϕbeing square integrable) and satisfies
+f 
+e−2n
+τ
+= 0,for all n∈N,
+thus by letting n→+∞,f(0) = 0. From that we deduce that
+ϕ0= 0.
+38
+Letjbe a positive integer and suppose that ψ0=···=ψj−1= 0 and define fj(x) =P+∞
+k=0ϕk+jxk
+(continuous at zero). For n∈Nwe have that
+fj(e−2n
+τ) =+∞X
+k=0ϕk+je−2nk
+τ
+=e2nj
+τD
+ϕ, e−2n·
+τE
+= 0.
+Using continuity, we have that fj(0) = 0, yielding ϕj= 0. The result then follows by induction.
+Lemma B.4. Let(ϕk)k∈Nbe an ℓ1sequence and fix τ >0. For a given ε >0, there exists r∈N∗and
+(νr
+1,···, νr
+r)∈Rrsuch that
++∞X
+k=0ϕk−rX
+m=1νr
+me−(2m+1)k
+τ≤ε.
+Proof. Letε >0. Using the fact that the remainder of the sum of an ℓ1series tends to zero, we can
+findT >0 such that
++∞X
+k=0|ϕk−ϕk1k≤T| ≤ε
+2.
+The sequence ( ϕk1k≤Tek
+τ)k∈Nis of a finite support and hence square integrable. Using Lemma B.3 we
+have that
++∞X
+k=0 
+ϕk1k≤Tek
+τ−rX
+m=1νr
+me−2km
+τ!2
+1/2
+≤ε√
+1−e−2τ−1
+2, (26)
+for some r∈N∗and ( νr
+1,···, νr
+r). Thus, using Cauchy-Schwarz’s inequality we have that
++∞X
+k=0ϕk1k≤T−rX
+m=1νr
+me−(2m+1)k
+τ=+∞X
+k=0ϕk1k≤Tek
+τ−rX
+m=1νr
+me−2mk
+τe−k
+τ
+≤
++∞X
+k=0ϕk1k≤Tek
+τ−rX
+m=1νr
+me−2mk
+τ2
+1/2 +∞X
+k=0e−2k
+τ!1/2
+(27)
+=
++∞X
+k=0ϕk1k≤Tek
+τ−rX
+m=1νr
+me−2mk
+τ2
+1/2
+1√
+1−e−2τ−1
+≤ε
+2using (26) .
+And finally,
++∞X
+k=0ϕk−rX
+m=1νr
+me−(2m+1)k
+τ≤+∞X
+k=0|ϕk−ϕk1k≤T|++∞X
+k=0ϕk1k≤T−rX
+m=1νr
+me−(2m+1)k
+τ
+≤ε
+2+ε
+2
+≤ε.
+References
+[1] Aknouche, A., Bentarzi, W. & Demouche, N. On periodic ergodicity of a gen-
+eral periodic mixed Poisson autoregression. Statist. Probab. Lett. .134 pp. 15-21 (2018),
+https://doi.org/10.1016/j.spl.2017.10.014
+39
+[2] Doukhan, P. & Wintenberger, O. Weakly dependent chains with infinite memory. Stochastic Pro-
+cess. Appl. .118, 1997-2013 (2008), https://doi.org/10.1016/j.spa.2007.12.004
+[3] Aknouche, A., Al-Eid, E. & Demouche, N. Generalized quasi-maximum likelihood inference for
+periodic conditionally heteroskedastic models. Stat. Inference Stoch. Process. .21, 485-511 (2018),
+https://doi.org/10.1007/s11203-017-9160-x
+[4] Armillotta, M. & Fokianos, K. Count network autoregression. Journal Of Time Series Analysis .
+45, 584-612 (2024), https://onlinelibrary.wiley.com/doi/abs/10.1111/jtsa.12728
+[5] Knight, M., Leeming, K., Nason, G. & Nunes, M. Generalized Network Autoregres-
+sive Processes and the GNAR Package. Journal Of Statistical Software .96, 1-36 (2020),
+https://www.jstatsoft.org/index.php/jss/article/view/v096i05
+[6] Aknouche, A. Periodic autoregressive stochastic volatility. Stat. Inference Stoch. Process. .20,
+139-177 (2017), https://doi.org/10.1007/s11203-016-9139-z
+[7] Gladyˇ sev, E. Periodically correlated random sequences. Dokl. Akad. Nauk SSSR .137pp. 1026-
+1029 (1961)
+[8] Tiao, G. & Grupe, M. Hidden periodic autoregressive-moving average models in time series data.
+Biometrika .67, 365-373 (1980), https://doi.org/10.2307/2335479
+[9] Debaly, Z. & Truquet, L. A note on the stability of multivariate non-linear time series with an
+application to time series of counts. Statist. Probab. Lett. .179pp. Paper No. 109196, 7 (2021),
+https://doi.org/10.1016/j.spl.2021.109196
+[10] Rota, G. & Strang, G. A note on the joint spectral radius. Indag. Math. .22pp. 379-381 (1960),
+Nederl. Akad. Wetensch. Proc. Ser. A ¡b¿63¡/b¿
+[11] Wu, W. & Shao, X. Limit theorems for iterated random functions. J. Appl. Probab. .41, 425-436
+(2004), https://doi.org/10.1239/jap/1082999076
+[12] Friedland, S. Infimum of a matrix norm of A induced by an absolute vector norm. Southeast Asian
+Bull. Math. .46, 713-720 (2022)
+[13] Friedland, S. Matrices—algebra, analysis and applications. (World Scientific Publishing Co. Pte.
+Ltd., Hackensack, NJ,2016)
+[14] Dedecker, J. & Prieur, C. Coupling for τ-dependent sequences and applications. J. Theoret.
+Probab. .17, 861-885 (2004),
+[15] Straumann, D. Estimation in conditionally heteroscedastic time series models. (Springer-Verlag,
+Berlin,2005)
+[16] Almohaimeed, B. Ergodic Properties of Periodic Integer-Valued GARCH Models. Advances And
+Applications In Statistics .72, 55-70 (2022,1)
+[17] Aknouche, A. Mod` eles de s´ eries chronologiques homog` enes et p´ eriodiquement homog` enes :
+stabilit´ e, inf´ erence et applications. (Universit´ e Charles de Gaulle (Lille 3), FRA.,2014,3),
+https://hal.science/tel-04553687
+[18] Doukhan, P., Fokianos, K. & Tjøstheim, D. On weak dependence conditions for Poisson autore-
+gressions. Statist. Probab. Lett. .82, 942-948 (2012), https://doi.org/10.1016/j.spl.2012.01.015
+[19] Fokianos, K., Støve, B., Tjøstheim, D. & Doukhan, P. Multivariate count autoregression. Bernoulli .
+26, 471-499 (2020), https://doi.org/10.3150/19-BEJ1132
+[20] Ferland, R., Latour, A. & Oraichi, D. Integer-valued GARCH process. J. Time Ser. Anal. .27,
+923-942 (2006), https://doi.org/10.1111/j.1467-9892.2006.00496.x
+[21] Bessy-Roland, Y., Boumezoued, A. & Hillairet, C. Multivariate Hawkes process for cyber insur-
+ance. Annals Of Actuarial Science .15, 14-39 (2021)
+[22] Huang, L. & Khabou, M. Nonlinear Poisson autoregression and nonlinear Hawkes processes.
+Stochastic Process. Appl. .161pp. 201-241 (2023), https://doi.org/10.1016/j.spa.2023.03.015
+[23] Johnson, N., Kemp, A. & Kotz, S. Univariate discrete distributions. (Wiley-Interscience [John
+Wiley & Sons], Hoboken, NJ,2005), https://doi.org/10.1002/0471715816
+[24] Lee, S., Kim, D. & Kim, B. Modeling and inference for multivariate time series of counts based
+on the INGARCH scheme. Comput. Statist. Data Anal. .177pp. Paper No. 107579, 18 (2023),
+https://doi.org/10.1016/j.csda.2022.107579
+40
+[25] Douc, R., Doukhan, P. & Moulines, E. Ergodicity of observation-driven time series models and
+consistency of the maximum likelihood estimator. Stochastic Process. Appl. .123, 2620-2647 (2013),
+https://doi.org/10.1016/j.spa.2013.04.010
+[26] Armillotta, M., Luati, A. & Lupparelli, M. Observation-driven models for discrete-valued time
+series. Electron. J. Stat. .16, 1393-1433 (2022), https://doi.org/10.1214/22-ejs1989
+[27] Almohaimeed, B. Asymptotic negative binomial quasi-likelihood inference for periodic
+integer-valued time series models. Comm. Statist. Theory Methods .53, 587-606 (2024),
+https://doi.org/10.1080/03610926.2022.2087881
+[28] Ahmad, A. & Francq, C. Poisson QMLE of count time series models. J. Time Series Anal. .37,
+291-314 (2016), https://doi.org/10.1111/jtsa.12167
+[29] Knight, M., Nunes, M. & Nason, G. Modelling, Detrending and Decorrelation of Network Time
+Series. (2016), https://arxiv.org/abs/1603.03221
+[30] Knight, M., Leeming, K., Nason, G. & Nunes, M. Generalized Network Autoregres-
+sive Processes and the GNAR Package. Journal Of Statistical Software .96, 1-36 (2020),
+https://www.jstatsoft.org/index.php/jss/article/view/v096i05
+[31] Zhu, X., Pan, R., Li, G., Liu, Y. & Wang, H. Network vector autoregression. Ann. Statist. .45,
+1096-1123 (2017), https://doi.org/10.1214/16-AOS1476
+[32] Liu, H. & Nason, G. New Methods for Network Count Time Series. (2023),
+https://arxiv.org/abs/2312.01944
+[33] Costa, M., Graham, C., Marsalle, L. & Tran, V. Renewal in Hawkes processes with self-excitation
+and inhibition. Adv. In Appl. Probab. .52, 879-915 (2020), https://doi.org/10.1017/apr.2020.19
+[34] Berbee, H. Chains with infinite connections: uniqueness and Markov representation. Probab. The-
+ory Related Fields .76, 243-253 (1987), https://doi.org/10.1007/BF00319986
+[35] Alzaid, A. & Al-Osh, M. An integer-valued pth-order autoregressive structure (INAR(p)) process.
+J. Appl. Probab. .27, 314-324 (1990), https://doi.org/10.2307/3214650
+[36] Kirchner, M. Hawkes and INAR( ∞) processes. Stochastic Process. Appl. .126, 2494-2525 (2016),
+https://doi.org/10.1016/j.spa.2016.02.008
+[37] Coutin, L. & Khabou, M. Functional approximation of the marked Hawkes risk process. (2024),
+https://arxiv.org/abs/2409.06276
+[38] Fokianos, K., Rahbek, A. & Tjøstheim, D. Poisson autoregression. J. Amer. Statist. Assoc. .104,
+1430-1439 (2009), https://doi.org/10.1198/jasa.2009.tm08270, With electronic supplementary ma-
+terials available online
+[39] Fokianos, K. & Tjøstheim, D. Nonlinear Poisson autoregression. Ann. Inst. Statist. Math. .64,
+1205-1225 (2012), https://doi.org/10.1007/s10463-012-0351-3
+[40] Errais, E., Giesecke, K. & Goldberg, L. Affine point processes and portfolio credit risk. SIAM J.
+Financial Math. .1, 642-665 (2010), https://doi.org/10.1137/090771272
+[41] Bonnet, A., Dion-Blanc, C., Gindraud, F. & Lemler, S. Neuronal network inference and membrane
+potential model using multivariate Hawkes processes. Journal Of Neuroscience Methods .372pp.
+109550 (2022), https://www.sciencedirect.com/science/article/pii/S0165027022000772
+[42] Fallahi, M., Pourtaheri, R. & Eskandari, F. The multivariate generalized linear Hawkes process in
+high dimensions with applications in neuroscience. Methodol. Comput. Appl. Probab. .26, Paper
+No. 1, 25 (2024), https://doi.org/10.1007/s11009-023-10063-w
+[43] Crane, R. & Didier Sornette Robust dynamic classes revealed by measuring the response function
+of a social system. Proceedings Of The National Academy Of Sciences .105, 15649-15653 (2008),
+https://www.pnas.org/doi/abs/10.1073/pnas.0803685105
+[44] Bacry, E., Bompaire, M., Ga¨ ıffas, S. & Muzy, J. Sparse and low-rank multivariate Hawkes pro-
+cesses. J. Mach. Learn. Res. .21pp. Paper No. 50, 32 (2020)
+[45] Bacry, E., Jaisson, T. & Muzy, J. Estimation of slowly decreasing Hawkes kernels: ap-
+plication to high-frequency order book dynamics. Quant. Finance .16, 1179-1201 (2016),
+https://doi.org/10.1080/14697688.2015.1123287
+41
+[46] Embrechts, P., Liniger, T. & Lin, L. Multivariate Hawkes processes: an application to financial
+data. J. Appl. Probab. .48A pp. 367-378 (2011), https://doi.org/10.1239/jap/1318940477
+[47] Reynaud-Bouret, P., Rivoirard, V. & Tuleau-Malot, C. Inference of functional connectivity in
+Neurosciences via Hawkes processes. 2013 IEEE Global Conference On Signal And Information
+Processing . pp. 317-320 (2013)
+[48] Latour, A. The multivariate GINAR(p) process. Adv. In Appl. Probab. .29, 228-248 (1997),
+https://doi.org/10.2307/1427868
+[49] Kirchner, M. An estimation procedure for the Hawkes process. Quant. Finance .17, 571-595 (2017),
+https://doi.org/10.1080/14697688.2016.1211312
+[50] Fokianos, K. Multivariate count time series modelling. Econom. Stat. .31pp. 100-116 (2024),
+https://doi.org/10.1016/j.ecosta.2021.11.006
+[51] Bollerslev, T. & Ghysels, E. Periodic Autoregressive Conditional Heteroscedasticity. Journal Of
+Business & Economic Statistics .14, 139-151 (1996), http://www.jstor.org/stable/1392425
+[52] Gardner, W., Napolitano, A. & Paura, L. Cyclostationarity: Half
+a century of research. Signal Processing . 86, 639-697 (2006),
+https://www.sciencedirect.com/science/article/pii/S0165168405002409
+[53] Boyles, R. & Gardner, W. Cycloergodic properties of discrete- parameter nonstationary stochastic
+processes. IEEE Transactions On Information Theory .29, 105-114 (1983)
+[54] Franses, P. & Paap, R. Periodic time series models. (Oxford University Press, Oxford,2004),
+https://doi.org/10.1093/019924202X.001.0001
+[55] Regnard, N. & Zako¨ ıan, J. A conditionally heteroskedastic model with time-varying
+coefficients for daily gas spot prices. Energy Economics .33, 1240-1251 (2011),
+https://www.sciencedirect.com/science/article/pii/S0140988311000405
+[56] Bentarzi, M. & Bentarzi, W. Periodic integer-valued GARCH(1, 1) model. Comm. Statist. Simu-
+lation Comput. .46, 1167-1188 (2017), https://doi.org/10.1080/03610918.2014.994780
+[57] Santos, C., Pereira, I. & Scotto, M. On the theory of periodic multivariate INAR processes. Statist.
+Papers .62, 1291-1348 (2021), https://doi.org/10.1007/s00362-019-01136-5
+[58] L¨ ocherbach, E. Spiking neurons: interacting Hawkes processes, mean field limits and oscillations.
+Journ´ ees MAS 2016 De La SMAI—Ph´ enom` enes Complexes Et H´ et´ erog` enes .60pp. 90-103 (2017),
+https://doi.org/10.1051/proc/201760090
+[59] Hardiman, S., Bercot, N. & Bouchaud, J. Critical reflexivity in financial markets: a Hawkes process
+analysis. EUROPEAN PHYSICAL JOURNAL B .86(2013,10,28)
+[60] Eichler, M., Dahlhaus, R. & Dueck, J. Graphical modeling for multivariate Hawkes
+processes with nonparametric link functions. J. Time Series Anal. .38, 225-242 (2017),
+https://doi.org/10.1111/jtsa.12213
+[61] Shlomovich, L., Cohen, E. & Adams, N. A parameter estimation method for multivariate binned
+Hawkes processes. Stat. Comput. .32, Paper No. 98, 13 (2022), https://doi.org/10.1007/s11222-
+022-10121-2
+[62] Veraart, A. Periodic Trawl Processes: Simulation, Statistical Inference and Applications in Energy
+Markets. Quantitative Energy Finance: Recent Trends And Developments . pp. 73-132 (2024),
+[63] Veraart, A. Modeling, simulation and inference for multivariate time series of
+counts using trawl processes. J. Multivariate Anal. .169 pp. 110-129 (2019),
+https://doi.org/10.1016/j.jmva.2018.08.012
+[64] Herrmann, S. & Landon, D. Statistics of transitions for Markov chains with periodic forcing. Stoch.
+Dyn..15, 1550022, 30 (2015), https://doi.org/10.1142/S0219493715500227
+[65] Diebold, F. & Mariano, R. Comparing predictive accuracy. J. Bus. Econom. Statist. .20pp. 134-
+144 (2002), https://doi.org/10.1198/073500102753410444, Twentieth anniversary commemorative
+issue
+[66] Maillard, P. & Wintenberger, O. Moment conditions for random coefficient AR( ∞) under non-
+negativity assumptions. Braz. J. Probab. Stat. .38, 88-107 (2024), https://doi.org/10.1214/23-
+bjps594
+42
+[67] Kaur, H. & Rastelli, R. A dynamic latent space time series model to assess the spread of mumps
+in England. (2024), https://arxiv.org/abs/2411.07749
+[68] Kaur, H. & Rastelli, R. A latent space model for multivariate count data time series analysis.
+(2024), https://arxiv.org/abs/2408.13162
+[69] Jacobs, P. & Lewis, P. Discrete Time Series Generated by Mixtures. I: Correlational and Runs
+Properties. Journal Of The Royal Statistical Society. Series B (Methodological) .40, 94-105 (1978),
+http://www.jstor.org/stable/2984870
+[70] Jacobs, P. & Lewis, P. Discrete Time Series Generated by Mixtures II: Asymptotic Proper-
+ties. Journal Of The Royal Statistical Society. Series B (Methodological) .40, 222-228 (1978),
+http://www.jstor.org/stable/2984759
+[71] Steutel, F. & Harn, K. Discrete Analogues of Self-Decomposability and Stability. The Annals Of
+Probability .7, 893 - 899 (1979), https://doi.org/10.1214/aop/1176994950
+43

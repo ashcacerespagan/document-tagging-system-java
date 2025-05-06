@@ -1,0 +1,1 @@
+only these words are in the input and not in the idf map

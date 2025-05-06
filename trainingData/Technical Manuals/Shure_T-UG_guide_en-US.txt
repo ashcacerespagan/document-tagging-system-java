@@ -1,0 +1,900 @@
+T Series User Guide
+Basics
+1
+1
+21T2 (SM58/PG58)
+T1GT1/T119V
+OFF� PWR�
+LOW� BA T�
+ON
+MUTEON • MARCHE • EIN • ENCENDIDO • 
+ACCESO • LIGADO • 开 • ВКЛ
+OFF • ARRÊT • AUS • APAGADO • 
+SPENTO • DESLIGADO • 关 • ВЫКЛON
+MARCHE
+EIN
+ENCENDIDO
+ACCESO
+LIGADO
+开
+ВКЛ1
+2OFF� PWR�
+LOW� BA T�
+ON
+MUTEOFF
+ARRÊT
+AUS
+APAGADO
+SPENTO
+DESLIGADO
+关
+ВЫКЛ2
+112
+1243
+2T3
+T1/T1G90°
+E
+
+1Receiver 2, 4, 9
+Transmitter 3-5
+The Vocal Artist 5
+The Headset 6
+The Presenter 7
+The Guitarist 8
+Troubleshooting, Replacement Parts, Specifi  cations 10Récepteur • Empfänger • Receptor • Ricevitore • Receptor • 接收机 • Приемник
+Émetteur • Sender • Transmisor • Trasmettitore • Transmissor • 发射机 • Передатчик
+Dépannage, pièces de rechange et caractéristiques 14
+Störungssuche, Ersatzteile, technische Daten 18
+Localización de averías, repuestos y especificaciones 22
+Soluzione dei problemi, parti di ricambio, dati tecnici 26Solução de Problemas, Peças de Reposição, Especificações 30
+故障排除，替换件，规格 34
+Устранение неисправностей, запасные части, 
+технические характеристики 38
+
+21. Power (alimentation) - Le témoin s’allume lorsque le 
+récepteur est en marche.
+2. RF - Le témoin s’allume lorsque la liaison RF est établie.
+3. Transmitter Audio Peak  (clip audio de l’émetteur) - La DEL 
+s’illumine lorsque les niveaux audio dépassent le seuil de clip.
+4. Volume - Permet de régler le niveau en entrée du mélangeur 
+ou l’amplificateur. Utiliser le gain de l’émetteur pour régler le 
+niveau audio transmis  (3).
+5. Conserver une ligne de visée entre l’émetteur et l’antenne.
+6. Utiliser des supports en caoutchouc et du Velcro™ pour 
+placer le récepteur.
+7. Ne pas placer le récepteur à proximité de surfaces 
+métalliques ou de matériel numérique (lecteurs de CD, 
+ordinateurs, etc.)
+1. Power (Betrieb) - Lampe leuchtet auf, wenn Empfänger 
+eingeschaltet ist.
+2. RF (Hochfrequenz) - Lampe leuchtet auf, wenn 
+Hochfrequenzverbindung hergestellt ist.
+3. Transmitter Audio Peak  (Sender-Audiospitzenwert) - Lampe 
+leuchtet bei Audiospitzenpegeln flackernd auf.
+4. Volume (Lautstärkepegel) - Zur Einstellung des 
+Lautstärkepegels auf Mischpult oder Verstärker. Eingangsve
+rstärkungsregler (Gain) am Sender zum Ändern des Sender-
+Audiospitzenwerts (3) verwenden.
+5. Sichtverbindung zwischen Sender und Antenne aufrecht 
+erhalten.
+6. Gummifüßchen und Velcro™ zur Stabilisierung des 
+Empfängers verwenden.
+7. Empfänger nicht in der Nähe von Metallflächen oder anderen 
+Digitalgeräten (CD-Player, Computer usw.) aufstellen.
+1. Power (Alimentación) - La luz se ilumina cuando el receptor 
+está encendido.
+2. RF - La luz se ilumina cuando se establece una conexión 
+de RF .
+3. Transmitter Audio Peak  (Picos de audio de transmisor) - La 
+luz destella con los niveles máximos de la señal de audio.4. Volume (Volumen) - Ajusta el nivel del volumen de la señal 
+enviada a un mezclador o amplificador. Utilice el control de 
+ganancia del transmisor para cambiar los niveles pico de 
+audio del transmisor (3).
+5. Mantenga una trayectoria visual entre el transmisor y la 
+antena.
+6. Utilice patas de caucho y/o tiras de Velcro™ para estabilizar 
+el receptor.
+7. No coloque el receptor cerca de superficies metálicas ni de 
+equipos digitales (reproductores de CD, computadoras, etc.).
+1. Power (Alimentazione)  - Il led si illumina in verde quando il 
+ricevitore è acceso.
+2. RF (radiofrequenza)  - Il led si illumina quando la connessione RF 
+è stabilita.
+3. Transmitter Audio Peak (picco audio del trasmettitore)  - Il led 
+lampeggia quando l’audio raggiunge livelli di picco.
+4. Volume - Questo controllo serve a regolare il volume del segnale 
+applicato al mixer o all’amplificatore. Per regolare il picco audio del 
+trasmettitore (3) regolate il guadagno di quest’ultimo.
+5. Mantenete una linea ottica fra il trasmettitore e l’antenna.
+6. Adoperate i piedini di gomma e le strisce in Velcro™ per rendere 
+stabile il ricevitore.
+7. Non collocate il ricevitore vicino a superfici metalliche o apparecchi 
+digitali (lettori CD, computer ecc.).
+1. Power (Alimentação) – A luz acende quando o receptor está 
+ligado.
+2. RF – A luz acende quando se completa a conexão de RF .
+3. Transmitter Audio Peak  (Pico de Áudio do Transmissor) – A 
+luz pisca nos níveis de pico de áudio.
+4. Volume - Ajusta o nível de volume do mixer ou do 
+amplificador. Use o ganho do transmissor para alterar o pico 
+de áudio do transmissor (3).
+5. Mantenha uma linha de visada entre o transmissor e a 
+antena.
+6. Use pés adesivos e Velcro™ para estabilizar o receptor.
+7. Não coloque o receptor próximo de superfícies metálicas ou de quaisquer equipamentos digitais (CD players, 
+computadores, etc.)
+1. Power（电源）  –通电时电源指示灯亮着 。
+2. RF（射频）  – 射频通讯接通时灯光亮着。 – –
+3. Transmitter Audio Peak （发射机声频峰值）  – 声频 – –
+达到峰值时灯光闪亮。
+4. Volume（音量）  – 调节输出到混频器或放大器的 – –
+音量等级。通过调节发射机增益来改变发射机声频峰
+值 (3)。
+5. 发射机和天线必须相互在视线范围之内，中间不可有
+物件阻挡视线。
+6. 使用橡胶垫脚和  Velcro™ 尼龙粘连带使接收机保持
+稳固状态。
+7. 接收机放置地点不可靠近任何金属表面或数字式设备
+（光盘播放机、 电子计算机等 ）。
+1. Power –  Лампочка горит, когда приемник включен.
+2. RF –  Лампочка горит, когда установлена связь на RF –RF –
+радиочастоте .
+3. Transmitter Audio Peak –  Лампочка мигает при Transmitter Audio Peak –Transmitter Audio Peak –
+достижении максимального уровня звука. 
+4. Volume –  Регулировка громкости звука, подаваемого Volume –Volume –
+на микшер или усилитель. Для изменения максимального 
+уровня на передатчике (3) используйте усиление 
+передатчика.
+5. Антенна должна находиться на линии прямой видимости 
+от передатчика.
+6. Для придания устойчивости приемнику используйте 
+резиновые ножки и Velcro™ .
+7. Не следует располагать приемник вблизи металлических 
+поверхностей или любого цифрового оборудования 
+(проигрыватели компакт-дисков, компьютеры и т. п. ).Power
+Light glows when receiver 
+is onRF
+Light glows when RF 
+connection is establishedTransmitter Audio Peak
+Light flickers on at peak 
+audio levels
+Volume
+Adjusts output volume level 
+to mixer or amplifier. Use 
+transmitter gain to change 
+transmitter audio peak (3).< 100 m (328 ft.)
+Maintain a line of sight between transmitter and antenna
+Use rubber feet and/or Velcro™ to stabilize receiver
+Do not place receiver 
+near metal surfaces or 
+any digital equipment 
+(CD players, comput-
+ers, etc.)T3 Receiver
+1 2 3
+45
+6
+7Récepteur T3 • T3 Empfänger • Receptor T3 • Ricevitore T3 • Receptor T3 • T3 接收机 • Приемник T3
+
+31. Power on/off switch (to conserve battery, turn off 
+when not in use)
+2. Power on/off light
+3. Low battery indicator
+4. Mute switch
+1. Interrupteur marche-arrêt (pour économiser la pile, 
+mettre l’appareil hors tension lorsqu’il n’est pas 
+utilisé)
+2. Témoin marche-arrêt d’alimentation
+3. Témoin de charge insuffisante de la pile
+4. Interrupteur de coupure audio
+1. An/Aus-Schalter (zur Schonung der Batterie 
+ausschalten, wenn das Gerät nicht verwendet wird)
+2. An/Aus-Anzeigeleuchte
+3. „Batterie schwach”-Anzeiger
+4. Stummschalter1. Interruptor de encendido (para conservar la carga de 
+la pila, apáguelo cuando no está en uso)
+2. Luz de alimentación
+3. Indicador de descarga de pilas
+4. Interruptor de silenciamiento
+1. Interruttore di alimentazione (per ridurre il consumo 
+della pila, portatelo sulla posizione OFF quando il 
+trasmettitore non è in uso).
+2. Led di alimentazione
+3. Led di bassa carica della pila
+4. Interruttore di mute
+1. T ecla liga/desliga (para economizar bateria, 
+desligue quando não estiver em uso)
+2. Luz liga/desliga
+3. Indicador de bateria fraca
+4. Interruptor de mudo
+1. 电源开关（不使用时应关闭，可节省电池电力）
+2. 电源开关指示灯
+3. 电池电力不足指示灯
+4. 哑音开关
+1. Выключатель питания (для сохранения заряда 
+батареи выключайте прибор, когда он не 
+используется)
+2. Индикатор питания
+3. Индикатор низкого заряда батареи 
+4. Выключатель звука
+OK
+OKNOT11T1/T1GT2 (SM58/PG58) • T1 • T1G • T11
+O�F�F� PWR�
+L�OW B�A�T�
+O�N�
+NOT2 (SM58/PG58)
+T2 (SM58/PG58)
+T11T1/T1G
+T11
+T11T1/T1GT1/T1G1
+2
+3
+434 2 1
+42 3 1
+
+4T2 (SM58/PG58)T11
+T1/T1GRéglage du gain de l’émetteur • Einstellung der Eingangsverstärkung (Gain) am Sender • Ajuste de ganancia del transmisor • Regol、 âሀ  늅倀᐀ ሀ    僢ሀ哠ሀ陸唀ሀ
+trasmettitore • Ajuste do ganho do transmissor •发射机增益调节 • Регулировка усиления передатчикаTransmitter Gain Adjustment
+GAINOK
+GAIN
+GAIN1. Transmitter Peak  light should flicker on when loud sounds  are transmit-
+ted. 2. If light stays on when quiet sounds  are transmitted, turn transmitter 
+gain down . 3. If light stays off when loud sounds  are transmitted, turn 
+transmitter gain up. Note: receiver volume does not affect transmitter 
+peak light behavior .
+1. La DEL Transmitter Peak  (clip audio de l’émetteur) doit s’illuminer lorsque 
+des sons puissants  sont transmis. 2. Si elle reste allumée lorsque des sons 
+faibles  sont transmis,  réduire le niveau de gain de l’émetteur. 3. Si elle reste 
+éteinte lorsque des  sons puissants sont transmis, augmenter le niveau de 
+gain de l’émetteur. Remarque : le volume du récepteur n’affecte pas le 
+comportement de la DEL de clip audio de l’émetteur .
+1. Die Senderaudiospitzenwert -Lampe sollte flackernd aufleuchten , wenn 
+laute Töne  gesendet werden. 2. Wenn die Lampe weiterhin aufleuchtet , 
+wenn leise Töne   gesendet werden, die Eingangsverstärkung am Sender 
+verringern . 3. Wenn die Lampe nicht aufleuchtet , wenn laute Töne
+gesendet werden, die Eingangsverstärkung am Sender erhöhen . Hinweis: 
+Der Lautstärkepegel am Empfänger wirkt sich nicht auf das Ansprechen 
+der Sender-Audiospitzenwert-Lampe aus .
+1. La luz de  picos del transmisor deberá destellar cuando se transmiten 
+sonidos intensos. 2. Si la luz permanece  encendida cuando se transmiten
+sonidos suaves, reducir la ganancia del transmisor. 3. Si la luz permanece
+apagada cuando se transmiten sonidos intensos, aumentar  la ganancia 
+del transmisor. Nota: El ajuste de volumen del receptor no afecta la 
+respuesta de la luz de picos del transmisor.
+1. Il led Transmitter Peak  deve lampeggiare quando vengono trasmessi 
+suoni alti. 2. Se il led rimane acceso durante la trasmissione di suoni 
+bassi , riducete il guadagno del trasmettitore . 3. Se il led rimane spento 
+durante la trasmissione di suoni bassi , aumentate il guadagno del 
+trasmettitore . Nota: il volume del ricevitore non ha effetto sullo stato 
+del led Transmitter Peak .
+1. A luz de Pico do Transmissor  deve ficar ligada e piscar quando forem 
+transmitidos sons altos . 2. Se a luz permanecer ligada quando forem 
+transmitidos sons baixos, diminua  o ganho do transmissor. 3. Se a luz 
+permanecer desligada quando forem transmitidos sons baixos, aumente  
+o ganho do transmissor. Observação: o volume do receptor não afeta o 
+comportamento a luz de pico do transmissor .
+1. 发射机输出响亮的声音时，发射机声频峰值指示灯会闪亮。 2.发射机输出
+轻微的声音时，如果指示灯始终亮着，应调低发射机增益。 3.发射机输出响亮
+的声音时，如果指示灯始终不亮，应调高发射机增益。注意：接收机音量调节
+不影响发射机声频峰值指示灯的反应。
+1. При передаче звука высокой громкости лампочка Transmitter 
+Peak должна мигать. 2.Если при передаче звука низкой громкости 
+лампочка горит постоянно, уменьшите усиление передатчика. 3.Если 
+при передаче звука высокой громкости лампочка не горит, увеличьте 
+усиление передатчика. Примечание. Pегулировка громкости на 
+приемнике не влияет на работу лампочки индикации максимального 
+уровня передатчика. 1
+2
+3
+
+5OK NO
+<150 mm
+(<6 in.)Do not hold the microphone screen.
+Ne pas tenir la grille du microphone dans la 
+main.
+Den Mikrofonwindschutz nicht berühren.
+No sujetar la rejilla del micrófono.
+Non impugnate il microfono per la griglia.
+Não segure a tela do microfone.
+不可用手握住话筒网罩。
+Не держите микрофон за сетку.The Vocal Artist
+20 20000 1000 10000 50 1009 8 7 6 5 4 3 2 9 8 7 6 5 4 3 2+10
+0
+–10
+HzdB20 20000 1000 10000 50 1009 8 7 6 5 4 3 2 9 8 7 6 5 4 3 2+10
+0
+–10
+HzdB
+150°
+120°150°
+120°180°
+30°60°90°
+30°60°90°
+–5 dB–10 dB–15 dB–20 dB
+0
+500 Hz
+1000 Hz250 Hz150°
+120°150°
+120°180°
+30°60°90°
+30°60°90°
+–5 dB–10 dB–15 dB–20 dB
+02.5 kHz
+6.4 kHz
+10 kHz150°
+120°150°
+120°180°
+30°60°90°
+30°60°90°
+–5 dB–10 dB–15 dB–20 dB
+0
+500 Hz
+1000 Hz125 Hz150°
+120°150°
+120°180°
+30°60°90°
+30°60°90°
+–5 dB–10 dB–15 dB–20 dB
+02000 Hz
+4000 Hz
+8000 HzSM58
+PG58
+
+6The Headset
+FREQUENCYIN HzRELATIVERESPONSEINdB
+125Hz
+250Hz
+500Hz1000Hz
+5000Hz
+10000Hz180°
+150°
+120°
+90°
+60°
+30°
+030°60°150°
+120°
+90°-5dB
+-10dB
+-15dB
+-20dBOK NO
+13 mm 
+(.5 in.)Place the microphone at the corner of the mouth.
+Placer le microphone au coin de la bouche.
+Das Mikrofon am Mundwinkel platzieren.
+Colóquese el micrófono cerca del extremo de la boca.
+Posizionate il microfono vicino all’angolo della bocca.
+Coloque o microfone no canto da boca.
+将话筒放置在嘴角。
+Держите микрофон возле уголка рта.
+Carefully bend the frame for a better fit.
+Recourber avec précaution l’armature pour obtenir un 
+réglage optimal.
+Den Rahmen vorsichtig umbiegen, um den besten Sitz 
+zu erreichen.
+Doble la estructura cuidadosamente para ajustarla.
+Recourber avec précaution l’armature pour obtenir un 
+réglage optimal.
+Piegate con cautela l’archetto per adattarlo.
+Curve com cuidado a estrutura para obter melhor ajuste.
+小心调节支架弯曲 ，增加头戴舒适感。
+Осторожно выгните рамку, чтобы обеспечить 
+хорошее прилегание гарнитуры к голове.
+
+7Be sure the microphone diaphragm is pointing outwards.
+S’assurer que le diaphragme du microphone est orienté 
+vers l’extérieur.
+Sicherstellen, dass die Mikrofonmembran nach außen 
+weist.
+Verifique que el diafragma del micrófono está orientado 
+hacia afuera.
+Accertatevi che il diaframma del microfono sia rivolto 
+verso l’esterno.
+Assegure-se de que o diafragma do microfone esteja 
+voltado para fora.
+话筒的膜片必须朝外。
+Убедитесь в том, что диафрагма микрофона 
+ориентирована наружу.The Presenter
+200-300 mm
+(8-12 in.)
+20 20000 1000 10000 50 1009 8 7 6 5 4 3 2 9 8 7 6 5 4 3 2+10
+0
+–10
+HzdB150°
+120°150°
+120°180°
+30°60°90°
+30°60°90°
+–5 dB–10 dB–15 dB–20 dB
+0 1000 Hz
+
+8Using a cable, set tone and volume for both the amplifier and the instru-
+ment.
+À l’aide d’un câble, régler la tonalité et le volume sur l’amplificateur et sur 
+l’instrument.
+Mit Hilfe eines Kabels Klang und Lautstärkepegel sowohl für den 
+Verstärker als auch das Instrument einstellen.
+Utilice un cable para ajustar los controles de tono y de volumen del ampli-
+ficador y del instrumento.
+Regolate il tono e il volume dell’amplificatore e dello strumento 
+collegandoli con un cavo.
+Usando um cabo, ajuste o volume e o tom do amplificador e do 
+instrumento.
+连接电缆，设定放大器和乐器的音调及音量。
+Подсоединив кабель, установите тембр и громкость на усилителе и на 
+инструменте.
+Adjust receiver volume until it matches the level achieved while using a 
+cable.
+Régler le volume du récepteur jusqu’à ce qu’il corresponde au niveau 
+obtenu en utilisant un câble.
+Den Lautstärkepegel am Empfänger einstellen, bis er dem erreichten 
+Pegel bei Verwendung eines Kabels entspricht.
+Ajuste el volumen del receptor hasta que sea similar al nivel obtenido con 
+un cable.
+Regolate il volume del ricevitore finché non corrisponde al livello ottenuto 
+con il cavo.
+Ajuste o volume do receptor até que coincida com o nível atingido quando 
+um cabo é usado.
+调节接收机的音量，使其达到利用电缆调音时所设定的声级。
+Отрегулируйте громкость на приемнике так, чтобы она соответствовала 
+громкости, полученной при использовании кабеля.
+Note : Different instruments have different sound levels. If you switch instruments, 
+or if you hear unwanted signal distortion, you may need to adjust transmitter gain.
+Remarque : Les instruments ont des niveaux sonores différents. En cas de 
+changement d’instrument ou de perception d’une distorsion de signal indésirable, il 
+se peut que le niveau de gain de l’émetteur doive être réajusté.
+Hinweis:  Verschiedene Instrumente weisen verschiedene Schallpegel auf. Wenn 
+das Instrument gewechselt wird oder unerwünschte Signalverzerrung hörbar ist, 
+muss eventuell die Eingangsverstärkung am Sender eingestellt werden.
+Nota:  Diferentes instrumentos tienen diferentes niveles de intensidad de sonido. 
+Si se cambia de instrumentos, o si se escucha una distorsión no deseada de la 
+señal, puede ser necesario ajustar la ganancia del transmisor.Nota : Il livello del suono cambia da uno strumento all’altro. Se si cambia strumento 
+o se il segnale risulta distorto, può essere necessario regolare il guadagno del 
+trasmettitore.
+Observação:  Instrumentos diferentes têm níveis diferentes de som. Se mudar de 
+instrumentos ou ouvir uma distorção indesejável do sinal, talvez seja necessário 
+ajustar o ganho do transmissor.
+注意：不同的乐器有不同的声级。如果您掉换乐器，或听到杂音或信号失真，则可
+能需要调节发射机增益。
+Примечание .Различные инструменты имеют различные уровни звука. При 
+смене инструмента или при возникновении нежелательного искажения звука 
+может потребоваться регулировка усиления передатчика.The Guitarist
+12321
+
+9The factory preset level will ordinarily not need to be changed.
+Le niveau préréglé en usine n’a d’ordinaire pas besoin d’être modifié.
+Der werkseitig voreingestellte Pegel muss normalerweise nicht 
+verändert werden.
+Normalmente no es necesario cambiar el nivel predeterminado en 
+fábrica.In genere non occorre modificare il livello preimpostato in fabbrica.
+O nível pré-ajustado de fábrica normalmente não precisará ser 
+alterado.
+通常不需要改变工厂预设值。
+Как правило, установленный на заводе уровень изменять 
+не требуется.
+Decreases noise at low volume.
+Operating range may decrease.
+Permet de réduire les parasites lorsque le volume 
+est faible.
+La plage de fonctionnement peut diminuer.
+Verringert Rauschen bei geringem Lautstärkepegel.
+Arbeitsbereich wird eventuell verkleinert.
+Reduce el ruido a niveles bajos de volumen.
+El alcance de funcionamiento puede verse reducido.
+Riduce il rumore a livelli moderati.
+La portata di funzionamento può diminuire.
+Diminui o ruído em volume baixo.
+O alcance operacional pode diminuir.
+减少低音量时噪声。
+工作范围可能会缩小。
+При низкой громкости звука шум уменьшается. 
+Рабочий диапазон может уменьшиться. Increases operating range.
+Noise levels may increase.
+Permet d’augmenter la plage de fonctionnement.
+Les niveaux de parasites peuvent augmenter.
+Vergrößert Arbeitsbereich.
+Rauschpegel nehmen eventuell zu.
+Aumenta el alcance de funcionamiento.
+Los niveles de ruido pueden aumentar.
+Aumenta la portata di funzionamento.
+I livelli del rumore possono aumentare.
+Aumenta o alcance operacional.
+Os níveis de ruído podem aumentar.
+扩大工作范围。
+噪声强度可能会增大。
+Рабочий диапазон увеличивается.
+Уровень шума может увеличиться.Réglage d’accord silencieux • Rauschsperreneinstellung • Ajuste del Supresor de Ruido • Regolazione dello squelch • 
+Ajuste do Supressor de Ruído • 静噪调节 • Регулировка подавления шумов
+SQUELCH� SQUELCH�SQUELCH�
+SQUELCH�Squelch Adjustment
+
+10English
+PWR
+LOW BAT
+POWER RFTRANSMITTER
+AUDIO PEAKPWR
+LOW BAT
+POWER RFTRANSMITTER
+AUDIO PEAKPWR
+LOW BAT
+POWER RFTRANSMITTER
+AUDIO PEAKPWR
+LOW BAT
+POWER RFTRANSMITTER
+AUDIO PEAKPWR
+LOW BAT
+POWER RFTRANSMITTER
+AUDIO PEAKPWR
+LOW BAT
+POWER RFTRANSMITTER
+AUDIO PEAK
+No sound or faint sound • Slide transmitter 
+POWER switch to ON.
+• Make sure battery is 
+inserted properly (+/- 
+battery terminals must 
+match transmitter 
+terminals).
+• Insert fresh battery.• Make sure AC adapter 
+is securely plugged 
+into electrical outlet 
+and into DC input 
+connector on rear 
+panel of receiver.
+• Make sure AC 
+electrical outlet works 
+and supplies proper 
+voltage.• Slide transmitter MUTE 
+switch to ON.
+• Increase transmitter 
+gain until Transmitter 
+Audio Peak light 
+flashes on loud peaks.
+• Turn up receiver 
+volume control as 
+necessary.• Extend receiver 
+antenna vertically.
+• Move receiver away 
+from metal objects.
+• Maintain line of sight 
+between transmitter 
+and receiver.
+• Move transmitter 
+closer to receiver.
+• Check that receiver 
+and transmitter are 
+using the same 
+frequency.• Turn up receiver 
+volume control.
+• Check cable 
+connection between 
+receiver and amplifier 
+or mixer.• Replace transmitter 
+battery.
+Distortion or unwanted 
+noise bursts• Remove or turn off 
+nearby sources of 
+RF (such as other 
+wireless systems, CB 
+radios, CD players, 
+computers, digital 
+effects, etc.).• Remove or turn off 
+nearby sources of 
+RF (such as other 
+wireless systems, CB 
+radios, CD players, 
+computers, digital 
+effects, etc.).
+• Use a wireless system 
+that operates on a 
+different frequency.• Reduce transmitter 
+gain.• Replace transmitter 
+battery.
+Signal loss as 
+transmitter moves 
+around performing area• Reposition receiver and perform walk-through test. If audio dropouts persist, locate “dead” spots and avoid them during perforఁ âሀ  
+Sound level different 
+from cabled guitar or 
+microphone, or when 
+using different guitars• Adjust transmitter gain and receiver volume as necessary.
+Avoiding Feedback
+Audience
+Loud SpeakersSound SourceHow to avoid feedback
+1. Position the front of the microphone as close as possible 
+to the sound source.
+2. Keep the microphone as far away as possible from 
+loudspeakers.
+3. Point the microphone away from loudspeakers and 
+stage monitors. Troubleshooting
+Stage Monitor
+
+11English
+Replacement Parts Vocal Artist Headset (T1G) Headset (T11) Presenter Guitarist (T1G) Guitarist (T11)
+Receiver T3
+AC Adapter
+120VAC, 60Hz PS20
+230 VAC, 50/60 Hz, Europlug PS20E
+230 VAC, 50/60 Hz, UK PS20UK
+T2 Handheld Transmitter
+SM58 Version T2/58
+PG58 Version T2/PG58
+SM58 Cardioid Wireless Head R158
+PG58 Cardioid Wireless Head RPW108
+Body Pack Transmitter 
+Mini (TA4F) Input T1
+1/4” Input T1G
+European T11
+Headset with Dynamic Microphone
+1/4” Plug WH20QTR
+Mini Connector WH20TQG
+Croakies Headband RK319
+Croakies Headband and Wire Frame RPM600
+Microphone and Boom Assembly
+1/4” Plug RPM100
+Mini Connector RPM102
+Omnidirectional Micro-Lavalier Microphone WL93
+Furnished Accessories Vocal Artist Headset (T1G) Headset (T11) Presenter Guitarist (T1G) Guitarist (T11)
+Gain Adjustment Screwdriver 65A1659
+Plastic Carrying Case WA600
+Microphone Clip WA371
+Foam Windscreens (2) and Clothing Clip RK318WS
+Single-Mount Tie Clip (2 with reorder) RK354SB
+Black Windscreen (4 with reorder) RK355WS
+Sew-In Mounting Block (4 with reorder) 65B1733
+Guitar Cable
+1/4” to 1/4” WA303  (2)
+1/4” to Mini Connector (TA4F) WA302
+Optional Accessories Vocal Artist Headset (T1G) Headset (T11) Presenter Guitarist (T1G) Guitarist (T11)
+1.8 Meter (6ft) Receiver-Mixer Cable WA410
+Amp/Powered Mixer Stand WA595
+Anti-Roll Device A1K
+Grip/Switch Cover WA555
+Windscreen (6 Colors Available) A58WS Series
+BETA 58 Supercardioid Wireless Head R179
+Neoprene Belt Pouch WA570A
+In-Line Audio Switch WA360
+Omnidirectional Micro-Lavalier Microphone
+Black WL93
+Tan WL93T
+Supercardioid Lavalier Microphone WL184
+Cardioid Lavalier Microphone WL185
+Headset with Dynamic Microphone
+1/4” Plug WH20QTR
+Mini Connector WH20TQG
+Headset with Condenser Microphone WH30TQG
+Clip-On Instrument Microphone WB98H/C
+Guitar Cable
+1/4” to 1/4” WA303  (2)
+1/4” to Mini Connector (TA4F) WA302
+ = Included
+ = OptionalReplacement Parts and Accessories
+For information or to place an order, call the Shure Service Department at 800-516-2525, or visit the Shure website http://www.shure.com.
+
+12English
+RF Carrier Frequency Range
+169.445 to 240.000 MHz (Available frequencies depend on 
+applicable regulations in country where system is used).
+Operating Range : 100 m (328 ft.) under typical conditions
+Audio Frequency Response: 50 to 15,000 Hz, ±3 dB
+Image Rejection : 60 dB typical
+Spurious Rejection: > 60 dB typical
+System Distortion (ref. ±15 kHz deviation, 1 kHz modulation):
+ 0.1% THD typical
+Signal/Noise Ratio: 101 dB
+Sensitivity: -109 dBm for 12 dB SINAD typical 
+Operating T emperature Range:
+-18° to 57 ° C (0 ° to 135 ° F)  NOTE:  Battery characteristics may 
+limit this range.
+Battery Life: 18 hours with 9 V alkaline battery (Duracell MN1604 
+recommended). 
+T1, T1G AND T11 BODYPACK TRANSMITTER
+RF Output 50 mW typical (T1, T1G); 20 mW typical (T11)
+Input Configuration Unbalanced
+Connector Type 1/4 Inch (T1G); 4–pin Miniature Connector  (male) 
+(T1, T11)
+Actual Impedance 1 MΩ
+Maximum 
+Recommended Input 
+Level*+3 dBV
+Minimum 
+Recommended Input 
+Level**-80 dBV
+Connector Pin
+Assignments (T1, 
+T11)Pin 1: Tied to Ground
+Pin 2: Tied to +5 V
+Pin 3: Tied to Audio
+Pin 4: Tied to 20k Ω Resistor and Audio Ground
+Connector Pin
+Assignments (T1G)Sleeve: Tied to Ground
+Tip: Tied to Audio
+Dimensions               
+ (T1, T1G)64 mm H x 106 mm W x 24 mm D                            
+               (2.52” H x 4.17” W x 0.95” D)
+Dimensions (T11) 83 mm H x 64 mm W x 26 mm D                              
+                 (3.27” H x 2.50” W x 1.03” D)
+Net Weight (T1,T1G) 96.4 g (3.4 oz.)
+Net Weight (T11) 79.4 g (2.8 oz.)
+Power Requirements 9 V alkaline battery (Duracell MN1604 
+recommended);     8.4 V NiCd battery optional. 
+Nominal Current 
+Drain30 mA
+* Gain Control at minimum
+** Gain Control at maximumT2 HAND–HELD TRANSMITTER
+T2/58 (SM58) T2/(PG58)
+RF Output 50 mW T ypical (FCC); 20 mW T ypical (ETSI)
+Dimensions 236 mm H x 51 mm D      
+(9.29” H x 2.01” D)222 mm H x 51 mm D      
+(8.74” H x 2.01” D)
+Net Weight 295 g (10.4 oz.) 266 g (9.4 oz.)
+Power Requirement 9 V alkaline battery (Duracell MN1604 
+recommended);  8.4 V  NiCd  battery optional. 
+Nominal Current 
+Drain30 mA 30 mA
+T3 RECEIVER
+Connector 1/4” Phone  Jack
+Maximum Output 
+Levels-6.8 dBV
+Nominal Output 
+Levels-32 dBV        
+Output  
+ConfigurationUnbalanced
+Actual Impedance 1 KΩ
+Connector Pin   
+AssignmentsTip: hot; Sleeve: ground
+Dimensions  35 mm H x 152 mm W x 98 mm D
+(1.38”H x 5.98” W x 3.85” D)
+Net Weight 192 g (6.8 oz.)
+Power Requirements 12-18 VDC nominal, 200mA
+Power Supply 120 V or 230V AC adaptor with 2.1 mm female plug
+Voltage/Current/
+Phantom Power 
+ProtectionYesSystem and Component Specifi  cations
+
+13English
+CERTIFICATION
+T1G, T1:  Accepted under FCC Parts 74 and 90. Certified by IC in 
+Canada under TRC–78.
+T11:  Conforms to European Union directives, eligible to bear CE 
+marking; meets European Union Requirements. T ype Approval: 
+pr I-ETS 300 422, BZT 17 TR 2019, and BAPT 122 R 1. Meets 
+Requirements of EMC Standard 301–489–1 and -9
+T2/PG58, T2/58: T ype Accepted under FCC Parts 74 and 
+90. Certified by IC in Canada under TRC–78. Conforms to 
+European Union directives, eligible to bear CE marking; meets 
+European Union Requirements. T ype Approval: pr I-ETS 300 
+422, BZT 17 TR 2019, and BAPT 122 R 1. Meets Requirements 
+of EMC Standard 301–489–1 and -9
+T3: Approved under the Notification provision of FCC Part 15. 
+Certified by IC in Canada under TRC-78.
+T11 and T2 Transmitters  meet the essential requirements of the 
+European R&TTE Directive  99/5/EC and are eligible to carry 
+the CE marking. 
+T3 Receiver  meets the essential requirements of the European 
+R&TTE Directive  99/5/EC and are eligible to carry the CE 
+marking. 
+Power supply meets the following safety standard:
+PS20 Power Supply:  UL 1310, CAN/CSA 22.2 No. 223.
+PS20E Power Supply:  EN 60065/09.93.
+PS20UK Power Supply: EN 60065 5th, 1985.
+Frequency Range of Apparatus: 169 MHz-250 MHz
+Licensing:  A ministerial license to operate this equipment may 
+be required in certain areas. Consult your national authority for 
+possible requirements.
+European countries:  Shure Transmitters Models T11 and T2 
+may be used in the countries and frequency ranges listed in the 
+table at the end of this document.
+THIS RADIO EQUIPMENT IS INTENDED FOR USE IN MUSICAL PRO-
+FESSIONAL ENTERTAINMENT AND SIMILAR APPLICATIONS.
+NOTE: This Radio apparatus may be capable of operating on some 
+frequencies not authorized in your region. Please contact your national 
+authority to obtain information on authorized frequencies for wireless 
+microphone products in your region.WARRANTY INFORMATION
+Shure Incorporated (“Shure”) hereby warrants that these products will be 
+free from defects in material and workmanship for a period of two years 
+from the date of purchase. At its option, Shure will repair or replace the 
+defective product and promptly return it to you. You should retain proof 
+of purchase to validate the purchase date and return it with any warranty 
+claim. If you believe this product is defective within the warranty period, 
+carefully repack the unit, insure it, and return it postpaid to:
+Shure Incorporated
+Attention: Service Department
+222 Hartrey Avenue
+Evanston, IL  60202–5730  U.S.A.
+Customers outside the U.S.A. should ship the product to the authorized 
+Shure Distribution Center in their region.
+DECLARATION OF CONFORMITY
+We of 
+Shure Incorporated
+222 Hartrey Ave.
+Evanston IL 60202-3696 U.S.A.
+847-866-2200
+declare under our sole responsibility that the following products,
+Model: T3 Name: T3 Receiver
+were tested and found to comply with Part 15 of the FCC rules.
+Operation is subject to the following two conditions: (1) this device may 
+not cause harmful interference, and (2) this device must accept any 
+interference received, including interference that may cause undesired 
+operation.
+T esting was completed by the following NVLAP or A2LA accredited 
+laboratory:
+Cetekom ICT Services GmbH
+Untertürkheimer Str. 6-10
+66117  Saarbrücken
+Allemagne 
+Téléphone : + 49 681 598 - 9000
+Télécopieur : +49 681 598 - 9075
+Shure Inc., Manufacturer.
+Signed: 
+ Date: June 15, 1999
+Name, Title: Craig Kozokar, Senior Quality Engineer
+Additional Information for this Shure Wireless System
+This Shure wireless transmitter is accepted under FCC Part 74 and/or 
+Part 90.
+IMPORTANT: Licensing of Shure wireless microphone equipment 
+is the user’s responsibility, and licensability depends on the user’s 
+classification and application, and on the selected frequency.  Shure 
+urges the user to consult the appropriate telecommunications authority 
+before choosing and ordering frequencies.
+Changes or modifications not expressly approved by Shure Inc. could 
+void your authority to operate this equipment.Certifi  cation and Warranty
+
+42Country Code • Code de Pays • 
+Lander-Kurzel • Codigo de Pais • 
+Codice del PaeseT11, T2 (169 - 250 MHz)
+A 230 - 250 MHz*
+B 174 - 223 MHz*
+CH 174 - 223 MHz*
+D 174 - 223 MHz*
+E 174 - 223 MHz*
+F 174 - 223 MHz*
+GB 174 - 223 MHz*
+GR *
+I 174 - 223 MHz*
+IRL *
+L *
+NL 174 - 223 MHz*
+P 174 - 223 MHz*
+DK *
+FIN 174 - 223 MHz*
+N 174 - 223 MHz*
+S 174 - 223 MHz*
+All Other Countries • Tous les au-
+tres pays • Alle anderen Länder • 
+Demás países • Tutti gli altri PaesiCountries and Frequencies
+Shure Transmitters Models T11 and T2 may be used in the countries and 
+frequency ranges listed below.
+Les modèles d’émetteurs Shure T11 et T2 peuvent être utilisés dans les 
+pays et aux gammes de fréquences indiqués ci-dessous.
+Die Shure Sendermodelle T11 und T2 können in den nachfolgend 
+aufgeführten Ländern und mit den entsprechenden Frequenzbereichen 
+verwendet werden.Los transmisores T11 y T2 de Shure pueden usarse en los países y con 
+las frecuencias que se indican a continuación.
+I trasmettitori Shure modelli T11 e T2 possono essere utilizzati nei Paesi 
+e alle frequenze elencati di seguito.
+Os Transmissores Modelos T11 e T2 da Shure podem ser usados nos 
+países e nas faixas de freqüência listadas abaixo.
+*Please contact your national authority for information on available legal 
+frequencies for your area and legal use of this equipment.
+*Se mettre en rapport avec les autorités compétentes pour obtenir les 
+informations sur les fréquences autorisées disponibles localement et sur 
+l’utilisation autorisée de ce matériel.
+*Für Informationen bezüglich der für Ihr Gebiet verfügbaren gesetzlich 
+zugelassenen Frequenzen und der gesetzlichen Bestimmungen für den 
+Einsatz dieses Geräts setzen Sie sich bitte mit der zuständigen örtlichen 
+Behörde in Verbindung.*Comuníquese con la autoridad nacional para obtener información en cu-
+anto a las frecuencias legales disponibles y usos legales de este equipo 
+en su área.
+*Rivolgersi alle autorità competenti per ottenere informazioni relative alle 
+frequenze autorizzate nella propria regione e alle norme che regolano 
+l’uso di questo apparecchio.
+*Pedimos que entre em contato com as devidas autoridades em seu país 
+para obter informações sobre as freqüências legais disponíveis para a 
+sua área e quanto ao uso legal deste equipamento.
+
+43EU Declaration
+
+SHURE Incorporated  Web Address: http://www.shure.com
+5800 W. Touhy Avenue, Niles, IL 60714-4608, U.S.A.
+Phone: 800-257-4873  Fax: 847-866-2279In Europe, Phone: 49-7131-72140  Fax: 49-7131-721414
+In Asia, Phone: 852-2893-4290  Fax: 852-2893-4055
+Elsewhere, Phone: 847-866-2200  Fax: 847-866-258527E8715 (C B )(c) 2003 Shure Incorporated

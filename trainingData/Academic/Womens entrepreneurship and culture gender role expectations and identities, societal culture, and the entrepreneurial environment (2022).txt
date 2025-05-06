@@ -1,0 +1,994 @@
+Women ’s entrepreneurship and culture: gender role
+expectations and identities, societal culture,
+and the entrepreneurial environment
+Amanda Bullough &Ulrike Guelich &
+Tatiana S. Manolova &Leon Schjoedt
+Accepted: 30 September 2020
+#Springer Science+Business Media, LLC, part of Springer Nature 2021
+Abstract Women ’s entrepreneurship is increasingly
+important for creating new jobs and contributing to the
+social and economic growth of their societies, yet the
+interplay and nuances of women ’s entrepreneurship and
+culture are currently understudied. In this special issue,
+we present eight empirical papers that delve into differ-
+ent aspects of the dynamic interaction between gender
+and culture in shaping women ’s entrepreneurship. We
+provide framework for women ’s entrepreneurship and
+culture research to organize the empirical research here-
+in into three interconnected themes: gender role expec-
+tations and identities, societal cultural dimensions, and
+the entrepreneurial environment. This collection is animportant step in integrating research on women ’se n -
+trepreneurship and culture and further exploring these
+dynamic and complex interactions, in different econom-
+ic and societal systems and across geographies.
+Keywords Women .Entrepreneurship .Gender .
+Culture
+JEL classifications B54.E02.J16.L26.M14
+1I n t r o d u c t i o n
+Women entrepreneurs create jobs and contribute to eco-
+nomic growth and social progress worldwide. From the
+initial idea, throughout the gestation process, and to
+business operations and venture growth, their entrepre-
+neurial initiatives are embedded in a complex and mul-
+tilayered cultural environment. Thus, gender and culture
+dynamically interact, shaping gender role expectations
+and identities, and the economic and social environment
+in which women ’s entrepreneurship is embedded.
+According to the Global Entrepreneurship Monitor
+(GEM), 231 million women launched or operated busi-
+nesses in the 59 economies around the world that were
+studied in the latest 2018/2019 report on women ’se n -
+trepreneurship (Elam et al. 2019 ). Many organizations
+and governmental institutions (ILO 2020 ;U NW o m e n
+2020 ) have long recognized the importance of women in
+the process of economic development, individual health,
+and societal advancement (Bullough et al. 2019 ).https://doi.org/10.1007/s11187-020-00429-6
+A. Bullough ( *)
+Department of Business Administration (LEH 217), Alfred Lerner
+College of Business & Economics, University of Delaware,
+Newark, DE 19716, USA
+e-mail: bullough@udel.edu
+U. Guelich
+GERA (Global Entrepreneurship Research Association), School
+of Entrepreneurship and Management, Bangkok University, 119
+Rama 4 Rd., Klongtoei, Bangkok 10110, Thailand
+e-mail: ulrike.g@bu.ac.th
+T. S. Manolova
+Bentley University, 175 Forest St., Waltham, MA, USA
+e-mail: tmanolova@bentley.edu
+L. Schjoedt
+Arthur M. Blank Center for Entrepreneurship, Babson College,
+231 Forest Street, Babson Park, Wellesley, MA 02457, USA
+e-mail: leonschjoedt@gmail.com/ Published online: 9 January 2021Small Bus Econ (2022) 58:985–996
+Although women entrepreneurs are important for creat-
+ing new jobs and contributing to the social and econom-ic growth of their societies, the interplay and nuances of
+women ’s entrepreneurship, growth, and culture are
+understudied (Brush et al. 2018; Hechavarria et al.
+2019 ).
+Prior research has identified social, cultural, infra-
+structural, educational, occupational, and role-related
+obstacles and facilitators to women ’s entrepreneurship
+(Baughn et al. 2006 ; Bullough et al. 2017 ;J e n n i n g sa n d
+Brush 2013 ; Welter and Smallbone 2011 ). Culture is a
+multi-layer construct comprising an external, global lay-
+er penetrating a society ’s indigenous layers, and ulti-
+mately becoming a set of shared values within groups
+(Leung et al. 2005 ;S t e e la n dT a r a s 2010 ). Understand-
+ing cultural systems is critical for advancing leadershipresearch in varying contexts (Kirkman et al. 2006 ).
+Cultural indicators relate to specific beliefs, norms, andexpectations within a society that affect societal culture(Fu et al. 2004 ; Leung et al. 2005 ). This and the entre-
+preneurial environment within which businesses arefounded and operate together affect women ’s
+entrepreneurship.
+Culture represents multifaceted explanations for dif-
+ferences in women ’s entrepreneurship across societies
+and in the success or failure of business activities.
+Many barriers and constraints that women entrepre-
+neurs experience are gender specific and stem fromcultural values, norms, and customs (Anambane and
+Adom 2018 ;B a u g h ne ta l . 2006 ;K h a n d e l w a la n d
+Sehgal 2018 ). Gender egalitarianism, gender role ex-
+pectations, and the entre preneurial ecosystem are
+under-researched cultural factors in women ’se n t r e p r e -
+neurship (Bullough and Sully de Luque 2015 ; Eagly
+and Wood 2016; Hechavarría and Ingram 2019;
+Manolova et al. 2017 ). Social customs and expecta-
+tions are strongly embedded in any culture (Berry et al.
+2002 ; de Bruin et al. 2007 ; Erez and Gati 2004 ), and
+attitudes toward entrepreneurship at least partly reflectsubjective perceptions that are prone to bias (Kempet al. 2015;M a r l o we ta l . 2019 ; Robinson and
+Stubberud 2011 ). Traditionally defined gender roles
+within the home put household and family responsibil-ities largely on women, while men provide economi-
+cally for the family by working outside (Milkie and
+Peltola 1999 ; Vinnicombe and Singh 2002 ). These
+gender role expectations have traditionally limited
+women ’s
+access to income-earning opportunities
+(Eagly and Karau 2002 ; Eagly and Mitchell 2004 ).Other research presents more positive notions about
+culture and women ’s entrepreneurship (Ahl 2006 ;
+Bullough 2013 ), which to some extent counterbalances
+the important scholarship done on male and female
+stereotypes and biases (van Emmerik et al. 2008 ). While
+work–life imbalance creates barriers for women starting
+and running businesses, women have found ways tomerge their personal and work lives (Ruderman et al.2002 ). Women ’s capabilities are increasingly recog-
+nized as complementary to business goals (Newburryet al. 2008 )—skills developed particularly well from the
+very house responsibilities that can so unevenly impact
+women, such as multitasking, interpersonal skills, and
+emotional empathy (Ruderman et al. 2002 ). Other re-
+search from Lucas ( 2003 ) shows that as more women
+are seen leading business, the notion becomes institu-tionalized and less foreign. This phenomenon helps to
+shift cultures in a way that reduces barriers to women by
+adding legitimacy, so that the notion of women in lead-ership becomes increasingly engrained in a culture ’s
+social and economic fabric (Newburry et al. 2008 ).
+This special issue of Small Business Economics: An
+Entrepreneurship Journal sought papers that fit within
+the overarching theme of women ’s entrepreneurship and
+culture. We invited contributors to investigate femaleentrepreneurship in a variety of cultural and societal
+settings, with a particular focus on women ’se n t r e p r e -
+neurship and culture, interactions between and among
+cultures and societies, cross-cultural similarities and
+differences, and the impact ofculture and the impact
+onculture. Emphasis was placed on studies that consid-
+er the opportunities, strategies, and business models, aswell as the challenges faced in today ’s increasingly
+digitized and networked world, emphasizing how wom-
+en start and grow their businesses. Despite the multifac-
+eted complexities encompassed by a topic as broad as
+women ’s entrepreneurship and culture, the eight articles
+in this special issue fall into three dominating themes
+that we organized into a framework for women ’se n t r e -
+preneurship and culture research: gender role expecta-
+tions, societal cultural dimensions, and the entrepreneur-
+ial environment (see Fig. 1). In this article, we first
+review the literature in these three overarching streams,
+with gender role expectations and identities as the dom-
+inating theme. We then distill and organize the various
+types of primary and secondary data gathered for thework done in these eight articles. Next, we introduce
+each of the articles with brief summaries of the authors ’
+work. We conclude by suggesting some directions for986 A. Bullough et al.
+future research based on the contributions in this special
+issue.
+2 Gender role expectations and identities
+Research has shown that women often experience bias
+stemming from expectations of female leadership stylesand perceptions of how they lead in practice (Oakley
+2000 ; Prime et al. 2008 ). Role incongruity theory holds
+that individuals often find incongruities between their
+ideas of leadership and their female gender role expec-
+tations. This leads to discrimination when women are
+viewed less favorably than men as potential leadersbecause expected behaviors for their gender roles are
+inconsistent with attributions of leadership (Eagly and
+Karau 2002 ). Prejudice also happens when prescribed
+behaviors filled by a leader are viewed less favorablywhen they are enacted by a woman. The result is thatattitudes toward female leaders are less positive, which
+in turn creates barriers for women becoming leaders and
+achieving leadership success.
+When a specific type of person is repeatedly seen
+engaging in a particular activity —like men in leadership
+positions —individuals tend to associate the abilities and
+attributes needed for that activity as typical of that
+specific type of person (Osborn and Vicars 1976 ). A
+phenomenon referred to as a “think-leader, think-male ”
+mindset has created obstacles for women owning andrunning their own business (Jackson et al. 2007 ; Schein
+2001 ). Sex-role stereotyping happens when men arerespected more in business leadership roles because theyare believed to possess the masculine traits that are
+deemed necessary for leadership (Eagly and Mitchell2004 ) and are associated with high-growth entrepre-
+neurial ventures, whereas women are associated withlow-growth ventures. This particularly occurs and isreinforced in contexts where men are far often than
+women to be found in leadership positions and in entre-
+preneurship (Elam et al. 2019 ; Markussen and Røed
+2017 ;S h a h r i a r 2018 ). To compensate for some of these
+challenges, women have de veloped keen skills for
+switching between different gender and leadership iden-tities and styles, depending on different contexts (Hytti
+et al. 2016 ), which in turn helps them to further develop
+their relationship building and diplomacy skills.
+Research has shown that because women are often
+associated with being feminine, communal, and com-
+passionate (Ferriman et al. 2009 ) as opposed to asser-
+tive, dominating, and independent, which are character-
+istics associated more often with men, an incongruity
+between roles occurs when women ’sg e n d e rr o l e s —
+caregiving and nurturing —are at odds with perceived
+leadership characteristics —assertive and competitive
+(Eagly and Mitchell 2004 ; Gupta et al. 2019 ; Powell
+et al. 2002 ). These male –female stereotypes, biases, and
+gender role expectations make entrepreneurial successand growth harder for women than for men, leading to
+the lacking of funding capital for their businesses
+(Gupta et al. 2019 ; Prasad 2009 ) and smaller profes-
+sional networks (Kalafatoglu and Mendoza 2017 ;M i t r a
+and Basit 2019 ).
+•Societal Cultural 
+DimensionsGender Role Expectations & 
+Identities Entrepreneurial 
+Environment Team 
+ProcessesRisk-taking 
+Behaviors Stereotyping
+Collaborative 
+and Nurturing Gender 
+Identity
+Gender Role 
+TheoryVenturing 
+ProcessSocially Supportive 
+CulturesPerceptions of 
+Women 
+Entrepreneurs
+Gender Role 
+Orientation Supportive of 
+EntrepreneurshipRegulationsSocial 
+Entrepreneurship 
+Implicit Theories of 
+EntrepreneurshipSocial Role 
+Theory Family 
+Embeddedness 
+Family 
+Firm
+Traditional 
+Gender Norms Gender 
+Egalitarianism
+Humane 
+Orientation AssertivenessPower 
+Distance
+Future 
+OrientationUncertainty 
+Avoidance
+In-group 
+Collectivism
+Fig. 1 Framework for women ’s entrepreneurship and culture research987 Women’s entrepreneurship and culture: gender role expectations and identities, societal culture, and the...
+Gender roles for women can be viewed in a more
+positive light as well. Women more than men have been
+associated with being nurturing, collaborative, coopera-
+tive, affectionate, and concerned for others (Yoder 2001),
+which are qualities that are particularly important leader-
+ship characteristics (Dorfman et al. 2004). Prior research
+has suggested that women particularly excel at empathyand judging emotions (Kirkland et al. 2013; Macaskill
+et al. 2002; Mandell and Pherwani 2003), building friend-
+ships and community (Ferriman et al. 2009), or managing
+sensitive relationships (Korac-Kakabadse et al. 1998 ).
+Women have also been found to excel at certain global
+leadership competencies like having a passion for diversi-
+ty, and intercultural empathy and diplomacy (Javidan et al.2016). Women would therefore succeed in many of the
+skills that are needed for building an entrepreneurial team
+and running a successful business (Eagly and Carli 2003;
+Ruderman et al. 2002; Vecchio 2002).
+Through vicarious learning and social persuasion, as-
+piring and nascent female entrepreneurs look to other
+women business owners as direct and indirect role models
+(Bloemen-Bekx et al. 2019). Role models often come
+from within the family as daughters learn from and are
+encouraged by entrepreneurial mothers and fathers, with
+entrepreneur mothers having a particularly powerful influ-ence on their daughters’ aspirations and self-efficacies
+(Greene et al. 2013;H o f f m a n ne ta l . 2015). In this way,
+women have come to rely on their gender role benefits thatstem from family support of their businesses and other
+female role models. The in-group —defined differently in
+different cultures, as family only, or a combination of
+family and close friends —has been found to be particular-
+ly important for encouraging a woman ’s individual goals
+as an entrepreneur and supporting her business by helpingher access networks and resources (Bullough et al. 2017).
+Because women are influenced by family members andother close relationships, role models also come frompeers that other women can relate to, be inspired by, and
+emulate (Markussen and Røed 2017). Role models have a
+strong influence on a woman’ s belief in her entrepreneurial
+abilities, and therefore influence her intentions to becomean entrepreneur (BarNir et al. 2011) and identify as a
+female business leader (Hytti et al. 2016).
+3 Societal cultural dimensions
+The factors that influence women ’s entrepreneurship
+vary depending on circumstance and the dynamic natureof their complex and interconnected lives —in other
+words, cultural influences. Culture has been defined as
+“values, beliefs, norms, and behavioral patterns of a
+national group (Leung et al. 2005 ,p .3 5 7 ) , ”and has
+been conceptualized as levels that range from the deeplyembedded, unconscious, basic assumptions that define
+the essence of a particular culture, to the external man-
+ifestations that are tangible and overt and can be seenand felt by outsiders (E. H. Schein 1992 ). The middle
+layers that fall within these two extremes are the beliefs,
+values, norms, and rules of behavior that dictate thebasic
+principles by which the members of a society
+operate.
+The reciprocal top-down, bottom-up nature of culture
+makes it a dynamic force, rather than static, where lower
+levels of culture are nested within higher levels, and
+change at any level can affect other levels (Erez and
+Gati 2004 ; Leung et al. 2005 ; E. H. Schein 1992 ).
+However, because the basic assumptions that guide
+behavior are shared, culture is powerful because the
+assumptions are mutually reinforced. Unless they are
+challenged or debated, it is nearly impossible to changeculture without high levels of anxiety among constitu-
+ents (E. H. Schein 1992 ), and yet, this is what is needed
+for women to violate the expected behavioral norms for
+their gender. Outside influences, like programs, policies,
+and practices that are designed to encourage women ’s
+entrepreneurship (Bullough et al. 2019 ; Fre šer et al.
+2019 ), can offer a scenario where seemingly opposing
+sets of assumptions can find some common ground.
+Culture in the ecosystem can be viewed as the “rich
+complex of meanings, beliefs, practices, symbols,
+norms, and values prevalent among people in a society
+(Schwartz 2006 ,p . 1 3 8 ) ”and as the “underlying system
+of values peculiar to a specific group or society (Pinillos
+and Reyes 2011 ,p . 2 5 ) . ”
+Prominent and plentiful research over the last
+20 years has used data developed by the GLOBE (TheGlobal Leadership and Organizational Behavior Effec-
+tiveness Research Program) Project (House et al. 2004 ),
+which is a study of societal-level culture and organiza-
+tional and leadership effectiveness in 62 country-
+societies based on surveys from 17,000 middle man-agers in 951 organizations conducted over a 10-year
+period. The foundation for the GLOBE measures was
+Hofstede ’s original work (Hofstede 1980 ) and culmi-
+nated into nine societal-level culture dimensions: future
+orientation, in-group collectivism, institutional collec-
+tivism, power distance, uncertainty avoidance, gender988 A. Bullough et al.
+egalitarianism, performance orientation, assertiveness,
+and humane orientation. GLOBE scholars defined cul-ture as “shared motives, values, beliefs, identities, and
+interpretations or meanings of significant events thatresult from common experiences of members of collec-tives that are transmitted across generations (House et al.
+2004 ,p .1 5 ) . ”This work is particularly relevant for this
+article because three of the articles in this issue use
+GLOBE data.
+Previous research with GLOBE data on women ’s
+entrepreneurship and leadership has been light, but laysa foundation for future work. One study showed that
+despite high gender egalitarianism —the level of gender
+equality in society —in some societies, the relative pro-
+portion of women to men remains unequal (Chow 2005).
+Other work found that organizations with more women
+in management had cultures that were high on humane
+orientation (fairness, generosity, caregiving, kindness),
+gender equity, and performance orientation (innovation,improvement, excellence), and low on power distance
+(authority, power distinct ion, and status privileges)
+(Bajdo and Dickson 2001). Another study demonstrated
+that in lower gender egalitarian cultures, women wererated by their supervisors lower in work –life balance than
+men, and this mattered for women, not men, in their
+performance appraisals; this was not found in high gen-
+der egalitarian cultures (Lyness and Judiesch 2014 ).
+More recent work on collectivism and women ’se n t r e -
+preneurship found that autonomy to pursue individualgoals (in-group individualism), combined with support
+from the in-group (collectivism), creates the best condi-tions for women to develop businesses, especially in
+cultures with extreme levels of institutionalism collectiv-
+ism (highly collectivistic or highly individualistic and the
+macro-societal level) (Bullough et al. 2017).
+4 The entrepreneurial environment
+A supportive environment for women ’s entrepreneur-
+ship requires unified systems with reciprocal features
+and a entrepreneurially constructive culture. This in-
+cludes investments and human and financial capital,opportunities for growth, and a mixture of innovative
+and progressive institutional and infrastructural provi-
+sions (Bullough et al. 2019 ). Gendered aspects of poli-
+cies, laws, and cultural expectations are often opaque
+and subtle, but are deeply rooted in rules, practices, and
+norms (Brush et al. 2018 ). Impartial legal andcommercial systems that ensure equitable access to fi-nancial capital, and promote cultural expectations andpractices that support women ’s businesses, encompass a
+productive and supportive entrepreneurial ecosystem forwomen entrepreneurs (Brush et al. 2018 ; Hechavarría
+and Ingram 2019 ).
+The attractiveness of entrepreneurship to women can
+be altered by rules and policies that influence the regu-lations and costs associated with owning a business
+(Manolova et al. 2017 ). Therefore, the professional net-
+works that women assemble and an encouraging eco-
+system are critical. Networking helps women overcome
+gender-based limitations to entrepreneurship by helping
+them access resources, financial information, and capi-tal, and identify new business opportunities. Women ’s
+personal networks are often comprised of privatespheres (Bertelsen et al. 2017 ) that include kinship,
+friendship, and business or professional ties and influ-enced by religion, mistrust (Mitra and Basit 2019 ), and
+culture and societal expectations (Surangi Hapugoda
+Achchi Kankanammge Nadee 2018 ).
+Because
+women have been found to face more
+gender-based barriers to securing capital for their busi-nesses, such as inherent gender bias capital funding
+practices, they secure smaller amounts of investmentcapital and fewer bank loans (Balachandra et al. 2019 ;
+Kanze et al. 2017 ; Wilson 2016 ). To help women sur-
+mount these obstacles, a supportive entrepreneurial en-vironment includes policies that encourage financial
+institutions to market investment funds and loan prod-
+ucts to women directly, and create and assign specificfinancial products explicitly for women entrepreneurs
+(Bullough et al. 2019 ). Attracting more female investors
+and establishing funds that are led by women and
+invested in businesses founded and owned by women,
+should help to create more gender equity in funding
+practices that are particularly fruitful for women entre-preneurs (Fre šer et al. 2019 ).
+5 Samples and datasets
+As expected for a special issue on women ’se n t r e p r e -
+neurship and culture, our contributors used primary and
+secondary data from all over the world and from large
+and well-respected data sources. Primary data comefrom large, global databases. Three articles in this issue
+used data from the Global Leadership and Organization-
+al Behavior Effectiveness (GLOBE) Project (House989 Women’s entrepreneurship and culture: gender role expectations and identities, societal culture, and the...
+et al. 2004 ). It is an extension of Hofstede ’s earlier work
+on culture ’s consequences (Hofstede 2006 ;T u n ga n d
+Verbeke 2010 ). Gimenez-Jimenez, Edelman, Dawson,
+and Calabrò (ms#126 insert citation in this special issue)
+use GLOBE ’s humane orientation and assertiveness
+measures as an overall measure of socially supportive
+cultures, developed by Stephan and Uhlaner ( 2010 ).
+Santos and Neumeyer (ms#137 insert citation in this
+special issue) used GLOBE ’s gender egalitarianism
+measure. Hechavarría and Brieger (ms#138 insert cita-tion in this special issue) utilize GLOBE ’sd i f f e r e n t i a -
+tion between espoused societal values (how people be-
+lieve society “should be ”) and society ’s actual practices
+(as society actually is) for all nine culture dimensions:
+gender egalitarianism, uncertainty avoidance, power
+distance, future orientation, humane orientation, perfor-
+mance orientation, assertiveness, institutional collectiv-
+ism, and in-group collectivism.
+Two studies use data from the World Bank ’sp u b l i c l y
+available World Development Indicators (WDI) data-base (World Bank 2020). Santos and Neumeyer
+(ms#137 insert citation in this special issue) utilized total
+unemployment and the percentage of female self-
+employed data. Hechavarría and Brieger (ms#138 insert
+citation in this special issue) use WDI data on GDP,unemployment, and population growth.
+Two articles use data from the Global Entrepreneur-
+ship Monitor (GEM) (Reynolds et al. 2005 ). The GEM
+project represents the largest and widely recognized
+dataset on global entrepreneurial activity (Bergmann
+et al. 2014 ). Hechavarría and Brieger (ms#138 insert
+citation in this special issue) included data from business
+owners, ages 18 –64, from 2009 and 2015, and classified
+their status as a nascent entrepreneur, baby business
+owner, or an established business owner. Santos and
+Neumeyer (ms#137 insert citation in this special issue)
+used the GEM National Experts with questions an-swered by a sample of a minimum of 36 experts per
+country in their study.
+Three other studies in this issue utilized data from three
+different secondary sources. One study in this issue byGimenez-Jimenez, Edelman, Dawson, and Calabrò
+(ms#126 insert citation in this special issue) used datafrom the Global University Ent repreneurial Student Spirit
+Study (GUESSS) survey (Sieger et al. 2014)t om e a s u r e
+risk-taking behavior. The GUESSS project is an ongoingstudy of the founding intentions and startup activities of
+university students in 34 countries. Another study by
+Vershinina, Markman, Rodgers, Han, Kitching,Hashimzade, and Barrett (ms#135 insert citation in thisspecial issue) utilized firm-level survey data from 27European countries collected by the Business Environ-
+ment and Enterprise Performance Survey (BEEPS),
+through a partnership between the European Bank forReconstruction and Development (EBRD) and the World
+Bank (EBRD 2020). The third study by Feldmann, Lukes,
+and Uhlaner (ms#158 insert citation in this special issue)
+used family business data from the Cultural Pathways of
+Economic Self-Sufficiency and Entrepreneurship
+(CUPESSE) project in 11 counties (Tosun 2016).
+Four of our eight articles in this issue collected their
+own primary data. In addition to their use of secondarydata sources, Santos and Neumeyer (ms#137 insert ci-tation in this special issue) also collected their own
+primary data from 64 entrepreneurial teams in a tech-
+nology startup accelerator that snaps 20 countries.
+Martiarena (ms#104 insert citation in this special issue)
+created a new, primary dataset with a survey of 710business owners to create a representative sample in
+terms of age and gender in 10 countries. Gupta, Batra,
+and Gupta (ms#124 insert citation in this special issue)collected primary survey data of working adults and
+business students in the USA and India. And, finally,
+Liñán, Jaén, and Martín (ms#146 insert citation in this
+special issue) collected their own survey data from 1195
+Sp
+anish women to understand the cultural interplay
+between gender role expectations and entrepreneurially
+supportive cultures. Theirs is the only single-country
+study of culture in the issue.
+6 The articles in this issue
+By applying a family embeddedness perspective and a
+multi-level view of culture, Feldmann, Lukes, and
+Uhlaner (ms#158 insert citation in this special issue)analyze gender norms at the family and society levels
+in their article “Disentangling Succession and Entrepre-
+neurship Gender Gaps: Gender Norms, Culture, and
+Family. ”With a sample of 2897 young adults in 11
+European countries who have at least one self-employed parent, their results show a significant rela-tionship between gender identity and career status.
+Women were found to be more likely than men to be
+an employee in a family firm than a successor, but nosignificant differences were found in the likelihood of
+women being founders. The authors found nuances that
+explain these relationships further. Women with990 A. Bullough et al.
+childcare responsibilities who live by traditional gender
+norms and have a self-employed mother are more likelyto be a successor than being either an employee or a
+founder —a finding that reverses gender identity main
+effects. The authors theorize the explanation of these
+findings by employing an understanding of culture in
+occupational choice and a family embeddedness per-
+spective (Aldrich and Cliff 2003 ), which explains that
+entrepreneurship is inextricably intertwined with
+family-related roles and caregiving responsibilities.
+Feldmann, Lukes, and Uhlaner propose that caregivingmay lead women to become self-employed, and primar-
+ily into succession as opposed to founding, because
+family businesses can help daughters balance childcareand career.
+In the article “How gender stereotypes shape venture
+growth expectations, ”Martiarena (ms#104 insert cita-
+tion in this special issue) draws on gender role theoriesto study how masculine stereotyping of entrepreneursinfluences expectations of firm ’s growth on the part of
+the business owner. She explores the relationshipsamong gender traits that business owners attribute toother entrepreneurs along with their own gender identi-
+ty, within the industrial context in which the businesses
+operate. This study of individual-level psychologicalconstructs within an industrial context is based on pri-
+mary data from a survey of 710 business owners in 10
+countries. Martiarena ’s findings reveal that women en-
+trepreneurs expect a lower growth rate for their busi-
+nesses when they identify themselves with feminine
+traits and attribute masculine characteristics to entrepre-neurship. However, these stereotypes are only relevant
+in industries with a low participation from women in
+entrepreneurship. The author believes the explanationfor this finding to stem from the visibility of gender as
+an issue because of the rarity of women business
+owners, which in turn triggers stereotype threats.
+“Culture and Gender in Entrepreneurial Teams: The
+Effect on Team Processes and Outcomes ”by Santos and
+Neumeyer (ms#137 insert citation in this special issue)is a study that examines survey data of 64 entrepreneur-
+ial teams from 20 countries in an international technol-
+ogy startup accelerator, and secondary data from ProjectGLOBE (House et al. 2004 ), Global Entrepreneurship
+Monitor (GEM) (Reynolds et al. 2005 ), and the World
+Development Indicators (WDI) database (World Bank2020 ) to understand the participation of women in en-
+trepreneurial team processes. They specifically study themediating role of team reflexivity, which involvesintentionally reconsidering —reflecting —strategies and
+processes in order to identify gaps between current anddesired circumstances and adapt as needed (Schippers
+et al. 2008 ;W e s t 1996 ). They find that team reflexivity
+mediates the relationship between the proportion of
+women in a team and a team ’s access to resources.
+Santos and Neumeyer theorize that the explanation forthis mediating relationship is women’ s collaborative
+and nurturing abilities (Eagly and Karau 2002 )t of a c i l -
+itate shared goal clarity and include others ’input and
+minimize power differences. They explain that thesebehaviors are consistent with women ’s gender identity
+and the conditions that make team reflexivity possible.The authors also find this mediation to be strongest in —
+or moderated by —countries with predominately posi-
+tive cultural attitudes toward women ’s entrepreneurship.
+They posit that such positive perceptions about women
+e n t r e p r e n e u r s( Y o u s a f z a ie ta l . 2015 )i n f l u e n c et h eq u a l -
+ity of team processes and therefore increase its access to
+resources.
+In the article “Does entrepreneurship fit her? Women
+entrepreneurs, gender role orientation and entrepreneur-ial
+culture, ”Liñán, Jaén, and Martín (ms#146 insert
+citation in this special issue) examine how gender roleorientation and perceived entrepreneurial culture arerelated to women ’s progression through the process of
+venture creation. By employing Bem ’s Sex Role Inven-
+tory (Bem 1981 ) to collect survey data from 1195 Span-
+ish women, the authors identify that masculine and
+androgynous gender role orientations are more likely
+to lead to entrepreneurial activity than women whoidentify more with femininity. They also find that the
+positive relationship between masculinity and entrepre-
+neurial activity is strongest in community cultures thatare perceived to be supportive of entrepreneurship
+(Reynolds et al. 2005 ). The results confirm that women
+with a masculine or androgynous orientation are more
+likely to develop entrepreneurial careers.
+“Gender, Culture, and Implicit Theories about Entre-
+preneurs: A Cross-National Investigation, ”by Gupta,
+Batra, and Gupta (ms#124 insert citation in this special
+issue), provides an examination of implicit theories of
+entrepreneurship, an important aspect of which is gen-der, based on survey data of working adults and busi-
+ness students in the USA and India. The authors find
+that in the USA, masculine (e.g., dominating, competi-tive) as opposed to feminine characteristics (e.g., nur-
+turing, caring for others) are predominately attributed to
+entrepreneurs, and these masculine characteristics are991 Women’s entrepreneurship and culture: gender role expectations and identities, societal culture, and the...
+also consistent with social role expectations for men and
+inconsistent with expected characteristics of women.This means that American men, not women, are seen
+as entrepreneurs because this career choice is consistent
+with men ’s masculine characteristic. Furthermore, high-
+growth and commercial businesses were associated with
+men in the USA, while low-growth and social busi-
+nesses were associated with women. In India, on theother hand, both masculine and feminine
+characteristics —more androgynous— are ascribed to
+entrepreneurs. Because the characteristics expected of
+entrepreneurs are consistent with the qualities expected
+of both women and men in India, this means that both
+genders are recognized as entrepreneurs. When exam-ining the relationship between gender and growth ori-
+entation in India, neither high- nor low-growth ventures
+were associated with either gender. To interpret these
+results, Gupta, Batra, and Gupta explain that the social
+role theory (Eagly and Karau 2002 ; Eagly and Wood
+2016 ) helps us understand how gender stereotypes for
+entrepreneurs are different in these two countries. Theauthors argue that these implicit theories about entrepre-neurs are caused by socio-economic and cultural condi-
+tions of a society regarding how people perceive and
+respond to social role expectations.
+Gimenez-Jimenez, Edelman, Dawson, and Calabrò
+(ms#126 insert citation in this special issue) explore theimpact of risk aversion and country-level culture on theventuring process of women ’s businesses with data
+from Project GLOBE (House et al. 2004 )a n dt h e
+GUESSS project (Sieger et al. 2014 ) from 1552 nascent
+student entrepreneurs in 11 countries. They find that
+women ’s perceptions of risk-taking behaviors are asso-
+ciated with less progress in the venturing process, but
+this relationship is weakened in socially supportive
+cultures —those that are concerned for the welfare of
+others (humane orientation) and tender and helpful (low
+on assertiveness) (Ute Stephan and Uhlaner 2010 ;U t e
+Stephan et al. 2015 ). For men, none of these variables is
+statistically related. We learn from this research thathelping women to gain access to resources through
+programs and incentives in socially supportive environ-
+ments may moderate new venture startup risks.
+In the article “Gendered Regulations and SMEs ’
+Performance in Transition Economies, ”Vershinina,
+Markman, Rodgers, Han, Kitching, Hashimzade, andBarrett (ms#135 insert citation in this special issue)
+study survey data from firms in 27 European countries
+collected by the Business Environment and EnterprisePerformance Survey (BEEPS), through a partnershipbetween the European Bank for Reconstruction andDevelopment (EBRD) and the World Bank. They stud-
+ied the relationship between regulations —such as em-
+ployee welfare, consumer safety, environmental protec-
+tion, and equitable competition —and SME perfor-
+mance. They find that women take regulations moreseriously and achieve improved SME performance, butwhen they respond to regulatory enforcers, the perfor-
+mance of their firms declines. Men by comparison ex-
+perience lower SME performance and pay less attentionto the influence of regulations, but when they engage
+enforcers, the performance of their firms improves. The
+authors suggest that regulations are not gender neutraland instead perpetuate gender biases.
+Hechavarría and Brieger in “Practice Rather Than
+Preach: Cultural Practices and Female Social Entrepre-
+neurship (ms#138 insert citation in this special issue) ”
+analyze data from the Global Entrepreneurship Monitor
+(GEM), the Global Leadership and Organizational Be-
+havior Effectiveness (GLOBE) Project (House et al.
+2004 ), and the World Bank in 33 countries and more
+than 23,000 entrepreneurs to understand in what way
+culture is most relevant for social entrepreneurship
+among female business owners. They find that womenare more likely than men to start socially oriented busi-
+nesses in cultures where power is distributed evenly
+(low power distance), people are less helpful and sup-portive of others (low humane orientation), individual
+goals and accomplishments are celebrated (low in-group
+collectivism), people plan for the future (high futureorientation), and comfort with unpredictability is low
+(high uncertainty avoidance).
+Collectively, the studies in this issue elucidate how
+gender and culture dynamically interact, how they affect
+the types of entrepreneurial activity women undertake,
+an
+d women ’s effectiveness in pursuing entrepreneurial
+initiatives. Thus, this body of work demonstrates the
+value of a more holistic perspective, which incorporates
+multiple levels of gender –culture interaction across dif-
+ferent areas of entrepreneurial action.
+7 Discussion and conclusions
+This special issue was motivated by the important role
+of women ’s entrepreneurship for economic, societal,
+and environmental value creation worldwide. It is wide-ly recognized that women face gender-specific992 A. Bullough et al.
+opportunities and challenges in their entrepreneurial
+endeavors. Yet, research on how gender and culturedynamically interact; how culture affects women ’se n -
+trepreneurship at multiple levels (i.e., individual, team,company, region, and society as a whole); and howwomen ’s entrepreneurial activity in turn affects social
+norms, values, and practices, has so far been fragmentedand scattered across multiple theoretical platforms. Inthis special issue, we collected and organized empirical
+research into a framework for women ’s entrepreneur-
+ship and culture research with three overlapping themes
+that include gender role expectations and identities,
+societal cultural dimensions, and the entrepreneurial
+environment. We offer suggestions for future researchhere based on these three themes.
+7.1 Gender role expectations and identities&What are gender role expectations and identities
+from an intersectionality perspective? What aresome of the tensions and/or reinforcing loops that
+exist when we holistically consider multiple entre-
+preneur identities? How do these affect entrepre-neurial opportunities and challenges?
+&Given the traditional gender role of women as fam-ily caretakers, how do humanitarian disasters and
+economic crises such as the current COVID-19 pan-
+demic affect gender role expectations and identities?
+&How does women ’s entrepreneurial activity affect
+perceived gender role expectations at different levels(i.e., community, region, country) and in differentspheres (i.e., family, business, social enterprises)?
+7.2 Societal cultural dimensions
+&How does women ’s entrepreneurial activity affect
+cultural values and practices? Is there a differential
+effect on cultural values versus cultural practices? Is
+there a differential effect based on types of entrepre-neurial activity undertaken by women (i.e., commer-
+cial versus social entrepreneurship) or high-growth
+versus low-growth entrepreneurship?
+&What are the overlaps and tensions when applying
+different societal cultural lenses on women ’se n t r e -
+preneurship (i.e., Hofstede, GLOBE, the Schwartz
+culture model)? What can we claim as cumulative
+knowledge and what are some of the gaps and
+paradoxes?&How would the current “de-globalization ”trend af-
+fect social values and norms with respect towomen ’s entrepreneurship? Would traditional social
+cultural values ossify or continue to evolve towardcultural convergence?
+7.3 The entrepreneurial environment
+&What is the relative effect of community, firm-level,
+and societal cultural values and norms on the trajec-
+tory and outcomes of entrepreneurial initiatives?
+&What is the effect of digitization on the entrepre-
+neurial environment with respect to gender role
+expectations and identities?
+&Is the digital environment for women ’s entrepre-
+neurship culturally shaped? If so, through whatmechanisms and with what outcomes?
+In conclusion, in this special issue of Small Business
+Economics: An Entrepreneurship Journal ,w ep r e s e n t
+conceptually rich and empirically robust investigations
+into the multiple points of interaction among gender,
+culture, and entrepreneurship. This collection is an im-
+portant step in integrating research on women ’se n t r e -
+preneurship and culture and further exploring their dy-
+namic interaction in different economic and social sys-
+tems and across geographies. There is still significantresearch to be done in this area. It is our hope that our
+collection of studies herein will serve as a springboard
+that inspires further work in this exciting area of re-search, and that other colleagues will join in this impor-
+tant conversation.
+Compliance with ethical standards
+Conflict of interest The authors declare that they have no con-
+flict of interest.
+References
+Ahl, H. (2006). Why research on women entrepreneurs needs new
+directions. Entrepreneurship Theory and Practice, 30 (5),
+595–622.
+Aldrich, H. E., & Cliff, J. (2003). The pervasive effects of family
+on entrepreneurship: toward a family embeddedness perspec-
+tive.J o u r n a lo fB u s i n e s sV e n t u r i n g ,1 8 ,5 7 3–596.993 Women’s entrepreneurship and culture: gender role expectations and identities, societal culture, and the...
+Anambane, G., & Adom, K. (2018). Assessing the role of culture
+in female entrepreneurship in contemporary Sub-Saharan
+society: insights from Nabadam district of Ghana. Journal
+of Developmental Entrepreneurship, 23 (3).https://doi.
+org/10.1142/S1084946718500176 .
+Bajdo, L. M., & Dickson, M. W. (2001). Perceptions of organiza-
+tional culture and women ’s advancement in organizations: a
+cross-cultural examination. Sex Roles, 45 (5/6), 399.
+Balachandra, L., Briggs, T., Eddleston, K., & Brush, C. (2019).
+Don’t pitch like a girl!: how gender stereotypes influence
+investor decisions. Entrepreneurship Theory and Practice,
+43(1), 116 –137.
+BarNir, A., Watson, W. E., & Hutchins, H. M. (2011). Mediation
+and moderated mediation in the relationship among role
+models, self-efficacy, entrepreneurial career intention, and
+gender. Journal of Applied Social Psychology, 41 (2), 270 –
+297.
+Baughn, C. C., Chua, B.-L., & Neupert, K. E. (2006). The normative
+context for women ’s participation in entrepreneruship: a
+multicountry study. Entrepreneurship Theory & Practice,
+30(5), 687 –708.
+Bem, S. L. (1981). Gender schema theory: a cognitive account of
+sex typing. Psychological Review, 88 (4), 354 –364.
+Bergmann, H., Mueller, S., & Schrettle, T. (2014). The use of
+global entrepreneurship monitor data in academic research: a
+critical inventory and future potentials. International Journal
+of Entrepreneurial Venturing, 6 (3), 242– 276. https://doi.
+org/10.1504/IJEV.2014.064691 .
+Berry, J. W., Poortinga, Y. H., Segall, M. H., & Dasen, P. R.
+(2002). Cross-cultural psychology: research and application
+(2nd ed.). New York: Cambridge University Press.
+Bertelsen, R. G., Ashourizadeh, S., Kent Wickstrøm, J., Schøtt, T.,
+& Cheng, Y. (2017). Networks around entrepreneurs: gen-
+dering in China and countries around the Persian Gulf.
+Gender in Management, 32 (4), 268 –280. https://doi.
+org/10.1108/GM-03-2016-0030.
+Bloemen-Bekx, M., Voordeckers, W., Remery, C., & Schippers, J.
+(2019). Following in parental footsteps? The influence ofgender and learning experiences on entrepreneurial inten-
+tions. International Small Business Journal, 37 (6), 642–
+663. https://doi.org/10.1177/0266242619838936 .
+Brush, C., Edelman, L. F., Manolova, T., & Welter, F. (2018). A
+gendered look at entrepreneurship ecosystems. Small
+Business Economics, 52 (3), 393 –408. https://doi.
+org/10.1007/s11187-018-9992-9 .
+Bullough, A. (2013). Perceptions of women entrepreneurs in
+male-dominated leadership cultures: more positive support
+for women than many thought. Journal of Enterprising
+Culture, 21 (3), 359 –37
+4.
+Bullough, A., & Sully de Luque, M. (2015). Women ’s participa-
+tion in entrepreneurial and political leadership: the impor-tance of culturally endorsed implicit leadership theories.Leadership, 11 (1), 36 –56.
+Bullough, A., Renko, M., & Abdelzaher, D. (2017). Women ’s
+entrepreneurship: operating within the context of institutional
+and in-group collectivism. J o u r n a lo fM a n a g e m e n t ,4 3 (7),
+2037–2064. https://doi.org/10.1177/0149206314561302 .
+Bullough, A., Hechavarria, D., Brush, C., & Edelman, L. (Eds.).
+(2019). High-growth women ’s entrepreneurship programs,
+policies and practices . Cheltenham: Edward Elgar
+Publishing.Chow, I. H.-S. (2005). Gender differences in perceived leadership
+effectiveness in Hong Kong. Women in Management Review,
+20(3/4), 216 –233.
+de Bruin, A., Brush, C. G., & Welter, F. (2007). Advancing a
+framework for coherent research on women ’s entrepreneur-
+ship. Entrepreneurship Theory and Practice, 31 (3), 323 –
+339.
+Dorfman, P. W., Hanges, P. J., & Brodbeck, F. C. (2004).
+Leadership and cultural variation: identification of culturallyendorsed leadership profiles. In R. J. House, P. J. Hanges, M.
+Javidan, P. W. Dorfman, & V. Gupta (Eds.), Culture, lead-
+ership and organizations: the GLOBE study of 62 societies
+(pp. 669 –719). Thousand Oaks: Sage Publications.
+Eagly, A. H., & Carli, L. L. (2003). Finding gender advantage and
+disadvantage: systematic research integration is the solution.Leadership Quarterly, 14 (6), 851.
+Eagly, A. H., & Karau, S. J. (2002). Role congruity theory of
+prejudice toward female leaders. Psychological Review,
+109(3), 573 –598.
+Eagly, A. H., & Mitchell, A. (2004). Social role theory of sex
+differences and similarities: implications for the sociopoliti-
+cal attitudes of women and men. In M. A. Paludi (Ed.),Praeger guide to the psychology of gender .W e s t p o r t :
+Praeger.
+Eagly, A. H., & Wood, W. (2016). Social role theory of sex
+differences. In The Wiley Blackwell encyclopedia of gender
+and sexuality studies (pp. 1 –3).https://doi.org/10.1002
+/9781118663219.wbegss183 .
+EBRD (2020). World Bank Business Environment and Enterprise
+Performance Survey (BEEPS). August 7, 2020: https://www.
+ebrd.com/what-we-do/economic -research-a nd-data/data.
+html.
+Elam, A. B., Brush, C. G., Greene, P. G., Baumer, B., Dean, M., &
+Heavlow, R. (2019) Global Entrepreneurship Monitor 2018/2019 women ’s entrepreneurship report. Babson College,
+Smith College, and the Global Entrepreneurship Research
+Association (GERA). July 21, 2020: https://www.
+gemconsortium.org/report/gem-20182019-womens-entrepreneurship-report .
+Erez, M., & Gati, E. (2004). A dynamic, multi-level model of
+culture: from the micro level of the individual to the macrolevel
+of a global culture. Applied Psychology: An
+International Review, 53 (4), 583 –598.
+Ferriman, K., Lubinski, D., & Benbow, C. P. (2009). Work
+preferences, life values, and personal views of top math/
+science graduate students and the profoundly gifted: devel-
+opmental changes and gender differences during emerging
+adulthood and parenthood. Journal of Personality and Social
+Psychology, 97 (3), 517.
+Frešer, B., Širec, K., & Tominc, P. (2019). Gender gap in per-
+ceived financing opportunities for high-growth enterprises.
+In A. Bullough, D. Hechavarria, C. Brush, & L. Edelman
+(Eds.), High-growth Women ’s Entrepreneurship Programs,
+Policies and Practices . Cheltenham: Edward Elgar
+Publishing.
+Fu, P. P., Kennedy, J., Tata, J., Yukl, G., Bond, M. H., Peng, T.-
+K., et al. (2004). The impact of societal cultural values andindividual social beliefs on the perceived effectiveness of
+managerial influence strategies: a meso approach. Journal
+of International Business Studies, 35 (4), 284 –305.994 A. Bullough et al.
+Greene, F. J., Han, L., & Marlow, S. (2013). Like mother, like
+daughter? Analyzing maternal influences upon women ’se n -
+trepreneurial propensity. Entrepreneurship Theory and
+Practice, 37 (4), 687 –711. https://doi.org/10.1111/j.1540-
+6520.2011.00484.x .
+Gupta, V. K., Wieland, A. M., & Turban, D. B. (2019). Gender
+characterizations in entrepreneurship: a multi-level investiga-
+tion of sex-role stereotypes about high-growth, commercial,
+and social entrepreneurs. Journal of Small Business
+Management, 57(1), 131– 153. https://doi.org/10.1111
+/jsbm.12495 .
+Hechavarría, D. M., & Ingram, A. E. (2019). Entrepreneurial
+ecosystem conditions and gendered national-level entrepre-neurial activity: a 14-year panel study of GEM. Small
+Business Economics, 53 (2), 431 –458. https://doi.
+org/10.1007/s11187-018-9994-7 .
+Hechavarria, D., Bullough, A., Brush, C., & Edelman, L. (2019).
+High growth women ’s entrepreneurship: fueling social and
+economic development. Journal of Small Business
+Management, 57 (1), 5 –13.
+Hoffmann, A., Junge, M., & Malchow-Møller, N. (2015).
+Running in the family: parental role models in entrepreneur-ship. Small Business Economics, 44 (1), 79 –104. https://doi.
+org/10.1007/s11187-014-9586-0 .
+Hofstede, G. (1980). Culture ’s consequences: international differ-
+ences in work-related values. Beverly Hills: Sage.
+Hofstede, G. (2006). What d id GLOBE really measure?
+Researchers ’minds versus respondents ’minds. Journal of
+International Business Studies, 37 ,8 8 2–896.
+House, R. J., Hanges, P. J., Javidan, M., Dorfman, P. W., & Gupta,
+V. (Eds.). (2004). Culture, leadership and organizations: theGLOBE study of 62 societies. Thousand Oaks: Sage
+Publications.
+Hytti, U., Alsos, G. A., Heinonen, J., & Ljunggren, E. (2016).
+Navigating the family business: a gendered analysis of iden-tity construction of daughters. International Small Business
+Journal, 35(6), 665 –686. https://doi.org/10.1177
+/0266242616675924.
+ILO. (2020). International labor organization: gender equality,
+from https://www.ilo.org/globa l/topics/equality-and-
+discrimination/gender-equality/lang%2D%2Den/index.htm.Accessed 10 July 2020.
+Jackson, D., Engstrom, E., & Emmers-Sommer, T. (2007). Think
+leader, think male and female: sex vs. seating arrangement asleadership cues. Sex Roles, 57 ,7 1 3–723.
+Javidan, M., Bullough, A., & Dibble, R. (2016). Mind the gap:
+gender
+differences in global le adership self-efficacies.
+Academy of Management Perspectives, 30 (1), 59 –73.
+Jennings, J. E., & Brush, C. G. (2013). Research on women
+entrepreneurs: Challenges to (and from) the broader entre-preneurship literature? The Academy of Management Annals,
+71(1), 663 –715.
+Kalafatoglu, T., & Mendoza, X. (2017). The impact of gender and
+culture on networking and venture creation. Cross Cultural
+& Strategic Management, 24 (2), 332 –349. https://doi.
+org/10.1108/CCSM-04-2016-0090 .
+Kanze, D., Huang, L., Conley, M. A., & Higgins, E. T. (2017).
+Male and female entrepreneurs get asked different questionsby VCs —and it affects how much funding they get. Harvard
+Business Review (June).Kemp, L. J., Madsen, S. R., & Davis, J. (2015). Women in
+business leadership: a comparative study of countries in theGulf Arab states. International Journal of Cross Cultural
+Management : CCM, 15 (2), 215 –233.
+Khandelwal, P., & Sehgal, A. (2018). Exploring work-family
+interface for Indian women entrepreneurs. Gender in
+Management, 33 (3), 203 –216. https://doi.org/10.1108/GM-
+04-2016-0075 .
+Kirkland, R. A., Peterson, E., Baker, C. A., Miller, S., & Pulos, S.
+(2013). Meta-analysis reveals adult female superiority in“Reading the Mind in the Eyes Test ”.North American
+J o u r n a lo fP s y c h o l o g y ,1 5 (1), 121 –146.
+Kirkman, B. L., Lowe, K. B., & Gibson, C. B. (2006). A quarter
+century of culture ’s consequences: a review of empirical
+research incorporating Hofstede ’s cultural values framework.
+Journal of International Business Studies, 37 (3), 285 –320.
+Korac-Kakabadse, A., Korac-Kakabadse, N., & Myers, A. (1998).
+Demographics and leadership philosophy: exploring gender
+differences. The Journal of Management Development,
+17(5), 351 –388.
+Leung, K., Bhagat, R. S., Buchan, N. R., Erez, M., & Gibson, C.
+B. (2005). Culture and international business: recent ad-vances and their implications for future research. Journal of
+International Business Studies, 36 (4), 357 –378.
+Lucas, J. W. (2003). Status processes and the institutionalization of
+women as leaders. American Sociological Review, 68 (3),
+464–480.
+Lyness, K. S., & Judiesch, M. K. (2014). Gender egalitarianism
+and work –life balance for managers: multisource perspec-
+tives in 36 countries. Applied Psychology, 63 (1), 96 –12
+9.
+Macaskill, A., Maltby, J., & Day, L. (2002). Forgiveness of self
+and others and emotional empathy. The Journal of Social
+Psychology, 142 (5), 663 –665.
+Mandell, B., & Pherwani, S. (2003). Relationship between emo-
+tional intelligence and transformational leadership style: agender comparison. Journal of Business and Psychology,
+17(3), 387 –387.
+Manolova, T. S., Brush, C. G., Edelman, L. F., Robb, A., &
+Welter, F. (2017). Entrepreneurial ecosystems and growth
+of women ’s entrepreneurship. Cheltenham: Edward Elgar
+Publishing.
+Markussen, S., & Røed, K. (2017). The gender gap in entrepre-
+neurship: the role of peer effects. Journal of Economic
+Behavior & Organization, 134 , 356 –373. https://doi.
+org/10.1016/j.jebo.2016.12.013 .
+Marlow, S., Hicks, S., & Treanor, L. (2019). Gendering entrepre-
+neurial behaviour. In M. M. & C. J. (Eds.), Entrepreneurial
+Behaviour : Palgrave Macmillan, Cham.
+Milkie, M. A., & Peltola, P. (1999). Playing all the roles: gender
+and the work-family balancing act. Journal of Marriage and
+the Family, 61 ,4 7 6–490.
+Mitra, J., & Basit, A. (2019). Personal networks and growth
+aspirations: a case study of second-generation, Muslim, fe-
+male entrepreneurs. Small Business Economics ,1–23.
+https://doi.org/10.1007/s11187-019-00211-3 .
+Newburry, W., Belkin, L. Y., & Ansari, P. (2008). Perceived
+career opportunities from globalization: globalization capa-bilities and attitudes towards women in Iran and the US.
+Journal of International Business Studies, 39 (5), 814 –832.995 Women’s entrepreneurship and culture: gender role expectations and identities, societal culture, and the...
+Oakley, J. G. (2000). Gender-based barriers to senior management
+positions: understanding the scarcity of female CEOs.
+J o u r n a lo fB u s i n e s sE t h i c s ,2 7 (4), 321 –324.
+Osborn, R. N., & Vicars, W. M. (1976). Sex stereotypes: an
+artifact in leader behavior and subordinate satisfaction anal-
+ysis? Academy of Management Journal, 19 ,4 3 9–449.
+Pinillos, M.-J., & Reyes, L. (2011). Relationship between
+individualist –collectivist culture and entrepreneurial activity:
+evidence from Global Entrepreneurship Monitor data. Small
+Business Economics, 37 ,2 3–37.
+Powell, G. N., Butterfield, D. A., & Parent, J. D. (2002). Gender
+and managerial stereotypes: have the times changed? Journal
+of Management, 28 (2), 177 –193.
+Prasad, R. M. (2009). Loan hurdles: do banks discriminate against
+women entrepreneurs? The Academy of Management
+Perspectives, 23 (4), 91.
+Prime, J., Jonsen, K., Carter, N., & Maznevski, M. L. (2008).
+Managers ’perceptions of women and men leaders: a cross
+cultural comparison. International Journal of Cross Cultural
+Management, 8 (2), 171 –210.
+Reynolds, P. D., Bosma, N., Autio, E., Hunt, S., De Bono, N.,
+Servais, I., et al. (2005). Global entrepreneurship monitor:
+data collection design and implementation: 1998-2003. Small
+Business Economics, 24 ,2 0 5–231.
+Robinson, S., & Stubberud, H. A. (2011). Gender differences in
+entrepreneurs ’perceived problems, profits, and plans.
+International Journal of Entrepreneurship, 15 ,2 5–44.
+Ruderman, M. N., Ohlott, P. J., Panzer, K., & King, S. N. (2002).
+Benefits for multiple roles for managerial women. Academy
+of Management Journal, 45 (2), 369 –386.
+Schein, E. H. (1992). Organizational culture and leadership. San
+Francisco: Jossey-Bass.
+Schein, V. E. (2001). A global look at psychological barriers to
+women ’s progress in management. Journal of Social Issues,
+57(4), 675 –688.
+S c h i p p e r s ,M .C . ,D e nH a r t o g ,D .N .D . ,K o o p m a n ,P .L . ,&v a n
+Knippenberg, D. (2008). The role of transformational leader-
+ship in enhancing team reflexivity. Human Relations, 61 (11),
+1593– 1616. https://doi.org/10.1177/0018726708096639 .
+Schwartz, S. H. (2006). A theory of cultural value orientations:
+explication and applications. Comparative Sociology, 5 (2),
+137–182.
+Shahriar, A. Z. M. (2018). Gender differences in entrepreneurial
+propensity: evidence from matrilineal and patriarchal socie-ties. Journal of Business Venturing, 33 (6), 762 –779
+.
+https://doi.org/10.1016/j.jbusvent.2018.04.005 .
+Sieger, P., Fueglistaller, U., & Zellweger, T. (2014). Student
+entrepreneurship across the globe: a look at intensions and
+activities, International Report GUESSS 2013/2014.July 10,
+2020: http://www.guesssurvey.
+org/publications/publications/international-reports.html .
+Steel, P., & Taras, V. (2010). Culture as a consequence: a multi-
+level multivariate meta-analysis of the effects of individualand country characteristics on work-related cultural values.
+Journal of International Management, 16 (3), 211 –233.
+Stephan, U., & Uhlaner, L. M. (2010). Performance-based vs
+socially supportive culture: a cross-national study of descrip-tive norms and entrepreneurship. Journal of InternationalBusiness Studies, 41 (8), 1347 –1364. https://doi.org/10.1057
+/jibs.2010.14 .
+Stephan, U., Uhlaner, L. M., & Stride, C. (2015). Institutions and
+social entrepreneurship: the role of institutional voids, insti-
+tutional support, and institutional configurations. Journal of
+International Business Studies, 46 (3), 308 –331. https://doi.
+org/10.1057/jibs.2014.38 .
+Surangi Hapugoda Achchi Kankanammge Nadee, S. (2018). What
+influences the networking behaviours of female entrepre-neurs? International Journal of Gender and
+Entrepreneurship, 10 (2), 116 –133. https://doi.org/10.1108
+/IJGE-08-2017-0049 .
+Tosun, J. (2016). Cultural pathways to economic self-sufficiency
+and entrepreneurship: family values and youth unemploy-
+ment in Europe (CUPESSE). August 7, 2020: https://cordis.
+europa.eu/project/id/613257 .
+Tung, R. L., & Verbeke, A. (2010). Beyond Hofstede and
+GLOBE: improving the quality of cross-cultural research.
+Journal of International Business Studies, 41 ,1 2 5 9 –1274.
+UN Women. (2020). United Nations entity for gender equality and
+the empowerment of women Retrieved August 10, 2020,from https://www.un.org/womenwatch/daw/daw/index.html
+van Emmerik, H., Euwema, M. C., & Wendt, H. (2008).
+Leadership behaviors around the world: the relative impor-tance of gender versus cultural background. International
+Journal of Cross Cultural Management, 8 (3), 297 –315.
+Vecchio, R. P. (2002). Leadership and gender advantage. The
+Leadership Quarterly, 13 (6), 643 –671.
+Vinnicombe, S., & Singh, V. (2002). Sex role stereotyping and
+requisites of successful top managers. Women in
+Management Review, 17 (3/4), 120 –130.
+Welter, F., & Smallbone, D. (2011). The embeddedness of
+women ’s entrepreneurship in a transition context. In E. G.
+Candida Brush, Colette Henry, Anne de Bruin (Eds.),Women entrepreneurs and the global environment forgrowth: A research perspective (pp. 96 –117). Cheltenham:
+Edward Elgar.
+West, M. A. (1996). Reflexivity and work group effectiveness: a
+conceptual integration. In M. A. West (Ed.), Handbook of
+wo
+rk group psychology (pp. 555 –579). Chichester: Wiley.
+Wilson, J. (2016). Making loan decisions in banks: straight from
+the gut? Journal of Business Ethics, 13 (7), 53 –63.
+World Bank (2020). World Bank World Development Indicators.
+Retrieved from http://data.worldbank.org/ . Accessed 10
+July 2020.
+Yoder, J. (2001). Making leadership work more effectively for
+women. Journal of Social Issues, 57 (4), 815 –828.
+Yousafzai, S. Y., Saeed, S., & Muffatto, M. (2015). Institutional
+theory and contextual embeddedness of women ’s entrepre-
+neurial leadership: evidence from 92 countries. Journal of
+Small Business Management, 53 (3), 587 –604. https://doi.
+org/10.1111/jsbm.12179 .
+Publisher ’sn o t e Springer Nature remains neutral with regard to
+jurisdictional claims in published maps and institutionalaffiliations.996 A. Bullough et al.
+Reproduced with permission of copyright owner. Further reproduction
+prohibited without permission.

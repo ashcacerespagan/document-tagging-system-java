@@ -1,0 +1,1035 @@
+ZN84110© 2014 Yamaha Corporation
+Published 12/2024
+KSTY-C0EN
+ESFRBefore using the instrument, be sure to read “PRECAUTIONS” on pages 5 – 6.
+Avant d’utiliser l’instrument, lisez attentivement la section « PRÉCAUTIONS D’USAGE »aux pages 5 et 6.
+Antes de utilizar el instrumento, lea las “PRECAUCIONES”, en las páginas 5 – 6.
+English Français Español
+Owner’s Manual
+Mode d'emploi
+Manual de instruccionesDIGITAL PIANO
+P-45
+Yamaha Global Site
+https://www.yamaha.com/
+Yamaha Downloads
+https://download.yamaha.com/
+P-45  Owner’s Manual2SPECIAL MESSAGE SECTION
+This product utilizes batteries or an external power supply (adapter). 
+DO NOT connect this product to any power supply or adapter other than one described in the manual, on the name plate, or specifically recommended by Yamaha.
+WARNING: Do not place this product in a position where anyone 
+could walk on, trip over, or roll anything over power or connecting cords of any kind. The use of an extension cord is not recommended! If you must use an extension cord, the minimum wire size for a 25’ cord (or less ) is 18 AWG. NOTE: The smaller the AWG number, the larger the current handling capacity. For longer extension cords, con-sult a local electrician.
+This product should be used only with the components supplied or; a 
+cart, rack, or stand that is recommended by Y amaha. If a cart, etc., is used, please observe all safety markings and instructions that accom-pany the accessory product.
+SPECIFICATIONS SUBJECT TO CHANGE: 
+The information contained in this manual is believed to be correct at the time of printing. However, Yamaha reserves the right to change or modify any of the specifications without notice or obligation to update existing units.
+This product, either alone or in combination with an amplifier and 
+headphones or speaker/s, may be capa ble of producing sound levels 
+that could cause permanent hearing loss. DO NOT operate for long periods of time at a high volume level or at a level that is uncomfort-able. If you experience any hearing loss or ringing in the ears, you should consult an audiologist. IMPORTANT: The louder the sound, the shorter the time period before damage occurs.
+Some Y amaha products may have benches  and / or accessory 
+mounting fixtures that are either supplied with the product or as optional  accessories. Some of these items are designed to be dealer assembled or installed. Please make sure that benches are stable and any optional fixtures (where applicable) are well secured BEFORE using.Benches supplied by Y amaha are designed for seating only. No other uses are recommended.
+NOTICE: 
+Service charges incurred due to a lack of knowledge relating to how a function or effect works (when the unit is operating as designed) are not covered by the manufacturer’s warranty, and are therefore the owners responsibility. Please study this manual carefully and consult your dealer before requesting service.
+ENVIRONMENTAL ISSUES: 
+Y amaha strives to produce products that are both user safe and envi-ronmentally friendly. We sincerely believe that our products and the production methods used to produce them, meet these goals. In keep-ing with both the letter and the spirit of the law, we want you to be aware of the following:Battery Notice: 
+This product MAY contain a small non-rechargeable battery which (if applicable) is soldered in place. The average life span of this type of bat-tery is approximately five years. When replacement becomes necessary, contact a qualified service represen tative to perform the replacement.
+This product may also use “household”  type batteries. Some of these 
+may be rechargeable. Make sure that the battery being charged is a rechargeable type and that the charger is intended for the battery being charged.
+When installing batteries, never mix old batteries with new ones, and 
+never mix different types of batteries. Batteries MUST be installed cor-rectly. Mismatches or incorrect installation may result in overheating and battery case rupture.
+Warning: Do not attempt to disassemble, or incinerate any battery. Keep all bat-teries away from children. Dispose of used batteries promptly and as regulated by the laws in your area. Note: Check with any retailer of household type batteries in your area for battery disposal information.
+Disposal Notice: 
+Should this product become damaged beyond repair, or for some rea-son its useful life is considered to be at an end, please observe all local, state, and federal regulations that relate to the disposal of prod-ucts that contain lead, batteries, plastics, etc. If your dealer is unable to assist you, please contact Yamaha directly.
+NAME PLATE LOCATION: 
+The name plate is located on the bottom of the product. The model number, serial number, power requirements, etc., are located on this plate. Y ou should record the model number, serial number, and the date of purchase in the spaces provided below and retain this manual as a permanent record of your purchase.
+Model
+Serial No.
+Purchase Date
+PLEASE KEEP THIS MANUAL
+92-BP (bottom)For P-45
+COMPLIANCE INFORMATION STATEMENT
+(DECLARATION OF CONFORMITY PROCEDURE)
+Responsible Party : Yamaha Corporation of America
+Address : 6600 Orangethorpe Ave., Buena Park, Calif. 90620
+Telephone : 714-522-9011
+Type of Equipment : Digital Piano
+Model Name : P-45
+This device complies with Part 15 of the FCC Rules.
+Operation is subject to the following two conditions:1) this device may not cause harmful interference, and
+2) this device must accept any interference received including interference 
+that may cause undesired operation.
+See user manual instructions if interf erence to radio reception is suspected.
+* This applies only to products distributed by YAMAHA 
+CORPORATION OF AMERICA.(FCC DoC)p45_en_om.book  Page 2  Saturday, October 11, 2014  5:33 PM
+P-45  Owner’s Manual 31. IMPORTANT NOTICE: DO NOT MODIFY THIS UNIT!
+This product, when installed as indicated in the instructions 
+contained in this manual, meets FCC requirements. Modifica-tions not expressly approved by Y amaha may void your author-ity, granted by the FCC, to use the product.
+2. IMPORTANT:  When connecting this product to accessories 
+and/or another product use only high quality shielded cables. Cable/s supplied with this product MUST be used. Follow all installation instructions. Failure to follow instructions could void your FCC authorization to use this product in the USA.
+3. NOTE:  This product has been tested and found to comply with 
+the requirements listed in FCC Regulations, Part 15 for Class "B" digital devices. Compliance with these requirements pro-vides a reasonable level of assurance that your use of this product in a residential environment will not result in harmful interference with other electronic devices. This equipment gen-erates/uses radio frequencies and, if not installed and used according to the instructions found in the users manual, may cause interference harmful to the operation of other electronic devices. Compliance with FCC regulations does not guarantee that interference will not occur in all installations. If this product is found to be the source of interference, which can be deter-mined by turning the unit "OFF" and "ON", please try to elimi-nate the problem by using one of the following measures:
+Relocate either this product or the device that is being affected 
+by the interference. 
+Utilize power outlets that are on different branch (circuit breaker 
+or fuse) circuits or install AC line filter/s.
+In the case of radio or TV interference, relocate/reorient the 
+antenna. If the antenna lead-in is 300 ohm ribbon lead, change the lead-in to co-axial type cable.
+If these corrective measures do not produce satisfactory 
+results, please contact the local retailer authorized to distribute this type of product. If you can not locate the appropriate retailer, please contact Y amaha Corporation of America, Elec-
+tronic Service Division, 6600 Orangethorpe Ave, Buena Park, CA90620
+The above statements apply ONL Y to those products distrib-
+uted by Y amaha Corporation of America or its subsidiaries.
+* This applies only to products distributed by YAMAHA CORPORATION OF AMERICA. (class B)FCC INFORMATION (U.S.A.)For AC adap tor and P-45p45_en_om.book  Page 3  Saturday, October 11, 2014  5:33 PM
+P-45  Owner’s Manual4Explanation of Graphical Symbols
+The lightning flash with arrowhead symbol 
+within an equilateral triangle is intended to 
+alert the user to the presence of uninsulated “dangerous voltage” within the product’s enclosure that may be of sufficient magni-tude to constitute a risk  of electric shock to 
+persons.
+The exclamation point within an equilateral 
+triangle is intended to alert the user to the presence of important operating and main-tenance (servicing) inst ructions in the liter-
+ature accompanying the product.
+1 Read these instructions.
+2 Keep these instructions.
+3 Heed all warnings.
+4 Follow all instructions.5 Do not use this apparatus near water.
+6 Clean only with dry cloth.
+7 Do not block any ventilation openings. Install in accor-
+dance with the manufacturer’s instructions.
+8 Do not install near any heat sources such as radiators, 
+heat registers, stoves, or other apparatus (including 
+amplifiers) that produce heat.
+9 Do not defeat the safety purpose of the polarized or 
+grounding-type plug. A polarized plug has two blades 
+with one wider than the other. A grounding type plug 
+has two blades and a third grounding prong. The wide 
+blade or the third prong are provided for your safety. If the provided plug does not fit into your outlet, consult 
+an electrician for replacement of the obsolete outlet.
+10 Protect the power cord from being walked on or 
+pinched particularly at plugs, convenience receptacles, and the point where they exit from the apparatus.11 Only use attachments/accessories specified by the 
+manufacturer.
+12 Use only with the cart, stand, tri-
+pod, bracket, or table specified by 
+the manufacturer, or sold with the 
+apparatus. When a cart is used, 
+use caution when moving the cart/apparatus combination to 
+avoid injury from tip-over.
+13 Unplug this apparatus during 
+lightning storms or when unused for long periods of time.
+14 Refer all servicing to qualified service personnel. Ser-
+vicing is required when the apparatus has been dam-aged in any way, such as power-supply cord or plug is 
+damaged, liquid has been spilled or objects have fallen into the apparatus, the apparatus has been exposed to 
+rain or moisture, does not operate normally, or has 
+been dropped.
+(UL60065_03)CAUTION: TO REDUCE THE RISK OF 
+ELECTRIC SHOCK, DO NOT REMOVE 
+COVER (OR BACK). NO USER-SERVICEABLE 
+PARTS INSIDE. REFER SERVICING TO 
+QUALIFIED SERVICE PERSONNEL.CAUTION
+RISK OF ELECTRIC SHOCK
+DO NOT OPEN
+IMPORTANT SAFETY INSTRUCTIONS
+WARNING
+TO REDUCE THE RISK OF FIRE OR ELECTRIC SHOCK, DO NOT EXPOSE THIS APPARATUS TO RAIN OR MOISTURE.For AC adaptor
+This device complies with Part 15 of the FCC Rules.  Operation is subject to the following two conditions:
+(1) this device may not cause harmful interference, and (2) th is device must accept any in terference received, including 
+interference that may cause undesired operation.
+CAN ICES-3 (B)/NMB-3(B)
+• This applies only to products distributed by Y amaha Canada Music Ltd. 
+• Ceci ne s’applique qu’aux produits distribués par Y amaha Canada Musique Ltée.
+(can_b_01)p45_en_om.book  Page 4  Saturday, October 11, 2014  5:33 PM
+5 P-45  Owner’s ManualPRECAUTIONS
+PLEASE READ CAREFULL Y BEFORE PROCEEDING
+Please keep this manual in a safe and handy place for future reference.
+For AC adaptor
+ WARNING
+• This AC adaptor is designed for use with only Yamaha electronic instruments. Do 
+not use for any other purpose.
+• Indoor use only. Do not use in any wet environments. CAUTION
+• When setting up, make sure that the AC outlet is easily accessible. If some 
+trouble or malfunction occurs, immediately turn off the power switch of the 
+instrument and disconnect the AC adaptor from the outlet. When the AC adaptor is connected to the AC outlet, keep in mind that electricity is flowing at the minimum level, even if the power switch is turned off. When you are not using the instrument for a long time, make sure to unplug the power cord from the wall AC outlet.
+For P-45
+ WARNING
+Always follow the basic precau tions listed below to avoid the possibility of serious injury or even death from electrical 
+shock, short-circuiting, damages, fire  or other hazards. These precautions  include, but are not limited to, the 
+following:
+• Do not place the power cord near heat sources such as heaters or radiators. Also, 
+do not excessively bend or otherwise damage the cord, or place heavy objects on it.
+• Only use the voltage specified as correct for the instrument. The required voltage 
+is printed on the name plate of the instrument.
+• Use the specified adaptor (page 20) only.  Using the wrong adaptor can result in 
+damage to the instrument or overheating.
+• Check the electric plug periodically and remove any dirt or dust which may have 
+accumulated on it.
+• This instrument contains no user-serviceable parts. Do not open the instrument 
+or attempt to disassemble or modify the internal components in any way. If it 
+should appear to be malfunctioning, discontinue use immediately and have it inspected by qualified Yamaha service personnel.
+• Do not expose the instrument to rain, use it near water or  in damp or wet 
+conditions, or place on it any containers  (such as vases, bottles or glasses) 
+containing liquids which might spill into any openings. If any liquid such as water seeps into the instrument, turn of f the power immediately and unplug the 
+power cord from the AC outlet. Then have  the instrument inspected by qualified 
+Yamaha service personnel.
+• Never insert or remove an electric plug with wet hands.• Do not put burning items, such as candles, on the unit. A burning item may fall 
+over and cause a fire.
+• When one of the following problems occur, immediately turn off the power switch 
+and disconnect the electric plug from the outlet. Then have the device inspected by Yamaha service personnel.
+- The power cord or plug becomes frayed or damaged.
+- It emits unusual smells or smoke.
+- Some object has been dropped into the instrument.
+- There is a sudden loss of sound during use of the instrument.Power supply/AC adaptor
+Do not open
+Water warningFire warning
+If you notice any abnormality
+DMI-5  1/2p45_en_om.book  Page 5  Thursday, October 30, 2014  1:12 PM
+6 P-45  Owner’s Manual CAUTION
+Always follow the basic precaut ions listed below to avoid the possibility of  physical injury to you or others, or damage 
+to the instrument or other property. These precautio ns include, but are not limited to, the following:
+• Do not connect the instrument to an electrical outlet using a multiple-connector. 
+Doing so can result in lower sound quality, or possibly cause overheating in the 
+outlet.
+• When removing the electric plug from the instrument or an outlet, always hold 
+the plug itself and not the cord. Pulling by the cord can damage it.
+• Remove the electric plug from the outlet whe n the instrument is not to be used for 
+extended periods of time, or during electrical storms.
+• Do not place the instrument in an unstable position where it might accidentally 
+fall over.
+• Before moving the instrument, remove all connected cables, to prevent damage 
+to the cables or injury to anyone who might trip over them.
+• When setting up the product, make sure that the AC outlet you are using is easily 
+accessible. If some trouble or malfunction occurs, immediately turn off the power switch and disconnect the plug from the outlet. Even when the power switch is turned off, electricity is still flowing to  the product at the minimum level. When 
+you are not using the product for a long time, make sure to unplug the power 
+cord from the wall AC outlet.
+• Use only the stand specified for the instrument. When attaching it, use the 
+provided screws only. Failure to do so could cause damage to the internal components or result in the instrument falling over.• Before connecting the instrument to othe r electronic components, turn off the 
+power for all components. Before turning the power on or off for all components, set all volume levels to minimum.
+• Be sure to set the volumes of all components at their minimum levels and 
+gradually raise the volume controls wh ile playing the instrument to set the 
+desired listening level.
+• Do not insert a finger or hand in any gaps on the instrument. 
+• Never insert or drop paper, metallic, or other objects into the gaps on the panel or 
+keyboard. This could cause physical injury to you or others, damage to the 
+instrument or other property, or operational failure.
+• Do not rest your weight on, or place heavy objects on the instrument, and do not 
+use excessive force on the buttons, switches or connectors.
+• Do not use the instrument/device or headphones for a long period of time at a 
+high or uncomfortable volume level, since this can cause permanent hearing loss. If you experience any hearing loss or ringing in the ears, consult a physician.
+Always turn the power off when the instrument is not in use. 
+Even when the [ ] (Standby/On) switch is in standby status (power lamp is off), electricity is still flowing to the instrument a t the minimum level. 
+When you are not using the instrument for a long time, make sure you unplug the power cord from the wall AC outlet.
+NOTICE
+To avoid the possibility of malfunction/ damage to the product, 
+damage to data, or damage to other property, follow the notices below.
+Handling
+• Do not use the instrument in the vicinity of a TV, radio, stereo equipment, mobile 
+phone, or other electric devices. Otherwise, the instrument, TV, or radio may generate noise. When you use the instrume nt along with an application on your 
+iPad, iPhone or iPod touch, we recommend that you set “Airplane Mode” to “ON” 
+on that device in order to avoid noise caused by communication. 
+• Do not expose the instrument to excessive dust or vibrations, or extreme cold or 
+heat (such as in direct sunlight, near a heater, or in a car during the day) to 
+prevent the possibility of panel disfigura tion, damage to the internal components 
+or unstable operation. (Verified operating temperature range: 5° – 40°C, or 41° – 
+104°F .)
+• Do not place vinyl, plastic or rubber objects on the instrument, since this might 
+discolor the panel or keyboard.
+Maintenance
+• When cleaning the instrument, use a soft cloth. Do not use paint thinners, 
+alcohol, solvents, cleaning fluids, or chemical-impregnated wiping cloths.
+Saving data
+• Some types of data (page 19) will be stored in internal memory, and maintained 
+even if the power is turned off. However, the data could be lost due to malfunction or incorrect operation. Information
+About copyrights
+• Copying of the commercially available musical data including but not limited to 
+MIDI data and/or audio data is strictly prohibited except for your personal use.
+• This product incorporates and bundles computer programs and contents in which 
+Yamaha owns copyrights or with respect to which it has license to use others' 
+copyrights.  Such copyrighted materials include, without limitation, all computer software, style files, MIDI files, WAVE da ta, musical scores and sound recordings. 
+Any unauthorized use of such programs and contents outside of personal use is 
+not permitted under relevant laws.  An y violation of copyright has legal 
+consequences.  DON’T MAKE, DIST RIBUTE OR USE ILLEGAL COPIES.
+About functions/data bundled with the instrument
+• Some of the preset songs have been edited for length or arrangement, and may 
+not be exactly the same as the original.
+About this manual
+• The illustrations as shown in this manual are for instructional purposes only, and 
+may appear somewhat different fr om those on your instrument.
+• iPad, iPhone and iPod touch are trademarks of Apple Inc., registered in the U.S. 
+and other countries.
+• The company names and product names in this manual are the trademarks or 
+registered trademarks of their respective companies.
+Tuning
+• Unlike an acoustic piano, this instrument does not need to be tuned by an expert 
+(although the pitch can be user-adjusted to match other instruments). This is 
+because the pitch of digital instrume nts is always maintained perfectly.Power supply/AC adaptor
+LocationConnections
+Handling caution
+Yamaha cannot be held responsible for damage  caused by improper use or modifications to the instrument, or data that is lost or  destroyed.
+DMI-5  2/2p45_en_om.book  Page 6  Thursday, October 30, 2014  1:12 PM
+P-45  Owner’s Manual 7Contents
+PRECAUTIONS...................................................... 5
+With this instrument, you can:................................. 7About the Manuals.................................................. 8Accessories............................................................. 8
+Introduction
+Panel Controls and Terminals 9
+Setting Up 10
+Power Requirements ............................................ 10Turning the Power On/Off..................................... 10Auto Power Off Function....................................... 10Setting the Volume................................................ 11Setting the Operation Confirmation Sounds ......... 11Using Headphones ............................................... 11Using a Footswitch................................................ 11
+Reference
+Selecting & Pl aying Voices 12
+Selecting a Voice .................................................. 12Layering Two Voices (Dual).................................. 12Playing Duo........................................................... 13Adding Variations to the Sound – Reverb............. 13Setting the Touch Sensitivity................................. 14Transposing the Pitch in Semitones ..................... 14Fine-tuning the Pitch............................................. 15Playing Back Songs 16
+Listening to the Voice Demo Songs ......................16Listening to the Piano Songs (Preset Songs)........16
+Using the Metronome 17
+Selecting a Beat ....................................................17Adjusting the Tempo..............................................17Adjusting the Volume of the Metronome ...............17
+Connecting Other Equipment 18
+Connecting an iPad or iPhone...............................18Connecting to a computer .....................................18MIDI Settings.........................................................18
+Data Backup and Initializing 19
+Appendix
+Troubleshooting 20
+Specifications 20
+Index 21
+Quick Operation Guide 22
+With this instrument, you can:
+Enjoy the feel of an authentic piano action with the Graded Ha mmer Standard (GHS) keyboard.
+Listen to the ten Piano Preset So ngs as background music (page 16).
+Enjoy easy operation by holding down the [G RAND PIANO/FUNCTION] button and pressing the 
+corresponding key on the keyboard to set up the instrument as desired. For more information on 
+keyboard assignments, see page 22.p45_en_om.book  Page 7  Thursday, October 30, 2014  1:12 PM
+P-45  Owner’s Manual8Thank you for purchasing th is Yamaha Digital Piano!
+We recommend that you read this manual carefully  so that you can fully take advantage of the 
+advanced and convenient functions of the instrument.
+We also recommend that you keep  this manual in a safe and handy place for future reference.
+Accessories
+• Owner’s Manual
+•A C  A d a p t o r *• Warranty*• Online Member Product Registration**• Footswitch
+* May not be included depending on your particular area. Please check with 
+your Yamaha dealer.
+** The PRODUCT ID on the sheet will be needed when you fill out the User 
+Registration form.
+•M u s i c  R e s tInsert into the slotThis instrument has the following documents and instructional materials.
+Included Documents
+Owner’s Manual (this book)
+Quick Operation Guide (page 22)Shows in chart form the functions assigned to the buttons and the keyboard for quick understand-ing.
+Online Materials (PDF)
+iPhone/iPad Connection Manual
+Explains how to connect the instrument to smart devices, such iPhone, iPad, etc.
+Computer-related Operations
+Contains instructions about computer-related functions.
+MIDI Reference
+Contains MIDI-related information.
+MIDI Basics (only in English, French, German and Spanish)
+Contains basic explanations about what MIDI is and can do.
+To obtain these manuals, access the Yamaha Downloads website. Select your country, enter “P-45” in the Model 
+Name box, then click [Search].About the Manuals
+Yamaha Downloads
+https://download.yamaha.com/
+P-45  Owner’s Manual 9Panel Controls and Terminals
+q[ ] (Standby/On) switch ......................page 10
+For turning the power on or setting to standby.
+w[MASTER VOLUME] slider....................page 11
+For adjusting the volume of the entire sound.
+e[GRAND PIANO/FUNCTION] button.....page 12
+For instantly calling up the Grand Piano 1 V oice.
+FUNCTION
+You can set various parameters by pressing a note 
+on the keyboard while holding this button.
+r[USB TO HOST] terminal ......................page 18
+For connecting to an iPhone, iPad, or computer.
+t[SUSTAIN] jack ......................................page 11
+For connecting the included footswitch, an optional footswitch or foot pedal.
+y[PHONES] jack ......................................page 11
+For connecting a set of standard stereo head-
+phones.
+uDC IN jack ..............................................page 10
+For connecting the power adaptor.qwe
+ty u r
+C0 C1 C2 C3 C4 C5 C6 C7 A-1Shows the jacks and terminals as seen when viewed
+from the rear of the instrument.
+Speakers are built into the instrument at the bottom. 
+Though you can enjoy playing the instrument even when putting it on a desk or table, we recommend that you use an optional keyboard stand for better sound.Optional Keyboard StandIntroductionp45_en_om.book  Page 9  Thursday, October 30, 2014  1:12 PM
+P-45  Owner’s Manual 10Setting Up
+Connect the AC adaptor plugs in the following order.
+For the Power Adaptor with a Removable Plug
+Do not remove the plug from the power adaptor. If the 
+plug is removed accidentally, slide the plug into place 
+without touching the metallic parts, and then push the 
+plug in completely until it clicks.qSet the volume to the minimum.
+wPress the [ ] (Standby/On) button to turn on the 
+power.
+When the power is supplied to the instrument, the 
+power lamp located on the left of the power switch 
+is turned on. While playing the keyboard, adjust 
+the volume level by using the [MASTER VOL-UME] slider. To turn off the power, press the [ ] 
+(Standby/On) switch again for a second. 
+To prevent unnecessary power consumption, this 
+function automatically turns the power off if no but-
+tons or keys are operated for approximately 15 min-utes. If desired, you can disable or enable this 
+function. 
+To disable the Auto Power Off function:
+When the instrument is turned off: 
+While holding down the lowest key (A-1), press the 
+[ ] (Standby/On) switch to turn on the power so that 
+the power indicator flashes three times, after which the Auto Power Off function is disabled. 
+When the instrument is turned on: 
+While holding down [GRAND PIANO/FUNCTION], 
+press the lowest key (A-1). Power Requirements
+• Use the specified adaptor (page 20) only. Using the 
+wrong adaptor can result in damage to the instrument 
+or overheating.
+• When setting up the product, make sure that the AC 
+outlet you are using is easily accessible. If some trou-
+ble or malfunction occurs, immediately turn off the 
+power switch and disconnect the plug from the outlet.
+• To disconnect the power adaptor, press the [ ] (Standby/On) switch and 
+carry out the above procedure in reverse order.
+• Make sure to keep the plug attached to the AC adaptor. 
+Using the plug alone can cause electric shock or fire.
+• Never touch the metallic section when attaching the 
+plug. To avoid electric shock, short circuit or damage, 
+also be careful that there is no dust between the AC adaptor and plug.AC Adaptor AC Outlet DC IN jack 
+(page 9)
+* The shape of the plug and outlet differs depending on locale.q
+w
+WARNING
+CAUTION
+NOTE
+Plug
+Slide the plug as 
+indicated
+* The shape of the plug differs depending on locale.
+WARNINGTurning the Power On/Off
+• Even when the power switch is turned off, electricity is 
+still flowing to the product at the minimum level. When 
+you are not using the product for a long time, make 
+sure to unplug the power cord from the wall AC outlet.
+Auto Power Off Functionqw
+CAUTION
+A-1
+A-1
+Setting Up
+P-45  Owner’s Manual 11To enable the Auto Power Off function: 
+While holding down [GRAND PIANO/FUNCTION], 
+press the A #-1 key.
+When you start playing, use the [MASTER VOL-UME] slider to adjust the volume of the entire key-board sound. 
+Because of the simple, piano-like design of this instru-
+ment, there are a minimum of panel controls, and 
+most settings are made using the keys of the keyboard. When you turn a function on or off, or change a set-
+ting, the instrument produces a sound to confirm the 
+change. There are three types of sounds used: an ascending sound for on, a descending sound for off, 
+and clicks for other settings. For the list of functions 
+assigned to the buttons and keys, see “Quick Opera-tion Guide” on page 22.
+Setting the Operation Confirmation Sounds 
+On or Off
+You can enable or disable the Operation Confirmation 
+Sounds as desired.
+While holding down [GRAND PIANO/FUNCTION], 
+press the C7 key. Every time you press the C7 key, the setting is switched on or off.
+Default setting:  onAny pair of stereo headphones with a 1/4” stereo phone plug can be plugged in here for convenient monitoring. The speakers are automatically shut off 
+when a plug is inserted into this jack.
+The [SUSTAIN] jack is for connecting the included 
+footswitch, which works in the same way as a damper 
+pedal on an acoustic piano. Also an optional FC3A foot pedal or FC4A or FC5 footswitch can be con-
+nected to this jack. The FC3A lets you use the Half 
+Pedal function.
+Half Pedal function
+If you are playing the piano with sustain and want a 
+clearer, less muddled sound (especially in the bass 
+register), let up on your foot from the pedal to half position or higher.Setting the Volume
+Setting the Operation Confirmation 
+SoundsA#-1
+Louder Softer
+C7Using Headphones
+• To protect your hearing, avoid listening with the head-
+phones at a high volume level for long periods of time.
+Using a Footswitch
+• Do not press the footswitch when turning the power on. Doing this changes 
+the recognized polarity of the footsw itch, resulting in reversed footswitch 
+operation.
+• Make sure that power is OFF when connecting or disconnecting the foot-
+switch or pedal.Standard stereo 
+phone plug
+CAUTION
+NOTEp45_en_om.book  Page 11  Thursday, October 30, 2014  1:12 PM
+P-45  Owner’s Manual 12ReferenceSelecting & Playing Voices
+To select the Grand Piano Voice:
+Simply press [GRAND PIANO/FUNCTION] to 
+instantly call up the Grand Piano 1 V oice — no matter 
+what other V oice is called up or other settings are made.
+To select another Voice: 
+While holding [GRAND PIANO/FUNCTION], press 
+one of the C0 – A0 keys. 
+Voice List
+After selecting the desired Voice, play the 
+keyboard.You can play V oices simultaneously across the entire 
+range of the keyboard. 
+1Engage Dual. 
+While holding down [GRAND PIANO/FUNC-
+TION], simultaneously press any two desired keys 
+from C0 –A0.
+The V oice assigned to the left side key is V oice 1, 
+while the V oice assigned to the right side key is V oice 2. 
+2To exit from Dual, simply press [GRAND 
+PIANO/FUNCTION]. 
+To shift the Octave for each Voice:
+While holding down [GRAND PIANO/FUNCTION], 
+press one of the F5 – A #5 keys. 
+To adjust the Balance between two Voices:
+While holding down [GRAND PIANO/FUNCTION], 
+press the B5 key to decrease by one, C #6 to increase 
+by one, or C6 to set to 0 (equal balance). The setting 
+range is from -6 to +6. Settings above “0” increase the volume of V oice1, and vice versa. Selecting a Voice
+KeyVoice 
+NameDescription
+C0GRAND 
+PIANO 1Recorded samples from a full concert grand 
+piano. Perfect for classical compositions as 
+well as any other style that requires acoustic piano.
+C#0GRAND 
+PIANO 2Bright piano sound. Clear tone helps the 
+sound to “cut through” when playing in an 
+ensemble.
+D0 E. PIANO 1Vintage electric piano sound of hammer-struck metallic “tines.” Soft tone when played 
+lightly, and an aggressive tone when played hard.
+D#0E. PIANO 2An electronic piano sound created by FM synthesis. Good for standard popular music.
+E0PIPE ORGAN 1A typical pipe organ sound (8 feet + 4 feet + 2 feet). Good for sacred music from the 
+Baroque period.
+F0PIPE ORGAN 2This is the organ’s full coupler sound, often associated with Bach’s “Toccata and Fugue.”
+F#0STRINGSSpacious and large-scale string ensemble. Try combining this Voice with piano in DUAL.
+G0HARPSI-CHORD 1The definitive instrument for baroque music. Authentic harpsichord sound, with plucked 
+strings, no touch response.
+G#0HARPSI-CHORD 2Mixes the same Voice an octave higher for a more brilliant, dynamic tone.
+A0VIBRA-PHONEPlayed with relatively soft mallets.
+• To familiarize yourself with the characteri stics of the Voices, listen to the Demo 
+Songs for each Voice (page 16).
+• You can shift the Octave as described in the next column (see “Voice 1”).A0 С0
+NOTELayering Two Voices (Dual)
+Voice 1F5 -1
+Voice 2G#5- 1
+F#50 A 5 0
+G5 +1 A#5+ 1A0 С0
+Voice 2 Voice 1
+F5 A #5
+C6 (0) B5 (-1)C#6 (+1)p45_en_om.book  Page 12  Thursday, October 30, 2014  1:12 PM
+Selecting & Playing Voices
+P-45  Owner’s Manual 13This function allows two different players to play the 
+instrument, one on the left and the other on the right, over the same octave range.
+1While holding down [GRAND PIANO/
+FUNCTION], press the D3 key to engage Duo. 
+The keyboard is divided into the two sections with 
+the E3 key as the Split Point. 
+2One person can play the left section of 
+the keyboard while the other plays the 
+right.
+Sounds played with the left voice are played from 
+the left speaker, and sounds played with the right 
+voice are played from the right speaker.
+3To exit from Duo, press the D3 key while 
+holding [GRAND PIANO/FUNCTION] 
+again. 
+To shift the Octave for each Voice:
+Same as in Dual (page 12). 
+Pedal function in DuoThe Footswitch connected to the [SUSTAIN] jack 
+affects both Right and Left sections.This instrument features several Reverb Types that add extra depth and expression to the sound to create a realistic acoustic ambience. Although the appropriate 
+Reverb Type is called up automatically when you 
+select each of the V oices, you can change the Reverb Type as desired.
+To select a Reverb Type:
+While holding down [GRAND PIANO/FUNCTION], 
+press one of the C5 – E5 keys.
+Reverb Type List
+To adjust Reverb Depth:
+While holding down [GRAND PIANO/FUNCTION], 
+press the A4 key to decrease by one, B4 to increase by 
+one, or A #4 to reset to the default value (most suitable 
+value for the current V oice). The higher the value, the 
+deeper the effect. 
+Default setting: the setting best suited for the current 
+Vo i c e
+Setting range:  0 (no effect) – 10 (maximum depth)Playing Duo
+• The Split Point cannot be changed from E3.
+• If the keyboard is in Dual, engagi ng Duo will exit from Dual. The Voice 1 
+is used as the Voice of the entire keyboard. 
+• Changing the Voice will exit from Duo. D3
+Split Point (E3)
+Left Voice (Voice 2) Right Voice (Voice 1)Equivalent to C3 
+(Center)Equivalent to C3 
+(Center)D3
+NOTEAdding Variations to the Sound – 
+Reverb
+KeyReverb 
+TypeDescription
+C5 RoomAdds a continuous reverb effect to the 
+sound, similar to the acoustic reverbera-tion you would hear in a room.
+C#5 Hall1For a bigger reverb sound. This effect simulates the natural reverberation of a 
+small-size concert hall.
+D5 Hall2For a truly spacious reverb sound. This effect simulates the natural reverberation 
+of a large concert hall.
+D#5S t a g eSimulates the reverb of a stage environ-ment.
+E5 Off No effect is applied.
+• In Dual, the Reverb Type for Voice 1 is called up by default. If “OFF” is assigned 
+to Voice 1, the Reverb Type for the Voice 2 is called up. E5 C5
+NOTE
+B4 (+1) A4
+(-1)A#4 (Default)p45_en_om.book  Page 13  Thursday, October 30, 2014  1:12 PM
+Selecting & Playing Voices
+P-45  Owner’s Manual 14You can specify the Touch Sensitivity (how the sound 
+responds to your playing strength).While holding down [GRAND PIANO/FUNCTION], 
+press one of the A2 – C3 keys.
+Touch SensitivityYou can shift the pitch of the entire keyboard up or 
+down in semitone in order to facilitate playing in diffi-cult key signatures, or to easily match the pitch of the 
+keyboard to the range of a singer or other instruments. 
+For example, if “+5” is selected, playing key C pro-duces pitch F, letting you play a song of F major as 
+though it were in C major.
+Setting range:  -6 – 0 – +6
+To transpose the pitch down:
+While holding down [GRAND PIANO/FUNCTION], 
+press the F6 key to decrease by 1 semitone. 
+To transpose the pitch up:
+While holding down [GRAND PIANO/FUNCTION], 
+press the G6 key to increase by 1 semitone. 
+To restore the original pitch:
+While holding down [GRAND PIANO/FUNCTION], 
+press the F #6 key. Setting the Touch Sensitivity
+KeyTouch 
+SensitivityDescription
+A2 FixedThe volume level does not change at all 
+regardless of whether you play the key-board soft or hard.
+A#2S o f tThe volume level does not change much when you play the keyboard soft or hard.
+B2 MediumThis is the standard piano touch response (default setting).
+C3 HardThe volume level changes very widely from pianissimo to fortissimo to facilitate 
+dynamic and dramatic expression. You 
+have to hit the keys hard to produce a loud sound.
+• The Touch Sensitivity settings may have little or no effect with the PIPE ORGAN 
+and HARPSICHORD Voices, since these in struments are not normally respon-
+sive to keyboard dynamics.A2
+C3 A2
+NOTETransposing the Pitch in Semitones
+G6 (+1) F6 (-1)F#6 (Original pitch)p45_en_om.book  Page 14  Thursday, October 30, 2014  1:12 PM
+Selecting & Playing Voices
+P-45  Owner’s Manual 15You can fine tune the pitch of the entire instrument in 
+approximately 0.2 Hz increments. This lets you match the keyboard pitch finely to that of other instruments 
+or CD music. 
+Setting range:  414.8 – 440.0 – 466.8 Hz
+To lower the pitch:
+While holding down [GRAND PIANO/FUNCTION], 
+press the G #6 key repeatedly to lower the pitch in 
+approximately 0.2 Hz increments.
+To raise the pitch:
+While holding down [GRAND PIANO/FUNCTION], 
+press the A6 key repeatedly to raise the pitch in 
+approximately 0.2 Hz increments.
+To set the pitch to A3 = 442.0 Hz:
+While holding down [GRAND PIANO/FUNCTION], 
+press the A #6 key.
+To reset the pitch to the default (A3 = 440.0 Hz):
+While holding down [GRAND PIANO/FUNCTION], press the B6 key.Fine-tuning the Pitch
+B6 (440.0 Hz) A6 (+0.2 Hz)A#6 (442.0 Hz) G#6 (-0.2 Hz)p45_en_om.book  Page 15  Thursday, October 30, 2014  1:12 PM
+P-45  Owner’s Manual 16Playing Back Songs
+Demo Songs are provided for each of the V oices such 
+as Piano and Organ.
+1While holding down [GRAND PIANO/
+FUNCTION], press one of the C1 – A1 
+keys to start playback. 
+This operation starts playback of the Demo Song 
+of the V oice assigned to the pressed key. Starting with the selected Song, playback will continue in 
+sequence. 
+Demo Song List
+The demonstration pieces listed above are short rearranged excerpts of the origi-
+nal compositions. All other songs are original (© 2014 Yamaha Corporation).
+2Press [GRAND PIANO/FUNCTION] again 
+to stop playback.
+To adjust the playback tempo:
+The operation is same as that of the Metronome 
+Tempo (page 17). In addition to the Demo Songs, Preset Songs are pro-
+vided for your listening pleasure. 
+1While holding down [GRAND PIANO/
+FUNCTION], press one of the A #1 – G2 
+keys to start playback.
+Starting with the selected Song, playback will 
+continue in sequence.
+Preset Song List
+2Press [GRAND PIANO/FUNCTION] again 
+to stop playback.
+To adjust the playback tempo:
+The operation is same as that of Metronome Tempo 
+(page 17). Listening to the Voice Demo Songs
+• The keyboard Voice is automatically set to correspond to that of the cur-
+rent Demo Song. If you select another Voice during playback, the Demo 
+Song will automatically change to that  corresponding to the selected new 
+Voice. 
+Key Voice Name Title Composer
+C1 GRAND PIANO 1 Original Original
+C#1GRAND PIANO 2 Original Original
+D1 E. PIANO 1 Original Original
+D#1 E. PIANO 2 Original Original
+E1 PIPE ORGAN 1 Original Original
+F1 PIPE ORGAN 2 Original Original
+F#1 STRINGS Original Original
+G1 HARPSICHORD 1 Gavotte J.S. Bach
+G#1HARPSICHORD 2 Invention No. 1 J.S. Bach
+A1 VIBRAPHONE Original OriginalA1 C1
+NOTEListening to the Piano Songs 
+(Preset Songs)
+Key No. Title Composer
+A#11Menuett G dur 
+BWV.Anh.114 J.S. Bach
+B1 2 Turkish March W.A. Mozart
+C2 3 Für Elise L.v. Beethoven
+C#2 4 Valse op.64-1 “Petit chien” F .F . Chopin
+D2 5 Träumerei R. Schumann
+D#26Dolly’s Dreaming and 
+Awakening T. Oesten
+E2 7 Arabesque J.F . Burgmüller
+F2 8 Humoresque A. Dvořák
+F#2 9 The Entertainer S. Joplin
+G2 10 La Fille aux Cheveux de Lin C.A. DebussyG2
+G2A#1p45_en_om.book  Page 16  Thursday, October 30, 2014  1:12 PM
+P-45  Owner’s Manual 17Using the Metronome
+The metronome is convenient for practicing with an accurate tempo. 
+1While holding down [GRAND PIANO/
+FUNCTION], press the E3 key to start the 
+Metronome. 
+2Execute the same operation again to stop the Metronome.
+While holding down [GRAND PIANO/FUNCTION], 
+press the E4 key to decrease the value, or the F4 key to increase the value. The default value is “no beat.” 
+When a value other than “no beat” is selected, the first 
+beat is accented with a bell sound.While holding down [GRAND PIANO/FUNCTION], 
+press the F3 – D4 keys (to which numbers 0 – 9 are 
+assigned individually) to specify the three-digit value as a Tempo of the Metronome and Song. To specify 
+“95,” for example, press the F3 (0), D4 (9) and A#3 
+(5) keys in order while holding down [GRAND PIANO/FUNCTION]. 
+Default setting (Metronome):  120
+Setting range:  32 – 280
+To restore the default value: 
+While holding down [GRAND PIANO/FUNCTION], 
+press the D #4 key. 
+While holding down [GRAND PIANO/FUNCTION], 
+press the F #4 key to decrease the volume of the Met-
+ronome, the G #4 key to increase the volume, or the 
+G4 to restore the default volume (10). 
+Setting range:  1 – 20• Pressing only [GRAND PIANO/FUNCTION] also stops the Metronome, 
+but it also resets to the Grand Piano Voice.
+Selecting a BeatE3
+NOTE
+F4 E4Adjusting the Tempo
+Adjusting the Volume of the Metro-
+nomeF3 D #4
+F#4G #4p45_en_om.book  Page 17  Thursday, October 30, 2014  1:12 PM
+P-45  Owner’s Manual 18Connecting Other Equipment
+With an iPad or iPhone connected to your digital 
+piano, you can use a wide range of apps to expand the 
+functionality of your instrument in exciting new ways. 
+For details on how to connect the devices, refer to the “iPhone/iPad Connection Manual,” which you can 
+download for free from the Yamaha web site.
+By connecting a computer to the [USB TO HOST] 
+terminal, you can take advantage of various music software with your computer and the instrument.For details on using a comput er with this instrument, 
+refer to the “Computer-related Operations” on the website.Setting the MIDI Transmit Channels
+In any MIDI control setup, the MIDI channels of the 
+transmitting and receiving devices must be matched 
+for proper data transfer. You can specify the channel 
+on which this instrument transmits MIDI data. To do this, while holding down [GRAND PIANO/FUNC-
+TION], press one of the D6 – E6 keys. The D6 key 
+decreases the value by 1, the E6 key increases the value by 1, and the D #6 key restores the default value 
+(channel 1). 
+Setting range:  1 – 16
+Default value:  1
+Other MIDI Settings
+The MIDI settings other than the Transmit Channel 
+are set as listed below, and cannot be changed. 
+MIDI Receive Channels:
+....................................... All channels (1 – 16)
+Local Control: ............................................On
+Program Change Transmit/Receive:........Yes
+Control Change Transmit/Receive: .........YesCAUTION
+• Before connecting the instrument to other electronic components, turn off the power to all the components. Before turning the 
+power on or off to all components, set all volume levels to mini mum (0). Otherwise, electrical shock or damage to the compo-
+nents may result.
+Connecting an iPad or iPhone
+Connecting to a computer
+• Use an AB type USB cable. When connecting a USB cable, make sure that the 
+length is less than 3 meters.[USB TO HOST] terminal
+Instrument
+USB cableComputer
+NOTEMIDI Settings
+• In Dual, the keyboard performance via Voice 1 is transmitted on the specified 
+MIDI Transmit Channel and the keyboard pe rformance via Voice 2 is transmitted 
+on the next channel number in sequence (specifie d channel + 1).
+• No MIDI messages are output during playback of the Demo Song or Preset 
+Song. E6 (+1) D6 (-1)D#6 (Default)
+NOTEp45_en_om.book  Page 18  Thursday, October 30, 2014  1:12 PM
+P-45  Owner’s Manual 19Data Backup and Initializing
+The following data will automatically be maintained 
+as backup data even if you turn off the power. 
+Backup data
+Metronome V olume, Metronome Beat, Touch 
+Sensitivity, Tuning, Auto Power Off, Operation Confirmation Sounds on/offTo initialize the backup data: 
+While holding down the C7 key (right-most key), turn 
+the power on to initialize the backup data to the fac-tory initial settings. 
+The power lamp flashes, indicating that the initializa-
+tion is being executed.
+• Never turn off the power while the initialization is being 
+executed. 
+• If this instrument somehow malfunctions or fails to operate properly, try execut-
+ing the initialization. C7
+NOTICE
+NOTEp45_en_om.book  Page 19  Thursday, October 30, 2014  1:12 PM
+P-45  Owner’s Manual 20AppendixTroubleshooting
+Specifications
+Dimensions (W x D X H)
+• 1,326 x 295 x 154 mm (52-3/16” x 11-5/8” x 6-1/16”)
+Weight
+• 11 .5 kg (25 lbs. 6 oz.)
+Keyboards
+• 88 keys (A-1 – C7)
+• GHS (Graded Hammer Standard) keyboard with matte black 
+keytops
+• Touch Sensitivity (Hard, Medium, Soft, Fixed)
+Tone Generation / Voice
+• AWM Stereo Sampling• 10 Preset Voices• Polyphony: 64
+Effects/Functions
+•  4 Reverb types•  Dual• D u o
+Song Playback
+• 10 Voice Demo Songs + 10 Piano Preset Songs
+Overall Controls
+• Metronome• Tempo: 32 – 280
+• Transpose: -6 – 0 – +6
+• Fine Tuning: 414.8 – 440.0 – 466.8 Hz
+Connectivity
+• DC IN (12V), PHONES, SUSTAIN, USB TO HOST
+Amplifiers
+• 6 W + 6 W
+Speakers
+•1 2  c m  x  2  Power Supply
+• AC Adaptor PA-150 or an equivalent recommended by Y amaha• Power Consumption: 6 W (When using PA-150 adaptor)• Auto Power Off Function
+• Standby Power Consumption: 0.3 W
+Included Accessories
+• Owner’s Manual, Music Rest, AC Adaptor PA-150 or an equiva-
+lent recommended by Y amaha*, Online Member Product Regis-
+tration**, Footswitch
+* May not be included depending on your particular area. 
+Please check with your Y amaha dealer.
+** The PRODUCT ID on the sheet will be needed when you fill 
+out the User Registration form.
+Separately Sold Accessories
+• Keyboard Stand L-85, Foot Pedal FC3A, Footswitch FC4A/FC5, 
+Headphones (HPE-30/HPE-150), USB MIDI Interface for 
+iPhone/iPod touch/iPad (i-UX1), AC Adaptor (Users within U.S or Europe: PA-150 or an equivalent recommended by Y amaha, Oth-
+ers: PA-5D, PA-150 or an equivalent)
+* The contents of this manual apply to the latest specifications as 
+of the printing date. Since Yamaha makes continuous improve-ments to the product, this manual may not apply to the specifi-cations of your particular product. To obtain the latest manual, access the Y amaha website then download the manual file. Since specifications, equipment or separately sold accessories may not be the same in every locale, please check with your Y amaha dealer.Problem Possible Cause and Solution
+The instrument does not turn on.The instrument has not been plugged in properly. Securely insert the female plug into 
+the jack on the instrument, and the male plug into a proper AC outlet (page 10).
+The instrument is automatically turned off even if 
+no operation is done.This is normal. This occurs due to the Auto Power Off function (page 10).
+Noise is heard from the speakers or head-
+phones.The noise may be due to interference caused by the use of a mobile phone in close 
+proximity to the instrument. Turn off the mobile phone, or use it further away from the instrument.
+Noise can be heard coming from the digital 
+piano’s built-in speakers and/or headphones 
+when using it with an iPhone/iPad/iPod touch 
+app.In order to eliminate the risk of noise from other communication when using the instru-
+ment with an iPhone, iPad, or iPod touch, we recommend turning on the device’s Air-
+plane Mode.
+The overall volume is low, or no sound is heard.The Master Volume is set too low; set it to an appropriate level using the [MASTER 
+VOLUME] slider (page 11).
+Make sure a pair of headphones or conversion adaptor is not connected to the head-
+phones jack (page 11).
+The pedal has no effect.The pedal cable/plug may not be properly connected. Make sure to securely insert the 
+pedal plug into the [SUSTAIN] jack (page 11).
+The footswitch (for sustain) seems to produce 
+the opposite effect. For example, pressing the 
+footswitch cuts off the sound and releasing it sustains the sounds.The polarity of the footswitch is reversed because the footswitch was pressed when the 
+power was turned on. Turn off the power and turn it on again to reset the function. Make sure to not press the footswitch when turning the power on.
+P-45  Owner’s Manual 21Index
+A
+Accessories  ...................................................................8
+Adjusting the Tempo  ........... .................. ...............16–17
+Auto Power Off Function  ..........................................10
+C
+Connecting an iPad or iPhone  ...................................18
+Connecting to a computer  ..........................................18
+D
+Data Backup  ................................................................19
+Demo Song List  ..........................................................16
+Dual  .............................................................................12
+Duo ..............................................................................13
+F
+Footswitch  ...................................................................11
+H
+Half Pedal function  ....................................................11
+Headphones  .................................................................11
+I
+Initializing  ...................................................................19
+M
+Metronome  ..................................................................17
+MIDI Settings  .............................................................18
+Music Rest  ....................................................................8
+O
+Online Materials (PDF)  ...............................................8
+Operation Confirmation Sounds  ...............................11
+Optional Keyboard Stand  .............................................9
+Owner’s Manual  ...........................................................8
+P
+Piano Songs  .................................................................16
+Power Adaptor  ............................................................10
+Preset Song List  ..........................................................16
+Preset Songs  ................................................................16
+Q
+Quick Operation Guide  ..............................................22
+R
+Reverb  ..........................................................................13
+Reverb Type List  .........................................................13S
+Selecting a Beat  .......................................................... 17
+Specifications  ............................................................. 20
+T
+Touch Sensitivity  ........................................................ 14
+Transposing  ................................................................. 14
+Troubleshooting  .......................................................... 20
+Tuning  ......................................................................... 15
+Turning the Power On/Off  ......................................... 10
+V
+Vo i c e  ............................................................................ 12
+V oice Demo Songs  ..................................................... 16
+Vo i c e  L i s t  .................................................................... 12
+Vo l u m e  ........................................................................ 11p45_en_om.book  Page 21  Thursday, October 30, 2014  1:12 PM
+22A-1   B-1   C0    D0    E0    F0    G0    A0    B0    C1    D1    E1    F1     G1    A1    B1    C2    D2    E2    F2    G2    A2    B2    C3    D3    E3    F3    G3    A3    B3    C4    D4    E4    F4    G4    A4    B4    C5    D5   E5     F5    G5    A5    B5    C6    D6    E6    F6     G6    A6    B6    C7A#-1           C# 0  D# 0            F# 0   G# 0  A# 0           C# 1  D# 1            F# 1   G#1   A#1           C# 2   D#2            F#2  G# 2   A#2            C#3  D# 3            F# 3  G# 3   A#3            C# 4  D# 4            F#4   G#4   A#4           C# 5  D# 5            F# 5  G# 5   A#5           C# 6  D# 6           F# 6  G# 6   A# 6Number key 1
+Number key 3
+Number key 5
+Number key 8
+Default Tempo
+Decrease Volume by one stepNumber key 4Number key 2
+Number key 6
+Number key 7
+Number key 9
+Decrease Beat by one step
+Increase Beat by one step
+Increase by one stepGRAND PIANO 2
+E. PIANO 2Auto Power Off   EnableAuto Power Off   Disable
+GRAND PIANO 1
+E. PIANO 1
+A3 = 442.0 HzIncrease by approx. 0.2 Hz 
+A3 = 440.0 Hz
+Operation Confirmation Sounds ON/OFFHARPSICHORD 2STRINGS
+GRAND PIANO 2
+E. PIANO 2
+STRINGS
+HARPSICHORD 2PIPE ORGAN 1
+PIPE ORGAN 2
+HARPSICHORD 1
+VIBRAPHONE
+GRAND PIANO 1
+E. PIANO 1
+PIPE ORGAN 1
+PIPE ORGAN 2
+HARPSICHORD 1
+VIBRAPHONE
+Song 6Song 4Song 1
+Song 9
+SoftSong 2
+Song 3
+Song 5
+Song 7
+Song 8
+Song 10
+Fixed
+Medium
+Hard
+Duo ON/OFF
+METRONOME ON/OFF
+Number key 0
+DefaultDecrease by one step
+Increase by one stepHall 1
+Stage
+0 (Voice 1)
+-1 (Voice 2)+1 (Voice 2)
+Increase Volume by one step
+0 (Default)
+Decrease by approx. 0.2 Hz Increase Depth by one stepDefault Depth
+RoomDefault Volume
+Decrease Depth by one step
+Hall 2
+OFF
+-1 (Voice 1)
++1 (Voice 1)0 (Voice 2)
+Decrease Volume by one step0 (equal balance)
+Decrease by one stepIncrease Volume by one stepVoice Voice DemoTouch
+Sensitivity Preset Song MetronomeReverb
+DepthReverb
+TypeOctave
+Setting Tempo Tunin gTransposeWhile holding down the [GRAND PIANO/FUNCTION] button, press the highlighted keys shown below to select preset songs, etc. or set parameters.
+(Refer to diagram below.)Quick Operation Guide
+Balance between
+Voice 1 and Voice 2MIDI Transmit
+ChannelQuick Operation Guidep45_en_om.book  Page 22  Thursday, October 30, 2014  1:12 PM
+23Information for Users on Collection and Disposal of Old Equipment
+This symbol on the products, packaging, and/or accompanyin g documents means that used electrical and electronic 
+products should not be mixed with general household waste.
+For proper treatment, recovery and recycling of old products , please take them to applicable collection points, in 
+accordance with your national legislation and the Directives 2002/96/EC.
+By disposing of these products correctly, you will help to save valuable resources and prevent any potential negative 
+effects on human health and the environment which coul d otherwise arise from inappropriate waste handling.
+For more information about collection and recycling of old prod ucts, please contact your local municipality, your waste 
+disposal service or the point of sale where you purchased the items. 
+[For business users in the European Union]
+If you wish to discard electrical and electronic equipment, please c ontact your dealer or supplier for further information.
+[Information on Disposal in other Countries outside the European Union]
+This symbol is only valid in the European Union. If you wis h to discard these items, please contact your local authorities 
+or dealer and ask for the correct method of disposal.
+(weee_eu_en_01)
+OBSERVERA!
+Apparaten kopplas inte ur växelströmskällan (nätet) så länge 
+som den ar ansluten till vägguttaget, även om själva apparaten har stängts av.
+ADVARSEL:  Netspændingen til dette apparat er IKKE 
+afbrudt, sålænge netledningen sidder  i en stikkontakt, som er 
+tændt — også selvom der er slukket på apparatets afbryder.
+VAROITUS:  Laitteen toisiopiiriin kytketty käyttökytkin ei irroita 
+koko laitetta verkosta.
+(standby)Information  concernant  la Collecte et le Traitement des déchets d’équipements électriques et  électroniques.
+Le symbole sur les produits, l'emballage et/ou les documents joints signifie que les produits électriques ou 
+électroniques usagés ne doivent pas être mé langés avec les déchets domestiques habituels.
+Pour un traitement, une récupération et un recyclage appropriés des déchets d’équipements électriques et  
+électroniques, veuillez les déposer aux points de collecte prévus à cet effet, conformément à la réglementation 
+nationale et aux Directives 2002/96/EC.
+En vous débarrassant correctement des déchets d’équipements électriques et  électroniq ues, vous contribuerez à la 
+sauvegarde de précieuses ressou rces et à la prévention de potentiels effets négatifs sur la santé humaine qui 
+pourraient advenir lors d'un traitement inapproprié des déchets.
+Pour plus d'informations à propos de la collecte et du  recyclage des déchets d’équipements électriques et  
+électroniques, veuillez contac ter votre municipalité, votre service de traitement des déchets ou le point de vente où 
+vous avez acheté les produits.[Pour les professionnels dans l'Union Européenne]
+Si vous souhaitez vous débarrasser des déchets d’équipement s électriques et  électroniques veuillez contacter votre 
+vendeur ou fournisseur pour plus d'informations.
+[Information sur le traitement dans d'autres pays en dehors de l'Union Européenne]
+Ce symbole est seulement valable dans l'Union Européen ne. Si vous souhaitez vous débarrasser de déchets 
+d’équipements électriques et  électroniques, veuillez contacte r les autorités locales ou votre fournisseur et demander la 
+méthode de traitement appropriée.
+(weee_eu_fr_01)
+Información para Usuarios sobre Recolección y Disposición de Equipamiento Viejo
+Este símbolo en los productos, embalaje, y/o documentaci ón que se acompañe significa que los productos electrónicos 
+y eléctricos usados no deb en ser mezclados con dese chos hogareños corrientes.
+Para el tratamiento, recuperación y reciclado apropiado  de los productos viejos, por favor llévelos a puntos de 
+recolección aplicables, de acuerdo a su legisl ación nacional y las directivas 2002/96/EC.
+Al disponer de estos productos correctamente, ayudará a aho rrar recursos valiosos y a prevenir cualquier potencial 
+efecto negativo sobre la salud humana y el medio ambiente, el cual podría surgir de un inapropiado manejo de los 
+desechos.
+Para mayor información sobre recolección y reciclado de produc tos viejos, por favor contacte  a su municipio local, su 
+servicio de gestión de residuos o el punto de venta en el cual usted adquirió los artículos.
+[Para usuarios de negoci os en la Unión Europea]
+Si usted desea deshacerse de equipamiento eléctrico y electrónico, por favor cont acte a su vendedor o proveedor para 
+mayor información.
+[Información sobre la Disposición en ot ros países fuera de la Unión Europea]
+Este símbolo sólo es válido en la Unión Europea. Si des ea deshacerse de estos artículos, por favor contacte a sus 
+autoridades locales y pregunte por el método correcto de disposición.
+(weee_eu_es_01)p45_en_om.book  Page 23  Saturday, October 11, 2014  5:33 PM
+24MEMOp45_en_om.book  Page 24  Saturday, October 11, 2014  5:33 PM
+25MEMOp45_en_om.book  Page 25  Saturday, October 11, 2014  5:33 PM
+26
+
+ZN84110© 2014 Yamaha Corporation
+Published 12/2024
+KSTY-C0EN
+ESFRBefore using the instrument, be sure to read “PRECAUTIONS” on pages 5 – 6.
+Avant d’utiliser l’instrument, lisez attentivement la section « PRÉCAUTIONS D’USAGE »aux pages 5 et 6.
+Antes de utilizar el instrumento, lea las “PRECAUCIONES”, en las páginas 5 – 6.
+English Français Español
+Owner’s Manual
+Mode d'emploi
+Manual de instruccionesDIGITAL PIANO
+P-45
+Yamaha Global Site
+https://www.yamaha.com/
+Yamaha Downloads
+https://download.yamaha.com/

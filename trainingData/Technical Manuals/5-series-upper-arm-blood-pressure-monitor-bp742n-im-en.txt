@@ -1,0 +1,816 @@
+INSTRUCTION MANUAL
+ESPAÑOL ENGLISH5 series
+Blood Pressure Monitor
+Model BP742N
+TABLE OF CONTENTS
+2Before using the Monitor
+Introduction ............................................................................................... 3
+Important Safety Information..................................................................... 4
+Operating Instructions
+Know Your Device..................................................................................... 8
+Display symbols ..................................................................... 10
+Before Taking a Measurement ............................................... 12
+Preparation ............................................................................................. 13
+Battery Installation.................................................................. 13Setting the Date and Time...................................................... 14
+Using the Device..................................................................................... 15
+Applying the Arm Cuff ............................................................ 15How to Sit Correctly................................................................ 17
+Taking a Measurement........................................................... 17
+Using the Memory Function ................................................... 20
+Care and Maintenance
+Error Messages and Troubleshooting..................................................... 23
+Error Messages...................................................................... 23
+Troubleshooting...................................................................... 25
+Maintenance and Storage....................................................................... 26
+Maintenance........................................................................... 26
+Storage................................................................................... 27
+Optional Medical Accessories ................................................ 27
+Specifications.......................................................................................... 29
+FCC Statement ....................................................................................... 31
+Limited Warranty..................................................................................... 32
+Guidance and Manufacturer’s Declaration ............................................. 33
+INTRODUCTION
+3Thank you for purchasing the OMRON® BP742N Blood Pressure Monitor. 
+Your new blood pressure monitor uses the oscillometric method of blood 
+pressure measurement. This means the monitor detects your blood movement 
+through your brachial artery and converts the movements into a digital reading. 
+An oscillometric monitor does not need a stethoscope so the monitor is simple 
+to use. 
+Intended Use 
+This device is a digital monitor intended for use in measuring blo od pressure 
+and pulse rate in adult patient population. The device detects the appearance of 
+irregular heartbeats during measurement and gives a warning signal with the 
+measurement result.
+ Please read this instruction manual thor oughly before using the device. /g3
+Please keep for future reference. For specific information about your own 
+blood pressure, CONSULT YOUR PHYSICIAN.
+IMPORTANT SAFETY INFORMATION
+4Warning: Indicates a potentially hazardous situation which, if not 
+avoided, could result in death or serious injury.
+(General Usage)
+DO NOT adjust medication based on measurement results from this blood 
+pressure monitor. Take medication as prescribed by your physician. Only a 
+physician is qualified to diagnose and treat High Blood Pressure.
+This device is not intended to be a diagnostic device. 
+Consult your physician before using the device for any of the following 
+conditions: common arrhythmias such as atrial or ventricular premature 
+beats or atrial fibrillation, arterial sclerosis, poor perfusion, diabetes, age, pregnancy, pre-eclampsia, renal diseases.
+Note that PATIENT motion, trembling, shivering may affect the measurement 
+reading.
+Do not use the device on the injured arm or the arm under medical treatment.
+Do not apply the arm cuff on the arm while being on an intravenous drip or 
+blood transfusion.
+Consult your physician before using the device on the arm with an arterio-
+venous (A-V) shunt.
+Do not use the device with other medical electrical (ME) equipment 
+simultaneously.
+Do not use the device in the area the HF surgical equipment, MRI, or CT 
+scanner exists, or in the oxygen rich environment.
+The air tube or the AC adapter cable may cause accidental strangulation in 
+infants.
+Contains small parts that may cause a choking hazard if swallowed by 
+infants.
+IMPORTANT SAFETY INFORMATION
+5Caution: Indicates a potentially  hazardous situation which, if not 
+avoided, may result in minor or moderate injury to the user or patient or damage to the equipment or other property.
+(General Usage)
+Always consult your physician. Self-diagnosis of measurement results and /g3
+self-treatment are dangerous.
+Consult your physician before using the device for any of the following 
+conditions:
+• If you have had a mastectomy.
+• Do not take measurements more than necessary. It may cause bruising 
+due to blood flow interference.
+• People with severe blood flow problems or blood disorders as cuff inflation 
+can cause bruising.
+Remove the arm cuff if it does not start deflating during the measurement.
+Do not use this device on infants or persons who cannot express their 
+intentions.
+Do not use the device for any purpose other than measuring blood pressure.
+Use only the approved arm cuff for this device. Use of other arm cuffs may 
+result in incorrect measurement results.
+Do not use a mobile phone or other devices that emit electromagnetic fields, 
+near the device. This may result in incorrect operation of the device.
+Do not disassemble the monitor or arm cuff. This may cause an inaccurate 
+reading.
+Do not use in a location with moisture, or a location where water may splash 
+on the device. This may damage the device.
+Do not use the device in a moving vehicle (car, airplane). 
+Read “If your systolic pressure is more than 210 mmHg” of this instruction 
+manual, if your systolic pressure is known to be more than 210 mmHg. 
+Inflating to a higher pressure than necessary may result in bruising where 
+the arm cuff is applied.
+IMPORTANT SAFETY INFORMATION
+6(AC Adapter (optional) Usage)
+Do not use the AC adapter if the device or the power cord is damaged. Turn 
+off the power and unplug the power cord immediately. 
+Plug the AC adapter into the appropriate voltage outlet. Do not use in a 
+multi-outlet plug.
+Never plug in or unplug the power cord from the electric outlet with wet 
+hands.
+Fully insert the power plug into the outlet.
+When disconnecting the power plug from the outlet, do not pull the power 
+cord. Be sure to pull from the power plug safely.
+When handling the power cord, take care not to do the following:
+Do not damage. Do not break it.
+Do not tamper with it. Do not forcibly bend or pull.
+Do not twist. Do not bundle during use.Do not pinch. Do not place under heavy objects.
+Wipe the dust off from the power plug.
+Unplug monitor when not in use.
+Disconnect the power plug before cleaning.
+Use only an OMRON AC adapter designed for this device. Use of 
+unsupported adapters may damage and/or may be hazardous to the device.
+(Battery Usage)
+Do not insert the batteries with their p olarities incorrectly aligned.
+Use only 4 “AA” alkaline or manganese batteries with this device. Do not use 
+other types of batteries. Do not use new and used batteries together.
+Remove the batteries if the device will not be used for three months or more.
+IMPORTANT SAFETY INFORMATION
+7General Precautions
+• Do not forcibly crease the arm cuff or the air tube excessively.
+• Do not press the air tube while taking a measurement.
+• To unplug the air plug, pull on the air plug at the connection with the monitor , 
+not the tube itself.
+• Do not drop the monitor or subject device to strong shocks or  vibrations.
+• Do not inflate the arm cuff when it is not wrapped around your arm.• Do not use the device outside the specified environment. It may cause an 
+inaccurate reading.
+• Dispose of the device, components and opt ional accessories according to 
+applicable local regulations. Unlawful disposal may cause environmental 
+pollution.
+KNOW YOUR DEVICE
+8Contents:
+Monitor, arm cuff, battery set, instruction manual, quick start guide
+Monitor:
+Arm cuff:A. Display
+B. Up/Down buttonsC. USER ID selection switch
+D. Date/Time setting button
+E. START/STOP buttonF. Memory button
+G. Battery compartmentH. Air jack
+I. AC adapter jack /g3
+(for optional AC adapter)G
+HIDA
+F
+EB
+C
+DD
+J
+LKJ. Arm cuff /g3
+(Arm circumference 9” - 17” (22 - 42 cm))
+K. Air plugL. Air tube
+KNOW YOUR DEVICE
+9Display:
+M. USER ID symbol
+N. Systolic blood pressure
+O. Diastolic blood pressure
+P. Low battery symbolQ. Heartbeat symbol /g3
+(Flashes during measurement.)
+R. Memory symbolS. Average value symbol
+T. Date/Time display
+U. Movement error symbol
+V. Irregular heartbeat symbolW. Blood pressure level indicator
+X. Deflation symbol
+Y. Pulse display / Memory numberN
+O
+PR
+MS
+T
+QU
+V
+W
+X
+Y
+KNOW YOUR DEVICE
+10Display symbols
+Irregular Heartbeat Symbol ( )
+Irregular HeartbeatNormal Heartbeat
+Pulse
+Blood pressure
+Blood pressureShort Long
+PulseWhen the monitor detects an irregular 
+rhythm two or more times during the 
+measur ement, the irregular heartbeat 
+symbol will appear on the display with the 
+measurement values. 
+An irregular heartbeat rhythm is defined 
+as a r hythm that is 25% less or 25% more 
+than the average rhythm detected while 
+the monitor is measuring the systolic and 
+diastolic blood pressure. 
+If the irregular heartbeat symbol displays with your measur ement results, we 
+recommend you consult your physician. Follow the directions of your physician.
+Movement Error Symbol ( )
+The movement error symbol is displayed if you move your body during the measurement. Please remove the arm cuff, and wait 2 - 3 minutes. /g3
+Take another measurement, remain still during measurement.
+Average Value Symbol ( )
+The average value symbol is displayed when you press and hold the memory 
+button for more than 3 seconds. The most recent average value appears on the 
+display screen.
+KNOW YOUR DEVICE
+11Blood Pressure Level Indicator  
+2013 ESH/ESC Guidelines for the management of arterial hypertension
+Definitions of hypertension by office and home blood pressure levels
+Office Home
+Systolic Blood Pressure /g149 140 mmHg /g149 135 mmHg
+Diastolic Blood Pressure /g149 90 mmHg /g149 85 mmHg
+These are from statistical values for blood pressure.
+KNOW YOUR DEVICE
+12Before Taking a Measurement
+To help ensure an accurate reading, follow these directions:
+1. Avoid bathing, drinking alcohol or caffeine, smoking, exercising and eating for 
+30 minutes before taking a measurement. Rest for a t least 15 minutes before 
+taking the measurement.
+2. Stress raises blood pressure. Avoid taking measurements during stressful 
+times.
+3. Measurements should be taken in a quiet place.
+4. Remove tight-fitting clothing from your arm.
+5. Sit on a chair with your feet flat on the floor. Rest your arm on a table so that 
+the ar m cuff is at the same level as your heart.
+6. Remain still and do not talk during the measurement.
+7. Keep a record of your blood pressure and pu lse readings for your physician. 
+A single measurement does not provide an accurate indication of your true 
+blood pressure. You need to take and record several readings over a period 
+of time. Try to measure your blood pressure at the same time each day for consistency.
+PREPARATION
+13Battery Installation
+1.Remove the battery cover.
+2.Insert 4 “AA” batteries as 
+indicated in the battery 
+compartment.
+3.Replace the battery cover.
+Notes:
+• When the low battery symbol ( ) appears on the display, turn the monitor 
+off, then replace all batteries at the same time. Long life alkaline batteries 
+are recommended.
+• The measurement values continue to be stored  in me mory even after the 
+batteries are replaced.
+• The supplied batteries may have a shorter life.• Dispose of the device, components and option al accessories according to 
+applicable local regulations. Unlawful disposal may cause environmental 
+pollution.
+PREPARATION
+14Setting the Date and Time
+Set the monitor to the correct date and time before taking a measurement for 
+the first time.
+1.Press the  button.
+2.Push  or  to change the year.
+Push  button to confirm the year and then the month flashes. Repeat the 
+same steps to change the month, day, hour, and minute.
+Minute
+Change ConfirmChange ConfirmChange ConfirmChange ConfirmChange ConfirmYear
+Month
+Day
+Hour
+ : Forward /g3
+ : Back
+3.Press the START/STOP button to turn the monitor off.
+Notes:
+• If the batteries have been replaced, the date and time setting will need to be 
+reset.
+• If the date and time are not set, “-:--” app ears during or after measurement.
+USING THE DEVICE
+15Applying the Arm Cuff
+Remove tight-fitting clothing or tight rolled up sleeve from your left upper arm. /g3
+Do not place the arm cuff over thick clothes.
+1.Insert the air plug into the air jack 
+securely.
+2.Wrap the arm cuff firmly in place around you r left upper 
+arm.
+1/2 inch /g3
+(1 - 2 cm)The bottom edge of the arm cuff 
+should be 1/2 inch (1 to 2 cm) above 
+the elbow. Air tube is on the inside 
+of your arm and aligned with your 
+middle finger.
+USING THE DEVICE
+163.Secure closed with the 
+fabric fastener.
+Notes:
+•When you take a measurement on the right 
+arm, the air tube will be at the side of your elbow . Be careful not to rest your arm on the 
+air tube.
+• The blood pressure can differ between the  right arm and the left arm, and 
+the measured blood pressure values can be different. OMRON 
+recommends to always use the same arm for measurement. If the values 
+between both arms differ substantially, please check with your physician which arm to use for your measurements.
+USING THE DEVICE
+17How to Sit Correctly
+To take a measurement, you need to 
+be relaxed and comfortably seated, under comfortable room temperature. 
+Avoid bathing, drinking alcohol or 
+caffeine, smoking, exercising or eating 
+30 minutes before taking a measurement.
+• Sit on a chair with your feet flat on the floor.
+• Sit upright with your back straight.
+• Sit with your back and arm being 
+supp orted.
+• The arm cuff should be placed on your arm 
+at the same level as your heart.
+Taking a Measurement
+Notes:
+• To stop the measurement, press the START/STOP button once to deflate the 
+arm cuff.
+• Remain still and quiet while t aking a measurement.
+The monitor is designed to take measurements and store the measurement 
+values in the memory for 2 people using USER ID 1 and USER ID 2.
+1.Select your User ID (1 or 2).
+USING THE DEVICE
+182.Press the START/STOP button.
+The arm cuff will start to inflate automatically.
+START INFLATE DEFLATE COMPLETE
+If your systolic  pressure is more than 210 mmHg
+After the arm cuff starts to inflate, press and hold the START/STOP 
+button until the monitor inflates 30 to 40 mmHg higher than your 
+expected systolic pressure.
+Notes:
+• The monitor will not inflate above 299 mmHg.
+Inflating to a higher pressure than necessary may result in bruising 
+where the arm cuff is applied.
+USING THE DEVICE
+193.Remove the arm cuff.
+4.Press the START/STOP button to turn the monitor off.
+The monitor automatically stores the measurement result in its memory.
+It will automatically turn off after 2 minutes.
+Note: Wait 2-3 minutes before taking another measurement. Waiting 
+between  measurements allows the arteries to return to the condition 
+prior to taking a measurement.
+Using the Guest Mode
+The monitor stores measurement values for 2 users in the memory. /g3
+The guest mode can be used to take a single measurement for another user. 
+No measurement values are stored in the memory when the guest mode is selected.
+1.Press and hold the START/STOP 
+button for more than 3 seconds.
+The USER ID symbol and the Date/Time 
+display will disappear.
+2.Release the START/STOP bu tton when the Date/Time 
+display turns off.
+The arm cuff will start to inflate automatically.
+DO NOT adjust medication based on measurement results from this blood 
+pressure monitor. Take medication as prescribed by your physician. Only a 
+physician is qualified to diagnose and treat High Blood Pressure.
+This device is not intended to be a diagnostic device.
+USING THE DEVICE
+20Always consult your physician. Self-diagnosis of measurement results and /g3
+self-treatment are dangerous.
+Inflating to a higher pressure than necessary may result in bruising where 
+the arm cuff is applied.
+Using the Memory Function
+The monitor automatically stores the results up to 50 sets for each user (1 and 2). It can also calculate an average value based on the last 3 measurement values taken within 10 minutes.
+Notes:
+• If there are only 2 measurement values in the memory for that period, the 
+average will be based on these 2 values.
+• If there is 1 measurement value in the mem ory for that period, this is displayed 
+as the average.
+• If the memory is full, the monito r will delete the oldest value.
+• When viewing the measurement value taken without setting the date and time, 
+“-:--” is displayed instead of the date and time.
+To View the Measurement Values Stored in Memory
+1.Select your User ID (1 or 2).
+2.Press the  button.
+The Memory number appears for a second 
+before the pulse rate is displayed. /g3
+The newest set is numbered “1”.Alternating date/time /g3
+display
+USING THE DEVICE
+213.Press the  or  button to view the values stored in 
+memory.
+: To view the older values
+: To view the more recent values
+To View the Average Value
+1.Select your User ID (1 or 2).
+2.Press and hold the  button for 
+more than 3 seconds.
+Notes:
+• If the previous measurement was taken without setting the date and time, 
+the average value is not calculated.
+• If there are no measurements results stored in the memory, 
+the screen to the right is displayed.
+USING THE DEVICE
+22To Delete All the Values Stored in Memory
+The values stored in the memory are deleted by USER ID.
+1.Select your User ID (1 or 2).
+2.Press the  button, while the memory symbol appears. 
+3.While holding the  
+button down, press the 
+START/STOP button for 
+more than 3 seconds.
+Note: You cannot partially delete the values stored in the memory. /g3
+All values for the user you select will be deleted.
+ERROR MESSAGES AND TROUBLESHOOTING
+Error Display Cause Solution
+Irregular heartbeats 
+are detected.Remove the arm cuff. Wait 2 - 3 minutes 
+and then take another measurement. 
+Repeat the steps in “Taking a 
+Measurement” . If this error continues to 
+appear, contact your physician.
+Movement during measurement.Carefully read and repeat the steps in 
+“Taking a Measurement” .
+The batteries are low.You should replace the batteries with 
+new ones ahead of time.
+Refer to “Battery Installation”.
+The batteries are 
+exhausted. You should replace the batteries with 
+new ones at once.
+Refer to “Battery Installation”.
+Air plug 
+disconnected.Insert the plug securely.
+Refer to “Applying the Arm Cuff”.
+Arm cuff is applied 
+too loosely.Apply the arm cuff tighter.
+Refer to “A pplying the Arm Cuff”.
+Air is leaking from 
+the a rm cuff.Replace the arm cuff with a new one.
+Refer to “Optional Medical Accessories”.
+23Error Messages
+ERROR MESSAGES AND TROUBLESHOOTING
+Error Display Cause Solution
+Movement during 
+measurement and 
+the arm cuff has not 
+been inflated 
+sufficiently.Repeat measurement. Remain still 
+and do no t talk during measurement.
+Refer to “Taking a Measurement” .
+If “E2” appears repeatedly, inflate /g3
+the arm cuff manually until it is 
+30 to 40 mmHg above your previous 
+measurement r esult.
+Refer to “Taking a Measurement” .
+The arm cuff was 
+inflated exceeding the 
+maximum allowable 
+pressure, and then 
+deflated automatically 
+when inflating the arm 
+cuff manually.Do not touch the arm cuff and/or bend 
+the air tube while taking a 
+measurement. Do not inflate the arm 
+cuff more than necessary.
+Refer to “Taking a Measurement” .
+Movement during 
+measurement.Repeat measurement. Remain still 
+and do no t talk during measurement.
+Refer to “Taking a Measurement” .
+Clothing is interfering 
+with the arm cuff.Remove any clothing interfering with 
+the arm cuff.
+Refer to “Applying the Arm Cuff”.
+Device error. Contact Customer Service.
+24
+ERROR MESSAGES AND TROUBLESHOOTING
+Problem Cause and Solution
+No power.
+No display appears on the monitor.Replace all batteries with new ones.
+Check the battery installation for 
+proper placement of the battery 
+polarities.
+Refer to “Battery Installation”.
+Measurement values appear too high 
+or too low .Blood pressure varies constantly. 
+Many factors including stress, time of 
+day, and how you wrap the cuff, may 
+affect your blood pressure. Review the 
+sections “Before Taking a 
+Measurement” and “Taking a 
+Measurement” .
+25Troubleshooting
+MAINTENANCE AND STORAGE
+26Maintenance
+To protect your device from da mage, please observe the 
+following:• Store the device and the components in a clean, safe location.
+• Do not use any abr asive or volatile cleaners.
+• Do not wash the device and any components or immerse them 
+in water .
+• Do not use gasoline, thinners or similar solvents to clean the 
+devic e.
+• Use a soft and dry cloth, or a soft and mo istened cloth and 
+neutral soap to clean on the monitor and the arm cuff.
+• Changes or mod ification not ap proved by the manufacturer 
+will void the user warranty. Do not disassemble or attempt to repair the device or co mponents. Consult Customer Service. 
+MAINTENANCE AND STORAGE
+27Storage
+1.Unplug the air plug from the air jack.
+2.Gently fold the air tube into the arm 
+cuff.
+Note: Do not bend or crease the air tube 
+excessively.
+Do not store the device in the following situations:
+• If the device is wet.
+• Locations exposed to extreme temperatures, humidity, direct sunlight, 
+dust or corrosive vapors such as bleach.
+• Locations exposed to vibrations, sho cks or where it will be at an angle.
+Arm cuff AC Adapter 
+Arm circumference
+9” - 17” (22 - 42 cm)
+CD-WR17
+(Model: HEM-RML31)HEM-ADPTW5Optional Medical Accessories
+MAINTENANCE AND STORAGE
+28Using the Optional AC Adapter
+1.Insert the AC adapter plug 
+into the AC adapter jack on 
+the rear side of the monitor.
+2.Plug the AC adapter  into an 
+electrical outlet.
+To disconnect the AC adapter, unplug the AC adapter from the electrical 
+outlet first, and then remove the AC adapter plug from the monitor.
+SPECIFICATIONS
+Model BP742N HEM-7131-Z
+Display LCD digital display
+Measurement rangePressure: 0 to 299 mmHg
+Pulse: 40 to 180 beats / min.
+AccuracyPressure: /g1143 mmHg or 2% of reading
+Pulse: /g114 5% of display reading
+Inflation Fuzzy-logic controlled by electric pump
+Deflation Automatic pressure release valve
+Measurement method Oscillometric method
+IP classification IP 20
+Power source4 “AA” batteries 1.5V or optional AC adapter /g3
+(INPUT AC100-240V 50/60Hz 0.12A)
+Battery life Approximately 1000 measurements (using new alkaline batteries)
+Operating temperature / 
+humidity50°F to 104°F (10°C to 40°C) / 15 to 90% RH
+Storage temperature / 
+humidity / air pressure-4°F to 140°F (-20°C to 60°C) / 10 to 95% RH / 700 to 1060 hPa
+WeightMonitor : Approximately 10 5/8 oz. (300 g) not including batteries
+Arm cuff : Approximately 6 oz. (170 g)
+DimensionsMonitor : Approximately 4 1/4” (w) /g117 3 1/8” (h) /g117 5 1/2” (l)
+(107 mm /g117 79 mm /g117 141 mm)
+Arm cuff : Approximately 5 3/4” /g117 23 1/2” (air tube: 29 1/2”)
+(145 mm /g117 594 mm (air tube: 750 mm))
+Cuff circumference 9” to 17” (220 to 420 mm)
+Memory Up to 50 per user
+Contents Monitor, arm cuff, battery set, instruction manual, quick start guide 
+Applied part = Type BF
+Protection against 
+electric shock Internally powered ME equipment (When using only the batteries)
+= Class II ME equipment (Optional AC adapter)
+29
+SPECIFICATIONS
+30Notes:
+• These specifications are subject to  change without notice.
+• In the clinical validation study, the 5th phase was used on 85 subjects for 
+determination of diastolic blood pressure.
+• This device has not been validated for use on pregnant patients.
+FCC STATEMENT
+31FCC CAUTION
+Changes or modifications not expressly appr oved by the party responsible for 
+compliance could void the user’s authority to operate the equipment.
+Note:
+This equipment has been tested and found to comply with the limits for a Class B 
+digital device, pursuant to part 15 of the FCC Rules. These limits are designed to 
+provide reasonable protection against harmful interference in a residential 
+installation. This equipment generates, uses and can radiate radio frequency 
+energy and, if not installed and used in accordance with the instructions, may 
+cause harmful interference to radio communications. However, there is no 
+guarantee that interference will not occur in a particular installation. If this equipment does cause harmful interference to radio or television reception, which 
+can be determined by turning the equipment off and on, the user is encouraged to 
+try to correct the interference by one or more of the following measures:
+• Reorient or relocate the receiving antenna.
+• Increase the separation between the equipment and receiver.
+• Connect the equipment into an outlet on a circuit different from that to which 
+the re ceiver is connected.
+• Consult the dealer or an experienced rad io/TV technician for help.
+LIMITED WARRANTY
+32Your BP742N Automatic Blood Pressure Monitor, excluding the arm cuff and 
+batteries, is warranted to be free from defects in materials and workmanship appearing within 2 years from the date of purchase, when used in accordance with the instructions provided with the monitor. The arm cuff is warranted to be free 
+from defects in materials and workmanship appearing within 1 year from the date 
+of purchase when the monitor is used in accordance with the instructions provided 
+with the monitor. The above warranty extends only to the original retail purchaser.
+We will, at our option, replace without charge any monitor or arm cuff covered 
+by the above warranty. Replacement is our only responsibility and your only 
+remedy under the above warranty.
+To obtain warranty service con tact Customer Service by calling 1-800-634-4350  
+for the address of the inspection center and the return shipping and handling fee.
+Enclose the original printed receipt. Include a letter, with your name, address, phone number, and description of the specific problem. Pack the product 
+carefully to prevent damage in transit. Because of possible loss in transit, we 
+recommend insuring the product with return receipt requested.
+THE FOREGOING IS THE SOLE WARRANTY PROVIDED BY OMRON IN 
+CONNE CTION WITH THIS PRODUCT, AND OMRON HEREBY DISCLAIMS 
+ANY OTHER WARRANTIES, EXPRESS OR IMPLIED, INCLUDING IMPLIED 
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR 
+PURPOSE. IMPLIED WARRANTIES AND OTHER TERMS THAT MAY BE 
+IMPOSED BY LAW, IF ANY, ARE LIMITED IN DURATION TO THE PERIOD 
+OF THE ABOVE EXPRESS WARRANTY.
+OMRON SHALL NOT BE LIABLE FOR LOSS OF USE OR ANY OTHER 
+SPECIAL, INCIDENT AL, CONSEQUENTIAL OR INDIRECT COSTS, 
+EXPENSES OR DAMAGES.
+This warranty provides you with specific le gal rights, and you may have other 
+rights that vary by jurisdiction. Because of special local requirements, some of 
+the above limitations and exclusions may not apply to you.
+FOR CUSTOMER SERVICE
+Visit our web site at: www.omronhealthcare.com
+Call toll free: 1-800-634-4350
+GUIDANCE AND MANUFACTURER’S DECLARATION
+33OMRON Automatic Blood Pressure Monitor
+Information for accompanying documents in the scope of IEC60601-1-2:2007
+Model: BP742N including AC-adapter
+Important information regarding El ectro Magnetic Compatibility (EMC)
+With the increased number of electronic devices such as PC’s and mobile (cellular) 
+telephones, medical devices in use may be susceptible to electromagnetic interference from other devices. Electromagnetic interference may result in incorrect operation of the 
+medical device and create a potentially unsafe situation. Medical devices should also not 
+interfere with other devices.
+In order to regulate the requirements for EMC (Electro Magnetic Compatibility) with the 
+aim to prevent unsafe product situations, the IEC60601-1-2 standard has been 
+implemented. This standard defines the levels of immunity to electromagnetic interferences as well as maximum levels of electromagnetic emissions for medical 
+devices.
+Medical devices manufactured by OMRON Healthcare conform to this IEC60601-1-2:2007 
+standard for both immunity and emissions.
+Nevertheless, special precautions need to be observed:
+• The use of accessories and cables other t han those specified by OMRON, with the 
+exception of cables sold by OMRON as replacement parts for internal components, may 
+result in increased emission or decreased immunity of the device.
+• The medical devices should not be used adjacent  to or stacked with other equipment. /g3
+In case adjacent or stacked use is necessary , the medical device should be observed to 
+verify normal operation in the configuration in which it will be used.
+• Refer to further guidance below regarding the EMC environment in which the device 
+shoul d be used.
+• The MEDICAL ELECTRICAL EQUIPMENT BP742N including AC-adapter needs 
+special pre cautions regarding EMC and needs to be installed and put into service 
+according to the EMC information provided in this documentations.
+• The Essential Performance of the BP742N includ ing AC-adapter is to measure a blood 
+pressure and a pulse rate and using the memory function.
+The BP742N including AC-adapter may be interfered with by other equipment, even if that 
+other equipment complies with CISPR EMISSION requirements.
+GUIDANCE AND MANUFACTURER’S DECLARATION
+Guidance and manufacturer’s declaration - electromagnetic immunity
+OMRON BP742N including AC-adapter is intended for use in the electromagnetic environment 
+specified below . The customer or the user of this OMRON BP742N including AC-adapter should 
+assure that it is used in such environment.
+Emissions test Compliance Electromagnetic environment - guidance
+RF emissions /g3
+CISPR 11Group 1The OMRON BP742N including AC-adapter uses RF 
+energy only  for its internal function. Therefore, its RF 
+emissions are very low and are not likely to cause any interference in nearby electronic equipment.
+RF emissions /g3
+CISPR 11Class B
+The OMRON BP742N including AC-adapter is 
+suitable for use in all establishments, including 
+domestic establishments and those directly connected to the public low-voltage power supply network that 
+supplies buildings used for domestic purposes.Harmonic 
+emissions
+IEC 61000-3-2Class A
+Voltage 
+fluctuations/flicke r 
+emissionsIEC61000-3-3Complies
+34
+GUIDANCE AND MANUFACTURER’S DECLARATION
+Guidance and manufacturer’s declaration - electromagnetic immunity
+OMRON BP742N including AC-adapter is intended for use in the electromagnetic environment 
+specified below . The customer or the user of this OMRON BP742N including AC-adapter should 
+assure that it is used in such environment.
+Immunity testIEC 60601
+test leve lCompliance levelElectromagnetic
+environment - guidance
+Electrostatic 
+discharge (ESD)
+IEC 61000-4-2±6 kV contact
+±8 kV air±6 kV contact
+±8 kV airFloor should be wood, concrete, or ceramic tile. If floors are 
+covered with synthetic material, 
+the relative humidity should be 
+at least 30 %.
+Electrical fast /g3
+transient/burst
+IEC 61000-4-4±2 kV for power 
+supply lines
+±1 kV for /g3
+input/output lines±2 kV for power 
+supply lines
+±1 kV for input/
+output linesMains power quality should 
+be th at of a typical 
+commercial and/or hospital environment.
+Surge
+IEC 61000-4-5±1 kV line(s) to 
+line(s)
+±2 kV line(s) to earth±1 kV line(s) to 
+line(s)
+±2 kV line(s) to earthMains power quality should be 
+that of a typical commercial 
+and/or hospital environment.
+Voltage dips, short interruptions and 
+voltage variations on 
+power supply inputlines
+IEC 61000-4-11<5 % U
+T (>95 % dip 
+in UT)
+for 0.5 cycle<5 % UT (>95 % dip 
+in UT)
+for 0.5 cycleMains power quality should 
+be that of a typical 
+commercial and/or hospital 
+environment. If the user of 
+the OMRON BP742N 
+including AC-adapter 
+requires continued operation 
+during power mains 
+interruption, it is 
+recommended that the OMRON BP742N including 
+AC-adapter be powered from 
+an uninterruptible power 
+supply.40 % UT (60 % dip /g3
+in UT)
+for 5 cycles40 % UT (60 % dip /g3
+in UT)
+for 5 cycles
+70 % UT (30 % dip /g3
+in UT)
+for 25 cycles70 % UT (30 % dip /g3
+in UT)
+for 25 cycles
+<5 % UT (95 % dip /g3
+in UT)
+for 5 sec.<5 % UT (95 % dip /g3
+in UT)
+for 5 sec.
+Power frequency /g3
+(50/60 Hz) magnetic 
+field
+IEC 61000-4-83 A/m 3 A/mPower frequency magnetic 
+fields should be at levels 
+characteristic of a typical 
+location in a typical commercial 
+or hospital environment.
+Note: UT is the A.C. mains voltage prior to application of the test level.
+35
+GUIDANCE AND MANUFACTURER’S DECLARATION
+Guidance and manufacturer’s declaration - electromagnetic immunity
+OMRON BP742N including AC-adapter is intended for use in the electromagnetic environment 
+specified below. The customer or the user of this OMRON BP742N including AC-adapter should assure 
+that it is used in such environment.
+Immunity testIEC 60601 
+test levelCompli-
+ance 
+levelElectromagnetic environment - guidance
+Conducted RF
+IEC 61000-4-6
+Radiated RF
+IEC 61000-4-33 V rms
+150 kHz to 
+80 MHz
+3 V/m
+80 MHz to 
+2.5 GHz3 V rms
+3 V/mPortable and mobile RF communications equipment should be 
+used no closer to any part of the OMRON BP742N including /g3
+AC-adapter including cables, than the recommended 
+separation distance calculated from the equation appropriate to 
+the frequency of the transmitter.
+Recommend separation distance
+d = 1.2 /g165Pd = 1.2 /g165P
+/g3
+80 MHz to 800 MHz
+d = 2.3 /g165P /g3
+800 MHz to 2.5 GHz
+where P is the maximum output power rating of the 
+transmitter in watts (W) according to the transmitter 
+manufacturer and d is the recommended separation distance in meters (m).
+Field strengths from fixed RF transmitters as determined by 
+an electromagnetic site survey,a should be less than the 
+compliance le vel in each frequency range.b
+Interference may occur in the vicinity of equipment marked 
+with the following symbol:
+Note1: At 80 MHz and 800 MHz, the higher frequency range applies.
+Note2: These guidelines may not apply in all situations. Electromagnetic propagation is affected by 
+absorption and reflection from structures, objects, and people.
+a Field strengths from fixed transmitters, such as base stations for radio (cellular/ cordless) telephones 
+and land mobile radio, AM and FM radio broadcast, and TV broadcast cannot be predicted 
+theoretically with accuracy. To assess the electromagnetic environment due to fixed RF transmitters, 
+an electromagnetic site survey should be considered. If the measured field strength in the location in 
+which the OMRON BP742N including AC-adapter is used exceeds the applicable RF compliance 
+level above, the OMRON BP742N including AC-adapter should be observed to verify normal 
+operation. If abnormal performance is observed, additional measures may be necessary, such as 
+reorienting or relocating the OMRON BP742N including AC-adapter.
+b Over the frequency range 150 kHz to 80 MHz, field strengths should be less than 3 V/m.
+36
+GUIDANCE AND MANUFACTURER’S DECLARATION
+Recommended separation distance between portable and mobile RF communications 
+equipment and the OMRON BP742N including AC-adapter
+OMRON BP742N including AC-adapter is intended for use in an electromagnetic environment in which radiated RF disturbances are controlled. The customer or the user of this OMRON BP742N including AC-adapter can help prevent electromagnetic interference by maintaining a minimum distance between portable and mobile RF communications equipment (transmitters) and the 
+OMRON BP742N including AC-adapter as recommended below, according to the maximum 
+output power of the communications equipment.
+Output Power of Transmitter 
+in WattSeparation distance according to frequency of 
+transmitte r in meter
+150 kHz to 80 
+MHz
+d = 1.2 /g165P80 MHz to 800 MHz
+d = 1.2 /g165P800 MHz to 2.5GHz
+d = 2.3  /g165P
+0.01 0.12 0.12 0.23
+0.1 0.38 0.38 0.73
+1 1.2 1.2 2.3
+10 3.8 3.8 7.3
+100 12 12 23
+For transmitters rated at a maximum output power not listed above, the recommended separation 
+distance d in meters (m) can be estimated using the equation applicable to the frequency of the 
+transmitter, where P is the maximum output power rating of the transmitter in watts (W) according 
+to the transmitter manufacturer.
+Note: At 80 MHz and 800 MHz, the separation distance for the higher frequency range applies.
+Note: These guidelines may not apply in all situations. Electromagnetic propagation is affected by 
+absorpt ion and reflection from structures, objects, and people.
+37
+Manufactured for:
+OMRON HEALTHCARE Co., Ltd.53, Kunotsubo, Terado-cho, Muko, Kyoto, 617-0002 JAPAN
+Distributed by:
+OMRON HEALTHCARE, INC.
+1925 West Field Court Lake Forest, IL 60045 U.S.A.
+www.omronhealthcare.com© 2013 OMRON HEALTHCARE, INC.Made in Vietnam 2298802-0D

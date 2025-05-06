@@ -1,0 +1,1086 @@
+USER MANUAL
+C22F390FH* C22F392FH* C24F390FH* C24F392FH* C24F394FH* C24F396FH* C24F399FH* 
+C27F390FH* C27F391FH* C27F396FH* C27F397FH* C27F398FW* C32F391FW* C32F395FW* C32F397FW*Curved Monitor
+The color and the appearance may differ depending on the product, and the specifications are subject to change without prior 
+notice to improve the performance.
+The contents of this manual are subject to change without notice to improve quality.
+© SamsungSamsung owns the copyright for this manual.Use or reproduction of this manual in parts or entirety without the authorization of Samsung is prohibited.Trademarks other than that of Samsung are owned by their respective owners.
+ • An administration fee may be charged if either
+ ‒(a) an engineer is called out at your request and there is no defect in the product
+(i.e. where you have failed to read this user manual).
+ ‒(b) you bring the unit to a repair centre and there is no defect in the product(i.e. where you have failed to read this user manual).
+ • The amount of such administration charge will be advised to you before any work or home visit is carried out.
+Table of contents
+Before Using the Product
+Securing the Installation Space  4
+Precautions for storage  4
+Safety Precautions  5
+Cleaning  5
+Electricity and Safety  5
+Installation  6
+Operation  7
+Preparations
+Parts  9
+Control Panel  9
+Direct Key guide  10
+Function Key Guide  11
+Changing Brightness , Contrast and Sharpness 
+settings  13
+Changing the Volume  setting  13
+Reverse Side  14
+Adjusting the Product Tilt  15
+Anti-theft Lock  16
+Precautions for moving the monitor  17
+Installing the Wall Mount  
+(Not for C27F397FH*/ C32F397FW* models)  18
+Wall Mount Kit Specifications (VESA)  
+(Not for C27F397FH*/ C32F397FW* models)  18
+2Screen Setup
+SAMSUNG MAGIC Bright  28
+Brightness  29
+Contrast  29
+Sharpness  29
+Color  29
+SAMSUNG MAGIC Upscale  30
+HDMI  Black L evel  30
+Eye Saver  Mode  30
+Game  Mode  30
+Response  Time  30
+Picture  Size  31
+Screen  Adjustment  31
+Adjusting OSD (On Screen 
+Display) settings
+Transparency  32
+Position  32
+Language  32
+Display  Time  32Installation  19
+Attaching the Stand  
+(C22F390FH* / C22F392FH* / C24F390FH* / C24F392FH* / C24F394FH* / C24F399FH* / 
+C27F390FH* / C27F391FH* / C32F391FW*)  19
+Attaching the Stand  (C24F396FH* / C27F396FH* / C27F397FH* / 
+C27F398FW* / C32F395FW* / C32F397FW*)  20
+Removing the Stand  
+(C22F390FH* / C22F392FH* / C24F390FH* / C24F392FH* / C24F394FH* / C24F399FH* / 
+C27F390FH* / C27F391FH* / C32F391FW*)  21
+Removing the Stand  
+(C24F396FH* / C27F396FH* / C27F397FH* / 
+C27F398FW* / C32F395FW* / C32F397FW*)  22
+Connecting and Using a Source Device
+Pre-connection Checkpoints  23
+Connecting and Using a PC  23
+Connection Using the D-SUB Cable  
+(Analog Type)  23
+Connection Using the HDMI or HDMI-DVI Cable  24
+Connection Using an DP Cable  24
+Connecting to Headphones  25
+Connecting the Power  26
+Correct posture to use the product  27
+Driver Installation  27
+Setting Optimum Resolution  27
+Table of contents
+3Troubleshooting Guide
+Requirements Before Contacting Samsung  
+Customer Service Center  38
+Testing the Product  38
+Checking the Resolution and Frequency  38
+Check the following.  38
+Q & A  40
+Specifications
+General  41
+Standard Signal Mode Table  43
+Appendix
+Responsibility for the Pay Service  
+(Cost to Customers)  45
+Not a product defect  45
+A Product damage caused by customer's fault  45
+Others  45
+WEEE  46
+Correct Disposal of This Product  
+(Waste Electrical & Electronic Equipment)  46Setup and Reset
+FreeSync 33
+Eco Saving Plus  35
+Off Timer  35
+PC/AV Mode  35
+Source D etection  35
+Key Repeat Time  35
+Power  LED On  36
+Reset  All 36
+Information  36
+Installing the Software
+Easy Setting Box  37
+Restrictions and Problems with the Installation  37
+System Requirements  37
+4
+Securing the Installation Space
+Ensure some space around the product for ventilation. An internal temperature rise may cause fire and 
+damage the product. Be sure to allow the amount of space as shown below or greater when installing the product.
+ ―The exterior may differ depending on the product.
+10 cm (3.93 Inches)10 cm (3.93 Inches)
+10 cm
+(3.93 Inches)10 cm(3.93 Inches)
+10 cm(3.93 Inches)
+10 cm (3.93 Inches)10 cm (3.93 Inches)
+10 cm(3.93 Inches)10 cm(3.93 Inches)
+10 cm(3.93 Inches)Precautions for storage
+High-glossy models can develop white stains on the surface if an ultrasonic wave humidifier is used 
+nearby.
+ ―Contact your nearest Samsung Customer Service Center if you want to clean the inside of the product 
+(Service fee will be charged.)
+Do not press the monitor screen with hands or other objects. There is a risk of damaging the screen.Before Using the ProductChapter  01
+5
+Safety Precautions
+Warning A serious or fatal injury may result if instructions are not followed.
+CautionPersonal injury or damage to properties may result if instructions are 
+not followed.
+Cleaning
+ ―Exercise care when cleaning as the panel and exterior of advanced LCDs are easily scratched.
+ ―Take the following steps when cleaning.
+1 Power off the product and computer.
+2 Disconnect the power cord from the product.
+ ―Hold the power cable by the plug and do not touch the cable with wet hands. Otherwise, an electric 
+shock may result.
+3 Wipe the monitor with a clean, soft and dry cloth.
+ ‒Do not apply a cleaning agent that contains alcohol, solvent, or surfactant to the monitor.
+ ‒Do not spray water or detergent directly on the product.
+4 Wet a soft and dry cloth in water and wring thoroughly to clean the exterior of the product.
+5 Connect the power cord to the product when cleaning is finished.
+6 Power on the product and computer.Electricity and Safety
+Warning
+ •Do not use a damaged power cord or plug, or a loose power socket.
+ •Do not use multiple products with a single power socket.
+ •Do not touch the power plug with wet hands.
+ •Insert the power plug all the way in so it is not loose.
+ •Connect the power plug to a grounded power socket (type 1 insulated devices only).
+ •Do not bend or pull the power cord with force. Be careful not to leave the power cord under a heavy object.
+ •Do not place the power cord or product near heat sources.
+ •Clean any dust around the pins of the power plug or the power socket with a dry cloth.
+Caution
+ •Do not disconnect the power cord while the product is being used.
+ •Only use the power cord provided with your product by Samsung. Do not use the power cord with other products.
+ •Keep the power socket where the power cord is connected unobstructed.
+ ‒The power cord must be disconnected to cut off power to the product when an issue occurs.
+ •Hold the plug when disconnecting the power cord from the power socket.
+6
+Warning
+ •DO NOT PLACE CANDLES, INSECT REPELLANTS OR CIGARETTES ON TOP OF THE PRODUCT. DO NOT 
+INSTALL THE PRODUCT NEAR HEAT SOURCES.
+ •Do not install the product in poorly ventilated spaces such as a bookcase or closet.
+ •Install the product at least 10cm away from the wall to allow ventilation.
+ •Keep the plastic packaging out of the reach of children.
+ ‒Children may suffocate.
+ •Do not install the product on an unstable or vibrating surface (insecure shelf, sloped surface, etc.)
+ ‒The product may fall and become damaged and/or cause an injury.
+ ‒Using the product in an area with excess vibration may damage the product or cause a fire.
+ •Do not install the product in a vehicle or a place exposed to dust, moisture (water drips, etc.), oil, or smoke.
+ •Do not expose the product to direct sunlight, heat, or a hot object such as a stove.
+ ‒The product lifespan may be reduced or a fire may result.
+ •Do not install the product within the reach of young children.
+ ‒The product may fall and injure children.
+ •Edible oil (such as soybean oil) may damage or distort the product. Keep the product away from oil pollution. And do not install or use the product in the kitchen or near the kitchen stove.Caution
+ •Do not drop the product while moving.
+ •Do not set down the product on its front.
+ •When installing the product on a cabinet or shelf, make sure that the bottom edge of the front of the product is not protruding.
+ ‒The product may fall and become damaged and/or cause an injury.
+ ‒Install the product only on cabinets or shelves of the right size.
+ •Set down the product gently.
+ ‒Product failure or personal injury may result.
+ •Installing the product in an unusual place (a place exposed to a lot of fine dust, chemical substances, extreme temperatures or a significant presence of moisture, or a place where the product will operate continuously for an extended period of time) may seriously affect its performance.
+ ‒Be sure to consult Samsung Customer Service Center if you want to install the product at such a place.Installation
+7
+Warning
+ •There is a high voltage inside the product. Never disassemble, repair or modify the product 
+yourself.
+ ‒Contact Samsung Customer Service Center for repairs.
+ •To move the product, first disconnect all the cables from it, including the power cable.
+ •If the product generates abnormal sounds, a burning smell or smoke, disconnect the power cord immediately and contact Samsung Customer Service Center.
+ •Do not let children hang from the product or climb on top of it.
+ ‒Children may become injured or seriously harmed.
+ •If the product is dropped or the outer case is damaged, turn off the power and disconnect the power cord. Then contact Samsung Customer Service Center.
+ ‒Continued use can result in a fire or electric shock.
+ •Do not leave heavy objects or items that children like (toys, sweets, etc.) on top of the product.
+ ‒The product or heavy objects may fall as children try to reach for the toys or sweets resulting in a serious injury.
+ •During a lightning or thunderstorm, power off the product and remove the power cable.
+ •Do not drop objects on the product or apply impact.
+ •Do not move the product by pulling the power cord or any cable.
+ •If a gas leakage is found, do not touch the product or power plug. Also, ventilate the area immediately.
+ •Do not lift or move the product by pulling the power cord or any cable.
+ •Do not use or keep combustible spray or an inflammable substance near the product.
+ •Ensure the vents are not blocked by tablecloths or curtains.
+ ‒An increased internal temperature may cause a fire. •Do not insert metallic objects (chopsticks, coins, hairpins, etc) or objects that burn easily (paper, matches, etc) into the product (via the vent or input/output ports, etc).
+ ‒Be sure to power off the product and disconnect the power cord when water or other foreign substances have entered the product. Then contact Samsung Customer Service Center.
+ •Do not place objects containing liquid (vases, pots, bottles, etc) or metallic objects on top of the product.
+ ‒Be sure to power off the product and disconnect the power cord when water or other foreign substances have entered the product. Then contact Samsung Customer Service Center.Operation
+8
+Caution
+ •Leaving the screen fixed on a stationary image for an extended period of time may cause 
+afterimage burn-in or defective pixels.
+ ‒Activate power-saving mode or a moving-picture screen saver if you will not be using the product for an extended period of time.
+ •Disconnect the power cord from the power socket if you do not plan on using the product for an extended period of time (vacation, etc).
+ ‒Dust accumulation combined with heat can cause a fire, electric shock or electric leakage.
+ •Use the product at the recommended resolution and frequency.
+ ‒Your eyesight may deteriorate.
+ •Do not put AC/DC adapters together.
+ •Remove the plastic bag from the AC/DC adapter before you use it.
+ •Do not let water enter the AC/DC adapter device or get the device wet.
+ ‒An electric shock or fire may result.
+ ‒Avoid using the product outdoors where it can be exposed to rain or snow.
+ ‒Be careful not to get the AC/DC adapter wet when you wash the floor.
+ •Do not put the AC/DC adapter near to any heating apparatus.
+ ‒Otherwise, a fire may result.
+ •Keep the AC/DC adapter in a well-ventilated area.
+ •If you place the AC/DC power adapter so that it is hanging with the cord input facing upwards, water or other foreign substances could enter the Adapter and cause the Adapter to malfunction.
+Make sure to rest the AC/DC power adapter flat on a table or the floor.
+ •Do not hold the product upside-down or move it by holding the stand.
+ ‒The product may fall and become damaged or cause an injury.
+ •Looking at the screen too close for an extended period of time can deteriorate your eyesight.
+ •Do not use humidifiers or stoves around the product.
+ •Rest your eyes for more than 5 minutes for every 1 hour of product use. •Do not touch the screen when the product has been turned on for an extended period of time as it 
+will become hot.
+ •Store small accessories out of the reach of children.
+ •Exercise caution when adjusting the product angle or stand height.
+ ‒Your hand or finger may get stuck and injured.
+ ‒Tilting the product at an excessive angle may cause the product to fall and an injury may result.
+ •Do not place heavy objects on the product.
+ ‒Product failure or personal injury may result.
+ •When using headphones or earphones, do not turn the volume too high.
+ ‒Having the sound too loud may damage your hearing.
+9
+PreparationsChapter  02
+Parts
+Control Panel
+ ―The color and shape of parts may differ from what is shown. Specifications are subject to change 
+without notice to improve quality.
+C22F390FH* / C22F392FH* / 
+C24F390FH* / C24F392FH* / C24F394FH* / C24F399FH* /C27F390FH* / C27F391FH*C24F396FH* / C27F396FH* / C27F397FH* 
+Icons Description
+JOG ButtonMulti directional button that helps navigate.
+ ―The JOG button is located on the rear left side of the product. The 
+button can be used to move up, down, left or right, or as Enter.
+Power LEDThis LED is power status indicator and works as
+ •Power On (Power button): Off
+ •Power saving mode: Blinking
+ •Power Off (Power button): On
+ ―The power Indicator operation can be swapped by changing in 
+the menu. ( System   Power LED On ) Actual models because of 
+functional variation maybe haven’t this function.
+Function Key GuidePress the JOG button when the screen is turned on. The Function Key Guide will appear. To access the onscreen menu when the guide is displayed, press the corresponding direction button again.
+ ―Function Key Guide may vary depending on the function or 
+product model. Please refer to the actual product. 
+Function Key GuideJOG ButtonDOWNPRESS(ENTER)LEFT
+ReturnPower LEDUP
+RIGHT
+C32F391FW*C27F398FW* / C32F395FW* / C32F397FW*
+Power LED
+10
+Analog  mode
+Brightness
+Auto AdjustmentFeatures
+Eye Saver Mode Off
+ ―Analog mode option
+ •  /  : Adjust Brightness , Contrast, Sharpness .
+ •  : Auto Adjustment .
+ ―Changing the resolution in Display Properties will activate the Auto Adjustment  function.
+ ―This function is only available in Analog mode.
+ •  : Display Function Key Guide.HDMI  / DisplayPort mode
+BrightnessVolumeFeatures
+Eye Saver Mode Off
+ ―HDMI  / DisplayPort mode option
+ •  /  : Adjust Brightness , Contrast, Sharpness .
+ •  : Adjust Volume,  Mute.
+ •  : Display Function Key Guide.Direct Key guide
+ ―The shortcut button screen (OSD menu) shown below is displayed only when the monitor screen is turned on, the computer resolution changes, or the input source changes.
+ ―The function buttons page shows if Eye Saver Mode  is enabled.
+ : On
+ : Off
+11
+Function Key Guide
+ ―To enter the main menu or to use other items, press the JOG button to display the Function Key Guide. You can exit by pressing the JOG button again.
+ReturnUP/DOWN/LEFT/RIGHT: Move to the item you want. The description for each item will appear when the focus changes.
+PRESS(ENTER): The selected item will be applied.
+Icons Description
+Selects  to change the input signal by moving the JOG button in the Function Key Guide screen. A message will appear on the top left corner of the screen if the input signal has 
+been changed.
+Selects  by moving the JOG button in the function key guide screen.
+The OSD (On Screen Display) of your Monitor’s feature appears.OSD control lock: Maintain the current settings, or lock the OSD control to prevent unintended changes to settings.Enable/Disable: To lock/unlock the OSD control, press the LEFT button for 10 seconds when the main menu displayed.
+ ―If the OSD control is locked, Brightness and Contrast can be adjusted. Eye Saver Mode  is available.
+System   FreeSync, Power LED On  is available. Information  can be viewed.
+Selects  by moving the JOG button in the function key guide screen.
+Press to enable or disable Eye Saver Mode.The items below are not available if the Eye Saver Mode  function is enable.
+ •Picture   Bright , Brightness , Color,  Game Mode
+ •System   Eco Saving Plus
+Selects  to turn the Monitor off by moving the JOG button in the function key guide screen.
+ ―Actual models because of functional variation, Function key guide options will be different.
+12
+When the monitor displays nothing (i.e. Power saving mode or Non-signal mode), 2 direct keys for 
+control source and power could be used as below.
+JOG Button Power saving/Non-signal mode
+UP Source Change
+Down
+PRESS(ENTER) for 2 seconds Power Off
+When the monitor displays the Main menu the JOG Button could be used as below.
+JOG Button Action
+UP/DOWN Move the option
+LEFTExit the Main menu.
+Close Sublist without saving value.Value decreases in the slider.
+RIGHTMove to next depth.Value increases in the slider.
+PRESS(ENTER)Move to next depth.Save the value and close Sublist.
+13
+Changing Brightness , Contrast and Sharpness  settings
+You can adjust Brightness, Contrast or Sharpness  by moving the JOG button up or down, if no OSD 
+menu is displayed.
+Brightness
+ContrastSharpness
+100
+ ―The displayed image may differ depending on the model.
+ ―The default brightness can vary depending on the region.
+Brightness
+ ―This menu is not available when Bright  is set to Dynamic Contrast  mode.
+ ―This menu is not available when Eco Saving Plus  is enabled.
+ ―This menu is not available when Eye Saver Mode  is enabled.
+Contrast
+ ―This menu is not available when Bright  is in Cinema or Dynamic Contrast  mode.
+ ―This menu is not available when Game Mode  is enabled.
+Sharpness
+ ―This menu is not available when Bright  is in Cinema or Dynamic Contrast  mode.
+ ―This menu is not available when Upscale  is in Mode1  or Mode2 mode.
+ ―This menu is not available when Game Mode  is enabled.Changing the Volume  setting
+You can adjust Volume by moving the JOG button left or right, if no OSD menu is displayed.
+This function is only available in HDMI  / DisplayPort mode.
+Volume 50
+Mute
+ ―The displayed image may differ depending on the model.
+ ―If the audio quality of a connected input device is poor, the Auto Mute function on the product may mute 
+the sound or cause choppy audio when applying the headphones or speakers. Set the input volume for the 
+input device to at least 20% and control the volume using the volume control (JOG button LEFT/RIGHT) on the product.
+ ―What is Auto Mute?
+The function mutes the audio to improve sound effect when there is sound noise or when the input signal is weak, usually due to a problem with the volume of an input device.
+ ―To activate the Mute function, access the Volume  control screen, then use the JOG button to move the 
+focus down.To deactivate the Mute function, access the Volume  control screen, then increase or decrease the Volume.
+14
+Reverse Side
+ ―The color and shape of parts may differ from what is shown. Specifications are subject to change without notice to improve quality.
+Port Description
+Connects to a source device using an HDMI cable or HDMI-DVI cable.
+Connect to a PC using the D-SUB cable.
+Connects to a PC using a DP cable.Port Description
+Connect to an audio output device such as headphones.
+Connects to the AC/DC adapter.C22F390FH* / C22F392FH* / C24F390FH* / 
+C24F392FH* / C24F394FH* / C24F399FH* /C27F390FH* / C27F391FH*  C24F396FH* / C27F396FH* / C27F397FH* C32F391FW* C27F398FW* / C32F395FW* / C32F397FW*
+15
+Adjusting the Product Tilt
+ ―The color and shape of parts may differ from what is shown. Specifications are subject to change without 
+notice to improve quality.
+C22F390FH* / C22F392FH* / C24F390FH* / 
+C24F392FH* / C24F394FH* / C24F399FH* /C27F390FH* / C27F391FH* / C32F391FW* C24F396FH* / C27F396FH* / C27F397FH* / C27F398FW* / C32F395FW* / C32F397FW*
+-2.0° (±2.0°) ~ 22.0° (±2.0°) -2.0° (±2.0°) ~ 22.0° (±2.0°)
+ • You can adjust the product tilt.
+ •Hold the lower part of the product and adjust the tilt carefully.
+16
+Anti-theft Lock
+ ―An anti-theft lock allows you to use the product securely even in public places.
+ ―The locking device shape and locking method depend on the manufacturer. Refer to the user guide provided with your anti-theft locking device for details.
+To lock an anti-theft locking device:
+1 Fix the cable of your anti-theft locking device to a heavy object such as a desk.
+2 Put one end of the cable through the loop on the other end.
+3 Insert the locking device into the anti-theft lock slot at the back of the product.
+4 Lock the locking device.
+ ‒An anti-theft locking device can be purchased separately.
+ ‒Refer to the user guide provided with your anti-theft locking device for details.
+ ‒Anti-theft locking devices can be purchased at electronics retailers or online.C32F397FW*C22F390FH* / C22F392FH* /  
+C24F390FH* / C24F392FH* /  
+C24F394FH* / C24F399FH* /  
+C27F390FH* / C27F391FH* C24F396FH* / C27F396FH* C27F 397FH* C27F398FW* / C32F395FW* C32F391FW*
+17
+Precautions for moving the monitor
+Do not directly apply pressure on the screen.
+Do not hold the screen when moving the monitor.
+Hold the lower part of the monitor when moving it.
+18
+Installing the Wall Mount  
+(Not for C27F397FH*/ C32F397FW* models)
+Installing the Wall Mount Kit
+The wall mount kit allows you to mount the product on the wall.
+Purchase a compatible wall-mount kit to use with the product.For detailed information on installing the wall mount, see the instructions provided with the wall 
+mount.
+We recommend you contact a technician for assistance when installing the wall mount bracket.Samsung is not responsible for any damage to the product or injury to yourself or others if you select to 
+install the wall mount on your own.Wall Mount Kit Specifications (VESA)  
+(Not for C27F397FH*/ C32F397FW* models)
+ ―Install your wall mount on a solid wall perpendicular to the floor. Before attaching the wall mount to 
+surfaces other than plaster board, please contact your nearest dealer for additional information. If you 
+install the product on a slanted wall, it may fall and result in severe personal injury. Samsung wall mount kits contain a detailed installation manual and all parts necessary for assembly are provided.
+ •Do not use screws that are longer than the standard length or do not comply with the VESA 
+standard screw specifications. Screws that are too long may cause damage to the inside of the product.
+ •For wall mounts that do not comply with the VESA standard screw specifications, the length of the screws may differ depending on the wall mount specifications.
+ •Do not fasten the screws too firmly. This may damage the product or cause the product to fall, leading to personal injury. Samsung is not liable for these kinds of accidents.
+ •Samsung is not liable for product damage or personal injury when a non-VESA or non-specified wall mount is used or the consumer fails to follow the product installation instructions.
+ •Do not mount the product at more than a 15 degree tilt.
+ •Standard dimensions for wall mount kits are shown in the table below.
+Unit: mm (inches)
+Model name VESA screw hole specs (A * B) in 
+millimetersStandard Screw Quantity
+CF39* SERIES  
+(Not for C27F397FH*/ C32F397FW* models) 75.0 x 75.0 (3.0 x 3.0) M4 4
+ ―Do not install your Wall Mount Kit while your product is turned on. It may result in personal injury due to 
+electric shock.
+19
+Installation
+Attaching the Stand (C22F390FH* / C22F392FH* / C24F390FH* / C24F392FH* / C24F394FH* / C24F399FH* / 
+C27F390FH* / C27F391FH* / C32F391FW*)
+ ―Before assembling the product, place the product down on a flat and stable surface so that the screen is facing downwards.
+ :  The product is curved. Placing pressure on the product when on a flat surface may damage the product. When the product is on the ground facing up or down, do not put pressure on it.
+ ―The exterior may differ depending on the product.
+1 2 3
+Insert the stand neck into the stand base in the 
+direction shown in the figure.
+Check that the stand neck is firmly connected.Tightly fasten the connecting screw at the bottom of the stand base. Place the protective Styrofoam (cushion) included in 
+the package on the floor and place the product facing down on the Styrofoam, as shown in the image.
+If Styrofoam is unavailable, use a thick sitting mat.Hold the back of the monitor as shown in the figure.Push the assembled stand into the main body in the 
+direction of the arrow as shown in the figure.
+- Caution
+Do not hold the product upside down only by the stand.- Caution
+Do not press down on the monitor. There is a risk of damaging the monitor.
+20
+Attaching the Stand (C24F396FH* / C27F396FH* / C27F397FH* / C27F398FW* / C32F395FW* / C32F397FW*)
+ ―Before assembling the product, place the product down on a flat and stable surface so that the screen is facing downwards.
+ :  The product is curved. Placing pressure on the product when on a flat surface may damage the product. When the product is on the ground facing up or down, do not put pressure on it.
+ ―The exterior may differ depending on the product.
+1 2 3
+Insert the stand neck into the stand base in the 
+direction shown in the figure.
+Check that the stand neck is firmly connected.Tightly fasten the connecting screw at the bottom of the stand base. Place the protective Styrofoam (cushion) included in 
+the package on the floor and place the product facing down on the Styrofoam, as shown in the image.
+If Styrofoam is unavailable, use a thick sitting mat.Hold the back of the monitor as shown in the figure.Push the assembled stand into the main body in the 
+direction of the arrow as shown in the figure.
+- Caution
+Do not hold the product upside down only by the stand.- Caution
+Do not press down on the monitor. There is a risk of damaging the monitor.
+21
+Removing the Stand (C22F390FH* / C22F392FH* / C24F390FH* / C24F392FH* / C24F394FH* / C24F399FH* / 
+C27F390FH* / C27F391FH* / C32F391FW*)
+ ―Before removing the stand from the monitor, place the monitor on a flat and stable surface with the screen facing down.
+ :  The product is curved. Placing pressure on the product when on a flat surface may damage the product. When the product is on the ground facing up or down, do not put pressure on it.
+ ―The exterior may differ depending on the product.
+1 2 3
+Place the protective Styrofoam (cushion) included in 
+the package on the floor and place the product facing down on the Styrofoam, as shown in the image.
+If Styrofoam is unavailable, use a thick sitting mat.While holding the monitor with one hand, pull the stand 
+neck with your other hand to in detach the stand as shown in the figure.Turn the connecting screw at the bottom of the stand base to separate it. Remove the stand neck from the stand base by pulling it in the direction of the arrow as shown in the figure.
+- Caution
+Do not press down on the monitor. There is a risk of damaging the monitor.
+22
+Removing the Stand (C24F396FH* / C27F396FH* / C27F397FH* / C27F398FW* / C32F395FW* / C32F397FW*)
+ ―Before removing the stand from the monitor, place the monitor on a flat and stable surface with the screen facing down.
+ :  The product is curved. Placing pressure on the product when on a flat surface may damage the product. When the product is on the ground facing up or down, do not put pressure on it.
+ ―The exterior may differ depending on the product.
+1 2 3
+Place the protective Styrofoam (cushion) included in 
+the package on the floor and place the product facing down on the Styrofoam, as shown in the image.
+If Styrofoam is unavailable, use a thick sitting mat.While holding the monitor with one hand, pull the stand 
+neck with your other hand to in detach the stand as shown in the figure.Turn the connecting screw at the bottom of the stand base to separate it. Remove the stand neck from the stand base by pulling it in the direction of the arrow as shown in the figure.
+- Caution
+Do not press down on the monitor. There is a risk of damaging the monitor.
+23
+Connecting and Using a Source DeviceChapter  03
+Pre-connection Checkpoints
+ ―Before connecting a source device, read the user manual provided with it.
+The number and locations of ports on source devices may differ from device to device.
+ ―Do not connect the power cable before connecting all other cables.
+Ensure you connect a source device first before connecting the power cable.
+Connecting the power cable during connection may damage the product.
+ ―Check the types of ports at the back of the product you want to connect.Connecting and Using a PC
+Select a connection method suitable for your PC.
+ ―Connecting parts may differ in different products.
+ ―Provided ports may vary depending on the product.
+Connection Using the D-SUB Cable (Analog Type)
+RGB IN
+C24F396FH* / C27F396FH* / 
+C27F397FH*  
+C22F390FH* / C22F392FH* / C24F390FH* / C24F392FH* / C24F394FH* / C24F399FH* /  C27F390FH* / C27F391FH*  
+24
+Connection Using the HDMI or HDMI-DVI Cable
+HDMI IN
+C22F390FH* / C22F392FH* / C24F390FH* / C24F392FH* / 
+C24F394FH* / C24F399FH* / C27F390FH* / C27F391FH*  
+C24F396FH* / C27F396FH* /
+C27F397FH*  
+C27F398FW* / C32F395FW* / 
+C32F397FW*  
+C32F391FW*  
+ ―The audio function is not supported if the source device is connected using the HDMI-DVI cable.Connection Using an DP Cable
+DP IN
+C27F398FW* / C32F395FW* /C32F397FW*  
+C32F391FW*  
+ ―A DP cable shorter under 1.5m in length is recommended. Using a cable longer than 1.5m can affect the 
+picture quality.
+25
+Connecting to Headphones
+C22F390FH* / C22F392FH* / C24F390FH* / C24F392FH* / 
+C24F394FH* / C24F399FH* / C27F390FH* / C27F391FH*  
+C24F396FH* / C27F396FH* /
+C27F397FH*  
+C27F398FW* / C32F395FW* /C32F397FW* 
+C32F391FW*  
+ ―The sound could only be heard when using the HDMI to HDMI or DP cable.
+26
+Optional
+1
+3
+2C22F390FH* / C22F392FH* / C24F390FH* / C24F392FH* / 
+C24F394FH* / C24F399FH* / C27F390FH* / C27F391FH*  
+C24F396FH* / C27F396FH* /C27F397FH*  
+C32F391FW*  
+C27F398FW* / C32F395FW* /C32F397FW*  
+1 Connect the power cable to the AC/DC adapter. Then, connect the AC/DC adapter to the DC 14V 
+port on the back of the product.
+2 Next, connect the power cable to the power outlet.
+3 Press the JOG button on the back of the monitor to turn it on.
+ ―The input voltage is switched automatically.Optional
+C24F396FH* / C27F396FH* / C27F397FH* 
+1
+C22F390FH* / C22F392FH* / C24F390FH* / C24F392FH* / C24F394FH* / C24F399FH* / C27F390FH* / C27F391FH*  
+3C32F391FW*  
+ C27F398FW* / C32F395FW* / C32F397FW*  
+2
+4
+1 Connect the power plug to the AC/DC adapter. (Optional)
+2 Connect the AC/DC adapter cable to the DC 14V port on the back of the monitor.
+3 Plug the AC/DC adapter into the power outlet.
+4 Press the JOG button on the back of the monitor to turn it on.
+ ―The input voltage is switched automatically.Connecting the Power
+27
+Correct posture to use the product
+Use the product in the correct posture as follows:
+ •Straighten your back.
+ •Adjust the angle so light does not reflect on the screen.
+ •Keep your forearms perpendicular to your upper arms and level with the back of your hands.
+ •Keep your elbows at about a right angle.
+ •Adjust the height of the product so you can keep your knees bent at 90 degrees or more, your heels 
+attached to the floor, and your arms lower than your heart.Driver Installation
+ ―You can set the optimum resolution and frequency for this product by installing the corresponding drivers.
+ ―To install the latest version of the product driver, download it from the Samsung website at http://www.
+samsung.com.
+Setting Optimum Resolution
+An information message about setting optimum resolution will appear if you power on the product for the first time after purchase.
+Select a language on the product and change the resolution on your PC to the optimum setting.
+ ―If the optimum resolution is not selected, the message will appear up to three times for a specified time 
+even when the product is turned off and on again.
+ ―The optimum resolution can also be selected in Control Panel on your PC.
+28
+Screen Setup
+Configure the screen settings such as brightness.
+A detailed description of each function is provided. Refer to your product for details.Chapter  04
+SAMSUNG MAGIC Bright
+This menu provides an optimum picture quality suitable for the environment where the product will be 
+used.
+ ―This menu is not available when Eco Saving Plus  is enabled.
+ ―This menu is not available when Game Mode  is enabled.
+ ―This menu is not available when Eye Saver Mode  is enabled.
+You can customize the brightness to suit your preferences.
+Picture
+Brightness
+ContrastSharpnessColor
+HDMI Black LevelSet to an 
+optimum picture quality suitable for the working environment.Custom
+100
+75
+60
+Off
+Return
+ ―The displayed image may differ depending on the model.In PC mode
+ •Custom: Customize the contrast and brightness as required.
+ •Standard : Obtain a picture quality suitable for editing documents or using Internet.
+ •Cinema: Obtain the brightness and sharpness of TVs suitable for enjoying video and DVD content.
+ •Dynamic Contrast : Obtain balanced brightness through automatic contrast adjustment.
+In AV mode
+When the external input is connected through HDMI/DP and PC/AV Mode  is set to AV, Bright  
+has four automatic picture settings ( Dynamic , Standard , Movie and Custom) that are preset at the 
+factory. You can activate either Dynamic , Standard , Movie or Custom. You can select Custom which 
+automatically recalls your personalized picture settings.
+ •Dynamic : Select this mode to view a sharper image than in Standard  mode.
+ •Standard : Select this mode when the surroundings are bright. This also provides a sharp image.
+ •Movie: Select this mode when the surroundings are dark. This will save power and reduce eye 
+fatigue.
+ •Custom: Select this mode when you want to adjust the image according to your preferences.
+29
+Brightness
+You can adjust the general brightness of the picture. (Range: 0~100)
+A higher value will make the picture appear brighter.
+ ―This menu is not available when Bright  is set to Dynamic Contrast  mode.
+ ―This menu is not available when Eco Saving Plus  is enabled.
+ ―This menu is not available when Eye Saver Mode  is enabled.
+Contrast
+Adjust the contrast between the objects and background. (Range: 0~100)A higher value will increase the contrast to make the object appear clearer.
+ ―This option is not available when Bright  is in Cinema or  Dynamic Contrast  mode.
+ ―This menu is not available when Game Mode  is enabled.
+Sharpness
+Make the outline of objects more clear or blurry. (Range: 0~100)A higher value will make the outline of objects clearer.
+ ―This option is not available when Bright  is in Cinema or Dynamic Contrast  mode.
+ ―This menu is not available when Upscale  is in Mode1  or Mode2 mode.
+ ―This menu is not available when Game Mode  is enabled.Color
+Adjust the tint of the screen.
+ ―This menu is not available when Bright  is set to Cinema or Dynamic Contrast  mode.
+ ―This menu is not available when Game Mode  is enabled.
+ ―This menu is not available when Eye Saver Mode  is enabled.
+ •Red: Adjust the red saturation level. Values closer to 100 mean greater intensity for the color.
+ •Green : Adjust the green saturation level. Values closer to 100 mean greater intensity for the color.
+ •Blue : Adjust the blue saturation level. Values closer to 100 mean greater intensity for the color.
+ •Color Tone : Select a color tone that best suits your viewing needs.
+ ‒Cool 2 : Set the color temperature to be cooler than Cool 1 .
+ ‒Cool 1 : Set the color temperature to be cooler than Normal  mode.
+ ‒Normal : Display the standard color tone.
+ ‒Warm 1 : Set the color temperature to be warmer than Normal  mode.
+ ‒Warm 2 : Set the color temperature to be warmer than Warm 1 .
+ ‒Custom: Customize the color tone.
+ ―When the external input is connected through HDMI/DP and PC/AV Mode  is set to AV, Color Tone  has 
+four color temperature settings ( Cool, Normal , Warm and Custom ).
+ •Gamma: Adjust the middle level of luminance.
+ ‒Mode1  / Mode2 / Mode3
+30
+SAMSUNG MAGIC Upscale
+Upscale  function can enhance the layers of the picture details and the vividness of the picture.
+The function has more obvious effects on low-resolution pictures.
+ ―This menu is not available when Bright  is set to Cinema or Dynamic Contrast  mode.
+ ―This menu is not available when Game Mode  is enabled.
+ •Off / Mode1  / Mode2
+ ―Comparing with Mode1 , Mode2 has a stronger effect.
+HDMI  Black L evel
+If a DVD player or set-top box is connected to the product via HDMI, image quality degradation (contrast/
+color degradation, black level, etc.) may occur, depending on the connected source device. In such case, HDMI Black Level can be used to adjust the image quality.
+If this is the case, correct the degraded picture quality using HDMI Black Level.
+ ―This function is only available in HDMI  mode.
+ •Normal : Select this mode when there is no contrast ratio degradation.
+ •Low : Select this mode to reduce the black level and increase the white level when there is a 
+contrast ratio degradation.
+ ―HDMI Black Level may not be compatible with some source devices.
+ ―The HDMI Black Level feature is only activated at a certain AV resolution, such as 720P and 1080P.Eye Saver  Mode
+Set to an optimum picture quality suitable for eye relaxation.TÜV Rheinland “Low Blue Light Content” is a certification for products which meet requirements for 
+lower blue light levels. When Eye Saver Mode  is 'On', the blue light that wavelength is around 400nm 
+will decrease, and it will provide an optimum picture quality suitable for eye relaxation. At the same time, the blue light level is lower than in the default settings, and it was tested by TÜV Rheinland and certified as it met the requirements of TÜV Rheinland “Low Blue Light Content” standards.
+Game  Mode
+Configure the product screen settings for game mode.
+Use this feature when playing games on a PC or when a game console such as PlayStation™ or Xbox™ 
+is connected.
+ ―This menu is not available when Eye Saver Mode  is enabled.
+ ―When the monitor turns off, enters power-saving mode or changes input sources, Game Mode  turns Off 
+even if it is set to On.
+ ―If you want to keep Game Mode  enabled all the time, select Always On .
+Response  Time
+Accelerate the panel response rate to make video appear more vivid and natural.
+ ―It is best to set Response Time  to Standard  or Faster when you are not viewing a movie.
+31
+Picture Size
+Change the picture size.
+ ―This option is not available when FreeSync is enabled.
+In PC mode
+ •Auto : Display the picture according to the aspect ratio of the input source.
+ •Wide: Display the picture in full screen regardless of the aspect ratio of the input source.
+In AV mode
+ •4:3: Display the picture with an aspect ratio of 4:3. Suitable for videos and standard broadcasts.
+ •16:9: Display the picture with an aspect ratio of 16:9.
+ •Screen Fit: Display the picture with the original aspect ratio without cutting off.
+ ―The function may not be supported depending on the ports provided with the product.
+ ―Changing the screen size is available when the following conditions are satisfied.
+ ―A digital output device is connected using the HDMI/DP cable.
+ ―The input signal is 480p, 576p, 720p, or 1080p and monitor can display normally (Not every model can 
+support all of these signals.).
+ ―This can only be set when the external input is connected through HDMI/DP and PC/AV Mode  is set to AV.Screen  Adjustment
+ ―This menu is available in Analog mode only.
+ ―This menu is only available when Picture Size is set to Screen Fit in AV  Mode.
+When a 480P or 576P or 720P or 1080P signal is input in AV  mode and the monitor can display normally, 
+select Screen Fit to adjust horizontal position in 0-6 levels.
+Configuring H-P osition  & V-Position
+H-Position: Move the screen to the left or right.
+V-Position: Move the screen up or down.
+Configuring C oarse
+Adjust the screen frequency.
+ ―This menu is available in Analog mode only.
+Configuring Fine
+Fine-adjust the screen to obtain a vivid picture.
+ ―This menu is available in Analog mode only.
+32
+Adjusting OSD (On Screen Display) settings
+A detailed description of each function is provided. Refer to your product for details.Chapter  05
+Transparency
+Set the transparency for the menu windows.
+OnScreen Display
+Transparency
+PositionLanguageDisplay TimeConfigure the 
+transparency of the menu windows.On
+English
+20 sec
+Return
+ ―The displayed image may differ depending on the model.Position
+Adjust the menu position.
+Language
+Set the menu language.
+ ―A change to the language setting will only be applied to the onscreen menu display.
+ ―It will not be applied to other functions on your PC.
+Display  Time
+Set the on-screen display (OSD) menu to automatically disappear if the menu is not used for a specified 
+period of time.
+Display Time  can be used to specify the time after which you want the OSD menu to disappear.
+33
+Setup and Reset
+A detailed description of each function is provided. Refer to your product for details.Chapter  06
+FreeSync
+C32F391FW* / C32F395FW* / C32F397FW* models are not supported.
+FreeSync technology is solution that eliminates screen tearing without all the usual lag and latency.This feature will eliminate screen tearing and lag during game play. Improve your gaming experience.FreeSync is only available in HDMI  or DisplayPort mode.
+ •Off: Disable FreeSync.
+ •Standard Engine : Enable the basic FreeSync functions of the AMD graphics card.
+ •Ultimate Engine : Enable the FreeSync feature with a higher screen frame rate. Screen tearing 
+(abnormal sync between the screen and content) is reduced in this mode. Note that screen 
+flickering may occur during game play.
+When enable FreeSync function, please use maximum screen refresh rate for optimal freesync effect.
+The refresh rate setting method please refer to Q & A  How can I change the frequency?
+ ―When using the FreeSync function, use the HDMI/DP cable provided by the monitor manufacturer.FreeSync
+Eco Saving PlusOff TimerPC/AV ModeSource DetectionKey Repeat TimePower LED OnSystem
+ReturnOffOff
+Auto
+Acceleration
+Stand-byFreeSync 
+technology is solution that eliminates screen tearing without all the usual lag and latency. FreeSync can be operated when you use AMD's graphic card with supporting Freesync solution.
+ ―The displayed image may differ depending on the model.
+If the FreeSync function is enabled, the following may occur:
+ •The screen may flicker when you play games depending on the game option settings. Decreasing 
+the game setting values might help to remove the flicker. Installing the latest drivers from the AMD website may also fix this issue.
+ •The response rate during the game may fluctuate depending on the resolution. A higher resolution generally decreases the response rate.
+ •The sound quality of the monitor may be degraded.
+ ―If you encounter any issues when using the function, contact the Samsung Service Center.
+34
+The models in the Graphic Cards list supports FreeSync
+FreeSync can only be used with specific AMD graphics card models. Refer to the following list for 
+supported graphics cards:
+Make sure to install the latest official graphics drivers from AMD that support FreeSync.
+ ―For additional AMD graphics card models that support the FreeSync feature, visit the official AMD website.
+ ―Select FreeSync Off  if you are using a graphics card from a different manufacturer.
+ •AMD Radeon R9 300 Series
+ •AMD Radeon R9 Fury X
+ •AMD Radeon R7 360
+ •AMD Radeon R9 295X2
+ •AMD Radeon R9 290X •AMD Radeon R9 290
+ •AMD Radeon R9 285
+ •AMD Radeon R7 260X
+ •AMD Radeon R7 260
+How do you enable FreeSync?
+1 Set FreeSync to Standard Engine  or Ultimate Engine  in the OSD menu.
+2 Enable FreeSync in AMD Radeon Settings :
+Right-click the mouse   AMD Radeon Settings   Display
+The "AMD FreeSync" feature should be set to "On". Select to "On" if not already enabled.
+
+35
+Eco Saving Plus
+Reduce energy consumption compared to consumption at the maximum brightness level.
+ ―This option is not available when Bright  is in Dynamic Contrast  mode.
+ ―This menu is not available when Game Mode  is enabled.
+ ―This menu is not available when Eye Saver Mode  is enabled.
+ •Off: Deactivate the Eco Saving Plus  function.
+ •Auto : The power consumption will automatically be reduced by about 10% over the current setting.
+(The reduction of power consumption depends on the customer screen brightness condition.)
+ •Low : Saves up to 25 % energy compared to the maximum brightness.
+ •High : Saves up to 50 % energy compared to the maximum brightness.
+Off Timer
+Off Timer: Turn on Off Timer mode.
+Turn Off After : The off timer can be set within a range of 1 to 23 hours. The product will automatically 
+power off after the specified number of hours.
+ ―This option is only available when Off Timer is set to On .
+ ―For products for the market in some regions, the Off Timer is set to automatically activate 4 hours after the 
+product powers on. This is done in accordance with power supply regulations. If you do not want the timer 
+to activate, go to MENU   System  and set Off Timer to Off .PC/AV Mode
+Set PC/AV Mode  to AV. The picture size will be enlarged.
+This option is useful when you view a movie.
+ •Set to PC when connected to a PC.
+ •Set to AV  when connected to an AV device.
+ ―This function does not support Analog mode.
+ ―Supplied for the wide models only such as 16:9 or 16:10.
+ ―If the monitor is in HDMI /DisplayPort  mode and the screen says Check Signal Cable  or power saving mode 
+activates, press the JOG button to display the function-button screen and then select the  icon. You 
+can select PC or AV.
+Source  Detection
+Select either Auto  or Manual as the method to recognize input signal.
+Key Repeat Time
+Control the response rate of a button when the button is pressed.
+Acceleration , 1 sec, or 2 sec can be selected. If No Repeat  is selected, a command responds only once 
+when a button is pressed.
+36
+Power  LED On
+Configure the settings to enable or disable the power LED located at the lower part of the product.
+ •Working: The power LED is on when the product is turned on.
+ •Stand-by : The power LED is on when the product is turned off.
+Reset  All
+Return all the settings for the product to the default factory settings.Information
+View the current input source, frequency and resolution.
+Picture
+OnScreen Display
+System
+InformationInformation
+ExitLC************
+S/N:***************
+HDMI
+**kHz **Hz ******x****
+Optimal Mode
+****x**** **Hz
+ ―The displayed image may differ depending on the model.
+37
+Installing the SoftwareChapter  07
+Easy Setting Box
+Easy Setting Box  enables users to use the monitor by partitioning multiple sections.
+To install the latest version of Easy Setting Box, download it from the Samsung website at http://www.
+samsung.com.
+ ―The software may not work properly if you do not restart the computer after the installation.
+ ―The Easy Setting Box icon may not appear depending on the computer system and the product 
+specifications.
+ ―If the shortcut icon does not appear, press the F5 key.
+Restrictions and Problems with the Installation
+The Easy Setting Box installation may be affected by the Graphics Card, Motherboard and the 
+Networking Environment.System Requirements
+OS Hardware
+ •Windows XP 32Bit/64Bit
+ •Windows Vista 32Bit/64Bit
+ •Windows 7 32Bit/64Bit
+ •Windows 8 32Bit/64Bit
+ •Windows 8.1 32Bit/64Bit
+ •Windows 10 32Bit/64Bit •At least 32MB of memory
+ •At least 60MB of free space on the hard disk drive
+38
+Troubleshooting GuideChapter  08
+Requirements Before Contacting Samsung 
+Customer Service Center
+ ―Before calling Samsung Customer Service Center, test your product as follows. If the problem persists, 
+contact Samsung Customer Service Center.
+Testing the Product
+Check if your product is operating normally by using the product test function.
+If the screen is turned off and the power indicator blinks even though the product is properly connected 
+to a PC, perform a self-diagnosis test.
+1 Power off both the PC and product.
+2 Disconnect the cables from the product.
+3 Power on the product.
+4 If the message Check Signal Cable  appears, the product is working normally.
+ ―If the screen remains blank, check the PC system, video controller and cable.
+Checking the Resolution and Frequency
+For a mode that exceeds the supported resolution(refer to Standard Signal Mode Table ), the message 
+Not Optimum Mode will appear for a short time.
+ ―The displayed resolution may vary, depending on the computer system settings and cables.Check the following.
+Installation issue (PC mode)
+The screen keeps switching on and off.
+Check the cable connection between the product and PC, and ensure the connectors are locked.
+Blank spaces are found on all four sides of the screen when an HDMI or HDMI-DVI cable is connected to the product and PC.
+The blank spaces found on the screen have nothing to do with the product.
+Blank spaces on the screen are caused by the PC or graphics card. To resolve the problem, adjust the 
+screen size in the HDMI or DVI settings for the graphics card.
+If the graphics card settings menu does not have an option to adjust the screen size, update the 
+graphics card driver to the latest version.
+(Please contact the graphics card or computer manufacturer for further details about how to adjust 
+the screen settings.)
+Screen issue
+The power LED is off. The screen will not switch on.
+Check that the power cable is connected properly.
+The message Check Signal  Cable  appears.
+Check that the cable is properly connected to the product.
+Check that the device connected to the product is powered on.
+39
+Not Optimum Mode  is displayed.
+This message appears when the signal from the graphics card exceeds the maximum resolution or 
+frequency for the product.
+Change the maximum resolution and frequency to suit the product performance, referring to 
+Standard Signal Mode Table (P. 43).
+The images on the screen look distorted.
+Check the cable connection to the product.
+The screen is not clear. The screen is blurry.
+Adjust Coarse and Fine .
+Remove any accessories (video extension cable, etc.) and try again.
+Set the resolution and frequency to the recommended level.
+The screen appears unstable and shaky. There are shadows or ghost images left on the screen.
+Check that the resolution and frequency for the PC are within the range of resolution and frequency 
+compatible with the product. Next, if required, change the settings, referring to Standard Signal Mode Table (P. 43) in this manual and the Information  menu on the product.
+The screen is too bright. The screen is too dark.
+Adjust Brightness  and Contrast.
+Screen color is inconsistent.
+Change the Color settings.
+The colors on the screen have a shadow and are distorted.
+Change the Color settings.
+White does not really look white.
+Change the Color settings.
+There is no image on the screen and the power LED blinks every 0.5 to 1 second.
+The product is operating in power-saving mode.
+Press any key on the keyboard or move the mouse to return to normal operating mode.
+Text is blurry.
+If using a Windows OS (e.g. Windows 7 , Windows 8, Windows 8.1 or Windows 10): Go to Control Panel 
+ Fonts  Adjust ClearType text and change Turn on ClearType .Video playback is choppy.
+Playback of high-definition large video files can be choppy. This may be because the video player is 
+not optimized for the computer resource. 
+Try playing the file on another video player.
+Sound issue
+There is no sound.
+Check the connection of the audio cable or adjust the volume.Check the volume.
+The volume is too low.
+Adjust the volume.If the volume is still low after turning it up to the maximum level, adjust the volume on your PC sound 
+card or software Program.
+Video is available but there is no sound.
+Sound cannot be heard if a HDMI-DVI cable is used to connect the input device.
+Connect the device using an HDMI cable or a DP cable.
+Source device issue
+A beeping sound is heard when my PC is booting.
+If a beeping sound is heard when your PC is booting, have your PC serviced.
+40
+Q & A
+ ―Refer to the user manual for your PC or graphics card for further instructions on adjustment.
+How can I change the frequency?
+Set the frequency on your graphics card.
+ •Windows XP: Go to Control Panel  Appearance and Themes   Display   Settings  Advanced   Monitor, and adjust Refresh rate  under Monitor settings.
+ •Windows ME/2000: Go to Control Panel  Display   Settings  Advanced   Monitor, and adjust Refresh rate  under Monitor settings.
+ •Windows Vista: Go to Control Panel  Appearance and Personalization   Personalization  Display Settings   Advanced Settings   Monitor, and adjust Refresh rate  under Monitor settings.
+ •Windows 7: Go to Control Panel  Appearance and Personalization   Display   Screen Resolution   Advanced settings   Monitor, and adjust Refresh rate  under Monitor settings.
+ •Windows 8(Windows 8.1): Go to Settings  Control Panel  Appearance and Personalization   Display   Screen Resolution   Advanced settings   Monitor, and adjust Refresh rate  under Monitor 
+settings.
+ •Windows 10: Go to Settings  System   Display   Advanced display settings   Display adapter properties   Monitor, and adjust Screen refresh rate  under Monitor settings.
+How can I change the resolution?
+ •Windows XP: Go to Control Panel  Appearance and Themes   Display   Settings, and adjust the resolution.
+ •Windows ME/2000: Go to Control Panel  Display   Settings, and adjust the resolution.
+ •Windows Vista: Go to Control Panel  Appearance and Personalization   Personalize   Display Settings , and adjust the resolution.
+ •Windows 7: Go to Control Panel  Appearance and Personalization   Display   Adjust Resolution, and adjust the resolution.
+ •Windows 8(Windows 8.1): Go to Settings  Control Panel  Appearance and Personalization   Display   Adjust Resolution, and adjust the resolution.
+ •Windows 10: Go to Settings  System   Display   Advanced display settings , and adjust the resolution.
+How do I set power-saving mode?
+ •Windows XP: Set power-saving mode in Control Panel  Appearance and Themes   Display   Screen Saver Settings   Power options or BIOS SETUP on the PC.
+ •Windows ME/2000: Set power-saving mode in Control Panel  Display   Screen Saver Settings   Power options or BIOS SETUP on the PC.
+ •Windows Vista: Set power-saving mode in Control Panel  Appearance and Personalization   Personalize   Screen Saver Settings   Power options or BIOS SETUP on the PC.
+ •Windows 7: Set power-saving mode in Control Panel  Appearance and Personalization   Personalize   Screen Saver Settings   Power options or BIOS SETUP on the PC.
+ •Windows 8(Windows 8.1): Set power-saving mode in Settings  Control Panel  Appearance and Personalization   Personalize   Screen Saver Settings   Power options or BIOS SETUP on the PC.
+ •Windows 10: Set power-saving mode in Settings  Personalization  Lock screen  Screen timeout settings   Power & sleep  or BIOS SETUP on the PC.
+41
+SpecificationsChapter  09
+General
+Model Name C22F390FH* / C22F392FH* C24F390FH* / C24F392FH* / 
+C24F394FH* / C24F396FH* / C24F399FH*C27F390FH* / C27F391FH* / C27F396FH* / C27F397FH* / C27F398FW*C32F391FW* / C32F395FW* / C32F397FW*
+Size 22 Class ( 21.5 Inches / 54.6  cm) 24 Class ( 23.5  Inches / 59.8  cm) 27 Class ( 2 7.0 Inches / 68.5 cm) 32 Class ( 31.5  Inches / 80.1  cm)
+Display area 476.64  mm (H) x 268.11 mm (V)
+18.8  Inches (H) x 10.6  Inches (V)521.40 mm (H) x 293.28 mm (V)
+20.5  Inches (H) x 11.5 Inches (V)596.736  mm (H) x 335.664  mm (V)
+23.5  Inches (H) x 13.2  Inches (V)698.40  mm (H) x 392.85  mm (V)
+27 .50 Inches (H) x 15.47  Inches (V)
+Pixel Pitch 0.24825 mm (H) x 0.24825 mm (V)0.009774  Inches (H) x 0.009774  Inches (V)0.27156 mm (H) x 0.27156 mm (V)
+0.010691  Inches (H) x 0.010691  Inches (V)0.3114 mm (H) x 0.3114 mm (V)0.01226 Inches (H) x 0.01226 Inches (V)0.36375 mm (H) x 0.36375 mm (V)
+0.014321 Inches (H) x 0.014321 Inches (V)
+Maximum Pixel Clock 148.5 MHz (Analog, HDMI)148.5 MHz (HDMI, DisplayPort) -Applicable only to models C27F398FW*, C32F391FW*, C32F395FW*, C32F397FW*
+Power Supply AC100-240V~ 50/60Hz
+Based on the AC voltage of the adapter. For the DC voltage of the product, refer to the product label.
+Signal connectors D-SUB, HDMI
+HDMI, DisplayPort (Applicable only to models C27F398FW*, C32F391FW*, C32F395FW*, C32F397FW*)
+Environmental conditions Operating
+Temperature: 50 F – 104 F (10 C – 40 C) / Humidity: 10 % – 80 %, non-condensing
+Storage
+Temperature: -4 F – 113 F (-20 C – 45 C) / Humidity: 5 % – 95 %, non-condensing
+42
+ •Plug-and-Play
+This monitor can be installed and used with any Plug-and-Play compatible systems. Two-way data exchange between the monitor and PC system optimizes the monitor settings. Monitor installation takes 
+place automatically. However, you can customize the installation settings if desired.
+ •Panel Dots (Pixels)
+Due to the nature of the manufacturing of this product, approximately 1 pixel per million (1ppm) may be brighter or darker on the LCD panel. This does not affect product performance.
+ •The above specifications are subject to change without notice to improve quality.
+ •This device is a Class B digital apparatus.
+ •For detailed device specifications, visit the Samsung website.
+ •(Europe only)To access the EPREL registration of the model:
+(1) Go to https://eprel.ec.europa.eu
+(2) Get the model identifier from the energy label of the product and type it in the search box
+(3) Energy Labelling information of the model is shown
+* You can directly access the product information via https://eprel.ec.europa.eu/qr/##### (registration no.)
+The registration no. can be found on the rating label on your product.
+ •(Turkey only)
+To access the energy labelling information of the model:
+(1) Go to https://www.samsung.com/global/ecodesign_energy
+(2) Get the model identifier from the energy label of the product and type it in the search box
+(3) Energy labelling information can be found
+43
+Standard Signal Mode Table
+Model Name C22F390FH* / C22F392FH* / C24F390FH* / C24F392FH* / 
+C24F394FH* / C24F396FH* / C24F399FH* / C27F390FH* / C27F391FH* / C27F396FH* / C27F397FH* / C27F398FW*C32F391FW* / C32F395FW* / C32F397FW*
+Synchronization Horizontal Frequency 30 – 81 kHz 30 – 81 kHz
+Vertical Frequency 56 – 72 Hz 56 – 61 Hz
+Resolution Optimum resolution 1920 x 1080 @ 60 Hz 1920 x 1080 @ 60 Hz
+Maximum resolution 1920 x 1080 @ 60 Hz 1920 x 1080 @ 60 Hz
+If a signal that belongs to the following standard signal modes is transmitted from your PC, the screen will automatically be adjusted. If the signal transmitted from the PC does not belong to the standard signal 
+modes, the screen may be blank even though the power LED turns on. In such a case, change the settings according to the following table by referring to the graphics card user manual.
+C22F390FH* / C22F392FH* / C24F390FH* / C24F392FH* / C24F394FH* / C24F396FH* / C24F399FH* / C27F390FH* / C27F391FH* / C27F396FH* / C27F397FH* / C27F398FW* 
+Resolution Horizontal Frequency (kHz) Vertical Frequency (Hz) Pixel Clock (MHz) Sync Polarity (H/V)
+IBM, 720 x 400 31.469 70.087 28.322 -/+
+MAC, 640 x 480 35.000 66.667 30.240 -/-
+VESA, 640 x 480 31.469 59.940 25.175 -/-
+VESA, 800 x 600 35.156 56.250 36.000 +/+
+VESA, 800 x 600 37 .879 60.317 40.000 +/+
+VESA, 800 x 600 48.077 72.188 50.000 +/+
+VESA, 1024 x 768 48.363 60.004 65.000 -/-
+VESA, 1024 x 768 56.476 70.069 75.000 -/-
+VESA, 1280 x 720 45.000 60.000 74.250 +/+
+VESA, 1280 x 800 49.702 59.810 83.500 -/+
+VESA, 1280 x 1024 63.981 60.020 108.000 +/+
+44
+Resolution Horizontal Frequency (kHz) Vertical Frequency (Hz) Pixel Clock (MHz) Sync Polarity (H/V)
+VESA, 1440 x 900 55.935 59.887 106.500 -/+
+VESA, 1600 x 900 RB 60.000 60.000 108.000 +/+
+VESA, 1680 x 1050 65.290 59.954 146.250 -/+
+VESA, 1920 x 1080 67 .500 60.000 148.500 +/+
+C32F391FW* / C32F395FW* / C32F397FW*
+Resolution Horizontal Frequency (kHz) Vertical Frequency (Hz) Pixel Clock (MHz) Sync Polarity (H/V)
+VESA, 640 x 480 31.469 59.940 25.175 -/-
+VESA, 800 x 600 35.156 56.250 36.000 +/+
+VESA, 800 x 600 37 .879 60.317 40.000 +/+
+VESA, 1024 x 768 48.363 60.004 65.000 -/-
+VESA, 1280 x 720 45.000 60.000 74.250 +/+
+VESA, 1280 x 800 49.702 59.810 83.500 -/+
+VESA, 1280 x 1024 63.981 60.020 108.000 +/+
+VESA, 1440 x 900 55.935 59.887 106.500 -/+
+VESA, 1600 x 900 RB 60.000 60.000 108.000 +/+
+VESA, 1680 x 1050 65.290 59.954 146.250 -/+
+VESA, 1920 x 1080p 67 .500 60.000 148.500 +/+
+ ―Horizontal Frequency
+The time required to scan a single line from the left to the right side of the screen is called a horizontal cycle. The reciprocal number of a horizontal cycle is called horizontal frequency. Horizontal frequency is measured in 
+kHz.
+ ―Vertical Frequency
+Repeating the same picture dozens of times per second allows you to view natural pictures. The repeat frequency is called "vertical frequency" or "refresh rate" and is indicated in Hz.
+ ―This product can be set to only one resolution for each screen size to obtain the optimum picture quality due to the nature of the panel. Using a resolution other than the specified resolution may degrade the picture quality. 
+To avoid this, it is recommended that you select the optimum resolution specified for your product.
+ ―Check the frequency when you exchange a CDT monitor (connected to a PC) for an LCD monitor. If the LCD monitor does not support 85 Hz, change the vertical frequency to 60 Hz using the CDT monitor before you exchange it 
+with the LCD monitor.
+45
+AppendixChapter  10
+Responsibility for the Pay Service  
+(Cost to Customers)
+ ―When the service is requested, in spite of in warranty, we may charge you for a visit from a service 
+technician in the following cases.
+Not a product defect
+Cleaning of the product, Adjustment, Explanation, Re-installation and etc.
+ •If a service technician gives instructions on how to use product or simply adjusts options without 
+disassembling product.
+ •If a defect is caused by external environmental factors (Internet, Antenna, Wired Signal, etc.)
+ •If a product is reinstalled or devices are connected additionally after installing the purchased product for the first time.
+ •If a product is reinstalled to move to a different spot or to move to a different house.
+ •If customer requests instructions on how to use because of another company's product.
+ •If customer requests instructions on how to use the network or another company's Program.
+ •If customer requests software installation and setup for the product.
+ •If a service technician removes/cleans dusts or foreign materials inside of the product.
+ •If customer requests an installation additionally after purchasing a product through home-shopping or online.A Product damage caused by customer's fault
+Product damage caused by customer's mishandling or wrong repair
+If a product damage is caused by;
+ •External impact or drop.
+ •Use of supplies or separately sold product unspecified by Samsung.
+ •Repair from a person besides an engineer of outsourcing service company or partner of Samsung 
+Electronics Co., Ltd.
+ •Remodeling or repairing the product by customer.
+ •Using it with incorrect voltage or non-authorised electrical connections.
+ •Not following the "cautions" in User Manual.
+Others
+ •If product fails by natural disaster. (lightning, fire, earthquake, flood damage, etc)
+ •If consumable components are all used up. (Battery, Toner, Fluorescent lights, Head, Vibrator, Lamp, Filter, Ribbon, etc.)
+ ―If customer requests a service in case the product has no defect, service fee may be charged. So please 
+read User Manual first.
+46
+WEEE
+Correct Disposal of This Product (Waste Electrical & 
+Electronic Equipment)
+(Applicable in countries with separate collection systems)
+This marking on the product, accessories or literature indicates that the product and 
+its electronic accessories (e.g. charger, headset, USB cable) should not be disposed of with other household waste at the end of their working life. To prevent possible harm to the environment or human health from uncontrolled waste disposal, please separate these items from other types of waste and recycle them responsibly to promote the sustainable reuse of material resources.
+Household users should contact either the retailer where they purchased this product, 
+or their local government office, for details of where and how they can take these items for environmentally safe recycling.
+Business users should contact their supplier and check the terms and conditions of 
+the purchase contract. This product and its electronic accessories should not be mixed with other commercial wastes for disposal.

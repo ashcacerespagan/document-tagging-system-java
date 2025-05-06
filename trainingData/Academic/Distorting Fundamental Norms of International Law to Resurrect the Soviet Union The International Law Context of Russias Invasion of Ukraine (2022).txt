@@ -1,0 +1,1270 @@
+Vol.:(0123456789)Netherlands International Law Review (2022) 69:383–410
+https://doi.org/10.1007/s40802-022-00219-9
+123
+ARTICLE
+Distorting Fundamental Norms of International Law 
+to Resurrect the Soviet Union: The International Law 
+Context of Russia’s Invasion of Ukraine
+Sofia Cavandoli1 · Gary Wilson1
+Accepted: 4 July 2022 / Published online: 26 July 2022 
+© The Author(s) 2022
+Abstract
+Russia’s invasion of Ukraine which commenced on 24 February 2022 represented 
+just the latest, albeit most devastating, intervention in a neighbouring former Soviet 
+state. This article considers the legal justifications for Russia’s actions and finds 
+them to be far from satisfactory. The claims advanced by Russia closely mirror those 
+made in respect of its prior interventions in the former Soviet space, underlining 
+an attempt to distort some of the most fundamental norms of international law in 
+order to afford an air of legitimacy to its actions. Although it is too soon to con-
+clude with any certainty what the longer term implications of the recent conflict will 
+be, both politically and legally, it is apparent that it can be seen as part of a wider 
+policy objective on Russia’s part to maintain and/or reassert influence over its ‘near 
+abroad’. While in some respects indicative of the possible emergence of a new ‘Cold 
+War’, the international reaction to its intervention in Ukraine suggests that any inten-
+tion to manipulate or reconstitute legal norms in support of its agenda is meeting 
+with mass rejection.
+Keywords Use of force · Self-determination · Human rights · War · Ukraine · Russia
+1 Introduction
+On 24 February 2022, Russia commenced military action against Ukraine. The 
+action was widely condemned by the international community as a violation of fun-
+damental norms of international law, while as the conflict progressed allegations of 
+the commission of war crimes by Russian forces grew. Although the most severe 
+ * Sofia Cavandoli 
+ S.Cavandoli@ljmu.ac.uk
+ Gary Wilson 
+ G.Wilson@ljmu.ac.uk
+1 Senior Lecturer in Law, Liverpool John Moores University, Liverpool, UK
+384 S. Cavandoli, G. Wilson 
+123
+action of its kind, the operation against Ukraine represented just the latest in a series 
+of incidents over the course of the post-Cold War era in which Russia has sought to 
+reassert its authority over former Soviet states. In so doing it has relied upon a famil-
+iar series of purported legal justifications grounded in norms pertaining to the right 
+of self-determination of peoples and permitted exceptions to international law’s pro-
+hibition on the use of force. This article considers the justifications asserted by Rus-
+sia in support of its action against Ukraine, within the context of previous incursions 
+against the Crimea and Donbas regions of Ukraine and South Ossetia and Abkha-
+zia within Georgia. We begin by outlining the historical and political background 
+to Russia’s invasion of Ukraine, before briefly introducing Russia’s purported legal 
+justifications and the international reaction. The main body of the article is then sep-
+arated into analysis, in turn, of the justifications advanced by Russia grounded in ref-
+erences to self-determination and permitted exceptions to the prohibition of the use 
+of force respectively. The article concludes with some tentative observations upon 
+the wider implications of the Russia/Ukraine conflict.
+2  The Historical and Political Background to the Invasion of Ukraine
+Conventional wisdom holds that the Cold War was lost by the Soviet Union. In 
+developments famously labelled as ushering in the ‘end of history’,1 the states of 
+Eastern Europe which had comprised the Warsaw Pact and effectively operated 
+as Soviet satellites overthrew communism and became liberal democracies in the 
+western tradition.2 Gradually, many became members of the European Union (EU)3 
+and/or the North Atlantic Treaty Organization (NATO).4 These developments were 
+accompanied by the disintegration of the Soviet Union, which ceased to exist on 
+1 January 1992. Although dissolved into its constituent republics, Russia assumed 
+the Union of Soviet Socialist Republics’ (USSR’s) international personality for most 
+legal and political purposes.5 The period since, has been characterised by tensions 
+arising from Russia’s loss of influence in its near abroad and policies centred on 
+efforts to reclaim this in the face of indications on the part of some ex-Soviet states, 
+principally Ukraine, that they seek a future founded on closer relationships with the 
+EU and NATO, leaving Russia feeling ‘boxed in’ by the perception of the reach of 
+these organisations extending ever closer to its borders.
+In making sense of the recent Russian invasion of Ukraine as simply the latest and 
+most extreme stage in the evolution of its policy of reasserting regional hegemony, 
+comparisons with its earlier interventions in Georgia (2008) and Crimea (2014) are 
+1 Fukuyama (1992).
+2 Stokes (2011).
+3 In the first wave of the EU’s eastern expansion, 2004 saw ten new member states join including the 
+Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, Slovakia and Slovenia. Bulgaria and 
+Romania joined in 2007, followed by Croatia in 2013.
+4 The Czech Republic, Hungary and Poland joined NATO in 1999, followed by Bulgaria, Estonia, Lat-
+via, Lithuania, Romania, Slovakia and Slovenia in 2004.
+5 Blum (1992).
+385
+Distorting Fundamental Norms of International Law to Resurrect…
+123
+particularly relevant.6 Long-running tensions between Georgia and Russia escalated 
+into full-blown armed conflict during 2008 which, albeit brief in duration, was used 
+by Russia to intervene in support of separatist factions in the regions of Abkhazia 
+and South Ossetia.7 Russia justified its interventions by reference to humanitarian 
+necessity,8 subsequently moving to recognise the independence of these areas which 
+have not been recognised by very many other states.9 However, Russia’s intervention 
+enabled it to exert de facto control over significant swathes of Georgian territory 
+along its border. Russia’s 2014 annexation of the Crimea region of Ukraine came 
+in the aftermath of Ukraine’s ‘revolution of dignity’, during which its Parliament 
+had impeached its Russian supported President and given a clear indication that the 
+country desired a future built upon closer relations with the EU.10 In response, Rus-
+sia intervened to support separatist factions take control of Crimea, instigating a ref-
+erendum in which a reported 96% backed union with Russia.11 On 18 March 2014, 
+Russia effectively annexed Crimea by proclaiming it part of Russia.12 In his speech 
+justifying Russia’s actions in Ukraine and Crimea’s annexation to the Russian 
+Federation, Putin outlined Russia’s strong historical ties with the Crimean region 
+and claimed that Russia was responding to Crimea’s request for help because its 
+Russian-speaking population feared repression following events that had unfolded 
+in the Ukraine. He went on to refute claims that Russia was acting in contraven-
+tion of international law. Putin stated that the Crimean people were doing nothing 
+more than exercising their right to self-determination granted to them by the UN 
+Charter—a precedent which he claims was set by Ukraine when it seceded from 
+the USSR and by Kosovo when it seceded from Serbia. The move was widely con-
+demned, including by the UN General Assembly.13
+In April 2014, aided by Russia, separatists subsequently seized control of the 
+Donetsk and Luhansk regions, collectively known as the Donbas.14 The rebels 
+called for referenda on independence to be carried out in both cities and publicly 
+demanded that Russia send ‘peacekeepers’ to protect them. Hastily organised ref-
+erenda were carried out on 11 May 2014, despite Russian President Putin’s call on 
+the rebels to postpone them. Voter turnout was reportedly high and results showed 
+that over 90% of voters in both Donetsk and Luhansk endorsed political independ-
+ence from Kiev. The Peoples’ Republic of Luhansk and The Peoples’ Republic of 
+Donetsk were subsequently declared quasi-independent entities by rebel separatists. 
+The referendum process and its outcome were widely criticised and declared illegal 
+6 On which, see Wilson (2016).
+7 For discussions of the 2008 military action, see Toomey (2009).
+8 See Toomey (2009).
+9 For discussion, see Samkharadze (2021). The only United Nations (UN) member states apart from 
+Russia to recognise the independence of these entities are Nicaragua, Venezuela, Syria and Nauru.
+10 See Shveda and Park (2016).
+11 The Guardian (2014a).
+12 The Guardian (2014b).
+13 GA Res. 68/262. The General Assembly voted 100-11 to condemn Russia’s actions, with 58 absten-
+tions.
+14 The Guardian (2014c).
+386 S. Cavandoli, G. Wilson 
+123
+by most countries. The Kremlin Press Service stated that ‘Moscow respected the 
+outcome of the referendum and called for peaceful “practical implementation” of the 
+people’s wishes in those regions of eastern Ukraine’. Within hours of declaring itself 
+independent, the Republic of Donetsk asked to join the Russian Federation, urging 
+Moscow to listen to the will of the people. Russia, at that stage did not publicly 
+respond to this request.
+Following the two referenda, violent clashes escalated between Ukraine militia 
+and the separatist rebels. This led to the outbreak of civil unrest in the eastern region 
+of the Ukraine that saw the loss of thousands of lives and caused numerous people 
+to flee from their homes. In order to end months of fighting in the Donbas region, on 
+5 September 2014, Ukraine and pro-Russian rebels signed a peace deal (The Minsk 
+Protocol) drafted by the Trilateral Contact Group on Ukraine, consisting of Ukraine, 
+Russia, and the Organization for Security and Co-operation in Europe (OSCE). The 
+agreement failed to stop fighting and was subsequently followed with a revised and 
+updated agreement, Minsk II, which was signed on 12 February 2015. This agree-
+ment consisted of a package of measures, including the possible granting of special 
+status to rebel-held parts of Ukraine’s eastern Donetsk and Luhansk regions, giving 
+them broader autonomy for a temporary 3-year period. While fighting subsided fol-
+lowing the agreement’s signing, it never ended completely, and the agreement’s pro-
+visions were never fully implemented. While in all of these incidents Russia sought 
+to play down the extent of its intervention in the states affected, a common theme in 
+its official explanations of them was to portray each development as an expression of 
+self-determination on the part of separatist entity which it had intervened on behalf 
+of.15
+Amid growing tensions over the following years, during 2021 it became appar -
+ent that Russia was building up its military presence along the Russian border.16 
+Despite its protestations to the contrary,17 speculation grew that Russia was prepar -
+ing to launch a military operation against Ukraine. Russia made clear its objections 
+to the prospect of NATO expansion to, or even closer cooperation with, Ukraine, 
+which it regarded as a hostile act.18 Over a period of several weeks, extensive diplo-
+matic missions were undertaken by a range of states and international organisations 
+to both Ukraine and Russia with a view to defuse the situation.19 However, follow -
+ing Russia’s recognition of the independence of the Donbas on 21 February 2022, 
+the commencement of an armed attack appeared inevitable.20
+15 BBC News Online (2014).
+16 The Guardian (2021).
+17 The Independent (2022a).
+18 For discussion of Russian concerns about NATO expansion, see Suny (2022).
+19 Financial Times (2022).
+20 BBC News Online (2022).
+387
+Distorting Fundamental Norms of International Law to Resurrect…
+123
+3  The Invasion of Ukraine: Justification and Reaction
+Following Russian recognition of Donetsk and Luhansk as independent states on 21 
+February 2022, Russia’s Federation Council moved the following day to authorise 
+the use of force against Ukraine and Russian troops entered both regions.21 This was 
+followed on 24 February by Vladimir Putin’s announcement of a special military 
+operation to ‘demilitarise’ and ‘denazify’ Ukraine.22 A significant military action 
+against Ukraine commenced rapidly, consisting of the deployment of ground forces, 
+air strikes and missile weaponry.23 It was readily apparent that far from constituting 
+a limited military action with narrow aims, the Russian attack on Ukraine repre-
+sented a full onslaught which had as its ultimate goal the occupation of Ukraine 
+and removal of its government.24 In an alarming indication of the severity of the 
+situation, Russia placed its nuclear forces on a state of high alert just days into the 
+conflict.25
+Russia’s formal legal justification for its attack on Ukraine, the central tenets of 
+which might be discerned from statements made by Vladimir Putin and Russian 
+authorities both before and during the action, is considered in greater detail below. 
+Far from representing a clear, coherent narrative, various claims were asserted. 
+Some attempts were made to question Ukraine’s entitlement to statehood, with sug-
+gestions being made that historically it had no significant record of independence 
+and that ethnically Russians and Ukrainians were essentially the same.26 However, 
+the core theme of Russian efforts to justify its actions centred on the characterisa-
+tion of Ukraine as posing a threat which needed to be removed. Various claims were 
+made that Ukraine was responsible for denying the right to self-determination to 
+Russian speakers,27 and that it was responsible for attacks and crimes of genocide 
+against such minorities in the Donbas region.28 In this sense, Russian legal justifica-
+tions were couched primarily in a confused blend of self-defence and humanitarian 
+necessity.
+Russia’s attack on Ukraine was met with widespread international condemna-
+tion. Although a Russian veto prevented the UN Security Council passing a con-
+demnatory resolution,29 the General Assembly quickly stepped in to do so by an 
+21 The Independent (2022b).
+22 New York Times (2022c). Similarly, in the UN Security Council Russia’s representative stated: ‘We 
+are not waging a war against Ukraine or the Ukrainian people. We are carrying out a special operation 
+against nationalists to protect the residents of Donbas and for the purposes of denazification and demili-
+tarization’, UN Doc. S/PV.8979, p. 14.
+23 Sky News (2022).
+24 The UK stated thus in the UN Security Council debate following the invasion, suggesting Putin’s ‘aim 
+is to remove its Government and subjugate its people’, UN Doc. S/PV.8979, p. 4.
+25 The Guardian (2022b).
+26 New York Times (2022b).
+27 New York Times (2022c).
+28 New York Times (2022c).
+29 UN Doc. S/2022/155. See UN Doc. S/PV.8979.
+388 S. Cavandoli, G. Wilson 
+123
+overwhelming margin.30 Other prominent organisations were similarly scathing in 
+denouncing Russia’s actions, including NATO,31 the EU,32 and the OSCE.33 Inter -
+national measures to exert pressure upon Russia to reverse its actions have largely 
+taken the form of the implementation of extensive sanctions. Although UN man-
+dated sanctions would not be possible in light of Russia’s ability to veto any such 
+measures, many states—including the United States (US) and the United Kingdom 
+(UK)—and the EU have imposed a range of sanctions targeted to weaken and iso-
+late Russia, including significant measures pertaining to the banking and finan-
+cial services sector, and measures targeted at individuals including financial assets 
+freezes.34 While stopping short of direct involvement in hostilities, a number of 
+states have provided military equipment to Ukraine,35 while several have offered ref-
+uge to those fleeing Ukraine.36
+4  The Distortion of Fundamental Norms (I): Self‑Determination
+The right to self-determination is found in multiple international treaties and con-
+ventions,37 and has ‘crystallised into a rule of customary international law, applica-
+ble to and binding on all states’.38 In simple terms, self-determination denotes the 
+legal right of a people to decide their own destiny in the international order. Pre-
+cisely what people achieve through self-determination is unclear and remains con-
+tested in international law. In practice, self-determination has ranged from secession 
+and granting independence to a people from the parent state (external self-deter -
+mination) through to granting a people (national minorities) the right to self-gov -
+ernment or autonomy within the confines of their parent state (internal self-deter -
+mination). Although there is no official stance on what self-determination entails, 
+the right to secession has been strongly disfavoured under international law in order 
+30 The General Assembly resolution passed by a 141-5 margin, with 35 abstentions. See UN Doc. 
+GA/12407, 2 March 2022.
+31 Statement by the North Atlantic Council on Russia’s attack on Ukraine, 24 February 2022, https:// 
+www. nato. int/ cps/ en/ natohq/ offic ial_ texts_ 192404. htm (accessed 27 June 2022).
+32 Press Statement of President Charles Michel of the European Council and President Ursula von der 
+Leyen of the European Commission on Russia’s unprecedented and unprovoked military aggression of 
+Ukraine, 24 February 2022, Statement/22/1321, https:// ec. europa. eu/ commi ssion/ press corner/ detail/ en/ 
+state ment_ 22_ 1321 (accessed 27 June 2022).
+33 OSCE Press Release, 24 February 2022, https:// www. oscepa. org/ en/ news-a- media/ press- relea ses/ 
+2022/ osce- parli ament  arians- conde mn- russi an- milit  ary- action- in- ukrai ne- call- for- de- escal ation- at-  
+vienna- winter- meeti ng (accessed 27 June 2022).
+34 For details of UK sanctions on Russia, see https:// www. gov. uk/ gover  nment/ colle ctions/ uk- sanct ions- 
+on- russia. For details of EU sanctions, see https:// www. consi lium. europa. eu/ en/ infog  raphi cs/ eu- sanct 
+ions- again st- russia- over- ukrai ne/. For details of US sanctions, see https:// www. state. gov/ ukrai ne- and- rus-
+sia- sanct ions/ (all accessed 27 June 2022).
+35 Curtis and Mills (2022).
+36 The Guardian (2022a).
+37 Art. 1 International Covenant on Civil and Political Rights (ICCPR) and International Covenant on 
+Economic, Social and Cultural Rights (ICESCR) 1966, Art. 1 UN Charter 1945.
+38 Sterio (2013), p. 9.
+389
+Distorting Fundamental Norms of International Law to Resurrect…
+123
+to protect the territorial integrity and political unity of existing states.39 Exceptions 
+to this rule have traditionally applied to people under colonial domination or some 
+kind of oppression. More recently the right to secede from a state has also been 
+granted in situations where a people have been denied civil and political rights and 
+subject to serious human rights abuses (remedial secession).
+Kosovo’s unilateral declaration of independence from Serbia in 2008, was sin-
+gled out as a case sui generis, a form of ‘remedial secession’ which was necessary 
+because of the circumstances of the situation. This justification has not been uni-
+versally accepted. Although Kosovo’s independence has been recognised by over 
+100 countries worldwide, including the US and most EU states, countries like China 
+and Russia, have refused to recognise it as a legitimate state, citing the importance 
+of respect for the principle of territorial sovereignty as the primary reason for their 
+position. Russia further emphasised that self-determination of peoples by way of 
+secession should only be recognised in extreme circumstances. Utilising the territo-
+rial approach for its definition of a people, it sustained that the term represented the 
+population of a state taken as a whole as opposed to sub-national groups.40 In fact, 
+on the basis of this argument Russia did not recognise the citizens of Kosovo as 
+a ‘people’ for the purposes of self-determination because they were a sub-national 
+group.41
+4.1  Self‑Determination Used as a Justification for Russia’s Intervention 
+in February 2022
+On 21 February 2022, President Putin took what he described as a ‘long and over -
+due decision’ and recognised ‘the independence and sovereignty of the Donetsk 
+People’s Republic and the Luhansk People’s Republic’. Russia then signed Treaties 
+of Friendship, Cooperation and Mutual Assistance with the leaders of those regions. 
+He justified this decision on the basis that the Donbas communities were ‘facing 
+horror and genocide’ by Ukraine forces. He further continued by stating that the 
+people of these regions ‘are fighting for their elementary right to live on their own 
+39 Sterio (2014–2015), p. 299.
+40 Two approaches have been used to identify a people for the purposes of self-determination: the ter -
+ritorial approach and the characteristics approach. The territorial approach looks at all persons within a 
+defined territory and identifies them as a people. It was used during the decolonisation era and was based 
+on the principle of uti possidetis, which meant that colonies would become independent on the basis of 
+established colonial boundaries. The characteristics approach on the other hand identifies a people by the 
+common characteristics of its members. In 1989, during one of its expert meetings, the UN Educational, 
+Scientific and Cultural Organisation (UNESCO) identified ‘a people’ as a group of individual human 
+beings who enjoy some or all of the following common features: a common historical tradition, a racial 
+or ethnic identity, cultural homogeneity, linguistic unity, religious or ideological affinity, territorial con-
+nection and a common economic life. It further stated that ‘the group as a whole must have the will to be 
+identified as a people or the consciousness of being a people’ and that the group may have institutions or 
+other means of expressing its common characteristics and will for identity.
+41 Cavandoli (2016), p. 880.
+390 S. Cavandoli, G. Wilson 
+123
+land, to speak their own language, and to preserve their culture and traditions’.42 
+Putin’s announcement drew widespread condemnation. The UN Secretary-General 
+responded by stating that the decision of the Russian Federation was a ‘violation of 
+the territorial integrity and sovereignty of Ukraine and inconsistent with the prin-
+ciples of the Charter of the United Nations’.43 US President Joe Biden ‘strongly 
+condemned’ Putin’s decision ‘to purportedly recognize the “independence” of the 
+eastern regions of Ukraine’.44 French President Emmanuel Macron tweeted: ‘By 
+recognising the separatist regions in eastern Ukraine, Russia is violating its com-
+mitments and undermining Ukraine’s sovereignty’. Australian Prime Minister Scott 
+Morrison slammed as ‘nonsense’ Putin’s claims that the troops being sent into east-
+ern Ukraine were peacekeepers. He further stated, ‘we cannot have threats of vio-
+lence being used to seek to advantage nation’s positions over others’.45
+When President Putin commenced his ‘special military operation’ he maintained 
+it was in accordance with Article 51 of the UN Charter, following a request by the 
+peoples in the Donbas Republics. In his speech, Putin talks about the right to self-
+determination and the fact that ‘people living in certain territories that are part of 
+modern Ukraine, were not asked how they wanted to arrange their lives’. He contin-
+ues by stating that Russia’s policy ‘is based on freedom, the freedom of choice for 
+everyone to independently determine their own future and the future of their chil-
+dren. And we consider it important that this right—the right to choose—could be 
+used by all the peoples living on the territory of today’s Ukraine, by everyone who 
+wants it’.46
+4.2  Do the People of the Donbas Region Have a Right to Self‑Determination 
+by Way of Secession?
+The Donbas (the area of the Don River basin, 85% of which is currently within the 
+modern-day Ukrainian administrative regions of Donetsk and Luhansk) is strategi-
+cally important, because it was the mining and manufacturing, iron and steel-indus-
+try capital of the Soviet Union. It was an area to which many Russians immigrated 
+into during that industrialization campaign. The Donbas only accounts for 9% of 
+Ukrainian territory, but for 17% of its population and 21 per cent of its industrial 
+output. Also, the Donbas is the geographical lynchpin to a whole area of Ukrain-
+ian territory from Kharkiv in the north-east to Odesa in the south-west that is fer -
+vently contested between Ukraine and Russia. More than three-quarters of Ukraine’s 
+42 Address by the President of the Russian Federation, 21 February 2022, http:// en. kreml in. ru/ events/ 
+presi dent/ news/ 67828 (accessed 11 March 2022).
+43 ‘Secretary-General Says Russian Federation’s Recognition of “Independent” Donetsk, Luhansk Vio-
+late Ukraine’s Sovereignty, Territorial Integrity’, SG/SM/21153, 23 February 2022, United Nations Press 
+Release, https:// www. un. org/ press/ en/ 2022/ sgsm2 1153. doc. htm (accessed 27 June 2022).
+44 ‘Readout of President Biden’s Call with President Zelenskyy of Ukraine’, 21 February 2022, https:// 
+www. white house. gov/ briefi  ng- room/ state ments- relea ses/ 2022/ 02/ 21/ reado ut- of- presi dent- bidens- call-  
+with- presi dent- zelen skyy- of- ukrai ne-4/ (accessed 27 June 2022).
+45 Al Jazeera (2022).
+46 New York Times (2022c).
+391
+Distorting Fundamental Norms of International Law to Resurrect…
+123
+Russian speaking minority live in this area (eastern and southern Ukraine). Moreover, 
+3.6 million of these are in the Donbas, where they form 44% of the local population, the 
+largest percentage in Ukraine, apart from Crimea.47
+As a result of this unique identity, residents of the Donbas region have tradi-
+tionally favoured a political order which, though subject to Ukrainian sovereignty, 
+maintained close ties with Russia economically, socially, and politically.48 In fact, in 
+1994, during the first Ukrainian elections, post-independence, the Donbas region’s 
+support for much closer ties with Russia was confirmed by poll results in Donetsk 
+and Luhansk on the question of joining the Commonwealth of Independent States 
+(CIS): 88.7% of Donetsk voters and 90.7% of Luhansk voters’ voted in favour of 
+joining.49 These same attitudes came to a head with the Euromaidan revolution, 
+when President Yanukovych was overthrown in 2014. As a Donbas native, residents 
+of this region saw Yanukovych as ‘one of them’ and someone who made decisions 
+‘in their best interest’. His removal was perceived as a threat to the interests of peo-
+ple living in the region and the culmination of irreconcilable differences in priori-
+ties over Ukraine’s future.50 These events are what spurred separatist rebels in April 
+2014, to demand referenda on independence from Ukraine in the cities of Donetsk 
+and Luhansk.
+As a general premise, the right to self-determination does not give rise to a unilat-
+eral at-will justification for secession of any group defined as a ‘people’.51 As previ-
+ously mentioned, the right to self-determination only permits unilateral secession 
+in limited circumstances. This was highlighted by the Supreme Court of Canada in 
+its advisory opinion on the legality of the secession of Quebec. The court held that 
+a right to secession arises where a people is governed by a colonial empire; where 
+a people is subject to alien subjugation, domination, or exploitation and where a 
+people is denied meaningful access to its right to self-determination within the state 
+of which it forms part. Unless any of those conditions are met, peoples are expected 
+to achieve self-determination within the framework of their existing state.52 In the 
+Declaration on Friendly Relations, the principle of self-determination was limited in 
+the following way:
+Nothing in the foregoing paragraphs shall be construed as authorizing or 
+encouraging any action which would dismember or impair, totally or in part, 
+the territorial integrity or political unity of sovereign and independent States 
+conducting themselves in compliance with the principle of equal rights and 
+self-determination of peoples as described above and thus possessed of a gov -
+47 Wilson (1995), p. 267.
+48 Pirie (1996), pp. 1098–1100.
+49 See Pirie (1996), p.1098.
+50 Esposito (2020), p. 144.
+51 The notion of a people has depended mainly on the context in which the right to self-determination 
+has been invoked, and has included former colonised peoples, citizens from a given state and self-identi-
+fying peoples.
+52 Reference re Secession of Quebec, [1998] 2 SCR 217 at 222, https:// scc- csc. lexum. com/ scc- csc/ scc- 
+csc/ en/ item/ 1643/ index. do (accessed 27 June 2022).
+392 S. Cavandoli, G. Wilson 
+123
+ernment representing the whole people belonging to the territory without dis-
+tinction as to race, creed or colour.53
+Donetsk and Luhansk did not fall under any of the above conditions. In 2014, 
+when people of both republics voted to secede, it was not because they had been 
+denied meaningful access to self-determination by Ukraine, it was because of the 
+ousting of President Yanukoych from the country and the fall of the Donbas-based 
+Party of Regions from power. Following the Euromaidan crisis however, as a direct 
+reaction to Russia’s interference in the Donbas, the government in Kyiv introduced 
+several measures which may be interpreted as undermining the self-determination 
+of the majority Russian-speaking population in the Donbas region. On Septem-
+ber 2017, the Ukraine Parliament passed an education reform bill that included a 
+clause making Ukrainian the required language of study in state schools from the 
+fifth grade onwards. Russia’s Foreign Ministry stated that the law was designed to 
+‘forcefully establish a mono-ethnic language regime in a multinational state’.54 In 
+2018, the Ukrainian Supreme Court overturned a 2012 law which permitted national 
+minorities in their home regions to carry out official business with the government, 
+in their native language.55 In January 2022, a new state language law came into force 
+which requires that Ukrainian be used in most aspects of public life.56 This new law 
+has raised concerns about the protection of minority languages. Article 25, regard-
+ing print media outlets, makes exceptions for certain minority languages, English, 
+and official EU languages, but not for Russian. Ukrainian authorities justify this 
+by referring to the country’s European ambitions and ‘the century of oppression of 
+[…] Ukrainian in favour of Russian’.57 The Ukrainian government has every right to 
+promote its state language and strengthen its national identity, however a balance is 
+required, to avoid discrimination against linguistic minorities, especially, Russian.
+The degree of deprivation of internal self-determination that would justify a case 
+for secession is not clear. Commentators in the past, have stressed the importance 
+of exhausting other avenues for peaceful resolution of disputes before secession can 
+take place, such as resolving the matter internally within the same state structure 
+or making legal remedies available to put an end to the situation.58 While the level 
+of deprivation necessary for secession to be legitimate will always be an area of 
+disagreement, cases concerning genocide would not necessarily prove to be as con-
+troversial. Given the extensive international human rights mechanisms available, 
+53 Declaration on Principles of International Law concerning Friendly Relations and Co-operation 
+among States in Accordance with the Charter of the United Nations, UNGA Res. 2625 (XXV), 24 Octo-
+ber 1970, Principle V.
+54 Wesolowsky (2017).
+55 UKRINFORM (2018).
+56 Law of Ukraine, On ensuring the functioning of the Ukrainian language as the state language, https:// 
+zakon. rada. gov. ua/ laws/ show/ 2704- 19# Text (accessed 27 June 2022).
+57 Denber (2022).
+58 Points put across by Cassese and Doehring mentioned in Wilson (2009), p. 469.
+393
+Distorting Fundamental Norms of International Law to Resurrect…
+123
+serious violations of such norms require appropriate remedies, which in extreme cir -
+cumstances might entail secession.59
+President Putin’s speech on 24 February 2022 mentions his intention to protect 
+people subjected to bullying and to stop the ‘genocide of millions of people living 
+there’. He continues by stating that ‘it was these aspirations, feelings, pain of people 
+that were for us the main motive for making a decision to recognise the people’s 
+republics of Donbas’.60 Like with Crimea in 2014, Putin justified the independence 
+of the Donbas republics on 21 February through the medium of remedial secession 
+which has been used in non-colonial situations where a people has been persecuted 
+and subjected to serious human rights violations by the parent state.61
+Putin’s claim of genocide has been emphatically denied by the Ukrainian govern-
+ment. On the 26 February 2022, the Ukraine sought a pronouncement by the Inter -
+national Court of Justice (ICJ) on what it retained to be a false claim of genocide 
+made by Russia as an excuse to use force, in the context of Article IX of the 1948 
+Convention on the Prevention and Punishment of the Crime of Genocide, to which 
+both states are signatories. On 16 March 2022, the ICJ issued an order on provi-
+sional measures. The Court in essence accepted all arguments made by Ukraine for 
+the purposes of the provisional measures stage of the proceeding and rejected those 
+in Russia’s submission to the Court that followed its non-appearance. The Court 
+accepted as plausible Ukraine’s argument that it had a right under the Convention 
+not to be subjected to a false claim of genocide which was then used as a basis for 
+using force against it.62 Russia’s remedial secession thesis regarding the Donbas 
+region, manifestly fails on account of evidence, but more than that, it remains legally 
+inconclusive from the point of view of positive international law.63
+4.3  What About the Ukraine’s Right to Self‑Determination?
+Referring to the invasion of Ukraine on 24 February 2022, the vice president of Tai-
+wan, Lai Ching-te, tweeted that the ‘principle of self-determination cannot be erased 
+by brute force’. Russia’s armed intervention of Ukraine is a clear breach of its terri-
+torial sovereignty and an attempt at undermining Ukraine’s existence as a sovereign 
+independent state.
+Ukraine officially declared itself an independent country on 24 August 1991. In 
+early December of that year, the Ukrainian declaration was ratified by a referendum 
+with a 90% ‘yes’ vote. Leonid Kravchuk was elected as its first president. The same 
+month, Gorbachev resigned and the Soviet Union ceased to exist. The Union could 
+59 See Wilson (2009), p. 473.
+60 See New York Times (2022c).
+61 The argument for remedial secession was used in the cases of Bangladesh declaring itself independent 
+from Pakistan (1971) and in the partition of North and South Sudan (2011).
+62 Allegations of Genocide under the Convention on the Prevention and Punishment of the Crime of 
+Genocide (Ukraine v. Russian Federation), Provisional Measures, Order of 16 March 2022, paras. 59–60, 
+https:// www. icj- cij. org/ public/ files/ case- relat ed/ 182/ 182- 20220 316- ORD- 01- 00- EN. pdf (accessed 27 
+June 2022).
+63 Pentassuglia (2022).
+394 S. Cavandoli, G. Wilson 
+123
+not continue without Ukraine, the closest, most important partner to Russia in the 
+Soviet Union construct. In fact, the then US ambassador in Moscow, Robert Strauss, 
+advised Washington that this result was devastating for Russians—‘the most revo-
+lutionary event of 1991 for Russia may not be the collapse of Communism, but the 
+loss of something Russians of all political stripes think of as part of their own body 
+politic, and near to the heart at that: Ukraine’.64
+When Ukraine declared independence from the Soviet Union, it emerged from 
+70  years of totalitarianism, having suffered civil war in the Bolshevik revolution, 
+famine (holomodor) in the 1930s, the Nazi occupation, holocaust of the Second 
+World War, and in more recent decades several political upheavals.65 The Soviet 
+Union was a Russian-dominated political construct with the Ukrainian communist 
+party a puppet of Muscovite rulers. Ukrainian culture and language were suppressed 
+and considered secondary to Russian which was the language that enjoyed privi-
+leged status.66 1991 marked a historical milestone, a profound change in the cul-
+tural, social, political, and economic life of the Ukrainian people. An opportunity 
+for them to finally exercise their right to self-determination and ‘freely determine 
+their political status and freely pursue their economic, social and cultural develop-
+ment’.67 Respect for this right was further reaffirmed in 1994 when the Budapest 
+Memorandum on Security Assurances was signed by the US, Russia, and Britain, 
+who committed ‘to respect the independence and sovereignty and the existing bor -
+ders of Ukraine’ and ‘to refrain from the threat or use of force’ against the country.
+In July 2021, in his essay, ‘On the historical unity of Russians and Ukrainians’, 
+published on the Kremlin’s website, Putin made an emotional claim to Ukrainian 
+territory by sustaining that Ukrainians, Belarusians and Russians are one people 
+bound by a shared common heritage, the heritage of a realm known as Kievan Rus 
+(862–1242), which was a loose medieval political federation located in modern-day 
+Belarus, Ukraine, and part of Russia. Putin claims that Ukraine never existed as a 
+separate state and had never been a nation.68 Instead, he argues, Ukrainian nation-
+ality was always an integral part of a triune nationality: Russian, Belorussian, and 
+Ukrainian. Putin essentially accuses the Bolsheviks of detaching from Russia its his-
+torical territories, in complete disregard of people’s views. He continues by stating 
+that Ukraine’s ruling circles decided to justify their country’s independence through 
+the denial of its past.
+The ‘historical reality’ of modern-day Ukraine is more complex than Putin’s ver -
+sion of events, encompassing ‘a thousand-year history of changing religions, bor -
+ders and peoples’.69 Over the course of centuries, the territory recognised today 
+as Ukraine has been conquered, controlled, or taken over by the Mongol Empire, 
+later the Polish-Lithuanian Commonwealth, the Austro-Hungarian Empire, and the 
+64 Sarotte (2022).
+65 Lutsevych (2021).
+66 Besemeres (2016), p. 337.
+67 Art 1. ICCPR and ICESCR 1966.
+68 See Putin (2021).
+69 Cengel (2022).
+395
+Distorting Fundamental Norms of International Law to Resurrect…
+123
+Russian Empire, while Crimea was at one point a client state of the Ottoman Empire. 
+Between the World Wars, portions of western Ukraine were ruled by Poland, Roma-
+nia, and Czechoslovakia. Ukraine’s history is undoubtedly connected with Russian 
+history, but it’s also intertwined with Polish history, with the history of the Greek 
+Orthodox Church, even Romanian history, and the history of the Turkic peoples on 
+the Eurasian Steppe.70
+A further point to highlight, is that Putin’s claims about the lack of cultural and 
+other distinctions between Ukrainians and Russians makes his application of the 
+principle of self-determination difficult to reconcile with the situation in the Don-
+bas region. As mentioned earlier, the right of self-determination only attaches to a 
+distinct ‘people’, whatever that term might imply. Putin’s statements asserting that 
+Ukrainians and Russians are a single ‘people’ would seem to undermine its applica-
+tion in this case.
+Russia’s ongoing use of force in Ukraine is a clear violation of Ukraine’s ter -
+ritorial integrity, sovereignty, and political independence. If there is any lesson that 
+Putin should have learned from Ukraine’s Revolution of Dignity, it is that the annex-
+ation of Crimea and the undeclared war in eastern Ukraine have only reinforced 
+the Ukrainian people’s resolve to leave Russia’s orbit and to seek closer ties to the 
+West.71 Ukrainians aren’t only fighting for the independence of their state; they’re 
+fighting for the survival of their identity because Russia has long been a neighbour -
+ing power that has tried to wrestle control over the people of Ukraine to bring it 
+under its influence.
+5  The Distortion of Fundamental Norms (II): Use of Force
+5.1  The Prohibition of the Use of Force
+The starting point for the assessment of the legality of any state’s use of mili-
+tary force against another is Article 2(4) of the UN Charter, which prohibits ‘the 
+threat or use of force against the territorial integrity or political independence of 
+any state’. Article 2(4)’s prohibition has evolved into a jus cogens norm of custom-
+ary international law,72 and the dominant view amongst international lawyers is 
+that it represents a complete prohibition on the use of force, subject to expressly 
+stated exceptions.73 The UN Charter recognises two exceptions to Article 2(4): mili-
+tary enforcement action authorised by the UN Security Council, in response to a 
+determination of the existence of a threat to the peace, breach of the peace or act of 
+aggression and the right of individual or collective self-defence in response to an 
+70 Lenoe (2022).
+71 Rumer and Weiss (2021).
+72 See, e.g., UN Doc. A/C.6/32/SR.64, 6 December 1977; Military and Paramilitary Activities in and 
+against Nicaragua (Nicaragua v. United States of America) (Merits), ICJ Reports 1986, p. 100, para. 
+190.
+73 For discussions of the scope and requirements of Art. 2(4)’s prohibition, see, e.g., Corten (2010), chs. 
+1 and 4; Dinstein (2017), pp. 89–105; Schrijver (2015), pp. 465–484.
+396 S. Cavandoli, G. Wilson 
+123
+armed attack. While further exceptions to Article 2(4) have been advocated,74 the 
+most prevalent of which has been the doctrine of humanitarian intervention,75 these 
+have been controversial and there is at best limited consensus upon their existence.
+In the absence of any legal justification by way of exemption, there appears to be 
+little doubt that Russia’s action against Ukraine constitutes a prima facie violation of 
+Article 2(4). As Corten notes in respect of the prevailing legal consensus, ‘there is 
+no doubt that article 2(4) […] is applicable to any military operations conducted by 
+one state against another’.76 Russia has subject Ukraine to the application of military 
+force, directed against its territory with the ultimate objective of furthering goals 
+inconsistent with its political independence. Notwithstanding any legal justifica-
+tions offered, Russia confirmed on 24 February 2022 that it had launched military 
+operations against Ukraine. Any claim to the contrary would be futile in light of the 
+overwhelming evidence accumulated in media reportage of the effects of Russia’s 
+attack. Beyond constituting a prima facie violation of Article 2(4), Russia’s invasion 
+also places it in breach of the Budapest Memorandum, under the terms of which 
+it pledged to respect Ukraine’s independence and sovereignty, and, mirroring Arti-
+cle 2(4), refrain from any threat or use of force against it.77 Several other interna-
+tional legal principles are also infringed,78 including Ukraine’s own right of internal 
+self-determination.79
+Absent any legal justification, the invasion of Ukraine is also capable of amount-
+ing to the commission of the international crime of aggression.80 There have been 
+reports suggesting that some of the hostilities directed against targets in Ukraine 
+have been the acts of non-uniformed Russian directed personnel.81 Under the law 
+of state responsibility, however, where attacks are committed by those under the 
+‘effective control’ of a state, these acts will be attributable to that state.82 Thus, these 
+would still constitute Russian acts for the purposes of Article 2(4) to the extent that 
+they involve the application of coercive force upon or directed against Ukrainian 
+territory.83
+74 For example, pro-democratic intervention and intervention in support of self-determination. See 
+Wippman (2015), pp. 797–815; Chadwick (2015), pp. 841–860.
+75 There is a voluminous literature on humanitarian intervention. Some of the more substantive treat-
+ments include Weiss (2016); Wheeler (2000); Chesterman (2001).
+76 Corten (2010), p. 52.
+77 Budapest Memorandum on Security Assurances, 5 December 1994, paras. 1–2.
+78 For example, principles enshrined within the Helsinki Final Act to protect the subjection of sovereign 
+states within Europe to the threat or use of force, inviolability of their frontiers and the compromise of 
+their integrity. See Conference on Security and Co-operation in Europe Final Act 1975, Pt. I(a)(ii)-(iv). 
+See also the Doctrine of Non-Intervention, reiterated in GA Res. 2131 (XX); GA Res. 2625 (XXV).
+79 See above.
+80 This issue is beyond the scope of the present article.
+81 New York Times (2022a).
+82 Military and Paramilitary Activities in and against Nicaragua (Nicaragua v. United States of Amer -
+ica) (Merits), ICJ Reports 1986, para. 115.
+83 See also the Definition of Aggression (GA Res. 3314 (XXIX)), which informed the ICJ’s development 
+of its ‘effective control’ test in the Nicaragua case, ibid.
+397
+Distorting Fundamental Norms of International Law to Resurrect…
+123
+A state may avoid violating Article 2(4) where its intervention is at the request 
+of the state upon whose territory it deploys its forces, in order to assist in quash-
+ing internal violence or disorder.84 Claims of an invitation have been advanced by 
+Russia previously as part of efforts to legitimise its interventions in its near abroad, 
+including in Crimea during 2014 when it purported to have been invited to intervene 
+by ousted Ukrainian President Yanyukovych, albeit with little merit.85
+Only a state’s highest authorities may extend such an invitation, which must be 
+validly given.86 Certainly, the Ukrainian authorities have extended no such invita-
+tion. It may have been assumed that Russia’s recognition of Donetsk and Luhansk 
+as independent states may serve as a precursor to its invocation of an invitation on 
+their part to assist in tackling threats directed against them by Ukraine. In Putin’s 
+case for Russian intervention, he suggested that ‘[t]he people’s republics of Donbas 
+have asked Russia for help’.87 That this represented such a small part of a lengthy 
+statement which went on to refer to bases for action grounded in the right of self-
+defence and humanitarian intervention,88 however, would suggest perhaps limited 
+belief in the strength of the invitation claim. In any event, serious difficulties arise 
+in respect of such a claim. Firstly, only sovereign states are entitled to invite assis-
+tance from external actors.89 Notwithstanding Russia’s recognition of Donetsk and 
+Luhansk, they are not so recognised by the overwhelming majority of the interna-
+tional community for whom they remain part of Ukraine. This makes any discus-
+sion pertaining to the standing which must be enjoyed by those authorities extending 
+the invitation irrelevant.90 It is arguably for similar reasons that Russian claims to 
+be undertaking ‘peacekeeping’ in the Donbas have been scoffed at.91 Secondly, if 
+Donetsk and Luhansk did indeed constitute independent states, any threat posed to 
+them by Ukraine would instead represent an inter-state challenge and engage debates 
+surrounding the right of collective self-defence.92
+5.2  Russia’s Purported Legal Justifications
+Vladimir Putin’s address of 24 February represented a long, rambling series of 
+assertions within which can be identified the strands of two central justifications 
+84 On the general principles of invitation as a ground precluding the unlawfulness of the use of force, see 
+Corten (2010), pp. 249–310; Fox (2015).
+85 See Wilson (2016), pp. 167–168.
+86 See Corten (2010), pp. 259–260, 266–276.
+87 See New York Times (2022c).
+88 See below.
+89 See Wippman (2015), pp. 797–815; Chadwick (2015), pp. 841–860.
+90 Although see Roth (1999), pp. 136–149.
+91 UN Secretary-General Antonio Guterres labelled such claims a ‘perversion of the concept of peace-
+keeping. […] When troops of one country enter the territory of another country without its consent, 
+they are not impartial peacekeepers. They are not peacekeepers at all’. See ‘Secretary-General’s open-
+ing remarks at press encounter on Ukraine’, 22 February 2022, https:// www. un. org/ sg/ en/ node/ 262001 
+(accessed 27 June 2022).
+92 See below.
+398 S. Cavandoli, G. Wilson 
+123
+for its military action against Ukraine: these take the form of a blend of references 
+to self-defence and humanitarian intervention, embedded within broader justifica-
+tory language not too dissimilar from that employed to rationalise Russian military 
+interference in Georgia in 2008 and Crimea and the Donbas in 2014. Putin made a 
+number of assertions which suggested the emergence of various threats from vari-
+ous sources. In implying the existence of a NATO threat against Russia, he pro-
+claimed that its ‘military machine is moving and […] approaching our border’.93 
+By making comparison with the USSR’s failure to pre-empt its invasion by Nazi 
+Germany in 1940/41, Putin claimed that ‘[w]e will not make this mistake the second 
+time […] a military presence in territories bordering on Russia, if we permit it to 
+go ahead, will […] [be] creating an ever mounting and totally unacceptable threat 
+for Russia’.94 Linking these perceived threats to Ukraine, he asserted that ‘Russia 
+cannot feel safe […] while facing a permanent threat from the territory of today’s 
+Ukraine’.95 Significantly, Putin invoked Article 51 of the UN Charter, noting it was 
+‘in accordance with [its provisions] […] [that he] made a decision to carry out a spe-
+cial military operation’.96 In so doing, that this represented at least partially a collec-
+tive self-defence action was hinted at, Putin claiming that ‘[t]he people’s republics 
+of Donbass have asked Russia for help’, and that its military operation constituted 
+execution of treaties entered into with Donetsk and Luhansk.97
+Although Putin did not expressly refer to any right of humanitarian intervention 
+in explaining Russia’s actions, references were made to some of the alleged humani-
+tarian effects of conflict in attempting to justify them. In respect of events in the 
+Donbas region, he asserted that ‘we had to stop that atrocity, that genocide of the 
+millions of people who live there’, adding more generally in respect of its military 
+operation that it served a ‘purpose […] to protect people who […] have been fac-
+ing humiliation and genocide perpetrated by the Kiev regime […] we will seek to 
+demilitarise and denazify Ukraine’.98
+5.3  Self‑Defence Against Who, from What Threat, and Constituting an ‘Armed 
+Attack’ When?
+The right of self-defence is governed by Article 51 of the UN Charter, which pro-
+vides that:
+Nothing in the present Charter shall impair the inherent right of individual 
+or collective self-defence if an armed attack occurs against a Member of the 
+United Nations, until the Security Council has taken measures necessary to 
+maintain international peace and security. Measures taken by Members in the 
+93 New York Times (2022c).
+94 New York Times (2022c).
+95 New York Times (2022c).
+96 See New York Times (2022c).
+97 See New York Times (2022c).
+98 See New York Times (2022c).
+399
+Distorting Fundamental Norms of International Law to Resurrect…
+123
+exercise of this right of self-defence shall be immediately reported to the Secu-
+rity Council and shall not in any way affect the authority and responsibility of 
+the Security Council under the present Charter to take at any time such action 
+as it deems necessary in order to maintain or restore international peace and 
+security.
+As noted, President Putin invoked Article 51 in his statement setting out Rus-
+sia’s case for action against Ukraine. Russia also wrote to the UN Security Council 
+informing it of its invocation of the right of self-defence,99 as required by Article 
+51, albeit not expanding upon its exercise of the right in any detail or having sub-
+sequently updated the Council on the specific measures taken in the exercise of this 
+right.100 Article 51 permits both individual and collective self-defence. Thus, Russia 
+would be equally entitled to afford military assistance to another state that has been 
+attacked as it would be to defend itself. However, there are several problems in cat-
+egorising Russia’s military action against Ukraine as a defensive act.
+Article 51 is predicated on there having been an armed attack against the state 
+exercising the right of self-defence or that which it is supporting through collective 
+self-defence measures. There is a certain degree of confusion in Putin’s statement as 
+to who is responsible of having attacked who. Putin went to some lengths to spell 
+out the threat felt by Russia as a consequence of NATO’s eastward expansion, but 
+there is no suggestion that NATO members have attacked Russia, while Putin goes 
+on to specifically refer to a ‘permanent threat from the territory of today’s Ukraine’. 
+However, Putin fails to cite any specific military action that has been taken by 
+Ukraine against Russia, and indeed there is no evidence to suggest that any such act 
+has taken place prior to Russia’s commencement of military operations on 24 Febru-
+ary. Although Russia has made claims that Ukraine has undertaken actions against 
+the territory of Donetsk and Luhansk,101 warranting Russian military assistance in 
+support of their collective self-defence, apart from doubts over the satisfaction of 
+evidential standards to warrant such assertions, the ability to assist these regions in 
+acts of self-defence would be dependent upon their statehood. A sub-state unit does 
+not enjoy a right of self-defence against a parent state. Article 51 is quite clear in 
+this respect, reserving the right to responses to armed attacks against members of 
+the United Nations—which only states can be.102 It is surely significant that Russia 
+moved to recognise Donetsk and Luhansk before commencing military operations 
+against Ukraine, yet the fact that other states have declined to do so underlines the 
+fact that on most assessments they fail to satisfy the criteria for statehood. That these 
+regions only found themselves able to exercise a degree of de facto independence 
+99 Letter dated 24 February 2022 from the Permanent Representative of the Russian Federation to the 
+United Nations addressed to the Secretary-General, UN Doc. S/2022/154.
+100 The Russian letter merely annexed Putin’s statement of the same day by way of explanation. See 
+ibid., Annex.
+101 See, e.g., UN Docs. S/PV.8968 (at pp. 9–12), S/PV.8974 (at p. 11), S/PV.8979 (at p. 12).
+102 Art. 4 UN Charter.
+400 S. Cavandoli, G. Wilson 
+123
+from Ukraine as a result of Russian intervention further undermines their claims to 
+independence,103 a duty of non-recognition arising in such circumstances.104
+There is increased acceptance within discussions of the right of self-defence that, 
+notwithstanding Article 51’s requirement of an armed attack, it permits defensive 
+action to be taken in response to broader threats directed against states. In particu-
+lar, there is a considerable body of support for the existence of a right of anticipa-
+tory self-defence derived from customary international law.105 This permits states to 
+take action in anticipation of an armed attack that is imminent.106 Although Russia 
+has not formally suggested that it acted in anticipation of an attack by Ukraine, its 
+proclaimed objective of ‘demilitarising’ Ukraine might be taken to implicitly sug-
+gest that it was regarded as posing an imminent military threat that needed to be 
+eliminated. However, no evidence has been adduced to support any such assump-
+tion. Furthermore, on the basis of any informed assessment of the relative military 
+capacities of Russia and Ukraine,107 to label Ukraine as a military threat to Russia 
+would appear preposterous.
+Putin’s reference to the growing threat posed to Russia as a result of NATO’s 
+presence in neighbouring countries and a permanent threat faced from Ukraine as 
+a result of potential NATO expansion further eastward might be taken as indica-
+tive of a desire to take action to weaken or remove the prospect of military action 
+in the future being directed against Russia from Ukraine. This would sit coherently 
+with Putin’s proclaimed objective of the military action launched on February 24 
+to ‘demilitarize’ Ukraine. By destroying Ukraine’s military capacity, any ability to 
+threaten Russia in the future would be severely weakened. However, this would be 
+to take the basis of Russia’s justificatory discourse into the realms of pre-emption, a 
+hugely controversial notion in international law. Whereas anticipatory self-defence 
+is based on action to respond to threats in circumstances where an armed attack is 
+imminent, there being relatively conclusive evidence of its impending nature, the 
+logic of pre-emption is that states may act to remove threats before they even mate-
+rialise. In this sense it is a very speculative notion. Famously advanced by the US in 
+its post-9/11 national security strategy,108 there is little support for the doctrine in 
+state practice.109
+Even where a legitimate right of self-defence arises, it is conditioned by require-
+ments which govern the manner of its exercise. Measures taken in self-defence must 
+103 Katchanovski (2016).
+104 For discussion of the content of the duty of non-recognition, see Talmon (2005), pp. 99–125.
+105 See, e.g., Wilmhurst (2005); Maogoto (2004); Ronzitti (2006).
+106 The classic formulation of anticipatory self-defence under customary international law is found in the 
+Caroline Incident, which required ‘a necessity of self-defence, instant, overwhelming, leaving no choice 
+of means, and no moment for deliberation’. The incident is summarised in Wood (2018).
+107 According to SIPRI data, Russia’s military expenditure in 2020 was over ten times that of Ukraine. 
+See SIPRI, Military Expenditure by Country (2021), https:// sipri. org/ sites/ defau lt/ files/ Data% 20for% 
+20all% 20cou  ntries%  20from%  201988%  E2%  80% 932020%  20in%  20con  stant%  20% 282019%  29% 20USD%  
+20% 28pdf% 29. pdf (accessed 27 June 2022).
+108 US National Security Strategy, September 2002, Pt. V, https:// georg  ewbush- white house. archi ves. gov/ 
+nsc/ nss/ 2002/ (accessed 27 June 2022).
+109 See, e.g., Henderson (2010), pp. 171–193; Deeks (2015), pp. 661–678.
+401
+Distorting Fundamental Norms of International Law to Resurrect…
+123
+be necessary and proportionate in response to the threat which they seem to repel, 
+requirements that have been confirmed in ICJ rulings on multiple occasions.110 
+Although it is difficult to establish any solid legal basis for Russia’s exercise of a 
+right of self-defence against Ukraine, even if the requirements for such a right to 
+arise were satisfied it would be difficult to consider Russia’s military action from 
+24 February onwards as being compliant with the strictures of necessity and pro-
+portionality. Measures taken in self-defence would typically be expected to be tar -
+geted and specific in nature, designed at repelling the armed attack against which 
+they had been initiated in response. Although President Putin claimed that Russia 
+did not intend the occupation of Ukraine, the scale of the military operation under -
+taken by Russia represents an onslaught of the gravest form with it being difficult to 
+draw any conclusion other than that its ultimate objective is the complete subjuga-
+tion and domination of Ukraine. This further undermines any suggestion that Rus-
+sia’s actions are compatible with the right of self-defence.
+5.4  Humanitarian Intervention? Identifying an Oppressor and a Victim
+In some respects, it may be easier for Russia to attempt to base its military action 
+against Ukraine on the doctrine of humanitarian intervention than self-defence, as 
+this does not require evidence of any attack committed by Ukraine against Russia or 
+hinge upon the legal status of Donetsk and Luhansk if it is alleged they have suffered 
+from military action originating from Ukrainian authorities. However, humanitarian 
+intervention represents a controversial notion which continues to divide the inter -
+national community, although there are some indications that it has gained in terms 
+of its perceived acceptability,111 even if traditionally states have avoided invoking it 
+as their justification for the use of force.112 The major difficulty with humanitarian 
+intervention as an exception to the prohibition on the use of force lies in the fact that 
+it is not one of those grounds upon which military force may be exercised provided 
+for within the UN Charter, it being necessary to identify its emergence as a princi-
+ple of customary international law grounded in state practice. While it cannot be 
+claimed that there is an undeniable right of humanitarian intervention, there have 
+certainly been some signs in the post-Cold War era that states look more favour -
+ably upon what would otherwise constitute unlawful uses of force where accom-
+panied by humanitarian objectives than was once the case. A significant step was 
+arguably the international reaction to NATO’s military campaign against the Federal 
+Republic of Yugoslavia (FRY) in response to the FRY authorities oppression of the 
+Kosovar Albanian population. Although UN Security Council authorisation for the 
+110 See, e.g., Nicaragua case, supra n. 72; Legality of the Threat or Use of Nuclear Weapons, Advisory 
+Opinion of 8 July 1996, ICJ Reports 1996, p. 226, at p. 245.
+111 See, e.g., discussions cited supra n. 75.
+112 Classic examples of such an approach being taken by intervening states are found with the inter -
+ventions in Bangladesh, Uganda and Cambodia during the 1970s when notwithstanding the severe 
+humanitarian crises existing and addressed by the military interventions, legal justifications offered were 
+grounded in the more conventional right of self-defence. See Wheeler (2000), chs. 2–4.
+402 S. Cavandoli, G. Wilson 
+123
+operation was not forthcoming due to the likelihood of Russian and Chinese vetoes, 
+it is notable that a draft resolution condemning NATO was roundly defeated in the 
+Council,113 leaving the action with an air of legitimacy if not strictly legality.114 In 
+subsequent proceedings before the ICJ some of the intervening NATO states cited 
+humanitarian grounds in support of the action.115 The UN’s later endorsement of the 
+Responsibility to Protect doctrine underlined the fact that there is growing collec-
+tive appreciation of the need for robust action to tackle humanitarian crises,116 and 
+the Security Council has referred to the doctrine in the context of the conferment of 
+mandates to use force to further humanitarian objectives.117 Although there is no 
+consensus upon what specifically humanitarian intervention is or requires, it can be 
+regarded on a general level as entailing non-consensual military intervention by one 
+or more states within the territory of another state for the purpose of ending or ame-
+liorating the effects of serious human rights abuses or humanitarian crises.118
+A number of assertions by Russia have hinted at the humanitarian basis of their 
+intervention against Ukraine, ranging from claims that Russian speakers have been 
+oppressed to wilder charges of genocide being perpetrated by Ukraine.119 There is 
+no evidence to support the more outlandish claims made by Russia. In proceedings 
+brought before the ICJ by Ukraine pursuant to the Genocide Convention, the ICJ 
+went so far as to assert that it found no evidence to substantiate Russia’s claims of 
+genocide.120 While it is plausible that instances of human rights abuses may have 
+arisen in Ukraine,121 even if such claims could be substantiated they would be likely 
+to fall far short of the threshold which is typically laid down for the exercise of any 
+right of humanitarian intervention to arise. Put simply, it requires far more than the 
+existence of some human rights abuses, instead necessitating widescale abuses caus-
+ing significant deaths.122 Furthermore, any Russian claims of serious human rights 
+113 UN Doc. S/1999/328, 26 March 1999.
+114 For discussions of the legal nature of the military action, see, e.g., Simma (1999); Cassese (1999).
+115 See ICJ: Legality of Use of Force (Serbia and Montenegro v. Portugal, United Kingdom, Netherlands, 
+Italy, Germany, Canada, France, Belgium) [February 18, 2005], 44 ILM 299 (2005). For discussion, see 
+Vitucci (2006).
+116 UN Doc. A/60/L.1, paras. 138–139.
+117 E.g., SC Res. 1973 (2011), in relation to Libya. It is important to note, however, that the Council’s 
+references to the Responsibility to Protect have accompanied authorisations to use force pursuant to its 
+UN Charter powers, and not in respect of unilateral military interventions lacking its authority.
+118 For example, Pattison defines humanitarian intervention as ‘forcible military action by an external 
+agent in the relevant political community with the predominant purpose of preventing, reducing, or halt-
+ing an ongoing or impending grievous suffering or loss of life’, in Pattison (2010), p. 28.
+119 See New York Times (2022c).
+120 Allegations of Genocide under the Convention on the Prevention and Punishment of the Crime of 
+Genocide (Ukraine v. Russian Federation), Provisional Measures, Order of 16 March 2022, para. 59.
+121 For independent assessments of levels of protection for human rights in Ukraine, see e.g., Amnesty 
+International’s 2021 Ukraine report, https:// www. amnes  ty. org/ en/ locat ion/ europe- and- centr  al- asia/ ukrai 
+ne/ report- ukrai ne/ (accessed 27 June 2022).
+122 Those who have advanced criteria to govern the exercise of any such right have set high the threshold 
+of suffering or fatalities which would warrant intervention. For example, Cassese envisaged ‘gross and 
+egregious breaches of human rights involving loss of life of hundreds or thousands of innocent people, 
+and amounting to crimes against humanity’. See Cassese (1999), p. 27.
+403
+Distorting Fundamental Norms of International Law to Resurrect…
+123
+abuses on the part of Ukraine are undermined by the nature of their own military 
+campaign which has come to utilise bomb and missile attacks against civilian tar -
+gets, likely placing it in breach of fundamental norms of international humanitarian 
+law.123
+To the extent that Russia has offered any legal justification for its attack on 
+Ukraine, it has sought to manipulate existing norms by advancing what are for the 
+most part outlandish factual claims to serve as the basis for their vague implicit 
+articulation of established legal principles in support of military actions undertaken 
+to reassert Russian control within the former Soviet space. The claims made in 
+respect of Ukraine simply reflect those made at the time of its earlier interventions 
+in Georgia and Crimea, and in this sense current events are simply the latest, most 
+brutal stage in Russia’s approach to retaining influence in its near abroad.
+6  The Wider Implications of Russia’s Interference in Ukraine
+While unpicking the strategic and policy objectives underpinning Russia’s interven-
+tion in Ukraine in detailed terms is a task for which international relations schol-
+ars are better placed to undertake, it is nonetheless possible to make some general 
+observations upon the nature of the Ukrainian situation and its potential wider 
+implications in both legal and political terms. In simple terms, Russia’s intervention 
+can be understood by reference to its policy objective of maintaining and/or extend-
+ing its influence within its near abroad, essentially the former component republics 
+of the Soviet Union, particularly those which neighbour it.124 This objective may 
+be regarded as serving a combination of assertive and defensive aims, Russia seek -
+ing to reassert a level of influence that has waned in the post-Cold War era, while 
+also acting to pre-empt threats which it perceives may come to endanger its interests 
+associated with political developments in neighbouring states. Recent developments 
+in Ukraine cannot be understood in isolation from Russia’s previous interferences 
+in the Donbas and Crimea, as well as yet earlier interventions in Georgia. While the 
+events of 2022 may have taken on a far more severe form than those earlier cited 
+actions on Russia’s part, they all form part of an ongoing, overriding narrative built 
+around a singular policy goal. Furthermore, while varying to a degree in terms of 
+their specifics, there is a certain level of consistency in Russia’s purported legal 
+justifications for its actions that rely on dubious claims of a humanitarian impera-
+tive to act, invitations to intervene and farcical assertions of exercising the right of 
+self-defence. Russia’s justificatory discourse on each occasion has been accompa-
+nied by an attempt to link it to proclaimed rights of self-determination on the part 
+123 In particular, Art. 51 of the 1st Protocol Additional to the Geneva Conventions 1949, adopted in 
+1977. This provision prohibits targeting of civilians or civilian objects. The UN Office of the High Com-
+missioner for Human Rights (OHCHR) itself raised the possibility that Russian attacks on civilian targets 
+may amount to war crimes. See ‘Russian attacks on civilian targets in Ukraine could be a war crime: UN 
+rights office’, OHCHR, 11 March 2022, https:// news. un. org/ en/ story/ 2022/ 03/ 11137 82 (accessed 27 June 
+2022).
+124 See Abushov (2009); Simao (2016); Rezvani (2020).
+404 S. Cavandoli, G. Wilson 
+123
+of allegedly oppressed groups and its recognition of their independent statehood to 
+bolster its questionable bases for the use of force. Russian legal discourse becomes 
+all the more questionable when it is considered that they have rejected similar argu-
+ments related to humanitarian intervention and self-determination when advanced in 
+other situations, particularly that of Kosovo.125
+Growing tensions between Russia and the US, which replaced the newfound 
+cooperation between them which represented one of the hallmarks of the early post-
+Cold War era, have prompted the question of whether the world has entered a new 
+Cold War. An exploration of the contrasts between that period and current circum-
+stances is far beyond the scope of this article, but it is pertinent to note that some 
+analogies certainly exist with Soviet interventions in the satellite states of Eastern 
+Europe—Hungary 1956 and Czechoslovakia 1968 specifically—where the govern-
+ments of those states sought to chart a political course at odds with that favoured by 
+their Soviet masters.126 It is difficult to foresee Russia attempting or being able to 
+easily assert its influence over those former satellite states that now enjoy member -
+ship of the EU and/or NATO, but it does not appear to have given up on this objec-
+tive insofar as the neighbouring former Soviet states are concerned. Now, as during 
+the Cold War, Russia enjoys a certain degree of immunity from punitive interna-
+tional measures for its actions in legal terms through its permanent membership of 
+the UN Security Council (and accompanying veto power) and politically by virtue 
+of its nuclear status.
+At the time of writing, it is not possible to predict how the current situation will 
+develop or conclude. It appears difficult to envisage a situation emerging in which 
+Russia seizes complete control of Ukraine and most discussions centre on the post-
+conflict status of Ukraine vis-à-vis its relationship simultaneously with Russia and 
+those organisations to which it aspires to join. Some indications have emerged of 
+progress in peace talks,127 although the key issues of contention are likely to cen-
+tre on Ukraine’s potential neutrality status, and control of the Donbas and Crimea 
+regions. As the price for a lasting peace, it appears conceivable that Ukraine may 
+accept a neutral status which would involve its foregoing of possible NATO mem-
+bership, while concessions may also be made which envisage a potential change to 
+the territorial status of those regions which Russia has recognised as independent 
+states or annexed as part of Russia.128
+Outcomes along some of these lines may legitimately warrant charges that inter -
+national law has been ineffective, actions widely condemned as unlawful having 
+instigated consequences that represent a gross compromising of Ukraine’s sover -
+eignty and territorial integrity. Undoubtedly, international law suffers from its limi-
+tations in the face of the application of might by a major power. However, the scale 
+125 See, e.g., UN Doc. S/PV. 3989, pp. 5–6 for Russian condemnation of NATO’s intervention in 
+response to events in Kosovo, and UN Doc. S/PV. 5839, pp. 6–7 for its rejection of Kosovo’s purported 
+independence from Serbia.
+126 For an overview of developments in these states culminating in Soviet intervention, see Judt (2005), 
+pp. 313–323, 440–447.
+127 New York Times (2022d).
+128 The Guardian News (2022).
+405
+Distorting Fundamental Norms of International Law to Resurrect…
+123
+of international condemnation of Russia’s intervention in Ukraine and the accompa-
+nying widespread imposition of sanctions by significant swathes of the international 
+community demonstrate the continued respect for the fundamental applicable norms 
+of international law and disinclination to tolerate consequences brought about by 
+their violation. In this respect, the international unity evidenced stands in contrast 
+to the more polarised nature of the global divisions that perpetuated the Cold War 
+environment. The Cold War remains lost for Russia, but there is a danger that it 
+stands to become a pariah state in the eyes of much of the international community 
+unless it moderates its means of furthering its policy objectives accordingly. Rus-
+sia’s successful engagement as a serious global actor arguably depends upon such a 
+change taking place.
+7  Conclusion
+The Russian government’s ‘special military operation’ in Ukraine is still ongoing 
+at the time of writing. President Putin’s distorted interpretation and application of 
+international legal norms has led to the loss of thousands of lives, the destruction of 
+numerous cities and the largest refugee crisis in Europe since WWII. The key con-
+tention of this article has been to demonstrate how key principles of public interna-
+tional law, including self-determination and the use of force have been manipulated 
+by Russia to justify the invasion of Ukraine. As previously mentioned, such tactics 
+are not new and were used by Russia in its earlier interventions in Georgia (2008) 
+and Crimea (2014). The only difference this time around is that the intervention has 
+not been so straightforward thanks to the unexpected resistance of the Ukrainian 
+army.
+It has been suggested that Putin is nostalgic for the Soviet Union and wishes to 
+re-form the USSR. In 2005, Putin called the Soviet collapse ‘the biggest geopolitical 
+catastrophe of the twentieth century’. He further clarified this statement by adding, 
+‘tens of millions of our citizens and countrymen found themselves outside Russian 
+territory’.129 In other words, the Soviet collapse was a catastrophe specifically for 
+Russians because it left their country divided and incomplete. In December 2021, 
+Putin further elaborated on this point and described the fall of the USSR as ‘the 
+disintegration of historical Russia under the name of the Soviet Union’. ‘We turned 
+into a completely different country’, he claimed. ‘And what had been built up over 
+1000 years was largely lost’.130
+Putin considers Ukraine to be the greatest loss of all. The invasion of Ukraine has 
+been on the cards for some time. In March 2014, Putin wrote ‘Kiev is the mother of 
+Russian cities. Ancient Rus is our common source and we cannot live without each 
+other’.131 A few days later Russia went ahead and annexed Crimea. Shortly after, 
+129 BBC News Online (2005).
+130 Kuzio (2022).
+131 Address by President of the Russian Federation, 18 March 2014, http:// en. kreml in. ru/ events/ presi 
+dent/ news/ 20603 (accessed 27 June 2022).
+406 S. Cavandoli, G. Wilson 
+123
+Russia instigated civil conflict in the Donbas region causing the loss of thousands of 
+lives over a period of 8 years. On 21 February 2022, Putin revisited this idea by stat-
+ing that ‘Ukraine is not just a neighbouring country for us, it is an inalienable part 
+of our own history, culture and spiritual space’. He continued by repeatedly deny -
+ing Ukraine’s independence and existence as a sovereign nation.132 When one looks 
+at these pronouncements it is clear what Putin’s dominant motive is. Denying that 
+Ukraine has any right to statehood independent of Russia and glorifying the expan-
+sionism of his country’s Czarist and Stalinist past, he is engrossed in a reaction-
+ary nostalgia for empire. Or put simply, his aim is to Make Russia Great Again.133 
+Putin’s imperialist fantasy poses a serious threat to international peace and is a clear 
+affront to fundamental principles of international law.
+However, the consequences of Russia’s actions for the future of international law 
+must not be overstated. While it is difficult to view the political situation arising 
+from Russia’s intervention in Ukraine in anything other than negative terms, argu-
+ably it is possible to consider its wider international legal dimension through a more 
+optimistic lens. Russia’s flagrant violation of core tenets of the global legal order 
+undoubtedly demonstrates the fragility of international law in the absence of auto-
+mated enforcement mechanisms, which are all the more problematic where pow -
+erful states seek to advance policy objectives that are justified by controversial or 
+unfounded claims, grounded in gross distortions of fundamental norms of interna-
+tional law. The limits of international law are undeniable. However, all systems of 
+rules are imperfect in the extent of their observance. Arguably the future legitimacy 
+of international law is only seriously damaged if attempts to distort its core princi-
+ples come to set precedential value to the extent that they result in a major overhaul 
+of those principles and the assumptions upon which they are based. This is avoided 
+where the wider international community of states reject and condemn such distor -
+tions, as indeed they roundly have in response to Russia’s actions against Ukraine. 
+States have always sought to interpret legal norms to support their courses of action. 
+This in itself highlights the value which is attached to the system of international 
+law and the perceived legitimacy which derives from its invocation.
+Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, 
+which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as 
+you give appropriate credit to the original author(s) and the source, provide a link to the Creative Com-
+mons licence, and indicate if changes were made. The images or other third party material in this article 
+are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the 
+material. If material is not included in the article’s Creative Commons licence and your intended use is 
+not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission 
+directly from the copyright holder. To view a copy of this licence, visit http:// creat iveco mmons. org/ licen 
+ses/ by/4. 0/.
+132 Address by the President of the Russian Federation, 21 February 2022, http:// en. kreml in. ru/ events/ 
+presi dent/ news/ 67828 (accessed 27 June 2022).
+133 See Wittner (2022).
+407
+Distorting Fundamental Norms of International Law to Resurrect…
+123
+References
+Abushov K (2009) Policing the near abroad: Russian foreign policy in the South Caucasus. Aust J Int Aff  
+63(2):187–212
+Al Jazeera (2022) Ukraine: World reacts to Putin’s recognition of Donetsk, Luhansk. 22 February 2022. 
+https:// www. aljaz eera. com/ news/ 2022/2/ 21/ world- react ion- to- putins- move- to- recog ise- ukrai ne-  
+rebel- regio ns. Accessed 13 June 2022
+BBC News Online (2005) Putin deplores collapse of USSR. 25 April 2005. http:// news. bbc. co. uk/1/ hi/ 
+44807 45. stm. Accessed 13 June 2022
+BBC News Online (2014) Ukraine rebels hold referendums in Donetsk and Luhansk. 11 May 2014. www. 
+bbc. co. uk/ news/ world- europe- 27360 146. Accessed 13 June 2022
+BBC News Online (2022) Ukraine: Putin announces Donetsk and Luhansk recognition. 21 February 
+2022. https:// www. bbc. co. uk/ news/ av/ world- europe- 60470 900. Accessed 13 June 2022
+Besemeres A (2016) A difficult neighbourhood—essays on Russia and East-Central Europe since World 
+War II. Australian National University Press, Canberra
+Blum Y (1992) Russia takes over the Soviet Union’s seat at the United Nations. Eur J Int Law 3:354–361
+Cassese A (1999) Ex iniuria ius oritur: are we moving towards international legitimation of forcible 
+humanitarian countermeasures in the world community? Eur J Int Law 10(1):23–30
+Cavandoli S (2016) The unresolved dilemma of self-determination: Crimea, Donetsk and Luhansk. Int J 
+Hum Rights 20(7):875–892
+Cengel K (2022) The 20th-century history behind Russia’s invasion of Ukraine. Smithsonian Magazine, 
+4 March 2022. https:// www. smith sonia nmag. com/ histo ry/ the- 20th- centu ry- histo ry- behind- russi as- 
+invas ion- of- ukrai ne- 18097 9672/. Accessed 27 June 2022
+Chadwick E (2015) National liberation in the context of post- and non-colonial struggles for self-deter -
+mination. In: Weller M (ed) The Oxford handbook of the use of force in international law. Oxford 
+University Press, Oxford, pp 841–860
+Chesterman S (2001) Just war or just peace? Humanitarian intervention and international law. Oxford 
+University Press, Oxford
+Corten O (2010) The law against war: the prohibition on the use of force in contemporary international 
+law. Hart, Oxford
+Curtis J, Mills C (2022) Military assistance to Ukraine since the Russian invasion. House of Commons 
+Library Research Briefing. https:// resea rchbr  iefin gs. files. parli ament. uk/ docum ents/ CBP- 9477/ CBP- 
+9477. pdf. Accessed 13 June 2022
+Deeks AS (2015) Taming the doctrine of pre-emption. In: Weller M (ed) The Oxford handbook of the use 
+of force in international law. Oxford University Press, Oxford, pp 661–678
+Denber R (2022) New language requirement raises concerns in Ukraine. Human Rights Watch. https:// 
+www. hrw. org/ news/ 2022/ 01/ 19/ new- langu age- requi rement- raises- conce rns- ukrai ne. Accessed 13 
+June 2022
+Dinstein Y (2017) War, aggression and self-defence, 6th edn. Cambridge University Press, Cambridge
+Esposito R (2020) Ukraine, self-determination, and emerging norms for unilateral secession of states. 
+Wash Univ Glob Stud Law Rev 19(1):139–163
+Financial Times (2022) Joe Biden says there is still ‘room for diplomacy’ to solve Ukrainian crisis. 15 
+February 2022. https:// www. ft. com/ conte nt/ 4f2dd 5d6- 8f9a- 4b7d- 97c1- 8cf39 9e3c5 e3. Accessed 13 
+June 2022
+Fox GH (2015) Intervention by invitation. In: Weller M (ed) The Oxford handbook of the use of force in 
+international law. Oxford University Press, Oxford, pp 816–840
+Fukuyama F (1992) The end of history and the last man. Free Press, New York
+Henderson C (2010) The persistent advocate and the use of force. Ashgate, Farnham
+Judt T (2005) Postwar: a history of Europe since 1945. Vintage, London
+Katchanovski I (2016) The separatist war in Donbas: a violent break-up of Ukraine? Eur Politics Soc 
+17(4):473–489
+Kuzio T (2022) Inside Putin’s Ukraine obsession. Atlantic Council, 27 January 2022. https:// www. atlan 
+ticco uncil. org/ blogs/ ukrai neale rt/ inside- putins- ukrai ne- obses sion/. Accessed 13 June 2022
+Lutsevych O (2021) Ukraine-Russia relations. Chatham House, 24 November 2021. https:// www. chath 
+amhou se. org/ 2021/ 11/ ukrai ne- russia- relat ions. Accessed 13 June 2022
+408 S. Cavandoli, G. Wilson 
+123
+Lenoe M (2022) Fact-checking Putin’s claims that Ukraine and Russia are ‘one people’. University of 
+Rochester, 3 March 2022. https:// www. roche ster. edu/ newsc enter/ ukrai ne- histo ry- fact- check ing- 
+putin- 513812/. Accessed 13 June 2022
+Maogoto JN (2004) New frontiers, old problems: the war on terror and the notion of anticipating the 
+enemy. Neth Int Law Rev 51:1–39
+New York Times (2022a) U.S. says Russia sent saboteurs into Ukraine to create pretext for invasion. 14 
+January 2022. https:// www. nytim es. com/ 2022/ 01/ 14/ us/ polit ics/ russia- ukrai ne- us- intel ligen ce. html. 
+Accessed 13 June 2022
+New York Times (2022b) Putin calls Ukrainian statehood a fiction. History suggests otherwise. 21 Febru-
+ary 2022. https:// www. nytim es. com/ 2022/ 02/ 21/ world/ europe/ putin- ukrai ne. html. Accessed 13 June 
+2022
+New York Times (2022c) Putin’s case for war, annotated. 24 February 2022. https:// www. nytim es. com/ 
+2022/ 02/ 24/ world/ europe/ putin- ukrai ne- speech. html. Accessed 13 June 2022
+New York Times (2022d) Peace talks produce signs of progress, but no end to war is in sight. 29 
+March 2022. https:// www. nytim es. com/ 2022/ 03/ 29/ world/ europe/ peace- talks- russia- ukrai ne. html. 
+Accessed 13 June 2022
+Pattison J (2010) Humanitarian intervention and the responsibility to protect. Oxford University Press, 
+Oxford
+Pentassuglia G (2022) Ukraine: What’s behind Putin’s ethnic irredentism? Reset Dialogues on Civiliza-
+tions. https:// www. reset doc. org/ story/ ukrai ne- whats- behind- putins- ethnic- irred entism/. Accessed 13 
+June 2022
+Pirie PS (1996) National identity and politics in Southern and Eastern Ukraine. Eur Asia Stud 
+48:1079–1104
+Putin V (2021) On the historical unity of Russians and Ukrainians. Boris Yeltsin Library. https:// www. 
+prlib. ru/ en/ artic le- vladi mir- putin- histo rical- unity- russi ans- and- ukrai nians. Accessed 13 June 2022
+Ronzitti N (2006) The expanding law of self-defence. J Confl Secur Law 11(3):343–359
+Rezvani B (2020) Russian foreign policy and geopolitics in the Post-Soviet space and the Middle East: 
+Tajikistan, Georgia, Ukraine and Syria. Middle East Stud 56(6):878–899
+Roth B (1999) Governmental illegitimacy in international law. Clarendon Press, Oxford
+Rumer E, Weiss AS (2021) Ukraine: Putin’s unfinished business. Carnegie Endowment for International 
+Peace, 12 November 2021. https:// carne gieen dowme nt. org/ 2021/ 11/ 12/ ukrai ne- putin-s- unfin ished- 
+busin ess- pub- 85771. Accessed 13 June 2022
+Samkharadze N (2021) Russia’s recognition of the independence of Abkhazia and South Ossetia: analysis 
+of a deviant case in Moscow’s foreign policy behavior. Columbia University Press, New York
+Sarotte ME (2022) Russia, Ukraine and the 30 year quest for a Post-Soviet order. The Weekend Essay, 
+The Financial Times, 25 February 2022. https:// www. ft. com/ conte nt/ 742f1 5fc- 675a- 4622- b022- 
+cbec4 44651 cf. Accessed 13 June 2022
+Schrijver N (2015) The ban on the use of force in the UN Charter. In: Weller M (ed) The Oxford hand-
+book of the use of force in international law. Oxford University Press, Oxford, pp 465–484
+Shveda Y, Park JH (2016) Ukraine’s revolution of dignity: the dynamics of Euromaidan. J Eurasian Stud 
+7:85–91
+Simao L (2016) The Ukrainian conflict in Russian foreign policy: rethinking the interconnections 
+between domestic and foreign policy strategies. Small Wars Insur 27(3):491–511
+Simma B (1999) NATO, the UN and the use of force: legal aspects. Eur J Int Law 10(1):1–22
+Sky News (2022) Russia launches invasion of Ukraine—Putin’s troops ‘seize control’ of Chernobyl 
+nuclear disaster site. 25 February 2022. https:// news. sky. com/ story/ russia- launc  hes- invas ion- of- 
+ukrai ne- forces- trying- to- seize- site- of- chern obyl- nucle ar- disas  ter- 12550 026#. Accessed 13 June 
+2022
+Sterio M (2013) The right to self-determination under international law: ‘selfistans’, secession and the 
+rule of the Great Powers. Routledge, London
+Sterio M (2014–2015) Self-determination and secession under international law: the new framework. 
+ILSA J Int Comp Law 23:293–306
+Stokes G (2011) The walls came tumbling down: collapse and rebirth in Eastern Europe, 2nd edn. Oxford 
+University Press, Oxford
+Suny R (2022) Ukraine war follows decades of warnings that NATO expansion into Eastern Europe could 
+provoke Russia. The Conversation, 28 February 2022. https:// theco nvers ation. com/ ukrai ne- war- follo 
+ws- decad es- of- warni ngs- that- nato- expan sion- into- easte rn- europe- could- provo ke- russia- 177999. 
+Accessed 13 June 2022
+409
+Distorting Fundamental Norms of International Law to Resurrect…
+123
+Talmon S (2005) The duty not to ‘recognize as lawful’ a situation created by the illegal use of force or 
+other serious breaches of a jus cogens obligation: an obligation without real substance? In: Tomus-
+chat C, Thouvenin J-M (eds) The fundamental rules of the international legal order. Brill, Leiden, 
+pp 99–125
+The Guardian (2014a) Crimea votes to secede from Ukraine in ‘illegal’ poll. 16 March 2014. https:// 
+www. thegu ardian. com/ world/ 2014/ mar/ 16/ ukrai ne- russia- truce- crimea- refer  endum. Accessed 13 
+June 2022
+The Guardian (2014b) Ukraine: Putin approves draft bill for Russia to annex Crimea. 18 March 2014. 
+https:// www. thegu ardian. com/ world/ 2014/ mar/ 18/ ukrai ne- putin- draft- bill- russia- annex- crimea. 
+Accessed 13 June 2022
+The Guardian (2014c) Pro-Russian rebels vow to take control of infrastructure across Donetsk region. 14 
+April 2014. https:// www. thegu ardian. com/ world/ 2014/ apr/ 14/ ukrai ne- deadl ine- pro- russi an- rebels- 
+passes. Accessed 13 June 2022
+The Guardian (2021) Russia’s activity on the Ukraine border has put the west on edge. 2 December 
+2021. https:// www. thegu ardian. com/ world/ 2021/ dec/ 02/ ukrai ne- border- russia- west- troop- build up. 
+Accessed 13 June 2022
+The Guardian (2022a) How European response to Ukraine refugees differs from UK. 11 March 2022. 
+https:// www. thegu ardian. com/ global- devel opment/ 2022/ mar/ 11/ we- must- welco me- them- how-  
+europe- is- helpi ng- ukrai nian- refug  ees. Accessed 13 June 2022
+The Guardian (2022b) Putin signals escalation as he puts Russia’s nuclear force on high alert. 28 Febru-
+ary 2022. https:// www. thegu ardian. com/ world/ 2022/ feb/ 27/ vladi mir- putin- puts- russia- nucle ar- deter 
+rence- forces- on- high- alert- ukrai ne. Accessed 13 June 2022
+The Guardian News (2022) Zelenskiy: Ukraine willing to discuss neutrality and compromise on Donbas. 
+28 March 2022. https:// www. youtu be. com/ watch?v= Q5A7S zTyTqo. Accessed 13 June 2022
+The Independent (2022a) Russia denies looking for pretext to invade Ukraine. 17 January 2022. https:// 
+www. indep endent. co. uk/ news/ world/ ameri cas/ us- polit ics/ russia- ukrai ne- sergey- lavrov- nato- washi  
+ngton- b1994 574. html. Accessed 13 June 2022
+The Independent (2022b) Russia approves use of armed forces abroad as US says invasion of Ukraine 
+‘underway’. 22 February 2022. https:// www. indep endent. co. uk/ news/ world/ europe/ putin- russia- 
+ukrai ne- milit  ary- invas ion- b2020 642. html. Accessed 13 June 2022
+Toomey M (2009) The August 2008 battle of South Ossetia: does Russia have a legal argument for inter -
+vention? Tempe Int Comp Law J 23:443–477
+UKRINFORM (2018) Parliament passes bill on Ukrainian language at first reading. 4 October 2018. 
+https:// www. ukrin form. net/ rubric- polyt ics/ 25520 57- parli ament- passes- bill- on- ukrai nian- langu age-  
+at- first- readi ng. html. Accessed 13 June 2022
+Vitucci MC (2006) Has Pandora’s box been closed? The decisions on the Legality of Use of Force Cases 
+in relation to the status of the Federal Republic of Yugoslavia (Serbia and Montenegro) within the 
+United Nations. Leiden J Int Law 19(1):105–127
+Weiss TG (2016) Humanitarian intervention, 3rd edn. Polity, Cambridge
+Wesolowsky T (2017) Ukrainian Language Bill facing barrage of criticism from minorities, foreign capi-
+tals. Radio Free Europe. https:// www. rferl. org/a/ ukrai ne- langu age- legis lation- minor  ity- langu ages- 
+russia- hunga ry- roman ia/ 28753 925. html. Accessed 13 June 2022
+Wheeler N (2000) Saving strangers: humanitarian intervention in international society. Oxford University 
+Press, Oxford
+Wilmhurst E (2005) The Chatham House Principles of international law on the use of force in self-
+defence. Int Comp Law Q 55:963–972
+Wilson A (1995) The Donbas between Ukraine and Russia: the use of history in political disputes. J Con-
+temp Hist 30(2):265–289
+Wilson G (2009) Self-determination, recognition and the problem of Kosovo. Neth Int Law Rev 
+56:455–481
+Wilson G (2016) Secession and intervention in the former Soviet space: the Crimean incident and Rus-
+sian interference in its ‘near abroad’. Liverp Law Rev 37:153–175
+Wippman D (2015) Pro-democratic intervention. In: Weller M (ed) The Oxford handbook of the use of 
+force in international law. Oxford University Press, Oxford, pp 797–815
+Wittner L (2022) Putin’s attacks on Ukraine are squarely rooted in the imperialist 20th century. Opinion, 
+10 March 2022. https:// eu. lohud. com/ story/ opini on/ 2022/ 03/ 10/ putins- attac  ks- ukrai ne- rooted- imper 
+ialism/ 94375 68002/. Accessed 13 June 2022
+410 S. Cavandoli, G. Wilson 
+123
+Wood M (2018) The caroline incident—1837. In: Ruys T, Corten O, Hofer A (eds) The use of force in 
+international law: a case-based approach. Oxford University Press, Oxford, pp 5–15
+Publisher’s Note Springer Nature remains neutral with regard to jurisdictional claims in published maps 
+and institutional affiliations.
+© The Author(s) 2022. This work is published under
+http://creativecommons.org/licenses/by/4.0/
+(the “License”). Notwithstanding the ProQuest Terms
+and Conditions, you may use this content in
+accordance with the terms of the License.

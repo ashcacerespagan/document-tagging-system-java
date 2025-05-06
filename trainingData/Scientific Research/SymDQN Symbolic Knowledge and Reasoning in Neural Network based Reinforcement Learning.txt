@@ -1,0 +1,756 @@
+SymDQN: Symbolic Knowledge and Reasoning in Neural Network-based
+Reinforcement Learning
+Ivo Amador ,Nina Gierasimczuk
+Technical University of Denmark
+ivo.amador@gmail.com, nigi@dtu.dk
+Abstract
+We propose a learning architecture that allows
+symbolic control and guidance in reinforcement
+learning with deep neural networks. We intro-
+duce SymDQN , a novel modular approach that
+augments the existing Dueling Deep Q-Networks
+(DuelDQN ) architecture with modules based on
+the neuro-symbolic framework of Logic Tensor
+Networks (LTNs). The modules guide action policy
+learning and allow reinforcement learning agents to
+display behavior consistent with reasoning about
+the environment. Our experiment is an ablation
+study performed on the modules. It is conducted
+in a reinforcement learning environment of a 5x5
+grid navigated by an agent that encounters various
+shapes, each associated with a given reward. The
+underlying DuelDQN attempts to learn the optimal
+behavior of the agent in this environment, while
+the modules facilitate shape recognition and reward
+prediction. We show that our architecture signifi-
+cantly improves learning, both in terms of perfor-
+mance and the precision of the agent. The mod-
+ularity of SymDQN allows reflecting on the intri-
+cacies and complexities of combining neural and
+symbolic approaches in reinforcement learning.
+1 Introduction
+Despite its rapidly growing impact on society, Artificial In-
+telligence technologies are tormented by reliability issues,
+such as lack of interpretability, propagation of biases, dif-
+ficulty in generalizing across domains, and susceptibility to
+adversarial attacks. A possible way towards more inter-
+pretable, controlled and guided algorithms leads through the
+field of neuro-symbolic AI, which explores new ways of inte-
+grating symbolic, logic-based knowledge in neural networks
+(NNs). In particular, the framework of Logic Tensor Net-
+works (LTNs, for short) [Serafini and d’Avila Garcez, 2016;
+Badreddine et al. , 2022 ]enhances learning by interpreting
+first-order logic formulas concretely on data used by NNs al-
+gorithms. Such formulas express properties of data and, given
+a fuzzy semantics, can be integrated into the loss function,
+thus guiding the learning process.In this paper, we apply LTNs to a reinforcement learning
+problem. By integrating LTNs in the training process, our
+learning agent uses logic to learn the structure of the envi-
+ronment, to predict how different objects in the environment
+interact with each other, and to guide its actions by perform-
+ing elementary reasoning about rewards. We investigate how
+such integration affects learning performance of a robust, es-
+tablished and well-studied framework of Dueling Deep Q-
+Network ( DuelDQN , for short) [Wang et al. , 2016 ]. The
+structure of the paper is as follows. In Section 2 we briefly
+recall Logic Tensor Networks and elements of the underly-
+ing Real Logic. In Section 3 we introduce our methodology:
+theSymDQN architecture and its training process. We follow
+up with the presentation of the experiment in Section 4. We
+discuss of the results in Section 5. Section 6 concludes and
+outlines directions for future work.
+Related Work Since its conception, the framework of
+LTNs has been applied in various domains. In computer vi-
+sion, LTNs were used to inject prior knowledge about ob-
+ject relationships and properties, improving interpretability
+and accuracy in object detection [Donadello et al. , 2017 ].
+Their addition to convolutional neural networks improves the
+robustness on noisy data [Manigrasso et al. , 2021 ]. They
+enhance the accuracy in reasoning tasks in open-world and
+closed-world scenarios [Wagner and d’Avila Garcez, 2022 ].
+In[Bianchi and Hitzler, 2019 ], LTNs are leveraged for de-
+ductive reasoning tasks. Finally, in learning by reinforce-
+ment LTNs were used to integrate prior knowledge into re-
+inforcement learning agents improving both the learning rate
+and robustness to environmental changes [Badreddine and
+Spranger, 2019 ]. The latter work is similar to ours in the
+choice of tools, but it differs in its methodology. In [Badred-
+dine and Spranger, 2019 ], LTN is a separate pre-training mod-
+ule which interacts with DuelDQN only by creating inputs. In
+contrast, our SymDQN integrates LTN in the training process
+(making it learn alongside DuelDQN ).
+Our work uses logic to adjust elements of a reinforcement
+learning framework. In that, it is related to reward shaping ap-
+proaches, where the learner is given external symbolic infor-
+mation about the environment, e.g., in the form of linear time
+logic formulas (also known as restraining bolts) in [Giacomo
+et al. , 2019 ]or of an induced automaton in [Furelos-Blanco
+et al. , 2021 ]. In a way, the LTN approach is similar: logical
+formulas adjust the reinforcement learning process. However,arXiv:2504.02654v1  [cs.AI]  3 Apr 2025
+our technique is a more distributed form of reward shaping.
+First, the formulas of Real Logic are used as guides to obtain
+a symbolic representation of the environment, then to pre-
+dict immediate rewards from encountering the objects of the
+environment. Finally, a logical formula is used to help the
+learner align the q-values (the agent’s long term policy) with
+the predicted immediate rewards of symbolically represented
+objects. In other words, we restrain the reinforcement learner
+by expecting it to reason about its behavior as it learns, and
+we investigate the impact of this restriction on learning pre-
+cision and performance. We will come back to this issue in
+Section 5.1, after we have detailed all the components.
+2 Real Logic
+Real Logic is the basis of the functioning of LTNs. In this
+section we provide a rudimentary introduction (for a full ex-
+position consult [Badreddine et al. , 2022 ]). Let us start with
+a simple example.
+Example 1. Consider two datasets: a data set of humans
+(with two features: age and gender), and a dataset of pets
+(with three features: height, weight and color). Assume that
+Alice appears in the data set of humans (for instance as a five
+year old female), and Max and Mittens are listed in a dataset
+of pets. To be able to talk about Alice, Max and Mittens,
+we need a logical language that includes constants referring
+to objects (particular rows of the datasets). Note that such
+constants can be of different types —in our example humans
+consists of two, while pets are composed of three features.
+The signature of the language of Real Logic Lcontains
+a setCof constant symbols, a set Fof function symbols, a
+setPof predicate symbols, and a set Xof variable symbols.
+LetDbe a non-empty set of domain symbols (that represent
+types). Domain symbols are used by functions D,Din, and
+Doutwhich for a given element of the signature output its
+type, in the following way. D:X ∪ C → D specifies the
+types for variables and constants; Din:F ∪ P → D∗speci-
+fies the types of the sequence of arguments allowed by func-
+tion and predicate symbols ( D∗stands for the set of all finite
+sequences of elements from D);Dout:F → D specifies the
+type of the range of a function symbol.
+Example 2. Continuing Example 1, let the language of
+pet-ownership Lpets have the signature consisting of the
+set of constants C={ALICE,MAX,MIT}, a set of func-
+tion symbols F={OWNER }, a set of predicate sym-
+bolsP={ISOWNER}, and two variable symbols X=
+{PET,PERSON }. Further, we have two domain symbols, one
+for the domain of humans and one for pets, D={H, P}.
+Then, our domain functions can be defined in the follow-
+ing way. D(ALICE) = H(Alice is a constant of type
+H),D(MAX) =D(MIT) = P(Max and Mittens are of
+typeP). Further, each dataset will have its own variable:
+D(PET) =P,D(PERSON ) =H. We also need to specify in-
+puts for predicates: Din(ISOWNER ) =HP (ISOWNER is a
+predicate taking two arguments, a human and a pet). Finally,
+for functions, we need both the input and the output types:
+Din(OWNER ) =P, andDout(OWNER ) =H(OWNER takes
+as input a pet and outputs the human who owns it).The language of Real Logic corresponds to first-order
+logic, and so it allows for more complex expressions. The set
+of terms consists of constants, variables, and function sym-
+bols and is defined in the following way: each t∈X∪Cis a
+term of domain D(t); ift1, . . . , t nare terms, then t1. . . tnis
+a term of the domain D(t1)...D(tn); iftis a term of the do-
+mainDin(f), then f(t)is a term of the domain Dout(f). Fi-
+nally, the formulae of Real Logic are as follows: t1=t2is an
+atomic formula for any terms t1andt2withD(t1) =D(t2);
+P(t)is an atomic formula if D(t) =Din(P); ifφandψ
+are formulae and x1, . . . , x nare variable symbols, then ¬φ,
+φ∧ψ,φ∨ψ,φ→ψ,φ↔ψ,∀x1. . . x nφand∃x1. . . x nφ
+are formulae.
+Let us turn to the semantics of Real Logic. Domain
+symbols allow grounding the logic in numerical, data-driven
+representations—to be precise, Real Logic is grounded in
+tensors in the field of real numbers. Tensor grounding is
+the key concept that allows the interplay of Real Logic with
+Neural Networks. It refers to the process of mapping high-
+level symbols to tensor representations, allowing integration
+of reasoning and differentiable functions. A grounding G
+assigns to each domain symbol D∈ D a set of tensors
+G(D)⊆S
+n1...nd∈N∗Rn1×...×nd. For every D1. . . D n∈
+D∗,G(D1. . . D n) =G(D1)×. . .×G(Dn). Given a language
+L, a grounding GofLassigns to each constant symbol c, a
+tensorG(c)in the domain G(D(c)); to a variable xit assigns
+a finite sequence of tensors d1. . . d k, each in G(D(x)), rep-
+resenting the instances of x; to a function symbol fit assigns
+a function taking tensors from G(Din(f))as input, and pro-
+ducing a tensor in G(Dout(f))as output; to a predicate sym-
+bolPit assigns a function taking tensors from G(Din(P))
+as input, and producing a truth-degree in the interval [0,1]as
+output.
+In other words, Gassigns to a variable a concatenation of
+instances in the domain of the variable. The treatment of free
+variables in Real Logic is analogous, departing from the usual
+interpretation of free variables in FOL. Thus, the application
+of functions and predicates to terms with free variables re-
+sults in point-wise application of the function or predicate to
+the string representing all instances of the variable (see p. 5 of
+[Badreddine et al. , 2022 ]for examples). Semantically, logi-
+cal connectives are fuzzy operators applied recursively to the
+suitable subformulas: conjunction is a t-norm, disjunction
+is a t-conorm, and for implication and negation—its fuzzy
+correspondents. The semantics for formulae with quantifiers
+(∀and∃) is given by symmetric and continuous aggregation
+operators Agg :S
+n∈N[0,1]n→[0,1]. Intuitively, quan-
+tifiers reduce the dimensions associated with the quantified
+variables.
+Example 3. Continuing our running example, we could en-
+rich our signature with predicates Dog andCat. Then,
+Dog(Max)might return 0.8, while Dog(Mit)might return
+0.3, indicating that Max is likely a dog, while Mittens is not.
+In practice, the truth degrees for these atomic formulas could
+be obtained for example by a Multi-layer Perceptron (MLP),
+followed by a sigmoid function, taking the object’s features
+as input and returning a value in [0,1]. For a new function
+symbol age,age(Max)could be an MLP , taking Max’s fea-
+tures, and outputting a scalar representing Max’s age. An
+example of a formula could be Dog(Max)∨Cat(Max),
+which could return 0.95indicating that Max is almost cer-
+tainly either a dog or a cat. A formula with a universal quan-
+tifier could be used to express that Alice owns all of the cats
+∀pet(Cat(pet)→isOwner (Alice, pet )).
+Real Logic allows some flexibility in the choice of appro-
+priate fuzzy operators for the semantics of connectives and
+quantifiers. However, note that not all fuzzy operators are
+suitable for differentiable learning [van Krieken et al. , 2022 ].
+In Appendix B of [Badreddine et al. , 2022 ], the authors dis-
+cuss some particularly suitable fuzzy operators. In this work,
+we follow their recommendation and adopt the Product Real
+Logic semantics (product t-norm for conjunction, standard
+negation, the Reichenbach implication, p-mean for the exis-
+tential, and p-mean error for the universal quantifier).
+LTNs make use of Real Logic—they learns parameters that
+maximize the aggregated satisfiability of the formulas in the
+so-called knowledge base containing formulas of Real Logic.
+The framework is the basis of the PyTorch implementation
+of the LTN framework, known as LTNtorch library [Carraro,
+2022 ]. In our experiments we make substantial use of that
+tool.
+3 Methodology
+3.1 The game
+The environment used for the experiments was a cus-
+tom Gymnasium [Towers et al. , 2024 ]environment
+ShapesGridEnv designed for the experiments in [Badred-
+dine and Spranger, 2019 ], see Fig. 1. The game is played
+on an image showing a 5x5 grid with cells occupied by one
+agent, represented by the symbol ‘+’, and a number of other
+objects: circles, squares, and crosses. The agent moves across
+the board (up, right, down, left) and when it enters a space
+occupied by an object, it ‘consumes’ that object. Each ob-
+ject shape is associated with a reward. The agent’s goal is to
+maximize its cumulative reward throughout an episode. An
+episode terminates when either all shapes with positive re-
+ward have been consumed, or when a predefined number of
+steps has been reached.
+Figure 1: ShapesGridEnv environment
+We chose this environment because of its simplicity, and
+because it allows comparing our setting with that of [Badred-
+dine and Spranger, 2019 ]. The environment is very flexible inits parameters: density (the minimum and maximum amount
+of shapes initiated, in our case max is 18), rewards (in our
+case the reward for a cross is +1, for a circle is -1 and for a
+square is 0), colors (in our case the background is white and
+objects are black), episode maximum length (for us it is 50).
+Altering the environment configurations allows investigating
+the adaptability of the learner in [Badreddine and Spranger,
+2019 ].
+3.2 The Model
+A suitable approach to learning to play such a game could be
+the existing Dueling Deep Q-Network ( DuelDQN )[Wang et
+al., 2015 ]. The architecture is composed of several convo-
+lutional layers, which extract relevant features from the raw
+image input, and then pass them to the two main components,
+a Value Stream and an Advantage Stream (see Fig. 2). The
+Value Stream estimates how good it is for the agent to be in
+the given state, while the Advantage Stream estimates how
+good it is to perform each action in that given state. The two
+streams are then combined to calculate the final output.
+Figure 2: Network Architecture of DuelDQN , with the convolu-
+tional layers in white, and the dense layers in red
+TheDuelDQN architecture will be our starting point. We
+will extend it with new symbolic, cognitively-motivated com-
+ponents:
+• shape recognition ( ShapeRecognizer ),
+• reward prediction ( RewardPredictor ),
+• action reasoning ( ActionReasoner ), and
+• action filtering ( ActionFilter ).
+In the following, we will discuss each component in more
+detail.
+ShapeRecognizer The function of ShapeRecognizer
+is to estimate the likelihood of a certain observation to be
+of a given unique kind. ShapeRecognizer is comprised
+of one pre-processing function, which divides the initial raw
+image into 25 patches. Each patch is then processed by a
+Convolutional Neural Network (CNN), which then outputs a
+5-dimensional tensor.
+The numbers chosen for the number of patches and the out-
+put dimension are an instance of soft knowledge injection, as
+the environment represents a 5x5 grid, and dividing it into
+25 patches immediately separates the content of each cell in
+the grid. As for the output size, 5 is the number of different
+objects that each patch might contain: empty, agent, circle,
+cross, square. This allows the agent to perform a multi-label
+classification on each object type. The theoretical intention
+of this module is to give the agent a possibility of symbolic
+understanding of the different entities in the environment, by
+labeling their types.
+Given the simple nature of the ShapesGridEnv , repre-
+senting the environment is very easy. The state is composed
+of25positions, with each position being occupied by one of
+five shapes (empty, agent, circle, square, cross), which results
+in the state space of size 255. To generate this representation,
+we start by instantiating five one-hot representations of the
+classes, which are stored in the LTN Variable shape types .
+Then, for each state that the agent is in, it keeps in memory
+all the different patches that it has seen and a list of all the
+patches that are present in the current state.
+Figure 3: The process of obtaining unique labels
+Once the variables have been set up, the
+ShapeRecognizer module can be used to estimate
+the likelihood of a grid cell containing a given unique shape.
+To guide its learning, the aggregated satisfiability of three
+axioms is maximized. The axioms represent the first instance
+ofactual knowledge injection in the system:
+∀s∃l IS(s, l) (A1)
+¬∃s l1l2(IS(s, l1)∧IS(s, l2)∧(l1̸=l2)) (A2)
+∀s1s2l((IS(s1, l)∧(s1̸=s2))→ ¬IS(s2, l) (A3)
+In the above formulas, sstands for a shape, lstands for a la-
+bel and IS(x, y)stands for xhas label y. A1 says that every
+shape has a label; A2 says that no shape has two different
+labels; A3 says that different shapes cannot have the same la-
+bel. At each step of every episode, the aggregated satisfaction
+(truth) degree of these axioms is calculated, and its inverse,
+1−AggSat (A1, A2, A3), is used as a loss to train the agent.
+Intuitively, ShapeRecognizer gives the learner a way
+to distinguish between different shapes. In that, our approach
+is somewhat similar to the framework of semi-supervised
+symbol grounding [Umili et al. , 2023 ].
+RewardPredictor Once the environment is symbolically
+represented, we will make the agent understand the properties
+of different objects and their dynamics. The only truly dy-
+namic element in the environment is the agent itself—nothing
+else moves. The agent can move to a cell that was previously
+occupied by a different shape, which results in the shape be-
+ing consumed, and the agent being rewarded with the value
+of the respective shape. Hence, there are three key pieces of
+knowledge that the learner must acquire to successfully navi-
+gate the environment. It must identify which shape represents
+the agent, it must understand how each action influences the
+future position of the agent, and it must associate each shape
+with its respective reward.The task of self-recognition can be approached in numer-
+ous ways, depending on the information we have about the
+environment, and on our understanding of its dynamics. In
+our approach, leveraging the ShapeRecognizer , in each
+episode we count the occurrences of each shape in the en-
+vironment and add it to a variable that keeps track of this
+shape’s count over time. The agent is the only shape that
+has a constant, and equal to one, number of appearances in
+the environment. This approach is enough to quickly deter-
+mine with confidence which shape represents the agent. This
+step demonstrates a specific advantage of using the neuro-
+symbolic framework. Our reinforcement learning agent is
+now equipped with memory of the previous states of the en-
+vironment (i.e., the count of shapes) which can then be used
+to make decisions or to further process symbolic knowledge.
+Understanding the impact of different actions is crucial for
+the agent to make informed decisions in the environment.
+Each action represents a direction (up, right, down, left) and
+taking the action will lead to one of two outcomes. If the
+agent is at the edge of the environment and attempts to move
+against the edge, it will remain in the same cell, otherwise,
+the agent will move one cell in the given direction. Given the
+simplicity of this dynamics, a function has been defined that
+takes as input a position and an action, outputting the result-
+ing position.
+OurRewardPredictor is a Multi-layer Perceptron
+(MLP), which takes as input a ShapeRecognizer ’s pre-
+diction and outputs one scalar. The main intention of this
+module is to train to predict the reward associated with each
+object shape, using the symbolic representations generated
+by the ShapeRecognizer paired with high-level reason-
+ing on the training procedure. This module intends to give the
+agent a way of knowing on a high level the reward associated
+with any shape, and consequently with any action.
+In reinforcement learning environments, agents learn ac-
+tion policies by maximizing their expected rewards. When
+building an agent that symbolically represents and reasons
+about the environment, one of the key elements is the agent’s
+ability to understand how to obtain rewards. Given that
+the agent has the capability of identifying the shapes in the
+grid, recognizing its own shape, and calculating the posi-
+tion it will take given an action, it can now determine the
+shape that will be consumed by that action. By using the
+RewardPredictor module and passing it this shape, the
+agent obtains a prediction of the reward associated with that
+shape. Over time, by calculating the loss between that pre-
+diction and the actual reward obtained after taking an action,
+the module learns to accurately predict the reward associated
+with every shape.
+ActionReasoner Once the agent can predict the expected
+reward of its own actions, we can then guide its policy learn-
+ing so that it acts in the way (it expects) will give the high-
+est immediate reward. To achieve this, we specify an axiom
+to ensure that the q−value outputs of the Q-Network are in
+alignment with the predicted rewards. To achieve this, the ex-
+pected reward of all the possible actions is calculated by using
+theRewardPredictor and the q−values are calculated by
+calling the SymDQN . Our axiom expresses the following con-
+dition: if the reward prediction of action a1is higher than the
+reward prediction of action a2, then the q−value of a1must
+also be higher than the q−value of a2. The learning is then
+guided by the LTN framework with the following formula of
+Real Logic used in the loss function.
+∀Diag((r1, q1),(r2, q2))(r1> r 2) : (q1> q 2) (A4)
+Two standard operators of Real Logic [Badreddine et al. ,
+2022 ]are applied in this axiom: Diag and guarded quan-
+tification with the condition (r1> r 2). Firstly, the Diag
+operator restricts the range of the quantifier, which will then
+not run through all the pairs from {r1, r2, q1, q2}, but only the
+pairs of (reward, q-value) that correspond to the same actions.
+Specifically, when r1corresponds to the predicted reward of
+action ‘up’, then q1corresponds to q-value of action ‘up’.
+Secondly, we use guarded quantification, restricting the range
+of the quantifier to only those cases in which (r1> r 2). If we
+had used implication, with the antecedent (r1> r 2)false, the
+whole condition would evaluate to true. This is problematic
+when the majority of pairs do not fulfill the antecedent. In
+such a case the universal quantifier evaluates to true for most
+of the instances, even if the important ones, with antecedent
+true, are false. Guarded quantification gives a satisfaction de-
+gree that is much closer to the value we are interested in.
+ActionFilter Our learner can now predict the reward for
+each shape. For each action in a given state, it then knows
+what shapes could be consumed and what is their correspond-
+ing immediate reward. ActionFilter eliminates the ac-
+tions for which the difference between their reward and the
+maximum immediately obtainable reward in that state is un-
+der a predefined threshold (we set it at 0.5). This allows a bal-
+ance between the strictness of symbolic selection of immedi-
+ately best actions and the information about rewards available
+in the network as a whole. This is represented in Fig. 4.
+Figure 4: The process of action filtering
+ActionFilter severely restricts action choice. We pre-
+vented it from forcing the outcomes by switching it off during
+the training period. When the agent is actually running in the
+environment, the ActionFilter is used to optimize deci-
+sion making. Further strategies on how this dynamic might
+be implemented in training must be studied, as we want to
+maintain the asymptotic optimality of DuelDQNs , while en-
+hancing them with reasoning, when relevant.
+With ShapeRecognizer ,RewardPredictor ,
+ActionReasoner andActionFilter integrated with
+the original DuelDQN , the complete architecture of SymDQN
+can be seen in Fig. 5.
+Figure 5: SymDQN network architecture integrating DuelDQN with
+ShapeRecognizer andRewardPredictor modules
+4 The experiment
+By comparing the baseline DuelDQN model with our
+SymDQN model, this study attempts to answer the following
+questions:
+Q1 Does the SymDQN converge to a stable action policy
+faster than the baseline DuelDQN ?
+Q2 Does the SymDQN outperform the baseline DuelDQN in
+average reward accumulation?
+Q3 Is SymDQN more precise in its performance than
+DuelDQN , i.e., is it better at avoiding shapes with nega-
+tive rewards?
+In the experiment, we analyze the impact that each
+individual modification has on the performance of the
+SymDQN , comparing them between each other and the base-
+lineDuelDQN . We hence consider five experimental condi-
+tions:
+DuelDQN : the baseline model-no symbolic components;
+SymDQN :DuelDQN enriched with ShapeRecognizer
+(that uses A1-A3) and with RewardPredictor ;
+SymDQN(AR) :SymDQN with ActionReasoner (that
+uses the axiom A4);
+SymDQN(AF) :SymDQN withActionFilter ;
+SymDQN(AR,AF) :SymDQN enriched with both
+ActionReasoner andActionFilter .
+Our experiment runs through 250epochs, after which the
+empirically observed rate of learning of all the variations is
+no longer significant. Each epoch contains 50episodes of
+training, and then the agent’s performance is evaluated as the
+average score of 50new episodes. The score is defined as the
+ratio of the actual score and the maximum score obtainable in
+a given episode. The other performance measure we look at
+is the percentage of the negative-reward objects consumed.1
+5 Results
+In this section, we will report on the results of our ablation
+study, which isolates the impact of each component on the
+1The hardware and software specification and the hyperparame-
+ters of the experiment can be found in the Appendix A.
+agent’s performance. We will first focus on the obtained
+score comparison among different experimental conditions,
+and later we will report on the precision of the agent.
+We first compare our best-performing condition,
+SymDQN(AF) with the baseline learning of the pure non-
+symbolic DuelDQN , see Fig. 6. Clearly, the performance
+Figure 6: SymDQN(AF) (in green) vs. DuelDQN (in black): x-axis
+represents epochs and y-axis represents the ratio of obtained score
+in the episode and the maximum obtainable score in that episode.
+of the SymDQN agent equipped with ActionFilter is
+superior to DuelDQN both in terms of quicker convergence
+(high initial learning rate) and overall end performance.
+Let us now look at different versions of our SymDQN to
+better understand what contributes to its performance. In
+Fig. 7 we show the performance of all four versions of
+SymDQN . From this graph, we can conclude that the presence
+Figure 7: All versions of SymDQN :SymDQN(AF) (in green),
+SymDQN(AR,AF) (in red), SymDQN (in blue) and SymDQN(AR)
+(in purple); the x-axis represents epochs and the y-axis represents
+the ratio of obtained score in the episode and the maximum obtain-
+able score in that episode. We report in standard deviations in the
+Appendix.
+ofActionReasoner , despite giving a slight boost in the
+initial learning rate, hampers the overall performance of the
+agent (red and purple graphs). On the other hand, the pres-
+ence of ActionFilter improves the initial performance
+(green and red).Let us now move to another performance measure: the
+precision of the agent in avoiding objects of the shape as-
+sociated with negative rewards. We now compare all five
+experimental conditions, see Fig. 8. While the presence of
+Figure 8: Agent’s precision in all conditions: SymDQN(AF) (in
+green), SymDQN(AR,AF) (in red), SymDQN(AR) (in purple);
+SymDQN (in blue); DuelDQN (in black): the x-axis represents
+epochs and the y-axis represents the percentage of negative-reward
+objects consumed by the agent. Note that the green and red lines
+overlap.
+ActionReasoner (in purple) allows a significant improve-
+ment of precision, it’s the ActionFilter that eradicates
+negative rewards completely (red and green graphs). The
+baseline DuelDQN and the pure SymDQN perform similarly,
+not being able to learn to avoid negative rewards completely.
+5.1 Interpretation and Discussion
+The integration of symbolic knowledge into reinforcement
+learning, as demonstrated by SymDQN , provides several in-
+sights into the potential of neuro-symbolic approaches in AI.
+The ability of SymDQN to extract and utilize key environ-
+mental features drives a significant boost in initial learning
+rate and overall performance, suggesting that symbolic rep-
+resentations can provide a valuable advantage to neural net-
+works, enabling them to rapidly leverage the features for bet-
+ter decision-making. The ActionFilter provides a dra-
+matic enhancement in early-stage performance, allowing the
+model to make good decisions as soon as the symbolic repre-
+sentation is available. By leveraging the symbolic representa-
+tion and understanding of the environment, ActionFilter
+prunes sub-optimal actions, aligning the agent’s behavior
+with a symbolic understanding of the environment. The role
+ofActionReasoner is less clear: while providing a slight
+boost in initial performance, it hampers the overall learning
+rate. It seems that by forcing the model output to comply with
+the logical axiom, it diminishes its ability to capture informa-
+tion that is not described by the logical formulas.
+The two components, ActionReasoner and
+ActionFilter use symbolic information to adjust
+(the impact of) q-values and could be seen as a form of
+reward shaping. ActionReasoner uses the axiom (A4)
+to align q-values with predicted immediate rewards. As we
+can see in Fig. 7, this ‘reward shaping’ process is detrimental
+to the overall performance. A possible reason for that can
+be illustrated in the following example. Let’s assume the
+agent is separated from a multitude of positive shapes by
+a thin wall of negative shapes. A long-term perspective
+of sacrificing some reward by crossing over the wall can
+be blocked by attaching too much value to the immediate
+punishment. Note, however, that although ineffective, this
+‘reward shaping’ makes the agent more cautious/precise (see
+Fig. 7). While ActionFilter does not shape the reward
+function directly (as it is turned off in the training phase),
+it performs reasoning based on rewards (Fig. 4). In a given
+state it eliminates the possibility of executing actions for
+which q-values and immediate rewards differ too drastically.
+The advantages of SymDQN come with trade-offs. The
+computational cost introduced by the additional components
+is non-trivial, and the logical constraints imposed on the
+learning might hamper performance in more complex envi-
+ronments. In that, the use of LTNs in reinforcement learning
+sheds light on the ‘thinking fast and slow’ effects in learning.
+Firstly, the use of axioms (A1)-(A3) in ShapeRecognizer
+gives a sharp increase in the initial performance due to the un-
+derstanding of the environment structure (Fig. 8). Apart from
+that, adjusting the reward function with ActionReasoner
+andActionFilter will increase precision (as normally
+assumed about the System 2 type of behavior), but it can also
+hamper the overall performance, like it does in the case of
+ActionReasoner (see Fig. 7).
+6 Conclusions and Future Work
+This research introduces a novel modular approach to inte-
+grating symbolic knowledge with deep reinforcement learn-
+ing through the implementation of SymDQN . We contribute
+to the field of Neuro-Symbolic AI in several ways. Firstly,
+we demonstrate a successful integration of LTNs into rein-
+forcement learning, a promising and under-explored research
+direction. This integration touches on key challenges: inter-
+pretability, alignment, and knowledge injection. Secondly,
+SymDQN augments reinforcement learning through symbolic
+environment representation, modeling of object relationships
+and dynamics, and guiding action based on symbolic knowl-
+edge, effectively improving both initial learning rates and the
+end performance of the reinforcement learning agents. These
+contributions advance the field of neuro-symbolic AI, bridg-
+ing the gap between symbolic reasoning and deep learning
+systems. Our findings demonstrate the potential of integrative
+approaches in creating more aligned, controllable and inter-
+pretable models for safe and reliable AI systems.
+6.1 Future Work
+We see several potential avenues for future research.
+Enhancing Environment Representation It is easy to see
+that the ShapeRecognizer can be adapted to any grid-
+like environment. It could also be further developed to rep-
+resent more complex environments symbolically, e.g., by in-
+tegrating a more advanced object-detection component (e.g.,
+Faster-LTN [Manigrasso et al. , 2021 ]). With the addition
+of precise bounding box detection and multi-class labeling,
+the component could be extended to also perform hierarchi-cal representations, e.g., recognizing independent objects and
+their parts or constructing abstract taxonomies.
+Automatic Axiom Discovery The investigation of auto-
+matic axiom discovery through iterative learning, or meta-
+learning, is an interesting direction that opens the doors to
+knowledge extraction from a model (see, e.g., [Hasanbeig et
+al., 2021; Umili et al. , 2021; Meli et al. , 2024 ]). Theoreti-
+cally, given enough time and randomization, Q-learning con-
+verges to optimal decision policy in any environment, and so
+the iterative development and assessment of axioms might al-
+low us to extract knowledge from deep learning systems that
+outperform human experts.
+Broader Evaluation While a version of SymDQN was
+shown to be advantageous, it was only tested in a single, sim-
+ple environment. A broader suite of empirical experiments
+in more complex environments, such as Atari games or Pac-
+Man, is necessary to understand the generalization capabili-
+ties of the findings. These environments provide more com-
+plex and diverse challenges, potentially offering deeper in-
+sights into the advantages of SymDQN .
+A Appendix
+Hardware and software specifications The experiments,
+hyper-parameter tuning, and model variation comparisons
+were performed on a computing center machine (Tesla V100
+with either 16 or 32GB). The coding environment used was
+Python 3.9.5 and Pytorch 2.3.1 with Cuda Toolkit 12.1. To in-
+tegrate LTNs, the LTNtorch [Carraro, 2022 ]library was used,
+a PyTorch implementation by Tommaso Carraro. For exper-
+iment tracking, the ClearMl Platform [cle, 2023 ]was used.
+The code is provided as a separate .zip file.
+Hyperparameters The hyper-parameters used for training
+were: explore steps: 25000, update steps: 1000, initial ep-
+silon: 0.95, end epsilon: 0.05, memory capacity: 1000, batch
+size: 16, gamma: 0.99, learning rate: 0.0001, maximum gra-
+dient norm: 1. Semantics of quantifiers in LTN used p= 8.
+Standard deviations Performance was assessed through 5
+independent experimental runs per configuration. Each run
+evaluated 50 distinct environments to calculate average scores
+per epoch; ( ∗) stands for SymDQN( ∗), values for epochs 50,
+150, 250 (smoothed, rolling window 5). First table: overall
+performance (rewards, r) and standard deviations (sd). Sec-
+ond table: ratio of negative shapes collected (inverse of pre-
+cision, p) and sd.
+Model 50r 50sd 150r 150sd 250r 250sd
+(AF) 0.65 0.03 0.70 0.01 0.71 0.01
+(AR) 0.26 0.03 0.47 0.01 0.53 0.04
+() 0.43 0.05 0.65 0.02 0.66 0.02
+(AR,AF) 0.40 0.02 0.53 0.02 0.59 0.02
+DuelDQN 0.24 0.06 0.57 0.02 0.64 0.01
+Model 50p 50sd 150p 150sd 250p 250sd
+(AF) 0.00 0.00 0.00 0.00 0.00 0.00
+(AR) 0.02 0.00 0.01 0.00 0.00 0.00
+() 0.17 0.02 0.12 0.02 0.08 0.00
+(AR,AF) 0.00 0.00 0.00 0.00 0.00 0.00
+DDQN 0.19 0.03 0.14 0.01 0.10 0.00
+References
+[Badreddine and Spranger, 2019 ]Samy Badreddine and
+Michael Spranger. Injecting prior knowledge for transfer
+learning into reinforcement learning algorithms using
+logic tensor networks. CoRR , abs/1906.06576, 2019.
+[Badreddine et al. , 2022 ]Samy Badreddine, Artur d’Avila
+Garcez, Luciano Serafini, and Michael Spranger. Logic
+tensor networks. Artificial Intelligence , 303:103649, 2022.
+[Bianchi and Hitzler, 2019 ]Federico Bianchi and Pascal
+Hitzler. On the capabilities of logic tensor networks for de-
+ductive reasoning. In AAAI Spring Symposium Combining
+Machine Learning with Knowledge Engineering , 2019.
+[Carraro, 2022 ]Tommaso Carraro. LTNtorch: PyTorch im-
+plementation of Logic Tensor Networks, mar 2022.
+[cle, 2023 ]ClearML - your entire mlops stack in one
+open-source tool, 2023. Software available from
+http://github.com/allegroai/clearml.
+[Donadello et al. , 2017 ]Ivan Donadello, Luciano Serafini,
+and Artur d’Avila Garcez. Logic tensor networks for se-
+mantic image interpretation. In Proceedings of the Twenty-
+Sixth International Joint Conference on Artificial Intelli-
+gence, IJCAI-17 , pages 1596–1602, 2017.
+[Furelos-Blanco et al. , 2021 ]Daniel Furelos-Blanco, Mark
+Law, Anders Jonsson, Krysia Broda, and Alessandra
+Russo. Induction and exploitation of subgoal automata
+for reinforcement learning. J. Artif. Intell. Res. , 70:1031–
+1116, 2021.
+[Giacomo et al. , 2019 ]Giuseppe De Giacomo, Luca Iocchi,
+Marco Favorito, and Fabio Patrizi. Foundations for re-
+straining bolts: Reinforcement learning with ltlf/ldlf re-
+straining specifications. In J. Benton, Nir Lipovetzky, Eva
+Onaindia, David E. Smith, and Siddharth Srivastava, edi-
+tors, Proceedings of the Twenty-Ninth International Con-
+ference on Automated Planning and Scheduling, ICAPS
+2019, Berkeley, CA, USA, July 11-15, 2019 , pages 128–
+136. AAAI Press, 2019.
+[Hasanbeig et al. , 2021 ]Mohammadhosein Hasanbeig,
+Natasha Yogananda Jeppu, Alessandro Abate, Tom
+Melham, and Daniel Kroening. Deepsynth: Automata
+synthesis for automatic task segmentation in deep rein-
+forcement learning. In Thirty-Fifth AAAI Conference on
+Artificial Intelligence, AAAI 2021, Thirty-Third Confer-
+ence on Innovative Applications of Artificial Intelligence,
+IAAI 2021, The Eleventh Symposium on Educational
+Advances in Artificial Intelligence, EAAI 2021, Virtual
+Event, February 2-9, 2021 , pages 7647–7656. AAAI
+Press, 2021.
+[Manigrasso et al. , 2021 ]Francesco Manigrasso,
+Filomeno Davide Miro, Lia Morra, and Fabrizio Lamberti.
+Faster-LTN: A neuro-symbolic, end-to-end object detec-
+tion architecture. In Igor Farka ˇs, Paolo Masulli, Sebastian
+Otte, and Stefan Wermter, editors, Artificial Neural
+Networks and Machine Learning – ICANN 2021 , pages
+40–52, Cham, 2021. Springer International Publishing.[Meli et al. , 2024 ]Daniele Meli, Alberto Castellini, and
+Alessandro Farinelli. Learning logic specifications for
+policy guidance in pomdps: an inductive logic program-
+ming approach. Journal of Artificial Intelligence Research ,
+79:725–776, February 2024.
+[Serafini and d’Avila Garcez, 2016 ]Luciano Serafini and
+Artur S. d’Avila Garcez. Logic tensor networks: Deep
+learning and logical reasoning from data and knowledge.
+CoRR , abs/1606.04422, 2016.
+[Towers et al. , 2024 ]Mark Towers, Jordan K. Terry, Ariel
+Kwiatkowski, John U. Balis, Gianluca de Cola, Tris-
+tan Deleu, Manuel Goul ˜A£o, Andreas Kallinteris, Arjun
+KG, Markus Krimmel, Rodrigo Perez-Vicente, Andrea
+Pierr ˜A©, Sander Schulhoff, Jun Jet Tai, Andrew Tan Jin
+Shen, and Omar G. Younis. Gymnasium, June 2024.
+[Umili et al. , 2021 ]Elena Umili, Emanuele Antonioni,
+Francesco Riccio, Roberto Capobianco, Daniele Nardi,
+Giuseppe De Giacomo, et al. Learning a symbolic
+planning domain through the interaction with continuous
+environments. In Workshop on Bridging the Gap Be-
+tween AI Planning and Reinforcement Learning (PRL),
+workshop at ICAPS 2021 , 2021.
+[Umili et al. , 2023 ]Elena Umili, Roberto Capobianco, and
+Giuseppe De Giacomo. Grounding LTLf Specifications
+in Image Sequences. In Proceedings of the 20th Interna-
+tional Conference on Principles of Knowledge Represen-
+tation and Reasoning , pages 668–678, 8 2023.
+[van Krieken et al. , 2022 ]Emile van Krieken, Erman Acar,
+and Frank van Harmelen. Analyzing differentiable fuzzy
+logic operators. Artificial Intelligence , 302:103602, 2022.
+[Wagner and d’Avila Garcez, 2022 ]Benedikt Wagner and
+Artur S. d’Avila Garcez. Neural-symbolic reasoning un-
+der open-world and closed-world assumptions. In Pro-
+ceedings of the AAAI 2022 Spring Symposium on Machine
+Learning and Knowledge Engineering for Hybrid Intelli-
+gence (AAAI-MAKE 2022) , 2022.
+[Wang et al. , 2015 ]Ziyu Wang, Nando de Freitas, and Marc
+Lanctot. Dueling network architectures for deep reinforce-
+ment learning. CoRR , abs/1511.06581, 2015.
+[Wang et al. , 2016 ]Ziyu Wang, Tom Schaul, Matteo Hes-
+sel, Hado Van Hasselt, Marc Lanctot, and Nando De Fre-
+itas. Dueling network architectures for deep reinforcement
+learning. In Proceedings of the 33rd International Confer-
+ence on International Conference on Machine Learning -
+Volume 48 , ICML’16, pages 1995–2003. JMLR.org, 2016.

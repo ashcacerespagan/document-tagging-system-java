@@ -1,0 +1,2355 @@
+User Guide
+SUMMARY
+This guide provides basic information for using and upgrading this product, including topics such as 
+components, features, networks, and HP resources.
+Legal information
+© Copyright 2021-2025 HP Development 
+Company, L.P.
+Bluetooth is a trademark owned by its 
+proprietor and used by HP Inc. under license. 
+Intel, Celeron, Pentium, and Thunderbolt 
+are trademarks of Intel Corporation in the 
+U.S. and/or other countries. Microsoft and 
+Windows are either registered trademarks 
+or trademarks of Microsoft Corporation in 
+the United States and/or other countries. 
+USB T ype-C and USB-C are registered 
+trademarks of USB Implementers Forum. 
+DisplayPort™ and the DisplayPort™ logo are 
+trademarks owned by the Video Electronics 
+Standards Association (VESA) in the United 
+States and other countries. Miracast® is a 
+registered trademark of Wi-Fi Alliance.
+The information contained herein is subject 
+to change without notice. The only 
+warranties for HP products and services are 
+set forth in the express warranty statements 
+accompanying such products and services. 
+Nothing herein should be construed as 
+constituting an additional warranty. HP shall 
+not be liable for technical or editorial errors 
+or omissions contained herein.
+Sixth Edition: January 2025
+First Edition: July 2021
+Document Part Number: M86009-006Product notice
+This guide describes features that are 
+common to most products. Some features 
+might not be available on your computer.
+Not all features are available in all 
+editions or versions of Windows. Systems 
+may require upgraded and/or separately 
+purchased hardware, drivers, software 
+or BIOS update to take full advantage 
+of Windows functionality. Windows is 
+automatically updated, which is always 
+enabled. High-speed internet and Microsoft 
+account required. ISP fees may apply and 
+additional requirements may apply over time 
+for updates. See http:/ /www.windows.com . 
+If your product ships with Windows in S 
+Mode:  Windows in S Mode works exclusively 
+with apps from the Microsoft Store within 
+Windows. Certain default settings, features, 
+and apps cannot be changed. Some 
+accessories and apps that are compatible 
+with Windows may not work (including some 
+antivirus, PDF writers, driver utilities, and 
+accessibility apps), and performance may 
+vary, even if you switch out of S Mode. If you 
+switch to Windows, you cannot switch back 
+to S Mode. Learn more at Windows.com/
+SmodeFAQ.
+T o access the latest user guides, go to 
+http:/ /www.hp.com/support , and follow the 
+instructions to find your product. Then select 
+Setup & User Guides .
+T o help us improve this document, please 
+send any suggestions, comments, or errors 
+to mailto:hp.doc.feedback@hp.com . Include 
+the document part number when submitting 
+your feedback.Software terms
+By installing, copying, downloading, or 
+otherwise using any software product 
+preinstalled on this computer, you agree 
+to be bound by the terms of the HP End 
+User License Agreement (EULA). If you 
+do not accept these license terms, your 
+sole remedy is to return the entire unused 
+product (hardware and software) within 14 
+days for a full refund subject to the refund 
+policy of your seller.
+For any further information or to request 
+a full refund of the price of the computer, 
+please contact your seller.
+Safety warning notice
+Reduce the possibility of heat-related injuries or of overheating the computer by following the practices 
+described.
+WARNING! T o reduce the possibility of heat-related injuries or of overheating the computer, do not 
+place the computer directly on your lap or obstruct the computer air vents. Use the computer only on a 
+hard, flat surface. Do not allow another hard surface, such as an adjoining optional printer, or a soft 
+surface, such as pillows or rugs or clothing, to block airflow. Also, do not allow the AC adapter to come 
+into contact with the skin or a soft surface, such as pillows or rugs or clothing, during operation. The 
+computer and the AC adapter provided by HP comply with the user-accessible surface temperature 
+limits defined by applicable safety standards.
+iii
+Processor configuration setting (select products only)
+Important information about processor configurations.
+IMPORTANT: Select products are configured with an Intel® Pentium® N35xx/N37xx series or a 
+Celeron® N28xx/N29xx/N30xx/N31xx series processor and a Windows® operating system. If your 
+computer is configured as described, do not change the processor configuration setting in 
+msconfig.exe from 4 or 2 processors to 1 processor.  If you do so, your computer will not restart. Y ou will 
+have to perform a factory reset to restore the original settings.
+iv Processor configuration setting (select products only)
+T able of contents
+1  About this guide ..................................................................................................................................................................................................................................... 1
+2  Getting started ...................................................................................................................................................................................................................................... 2
+Best practices ................................................................................................................................................................................................................................. 2
+Caring for your safety and comfort ................................................................................................................................................................................. 2
+Advantages of flicker-free technology (select products only) .......................................................................................................... 3
+Adjusting low blue light mode (select products only) .............................................................................................................................. 3
+Restoring monitor brightness to factory default (select products only) ................................................................................... 4
+Getting information ..................................................................................................................................................................................................................... 4
+3  Getting to know your computer ................................................................................................................................................................................................ 6
+Locating hardware ....................................................................................................................................................................................................................... 6
+Locating software ......................................................................................................................................................................................................................... 6
+Setting up your computer ....................................................................................................................................................................................................... 6
+Identifying USB ports .................................................................................................................................................................................................................. 7
+Using a wireless phone charger (select products only) .................................................................................................................................... 8
+Shutting down (turning off) the computer .................................................................................................................................................................. 9
+4  Connecting to a network ............................................................................................................................................................................................................. 11
+Connecting to a wireless network .................................................................................................................................................................................. 11
+Using the wireless controls ....................................................................................................................................................................................... 11
+Airplane mode key ................................................................................................................................................................................................ 11
+Operating system controls ............................................................................................................................................................................ 11
+Connecting to a WLAN ................................................................................................................................................................................................ 12
+Using HP Mobile Broadband (select products only) ............................................................................................................................... 12
+Locating mobile operator settings .......................................................................................................................................................... 12
+Connecting with HP Mobile Broadband ............................................................................................................................................... 13
+Using eSIM (select products only) ....................................................................................................................................................................... 13
+Using GPS (select products only) ......................................................................................................................................................................... 13
+Using Bluetooth wireless devices (select products only) ................................................................................................................... 13
+Connecting Bluetooth devices ................................................................................................................................................................... 14
+Connecting to a wired network—LAN (select products only) ...................................................................................................................... 14
+5  Enjoying entertainment features ........................................................................................................................................................................................... 16
+Using audio ...................................................................................................................................................................................................................................... 16
+Connecting speakers ................................................................................................................................................................................................... 16
+Connecting headphones ........................................................................................................................................................................................... 16
+Connecting a microphone ......................................................................................................................................................................................... 16
+Connecting headsets .................................................................................................................................................................................................. 16
+Using sound settings ..................................................................................................................................................................................................... 17
+Sound settings ........................................................................................................................................................................................................ 17
+v
+Audio settings .......................................................................................................................................................................................................... 17
+Using video ....................................................................................................................................................................................................................................... 17
+Connecting a DisplayPort device using a USB T ype-C cable (select products only) ...................................................... 17
+Connecting a Thunderbolt device using a USB T ype-C cable (select products only) ................................................... 18
+Connecting video devices by using a VGA cable (select products only) ................................................................................ 19
+Connecting video devices using an HDMI cable (select products only) ................................................................................ 20
+Connecting a high-definition TV or monitor using HDMI ........................................................................................................ 20
+Setting up HDMI audio ...................................................................................................................................................................................... 21
+T urn on HDMI audio .................................................................................................................................................................................. 21
+Return audio to computer speakers ........................................................................................................................................... 21
+Connecting digital display devices using a Dual-Mode DisplayPort cable (select products only) ..................... 22
+Discovering and connecting to Miracast-compatible wireless displays (select products only) .......................... 23
+Using data transfer ................................................................................................................................................................................................................... 23
+Connecting devices to a USB T ype-C port (select products only) .............................................................................................. 23
+6  Navigating the screen .................................................................................................................................................................................................................. 25
+Using touch gestures (select products only) ......................................................................................................................................................... 25
+Using the keyboard and mouse ....................................................................................................................................................................................... 25
+Using the action keys or hot keys ........................................................................................................................................................................ 25
+Action keys ............................................................................................................................................................................................................... 26
+7  Maintaining your computer ....................................................................................................................................................................................................... 28
+Improving performance ........................................................................................................................................................................................................ 28
+Using Disk Defragmenter ......................................................................................................................................................................................... 28
+Using Disk Cleanup ....................................................................................................................................................................................................... 28
+Using HP 3D DriveGuard (select products only) ...................................................................................................................................... 28
+Identifying HP 3D DriveGuard status .................................................................................................................................................... 29
+Updating programs and drivers ...................................................................................................................................................................................... 29
+Updating both programs and drivers ............................................................................................................................................................... 29
+Updating programs only ............................................................................................................................................................................................ 29
+Updating drivers only ................................................................................................................................................................................................... 29
+Cleaning your computer ....................................................................................................................................................................................................... 30
+Enabling HP Easy Clean (select products only) ........................................................................................................................................ 30
+Removing dirt and debris from your computer ......................................................................................................................................... 30
+Cleaning your computer with a disinfectant ................................................................................................................................................ 31
+Caring for wood veneer (select products only) ........................................................................................................................................ 32
+T raveling with or shipping your computer ................................................................................................................................................................ 32
+8  Securing your computer and information ..................................................................................................................................................................... 34
+Computer security features .............................................................................................................................................................................................. 34
+9  T roubleshooting ................................................................................................................................................................................................................................ 36
+Computer does not start ...................................................................................................................................................................................................... 36
+Power ................................................................................................................................................................................................................................................. ..37
+Monitor (select products only) ........................................................................................................................................................................................... 37
+Keyboard and mouse (with cable) .................................................................................................................................................................................. 38
+vi
+Keyboard and mouse (wireless) ...................................................................................................................................................................................... 38
+Speakers and sound ................................................................................................................................................................................................................ 39
+Internet access ........................................................................................................................................................................................................................... 39
+Software troubleshooting .................................................................................................................................................................................................... 40
+10  Using HP PC Hardware Diagnostics ................................................................................................................................................................................ 43
+Using HP PC Hardware Diagnostics Windows (select products only) ................................................................................................ 43
+Using an HP PC Hardware Diagnostics Windows hardware failure ID code ....................................................................... 43
+Accessing HP PC Hardware Diagnostics Windows .............................................................................................................................. 43
+Accessing HP PC Hardware Diagnostics Windows from HP Support Assistant ................................................. 43
+Accessing HP PC Hardware Diagnostics Windows from the Start menu (select products only) ............ 44
+Downloading HP PC Hardware Diagnostics Windows ........................................................................................................................ 44
+Downloading the latest HP PC Hardware Diagnostics Windows version from HP ............................................. 44
+Downloading the HP PC Hardware Diagnostics Windows from the Microsoft Store ....................................... 44
+Downloading HP Hardware Diagnostics Windows by product name or number (select products 
+only) ............................................................................................................................................................................................................................... 44
+Installing HP PC Hardware Diagnostics Windows .................................................................................................................................. 45
+Using HP PC Hardware Diagnostics UEFI ................................................................................................................................................................ 45
+Using an HP PC Hardware Diagnostics UEFI hardware failure ID code .................................................................................. 45
+Starting HP PC Hardware Diagnostics UEFI ............................................................................................................................................... 45
+Starting HP PC Hardware Diagnostics UEFI through HP Hotkey Support software (select products 
+only) ........................................................................................................................................................................................................................................... 46
+Downloading HP PC Hardware Diagnostics UEFI to a USB flash drive ................................................................................... 46
+Downloading the latest HP PC Hardware Diagnostics UEFI version .............................................................................. 47
+Downloading HP PC Hardware Diagnostics UEFI by product name or number (select products 
+only) ................................................................................................................................................................................................................................ 47
+Using Remote HP PC Hardware Diagnostics UEFI settings (select products only) .................................................................... 47
+Downloading Remote HP PC Hardware Diagnostics UEFI ................................................................................................................ 47
+Downloading the latest Remote HP PC Hardware Diagnostics UEFI version .......................................................... 47
+Downloading Remote HP PC Hardware Diagnostics UEFI by product name or number ................................. 47
+Customizing Remote HP PC Hardware Diagnostics UEFI settings ............................................................................................ 48
+11  Backing up, restoring, and recovering ............................................................................................................................................................................. 49
+Backing up information and creating recovery media ................................................................................................................................... 49
+Using Windows tools for backing up ................................................................................................................................................................. 49
+Using the HP Cloud Recovery Download T ool to create recovery media (select products only) ......................... 49
+Restoring and recovering your system ...................................................................................................................................................................... 50
+Creating a system restore ...................................................................................................................................................................................... 50
+Restoring and recovery methods ....................................................................................................................................................................... 50
+Recovering using HP Recovery media ............................................................................................................................................................ 50
+Changing the computer boot order ................................................................................................................................................................... 51
+Using HP Sure Recover (select products only) ........................................................................................................................................... 51
+12  Using Secure Erase or HP Disk Sanitizer (select products only) ............................................................................................................... 52
+When to use Secure Erase or HP Disk Sanitizer ................................................................................................................................................. 52
+Using Secure Erase or HP Disk Sanitizer ................................................................................................................................................................. 52
+13  Operating specifications ......................................................................................................................................................................................................... 53
+vii
+14  Electrostatic discharge ............................................................................................................................................................................................................. 54
+15  Availability of repair services and replacement parts ....................................................................................................................................... 55
+16  Accessibility ...................................................................................................................................................................................................................................... 56
+HP and accessibility ................................................................................................................................................................................................................. 56
+Finding the technology tools you need ........................................................................................................................................................... 56
+The HP commitment ..................................................................................................................................................................................................... 56
+International Association of Accessibility Professionals (IAAP) ................................................................................................... 57
+Finding the best assistive technology .............................................................................................................................................................. 57
+Assessing your needs ...................................................................................................................................................................................... 57
+Accessibility for HP products ...................................................................................................................................................................... 57
+Standards and legislation ................................................................................................................................................................................................... 58
+Standards ............................................................................................................................................................................................................................. 58
+Mandate 376 – EN 301 549 ............................................................................................................................................................................ 58
+Web Content Accessibility Guidelines (WCAG) ............................................................................................................................. 58
+Legislation and regulations ..................................................................................................................................................................................... 59
+Useful accessibility resources and links .................................................................................................................................................................. 59
+Organizations .................................................................................................................................................................................................................... 59
+Educational institutions ............................................................................................................................................................................................. 59
+Other disability resources ....................................................................................................................................................................................... 60
+HP links ................................................................................................................................................................................................................................... 60
+Contacting support .................................................................................................................................................................................................................. 60
+17  Support information ...................................................................................................................................................................................................................... 61
+How to get help ............................................................................................................................................................................................................................. 61
+Customer support for repairs .......................................................................................................................................................................................... 62
+Before upgrading your hardware ................................................................................................................................................................................... 62
+Index ................................................................................................................................................................................................................................................. ............... 63
+viii
+About this guide 1
+This guide provides basic information for using and upgrading this product.
+WARNING! Indicates a hazardous situation that, if not avoided, could  result in serious injury or death.
+CAUTION: Indicates a hazardous situation that, if not avoided, could  result in minor or moderate 
+injury.
+IMPORTANT: Indicates information considered important but not hazard-related (for example, 
+messages related to property damage). Warns the user that failure to follow a procedure exactly as 
+described could result in loss of data or in damage to hardware or software. Also contains essential 
+information to explain a concept or to complete a task.
+NOTE: Contains additional information to emphasize or supplement important points of the main text.
+TIP: Provides helpful hints for completing a task.
+This product incorporates HDMI® technology.
+About this guide 1
+Getting started 2
+This computer is a powerful tool designed to enhance your work and entertainment. Read this chapter 
+to learn about best practices after you set up your computer, fun things to do with your computer, caring 
+for your safety and comfort, and where to find additional HP resources.
+Best practices
+After you set up and register the computer, HP recommends the following steps to get the most out of 
+your smart investment.
+● Back up your hard drive by creating recovery media. See Backing up, restoring, and recovering  on 
+page 49.
+● If you haven’t already done so, connect to a wired or wireless network. See details in Connecting to a 
+network on page 11.
+● Become familiar with the computer hardware and software. For more information, see Getting to 
+know your computer  on page 6 and Enjoying entertainment features  on page 16.
+● Access HP Support Assistant app —For quick online support, open the HP Support Assistant 
+app (select products only). HP Support Assistant optimizes computer performance and resolves 
+problems using the latest software updates, diagnostic tools, and guided assistance. Select the 
+Search  icon in the taskbar, type support  in the search box, and then select HP Support Assistant .
+Caring for your safety and comfort
+HP is committed to providing high-quality products that will last for years to come. HP is also concerned 
+about your safety and comfort. T o avoid eye strain and to relax muscle tension and fatigue, take a break 
+every hour when using your computer.
+1. Let your arms relax at your side.
+2. Bend your head forward slightly to stretch the neck.
+3. Hold for 5 seconds.
+4. Keep your arms relaxed at your side.
+5. T urn your head to one side and hold for 5 seconds.
+6. Repeat for the other side.
+7. Keep your arms relaxed at your side.
+8. While looking forward, lean your head toward your right shoulder and hold for 5 seconds.
+9. Look down as you slowly move your head to center. Roll your head toward your left shoulder while 
+still looking forward.
+10. Repeat for the other side.
+2 Chapter 2  Getting started
+T o learn about other ways to care for your safety and comfort read the Safety & Comfort Guide , located 
+on the web at http:/ /www.hp.com/ergo .
+Advantages of flicker-free technology (select products only)
+Monitors with flicker-free display technology help protect your eyes from fatigue, dryness, itchiness, or 
+irritation. This technology allows you to work on spreadsheets, play games, or watch videos comfortably.
+Adjusting low blue light mode (select products only)
+Y our HP computer offers either a hardware or software solution to decrease the blue light emitting from 
+the monitor.
+Low blue light hardware solution
+Y our computer monitor is shipped from the factory in low blue light mode for improved eye comfort and 
+safety. The monitor automatically adjusts blue light emissions when you use the computer at night or in 
+a low-light setting. A monitor with a low blue light panel follows TÜV Rheinland compliance regulation for 
+the factory default setting mode.
+Low blue light software solution
+Decreasing the blue light emitting from the monitor reduces the blue light exposure to your eyes. HP 
+computers provide a setting to reduce blue light output and create a more relaxing and less stimulating 
+image while you read content on the screen. Select one of the following apps to adjust your monitor to a 
+comfortable viewing light.
+● HP Display Control App (Select Products Only)
+1. Open the HP Display Control app.
+2. Select a setting:
+– Low Blue Light : Reduces the blue light for improved eye comfort (TÜV certified).
+– Low Blue Light Models : Low Blue Light (select products only)
+– Default : Optimized for color vibrancy
+– Web (sRGB) : Optimized for web browsing
+– Printing and Imagine (Adobe RGB) : Optimized for images using Adobe RGB
+– Photos and Videos (DCI-P3) : Optimized for photos and movie viewing and editing
+– Native : No optimization applied
+– Night : Adjusts to the lowest blue light and reduces the impact on sleep.
+– Reading : Optimizes blue light and brightness for indoor viewing.
+● myHP App
+1. Open the myHP app.
+2. Select Display Controls .
+Advantages of flicker-free technology (select products only) 3
+3. Select On or Off to reduce the blue light emitting from the display.
+WARNING! T o reduce the risk of serious injury, read the Safety & Comfort Guide , located on the web 
+at http:/ /www.hp.com/ergo . The guide describes proper workstation setup, and proper posture, health, 
+and work habits for computer users. It also provides important electrical and mechanical safety 
+information.
+Restoring monitor brightness to factory default (select products only)
+Y ou can use the HP Display Control application to recover the original monitor brightness setting that 
+was set at the factory.
+T o restore the default brightness setting, follow the next steps.
+1. Open the HP Display Control app.
+2. Select Advanced .
+3. Select Support .
+4. Select Factory Reset .
+Getting information
+T o locate resources that provide product details, how-to information, and additional instructions, use this 
+table.
+T able 2-1 Getting information
+T asks Instructions
+● Set up your computer Find help using either of these methods:
+● See the Setup Instructions  or Quick Setup  poster.
+● See Getting to know your computer  on page 6.
+● Connect to the internet See Connecting to a network on page 11.
+● Recover factory settings See Backing up, restoring, and recovering  on page 49.
+● See how-to videos about using the 
+features of your computerGo to http:/ /www.hp.com/ supportvideos  (English only).
+● Learn how to use the Windows® 
+operating system
+● Find Windows password information
+● Find links to driver updates
+● Read frequently asked questionsGet Help app:
+■ Select the Start  button, select All apps , and then select the Get Help  app.
+● T roubleshoot the most common 
+computer hardware and software 
+issuesSee T roubleshooting  on page 36.
+● Find electronic user guides and 
+specifications for your computer modelT o access the latest user guides or manuals for your product, go to http:/ /www.hp.com/
+support , and follow the instructions to find your product. Then select Setup & User Guides .
+4 Chapter 2  Getting started
+T able 2-1 Getting information (continued)
+T asks Instructions
+● Order parts and find additional 
+troubleshooting help
+● Upgrade or replace components of 
+your computer
+● Connect to a TV (select products only)For HP support, go to http:/ /www.hp.com/ support .
+● Get up-to-date information and help 
+from the Windows communityGo to http:/ /www.hp.com/ support/ consumer-forum .
+● Maintain your computer HP Support Assistant maintains your computer performance and resolves problems quickly 
+by using automated updates, diagnostic tools, and guided assistance. Open HP Support 
+Assistant using any of these methods:
+● Select the Search  icon in the taskbar, type support  in the search box, and then select 
+the HP Support Assistant  app.
+● Select the question mark icon in the taskbar.
+● See Maintaining your computer  on page 28.
+● Find safety and regulatory notices Regulatory, Safety, and Environmental Notices
+T o access this document:
+■ Select the Search  icon in the taskbar, type HP Documentation  in the search box, and 
+then select HP Documentation .
+● Find ergonomic information Safety & Comfort Guide
+T o access this guide, use one of these methods:
+● Select the Search  icon in the taskbar, type HP Documentation  in the search box, and 
+then select HP Documentation .
+● Go to http:/ /www.hp.com/ ergo .
+IMPORTANT: Y ou must be connected to the internet to access the latest version of the 
+user guide.
+● Find computer warranty information Limited Warranty *
+T o access this document, use one of these methods:
+● Select the Search  icon in the taskbar, type HP Documentation  in the search box, and 
+then select HP Documentation .
+● Go to http:/ /www.hp.com/ go/orderdocuments .
+IMPORTANT: Y ou must be connected to the internet to access the latest version of the 
+user guide.
+*Y ou can find your HP Limited Warranty located with the user guides on your product and/or on the CD 
+or DVD provided in the box. In some countries or regions, HP might provide a printed warranty in the box. 
+For countries or regions where the warranty is not provided in printed format, you can request a copy 
+from http:/ /www.hp.com/go/orderdocuments . For products purchased in Asia Pacific, you can write to HP 
+at POD, PO Box 161, Kitchener Road Post Office, Singapore 912006. Include your product name, and your 
+name, phone number, and postal address.
+Getting information 5
+Getting to know your computer 3
+Y our computer features top-rated components. This chapter provides details about your components, 
+where they are located, and how they work.
+IMPORTANT: If your computer has a magnetic dust filter, be sure that the filter is installed. If the filter 
+has been removed, install the filter before using the computer.
+Locating hardware
+T o find out what hardware is installed on your computer, select the Search  icon in the taskbar, type 
+device manager  in the search box, and then select the Device Manager  app.
+For information about system hardware components and the system BIOS version number, press 
+fn+esc  (select products only).
+Locating software
+Software can vary by product. T o find out what software is installed on your computer, right-click the 
+Start  button, and then select Installed Apps .
+Setting up your computer
+Follow these steps to set up the computer.
+WARNING! T o reduce the risk of electrical shock or damage to your equipment:
+● Place the computer in a location away from water, dust, moisture, and soot. These environmental 
+factors can increase the temperature inside your computer or cause fire or electrocution.
+● Do not disable the power cord grounding pin. The grounding pin is an important safety feature.
+● Plug the power cord into an AC outlet that is easily accessible at all times.
+● Disconnect power from the equipment by unplugging the power cord from the AC outlet.
+● T o prevent direct exposure to the laser beam, do not try to open the enclosure of the CD or DVD 
+drive.
+● The power supply is preset for the country or region where you purchased your computer. If you 
+move, check the voltage requirements for your new location before plugging the computer into an 
+AC outlet.
+T o reduce the risk of serious injury read the Safety & Comfort Guide . T o access this guide, go to 
+http:/ /www.hp.com/ergo .
+T o shut down your computer, follow these steps:
+6 Chapter 3  Getting to know your computer
+1. Place the computer so that all ventilation openings are unobstructed and cabling is not in a 
+walkway or where it can be stepped on or damaged by placing furniture on it.
+NOTE: The glossy monitor might cause unwanted reflection. Adjust the monitor position, lighting 
+condition, or viewing direction to reduce the reflection.
+2. When connecting all power cords from the monitor, computer, and accessories to an 
+uninterruptible power supply (UPS), HP recommends that you use a power surge protection device. 
+If the computer has a television tuner, a modem connection, or a telephone connection, protect 
+the computer by using surge protection with these signal inputs as well. Connect the television 
+cable or the telephone line cord to the surge protection device, and then connect the device to the 
+computer.
+3. Be sure that the master power switch is on (select products only).
+4. T urn on the computer, and then follow the on-screen instructions.
+5. T o access the latest user guides or manuals for your product, go to http:/ /www.hp.com/support , and 
+follow the instructions to find your product. Then select Setup & User Guides .
+6. Look in the computer box for additional printed details or updates.
+After you complete the initial computer setup, you might want to install additional hardware devices or 
+software. Check the operating system, memory, and other requirements listed for these items before 
+purchasing them for your computer. Follow the software manufacturer's directions to install the new 
+software.
+NOTE: Use only licensed original software. Installing copied software could be illegal and might result 
+in an unstable installation or infect the computer with a virus.
+Identifying USB ports
+Y our computer might have one or more of the listed types of USB ports.
+NOTE: Y our icons might look slightly different from the illustrations in this section.
+T able 3-1 USB ports and descriptions
+Component Description
+USB port Connects a USB device, provides data transfer, and (for select products) charges small 
+devices (such as a smartphone) when the computer is on or in Sleep mode.
+NOTE: Use a standard USB T ype-A charging cable or cable adapter (purchased 
+separately) when charging a small external device.
+USB port with HP 
+Sleep and Charge Connects a USB device, provides high-speed data transfer, and charges small devices 
+(such as a smartphone), even when the computer is off.
+NOTE: Use a standard USB T ype-A charging cable or cable adapter (purchased 
+separately) when charging a small external device.
+USB port Connects a USB device, provides high-speed data transfer, and (for select products) 
+charges small devices (such as a smartphone) when the computer is on or in Sleep mode.
+NOTE: Use a standard USB T ype-A charging cable or cable adapter (purchased 
+separately) when charging a small external device.
+Identifying USB ports 7
+T able 3-1 USB ports and descriptions (continued)
+Component Description
+– or –
+USB port Connects a USB device, provides high-speed data transfer, and (for select products) 
+charges small devices (such as a smartphone) when the computer is on or in Sleep mode.
+NOTE: Use a standard USB T ype-A charging cable or cable adapter (purchased 
+separately) when charging a small external device.
+USB T ype-C® port Connects a USB device, provides data transfer, and (for select products) charges small 
+devices (such as a smartphone) when the computer is on or in Sleep mode.
+NOTE: Use a standard USB T ype-C charging cable or cable adapter (purchased 
+separately) when charging a small external device.
+USB T ype-C port Connects a USB device, provides high-speed data transfer, and (for select products) 
+charges small devices (such as a smartphone) when the computer is on or in Sleep mode.
+NOTE: Use a standard USB T ype-C charging cable or cable adapter (purchased 
+separately) when charging a small external device.
+– or –
+USB T ype-C port Connects a USB device, provides high-speed data transfer, and (for select products) 
+charges small devices (such as a smartphone) when the computer is on or in Sleep mode.
+NOTE: Use a standard USB T ype-C charging cable or cable adapter (purchased 
+separately) when charging a small external device.
+USB T ype-C 
+Thunderbolt™ port 
+with HP Sleep and 
+Charge Connects a USB device, provides high-speed data transfer, and charges small devices 
+(such as a smartphone), even when the computer is off.
+– and –
+Connects a display device that has a USB T ype-C connector, providing DisplayPort™ output.
+NOTE: Use a standard USB T ype-C charging cable or cable adapter (purchased 
+separately) when charging a small external device.
+Using a wireless phone charger (select products only)
+Y our computer might contain a wireless phone charger as part of the base. Y ou can use this wireless 
+charger to charge a phone or tablet that contains wireless charging technology.
+Depending on your model, the wireless charging feature might be enabled or disabled in some or all 
+power states. T o enable or disable the wireless charging feature, use the BIOS or OSD method:
+● BIOS
+1. T urn off the computer.
+2. T urn on the computer and immediately press f10.
+3. Continue pressing f10 until the BIOS Configuration  screen is displayed.
+4. Use the arrow keys on your keyboard to navigate to the Power  tab, and then select Hardware 
+Power Management .
+8 Chapter 3  Getting to know your computer
+5. Set Wireless Charging in S4/S5  to Enable .
+6. Press f10 to save the changes and exit.
+– or –
+1. T urn off the computer.
+2. T urn on the computer and immediately press f10.
+3. Continue pressing f10 until the BIOS Configuration  screen is displayed.
+4. Use the arrow keys on your keyboard to navigate to the Configuration  tab.
+5. Change the wireless charging option to enabled .
+● OSD
+1. Press the OSD button on the bottom edge of the monitor.
+2. After the main menu is displayed, press the OSD button again to open the OSD menu.
+3. Select Power .
+4. Under Power mode , select Full-Feature .
+5. Under Wireless Charging , select On to enable wireless charging.
+– or –
+1. Press the OSD button on the back cover to open the OSD menu.
+2. Select Power , and then select Wireless Charging .
+3. Select On to enable wireless charging.
+– or –
+1. Press the OSD button on the right side of the back of the computer.
+2. Select the menu icon to open the OSD menu.
+3. Select Power , and then select Wireless Charging .
+4. Select On to enable wireless charging or Off to disable wireless charging.
+Shutting down (turning off) the computer
+Although you can turn off the computer with the power button, HP recommends that you use the 
+Windows Shut down command.
+IMPORTANT: Unsaved information is lost when the computer shuts down. Be sure to save your work 
+before shutting down the computer.
+The Shut down command closes all open programs, including the operating system, and then turns off 
+the display and computer.
+Shutting down (turning off) the computer 9
+Shut down the computer under any of the following conditions:
+● When you need to access components inside the computer
+● When you are connecting an external hardware device that does not connect to a USB or video port 
+or to a headphone or microphone jack
+● When the computer will be unused and disconnected from external power for an extended period
+NOTE: If the computer is in the Sleep state or in Hibernation, first exit Sleep or Hibernation by briefly 
+pressing the power button.
+T o shut down your computer, follow these steps:
+1. Save your work and close all open programs.
+2. Select the Start  button, select the Power  icon, and then select Shut down .
+If the computer is unresponsive and you cannot use the preceding shutdown procedures, try the 
+following emergency procedures in the sequence provided:
+● Press ctrl+alt+delete , select the Power  icon, and then select Shut down .
+● Press and hold the power button for at least 10 seconds.
+● Disconnect the computer from external power.
+10 Chapter 3  Getting to know your computer
+Connecting to a network 4
+Y our computer can travel with you wherever you go. But even at home, you can explore the globe and 
+access information from millions of websites by using your computer and a wired or wireless network 
+connection. This chapter helps you get connected to that world.
+Connecting to a wireless network
+Y our computer might be equipped with one or more wireless devices.
+● WLAN device—Connects the computer to wireless local area networks, which are commonly 
+referred to as Wi-Fi networks, wireless LANs, or WLANs. These connections typically occur in 
+corporate offices, your home, and public places such as airports, restaurants, coffee shops, hotels, 
+and universities. The WLAN device in your computer communicates with a wireless router or a 
+wireless access point.
+● HP Mobile Broadband Module—Gives you wireless connectivity over a wireless wide area network 
+(WWAN), a much larger area. Mobile network operators install base stations (similar to cell phone 
+towers) throughout large geographic areas, effectively providing coverage across entire states, 
+regions, or even countries.
+● Bluetooth® device—Creates a personal area network (PAN) to connect to other Bluetooth-enabled 
+devices such as computers, phones, printers, headsets, speakers, and cameras. In a PAN, each 
+device communicates directly with other devices, and devices must be relatively close together—
+typically within 10 m (approximately 33 ft) of each other.
+Using the wireless controls
+Y ou can control the wireless devices in your computer using one or both of these features.
+● Airplane mode key (also called wireless button  or wireless key )
+● Operating system controls
+Airplane mode key
+The computer might have an airplane mode key, one or more wireless devices, and one or two wireless 
+lights. All the wireless devices on your computer are enabled at the factory.
+The wireless light indicates the overall power state of your wireless devices, not the status of individual 
+devices.
+Operating system controls
+The Network and Sharing Center allows you to set up a connection or network, connect to a network, 
+and diagnose and repair network problems.
+T o use operating system controls, on the taskbar, right-click the network status icon, and then select 
+Network and Internet settings .
+Connecting to a network 11
+Connecting to a WLAN
+Before you can connect to a WLAN with this procedure, you must first set up internet access.
+NOTE: When you are setting up internet access in your home, you must establish an account with an 
+internet service provider (ISP). T o purchase internet service and a modem, contact a local ISP. The ISP 
+will help set up the modem, install a network cable to connect your wireless router to the modem, and 
+test the internet service.
+1. Be sure that the WLAN device is on.
+2. On the taskbar, select the network status icon to open the Quick Settings menu. Select the arrow 
+next to the wireless icon, and then connect to one of the available networks.
+If the WLAN is a security-enabled WLAN, you are prompted to enter a security code. Enter the code, 
+and then select Next  to complete the connection.
+NOTE: If no WLANs are listed, you might be out of range of a wireless router or access point.
+NOTE: If you do not see the WLAN that you want to connect to:
+1. On the taskbar, right-click the network status icon, and then select Network and Internet 
+settings .
+2. Select Wi-Fi , and then select Show available known networks .
+3. Connect to one of the available networks.
+3. Follow the on-screen instructions to complete the connection.
+After the connection is made, right-click the network status icon at the far right of the taskbar to verify 
+the name and status of the connection.
+NOTE: The functional range (how far your wireless signals travel) depends on WLAN implementation, 
+router manufacturer, and interference from other electronic devices or structural barriers such as 
+walls and floors.
+Using HP Mobile Broadband (select products only)
+Y our HP Mobile Broadband computer has built-in support for mobile broadband service. Y our new 
+computer, when used with a mobile operator’s network, gives you the freedom to connect to the internet, 
+send email, or connect to your corporate network without the need for Wi-Fi hotspots.
+Y ou might need the HP Mobile Broadband Module IMEI number, MEID number, or both to activate mobile 
+broadband service. The number might be printed on a label located on the bottom of your computer, 
+inside the battery bay, under the service door, or on the back of the display.
+Locating mobile operator settings
+T o locate mobile operator settings:
+1. On the taskbar, right-click the network status icon.
+2. Select Network and Internet settings .
+3. Under the Network & Internet  section, select Cellular , and then, under More cellular settings  select 
+Mobile operator settings .
+12 Chapter 4  Connecting to a network 
+Some mobile network operators require the use of a subscriber identity module (SIM) card. A SIM card 
+contains basic information about you, such as a personal identification number (PIN), as well as network 
+information. Some computers include a SIM card that is preinstalled. If the SIM card is not preinstalled, it 
+might be included with the HP Mobile Broadband documents provided with your computer, or the mobile 
+network operator might provide it separately from the computer.
+Connecting with HP Mobile Broadband
+T o connect with HP Mobile Broadband:
+1. On the taskbar, select the network icon to open the Quick Settings menu. 
+2. Select the arrow next to the signal bars icon to connect.
+For information about HP Mobile Broadband and how to activate service with a preferred mobile 
+network operator, see the HP Mobile Broadband information included with your computer.
+Using eSIM (select products only)
+Y our computer might be equipped with an eSIM. An eSIM is a programmable version of the commonly 
+used SIM that you can use to download different profiles from selected carriers.
+An eSIM lets you connect to the internet over a cellular data connection. With an eSIM, you do not need 
+to get a SIM card from your mobile operator, and you can quickly switch between mobile operators 
+and data plans. For example, you might have one cellular data plan for work and a different plan with 
+another mobile operator for personal use. If you travel, you can connect in more places by finding mobile 
+operators with plans in that area.
+Y ou can implement eSIMs using these methods:
+● Embed the eSIM chip (eUICC). The notebook then operates as a dual SIM, one as eUICC and the 
+second as standard micro or nano SIM card on a SIM card tray. Only one SIM can be active at a time.
+● Place a removable physical eSIM on a SIM card tray, the same as a standard micro or nano SIM card. 
+In this case, the eSIM is not limited to a single carrier (physical blank eSIM).
+Y ou must add an eSIM profile to connect to the internet using cellular data. T o add a profile, manage 
+SIM profiles, and learn how to use an eSIM, go to https:/ /www.support.microsoft.com  , and type Use an 
+eSIM  in the search bar.
+Using GPS (select products only)
+Y our computer might be equipped with a Global Positioning System (GPS) device. GPS satellites deliver 
+location, speed, and direction information to GPS-equipped systems.
+T o enable GPS, be sure that location is enabled under the Location setting.
+1. Select the Search  icon in the taskbar, type location  in the search box.
+2. Select Location privacy settings , and then make sure that location services are enabled.
+Using Bluetooth wireless devices (select products only)
+A Bluetooth device provides short-range wireless communications that replace the physical cable 
+connections that traditionally link electronic devices.
+● Computers (desktop, notebook)
+Connecting with HP Mobile Broadband 13
+● Phones (cellular, cordless, smartphone)
+● Imaging devices (printer, camera)
+● Audio devices (headset, speakers)
+● Mouse
+● External keyboard
+Connecting Bluetooth devices
+Before you can use a Bluetooth device, you must establish a Bluetooth connection.
+1. In the taskbar, select the Search  icon, type bluetooth  in the search box, and then select 
+Bluetooth and other devices settings .
+2. Enable Bluetooth , if it is not already enabled.
+3. Select Add device , and then in the Add device  dialog box, select Bluetooth .
+4. Select your device from the list, and then follow the on-screen instructions. 
+NOTE: If the device requires verification, a pairing code is displayed. On the device that you are 
+adding, follow the on-screen instructions to verify that the code on your device matches the pairing 
+code. For more information, see the documentation provided with the device.
+NOTE: If your device does not appear in the list, be sure that Bluetooth on that device is turned on. 
+Some devices might have additional requirements; see the documentation provided with the device.
+Connecting to a wired network—LAN (select products only)
+Use a LAN connection to connect the computer directly to a router in your home (instead of working 
+wirelessly) or to connect to an existing network at your office.
+If there is no RJ-45 (network) port on the computer, connecting to a LAN requires a network cable and a 
+network jack or an optional docking device or expansion product.
+T o connect the network cable, follow these steps:
+1. Plug the network cable into the network jack (1) on the computer.
+2. Plug the other end of the network cable into a network wall jack (2) or router.
+NOTE: If the network cable contains noise suppression circuitry (3), which prevents interference 
+from TV and radio reception, orient the circuitry end of the cable toward the computer.
+14 Chapter 4  Connecting to a network 
+Connecting to a wired network—LAN (select products only) 15
+Enjoying entertainment features 5
+Use your HP computer as an entertainment hub to enjoy and manage your music, and download and 
+watch movies. Or, to make your computer an even more powerful entertainment center, connect external 
+devices like a monitor, projector, TV, speakers, or headphones.
+Using audio
+Y ou can download and listen to music, stream audio content (including radio) from the web, record audio, 
+or mix audio and video to create multimedia. Y ou can also play music CDs on the computer (on select 
+products) or attach an external optical drive to play CDs.
+T o enhance your listening enjoyment, attach external audio devices such as speakers or headphones.
+Connecting speakers
+Y ou can attach wired speakers to your computer by connecting them to a USB port or to the audio-out 
+(headphone)/audio-in (microphone) combo jack on your computer or on a docking station.
+T o connect wireless speakers to your computer, follow the device manufacturer's instructions. T o 
+connect high-definition speakers to the computer, see Setting up HDMI audio  on page 21. Before 
+connecting speakers, lower the volume setting.
+Connecting headphones
+Y ou can connect wired headphones to the headphone jack or to the audio-out (headphone)/audio-in 
+(microphone) combo jack on your computer.
+WARNING! T o reduce the risk of personal injury, lower the volume setting before putting on 
+headphones, earbuds, or a headset. For additional safety information, see the Regulatory, Safety, and 
+Environmental Notices .
+T o access this document:
+■ Select the Search  icon in the taskbar, type HP Documentation  in the search box, and then select 
+HP Documentation .
+T o connect wireless headphones to your computer, follow the device manufacturer's instructions.
+Connecting a microphone
+T o record audio, connect a microphone to the microphone jack on the computer. For best results when 
+recording, speak directly into the microphone, and record sound in a setting free of background noise.
+Connecting headsets
+Headphones combined with a microphone are called headsets . Y ou can connect wired headsets to the 
+audio-out (headphone)/audio-in (microphone) combo jack on your computer.
+WARNING! T o reduce the risk of personal injury, lower the volume setting before putting on 
+headphones, earbuds, or a headset. For additional safety information, see the Regulatory, Safety, and 
+Environmental Notices .
+16 Chapter 5  Enjoying entertainment features
+T o access this document:
+■ Select the Search  icon in the taskbar, type HP Documentation  in the search box, and then select 
+HP Documentation .
+T o connect wireless headsets to your computer, follow the device manufacturer's instructions.
+Using sound settings
+Use sound settings to adjust system volume, change system sounds, or manage audio devices.
+Sound settings
+T o view or change sound settings, follow these steps.
+1. Select the Search  icon in the taskbar, type control panel  in the search box, and then select 
+Control Panel .
+2. Select Hardware and Sound , and then select Sound .
+Audio settings
+Y our computer might include an advanced sound system by HyperX or Poly Studio. As a result, your 
+computer might include advanced audio features that you can control through myHP Audio Control.
+Using video
+Y our computer is a powerful video device that enables you to watch streaming video from your favorite 
+websites and download video and movies to watch on your computer when you are not connected to a 
+network.
+T o enhance your viewing enjoyment, use one of the video ports on the computer to connect an external 
+monitor, projector, or TV.
+IMPORTANT: Be sure that the external device is connected to the correct port on the computer, using 
+the correct cable. Follow the device manufacturer's instructions.
+For information about using your USB T ype-C features, go to http:/ /www.hp.com/support , and follow the 
+instructions to find your product.
+Connecting a DisplayPort device using a USB T ype-C cable (select products only)
+T o see video or high-resolution display output on an external DisplayPort device, connect the 
+DisplayPort device according to the instructions.
+NOTE: T o connect a USB T ype-C DisplayPort (DP) device to your computer, you need a USB T ype-C 
+cable, purchased separately.
+1. Connect one end of the USB T ype-C cable to the USB T ype-C port and DisplayPort connector on the 
+computer.
+NOTE: Y our connector icon might look slightly different from the illustration in this section.
+Using sound settings 17
+2. Connect the other end of the cable to the external DisplayPort device.
+3. Press the Windows key + p to cycle through one of four display states:
+● PC screen only:  View the screen image on the computer only.
+● Duplicate:  View the screen image simultaneously on both the computer and the external 
+device.
+● Extend:  View the screen image extended across both the computer and the external device.
+● Second screen only:  View the screen image on the external device only.
+Each time you press the Windows key + p, the display state changes.
+NOTE: For best results, especially if you choose the Extend  option, increase the screen resolution 
+of the external device, as follows. Select the Start  button, select Settings , and then select System . 
+Under Display , select the appropriate resolution, and then select Keep changes .
+Connecting a Thunderbolt device using a USB T ype-C cable (select products only)
+T o see video or high-resolution display output on an external Thunderbolt™ device, connect the 
+Thunderbolt device according to the instructions.
+NOTE: T o connect a USB T ype-C Thunderbolt device to your computer, you need a USB T ype-C cable, 
+purchased separately.
+18 Chapter 5  Enjoying entertainment features
+1. Connect one end of the USB T ype-C cable to the USB T ype-C Thunderbolt port on the computer.
+2. Connect the other end of the cable to the external Thunderbolt device.
+3. Press the Windows key + p to cycle through one of four display states:
+● PC screen only:  View the screen image on the computer only.
+● Duplicate:  View the screen image simultaneously on both the computer and external device.
+● Extend:  View the screen image extended across both the computer and external device.
+● Second screen only:  View the screen image on the external device only.
+Each time you press the Windows key + p, the display state changes.
+NOTE: For best results, especially if you choose the Extend  option, increase the screen resolution 
+of the external device, as follows. Select the Start  button, select Settings , and then select System . 
+Under Display , select the appropriate resolution, and then select Keep changes .
+Connecting video devices by using a VGA cable (select products only)
+T o see the computer screen image on an external VGA monitor or projected for a presentation, connect 
+a monitor or projector to the computer's VGA port.
+NOTE: T o connect a VGA video device to your computer, you need an VGA cable, purchased 
+separately.
+Connecting video devices by using a VGA cable (select products only) 19
+1. Connect the VGA cable from the monitor or projector to the VGA port on the computer as shown.
+2. Press the Windows key + p to cycle through one of four display states:
+● PC screen only:  View the screen image on the computer only.
+● Duplicate:  View the screen image simultaneously on both the computer and the external 
+device.
+● Extend:  View the screen image extended across both the computer and the external device.
+● Second screen only:  View the screen image on the external device only.
+Each time you press the Windows key + p, the display state changes.
+NOTE: For best results, especially if you choose the Extend  option, increase the screen resolution 
+of the external device, as follows. Select the Start  button, select Settings , and then select System . 
+Under Display , select the appropriate resolution, and then select Keep changes .
+Connecting video devices using an HDMI cable (select products only)
+T o connect an HDMI device to your computer, you need an HDMI cable, purchased separately.
+Connecting a high-definition TV or monitor using HDMI
+T o see the computer screen image on a high-definition TV or monitor, connect the high-definition device 
+according to the instructions.
+NOTE: T o connect an HDMI device to your computer, you need an HDMI cable, purchased separately.
+1. Connect one end of the HDMI cable to the HDMI port on the computer.
+NOTE: HDMI port shape can vary by product.
+20 Chapter 5  Enjoying entertainment features
+2. Connect the other end of the cable to the high-definition TV or monitor.
+3. Press the Windows key + p to cycle through one of four display states:
+● PC screen only:  View the screen image on the computer only.
+● Duplicate:  View the screen image simultaneously on both the computer and the external 
+device.
+● Extend:  View the screen image extended across both the computer and the external device.
+● Second screen only:  View the screen image on the external device only.
+Each time you press the Windows key + p, the display state changes.
+NOTE: For best results, especially if you choose the Extend  option, increase the screen resolution 
+of the external device, as follows. Select the Start  button, select Settings , and then select System . 
+Under Display , select the appropriate resolution, and then select Keep changes .
+Setting up HDMI audio
+HDMI is the only video interface that supports high-definition video and audio.
+T urn on HDMI audio
+After you connect an HDMI TV to the computer, you can then turn on HDMI audio by following this 
+procedure.
+1. Right-click the Speakers  icon in the notification area, at the far right of the taskbar, and then select 
+Sounds .
+2. On the Playback  tab, select the name of the digital output device.
+3. Select Set Default , and then select OK.
+Return audio to computer speakers
+Follow these steps to return the audio stream to the computer speakers.
+Setting up HDMI audio 21
+1. Right-click the Speakers  icon in the notification area, at the far right of the taskbar, and then select 
+Sounds .
+2. On the Playback  tab, select Speakers .
+3. Select Set Default , and then select OK.
+Connecting digital display devices using a Dual-Mode DisplayPort cable (select 
+products only)
+The Dual-Mode DisplayPort connector connects a digital display device such as a high-performance 
+monitor or projector. Dual-Mode DisplayPort delivers higher performance than VGA and improves digital 
+connectivity.
+NOTE: T o connect a digital display device to your computer, you need a Dual-Mode DisplayPort (DP-to-
+DP) cable, purchased separately.
+1. Connect one end of the Dual-Mode DisplayPort cable to the Dual-Mode DisplayPort connector on 
+the computer.
+NOTE: Y our connector might look slightly different from the illustration in this section.
+2. Connect the other end of the cable to the digital display device.
+3. Press the Windows key + p to cycle through one of four display states:
+● PC screen only:  View the screen image on the computer only.
+● Duplicate:  View the same screen image simultaneously on both the computer and the external 
+device.
+● Extend:  View the screen image extended across both the computer and the external device.
+● Second screen only:  View the screen image on the external device only.
+22 Chapter 5  Enjoying entertainment features
+Each time you press the Windows key + p , the display state changes.
+NOTE: For best results, especially if you choose the Extend  option, increase the screen resolution 
+of the external device, as follows. Select the Start  button, select Settings , and then select System . 
+Under Display , select the appropriate resolution, and then select Keep changes .
+Discovering and connecting to Miracast-compatible wireless displays (select 
+products only)
+Follow these steps to discover and connect to Miracast-compatible wireless displays without leaving 
+your current apps.
+1. Select the Search  icon in the taskbar, type connect  in the search box, and then select Connect to 
+a wireless display . 
+2. Under Display , select Connect to a wireless display .
+3. Select a setting, and then follow the on-screen instructions.
+Using data transfer
+Y our computer is a powerful entertainment device that enables you to transfer photos, videos, and 
+movies from your USB devices to view on your computer.
+T o enhance your viewing enjoyment, use one of the USB T ype-C ports on the computer to connect a 
+USB device, such as a cell phone, camera, activity tracker, or smartwatch, and transfer the files to your 
+computer.
+IMPORTANT: Be sure that the external device is connected to the correct port on the computer, using 
+the correct cable. Follow the device manufacturer's instructions.
+For information about using your USB T ype-C features, go to http:/ /www.hp.com/support , and follow the 
+instructions to find your product.
+Connecting devices to a USB T ype-C port (select products only)
+T o connect a USB T ype-C device to your computer, you need a USB T ype-C cable, purchased separately.
+Discovering and connecting to Miracast-compatible wireless displays (select products only) 23
+1. Connect one end of the USB T ype-C cable to the USB T ype-C port on the computer.
+2. Connect the other end of the cable to the external device.
+24 Chapter 5  Enjoying entertainment features
+Navigating the screen 6
+Y ou can navigate the computer screen by using touch gestures (select products only) and by using the 
+keyboard and mouse.
+Select computer models have special action keys or hot key functions on the keyboard to perform 
+routine tasks.
+Using touch gestures (select products only)
+Y ou can customize the touch gestures by changing settings, button configurations, click speed, and 
+pointer options.
+Select the Search  icon in the taskbar, type control panel  in the search box, and then select Control 
+Panel . Select Hardware and Sound . Under Devices and Printers , select Mouse .
+NOTE: T ouch gestures are not supported in all apps.
+Using the keyboard and mouse
+The keyboard and mouse allow you to type, select items, scroll, and perform the same functions as you 
+do using touch gestures. With the keyboard, you can use action keys and hot keys to perform specific 
+functions.
+TIP: The Windows key on the keyboard allows you to quickly return to the Start screen from an open 
+app or the Windows desktop. Press the key again to return to the previous screen.
+TIP: Copilot in Windows requires Windows 11. Some features require a neural processing unit. The 
+timing of feature delivery and availability varies by market and device. Y ou must have a Microsoft 
+account to use the Copilot feature. Where the Copilot feature is not available, pressing the Copilot key 
+opens the Bing search engine. See http:/ /aka.ms/WindowsAIFeatures .
+NOTE: Depending on the country or region, the keys and keyboard functions of your keyboard might 
+be different from those discussed in this section.
+Using the action keys or hot keys
+Y ou can quickly access information or perform functions by using certain keys and key combinations.
+● Action keys  perform an assigned function. The icons on the function keys at the top of the keyboard 
+illustrate the assigned function for each key.
+T o use an action key, press and hold the key.
+● Hot keys  are a combination of the fn key and another key.
+T o use a hot key, briefly press the fn key, and then briefly press the second key of the combination.
+Navigating the screen 25
+Action keys
+Depending on the keyboard model, your keyboard might support the keys that are described in the next 
+table.
+T able 6-1 Action keys
+Icon Description
+Opens the “How to get help in Windows” 
+webpage.
+Decreases the screen brightness incrementally 
+as long as you hold down the key.
+Increases the screen brightness incrementally 
+as long as you hold down the key.
+Switches the screen image between display 
+devices connected to the system. For example, 
+if a monitor is connected to the computer, 
+repeatedly pressing this key alternates the 
+screen image from the computer display to the 
+monitor display to a simultaneous display on 
+both the computer and the monitor.
+T urns the keyboard backlight off or on. On select 
+products, you can adjust the brightness of the 
+keyboard backlight. Press the key repeatedly 
+to adjust the brightness from high (when you 
+first start up the computer), to low, to off. After 
+you adjust the keyboard backlight setting, the 
+backlight will revert to your previous setting 
+each time you turn on the computer. The 
+keyboard backlight will turn off after 30 seconds 
+of inactivity. T o turn the keyboard backlight back 
+on, press any key. T o conserve battery power, 
+turn off this feature.
+Plays the previous track of an audio CD or the 
+previous section of a DVD or a Blu-ray Disc (BD).
+Starts, pauses, or resumes playback of an audio 
+CD, a DVD, or a BD.
+Plays the next track of an audio CD or the next 
+section of a DVD or a BD.
+Stops audio or video playback of a CD, a DVD, or 
+a BD.
+Decreases speaker volume incrementally while 
+you hold down the key.
+Increases speaker volume incrementally while 
+you hold down the key.
+26 Chapter 6  Navigating the screen
+T able 6-1 Action keys (continued)
+Icon Description
+Mutes or restores speaker sound.
+T urns the wireless feature on or off.
+NOTE: A wireless network must be set up 
+before a wireless connection is possible.
+T urns the airplane mode and wireless feature on 
+or off.
+NOTE: The airplane mode key is also referred 
+to as the wireless button.
+NOTE: A wireless network must be set up 
+before a wireless connection is possible.
+Action keys 27
+Maintaining your computer 7
+Performing regular maintenance keeps your computer in optimal condition. This chapter explains how to 
+use tools like Disk Defragmenter and Disk Cleanup. It also provides instructions for updating programs 
+and drivers, steps to clean the computer, and tips for traveling with (or shipping) the computer.
+Improving performance
+Y ou can improve the performance of your computer by performing regular maintenance tasks with tools 
+such as Disk Defragmenter and Disk Cleanup.
+Using Disk Defragmenter
+HP recommends using Disk Defragmenter to defragment your hard drive at least once a month.
+NOTE: It is not necessary to run Disk Defragmenter on solid-state drives.
+T o run Disk Defragmenter:
+1. Connect the computer to AC power.
+2. Select the Search  icon in the taskbar, type defragment  in the search box, and then select 
+Defragment and Optimize Drives .
+3. Follow the on-screen instructions.
+For additional information, access the Disk Defragmenter software Help.
+Using Disk Cleanup
+Use Disk Cleanup to search the hard drive for unnecessary files that you can safely delete to free up 
+disk space and help the computer run more efficiently.
+T o run Disk Cleanup:
+1. Select the Search  icon in the taskbar, type disk  in the search box, and then select Disk Cleanup .
+2. Follow the on-screen instructions.
+Using HP 3D DriveGuard (select products only)
+HP 3D DriveGuard protects a hard drive by parking the drive and halting data requests under some 
+conditions.
+● Y ou drop the computer.
+● Y ou move the computer with the display closed while the computer is running on battery power.
+28 Chapter 7  Maintaining your computer
+A short time after one of these events, HP 3D DriveGuard returns the hard drive to normal operation.
+NOTE: Only internal hard drives are protected by HP 3D DriveGuard. A hard drive installed in an 
+optional docking device or connected to a USB port is not protected by HP 3D DriveGuard.
+NOTE: Because solid-state drives (SSDs) lack moving parts, HP 3D DriveGuard is unnecessary for 
+these drives.
+Identifying HP 3D DriveGuard status
+The hard drive light on the computer changes color to show that the drive in a primary hard drive bay, 
+the secondary hard drive bay (select products only), or both are parked.
+Updating programs and drivers
+HP recommends that you update your programs and drivers on a regular basis. Updates can resolve 
+issues and bring new features and options to your computer. For example, older graphics components 
+might not work well with the most recent gaming software. Without the latest driver, you do not get the 
+most out of your equipment.
+Updating both programs and drivers
+Use this procedure to update both programs and drivers.
+1. Use one of these options:
+● Select the Search  icon in the taskbar, type support  in the search box, and then select the HP 
+Support Assistant  app.
+● Select the question mark icon in the taskbar.
+2. Under My notebook , select Updates . The Software and Drivers  window opens, and Windows checks 
+for updates.
+3. Follow the on-screen instructions.
+Updating programs only
+Use this procedure to update programs only.
+1. Select Start , and then select Microsoft Store .
+2. Select the dots next to your profile picture in the top-right corner, and then select Downloads and 
+updates .
+3. On the Downloads and updates  page, select Get updates , and then follow the on-screen 
+instructions.
+Updating drivers only
+Use this procedure to update drivers only.
+1. Select the Search  icon in the taskbar, type windows update settings  in the search box, and 
+then select Windows Update settings .
+Identifying HP 3D DriveGuard status 29
+2. Select Check for updates , and then follow the on-screen instructions.
+NOTE: If Windows does not find a new driver, go to the device manufacturer's website, and follow 
+the instructions.
+Cleaning your computer
+Cleaning your computer regularly removes dirt and debris so that your device continues to operate at its 
+best. Use the following information to safely clean the external surfaces of your computer.
+Enabling HP Easy Clean (select products only)
+HP Easy Clean helps you to avoid accidental input while you clean the computer surfaces. This software 
+disables devices such as the keyboard, touch screen, and touchpad for a preset amount of time so that 
+you can clean all computer surfaces.
+1. Start HP Easy Clean in one of the following ways:
+● Select the Start  menu, and then select HP Easy Clean .
+● Select the HP Easy Clean  icon in the taskbar.
+● Select Start , and then select the HP Easy Clean  tile.
+2. Now that your device is disabled for a short period, see Removing dirt and debris from your 
+computer  on page 30 for the recommended steps to clean the high-touch, external surfaces 
+on your computer. After you remove the dirt and debris, you can also clean the surfaces with a 
+disinfectant. See Cleaning your computer with a disinfectant  on page 31 for guidelines to help 
+prevent the spread of harmful bacteria and viruses.
+Removing dirt and debris from your computer
+Here are the recommended steps to clean dirt and debris from your computer.
+For computers with wood veneer, see Caring for wood veneer (select products only)  on page 32.
+1. Wear disposable gloves made of latex (or nitrile gloves, if you are latex-sensitive) when cleaning the 
+surfaces.
+2. T urn off your device and unplug the power cord and other connected external devices. Remove any 
+installed batteries from items such as wireless keyboards.
+CAUTION: T o prevent electric shock or damage to components, never clean a product while it is 
+turned on or plugged in.
+3. Moisten a microfiber cloth with water. The cloth should be moist, but not dripping wet.
+IMPORTANT: T o avoid damaging the surface, avoid abrasive cloths, towels, and paper towels.
+4. Wipe the exterior of the product gently with the moistened cloth.
+IMPORTANT: Keep liquids away from the product. Avoid getting moisture in any openings. If liquid 
+makes its way inside your HP product, it can cause damage to the product. Do not spray liquids 
+directly on the product. Do not use aerosol sprays, solvents, abrasives, or cleaners containing 
+hydrogen peroxide or bleach that might damage the finish.
+30 Chapter 7  Maintaining your computer
+5. Start with the display (if applicable). Wipe carefully in one direction, and move from the top of the 
+display to the bottom. Finish with any flexible cables, like power cord, keyboard cable, and USB 
+cables.
+6. Be sure that surfaces have completely air-dried before turning the device on after cleaning.
+7. Discard the gloves after each cleaning. Clean your hands immediately after you remove the gloves.
+See Cleaning your computer with a disinfectant  on page 31 for recommended steps to clean the 
+high-touch, external surfaces on your computer to help prevent the spread of harmful bacteria and 
+viruses.
+Cleaning your computer with a disinfectant
+The World Health Organization (WHO) recommends cleaning surfaces, followed by disinfection, as a 
+best practice for preventing the spread of viral respiratory illnesses and harmful bacteria.
+After cleaning the external surfaces of your computer using the steps in Removing dirt and debris from 
+your computer  on page 30, Caring for wood veneer (select products only)  on page 32, or both, you 
+might also choose to clean the surfaces with a disinfectant. A disinfectant that is within HP’s cleaning 
+guidelines is an alcohol solution consisting of 70% isopropyl alcohol and 30% water. This solution is also 
+known as rubbing alcohol and is sold in most stores.
+Follow these steps when disinfecting high-touch, external surfaces on your computer:
+1. Wear disposable gloves made of latex (or nitrile gloves, if you are latex-sensitive) when cleaning the 
+surfaces.
+2. T urn off your device and unplug the power cord and other connected external devices. Remove any 
+installed batteries from items such as wireless keyboards.
+CAUTION: T o prevent electric shock or damage to components, never clean a product while it is 
+turned on or plugged in.
+3. Moisten a microfiber cloth with a mixture of 70% isopropyl alcohol and 30% water. The cloth should 
+be moist, but not dripping wet.
+CAUTION: Do not use any of the following chemicals or any solutions that contain them, including 
+spray-based surface cleaners: bleach, peroxides (including hydrogen peroxide), acetone, ammonia, 
+ethyl alcohol, methylene chloride, or any petroleum-based materials, such as gasoline, paint thinner, 
+benzene, or toluene.
+IMPORTANT: T o avoid damaging the surface, avoid abrasive cloths, towels, and paper towels.
+4. Wipe the exterior of the product gently with the moistened cloth.
+IMPORTANT: Keep liquids away from the product. Avoid getting moisture in any openings. If liquid 
+makes its way inside your HP product, it can cause damage to the product. Do not spray liquids 
+directly on the product. Do not use aerosol sprays, solvents, abrasives, or cleaners containing 
+hydrogen peroxide or bleach that might damage the finish.
+5. Start with the display (if applicable). Wipe carefully in one direction, and move from the top of the 
+display to the bottom. Finish with any flexible cables, like power cord, keyboard cable, and USB 
+cables.
+6. Be sure that surfaces have completely air-dried before turning the device on after cleaning. 
+Cleaning your computer with a disinfectant 31
+7. Discard the gloves after each cleaning. Clean your hands immediately after you remove the gloves.
+Caring for wood veneer (select products only)
+Y our product might feature high-quality wood veneer. As with all natural wood products, proper care is 
+important for best results over the life of the product. Because of the nature of natural wood, you might 
+see unique variations in the grain pattern or subtle variations in color, which are normal.
+● Clean the wood with a dry, static-free microfiber cloth or chamois.
+● Avoid cleaning products containing substances such as ammonia, methylene chloride, acetone, 
+turpentine, or other petroleum-based solvents.
+● Do not expose the wood to sun or moisture for long periods of time.
+● If the wood becomes wet, dry it by dabbing with an absorbent, lint-free cloth.
+● Avoid contact with any substance that might dye or discolor the wood.
+● Avoid contact with sharp objects or rough surfaces that might scratch the wood.
+See Removing dirt and debris from your computer  on page 30 for the recommended steps to clean 
+the high-touch, external surfaces on your computer. After you remove the dirt and debris, you can also 
+clean the surfaces with a disinfectant. See Cleaning your computer with a disinfectant  on page 31 for 
+sanitizing guidelines to help prevent the spread of harmful bacteria and viruses.
+T raveling with or shipping your computer
+If you must travel with or ship your computer, follow these tips to keep your equipment safe.
+● Prepare the computer for traveling or shipping:
+– Back up your information to an external drive.
+– Remove all discs and all external media cards, such as memory cards.
+– T urn off and then disconnect all external devices.
+– Shut down the computer.
+● T ake a backup of your information. Keep the backup separate from the computer.
+● When traveling by air, carry the computer as hand luggage; do not check it with the rest of your 
+luggage.
+IMPORTANT: Avoid exposing a drive to magnetic fields. Security devices with magnetic fields 
+include airport walk-through devices and security wands. Airport conveyer belts and similar 
+security devices that check carry-on baggage use X-rays instead of magnetism and do not 
+damage drives.
+● If you plan to use the computer during a flight, listen for the in-flight announcement that tells you 
+when you can use your computer. In-flight computer use is at the discretion of the airline.
+● If you are shipping the computer or a drive, use suitable protective packaging and label the package 
+“FRAGILE.”
+32 Chapter 7  Maintaining your computer
+● The use of wireless devices might be restricted in some environments. Such restrictions might apply 
+aboard aircraft, in hospitals, near explosives, and in hazardous locations. If you are uncertain of the 
+policy that applies to the use of a wireless device in your computer, ask for authorization to use your 
+computer before you turn it on.
+● If you are traveling internationally, follow these suggestions:
+– Check the computer-related customs regulations for each country or region on your itinerary.
+– Check the power cord and adapter requirements for each location in which you plan to use the 
+computer. Voltage, frequency, and plug configurations vary.
+WARNING! T o reduce the risk of electric shock, fire, or damage to the equipment, do not 
+attempt to run the computer from a voltage converter kit that is sold for appliances.
+T raveling with or shipping your computer 33
+Securing your computer and information 8
+Computer security is essential for protecting the confidentiality, integrity, and availability of your 
+information.
+Standard security solutions provided by the Windows operating system, HP applications, the Setup 
+Utility (BIOS), and other third-party software can help protect your computer from a variety of risks, such 
+as viruses, worms, and other types of malicious code.
+Computer security features
+Y our computer includes features that help protect the integrity of your system and its data from 
+unauthorized access. Review these features to ensure proper use.
+T able 8-1 Computer risks and security features
+Computer risk Computer feature
+Unauthorized use of the computer or 
+user accountUser password
+A password  is a group of characters that you choose to authorize access to your computer 
+information.
+‒ or –
+Windows Hello (select products only)
+On products equipped with a fingerprint reader or an infrared camera, Windows Hello allows you to 
+enroll your fingerprint, your facial ID, and set up a PIN. After enrollment, you can use your fingerprint 
+reader, facial ID, or PIN to sign in to Windows.
+T o set up Windows Hello:
+1. Select the Start  button, select Settings , select Accounts , and then select Sign-in options .
+2. If you do not have a password set up, you must add one before you can use other sign-in 
+options. Select Password , and then select Add .
+3. Select Windows Hello Fingerprint  or Windows Hello Face , and then select Set up .
+4. Select Get started , and then follow the on-screen instructions to enroll your fingerprint or facial 
+ID and set up a PIN.
+IMPORTANT: T o prevent fingerprint logon issues, make sure when you register your fingerprint 
+that all sides of your finger are registered by the fingerprint reader.
+NOTE: The PIN is not limited in length. The default setting is for numbers only. T o include 
+alphabetic or special characters, select the include letters and symbols  check box.
+Unauthorized access to Setup Utility, 
+BIOS settings, and other system 
+identification informationAdministrator password
+Computer viruses Antivirus software
+The free trial antivirus software that is preinstalled on your computer can detect most viruses, 
+remove them, and, in most cases, repair damage caused by viruses. For protection against new 
+viruses beyond the trial period, purchase an extended service contract.
+34 Chapter 8  Securing your computer and information
+T able 8-1 Computer risks and security features (continued)
+Computer risk Computer feature
+Unauthorized access to data and 
+ongoing threats to the computerY our computer has these additional features to protect against external threats:
+● Firewall software
+– Windows includes firewall software preinstalled on the computer.
+– The antivirus software, which is preinstalled on the computer, includes firewall software.
+● Windows critical security updates
+● Updates to the Windows operating system
+Computer security features 35
+T roubleshooting 9
+The following tables present some issues you might encounter while installing, starting up, or using your 
+computer and suggest possible solutions.
+For more information or for additional troubleshooting options, go to http:/ /www.hp.com/support , and 
+follow the instructions to find your product.
+NOTE: If you have problems using any peripheral devices such as a monitor or a printer with your 
+computer, see the documentation provided by the product manufacturer for more extensive 
+troubleshooting.
+Computer does not start
+If your computer does not start, refer to the following table for possible solutions.
+T able 9-1 Computer symptoms and solutions
+Symptom Possible solution
+Error message: hard 
+drive error1. Restart the computer.
+a. Press ctrl+alt+delete .
+b. Complete one of these tasks:
+● Select the Power  icon, and then select Restart .
+● Press and hold the power button on the computer for 10 or more seconds to turn off the computer, 
+and then press the button again to turn on the computer.
+2. If Windows opens, immediately back up all important data to a backup hard drive.
+3. Contact support, regardless of whether Windows started or not.
+Computer will not 
+turn on or start● Be sure that the cables connecting the computer to the AC outlet are plugged in properly. The green power 
+supply light on the computer should be on. If it is not, try a different AC outlet. If you are still having trouble, 
+contact support.
+● Be sure that the operating voltage of the AC outlet is appropriate for the electrical voltage of the computer.
+● T est the AC outlet by plugging a different electrical device into it.
+● If possible, remove any outlet filters and stabilizers, and then insert the power plug directly into the AC outlet.
+● Disconnect all peripheral devices. Press and hold the power button down for at least 15 seconds until the 
+computer turns off. Then press the power button again to turn on the computer.
+● If the monitor screen is blank, the monitor might not be properly connected. Connect the monitor to the 
+computer, plug the power cord into an AC outlet, and then turn the monitor on. See Monitor (select products 
+only)  on page 37.
+36 Chapter 9  T roubleshooting
+T able 9-1 Computer symptoms and solutions (continued)
+Symptom Possible solution
+Computer is not 
+responding1. Press ctrl+alt+delete .
+2. Select T ask Manager .
+3. Select any programs that are not responding, and then select End task .
+If closing programs does not resolve the problem, restart the computer.
+1. Press ctrl+alt+delete .
+2. Complete one of these tasks:
+● Select the Power  icon, and then select Restart .
+● Press and hold the power button on the computer for 10 or more seconds to turn off the computer, and 
+then press the button again to turn on the computer.
+Error message: 
+Invalid system disk or 
+Non-System disk or 
+Disk errorWhen drive activity stops, remove the optical disc inside the optical drive, and then press the spacebar  on the 
+keyboard.
+Power
+If your computer has power problems, refer to the following table for possible solutions.
+T able 9-2 Power symptoms and solutions
+Symptom Possible solution
+Computer does not 
+turn off when the 
+power button is 
+pressedPress and hold the power button until the computer turns off. Then turn the computer on again.
+Computer shuts 
+down automatically● The computer might be in an exceedingly hot environment. Let it cool down.
+● Be sure that computer air vents are not blocked.
+NOTE: If your computer has an internal fan, be sure that the internal fan is running.
+Monitor (select products only)
+If you have monitor problems, refer to the following table for possible solutions.
+NOTE: In addition to the information listed here, see the documentation that came with your monitor.
+T able 9-3 Monitor symptoms and solutions
+Symptom Possible solution
+Screen is blank, and 
+monitor power light is off● Reconnect the power cable to the back of the monitor and to the AC outlet.
+● Press the power button on the monitor.
+Power 37
+T able 9-3 Monitor symptoms and solutions (continued)
+Symptom Possible solution
+Screen is blank ● Press the space bar  on the keyboard or move the mouse to redisplay the screen image.
+● Press the Sleep button (select products only) or esc  to resume from Sleep mode.
+● Press the power button to turn on the computer.
+● Inspect the monitor cable for bent pins.
+– If any of the pins are bent, replace the monitor cable.
+– If no pins are bent, reconnect the monitor cable to the computer.
+Images on the screen are 
+too large or too small, or 
+the images are fuzzyAdjust the monitor resolution setting in Windows.
+■ Select the Start  button, select Settings , and then select System . Under Display , select the appropriate 
+resolution, and then select Keep changes .
+Keyboard and mouse (with cable)
+If you have wired keyboard and mouse problems, refer to the following table for possible solutions.
+T able 9-4 Keyboard and mouse (with cable) symptoms and solutions
+Symptom Possible solution
+Keyboard commands and 
+typing are not recognized 
+by the computerUse the mouse to turn off the computer. Disconnect and reconnect the keyboard to the back of your computer, 
+and then restart your computer.
+Mouse (with cable) does 
+not work or is not 
+detected● Disconnect and reconnect the mouse cable to your computer.
+● If the mouse is still not detected, turn off the computer, disconnect and reconnect the mouse cable, and 
+then restart the computer.
+Cursor does not respond 
+to the arrow keys on the 
+number keypadPress num lock  on the keyboard to turn off num lock, so that the arrow keys on the number keypad can be used.
+Cursor does not respond 
+to mouse movement1. Press alt+tab to navigate to an open program.
+2. Press ctrl+s to save your changes in the selected program ( ctrl+s is the keyboard shortcut for the Save 
+command on most—not all—programs).
+3. Repeat step 1 and step 2 to save changes in all open programs.
+4. Press the power button to turn off the computer.
+5. After the shutdown is complete, disconnect and reconnect the mouse cable to the back of your computer, 
+and then restart your computer.
+Keyboard and mouse (wireless)
+If you have wireless keyboard and mouse problems, refer to the following table for possible solutions.
+38 Chapter 9  T roubleshooting
+T able 9-5 Keyboard and mouse (wireless) symptoms and solutions
+Symptom Possible solution
+Wireless keyboard or 
+mouse does not work or 
+is not detected● Be sure that you are using the wireless keyboard or wireless mouse within range of the transceiver, 
+approximately 10 meters (32 feet) for normal use, and within 30 cm (12 inches) during initial setup or for 
+resynchronization.
+● Be sure that the mouse is not in Suspend mode, which occurs after 20 minutes of inactivity. Click the left 
+mouse button to reactivate the mouse.
+● Replace the batteries in the keyboard, mouse, or both.
+Speakers and sound
+If you have speaker and sound problems, refer to the following table for possible solutions.
+T able 9-6 Speaker symptoms and solutions
+Symptom Possible solution
+Volume is very low or 
+unsatisfactoryBe sure that you connected the speakers to the audio-out (black) jack on the back of the computer. (Additional 
+audio jacks are used for multiple-channel speakers.) Detached nonpowered speakers (speakers without a 
+separate power source, such as batteries or a power cord) do not produce satisfactory sound. Replace the 
+nonpowered speakers with powered speakers.
+No sound is produced
+1. Select the Search  icon in the taskbar, type control panel  in the search box, select Control Panel , and 
+then select System and Security .
+2. Under Security and Maintenance , select T roubleshoot common computer problems , and then select 
+Additional troubleshooters .
+3. Under Additional troubleshooters , select Playing audio .
+● Be sure that you connected powered speakers and that they are turned on.
+● T urn off your computer, and then disconnect and reconnect the speakers. Be sure that the speakers are 
+connected to an audio jack, not a microphone or headphone jack.
+● T o resume from Sleep mode, press the Sleep button (select products only), or press esc .
+● Unplug headphones if they are connected to your computer (or speaker system).
+Internet access
+If you have internet access problems, refer to the following table for possible solutions.
+Speakers and sound 39
+T able 9-7 Internet access symptoms and solutions
+Symptom Possible solution
+Cannot connect to the 
+internet● Run the network troubleshooting wizard.
+1. Right-click the network status icon in the notification area, at the far right of the taskbar.
+2. Select T roubleshoot problems .
+● Verify that you are using the proper cables for your internet connection type. Y our computer might have a 
+dial-up modem and an Ethernet network adapter, which is also called a network interface card, or NIC. A 
+modem uses a standard telephone cable, while the network adapter uses a network cable, to connect to a 
+local area network (LAN). Do not connect a telephone cable to the network adapter, and do not connect a 
+network cable to a telephone line; doing so might damage the network adapter.
+● Run the wireless setup wizard.
+1. Select the Search  icon in the taskbar, type control panel  in the search box, and then select 
+Control Panel . Select Network and Internet , and then select Network and Sharing Center .
+2. In the Network and Sharing Center  window, select Set up a new connection or network  to open the 
+wizard, and then follow the on-screen instructions.
+● If your system has an external antenna, try moving the antenna to a better position. If the antenna is 
+internal, try moving the computer.
+● T ry to connect again later, or contact your ISP for assistance.
+Cannot connect to the 
+internet but there is no 
+error message1. Right-click the network status icon in the notification area, at the far right of the taskbar.
+2. Select T roubleshoot problems .
+No network connection 
+icon in the notification 
+area1. Select the Search  icon in the taskbar, type repair  in the search box, and then select Fix problems with 
+your computer .
+2. Follow the on-screen instructions.
+Software troubleshooting
+If you have software problems, refer to the following table for possible solutions.
+T able 9-8 Software symptoms and solutions
+Symptom Possible solution
+T o resolve general 
+software problems, 
+try these methods:● T urn the computer off completely, and then turn it on again.
+● Update the drivers. See “Updating device drivers” in this table.
+● Restore your computer to a configuration that was in use before the software was installed. See "Microsoft 
+System Restore" in this table.
+● Reinstall the software program or hardware driver. See “Software program and hardware driver reinstallation” in 
+this table.
+● Erase and reformat the hard drive, and then reinstall the operating system, programs, and drivers. This process 
+erases all the data files that you have created. See Backing up, restoring, and recovering  on page 49.
+40 Chapter 9  T roubleshooting
+T able 9-8 Software symptoms and solutions (continued)
+Symptom Possible solution
+Software programs 
+are slow to respond● Close unnecessary software programs.
+● Run virus scans and other system tools when the computer is not in use.
+● Stop startup applications, such as messaging software and multimedia applications, from loading.
+1. Select the Search  icon in the taskbar, type msconfig  in the search box, and then select System 
+Configuration .
+NOTE: If you are prompted for an administrator password or confirmation, type the password or provide 
+confirmation.
+2. From the General  tab, select Selective startup .
+3. Select the Startup  tab, and then select Open T ask Manager .
+4. Select the startup items that you want to prevent from loading, and then select Apply .
+NOTE: If you are unsure about an item, do not disable it.
+5. If prompted, select Restart  to restart the computer.
+NOTE: T o enable a program to load at startup, restart the computer and reverse these steps.
+● Disable nonessential graphics capabilities.
+1. Select the Search  icon in the taskbar, type file explorer  in the search box, and then select File 
+Explorer .
+2. Right-click This PC , and then select Properties .
+3. Select Advanced system settings .
+NOTE: If you are prompted for an administrator password or confirmation, type the password or provide 
+confirmation.
+4. From the Advanced  tab under Performance , select Settings .
+5. From the Visual Effects  tab, select Adjust for best performance , and then select OK.
+Updating device 
+driversComplete the following procedure to update a driver or to revert to an earlier version of the driver if the new one does 
+not solve your problem.
+1. Select the Search  icon in the taskbar, type device manager  in the search box, and then select Device 
+Manager .
+2. Select the arrow to expand the list of the type of device you want to update or roll back, for example, DVD/CD-
+ROM drives.
+3. Double-click the specific item, for example, HP DVD Writer 640b.
+4. Select the Driver  tab.
+5. Perform one of these tasks:
+● T o update a driver, select Update Driver , and then follow the on-screen instructions.
+● T o revert to an earlier version of a driver, select Roll Back Driver , and then follow the on-screen instructions.
+Software troubleshooting 41
+T able 9-8 Software symptoms and solutions (continued)
+Symptom Possible solution
+Microsoft System 
+Restore● If you have a problem that might be caused by software that you have installed on your computer, use System 
+Restore to return the computer to a previous restore point. Y ou can also set restore points manually.
+IMPORTANT: Always use this System Restore procedure before you use the System Recovery procedure.
+● For more information and steps, see the Get Help app.
+■ Select the Start  button, select All apps  and then select the Get Help  app.
+Software program 
+and hardware driver 
+reinstallation● Before you uninstall a program, be sure that you have a way to reinstall it. Confirm that it is still available from the 
+original source, for example, discs or the internet.
+NOTE: Some features might not be available on systems that are shipped without a version of Windows.
+● For information and steps to uninstall a program, see the Get Help app.
+■ Select the Start  button, select All apps  and then select the Get Help  app.
+42 Chapter 9  T roubleshooting
+Using HP PC Hardware Diagnostics 10
+Y ou can use the HP PC Hardware Diagnostics utility to determine whether your computer hardware 
+is running properly. The three versions are HP PC Hardware Diagnostics Windows, HP PC Hardware 
+Diagnostics UEFI (Unified Extensible Firmware Interface), and (for select products only) Remote HP PC 
+Hardware Diagnostics UEFI, a firmware feature.
+Using HP PC Hardware Diagnostics Windows (select products 
+only)
+HP PC Hardware Diagnostics Windows is a Windows-based utility that allows you to run diagnostic tests 
+to determine whether the computer hardware is functioning properly. The tool runs within the Windows 
+operating system to diagnose hardware failures.
+If HP PC Hardware Diagnostics Windows is not installed on your computer, you must download and 
+install it. T o download HP PC Hardware Diagnostics Windows, see Downloading HP PC Hardware 
+Diagnostics Windows  on page 44.
+Using an HP PC Hardware Diagnostics Windows hardware failure ID code
+When HP PC Hardware Diagnostics Windows detects a failure that requires hardware replacement, a 
+24-digit failure ID code is generated for select component tests. For interactive tests, such as keyboard, 
+mouse, or audio and video palette, you must perform troubleshooting steps before you can receive a 
+failure ID.
+Y ou have several options after you receive a failure ID:
+● Select Next  to open the Event Automation Service (EAS) page, where you can log the case.
+● Scan the QR code with your mobile device, which takes you to the EAS page, where you can log the 
+case.
+● Select the box next to the 24-digit failure ID to copy your failure code and send it to support.
+Accessing HP PC Hardware Diagnostics Windows
+After HP PC Hardware Diagnostics Windows is installed, you can access it from HP Support Assistant or 
+the Start menu.
+Accessing HP PC Hardware Diagnostics Windows from HP Support Assistant
+After HP PC Hardware Diagnostics Windows is installed, follow these steps to access it from HP Support 
+Assistant:
+1. Complete one of the following tasks:
+● Select the Search  icon in the taskbar, type support  in the search box, and then select the HP 
+Support Assistant  app.
+● Select the question mark icon in the taskbar.
+2. Select Fixes & Diagnostics .
+Using HP PC Hardware Diagnostics 43
+3. Select Run hardware diagnostics , and then select Launch .
+4. When the tool opens, select the type of diagnostic test that you want to run, and then follow the 
+on-screen instructions.
+NOTE: T o stop a diagnostic test, select Cancel .
+Accessing HP PC Hardware Diagnostics Windows from the Start menu (select products only)
+After HP PC Hardware Diagnostics Windows is installed, follow these steps to access it from the Start 
+menu:
+1. Select the Start  button, and then select All apps .
+2. Select HP PC Hardware Diagnostics Windows .
+3. When the tool opens, select the type of diagnostic test that you want to run, and then follow the 
+on-screen instructions.
+NOTE: T o stop a diagnostic test, select Cancel .
+Downloading HP PC Hardware Diagnostics Windows
+The HP PC Hardware Diagnostics Windows downloading instructions are provided in English only. Y ou 
+must use a Windows computer to download this tool because only .exe files are provided.
+Downloading the latest HP PC Hardware Diagnostics Windows version from HP
+T o download HP PC Hardware Diagnostics Windows from HP, follow these steps:
+1. Go to http:/ /www.hp.com/go/techcenter/pcdiags . The HP PC Diagnostics home page is displayed.
+2. Select Download HP Diagnostics Windows , and then select the specific Windows diagnostics 
+version to download to your computer or a USB flash drive.
+The tool downloads to the selected location.
+Downloading the HP PC Hardware Diagnostics Windows from the Microsoft Store
+Y ou can download the HP PC Hardware Diagnostics Windows from the Microsoft Store:
+1. Select the Microsoft Store app on your desktop or select the Search  icon in the taskbar, and then 
+type Microsoft Store  in the search box.
+2. T ype HP PC Hardware Diagnostics Windows  in the Microsoft Store  search box.
+3. Follow the on-screen directions.
+The tool downloads to the selected location.
+Downloading HP Hardware Diagnostics Windows by product name or number (select products 
+only)
+Y ou can download HP PC Hardware Diagnostics Windows by product name or number.
+NOTE: For some products, you might have to download the software to a USB flash drive by using the 
+product name or number.
+44 Chapter 10  Using HP PC Hardware Diagnostics
+1. Go to http:/ /www.hp.com/support .
+2. Select Software and Drivers , select your type of product, and then enter the product name or 
+number in the search box that is displayed.
+3. In the Diagnostics  section, select Download , and then follow the on-screen instructions to select 
+the specific Windows diagnostics version to be downloaded to your computer or USB flash drive.
+The tool downloads to the selected location.
+Installing HP PC Hardware Diagnostics Windows
+T o install HP PC Hardware Diagnostics Windows, navigate to the folder on your computer or the USB 
+flash drive where the .exe file downloaded, double-click the .exe file, and then follow the on-screen 
+instructions.
+Using HP PC Hardware Diagnostics UEFI
+HP PC Hardware Diagnostics Unified Extensible Firmware Interface (UEFI) allows you to run diagnostic 
+tests to determine whether the computer hardware is functioning properly. The tool runs outside the 
+operating system so that it can isolate hardware failures from issues that are caused by the operating 
+system or other software components.
+NOTE: For some products, you must use a Windows computer and a USB flash drive to download and 
+create the HP UEFI support environment because only .exe files are provided. For more information, 
+see Downloading HP PC Hardware Diagnostics UEFI to a USB flash drive  on page 46.
+If your PC does not start in Windows, you can use HP PC Hardware Diagnostics UEFI to diagnose 
+hardware issues.
+Using an HP PC Hardware Diagnostics UEFI hardware failure ID code
+When HP PC Hardware Diagnostics UEFI detects a failure that requires hardware replacement, a 24-digit 
+failure ID code is generated.
+For assistance in solving the problem, complete one of these tasks:
+● Select Contact HP , accept the HP privacy disclaimer, and then use a mobile device to scan the 
+failure ID code that appears on the next screen. The HP Customer Support - Service Center 
+page appears with your failure ID and product number automatically filled in. Follow the on-screen 
+instructions.
+● Contact support, and provide the failure ID code.
+Starting HP PC Hardware Diagnostics UEFI
+T o start HP PC Hardware Diagnostics UEFI, follow this procedure.
+1. T urn on or restart the computer, and quickly press esc .
+2. Press f2.
+The BIOS searches three places for the diagnostic tools, in the following order:
+Installing HP PC Hardware Diagnostics Windows 45
+a. Connected USB flash drive
+NOTE: T o download the HP PC Hardware Diagnostics UEFI tool to a USB flash drive, see 
+Downloading the latest HP PC Hardware Diagnostics UEFI version  on page 47.
+b. Hard drive
+c. BIOS
+3. When the diagnostic tool opens, select the type of diagnostic test that you want to run, and then 
+follow the on-screen instructions.
+Starting HP PC Hardware Diagnostics UEFI through HP Hotkey Support software 
+(select products only)
+This section describes how to start HP PC Hardware Diagnostics UEFI through HP Hotkey Support 
+software.
+NOTE: Y ou must disable fast boot to access HP PC Hardware Diagnostics UEFI from the HP System 
+Information application.
+T o disable fast boot:
+1. T urn on or restart the computer, and when the HP logo appears, press f10 to enter Computer Setup.
+2. Select Advanced , and then select Boot Options .
+3. Clear Fast Boot .
+4. Select Save Changes and Exit , and then select Y es .
+T o start HP PC Hardware Diagnostics UEFI through HP Hotkey Support software, follow this procedure:
+1. From the Start  menu, open the HP System Information Application or press fn+esc .
+2. In HP System Information screen, select Run System Diagnostics , select Y es  to run the application, 
+and then select Restart . 
+IMPORTANT: T o prevent loss of data, save your work in all open apps before restarting your computer.
+NOTE: When the restart is complete, the computer opens the HP PC Hardware Diagnostics UEFI 
+Application. Proceed with the troubleshooting tests.
+Downloading HP PC Hardware Diagnostics UEFI to a USB flash drive
+Downloading HP PC Hardware Diagnostics UEFI to a USB flash drive can be useful in some situations.
+● HP PC Hardware Diagnostics UEFI is not included in the preinstallation image.
+● HP PC Hardware Diagnostics UEFI is not included in the HP T ool partition.
+● The hard drive is damaged.
+NOTE: The HP PC Hardware Diagnostics UEFI downloading instructions are provided in English only, 
+and you must use a Windows computer to download and create the HP UEFI support environment 
+because only .exe  files are provided.
+46 Chapter 10  Using HP PC Hardware Diagnostics
+Downloading the latest HP PC Hardware Diagnostics UEFI version
+T o download the latest HP PC Hardware Diagnostics UEFI version to a USB flash drive, follow this 
+procedure:
+1. Go to http:/ /www.hp.com/go/techcenter/pcdiags . The HP PC Diagnostics home page is displayed.
+2. Select Download HP Diagnostics UEFI , and then select Run .
+Downloading HP PC Hardware Diagnostics UEFI by product name or number (select products 
+only)
+Y ou can download HP PC Hardware Diagnostics UEFI by product name or number (select products only) 
+to a USB flash drive.
+NOTE: For some products, you might have to download the software to a USB flash drive by using the 
+product name or number.
+1. Go to http:/ /www.hp.com/support .
+2. Enter the product name or number, select your computer, and then select your operating system.
+3. In the Diagnostics  section, follow the on-screen instructions to select and download the specific 
+UEFI Diagnostics version for your computer.
+Using Remote HP PC Hardware Diagnostics UEFI settings 
+(select products only)
+Remote HP PC Hardware Diagnostics UEFI is a firmware (BIOS) feature that downloads HP PC Hardware 
+Diagnostics UEFI to your computer. It can then run the diagnostics on your computer, and it might upload 
+results to a preconfigured server.
+For more information about Remote HP PC Hardware Diagnostics UEFI, go to 
+http:/ /www.hp.com/go/techcenter/pcdiags , and then select Find out more .
+Downloading Remote HP PC Hardware Diagnostics UEFI
+Remote HP PC Hardware Diagnostics UEFI is also available as a SoftPaq that you can download to a 
+server.
+Downloading the latest Remote HP PC Hardware Diagnostics UEFI version
+Y ou can download the latest Remote HP PC Hardware Diagnostics UEFI version to a USB flash drive.
+1. Go to http:/ /www.hp.com/go/techcenter/pcdiags . The HP PC Diagnostics home page is displayed.
+2. Select Download Remote Diagnostics , and then select Run .
+Downloading Remote HP PC Hardware Diagnostics UEFI by product name or number
+Y ou can download Remote HP PC Hardware Diagnostics UEFI by product name or number.
+NOTE: For some products, you might have to download the software by using the product name or 
+number.
+1. Go to http:/ /www.hp.com/support .
+Downloading the latest HP PC Hardware Diagnostics UEFI version 47
+2. Select Software and Drivers , select your type of product, enter the product name or number in the 
+search box that is displayed, select your computer, and then select your operating system.
+3. In the Diagnostics  section, follow the on-screen instructions to select and download the Remote 
+UEFI  version for the product.
+Customizing Remote HP PC Hardware Diagnostics UEFI settings
+Using the Remote HP PC Hardware Diagnostics setting in Computer Setup (BIOS), you can perform 
+several customizations.
+● Set a schedule for running diagnostics unattended. Y ou can also start diagnostics immediately in 
+interactive mode by selecting Execute Remote HP PC Hardware Diagnostics UEFI .
+● Set the location for downloading the diagnostic tools. This feature provides access to the tools 
+from the HP website or from a server that has been preconfigured for use. Y our computer does 
+not require the traditional local storage, such as a hard drive or USB flash drive, to run remote 
+diagnostics.
+● Set a location for storing the test results. Y ou can also set the user name and password that you use 
+for uploads.
+● Display status information about the diagnostics run previously.
+T o customize Remote HP PC Hardware Diagnostics UEFI settings, follow these steps:
+1. T urn on or restart the computer, and when the HP logo appears, press f10 to enter Computer Setup.
+2. Select Advanced , and then select Settings .
+3. Make your customization selections.
+4. Select Main , then select Save Changes and Exit  to save your settings.
+Y our changes take effect when the computer restarts.
+48 Chapter 10  Using HP PC Hardware Diagnostics
+Backing up, restoring, and recovering 11
+Y ou can use Windows tools or HP software to back up your information, create a restore point, reset 
+your computer, create recovery media, or restore your computer to its factory state. Performing these 
+standard procedures can return your computer to a working state faster.
+IMPORTANT: If you are performing recovery procedures on a tablet, the tablet battery must be at 
+least 70% charged before you start the recovery process.
+IMPORTANT: For a tablet with a detachable keyboard, connect the tablet to the keyboard base before 
+beginning any recovery process.
+Backing up information and creating recovery media
+These methods of creating recovery media and backups are available on select products only.
+Using Windows tools for backing up
+HP recommends that you back up your information immediately after initial setup. Y ou can do this task 
+either using Windows Backup locally with an external USB drive or using online tools.
+IMPORTANT: Windows is the only option that allows you to back up your personal information. 
+Schedule regular backups to avoid information loss.
+NOTE: If computer storage is 32 GB or less, Microsoft® System Restore is disabled by default.
+Using the HP Cloud Recovery Download T ool to create recovery media (select 
+products only)
+Y ou can use the HP Cloud Recovery Download T ool to create HP Recovery media on a bootable USB 
+flash drive.
+For details:
+■ Go to http:/ /www.hp.com , search for HP Cloud Recovery, and then select the result that matches the 
+type of computer that you have.
+NOTE: If you cannot create recovery media yourself, contact support to obtain recovery discs. Go to 
+http:/ /www.hp.com/support , select your country or region, and then follow the on-screen instructions.
+IMPORTANT: HP recommends that you follow the Restoring and recovery methods  on page 50 to 
+restore your computer before you obtain and use the HP recovery discs. Using a recent backup can 
+return your machine to a working state sooner than using the HP recovery discs. After the system is 
+restored, reinstalling all the operating system software released since your initial purchase can be a 
+lengthy process.
+Backing up, restoring, and recovering 49
+Restoring and recovering your system
+Y ou have several tools available to recover your system both within and outside of Windows if the 
+desktop cannot load.
+HP recommends that you attempt to restore your system using the Restoring and recovery methods  on 
+page 50.
+Creating a system restore
+System Restore is available in Windows. The System Restore software can automatically or manually 
+create restore points, or snapshots, of the system files and settings on the computer at a particular 
+point.
+When you use System Restore, it returns your computer to its state at the time you made the restore 
+point. Y our personal files and documents should not be affected.
+Restoring and recovery methods
+After you run the first method, test to see whether the issue still exists before you proceed to the next 
+method, which might now be unnecessary.
+1. Run a Microsoft System Restore.
+2. Run Reset this PC.
+NOTE: The options Remove everything  and then Fully clean the drive  can take several hours to 
+complete and leave no information on your computer. It is the safest way to reset your computer 
+before you recycle it.
+3. Recover using HP Recovery media. For more information, see Recovering using HP Recovery media 
+on page 50. 
+For more information about the first two methods, see the Get Help app:
+■ Select the Start  button, select All apps , select the Get Help  app, and then enter the task you want to 
+perform.
+NOTE: Y ou must be connected to the internet to access the Get Help app.
+Recovering using HP Recovery media
+Y ou can use HP Recovery media to recover the operating system and drivers that were installed at the 
+factory. On select products, you can create recovery media on a bootable USB flash drive using the HP 
+Cloud Recovery Download T ool.
+For details, see Using the HP Cloud Recovery Download T ool to create recovery media (select products 
+only)  on page 49.
+NOTE: If you cannot create recovery media yourself, contact support to obtain recovery discs. Go to 
+http:/ /www.hp.com/support , select your country or region, and then follow the on-screen instructions.
+T o recover your system:
+50 Chapter 11  Backing up, restoring, and recovering
+■ Insert the HP Recovery media, and then restart the computer.
+NOTE: HP recommends that you follow the Restoring and recovery methods  on page 50 to restore 
+your computer before you obtain and use the HP recovery discs. Using a recent backup can return your 
+machine to a working state sooner than using the HP recovery discs. After the system is restored, 
+reinstalling all the operating system software released since your initial purchase can be a lengthy 
+process.
+Changing the computer boot order
+If your computer does not restart using the HP Recovery media, you can change the computer boot 
+order, which is the order of devices listed in BIOS for startup information. Y ou can select an optical drive 
+or a USB flash drive, depending on the location of your HP Recovery media.
+IMPORTANT: For a tablet with a detachable keyboard, connect the tablet to the keyboard base before 
+beginning these steps.
+T o change the boot order:
+1. Insert the HP Recovery media.
+2. Access the system Startup  menu.
+● For computers or tablets with keyboards attached, turn on or restart the computer or tablet, 
+quickly press esc , and then press f9 for boot options.
+● For tablets without keyboards, turn on or restart the tablet, and then quickly press and hold one 
+of the following buttons:
+– Volume up
+– Volume down
+Then select f9.
+3. Select the optical drive or USB flash drive from which you want to boot, and then follow the 
+on-screen instructions.
+Using HP Sure Recover (select products only)
+Select computer models are configured with HP Sure Recover, a PC operating system (OS) recovery 
+solution built into the hardware and software. HP Sure Recover can fully restore the HP OS image 
+without installed recovery software.
+Using HP Sure Recover, an administrator or user can restore the system and install:
+● Latest version of the operating system
+● Platform-specific device drivers
+● Software applications, in the case of a custom image
+T o access the latest documentation for HP Sure Recover, go to http:/ /www.hp.com/support . Follow the 
+on-screen instructions to find your product and locate your documentation.
+Changing the computer boot order 51
+Using Secure Erase or HP Disk Sanitizer 
+(select products only)12
+Secure Erase and HP Disk Sanitizer are tools you can use to permanently remove data from a hard drive 
+or solid-state drive.
+● Secure Erase: Works on solid-state drives and hard drives.
+● HP Disk Sanitizer: Works only on hard drives. It permanently deletes data from the hard drive and is 
+not available for solid-state drives.
+When to use Secure Erase or HP Disk Sanitizer
+Use Secure Erase or HP Disk Sanitizer in the following situations.
+CAUTION: Before using either of these tools, back up your local data. The deleted information cannot 
+be recovered. For more information about backing up your data, see Backing up, restoring, and 
+recovering  on page 49.
+● HP PC Hardware Diagnostics UEFI cannot find an error on the hard drive after it displayed an error 
+during operating system installation.
+● Y ou want to permanently remove or delete all data from your hard drive or solid-state drive.
+Using Secure Erase or HP Disk Sanitizer
+Use Secure Erase or HP Disk Sanitizer depending on whether you have a hard drive or solid-state drive. 
+Y ou can access both tools through the BIOS.
+1. Disconnect any external storage devices.
+2. T urn on or restart the computer.
+3. While the display is blank, press the f10 key repeatedly to enter the BIOS settings menu.
+NOTE: On some computers, you might need to press f2 or f6.
+4. Select Security .
+5. Select Hard Drive Utilities  or Hard Drive T ools .
+6. Select Secure Erase  or Disk Sanitizer  to open the tool.
+7. Follow the on-screen instructions to permanently remove the data.
+52 Chapter 12  Using Secure Erase or HP Disk Sanitizer (select products only) 
+Operating specifications 13
+T o determine the exact electrical ratings of your computer, see the computer ratings label, located on 
+the outside of the computer.
+T able 13-1 Operating specifications
+Factor Metric U.S.
+Operating temperature 5°C to 35°C 41°F to 95°F
+Storage temperature -20°C to 60°C -22°F to 149°F
+Operating humidity 15% to 80% @ 26°C 15% to 80% @ 78°F
+Operating altitude 0 m to 2000 m 0 ft to 6561 ft
+Storage altitude 0 m to 4572 m 0 ft to 15000 ft
+Gamma correction (select products only) 2.2 2.2
+Operating specifications 53
+Electrostatic discharge 14
+Electrostatic discharge is the release of static electricity when two objects come into contact—for 
+example, the shock you receive when you walk across the carpet and touch a metal door knob.
+A discharge of static electricity from fingers or other electrostatic conductors can damage electronic 
+components.
+IMPORTANT: T o prevent damage to the computer, damage to a drive, or loss of information, observe 
+these precautions:
+● If removal or installation instructions direct you to unplug the computer, first be sure that it is 
+properly grounded.
+● Keep components in their electrostatic-safe containers until you are ready to install them.
+● Avoid touching pins, leads, and circuitry. Handle electronic components as little as possible.
+● Use nonmagnetic tools.
+● Before handling components, discharge static electricity by touching an unpainted metal surface.
+● If you remove a component, place it in an electrostatic-safe container.
+54 Chapter 14  Electrostatic discharge
+Availability of repair services and 
+replacement parts15
+Depending on your computer model, the following components are available for repair services or 
+replacement parts.
+See https:/ /www.youtube.com/@HPSupport  for information about replacing these parts:
+● Solid-state drive
+● Hard drive
+● Optical drive
+● Memory module
+● PCB system/system board
+● Coin cell battery
+● Fan/cooling radiator
+● External/internal PSU
+Availability of repair services and replacement parts 55
+Accessibility 16
+HP's goal is to design, produce, and market products, services, and information that everyone 
+everywhere can use, either on a standalone basis or with appropriate third-party assistive technology 
+(AT) devices or applications.
+HP and accessibility
+Because HP works to weave diversity, inclusion, and work/life into the fabric of the company, it is 
+reflected in everything HP does. HP strives to create an inclusive environment focused on connecting 
+people to the power of technology throughout the world.
+Finding the technology tools you need
+T echnology can unleash your human potential. Assistive technology removes barriers and helps you 
+create independence at home, at work, and in the community. Assistive technology helps increase, 
+maintain, and improve the functional capabilities of electronic and information technology.
+For more information, see Finding the best assistive technology  on page 57.
+The HP commitment
+HP is committed to providing products and services that are accessible for people with disabilities. 
+This commitment supports the company's diversity objectives and helps ensure that the benefits of 
+technology are available to all.
+The HP accessibility goal is to design, produce, and market products and services that can be effectively 
+used by everyone, including people with disabilities, either on a standalone basis or with appropriate 
+assistive devices.
+T o achieve that goal, this Accessibility Policy establishes seven key objectives to guide HP actions. All 
+HP managers and employees are expected to support these objectives and their implementation in 
+accordance with their roles and responsibilities:
+● Raise the level of awareness of accessibility issues within HP, and provide employees with the 
+training they need to design, produce, market, and deliver accessible products and services.
+● Develop accessibility guidelines for products and services, and hold product development groups 
+accountable for implementing these guidelines where competitively, technically, and economically 
+feasible.
+● Involve people with disabilities in the development of accessibility guidelines and in the design and 
+testing of products and services.
+● Document accessibility features, and make information about HP products and services publicly 
+available in an accessible form.
+● Establish relationships with leading assistive technology and solution providers.
+● Support internal and external research and development that improves assistive technology 
+relevant to HP products and services.
+56 Chapter 16  Accessibility
+● Support and contribute to industry standards and guidelines for accessibility.
+International Association of Accessibility Professionals (IAAP)
+IAAP is a not-for-profit association focused on advancing the accessibility profession through 
+networking, education, and certification. The objective is to help accessibility professionals develop and 
+advance their careers and to better enable organizations to integrate accessibility into their products 
+and infrastructure.
+As a founding member, HP joined to participate with other organizations to advance the field of 
+accessibility. This commitment supports HP’s accessibility goal of designing, producing, and marketing 
+products and services that people with disabilities can effectively use.
+IAAP will make the profession strong by globally connecting individuals, students, and 
+organizations to learn from one another. If you are interested in learning more, go to 
+http:/ /www.accessibilityassociation.org  to join the online community, sign up for newsletters, and learn 
+about membership options.
+Finding the best assistive technology
+Everyone, including people with disabilities or age-related limitations, should be able to communicate, 
+express themselves, and connect with the world using technology. HP is committed to increasing 
+accessibility awareness within HP and with our customers and partners.
+Whether it’s large fonts that are easy on the eyes, voice recognition that lets you give your hands a rest, 
+or any other assistive technology to help with your specific situation—a variety of assistive technologies 
+make HP products easier to use. How do you choose?
+Assessing your needs
+T echnology can unleash your potential. Assistive technology removes barriers and helps you create 
+independence at home, at work, and in the community. Assistive technology (AT) helps increase, 
+maintain, and improve the functional capabilities of electronic and information technology.
+Y ou can choose from many AT products. Y our AT assessment should allow you to evaluate several 
+products, answer your questions, and facilitate your selection of the best solution for your situation. 
+Y ou will find that professionals qualified to do AT assessments come from many fields, including those 
+licensed or certified in physical therapy, occupational therapy, speech/language pathology, and other 
+areas of expertise. Others, while not certified or licensed, can also provide evaluation information. 
+Y ou will want to ask about the individual's experience, expertise, and fees to determine if they are 
+appropriate for your needs.
+Accessibility for HP products
+These links provide information about accessibility features and assistive technology, if applicable and 
+available in your country or region, that are included in various HP products. These resources will help 
+you select the specific assistive technology features and products most appropriate for your situation.
+● HP Aging & Accessibility: Go to http:/ /www.hp.com , type Accessibility  in the search box. Select 
+Office of Aging and Accessibility .
+● HP computers: For Windows products, go to http:/ /www.hp.com/support , type Windows 
+Accessibility Options  in the Search our knowledge library  search box. Select the appropriate 
+operating system in the results.
+● HP Shopping, peripherals for HP products: Go to http:/ /store.hp.com , select Shop , and then select 
+Monitors  or Accessories .
+International Association of Accessibility Professionals (IAAP) 57
+If you need additional support with the accessibility features on your HP product, see Contacting 
+support  on page 60.
+Additional links to external partners and suppliers that may provide additional assistance:
+● Microsoft Accessibility information (Windows and Microsoft Office)
+● Google Products accessibility information (Android, Chrome, Google Apps)
+Standards and legislation
+Countries worldwide are enacting regulations to improve access to products and services for persons 
+with disabilities. These regulations are historically applicable to telecommunications products and 
+services, PCs and printers with certain communications and video playback features, their associated 
+user documentation, and their customer support.
+Standards
+The US Access Board created Section 508 of the Federal Acquisition Regulation (FAR) standards to 
+address access to information and communication technology (ICT) for people with physical, sensory, or 
+cognitive disabilities.
+The standards contain technical criteria specific to various types of technologies, as well as 
+performance-based requirements which focus on functional capabilities of covered products. Specific 
+criteria cover software applications and operating systems, web-based information and applications, 
+computers, telecommunications products, video and multimedia, and self-contained closed products.
+Mandate 376 – EN 301 549
+The European Union created the EN 301 549 standard within Mandate 376 as an online toolkit for public 
+procurement of ICT products. The standard specifies the accessibility requirements applicable to ICT 
+products and services, with a description of the test procedures and evaluation methodology for each 
+requirement.
+Web Content Accessibility Guidelines (WCAG)
+Web Content Accessibility Guidelines (WCAG) from the W3C's Web Accessibility Initiative (WAI) helps 
+web designers and developers create sites that better meet the needs of people with disabilities or 
+age-related limitations.
+WCAG advances accessibility across the full range of web content (text, images, audio, and video) 
+and web applications. WCAG can be precisely tested, is easy to understand and use, and allows web 
+developers flexibility for innovation. WCAG 2.0 has also been approved as ISO/IEC 40500:2012.
+WCAG specifically addresses barriers to accessing the web experienced by people with visual, auditory, 
+physical, cognitive, and neurological disabilities, and by older web users with accessibility needs. WCAG 
+2.0 provides characteristics of accessible content:
+● Perceivable  (for instance, by addressing text alternatives for images, captions for audio, adaptability 
+of presentation, and color contrast)
+● Operable  (by addressing keyboard access, color contrast, timing of input, seizure avoidance, and 
+navigability)
+● Understandable  (by addressing readability, predictability, and input assistance)
+● Robust (for instance, by addressing compatibility with assistive technologies)
+58 Chapter 16  Accessibility
+Legislation and regulations
+Accessibility of IT and information has become an area of increasing legislative importance.
+The HP policy landscape  website provides information about key legislation, regulations, and standards 
+in the following locations:
+● United States
+● Canada
+● Europe
+● Australia
+Useful accessibility resources and links
+These organizations, institutions, and resources might be good sources of information about disabilities 
+and age-related limitations.
+NOTE: This is not an exhaustive list. These organizations are provided for informational purposes 
+only. HP assumes no responsibility for information or contacts you encounter on the internet. Listing on 
+this page does not imply endorsement by HP.
+Organizations
+These organizations are a few of the many that provide information about disabilities and age-related 
+limitations.
+● American Association of People with Disabilities (AAPD)
+● The Association of Assistive T echnology Act Programs (ATAP)
+● Hearing Loss Association of America (HLAA)
+● Information T echnology T echnical Assistance and T raining Center (ITTATC)
+● Lighthouse International
+● National Association of the Deaf
+● National Federation of the Blind
+● Rehabilitation Engineering & Assistive T echnology Society of North America (RESNA)
+● T elecommunications for the Deaf and Hard of Hearing, Inc. (TDI)
+● W3C Web Accessibility Initiative (WAI)
+Educational institutions
+Many educational institutions, including these examples, provide information about disabilities and 
+age-related limitations.
+● California State University, Northridge, Center on Disabilities (CSUN)
+● University of Wisconsin - Madison, T race Center
+Legislation and regulations 59
+● University of Minnesota computer accommodations program
+Other disability resources
+Many resources, including these examples, provide information about disabilities and age-related 
+limitations.
+● ADA (Americans with Disabilities Act) T echnical Assistance Program
+● ILO Global Business and Disability network
+● EnableMart
+● European Disability Forum
+● Job Accommodation Network
+● Microsoft Enable
+HP links
+These HP-specific links provide information that relates to disabilities and age-related limitations.
+HP comfort and safety guide 
+HP public sector sales
+Contacting support
+HP offers technical support and assistance with accessibility options for customers with disabilities.
+NOTE: Support is in English only.
+● Customers who are deaf or hard of hearing who have questions about technical support or 
+accessibility of HP products:
+– Use TRS/VRS/WebCapT el to call (877) 656-7058 Monday through Friday, 6 a.m. to 9 p.m. Mountain 
+Time.
+● Customers with other disabilities or age-related limitations who have questions about technical 
+support or accessibility of HP products:
+– Call (888) 259-5707 Monday through Friday, 6 a.m. to 9 p.m. Mountain Time.
+60 Chapter 16  Accessibility
+Support information 17
+HP support can help you get the most from your computer. Y ou will find what you need with tools located 
+on your computer and with information available on the web, by phone, or through your local retailer.
+How to get help
+Y ou might need to get professional help for your computer. Before you contact HP support, collect the 
+following information.
+● Model number
+● Product number
+● Serial number
+● Software build number
+● Operating system
+● Purchase date
+The operation system and purchase date should already be available to you. T o locate the model 
+number, product number, serial number, and software build number, you can find them in the HP Support 
+Assistant.
+T o open the assistant, complete one of these tasks.
+● Select the Search  icon in the taskbar, type support  in the search box, and then select the HP 
+Support Assistant  app.
+● Select the question mark icon in the taskbar.
+Write down your product information for future reference. Also, be sure to register at 
+http:/ /www.hp.com/apac/register .
+After you have gathered the required information about your computer, use these resources to find help.
+● Use the Get Help app for help with hardware and software questions. Select the Start  button, select 
+All apps , and then select the Get Help  app.
+● Use HP Support Assistant by completing one of these tasks:
+– Select the Search  icon in the taskbar, type support  in the search box, and then select the HP 
+Support Assistant  app.
+– Select the question mark icon in the taskbar.
+HP Support Assistant provides useful troubleshooting and diagnostics information and includes:
+– Online chat with an HP technician
+– Support telephone numbers
+Support information 61
+– HP service center locations
+● For help online, go to http:/ /www.hp.com/support .
+Customer support for repairs
+If your computer needs to be repaired or to have parts replaced, you have two choices.
+● Replace the part yourself. This is the fastest method of repair, because many times HP can send 
+the part directly to your home or business in a few days. This option might not be available in all 
+countries or regions.
+● Have a technician replace the part or repair the computer. If such a service is necessary, HP 
+support will make arrangements to repair your computer.
+These services are covered during the warranty period.
+There are some limitations and exclusions to the warranty, as well as some important details, which are 
+described in the HP Worldwide Limited Warranty and T echnical Support  guide.
+Before upgrading your hardware
+If you intend to upgrade any of your hardware, do it only after you set up your new computer.
+For instructions on setting up your computer, see the Setup Instructions  or Quick Setup  poster or 
+Getting to know your computer  on page 6. If you have any problems setting up your system and turning 
+it on, immediately contact HP support using the procedures given earlier in this chapter. Y ou must solve 
+these types of problems before attempting to upgrade your system.
+By breaking the security seal on the back of the computer, you confirm that the computer was working 
+properly before you attempted to upgrade your system. After the security seal has been broken, your 
+computer is then, to the extent allowed by local law, covered under the terms and conditions listed in the 
+HP Worldwide Limited Warranty and T echnical Support .
+62 Chapter 17  Support information
+Index
+A
+accessibility 56, 57, 59, 60
+accessibility needs 
+assessment 57
+action keys 25
+keyboard backlight 26
+airplane mode 11
+airplane mode key 11, 26
+assistive technology (AT)
+finding 57
+purpose 56
+AT (assistive technology)
+finding 57
+purpose 56
+audio 16
+HDMI audio 21
+headphones 16
+headsets 16
+microphones 16
+sound settings 17
+speakers 16
+B
+backup, creating 49
+backups 49
+best practices 2
+Bluetooth device 11, 13
+boot order, changing 51
+C
+caring for your computer 30
+cleaning your computer 30
+caring for wood veneer 32
+disinfecting 31
+HP Easy Clean 30
+removing dirt and debris 30
+computer
+security features 34
+setup 6
+shutdown 9
+troubleshooting 36
+connecting to a network 11
+connecting to a wireless 
+network 11
+connecting to a WLAN 12
+connecting to LAN 14
+corporate WLAN connection 12customer support, 
+accessibility 60
+D
+damage to equipment
+preventing 6
+data transfer 23
+Disk Cleanup software 28
+Disk Defragmenter software 28
+display states 17-20, 22
+DisplayPort devices
+connecting 17
+Dual-Mode DisplayPort 
+connector 22
+E
+electrical shock
+preventing 6
+electrostatic discharge 54
+eSIM 13
+F
+fingerprints, registering 34
+flicker-free technology 3
+fn key 25
+G
+GPS 13
+H
+hardware information
+locating 6
+headphones, connecting 16
+headsets, connecting 16
+help and support 4, 61
+high-definition devices, 
+connecting 20, 22, 23
+hot keys 25
+HP 3D DriveGuard 28
+HP Assistive Policy 56
+HP Disk Sanitizer, using 52
+HP Mobile Broadband
+activating 12, 13
+IMEI number 12
+MEID number 12HP PC Hardware Diagnostics UEFI
+downloading 46
+failure ID code 45
+HP Hotkey Support 
+software 46
+starting 45, 46
+using 45
+HP PC Hardware Diagnostics 
+Windows
+accessing 43, 44
+downloading 44
+failure ID code 43
+installing 45
+using 43
+HP Recovery media
+recovery 50
+HP Sure Recover 51
+I
+IMEI number 12
+International Association of 
+Accessibility Professionals 57
+K
+keyboard backlight action key 26
+keys
+airplane mode 26
+L
+locating information
+hardware 6
+software 6
+low blue light mode, adjusting 3
+M
+maintenance
+Disk Cleanup 28
+Disk Defragmenter 28
+updating programs and 
+drivers 29
+MEID number 12
+microphone, connecting 16
+Miracast 23
+mobile broadband
+activating 12, 13
+IMEI number 12
+MEID number 12
+Index 63
+mobile operator settings
+locating 12
+monitor brightness default, 
+restoring 4
+N
+navigating the screen 25
+O
+operating specifications 53
+operating system controls 11
+P
+ports
+Dual-Mode DisplayPort 
+connector 22
+HDMI 20
+USB 7, 8
+USB port and DisplayPort 
+connector 17
+USB port with HP Sleep and 
+Charge 7
+USB T ype-C 8, 23
+USB T ype-C Thunderbolt 18
+USB T ype-C Thunderbolt™ port 
+with HP Sleep and 
+Charge 8
+VGA 19
+ports, identifying 7
+preventing electrical shock and 
+equipment damage 6
+public WLAN connection 12
+R
+recovery 49, 50
+discs 50
+media 50
+USB flash drive 50
+recovery media 49
+creating using HP Cloud 
+Recovery Download 
+T ool 49
+creating using Windows 
+tools 49
+reducing risk of electrical shock 
+and equipment damage 6
+Remote HP PC Hardware 
+Diagnostics UEFI settings
+customizing 48
+using 47
+repair services, availability 55
+replacement parts, availability 55
+resources, accessibility 59restoring 49
+restoring and recovery 
+methods 50
+S
+safety and comfort 2
+screen
+navigating 25
+Section 508 accessibility 
+standards 58
+Secure Erase, using 52
+security features 34
+setting up computer 6
+shipping the computer 32
+shutdown 9
+software
+Disk Cleanup 28
+Disk Defragmenter 28
+HP Disk Sanitizer 52
+Secure Erase 52
+software information
+locating 6
+sound
+See audio 
+sound settings, using 17
+speakers
+connecting 16
+standards and legislation, 
+accessibility 58
+support 61
+system restore 50
+system restore point, creating 49
+T
+Thunderbolt devices, 
+connecting 18
+Thunderbolt port with HP Sleep 
+and Charge, identifying USB 
+T ype-C 8
+transfer data 23
+traveling with the computer 32
+troubleshooting
+computer does not start 36
+computer is not 
+responding 36
+display (monitor) 37
+error message: hard drive 
+error 36
+error message: invalid system 
+disk or Non-System disk or 
+Disk error 36
+internet access 39
+keyboard and mouse 
+(wireless) 38keyboard and mouse (with 
+cable) 38
+power 37
+software 40
+speakers and sound 39
+turning off the computer 9
+U
+unresponsive system 9
+updating drivers 29
+updating programs 29
+updating programs and 
+drivers 29
+USB port with HP Sleep and 
+Charge, identifying 7
+USB port, identifying 7, 8
+USB T ype-C devices, 
+connecting 23
+USB T ype-C port, identifying 8
+USB T ype-C Thunderbolt port with 
+HP Sleep and Charge, 
+identifying 8
+using the keyboard and 
+mouse 25
+using touch gestures 25
+V
+video
+DisplayPort device 17
+Dual-Mode DisplayPort 
+connector 22
+HDMI port 20
+Thunderbolt device 18
+USB T ype-C 23
+VGA port 19
+wireless displays 23
+video devices
+connecting 19
+video, using 17
+W
+Windows
+backup 49
+recovery media 49
+system restore point 49
+Windows Hello
+using 34
+Windows tools, using 49
+wired network (LAN) 14
+wireless button 11
+wireless controls
+button 11
+operating system 11
+64 Index
+wireless light 11
+wireless network (WLAN)
+connecting 12
+corporate WLAN 
+connection 12
+functional range 12
+public WLAN connection 12
+wireless phone charger
+BIOS 8
+OSD 8
+WWAN device 12, 13
+Index 65

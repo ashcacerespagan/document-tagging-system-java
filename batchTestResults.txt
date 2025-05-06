@@ -1,0 +1,774 @@
+==== NEW TEST RUN: 2025-04-21T02:38:49.177980 ====
+
+==== testLarge.txt ====
+Stemming: OFF
+to — 0.1999
+simulate — 0.0999
+it — 0.0999
+stress — 0.0999
+very — 0.0999
+test — 0.0999
+large — 0.0999
+document — 0.0999
+repeats — 0.0999
+idf — 0.0999
+
+Stemming: ON
+to — 0.1999
+logic — 0.0999
+document — 0.0999
+test — 0.0999
+simul — 0.0999
+stress — 0.0999
+idf — 0.0999
+it — 0.0999
+long — 0.0999
+intention — 0.0999
+
+==== testDocument3.txt ====
+Stemming: OFF
+only — 0.3498
+purposes — 0.1831
+for — 0.0676
+this — 0.0676
+is — 0.0676
+testing — 0.0000
+
+Stemming: ON
+purpos — 0.3498
+onli — 0.3498
+thi — 0.3498
+test — 0.3498
+for — 0.0676
+is — 0.0676
+
+==== testDocument2.txt ====
+Stemming: OFF
+only — 0.3498
+purposes — 0.1831
+for — 0.0676
+this — 0.0676
+is — 0.0676
+testing — 0.0000
+
+Stemming: ON
+purpos — 0.3498
+onli — 0.3498
+thi — 0.3498
+test — 0.3498
+for — 0.0676
+is — 0.0676
+
+==== testDocument1.txt ====
+Stemming: OFF
+only — 0.3498
+purposes — 0.1831
+for — 0.0676
+this — 0.0676
+is — 0.0676
+testing — 0.0000
+
+Stemming: ON
+purpos — 0.3498
+onli — 0.3498
+thi — 0.3498
+test — 0.3498
+for — 0.0676
+is — 0.0676
+
+==== testNonAlpha.txt ====
+Stemming: OFF
+characters — 0.2332
+weird — 0.2332
+be — 0.2332
+removed — 0.2332
+document — 0.2332
+that — 0.2332
+should — 0.2332
+has — 0.2332
+this — 0.0451
+
+Stemming: ON
+weird — 0.2332
+charact — 0.2332
+that — 0.2332
+be — 0.2332
+thi — 0.2332
+document — 0.2332
+remov — 0.2332
+should — 0.2332
+ha — 0.2332
+
+==== testClean.txt ====
+Stemming: OFF
+document — 0.1908
+test — 0.1908
+checking — 0.1908
+tf — 0.1908
+idf — 0.1908
+clean — 0.1908
+keyword — 0.1908
+extraction — 0.1908
+just — 0.0999
+a — 0.0999
+
+Stemming: ON
+document — 0.1908
+test — 0.1908
+tf — 0.1908
+extract — 0.1908
+idf — 0.1908
+check — 0.1908
+clean — 0.1908
+keyword — 0.1908
+just — 0.0999
+a — 0.0999
+
+==== testOnlySymbols.txt ====
+❌ Could not parse file.
+
+==== testNumbersOnly.txt ====
+Stemming: OFF
+123 — 0.2998
+314 — 0.2998
+2024 — 0.2998
+4567 — 0.2998
+42 — 0.2998
+890 — 0.2998
+1999 — 0.2998
+
+Stemming: ON
+123 — 0.2998
+314 — 0.2998
+2024 — 0.2998
+4567 — 0.2998
+42 — 0.2998
+890 — 0.2998
+1999 — 0.2998
+
+==== testUnicode.txt ====
+Stemming: OFF
+ — 0.2332
+97 — 0.1166
+accented — 0.1166
+emojis — 0.1166
+u56846 — 0.1166
+like — 0.1166
+test — 0.1166
+u55358 — 0.1166
+characters — 0.1166
+pif1ata — 0.1166
+
+Stemming: ON
+97 — 0.1312
+emoji — 0.1312
+like — 0.1312
+u55358 — 0.1312
+accent — 0.1312
+u56846 — 0.1312
+charact — 0.1312
+pif1ata — 0.1312
+uc0u55357 — 0.1312
+thi — 0.1312
+
+==== testTabsNewlines.txt ====
+Stemming: OFF
+ — 0.5596
+up — 0.1399
+clean — 0.1399
+test — 0.1399
+newlines — 0.1399
+and — 0.1399
+with — 0.1399
+tabs — 0.1399
+to — 0.1399
+a — 0.0732
+
+Stemming: ON
+with — 0.1908
+newlin — 0.1908
+test — 0.1908
+tab — 0.1908
+and — 0.1908
+thi — 0.1908
+to — 0.1908
+up — 0.1908
+clean — 0.1908
+a — 0.0999
+
+==== testUppercase.txt ====
+Stemming: OFF
+letters — 0.1749
+all — 0.1749
+written — 0.1749
+file — 0.1749
+in — 0.1749
+only — 0.1749
+capital — 0.1749
+purposes — 0.0916
+is — 0.0338
+this — 0.0338
+
+Stemming: ON
+capit — 0.1749
+written — 0.1749
+file — 0.1749
+purpos — 0.1749
+all — 0.1749
+in — 0.1749
+letter — 0.1749
+thi — 0.1749
+onli — 0.1749
+test — 0.1749
+
+==== testLongSingleWord.txt ====
+Stemming: OFF
+supercalifragilisticexpialidociousandthensomeextralongmadeupwordthatneverendsjusttochecklimits — 2.0986
+
+Stemming: ON
+supercalifragilisticexpialidociousandthensomeextralongmadeupwordthatneverendsjusttochecklimit — 2.0986
+
+==== testEmpty.txt ====
+❌ Could not parse file.
+
+==== testIdfMap.txt ====
+Stemming: OFF
+12 — 0.2099
+06 — 0.2099
+document — 0.2099
+15 — 0.2099
+07 — 0.2099
+09 — 0.2099
+keyword — 0.2099
+extraction — 0.2099
+sample — 0.2099
+testing — 0.0000
+
+Stemming: ON
+12 — 0.2099
+extract — 0.2099
+15 — 0.2099
+test — 0.2099
+06 — 0.2099
+document — 0.2099
+07 — 0.2099
+sampl — 0.2099
+09 — 0.2099
+keyword — 0.2099
+
+==== unique1.txt ====
+Stemming: OFF
+alpha — 2.0986
+
+Stemming: ON
+alpha — 2.0986
+
+==== unique2.txt ====
+Stemming: OFF
+bravo — 2.0986
+
+Stemming: ON
+bravo — 2.0986
+
+==== malformedIdf.txt ====
+Stemming: OFF
+missingcomma — 0.3498
+25 — 0.3498
+badvaluenotanumber — 0.3498
+brokenline — 0.3498
+valid15 — 0.3498
+extracolumnshere — 0.3498
+
+Stemming: ON
+missingcomma — 0.3498
+extracolumnsher — 0.3498
+25 — 0.3498
+valid15 — 0.3498
+brokenlin — 0.3498
+badvaluenotanumb — 0.3498
+
+==== unique3.txt ====
+Stemming: OFF
+charlie — 2.0986
+
+Stemming: ON
+charli — 2.0986
+
+==== identical1.txt ====
+Stemming: OFF
+repeat — 1.0493
+same — 0.3498
+content — 0.3498
+again — 0.3498
+
+Stemming: ON
+repeat — 1.0493
+same — 0.3498
+content — 0.3498
+again — 0.3498
+
+==== identical2.txt ====
+Stemming: OFF
+repeat — 1.0493
+same — 0.3498
+content — 0.3498
+again — 0.3498
+
+Stemming: ON
+repeat — 1.0493
+same — 0.3498
+content — 0.3498
+again — 0.3498
+
+==== identical3.txt ====
+Stemming: OFF
+repeat — 1.0493
+same — 0.3498
+content — 0.3498
+again — 0.3498
+
+Stemming: ON
+repeat — 1.0493
+same — 0.3498
+content — 0.3498
+again — 0.3498
+
+==== overlimitKeywords.txt ====
+Stemming: OFF
+z — 0.0807
+b — 0.0807
+c — 0.0807
+d — 0.0807
+e — 0.0807
+f — 0.0807
+g — 0.0807
+h — 0.0807
+i — 0.0807
+j — 0.0807
+
+Stemming: ON
+z — 0.0807
+b — 0.0807
+c — 0.0807
+d — 0.0807
+e — 0.0807
+f — 0.0807
+g — 0.0807
+h — 0.0807
+i — 0.0807
+j — 0.0807
+
+==== tfZero.txt ====
+Stemming: OFF
+in — 0.3229
+the — 0.3229
+map — 0.1614
+not — 0.1614
+input — 0.1614
+only — 0.1614
+are — 0.1614
+and — 0.1614
+words — 0.1614
+idf — 0.1614
+
+Stemming: ON
+in — 0.3229
+the — 0.3229
+map — 0.1614
+input — 0.1614
+ar — 0.1614
+onli — 0.1614
+not — 0.1614
+and — 0.1614
+idf — 0.1614
+word — 0.1614
+
+==== END OF TEST RUN ====
+
+==== NEW TEST RUN: 2025-04-21T03:11:40.891865 ====
+
+==== testLarge.txt ====
+Stemming: OFF
+to — 0.1999
+simulate — 0.0999
+it — 0.0999
+stress — 0.0999
+very — 0.0999
+test — 0.0999
+large — 0.0999
+document — 0.0999
+repeats — 0.0999
+idf — 0.0999
+
+Stemming: ON
+to — 0.1999
+logic — 0.0999
+document — 0.0999
+test — 0.0999
+simul — 0.0999
+stress — 0.0999
+idf — 0.0999
+it — 0.0999
+long — 0.0999
+intention — 0.0999
+
+==== testDocument3.txt ====
+Stemming: OFF
+only — 0.3498
+purposes — 0.1831
+for — 0.0676
+this — 0.0676
+is — 0.0676
+testing — 0.0000
+
+Stemming: ON
+purpos — 0.3498
+onli — 0.3498
+thi — 0.3498
+test — 0.3498
+for — 0.0676
+is — 0.0676
+
+==== testDocument2.txt ====
+Stemming: OFF
+only — 0.3498
+purposes — 0.1831
+for — 0.0676
+this — 0.0676
+is — 0.0676
+testing — 0.0000
+
+Stemming: ON
+purpos — 0.3498
+onli — 0.3498
+thi — 0.3498
+test — 0.3498
+for — 0.0676
+is — 0.0676
+
+==== testDocument1.txt ====
+Stemming: OFF
+only — 0.3498
+purposes — 0.1831
+for — 0.0676
+this — 0.0676
+is — 0.0676
+testing — 0.0000
+
+Stemming: ON
+purpos — 0.3498
+onli — 0.3498
+thi — 0.3498
+test — 0.3498
+for — 0.0676
+is — 0.0676
+
+==== testNonAlpha.txt ====
+Stemming: OFF
+characters — 0.2332
+weird — 0.2332
+be — 0.2332
+removed — 0.2332
+document — 0.2332
+that — 0.2332
+should — 0.2332
+has — 0.2332
+this — 0.0451
+
+Stemming: ON
+weird — 0.2332
+charact — 0.2332
+that — 0.2332
+be — 0.2332
+thi — 0.2332
+document — 0.2332
+remov — 0.2332
+should — 0.2332
+ha — 0.2332
+
+==== testClean.txt ====
+Stemming: OFF
+document — 0.1908
+test — 0.1908
+checking — 0.1908
+tf — 0.1908
+idf — 0.1908
+clean — 0.1908
+keyword — 0.1908
+extraction — 0.1908
+just — 0.0999
+a — 0.0999
+
+Stemming: ON
+document — 0.1908
+test — 0.1908
+tf — 0.1908
+extract — 0.1908
+idf — 0.1908
+check — 0.1908
+clean — 0.1908
+keyword — 0.1908
+just — 0.0999
+a — 0.0999
+
+==== testOnlySymbols.txt ====
+❌ Could not parse file.
+
+==== testNumbersOnly.txt ====
+Stemming: OFF
+123 — 0.2998
+314 — 0.2998
+2024 — 0.2998
+4567 — 0.2998
+42 — 0.2998
+890 — 0.2998
+1999 — 0.2998
+
+Stemming: ON
+123 — 0.2998
+314 — 0.2998
+2024 — 0.2998
+4567 — 0.2998
+42 — 0.2998
+890 — 0.2998
+1999 — 0.2998
+
+==== testUnicode.txt ====
+Stemming: OFF
+ — 0.2332
+97 — 0.1166
+accented — 0.1166
+emojis — 0.1166
+u56846 — 0.1166
+like — 0.1166
+test — 0.1166
+u55358 — 0.1166
+characters — 0.1166
+pif1ata — 0.1166
+
+Stemming: ON
+97 — 0.1312
+emoji — 0.1312
+like — 0.1312
+u55358 — 0.1312
+accent — 0.1312
+u56846 — 0.1312
+charact — 0.1312
+pif1ata — 0.1312
+uc0u55357 — 0.1312
+thi — 0.1312
+
+==== testTabsNewlines.txt ====
+Stemming: OFF
+ — 0.5596
+up — 0.1399
+clean — 0.1399
+test — 0.1399
+newlines — 0.1399
+and — 0.1399
+with — 0.1399
+tabs — 0.1399
+to — 0.1399
+a — 0.0732
+
+Stemming: ON
+with — 0.1908
+newlin — 0.1908
+test — 0.1908
+tab — 0.1908
+and — 0.1908
+thi — 0.1908
+to — 0.1908
+up — 0.1908
+clean — 0.1908
+a — 0.0999
+
+==== testUppercase.txt ====
+Stemming: OFF
+letters — 0.1749
+all — 0.1749
+written — 0.1749
+file — 0.1749
+in — 0.1749
+only — 0.1749
+capital — 0.1749
+purposes — 0.0916
+is — 0.0338
+this — 0.0338
+
+Stemming: ON
+capit — 0.1749
+written — 0.1749
+file — 0.1749
+purpos — 0.1749
+all — 0.1749
+in — 0.1749
+letter — 0.1749
+thi — 0.1749
+onli — 0.1749
+test — 0.1749
+
+==== testLongSingleWord.txt ====
+Stemming: OFF
+supercalifragilisticexpialidociousandthensomeextralongmadeupwordthatneverendsjusttochecklimits — 2.0986
+
+Stemming: ON
+supercalifragilisticexpialidociousandthensomeextralongmadeupwordthatneverendsjusttochecklimit — 2.0986
+
+==== testEmpty.txt ====
+❌ Could not parse file.
+
+==== testIdfMap.txt ====
+Stemming: OFF
+12 — 0.2099
+06 — 0.2099
+document — 0.2099
+15 — 0.2099
+07 — 0.2099
+09 — 0.2099
+keyword — 0.2099
+extraction — 0.2099
+sample — 0.2099
+testing — 0.0000
+
+Stemming: ON
+12 — 0.2099
+extract — 0.2099
+15 — 0.2099
+test — 0.2099
+06 — 0.2099
+document — 0.2099
+07 — 0.2099
+sampl — 0.2099
+09 — 0.2099
+keyword — 0.2099
+
+==== unique1.txt ====
+Stemming: OFF
+alpha — 2.0986
+
+Stemming: ON
+alpha — 2.0986
+
+==== unique2.txt ====
+Stemming: OFF
+bravo — 2.0986
+
+Stemming: ON
+bravo — 2.0986
+
+==== malformedIdf.txt ====
+Stemming: OFF
+missingcomma — 0.3498
+25 — 0.3498
+badvaluenotanumber — 0.3498
+brokenline — 0.3498
+valid15 — 0.3498
+extracolumnshere — 0.3498
+
+Stemming: ON
+missingcomma — 0.3498
+extracolumnsher — 0.3498
+25 — 0.3498
+valid15 — 0.3498
+brokenlin — 0.3498
+badvaluenotanumb — 0.3498
+
+==== unique3.txt ====
+Stemming: OFF
+charlie — 2.0986
+
+Stemming: ON
+charli — 2.0986
+
+==== identical1.txt ====
+Stemming: OFF
+repeat — 1.0493
+same — 0.3498
+content — 0.3498
+again — 0.3498
+
+Stemming: ON
+repeat — 1.0493
+same — 0.3498
+content — 0.3498
+again — 0.3498
+
+==== identical2.txt ====
+Stemming: OFF
+repeat — 1.0493
+same — 0.3498
+content — 0.3498
+again — 0.3498
+
+Stemming: ON
+repeat — 1.0493
+same — 0.3498
+content — 0.3498
+again — 0.3498
+
+==== identical3.txt ====
+Stemming: OFF
+repeat — 1.0493
+same — 0.3498
+content — 0.3498
+again — 0.3498
+
+Stemming: ON
+repeat — 1.0493
+same — 0.3498
+content — 0.3498
+again — 0.3498
+
+==== overlimitKeywords.txt ====
+Stemming: OFF
+z — 0.0807
+b — 0.0807
+c — 0.0807
+d — 0.0807
+e — 0.0807
+f — 0.0807
+g — 0.0807
+h — 0.0807
+i — 0.0807
+j — 0.0807
+
+Stemming: ON
+z — 0.0807
+b — 0.0807
+c — 0.0807
+d — 0.0807
+e — 0.0807
+f — 0.0807
+g — 0.0807
+h — 0.0807
+i — 0.0807
+j — 0.0807
+
+==== tfZero.txt ====
+Stemming: OFF
+in — 0.3229
+the — 0.3229
+map — 0.1614
+not — 0.1614
+input — 0.1614
+only — 0.1614
+are — 0.1614
+and — 0.1614
+words — 0.1614
+idf — 0.1614
+
+Stemming: ON
+in — 0.3229
+the — 0.3229
+map — 0.1614
+input — 0.1614
+ar — 0.1614
+onli — 0.1614
+not — 0.1614
+and — 0.1614
+idf — 0.1614
+word — 0.1614
+
+==== END OF TEST RUN ====
+

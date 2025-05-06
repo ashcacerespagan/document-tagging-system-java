@@ -1,0 +1,1147 @@
+Performance management
+in a rapidly changing
+world: implications
+for talent management
+Jane F. Maley, Marina Dabi /C19c, Alain Neher, Lucia Wuersch,
+Lynn Martin and Timothy Kiessling
+(Information about the authors can be found at the end of this article.)
+Abstract
+Purpose –This conceptual work examines how, in times of post-COVID-19 paradigm shift, the employee
+performance management (PM) process can help multinational corporations (MNCs) strengthen their talent
+management and, at the same time, meet their future needs.
+Design/methodology/approach –We take a conceptual approach and present our perspective on what we
+see as the most critical trends shaping PM and talent management. Contingency theory and Volatility,
+Uncertainty, Complexity, and Ambiguity (VUCA) theory provide a sound theoretical framework for
+understanding and responding to the complex and rapidly changing business context post-COVID-19.
+Findings –Drawing on these theories, we create a framework providing a means of understanding why and
+how MNCs can maintain talent and, at the same time, develop new talent through the PM process.
+Practical implications –Importantly, our study emphasizes the critical role that project management and
+talent management techniques play for both practitioners and scholars. In order to gain and sustain a
+competitive edge in the ever-changing VUCA (Volatility, Uncertainty, Complexity, and Ambiguity) landscape,
+these processes necessitate ongoing reassessment and adaptation. As Plato eloquently stated, “Our Need Will
+Be the Real Creator, ”encapsulating our vision for the proactive and dynamic nature of effective project
+management and talent management practices.Management
+Decision
+3085
+© Jane F. Maley, Marina Dabi /C19c, Alain Neher, Lucia Wuersch, Lynn Martin and Timothy Kiessling.
+Published by Emerald Publishing Limited. This article is published under the Creative CommonsAttribution (CC BY 4.0) licence. Anyone may reproduce, distribute, translate and create derivative worksof this article (for both commercial and non-commercial purposes), subject to full attribution to theoriginal publication and authors. The full terms of this licence may be seen at http://creativecommons.
+org/licences/by/4.0/legalcode
+This paper forms part of a special section “Talent attraction and retention strategies in the post-
+COVID era: an introduction ”, guest edited by Sascha Kraus, Andrea Caputo, Daniel Palacios-Marqu /C19es
+and Ignacio Danvila-del-Valle.
+This research was financially supported by the Slovenian Research Agency (www.arrs.gov.si)
+within the research program P5 –0441. The funders had no role in the study design, data collection and
+analysis, decision to publish, or preparation of the manuscript.
+Corrigendum: It has come to the attention of the publisher that the article, Maley, J.F., Dabic, M.,
+Neher, A., Wuersch, L., Martin, L. and Kiessling, T. (2024), “Performance management in a rapidly
+changing world: implications for talent management ”,Management Decision , Vol. ahead-of-print No.
+ahead-of-print. https://doi.org/10.1108/MD-07-2023-1162 , did not include accurate text for Figure 1 and
+did not correctly place Figure 2 within the text. Emerald policies make clear that figures and tablesshould be checked for accuracy at proof stage. The figures have been corrected in the online version ofthe article. Additionally, the article has incorrectly placed the author photos of Alain Neher and LuciaWuersch in the author biography section and incorrectly listed the affiliation details of Alain Neher andLucia Wuersch as “Department of Management and Marketing, Charles Sturt University, Albury,
+Australia ”. Emerald guidelines make clear that author information should be checked for accuracy at
+proof stage. The author photos and affiliations have been corrected in the online version of the article.The current issue and full text archive of this journal is available on Emerald Insight at:
+https://www.emerald.com/insight/0025-1747.htm
+Received 12 July 2023
+Revised 11 September 2023
+6 January 2024
+Accepted 27 March 2024
+Management Decision
+Vol. 62 No. 10, 2024
+pp. 3085-3108
+Emerald Publishing Limited
+0025-1747
+DOI10.1108/MD-07-2023-1162
+Originality/value –The study establishes the benefits of an agile and flexible PM approach to help develop
+talent and pave the way for future research in this increasingly critical area
+Keywords Performance management, Talent management, Strategic contingency theory, VUCA theory, MNCs
+Paper type Conceptual paper
+Introduction
+Performance management (PM) is a critical strategic human resources management (HRM)
+activity that guides multinational corporations ’(MNCs) extensive activities to improve
+organisational effectiveness ( Claus and Briscoe, 2009 ;Varma et al. , 2023 ). PM provides
+quantifiable information for decision-making, identifies employee training and development
+needs, and enhances motivation and trust between the employee and the organisation ( De
+Nisi and Murphy, 2017 ). Thus, the PM can increase efficiency, productivity, and, ultimately,
+profitability. In MNCs, PM has typically been at the core of HRM functions ( DeNisi et al.,
+2021). Nonetheless, despite its advantages, scholars have become increasingly divided about
+the practical benefits of the PM (e.g. Murphy, 2020 ;Sanner et al., 2022 ) but generally agree
+that there are currently no valid alternatives to the PM (e.g. Adler et al., 2016 ;De Nisi and
+Murphy, 2017 ;Maley et al., 2021 ;Murphy, 2021 ).
+However, many industries were impacted during the COVID-19 pandemic ( To and Huang,
+2022), and many firms, large and small, shifted to remote working arrangements. In MNCs,
+employees were often relatively isolated, and MNC regional leaders no longer travelled to and
+between subsidiaries ( Lazarova et al., 2023 ). Many MNCs ceased their PM process during the
+pandemic ( Dill and Fonatan, 2022 ). The rare PMs conducted during the pandemic were
+generally not suitable to the new reality of remote work. Many problems arose due to an
+absence of contact between the employees and managers ( Aguinis and Burgi-Tian, 2021 ;
+Crick et al., 2021 ;Tziner and Rabenu, 2021 ).
+Notwithstanding, although the PM is not a flawless management tool, there is mounting
+evidence today suggesting that its role in developing employees and talent per se may have been
+undervalued in the past ( Chatterjee et al., 2022 ). There is an indication now that the absence of
+effective PMs appropriate to the COVID-19 crisis had a detrimental impact on talent management
+(Ererdi et al.,2 0 2 2 ;Frankiewicz and Chamorro-Premuzic, 2020 ). For example, employee capability
+development ceased ( Caputo et al.,2 0 2 1 ), employee engagement plu mmeted, and many talented
+employees quit –in what Klotz (2022) coined “the great resignation ”. The subsequent shortage of
+talented and engaged employees with the right capabilities has led to significant challenges and
+disruptions across MNCs from various industries ( Bailey and Breslin, 2021 ;Chatterjee et al.,2 0 2 2 ;
+Delany, 2022 ;Garavan et al., 2023 ;Leeet al., 2022 ). Talent management is closely related to PM.
+They are interdependent and mutually reinfo rcing each other within an organisation ’sH R M
+framework ( Collings et al., 2019 ). Both concepts are part of the broader HRM domain and share
+many commonalities and a crucial agenda for developing employee capabilities and retaining
+and engaging employees, which was sorely missed during the pandemic.
+Evidence from the pandemic suggests that the real value of the PM is rooted in maintaining
+and advancing employee talent, particularly as talents provide MNCs with a competitive
+advantage ( Claus, 2019 ). From this perspective, and bearing in mind the lessons learned during
+the pandemic, the PM ’s core principles and particularly its relationship with talent management
+need to adjust to the “Post-COVID-19 Paradigm Shift ”(Diab-Bahman and Al-Enzi, 2020 ;
+Lazarova et al.,2 0 2 3 ). This modification must encapsulate the transformative changes in social,
+political, economic, and technological domains in the aftermath of the COVID-19 pandemic
+(Ayoko et al., 2021 ). A paradigm shift of this magnitude has significant implications for all HRM
+processes, and the PM and talent management processes are no exceptions ( Caligiuri et al.,
+2020). To address this problem, we pose the research question: “How should the PM change to
+assist MNCs in managing talent in the post-pandemic environment and beyond? ”MD
+62,10
+3086
+The nature of our research is conceptual and follows Reese ’s (2023) suggested structure
+for writing a conceptual scholarly article. The basic approach of a conceptual work generally
+involves identifying theoretical concepts and connecting them relationally ( Hage, 1972 ).
+Hence, after a theoretical overview and synthesis of the literature, we present a novel PM
+model ( Figure 2 ) that has adapted to the new world order, paying attention to contemporary
+workplace challenges ( Dabi/C19cet al., 2023a ,b;Lazarova et al., 2023 ;Wuersch et al., 2023 ). We
+present our perspective on what we see as the most critical trends shaping PM and talent
+management and their implications for the MNC. We address how these trends have affected
+the challenges to PM by focusing on MNCs as they offer a diverse, complex, and global
+context for studying PM and talent management. MNCs set benchmarks for innovative
+strategies and best practices in managing multicultural and geographically dispersed
+workforces. Additionally, MNCs ’significant influence on the global economy and rich data
+availability make MNCs an ideal focus for such studies. Two critical theories are used to
+support our model –Strategic Contingency theory (SCT) ( Woodward, 1965 ) and Volatility,
+Uncertainty, Complexity, and Ambiguity theory (VUCA) theory ( Bennett and Lemoine, 2014 ).
+SCT informs us why change is required, and VUCA theory illustrates how change can be
+achieved. This theory suggests that leveraging agility at the MNC meso-level and flexibility
+at the MNC micro-level can enhance the PM in a macro-level VUCA environment of turmoil
+and change.
+The remaining manuscript is presented in four sections. First, we offer an outline of the
+PM. In this section, we compare and contrast PM and talent management and identify four
+key propositions around the need to change PM to fit the post-pandemic environment better.
+We also make a case for their co-dependence of PM and talent management. Second, we
+present the value of SCT and VUCA as a theoretical foundation for our study. Third, building
+on our propositions, we argue the need for a new PM model ( Figure 2 ). In this model, we
+identify three critical PM areas that must be addressed to enhance talent: digital
+communication; employee capability development; and the need to focus on outcomes via
+employee engagement and well-being. Finally, we provide concluding remarks, limitations
+and areas for future research.
+The findings are important as the COVID-19 pandemic has caused a seismic
+transformation in how we work, forcing businesses to reconsider even the most
+established business practices ( Lazarova et al. , 2023 ), and the PM is no exception ( Crick
+et al. , 2021 ). We argue that a unique opportunity exists to reinvent the PM process as a
+propagator of employee talent management. Implementing this change could have long-
+lasting effects on the quality of MNC talent and, thus, the future sustainability of MNCs. In
+essence, post-COVID-19 PM in MNCs must be technologically adept and focused on employee
+engagement and well-being ( Laker and Roulet, 2021 ). These adaptations can help MNCs
+attract, retain, and develop talent in a rapidly changing business environment, thus achieving
+a competitive advantage.
+This study makes three chief contributions to the PM and talent management literature.
+First, studies focused on PM in a volatile business context ( Maley, 2019 ) and the role of PM in
+building global talent are both rare ( Aguinis and Burgi-Tian, 2021 ;Leeet al., 2022 ;Maley,
+2019). This study fills this gap by highlighting the critical role of PM in the strategic
+management of MNCs to develop organisational talent to avoid the impact of volatility and
+uncertainty. Second, while many recent PM studies have focused on the dark side of PM, we
+focus on its potential, such as its essential relationship with talent development. Our study
+sheds light on this issue by highlighting the influence of effective PM on talent management.
+Third, the study provides insights into how MNCs can develop and maintain talent throughthe PM process in a volatile environment. For this reason, it advances our knowledge of PM
+and talent management and generates practical recommendations for MNCs struggling with
+talent management matters in the current environment.Management
+Decision
+3087
+The performance management process
+Performance Management is an activity that enables the MNC to evaluate corporate
+performance and is part of the coordination and control process within MNCs ( Claus and
+Briscoe, 2009 ). Activities within the scope of PM include the performance appraisal. The
+distinction between these two HRM processes is important. Performance appraisal refers to
+the supervisor-employee interview, where employees are generally assessed once a year
+using a given score to measure that assessment ( De Nisi and Murphy, 2017 ). Moreover,
+performance appraisal is associated with control and hierarchical management ( Adler et al.,
+2016). The PM was introduced more than 30 years ago to address the limitations of
+performance appraisal. The PM process includes the performance appraisal but also
+encompasses a much broader range of management practices, including the setting of MNC
+goals, career management, training and development, and regular feedback ( Aguinis et al.,
+2012). Thus, the PM is a continual process, as opposed to the once-a-year event of rating
+performance ( Maley and Moeller, 2014 ).
+T h eP Mi so n eo ft h eM N C ’s most critical HRM tools to enhance employee performance
+(DeNisi et al. , 2021 ), and most MNCs use some variation of the PM process ( De Nisi and
+Murphy, 2017 ;DeNisi et al., 2021 ;Murphy, 2020 ). According to Maley et al. (2021) ,t h eP M
+offers significant benefits such as goal alignment ( DeNisi and Smith, 2014 ),
+communication improvements ( Pulakos and O ’Leary, 2011 ), the ability to measure
+performance ( Lawler, 1994 ), employee development ( Kuvaas, 2007 ), employee engagement
+(Gruman and Saks, 2011 ) ,a n dt h er e t e n t i o no ft a l e n t e de m p l o y e e s( Aguinis and Burgi-
+Tian, 2021 ). These benefits will now be explored. Following that, we will summarise the
+disadvantages of PM, discuss the current st atus of PM and talent management, and argue
+for a PM change.
+The significant benefits of PM
+Goal alignment. Performance management goal alig nment is important and ensures
+that the objectives of individual employees are aligned with the MNC ’sb r o a d e rg o a l s
+(Farndale et al. , 2014 ). Goal alignment between the M NC and the employee is especially
+pertinent for MNCs operating across vast, geog raphically dispersed an dc u l t u r a l l yd i v e r s e
+contexts.
+Communication improvements. The PM is an effective instrument for communication
+between the manager and the employee ( Pichler et al., 2020 ). It is a legitimate channel for
+employee feedback and voice ( Kuvaas et al., 2016 ). Employee feedback is a powerful tool that
+enables an MNC to more fully tap into and develop the talent of its diverse employees ( Rabenu
+and Tziner, 2016 ). In an MNC cross-cultural context, constructive and unambiguous feedback
+is vital for an effective PM, where language and cultural nuances can pose communication
+challenges ( Maley and Kramar, 2014 ).
+Performance measurement. Performance measurement has interested scholars for
+decades, and while a contentious subject, it is generally agreed that measurement helps to
+facilitate the tracking of individuals against set goals ( Murphy and Cleveland, 1995 ). This can
+not only help the MNC to identify high performers but also pinpoint areas that need
+improvement across its different locations. In this way, measuring performance can assist
+with employee development by regularly assessing employees ’strengths and areas for
+improvement ( Maley, 2019 ).
+Employee development. Employee development is one of the PM ’s most valuable features
+(Murphy, 2021 ) and is particularly important to employees in MNCs ( Maley and Moeller,
+2014). An effective PM facilitates decisions on training, development, and promotion in MNCs
+(De Nisi and Murphy, 2017 ). PM can also safeguard consistent talent development acrossMD
+62,10
+3088
+MNCs ’headquarters and subsidiaries, boosting employee engagement by recognising and
+rewarding high performance and providing development opportunities ( Brown et al., 2019 ).
+Employee engagement. Employee engagement has often been touted as the key to an
+organisation ’s success and competitiveness ( Gruman and Saks, 2011 ). Engagement at the
+employee level is also strongly correlated with organisational performance and shareholder
+return ( Harter et al., 2002 ). While employee engagement directly results from an effective PM
+system ( Murphy, 2020 ), it can also be a principal driver of perceptions of fairness and
+transparency. For example, if decisions related to promotions, salary increments, and other
+rewards are clearly defined and transparent performance criteria are in place, the PM will be
+perceived as a fair process ( Pichler, 2019 ). In turn, fairness can improve employee morale and
+trust in the organisation and can be measured by the motivation to improve performance and
+perceptions of organisational justice ( Keeping and Levy, 2000 ;Neher and Maley, 2020 ;
+Pichler, 2012 ).
+Retaining talent results from an effective PM system that provides a structured,
+transparent, and fair method for evaluating performance across an MNC ’s diverse operations,
+leading to improved productivity, greater alignment with organisational goals, better
+communication, and higher employee satisfaction. Although the PM has many roles, the most
+important refers to not only the recognition of talent but also the management and retention
+of it. Consequently, an effective PM can help the MNC manage its talent effectively by
+identifying high performers, recognising skills deficits, developing careers, and retaining
+talents ( Aguinis and Burgi-Tian, 2021 ). Managing talent is one of the critical challenges for
+MNCs ( Collings and Mellahi, 2009 ;Farndale et al., 2014 ), and this is especially challenging in a
+crisis and in uncertainty ( Ererdi et al. , 2022 ;Maley, 2019 ;McCarthy and Sheehan, 2014 ;
+McGraw, 2014 ;Rabenu and Tziner, 2016 ), and was particularly evident during the pandemic
+(Tziner and Rabenu, 2021 ).
+Talent retention. Talent management emerged in the late 1990s with “The War for Talent ”
+as its major drive ( Michaels et al. , 2001 ). The goal of talent management is to achieve a
+competitive advantage through people. It is defined as “a set of sustainable organisational
+strategies that use human capital to the competitive advantage of the organisation ”(Claus,
+2019, p. 208), and like PM, talent management encompasses both strategic and tactical
+elements. Defined this way, talent management can be seen as a subset of PM ( Dabi/C19cet al.,
+2021). Recently, the term “talent management ”has taken on a life of its own and is one of the
+fastest-growing areas of management research ( Chatterjee et al., 2022 ;Collings et al., 2019 ;
+Gallardo-Gallardo et al. , 2017 ;Luna-Arocas and Danvila del Valle, 2021 ). These studies
+suggest that MNCs with effective talent management increase employee engagement and the
+bottom line. However, the talent management literature is still in its infancy, and there is
+much debate about the exact definition of talent ( Gallardo-Gallardo et al. , 2017 ;Orel
+et al., 2022 ).
+Importantly, talent can be an “exclusive ”(rare) –talent represents a few selected
+employees –or an “inclusive ”(universal) –directed at the whole workforce –concept
+(Meyers and Van Woerkom, 2014 ). Recently, Garavan et al. (2023 , p. 1), taking an inclusive
+approach, asked the thorny question, “who is worthy of talent management? ”In this study,
+aligned with Garavan et al. (2023) , we take an inclusive approach to talent management.
+Notwithstanding, despite research focusing on talent management and PM, the subjects
+have rarely been studied together. Exceptions include Aguinis and Burgi-Tian (2021) and a
+review of using talent management wit h PM to increase employee commitment ( Vural
+et al., 2012 ).
+Certainty PM and talent management, as men tioned earlier, are co-dependent concepts
+where individuals can be nurtured and developed ( Aguinis and Burgi-Tian, 2021 ;Collings
+et al., 2019 ). Both systems are concerned with reco gnising skills gap s among employees,
+and this information can guide the MNC in pr oviding necessary training and developmentManagement
+Decision
+3089
+opportunities to its workforce. Both system s are also concerned with career development
+and succession planning. The y chart clear career paths for employees, helping them
+understand the steps they need to take to advance within the organisation. It is also
+essential for succession planning, ensuring a ready pool of capable individuals to fill
+critical roles when required. Both the PM and talent management aspire to retain
+employees by providing regul ar feedback, recognising and rewarding good performance,
+and addressing concerns promptly; a PM syst em can enhance job satisfaction and, thus,
+employee retention –crucial for MNCs as retaining talen t can be more cost-effective than
+hiring new employees.
+For an MNC, having a global view of the talent and performance data can allow for better
+talent mobility decisions, moving the right people to the right roles at the right time across
+different regions ( Tarique et al., 2022 ). The evidence is striking –talent management is closely
+related to PM. While both concepts are part of the broader domain of HRM, it begs the
+question of whether talent management is old wine in a new bottle. In other words, talent
+management has always been an integral part of PM, not a detached concept. Thus, if PM
+involves setting and managing employee expectations, developing capabilities and talent
+management refers to identifying potential talent, developing their skills, and retaining them
+to ensure a return on investment for the organisation –these concepts ultimately share the
+same end purpose –managing talent.
+The disadvantages of PM
+Notwithstanding, the PM is not without criticism (e.g. Goler et al. , 2016 ;Pulakos and
+O’Leary, 2011 ). Many MNCs do not effectively administer their PM ( Murphy, 2020 ).
+According to Aguinis and Burgi-Tian, 2021 , the PM is a poorly understood process, often
+misaligned or not coordinated with a firm ’s talent management objectives. While the PM
+can provide many benefits, there are certain circumstances and reasons why some
+organisations might consider moving aw ay from traditional PM systems. Most
+importantly, PMs can demotivate employees, primarily when there is an over-reliance
+on rating scales ( Murphy, 2020 ). A poorly managed PM can cause stress and demotivation,
+especially if employees feel their evaluation i s unfair or not accurately represented in their
+PM ( Pichler, 2012 ).
+Additionally, cultural differences across the MNC may have involved perspectives on
+feedback, management style, and work ethic ( Claus and Briscoe, 2009 ). What is considered
+constructive feedback in one culture could be highly critical in another, leading to
+misunderstandings and even conflicts in a globally diverse team ( Appelbaum et al., 2011 ). PM
+may also serve different purposes in different cultures and contexts (cf. Varma et al., 2023 )
+and is not always transferable across cultures ( Chiang and Birtch, 2010 ), confirming that the
+transferability of PM across the MNC ’s subsidiaries will almost certainly be affected by
+culture.
+We mentioned earlier that the PM replaced th e traditional performance appraisal and
+its well-documented limitations around subjectivity and bias (e.g. Latham and Wexley,
+1977 ;Murphy and Cleveland, 1995 ). However, many MNCs failed to upgrade their
+performance appraisal process to the comprehensive PM system ( Aguinis and Burgi-
+Tian, 2021 ;Maley and Moeller, 2014 ), and although they used the term “PM”,m a n y
+MNCs continued to rely on the performance a ppraisal as a sole means of assessing their
+employees ( Murphy, 2021 ). Employees in these MNCs risked missing out on the
+many benefits of PM, especially career and developmental opportunities ( Maley and
+Moeller, 2014 ).
+There is little doubt that administering a global PM is a complex process due to the wide
+range of differences across MNCs ’cultures, time zones, business practices, and legalMD
+62,10
+3090
+structures ( Varma et al. , 2023 ). While these challenges can be significant, many can be
+mitigated with careful planning, cultural sensitivity, good communication, and the right
+technology. In short, while the PM is not perfect, an effective PM system can function as a
+formidable tool for managing and developing capabilities in MNCs in unstable environments
+(Maley, 2019 ), which in turn can help ensure that the organisation ’s talent management
+strategies are capability-driven, transparent, fair, and aligned with the MNC ’s broader
+business goals. However, as we denoted earlier, during the COVID-19 pandemic, evidence
+emerged that the PM, particularly talent management as part of PM, irrevocably changed
+(Aguinis and Burgi-Tian, 2021 ).
+Current status quo of PM and talent management –four propositions
+To advance the theory of PM and talent management, we offer four propositions. First, the
+pandemic has been a much-needed catalyst for many MNCs to review their PM ( Tziner and
+Rabenu, 2021 ) and talent management practices ( Frankiewicz and Chamorro-Premuzic,
+2020), which could have a long-term effect on how frequently organisations review, assess
+and augment employee performance post-pandemic ( Dabic et al., 2023b ).
+Proposition 1. As businesses move forward, it is crucial that they continue to review,
+adapt and refine their PM practices to the changing work environment.
+Second, the shift to remote work led to the need for comprehensive digitising of the PM process.
+MNCs had to employ and adapt to new digital tools for remote performance tracking. Business
+objectives and performance indicators had to be r evised due to pandemic-related disruptions, and
+MNCs had to adapt by setting new goals and aligning them with the changed circumstances.
+Such changes demanded clear and compelling communication during the pandemic. The
+pandemic accelerated a trend towards more continuous, real-time feedback. MNCs that relied
+merely on annual performance appraisals and never fully adopted the PM were hugely
+disadvantaged. Remote work made sole reliance on the performance appraisal less viable. For
+example, the dynamic nature of a crisis and uncertainty in work roles and responsibilities
+necessitates more frequent check-ins and feedback ( McCarthy and Sheehan, 2014 ). During the
+COVID-19 pandemic, MNCs likeAdobeandGE have also targeted their PM systems to help them
+be more agile by opting for more informal and frequent feedback ( Baran and Woznyj, 2020 ).
+The nature of feedback also changed. While many firms post-COVID cannot afford to give
+the cost of living or merit pay increases, they are using the power of feedback as a substitute.
+A case in point is electric, information-technology software and services MNC, whose CEO,James Coakley, specifically instructed his subsidiary managers to give positive feedback and
+a pat on the back to their employees for showing up ( Dill and Fonatan, 2022 ).
+Proposition 2. The PM must accommodate changing approaches to communication in the
+new environment.
+Third, developing employee capabilities in some MNCs ceased ( Aguinis and Burgi-Tian,
+2021), a pattern identified in past global crises and ensuing uncertainty ( Maley, 2019 ;
+Sheehan, 2014 ). Other MNCs temporarily stalled or dramatically reduced employee
+development. For example, the pandemic saw many MNCs close their training centres as
+social distancing norms necessitated a shift from traditional classroom training to an online
+learning platform ( Guedhami et al., 2022 ). Organisations had to fast-track digital learning and
+development initiatives, focusing on skills in higher demand due to the pandemic, such as
+digital literacy and remote working skills ( Manco-Chavez et al., 2020 ). Many MNCs faced the
+need to rapidly upskill or reskill their employees due to the change in job roles and increased
+digital transformation triggered by the pandemic ( Guedhami et al., 2022 ). This action required
+an enhanced focus on developing talent through learning and development as part of PM
+(Baran and Woznyj, 2020 ).Management
+Decision
+3091
+MNCs with in-office training strategies were caught off-guard when employees started
+working from home ( McKinsey, 2020 ). Suddenly, printed training manuals, on-premises
+learning management systems (LMS), and in-person, instructor-led training programs would
+not work. The obvious answer was to go digital and training industry research confirmed
+that is what many MNCs accomplished. Between March and September 2020, there was a
+20% increase in virtual training and a similar decrease in instructor-led training ( McKinsey,
+2020). The pandemic was the nudge many MNCs “needed ”to explore digital training options.
+Although compulsory working from home is now in the rear-view mirror, the COVID-19
+restrictions may have indelibly changed how MNCs approach the issue of where and how
+global work is done ( Lazarova et al., 2023 ).
+Proposition 3. The PM must develop employee capabilities to fit the new environment.
+Fourth, employee engagement became a top priority during the pandemic, and some MNCs
+went to extraordinary lengths to use the PM to procure engagement. MNCs had to find new
+ways to keep employees engaged and motivated. This motion included digital team-building
+activities, flexible working hours, provision for home office setup, and mental health support.
+Facebook took a different approach to increase employee engagement and gave all its full-
+time employees an additional $1,000 paycheck ( Toonkel and Heath, 2020 ). Facebook also
+gave everyone the same “exceeds expectations ”performance review. By providing all full-
+time staffers with the same review, Facebook ensured all employees received bi-annual
+bonuses ( Toonkel and Heath, 2020 ).
+While circumstances have forced the mass adoption of virtual performance monitoring,
+leaders appear to have generally become less obsessed with time spent in the office and have
+become more focused on outcomes ( Gartner, 2023 ). Towards the end of the pandemic, the
+focus on outcomes continued with reports of many businesses paying attention to employee
+performance outcomes and not petty-time-keeping modes or obsession with measurement
+and ratings as they forecast tough economic times. Meta Platforms engineering is a prime
+example of an MNC that instructed managers to focus more on performance outcomes as part
+of the PM process ( Dill and Fonatan, 2022 ).
+Certainly, the pandemic brought a renewed and increased focus on employee well-being
+(Bamberry et al., 2022 ). Mental health and work-life balance became crucial ( Laker and Roulet,
+2021). Typically, MNCs have mitigated employee stress through wellness programs ( Kramar,
+2022); however, these programs relied on physical settings and declined during the pandemic
+and the increased advent of working from home ( Laker and Roulet, 2021 ).
+Proposition 4. The PM must focus on outcomes and build employee engagement, and
+recommence well-being to cope with the new environment.
+Theoretical support for PM change
+We draw on SCT ( Woodward, 1965 ) and VUCA theory ( Bennett and Lemoine, 2014 )t o
+support our model. While SCT suggests that the effectiveness of a strategy depends on the fit
+with the context or situation, signifying that MNCs may need to adapt their PM and talent
+management strategies based on varying cultural, legal, and market conditions in the new
+paradigm fit, VUCA theory provides a theoretical framework to respond to complex and
+rapidly changing business situations.
+Strategic Contingency Theory suggests there is no best way to organise or lead an
+organisation, make decisions, or design jobs. Instead, the best course of action depends on the
+internal and external situations (or contingencies) the organisation faces. In a PM context, this
+theory suggests that the most effective PM practices and strategies will depend on the
+specific characteristics and demands of the uncertain environment. In other words, according
+to the SCT, the best PM practices are contingent on the specific characteristics and demandsMD
+62,10
+3092
+of the uncertain environment. The post-pandemic setting provides opportunities to adjust the
+PM to fit the VUCA environment better. This can be especially relevant in a post-pandemic
+world, where businesses have had to navigate unprecedented uncertainty and change. While
+SCT provides a valuable lens to view the situation, it does not give concrete answers on how
+things should be done.
+A theory that offers answers on how to operationalise change in an uncertain and
+problematic environment is the VUCA theory. The VUCA framework emerged from the US
+Army War College to describe the more volatile, uncertain, complex, and ambiguous world
+following the end of the Cold War ( Bennett and Lemoine, 2014 ). While not developed initially as
+a PM theory, VUCA has been applied to organisational and HR contexts as a framework for
+understanding and responding to challenging and rapidly changing business environments
+(Baran and Woznyj, 2020 ) and is, therefore, instrumental in supporting the development for a
+post-pandemic PM as each element of the VUCA framework can be applied to the PM. For
+example, in volatile environments, VUCA informs that MNCs must be flexible and agile in their
+approach to PM ( Baran and Woznyj, 2020 ). Thus, a combination of the SCT and the VUCA
+model provides a comprehensive framework for understanding and responding to the
+challenges faced by modern organisations. This makes them incredibly relevant and suitable
+for managing people and talent in firms amidst modern-day uncertainty.
+In summarising our review of the extant literature and erudite commentators, the COVID-19
+pandemic brought unprecedented challenges to the workplace, devastatingly impacting MNC
+talent supplies ( Aguinis and Burgi-Tain, 2021 ). Many MNCs neglected important aspects of the
+PM process ( Dill and Fonatan, 2022 ). Towards the end of the pandemic, the neglected PM
+manifested as a shortage of employees with the necessary capabilities and engagement on an
+immense scale never seen before. The MNCs were forced to rethink their PM processes, and
+many have recognised that the PM could be an integral approach to developing and nurturing
+talent ( Lazarova et al., 2023 ). Evidence of PM practices from the pandemic suggests that many
+of the traditional problems associated with PM, such as excessive stick use (i.e. measurement,
+ranking and ratings) and minimal use of the carrot (i.e. positive communication, tactics to
+increase engagement), need to be transformed ( Laker and Roulet, 2021 ).
+The extant PM literature and current status quo of the PM process inform us that despite
+its past problems, there is new interest in the PM in the VUCA environment. Perhaps by
+stealth, the pandemic has restored MNCs ’faith in the PM, and they have realised that
+monitoring performance does serve a useful purpose. Nonetheless, evidence from our reviewpoints to the new post-pandemic environment necessitating a different way to go about the
+process. An adapted PM process could be the answer to managing the chronic talent shortage
+by building and maintaining talent.
+Ultimately, our review has illustrated that a PM process focused on addressing the digital
+communication challenge; developing new employee capabilities; and a revitalised focus on
+outcomes through increasing employee engagement and well-being could greatly assist
+MNCs in their quest to recover, build, and maintain talented employees. SCT and VUCA
+theories reinforce why this should be executed.
+Therefore, based on the reviewed extant literature and underpinned by the SCT and
+VUCA theories, we propose a theoretical construct ( Figure 1 ) illustrating agility and
+flexibility within a VUCA environment. Th e construct is structured around three
+interconnected levels: macro, meso, and micro, which collectively impact HRM agility and
+flexibility. The macro-level encapsulates the broader, mainly external factors that can affect
+an organisation. The meso-level is characterised by managerial agility. This level acts as a
+conduit between the macro environment and the individual employee, suggesting that
+management practices are essential for translating the broader VUCA challenges into
+actionable organisational strategies. The micro-level focuses on the individual employee ’s
+PM processes and how they are enhanced by flexibility. This suggests that employees ’abilityManagement
+Decision
+3093
+to adapt and be flexible at the ground level is crucial for the organisation ’s overall agility in a
+VUCA world. The arrows indicate the dependent nature of these levels, with the macro
+influencing the meso, which in turn affects the micro-level. It also emphasises the continuous
+feedback loop where implementing PM micro flexibility practices can influence the definition
+of macro PM challenges and vice versa. This construct ( Figure 1 ) explains the importance of
+addressing challenges at all three levels to enhance HRM agility and flexibility in a complex
+and unpredictable business environment. We now develop our theoretical PM model using
+this construct as a foundational context.
+The theoretical performance management model
+Development of new PM model
+Accordingly, the foundations of the new PM model ( Figure 2 ) for the post-pandemic
+environment are based on agility and flexibility. HRM agility and flexibility are both concepts
+related to an organisation ’s ability to adapt to changes. However, they are not the same thing.
+MNC agility has been broadly defined as the ability to adapt quickly, effectively and efficientlyto continuous and unpredictable changes in MNCs ’environment ( Montreuil, 2023 ). Similarly,
+HRM agility refers to the ability of an organisation ’s HRM to respond quickly to changes in the
+business environment. It is about rapid adaptation and being proactive rather than reactive.
+Whereas HRM flexibility is about the capacity of HRM to adapt to changes, it tends to be more
+focused on the ability to handle a range of different situations rather than the speed of response.
+According to Baker (1996) , while confusion exists between the two terms, a significant
+difference between agility and flexibility is that agility usually refers to the meso-levels in the
+hierarchy, while flexibility refers to the micro-level. Accordingly, the model we present
+(Figure 2 ) is grounded in organisational agility at the meso-level to enable PM flexibility at the
+micro-level (see Figure 1 ).
+Notwithstanding, the model ’s success is highly dependent upon its implementation. Earlier
+in this study, we posited the research question, “How should the PM change to assist MNCs in
+managing talent in the post-pandemic environment and beyond ?”This question cannot be
+answered satisfactorily without considering the importance of implementing the model.
+Implementation is a crucial component because it is the execution part that translates the vision
+of the model into reality, optimises resources, adapts to changes, measures performance, and
+manages risks, all of which areessential forthesuccess andsustainabilityof themodel ’sc o n t e x t .
+Accordingly, successful implementation of the PM model needs to focus on maintaining
+talent as part of the overall PM through PM process flexibility in three critical areas identified
+Macro Level
+IdenƟfying VUCA 
+issues and challenges
+Micro Level
+Enabling PM ﬂexibility
+Source(s):  Adapted from Baran and Woznyj (2020)
+                  Figure by authors Meso Level
+Applying management
+pracƟces grounded
+ in agilityFigure 1.
+Construct of agility and
+flexibility in the VUCAenvironmentMD
+62,10
+3094
+above: digital communication, capabilities for the VUCA environment, and a PM emphasis on
+outcomes through employee engagement and well-being.
+Digital communication
+Proposition 2 suggests that the new PM must accommodate methods of communication in the
+new environment, which concerns the complexity of digital communications. As underpinned
+by SCT theories, MNCs must further develop PM processes and address digital communication
+challenges in the emerging VUCA environment in their quest to recover, build and maintain
+talented employees. COVID-19 and the unexpected need for remote work accelerated the digital
+transformation of workplaces ( Amankwah-Amoah et al., 2021 ;Nagel, 2020 ;Peter et al., 2023 ). At
+the same time, in organisations, particularly MNCs, internal communication has transformed
+into digital internal communication (DIC) ( Wuersch et al., 2023 ).
+Conceptually, organisations can be described as socio-technical systems ( Rogala and
+Bialowas, 2016 ), which use digital affordances (technical), such as digital platforms and
+channels, and require employees to develop digital skills (social), allowing employees to make
+use of digital technologies. Hence, building digital capabilities in the current environment and
+preparing leaders and employees for the VUCA world has become critical for HRM.
+With the digital transformation (DT) of work, HRM has shifted toward digital HRM ( Gilch and
+Sieweke, 2020 ). Accordingly, the digital HRM literature (e.g. Wang and Zheng, 2022 )a n dr e l a t e d
+concepts (e.g. digitisation, digitalisation or DT of HRM) are increasing (e.g. Konovalova et al., 2021 ).
+Digital HRM can be described as managing the HRM tasks employing technologies, the internet,
+and software applications ( Bresciani et al.,2 0 2 1 ), making HRM processes more efficient and
+effective and, consequently, enhancing performance ( Nicol /C19as-Agust /C19ınet al., 2022 ). Similarly, PM
+processes are also moving toward digital PM. Using digital technology in performance evaluations
+is vital for employee careers and talent development, and the organisation ’s vision ( Vardarlier,
+2020). Besides the reliability and fairness of PM ( Neher and Maley, 2020 ), digital technology
+permits enhanced transparency, allowing the process to be monitored by employees and
+supervisors at any time ( Vardarlier, 2020 ). In this process, communication –in MNCs, frequently
+digital communication –is crucial as transparent communi cation impacts employee trust,
+engagement, performance, and intention to remain in the organisation ( Sani and Adisa, 2023 ). As
+talent management is an integral part of PM, we claim that the PM process and talent management
+are at the nexus between DIC and digital HRM.
+Digital internal communication involves an interplay between an organisation ’s technical
+(e.g. digital PM platforms) and social (e.g. people collaborating using internal social media)
+elements on the intrapersonal, interpersonal and organisational levels ( Wuersch et al., 2022 ).
+Such a socio-technical interplay similarly applies to the PM process in Industry 4.0. At the
+intrapersonal level, digital channels and platforms can help employees self-assess their
+strengths and areas for improvement ( Noe, 2020 ). At the interpersonal level, digital platforms
+can assist supervisors and subordinates in mentoring, engaging with feedback activities, and
+executing performance appraisals. Generally, a strong supervisor-subordinate relationshippositively impacts the subordinate ’s job satisfaction, performance, and potential for
+promotion ( Kramer and Dailey, 2019 ;Neher and Maley, 2020 ) and contributes to the
+talents ’intention to remain in the organisation. Effective communication through PM,
+including the use of digital affordances, is vital to promote trust, openness, flexibility, and
+employees ’affective commitment, all influencing factors in retaining talent and, ultimately,
+achieving positive organisational outcomes ( Bambacas and Patrickson, 2008 ).
+Thus, as part of their digital strategy, MNCs should invest in digital affordances and offer
+employees safe structures, systems and processes that foster trust (e.g. privacy and data
+protection policies) ( Neher et al.,2 0 2 3 ). Employees should receive adequate digital training
+(capability development) to make them digitally confident ( Varma et al., 2023 ). Similarly, PMManagement
+Decision
+3095
+supervisors need digital capabilities ( Neher et al.,2 0 2 3 ) and must be able to “surf the digital
+wave ”rather than “fear the digital tsunami ”(Chanias et al.,2 0 1 9 ,p .2 2 ) .V U C Al e a d e r sa r e
+digitally savvy and flexible and thus responsive to change, find solutions, and communicate
+clearly and transparently; they build mutual trust with their subordinates (e.g. Hameed and
+Sharma, 2020 ;Ramakrishnan, 2021 ).
+Trust becomes the main challenge when working and communicating digitally and in virtual
+teams using ICT tools such as email, social networks, and video conferences ( Tziner and
+Rabenu, 2021 ). In particular, when working from home, a trustful relationship is essential as
+being invisible to the supervisor, employees may feel their work is underappreciated, a
+phenomenon that can lead to “workers ”stress ’(Tziner and Rabenu, 2021 ). Overall, concerted
+and trusted (digital) communication can contribute to positive relationships between managers
+and employees, enhancing PM processes and strengthening organisational commitment ( Welch,
+2006). In conclusion, strategic investments in communication technology, allowing digital
+flexibility and the ability to adjust PM to the VUCA environment, will provide MNCs with a
+competitive advantage in acquiring and retaining talented employees.
+Capabilities for the VUCA environment
+Proposition 3 states that the new PM must develop employee capabilities to fit the post-
+pandemic environment. There is an urgent need to upskill employee capabilities if MNCs are
+to succeed in changing times ( Caputo et al. , 2021 ;Delany, 2022 ). While the pandemic
+accelerated digital change, leadership and soft skills changes are also required for companies
+to meet changing times ( Orel et al., 2022 ).
+The need to take a strategic approach to evolve employees to grow businesses remains
+clear. Dabi/C19cet al. (2023b) strongly believe employees need soft skills and digital capabilities.
+Soft capabilities include the talent to apply knowledge in innovative ways to novel situations
+(Dubey and Tiwari, 2020 ), which are essential under the Industry 4.0 revolution ( Dabi/C19cet al.,
+2023a ). Thus, by upskilling and developing digital employee capabilities, PM nurtures talent,
+enabling and catalysing change as skill gaps are addressed proactively, and employees are
+equipped to embrace uncertainty ( Maley, 2019 ).
+Attracting and retaining talent involves gaining employee commitment and then fostering
+talent via targeted training programs, workshops, and cross-functional projects so that
+individuals can acquire the knowledge and skills needed to thrive in new environments ( Dabi/C19c
+et al., 2021 ;Maley et al., 2021 ;Martin et al., 2023 ). This process encourages adaptability by not
+only enhancing employee capability but also by enabling organisations to respond swiftly to
+changing market demands, with the enhanced capacity to explore new opportunities and remain
+competitive amidst environmental uncertainty ( Harsch and Festing, 2020 ).
+Hence, enhancing and managing organisational performance is directly linked to
+upskilling and developing new employee capabilities; these are key components in attracting,
+developing and retaining talent in both small and large organisations and are not sector-
+dependent ( Dabi/C19cet al., 2021 ). This means that PM is an effective strategic approach taken by
+organisations where it acts as a talent management process to address complex challenges
+and enables organisations to remain competitive, foster innovation, and seize emerging
+opportunities ( Buheji and Buheji, 2020 ). Through PM processes, employees understand the
+needs and targets of their organisations and departments and the changes planned and
+needed in shifting and uncertain environments ( Maley et al., 2021 ;Wallace et al., 2016 ).
+In this context, PM is most successful if it is an ongoing, iterative process through which
+employees enhance their existing capabilities and have the opportunity to upskill and
+develop new skills and knowledge to meet organisational needs in succeeding in new and
+uncertain environments ( Dabi/C19cet al., 2021 ). This avoids difficulties in attracting and retaining
+the right talent, which is essential given the resource gaps identified in many organisationsMD
+62,10
+3096
+(Corbo et al.,2 0 2 3 ). This strategic process is also critical in ensuring that employees possess the
+skills required to stay ahead in an ever-changing business landscape ( Buheji and Buheji, 2020 ).
+Emphasis on PM outcomes through employee engagement and well-being. Proposition 4
+states that the future PM must focus on outcomes by supporting employee engagement and
+well-being to cope with the VUCA environment. In addition to developing digital
+communication skills and specific capabilities for the VUCA environment, we have
+identified four critical actions necessary to increase employee engagement as part of the PM:
+(1) increasing feedback, (2) open communication, (3) a positive work culture and (4)
+introducing well-being as part of the PM process.
+First, regular, constructive feedback helps employees understand what they are doing
+well and where to improve ( Kuvaas, 2011 ). Managers should provide corrective feedback and
+recognise and praise good performance. This action will not only increase employees ’
+engagement by making them feel valued and appreciated, but it will also encourage them to
+continue improving. As noted earlier, lessons from the pandemic show that more positive
+feedback and less negative feedback result in more positive outcomes. Positive feedback and
+recognition have long been recognised as powerful drivers of employee engagement,
+performance, and satisfaction. A predominance of positive feedback in PM not only increases
+engagement, it also augments motivation, strengthens self-efficacy, and encourages growth,
+job satisfaction and a positive work culture ( Bouskila-Yam and Kluger, 2011 ).
+Second, transparent and open communication is critical for employee engagement.
+Employees need to know what is expected of them and how their performance will be
+measured. Managers should work with employees to set clear, realistic goals ( Baran and
+Woznyj, 2020 ). Setting these goals should be collaborative so employees feel ownership over
+their objectives and are more motivated to achieve them. Also, including employees in
+decision-making can significantly increase engagement. When employees feel their voices are
+heard, and their opinions matter, they will likely feel more connected to the MNC and its goals.
+Third, creating an inclusive and positive work culture can significantly boost employee
+engagement. An MNC culture that values diversity, encourages collaboration, and promotes
+a healthy work-life balance will make employees feel more comfortable and engaged ( Laker
+and Roulet, 2021 ).
+Fourth, including employee well-being as pa rt of the PM process can substantially benefit
+both employees and MNCs. The key benefits for emp loyees are reducing stress, increasing job
+satisfaction, and enhancing employee performance ( Kramar, 2022 ). For the MNCs, well-being as
+part of the PM will increase overall MNC productivity, reduce absenteeism, and improve the
+MNC ’s reputation. However, the most significant benefit will be attracting and retaining talent.
+MNCs prioritising employee well-being typically find attracting and retai ning top talent easier.
+High-calibre professionals are in creasingly seeking employers offe ring comprehensive well-being
+programs. However, the MNCs must adapt the well-being programs for the virtual workplace and
+move away from the purely physical pre-pandemic programs. For example, forward-looking
+MNCs have employed a Chief Wellness Officer to offer more wellness to the post-pandemic
+workplace and assist workers in conquering t he stresses associated with the new normal ( Laker
+and Roulet, 2021 ). We believe this is an innovative initiative that will deliver future dividends.
+Thus, when MNCs prioritise employee well-being, it helps enhance engagement levels.
+Engaged employees will go the extra mile, show higher levels of creativity, and demonstrate a
+more substantial commitment to the MNC ( Kramar, 2022 ). Integrating well-being initiatives
+into the PM process can help create a virtuous cycle. A healthy and happy workforce can
+increase productivity, and high-performing employees can feel more satisfied and fulfilled in
+their roles, further boosting well-being and engagement. Most importantly, in today ’s
+competitive job market, MNCs prioritising well-being are more likely to attract and retain top
+talent. As mentioned previously, the ability to attract and keep high-performing individuals is
+a significant competitive advantage.Management
+Decision
+3097
+The resulting conceptual model
+As a result, our suggested conceptual model ( Figure 2 ) encapsulates a talent development and
+maintenance strategy within MNCs navigating the VUCA landscape. The model delineates
+distinct critical organisational areas, pinpointing strategic actions, culminating in desirable
+outcomes. One critical organisational area is DIC. It emphasises the imperative for MNCs to
+foster trust within virtual teams, invest in new IT platforms and effective collaboration, and
+thus reframe remote working as a critical component of work culture. This digital pivot
+concerns technology and people and the cultural shift towards embracing digital mediums as
+primary conduits for collaboration and PM.
+Capability development is the second critical organisational area, addressing the skills gap
+pertinent to Industry 4.0. Here, the model underscores the urgency of preparing employees with
+both soft and digital skills. The actions associated with this challenge involve revitalising PM
+systems and fostering an ecosystem conducive to continuous learning and skill acquisition.
+Employee engagement and well-being form the th ird critical organisational area of the triad,
+highlighting issues such as poor engagement, h igh turnover, and increasing mental health
+concerns. The model prescribes a proactive stan ce on well-being and engagement by integrating
+regular feedback, open communication channels , and a well-being-focused PM process into the
+corporate culture. This proactive approach is instr umental in fostering job satisfaction and loyalty.
+Within the context of a cohesive mixture of macro agility with meso and micro flexibility,
+the model expects outcomes, fostering effective PM and yielding a cadre of superior talent,
+ultimately leading to enhanced competitive advantage and organisational success. The
+conceptual model conveys the ultimate goal, which is the fusion of organisational agility at
+various levels to forge a resilient and dynamic talent management system that thrives amidst
+the challenges of the VUCA world and the demands of Industry 4.0. The model ’s core lies in its
+actions (middle column of Figure 2 ) across various levels of the organisation, reinforcing the
+pathway to improved PM and superior talent management. We provide practical examples of
+these action items to illustrate how the model can be applied.
+Figure 2.
+Conceptual model to
+enhance MNC talentmanagement through
+the PMMD
+62,10
+3098
+Concluding remarks, limitations, and further research
+MNCs face numerous challenges when managing performance and talent amidst the current
+environment ’s volatility, uncertainty, complexity, and ambiguity. It is crucial for MNCs to
+strike a balance in acknowledging these challenges consistently and impartially. However,
+there is an evident need for further research to guide these corporations towards effective
+equilibrium.
+Our conceptual work proposes an innovative model that meticulously balances these
+crucial processes. Our approach incorporat es a broad recognition of macro-level
+environmental challenges, the application of agility at the meso-level, and an infusion of
+flexibility in PM and talent management practices at the operational (micro) level. Our
+conceptual model ( Figure 2 ), grounded in robust theoretical foundations, presents a strategic
+blueprint for talent management within MNCs by advocating for HRM agility and digital
+proficiency, which are critical in fostering a responsive and adaptable talent development
+environment. Our model further underscores the importance of equipping top talent with
+capabilities suited for the VUCA world through continuous learning and digital platforms
+with social interaction, aligning individual PM with organisational outcomes to drive
+engagement and growth. The emphasis on DIC facilitates global collaboration and skill-
+sharing while focusing on employee well-being to ensure that high-potential individuals
+remain motivated and committed. Trust and transparency are woven through the fabric of
+this approach, encouraging innovation and securing top talent ’s allegiance to the MNC ’s
+strategic goals, ultimately positioning the MNC to effectively manage its human capital in a
+competitive, rapidly changing global marketplace.
+Moreover, we have stressed that the model ’s success will rest with competent
+implementation, which lies with responsibility at the micro-level. The implementation is
+key, as it allows for a tailored approach to individual learning and skill development,
+directly addressing each employee ’s unique needs and potential. Focusing on the micro-
+level, the model advocates for a personalise d PM system that measures and incentivises
+individual outcomes, promoting engageme nt and personal growth. In conjunction
+with social interaction, DIC tools and platf orms become instrumental in this context,
+providing a means for real-time feedback, vir tual mentoring, and a continuous learning
+environment, all of which are necessary to navigate the complexities of the VUCA world.
+Additionally, integrating well-being initiat ives at the individual level fosters employee
+engagement and leads to a supportive culture that values mental health and work-lifebalance. Implementing the model at the micro-level builds a foundation of trust and
+transparency, driving innovation and sustaining the corporation ’s competitive edge in
+the global market.
+This conceptual work has limitations that need to be acknowledged. The research is based
+on extant empirical and conceptual literature, extends existing theoretical knowledge, and,
+therefore, makes a novel contribution to the PM and talent management literature. However,
+due to the theoretical nature of this scholarly work, the proposed model has not been applied
+to practice yet. Hence, as a next step and avenue of further research, it would be beneficial to
+apply our model to a real-life business, such as by working with an MNC as a case study
+organisation.
+For example, the case study could specifi cally focus on project management. The
+model ’s emphasis on agility enables project teams to pivot and adapt to changing project
+scopes and market demands swiftly. By integrating this model, the MNCs can create a
+dynamic talent pool that is well-versed in man aging the complexities and uncertainties
+inherent in global projects. As highlighted in the model, DIC is particularly crucial for
+project management, as it ensures seam less collaboration across the MNCs ’different
+geographies and time zones. The digital tran sformation of PM processes allows for real-
+time tracking of project milestones and KPI s, fostering a culture of transparency andManagement
+Decision
+3099
+continuous feedback. This approach could enhance individual accountability in projects.
+Additionally, the model ’s focus on developing capabilities for the VUCA environment
+directly translates to better-equipped project teams. Training in digital tools and
+methodologies, as well as soft skills like probl em-solving and adaptability, ensures that
+project managers and team members can navig ate complex projects with confidence. By
+centring on outcomes through employee engagement and well-being, the model also
+ensures that project team members are motivated and invested in the project ’s success.
+Encouraging open communication and feedba c kw i t h i np r o j e c tt e a m sb u i l d sas e n s eo f
+ownership and aligns individual objectives with project goals. Thus, incorporating the
+model ’s principles into project management ca n lead project managers to manage their
+talent in a way that aligns with the fast-paced, innovative, and often unpredictable nature
+of global projects. It also positions them to bet ter attract, develop, and retain skilled project
+managers and team members wh o can drive project success.
+We anticipate our model will stimulate additional research into the juxtaposition of PM
+and talent management. This could encourage further discussions regarding talent
+management, prompting us to question if it ’s merely a repackaging of traditional concepts.
+Ultimately, this study underscores the crucial role PM and talent management techniques
+play for practitioners and scholars and how they must be continually reassessed and adapted
+to the ever-evolving VUCA landscape.
+References
+Adler, S., Campion, M., Colquitt, A., Grubb, A., Murphy, K., Ollander-Krane, R. and Pulakos, E.D.
+(2016), “Getting rid of performance ratings: genius or folly? A debate ”,Industrial and
+Organizational Psychology , Vol. 9 No. 2, pp. 219-252, doi: 10.1017/iop.2015.106 .
+Aguinis, H. and Burgi-Tian, J. (2021), “Talent management challenges during COVID-19 and beyond:
+performance management to the rescue ”,Business Research Quarterly , Vol. 24 No. 3,
+pp. 233-240, doi: 10.1177/23409444211009528 .
+Aguinis, H., Gottfredson, R.K. and Joo, H. (2012), “Delivering effective performance feedback: the
+strengths-based approach ”,Business Horizons , Vol. 55 No. 2, pp. 105-111, doi: 10.1016/j.bushor.
+2011.10.004 .
+Amankwah-Amoah, J., Khan, Z., Wood, G. and Knight, G. (2021), “COVID-19 and digitalization: the
+great acceleration ”,Journal of Business Research , Vol. 136, pp. 602-611, doi: 10.1016/j.jbusres.
+2021.08.011 .
+Appelbaum, S.H., Roy, M. and Gilliland, T. (2011), “Globalization of performance appraisals: theory
+and applications ”,Management Decision , Vol. 49 No. 4, pp. 570-585, doi: 10.1108/
+00251741111126495 .
+Ayoko, O.B., Caputo, A. and Mendy, J. (2021), “Management research contributions to the COVID-
+19: a bibliometric literature review and anal ysis of the contributions from the Journal of
+Management and Organization ”,Journal of Management and Organization , Vol. 27 No. 6,
+pp. 1183-1209, doi: 10.1017/jmo.2021.70 .
+Bailey, K. and Breslin, D. (2021), “The COVID-19 pandemic: what can we learn from past research in
+organizations and management? ”,International Journal of Management Reviews , Vol. 23 No. 1,
+pp. 3-6, doi: 10.1111/ijmr.12237 .
+Baker, J. (1996), Agility and Flexibility: What ’s the Difference? , Cranfield University, Cranfield.
+Bambacas, M. and Patrickson, M. (2008), “Interpersonal communication skills that enhance
+organisational commitment ”,Journal of Communication Management , Vol. 12 No. 1,
+pp. 51-72, doi: 10.1108/13632540810854235 .
+Bamberry, L., Neher, A., Jenkins, S., Sutton, C., Frost, M., Roberts, R., Dwivedi, A., Omeara, P. and
+W o n g ,A .( 2 0 2 2 ) , “The impact of COVID-19 on the workplace wellbeing of police services in
+Australia ”,Labour and Industry , Vol. 32 No. 1, pp. 28-54, doi: 10.1080/10301763.2022.2034090 .MD
+62,10
+3100
+Baran, B.E. and Woznyj, H.M. (2020), “Managing VUCA: the human dynamics of agility ”,
+Organizational Dynamics , doi: 10.1016/j.orgdyn.2020.100787 .
+Bennett, N. and Lemoine, G.J. (2014), “What a difference a word makes: understanding threats to
+performance in a VUCA world ”,Business Horizons , Vol. 57 No. 3, pp. 311-317, doi: 10.1016/j.
+bushor.2014.01.001 .
+B o u s k i l a - Y a m ,O .a n dK l u g e r ,A . N .( 2 0 1 1 ) , “Strength-based performance appraisal and goal setting ”,
+Human Resource Management Review , Vol. 21 No. 2, pp. 137-147, doi: 10.1016/j.hrmr.2010.09.001 .
+Bresciani, S., Ferraris, A., Romano, M. and Santoro, G. (2021), Digital Transformation Management for
+Agile Organizations: A Compass to Sail the Digital World , Emerald Publishing, Leeds, pp. i-xv,
+doi:10.1108/978-1-80043-171-320211011 .
+Brown, M., Kraimer, M.L. and Bratton, V.K. (2019), “The influence of employee performance appraisal
+cynicism on intent to quit and sportsmanship ”,Personnel Review , Vol. 49 No. 1, pp. 1-18, doi: 10.
+1108/pr-11-2017-0351 .
+Buheji, M. and Buheji, A. (2020), “Planning competency in the new Normal –employability competency
+in post-COVID-19 pandemic ”,International Journal of Human Resource Studies , Vol. 10 No. 2,
+pp. 237-251, doi: 10.5296/ijhrs.v10i2.17085 .
+Caligiuri, P., De Cieri, H., Minbaeva, D., Verbeke, A. and Zimmermann, A. (2020), “International HRM
+insights for navigating the COVID-19 pandemic: implications for future research and practice ”,
+Journal of International Business Studies , Vol. 51 No. 5, pp. 697-713, doi: 10.1057/s41267-020-
+00335-9 .
+Caputo, A., Pizzi, S., Pellegrini, M.M. and Dabi /C19c, M. (2021), “Digitalization and business models: where
+are we going? A science map of the field ”,Journal of Business Research , Vol. 123, pp. 489-501,
+doi:10.1016/j.jbusres.2020.09.053 .
+Chanias, S., Myers, M.D. and Hess, T. (2019), “Digital transformation strategy making in pre-digital
+organizations: the case of a financial services provider ”,The Journal of Strategic Information
+Systems , Vol. 28 No. 1, pp. 17-33, doi: 10.1016/j.jsis.2018.11.003 .
+Chatterjee, S., Chaudhuri, R., Vrontis, D., Mahto, R.V. and Kraus, S. (2022), “Global talent management
+by MNC post-COVID-19: the role of enterprise social networking and senior leadership ”,
+Thunderbird International Business Review , Vol. 65 No. 1, pp. 77-88, doi: 10.1002/tie.22248 .
+Chiang, F.F. and Birtch, T.A. (2010), “Appraising performance across borders: an empirical examination
+of the purposes and practices of performance appraisal in a multi-country context ”,Journal of
+Management Studies , Vol. 47 No. 7, pp. 1365-1393, doi: 10.1111/j.1467-6486.2010.00937.x .
+Claus, L. (2019), “HR disruption –time already to reinvent talent management ”,Business Quarterly
+Perspectives , Vol. 22 No. 3, pp. 207-215, doi: 10.1016/j.brq.2019.04.002 .
+Claus, L. and Briscoe, D. (2009), “Employee performance management across borders: a review of
+relevant academic literature ”,International Journal of Management Reviews , Vol. 11 No. 2,
+pp. 175-196, doi: 10.1111/j.1468-2370.2008.00237.x .
+Collings, D.G. and Mellahi, K. (2009), “Strategic talent management: a review and research agenda ”,
+Human Resource Management Review , Vol. 19 No. 4, pp. 304-313, doi: 10.1016/j.hrmr.2009.
+04.001 .
+Collings, D.G., Mellahi, K. and Cascio, W.F. (2019), “Global talent management and performance in
+multinational enterprises: a multilevel perspective ”,Journal of Management , Vol. 45 No. 2,
+pp. 540-566, doi: 10.1177/0149206318757018 .
+Corbo, L., Kraus, S., Vla /C20ci/C19c, B., Dabi /C19c, M., Caputo, A. and Pellegrini, M.M. (2023), “Coopetition and
+innovation: a review and research agenda ”,Technovation , Vol. 122, 102624, doi: 10.1016/j.
+technovation.2022.102624 .
+Crick, T., Knight, C., Watermeyer, R. and Goodall, J. (2021), “An overview of the impact of COVID-19
+and emergency remote teaching on international CS education practitioners ”,Proceedings of the
+52nd ACM Technical Symposium on Computer Science Education , p. 1288, doi: 10.1145/3408877.
+3439680 .Management
+Decision
+3101
+Dabi/C19c, M., Maley, J.F., Moeller, M. and Vla /C20ci/C19c, B. (2021), “Embodiment of talent management within
+entrepreneurship: a bibliometric approach ”,Contemporary Talent Management , pp. 189-220.
+Dabi/C19c, M., Maley, J.F. and Nedelko, Z. (2023a), “Unappreciated channel of manufacturing productivity
+under Industry 4.0: leadership values and capabilities ”,Journal of Business Research ,
+Vol. 162, pp. 1-11.
+Dabi/C19c, M., Maley, J.F.,/C20Svarc, J. and Po /C20cek, J. (2023b), “Future of digital work: challenges for
+sustainable human resources management ”,Journal of Innovation and Knowledge , Vol. 8 No. 2,
+pp. 1-9, doi: 10.1016/j.jik.2023.100353 .
+De Nisi, A.S. and Murphy, K.R. (2017), “Performance appraisal and performance management: 100
+years of progress? ”,Journal of Applied Psychology , Vol. 102 No. 3, pp. 421-433, doi: 10.1037/
+apl0000085 .
+Delany, K. (2022), “What challenges will organisations face transitioning for the first time to the new
+normal of remote working? ”,Human Resource Development International , Vol. 25 No. 5,
+pp. 642-650, doi: 10.1080/13678868.2021.2017391 .
+DeNisi, A. and Smith, C.E. (2014), “Performance appraisal, performance management, and firm-level
+performance: a review, a proposed model, and new directions for future research ”,Academy of
+Management Annals , Vol. 8 No. 1, pp. 127-179, doi: 10.1080/19416520.2014.873178 .
+DeNisi, A., Murphy, K., Varma, A. and Budhwar, P. (2021), “Performance management systems and
+multinational enterprises: where we are and where we should go ”,Human Resource
+Management , Vol. 60 No. 5, pp. 707-713, doi: 10.1002/hrm.22080 .
+Diab-Bahman, R. and Al-Enzi, A. (2020), “The impact of COVID-19 pandemic on conventional work
+settings ”,International Journal of Sociology and Social Policy , Vol. 40 Nos 9/10, pp. 909-927,
+doi:10.1108/ijssp-07-2020-0262 .
+Dill, K. and Fonatan, F. (2022), “Many companies suspended reviews during Covid. Now they are
+paying renewed attention to worker performance ”,The Wall St Journal , 18 September, available
+at:https://www.wsj.com/articles/employee-pe rformance-reviews-recession-fears-loom-
+11663179605 (accessed 7 June 2023).
+Dubey, R.S. and Tiwari, V. (2020), “Operationalisation of soft skill attributes and determining the
+existing gap in novice ICT professionals ”,International Journal of Information Management ,
+Vol. 50, pp. 375-386, doi: 10.1016/j.ijinfomgt.2019.09.006 .
+Ererdi, C., Nurgabdeshov, A., Kozhakhmet, S., Rofcanin, Y. and Demirbag, M. (2022), “International
+HRM in the context of uncertainty and crisis: a systematic review of literature (2000-2018) ”,The
+International Journal of Human Resource Management , Vol. 33 No. 12, pp. 2503-2540, doi: 10.
+1080/09585192.2020.1863247 .
+Farndale, E., Pai, A., Sparrow, P. and Scullion, H. (2014), “Balancing individual and organizational
+goals in global talent management: a mutual-benefits perspective ”,Journal of World Business ,
+Vol. 49 No. 2, pp. 204-214, doi: 10.1016/j.jwb.2013.11.004 .
+Frankiewicz, B. and Chamorro-Premuzic, T. (2020), “Digital transformation is about talent, not
+technology ”,Harvard Business Review , Vol. 6 No. 3, pp. 1-6.
+Gallardo-Gallardo, E., Arroyo-Moliner, L., and Gallo, P. (2017), “Mapping collaboration networks in
+talent management research ”,Journal of Organizational Effectiveness: People and Performance ,
+Vol. 4 No. 4, pp.332-358, 10.1108/joepp-03-2017-0026 .
+Garavan, T., MacKenzie, C. and Darcy, C. (2023), “In the war for talent: just who is worthy of
+development? Talent development in organizations ”, in Vaiman, V., Vance, C. and Juk, L. (Eds),
+Smart Talent Management: Managing People as Knowledge Assets , Elgar, pp. 46-66.
+Gartner (2023), “Future of work trends for 2023 ”, Downloaded, available at: https://www.gartner.com/
+en/articles/9-future-of-work-trends-for-2023 (accessed 1 July 2023).
+Gilch, P.M. and Sieweke, J. (2020), “Recruiting digital talent: the strategic role of recruitment in
+organisations ’digital transformation ”,German Journal of Human Resource Management ,
+Vol. 35 No. 1, pp. 53-82, doi: 10.1177/2397002220952734 .MD
+62,10
+3102
+Goler, L., Gale, J. and Grant, A. (2016), “Let’s not kill performance evaluations yet ”,Harvard Business
+Review , Vol. 94 No. 11, pp. 90-94.
+Gruman, J.A. and Saks, A.M. (2011), “Performance management and employee engagement ”,Human
+Resource Management Review , Vol. 21 No. 2, pp. 123-136, doi: 10.1016/j.hrmr.2010.09.004 .
+Guedhami, O., Knill, A., Megginson, W.L. and Senbet, L.W. (2022), “The dark side of globalization:
+evidence from the impact of COVID-19 on multinational companies ”,Journal of International
+Business Studies , Vol. 53 No. 8, pp. 1603-1640, doi: 10.1057/s41267-022-00540-8 .
+Hage, J. (1972), Techniques and Problems of Theory Construction in Sociology , John Wiley & Sons,
+New York.
+Hameed, S. and Sharma, V. (2020), “A study on leadership competencies of the generation Z in a
+VUCA world ”,International Journal of Advanced Science and Technology , Vol. 29 No. 9,
+pp. 2379-2393.
+Harsch, K. and Festing, M. (2020), “Dynamic talent management cap abilities and organizational
+agility —a qualitative exploration ”,Human Resource Management , Vol. 59 No. 1, pp. 43-61,
+doi:10.1002/hrm.21972 .
+Harter, J.K., Schmidt, F.L. and Hayes, T.L. (2002), “Business-unit-level relationship between employee
+satisfaction, employee engagement, and business outcomes: a meta-analysis ”,Journal of Applied
+Psychology , Vol. 87 No. 2, pp. 268-279, doi: 10.1037//0021-9010.87.2.268 .
+Keeping, L.M. and Levy, P.E. (2000), “Performance appraisal reactions: measurement, modeling, and
+method bias ”,Journal of Applied Psychology , Vol. 85 No. 5, pp. 708-723, doi: 10.1037//0021-9010.
+85.5.708 .
+Klotz, A. (2022), “The great resignation is still here, but whether it stays is up to leaders ”, available at:
+https://www.oecd-forum.or g/posts/the-great-resignation-is-st ill-here-but-wheth er-it-stays-is-u
+(accessed 17 June 2023).
+Konovalova, V.G., Aghgashyan, R.V. and Galazova, S.S. (2021), “Perspectives and restraining factors
+of HR analytics in the conditions of digitization of Human Resources Management ”,i n
+Popkova, E.G., Ostrovskaya, V.N. and Bogoviz, A.V. (Eds), Socio-economic Systems: Paradigms
+for the Future , Springer International Publishing, pp. 1015-1024.
+Kramar, R. (2022), “Sustainable human resource management: six defining characteristics ”,Asia
+Pacific Journal of Human Resources , Vol. 60 No. 1, pp. 146-170, doi: 10.1111/1744-7941.12321 .
+Kramer, M.W. and Dailey, S.L. (2019), “Socialization and organisational culture ”, in McDonald, J. and
+Mitra, R. (Eds), Movements in Organisational Communication Research: Current Issues and
+Future Directions , Routledge, pp. 96-115.
+Kuvaas, B. (2007), “Different relationships between perceptions of developmental performance
+appraisal and work performance ”,Personnel Review , Vol. 36 No. 3, pp. 378-397, doi: 10.1108/
+00483480710731338 .
+Kuvaas, B. (2011), “The interactive role of performance appraisal reactions and regular feedback ”,
+Journal of Managerial Psychology , Vol. 26 No. 2, pp. 123-137, doi: 10.1108/02683941111102164 .
+Kuvaas, B., Buch, R. and Dysvik, A. (2016), “Performance management: perceiving goals as invariable
+and implications for perceived job autonomy and work performance ”,Human Resource
+Management , Vol. 55 No. 3, pp. 401-412, doi: 10.1002/hrm.21680 .
+Laker, B. and Roulet, T. (2021), “How organizations can promote employee wellness, now and post-
+pandemic ”,MIT Sloan Management Review , ISSN: 1532-9194, available at: https://centaur.
+reading.ac.uk/94575/
+Latham, G.P. and Wexley, K.N. (1977), “Behavioural observations scales ”,Personal Psychology , Vol. 30
+No. 2, pp. 255-268, doi: 10.1111/j.1744-6570.1977.tb02092.x .
+Lawler, E. (1994), “Performance management: the next generation ”,Compensation and Benefits
+Review , Vol. 26 No. 3, pp. 16-19, doi: 10.1177/088636879402600303 .Management
+Decision
+3103
+Lazarova, M., Caligiuri, P., Col lings, D.G. and De Cieri, H. (2023), “Global work in a rapidly
+changing world: implications for MNEs and individuals ”,Journal of World Business , Vol. 58,
+pp. 1-13, doi: 10.1016/j.jwb.2022.101365 .
+Lee, J.Y., Yahiaoui, D., Lee, K.P. and Cooke, F.L. (2022), “Global talent management and multinational
+subsidiaries ’resilience in the Covid-19 crisis: moderating roles of regional headquarters ’
+support and headquarters –subsidiary friction ”,Human Resource Management , Vol. 61 No. 3,
+pp. 355-372, doi: 10.1002/hrm.22100 .
+Luna-Arocas, R. and Danvila del Valle, I. (2021), “Does positive wellbeing predict job performance
+three months later? ”,Applied Research in Quality of Life , Vol. 16 No. 4, pp. 1555-1569, doi: 10.
+1007/s11482-020-09835-0 .
+Maley, J.F. (2019), “Preserving employee capabilities in economic turbulence ”,Human Resource
+Management Journal , Vol. 29 No. 2, pp. 147-161, doi: 10.1111/1748-8583.12211 .
+Maley, J. and Kramar, R. (2014), “The influence of global uncertainty on the cross-border performance
+appraisal: a real options approach ”,Personnel Review , Vol. 43 No. 1, pp. 19-40, doi: 10.1108/pr-
+10-2011-0160 .
+Maley, J.F. and Moeller, M. (2014), “Global performance management systems: the role of trust as
+perceived by country managers ”,Journal of Business Research , Vol. 67 No. 1, pp. 2803-2810,
+doi:10.1016/j.jbusres.2012.08.003 .
+Maley, J.F., Dabic, M. and Moeller, M. (2021), “Employee performance management: charting the field
+from 1998 to 2018 ”,International Journal of Manpower , Vol. 42 No. 1, pp. 131-149, doi: 10.1108/
+ijm-10-2019-0483 .
+Manco-Chavez, J.A., Uribe-Hernandez, Y.C., Buendia-Aparcana, R., Vertiz-Osores, J.J., Isla Alcoser, S.D.
+and Rengifo-Lozano, R. (2020), “Integration of ICTS and digital skills in times of the pandemic
+COVID-19 ”,International Journal of Higher Education , Vol. 9 No. 9, pp. 11-20, doi: 10.5430/ijhe.
+v9n9p11 .
+Martin, L., Dabic, M. and Lord, G. (2023), “Talent management in English universities during the
+coronavirus pandemic ”,Thunderbird Internati onal Business Review , Vol. 65 No. 1, pp. 65-75,
+doi:10.1002/tie.22269 .
+McCarthy, A. and Sheehan, M. (2014), “Uncertainty and ongoing economic turbulence: implications for
+HRD ”,Advances in Developing Human Resources , Vol. 16 No. 1, pp. 3-6, doi: 10.1177/
+1523422313508923 .
+McGraw, P. (2014), “A review of human resource development trends and practices in Australia:
+multinationals, locals, and responses to economic turbulence ”,Advances in Developing Human
+Resources , Vol. 16 No. 1, pp. 92-107, doi: 10.1177/1523422313509572 .
+McKinsey (2020), “Covid-19, implications for business. Executive briefing, December 2020 ”, available
+at:https://www.mckinsey.com/capabilities/ris k-and-resilience/our-insights/covid-19-
+implications-for-business-2020 (accessed 20 June 2023).
+Meyers, M.C. and Van Woerkom, M. (2014), “The influence of underlying philosophies on talent
+management: theory, implications for practice, and research agenda ”,Journal of World
+Business , Vol. 49 No. 2, pp. 192-203, doi: 10.1016/j.jwb.2013.11.003 .
+Michaels, E., Handfield-Jones, H. and Axelrod, B. (2001), The War for Talent , Harvard Business Press,
+Boston.
+Montreuil, V.L. (2023), “Organizational change capability: a scoping literature review and agenda for
+future research ”,Management Decision , Vol. 61 No. 5, pp. 1183-1206, doi: 10.1108/md-01-
+2022-0051 .
+Murphy, K.R. (2020), “Performance evaluation will not die, but it should ”,Human Resource
+Management Journal , Vol. 30 No. 1, pp. 13-31, doi: 10.1111/1748-8583.12259 .
+Murphy, K.R. (2021), “Life after COVID-19: what if we never go back to the office? ”,The Irish Journal
+of Management , Vol. 40 No. 2, pp. 78-85, doi: 10.2478/ijm-2021-0007 .MD
+62,10
+3104
+Murphy, K.R. and Cleveland, J.N. (1995), Understanding Performance Appraisal: Social,
+Organizational, and Goal-Based Perspectives , Sage, Thousand Oaks, London, New Delhi.
+Nagel, L. (2020), “The influence of the COVID-19 pandemic on the digital transformation of work ”,
+International Journal of Sociology and Social Policy , Vol. 40 Nos 9/10, pp. 861-875, doi: 10.1108/
+ijssp-07-2020-0323 .
+Neher, A. and Maley, J. (2020), “Improving the effectiveness of the employee performance
+management process: a managerial values approach ”,International Journal of Productivity
+and Performance Management , Vol. 69 No. 6, pp. 1129-1152, doi: 10.1108/ijppm-04-
+2019-0201 .
+Neher, A., Wuersch, L., Wong, A. and Peter, M.P. (2023), “Digital transformation of work and
+employment –the case of Swiss MSEs relating to COVID-19 ”,8th Conference of the Regulating
+for Decent Work Network, Ensuring decent work in times of uncertainty , Geneva, Switzerland,
+10-12 July, International Labour Office.
+Nicol /C19as-Agust /C19ın,/C19A., Jim /C19enez-Jim /C19enez, D. and Maeso-Fernandez, F. (2022), “The role of human resource
+practices in the implementation of digital transformation ”,International Journal of Manpower ,
+Vol. 43 No. 2, pp. 395-410, doi: 10.1108/ijm-03-2021-0176 .
+Noe, R.A. (2020), Employee Training and Development , 8th ed., McGraw-Hill Education.
+Orel, M., Mayerhoffer, M., Fratricova, J., Pilkova, A., Starnawska, M. and Horvath, D. (2022),
+“Coworking spaces as talent hubs: the imperative for community building in the changing
+context of new work ”,Review of Managerial Science , Vol. 16 No. 5, pp. 1503-1531, doi: 10.1007/
+s11846-021-00487-4 .
+Peter, M.K., Wuersch, L., Wong, A. and Neher, A. (2023), “Working from home behaviour in Swiss
+MSEs of selected Industry and Technology groups ”,European Business Review , Vol. 36 No. 2,
+pp. 249-270, doi: 10.1108/EBR-01-2023-0008 .
+Pichler, S. (2012), “The social context of performance appraisal and appraisal reactions: a meta-
+analysis ”,Human Resource Management , Vol. 51 No. 5, pp. 709-732, doi: 10.1002/hrm.21499 .
+Pichler, S. (2019), “Performance appraisal reactions: a review and research agenda ”,Feedback at Work ,
+pp. 75-96, doi: 10.1007/978-3-030-30915-2_5 .
+Pichler, S., Beenen, G. and Wood, S. (2020), “Feedback frequency and appraisal reactions: a meta-
+analytic test of moderators ”,The International Journal of Human Resource Management ,
+Vol. 31 No. 17, pp. 2238-2263, doi: 10.1080/09585192.2018.1443961 .
+Pulakos, E.D. and O ’Leary, R.S. (2011), “Why is performance management broken? ”,Industrial
+and Organizational Psychology , Vol. 4 No. 2, pp. 146-164, doi: 10.1111/j.1754-9434.2011.
+01315.x .
+Rabenu, E. and Tziner, A. (2016), “Performance appraisal in a constantly changing work world ”,
+Industrial and Organizational Psychology , Vol. 9 No. 2, pp. 370-377, doi: 10.1017/iop.2016.28 .
+Ramakrishnan, R. (2021), “Leading in a VUCA world ”,Ushus-Journal of Business Management , Vol. 20
+No. 1, pp. 89-111, doi: 10.12725/ujbm.54.5 .
+Reese, S.D. (2023), “Writing the conceptual article: a practical guide ”,Digital Journalism , Vol. 11 No. 7,
+pp. 1195-1210, doi: 10.1080/21670811.2021.2009353 .
+Rogala, A. and Bialowas, S. (2016), Communication in Organizational Environments: Functions,
+Determinants and Areas of Influence , Palgrave Macmillan, London.
+Sani, K., Adisa, T.A., Adekoya, O.D. and Oruh, E.S. (2023), “Digital onboarding and employee
+outcomes: empirical evidence from the UK ”,Management Decision , Vol. 61 No. 3, pp. 637-564,
+doi:10.1108/md-11-2021-1528 .
+Sanner, B., Evans, K. and Fernandez, D. (2022), “Do desperate times call for desperate measures? The
+effect of crises on performance appraisals ”,Human Performance , Vol. 35 Nos 3-4, pp. 218-240,
+doi:10.1080/08959285.2022.2108034 .Management
+Decision
+3105
+Sheehan, M. (2014), “Investment in training and development in times of uncertainty ”,Advances in
+Developing Human Resources , Vol. 16 No. 1, pp. 13-33, doi: 10.1177/1523422313508924 .
+Tarique, I., Briscoe, D.R. and Schuler, R.S. (2022), International Human Resource Management:
+Policies and Practices for M ultinational Enterprises , 6th ed., Taylor and Francis Group,
+New York.
+To, W.M. and Huang, G. (2022), “Effects of equity, perceived organizational support and job
+satisfaction on organizational commitment in Macao ’s gaming industry ”,Management
+Decision , Vol. 60 No. 9, pp. 2433-2454, doi: 10.1108/md-11-2021-1447 .
+Toonkel, J. and Heath, A. (2020), “Facebook plans $1,000 bonuses ”,The Information , available at:
+https://www.theinformation.com /articles/facebook-plans-1- 000-bonuses-to-help-employees-
+during-coronavirus-crisis (accessed 13 June 2023).
+Tziner, A. and Rabenu, E. (2021), “The COVID-19 pandemic: a challenge to performance appraisal ”,
+Industrial and Organizational Psychology , Vol. 14 Nos 1-2, pp. 173-177, doi: 10.1017/iop.2021.24 .
+Vardarlier, P. (2020), “Digital transformation of human resource management: digital applications and
+strategic tools in HRM ”, in Hacioglu, U. (Ed), Digital Business Strategies in Blockchain
+Ecosystems: Transformational Design and Future of Global Business , Springer, pp. 239-264.
+Varma, A., Budhwar, P.S. and DeNisi, A. (2023), Performance Management Systems: A Global
+Perspective , Taylor & Francis, London.
+Vural, Y., Vardarlier, P. and Aykir, A. (2012), “The effects of using talent management with
+performance evaluation system over employee commitment ”,Procedia-Social and Behavioral
+Sciences , Vol. 58, pp. 340-349, doi: 10.1016/j.sbspro.2012.09.1009 .
+Wallace, J.C., Butts, M.M., Johnson, P.D., Stevens, F.G. and Smith, M.B. (2016), “A multilevel model of
+employee innovation: understanding the effects of regulatory focus, thriving, and employeeinvolvement climate ”,Journal of Management , Vol. 42 No. 4, pp. 982-1004, doi: 10.1177/
+0149206313506462 .
+Wang, L. and Zheng, G. (2022), “Linking digital HRM practices with HRM effectiveness: the moderate
+role of HRM capability maturity ”,Academy of Management Proceedings , Vol. 2022 No. 1, 18262,
+doi:10.5465/ambpp.2022.18262abstract .
+Welch, M. (2006), “Rethinking relationship management: exploring the dimension of trust ”,
+Journal of
+Communication Management , Vol. 10 No. 2, pp. 138-155, doi: 10.1108/13632540610664706 .
+Woodward, J. (1965), Industrial Organization: Theory and Practice , Oxford University Press, London.
+Wuersch, L., Neher, A. and Peter, M.K. (2022), “Digital internal communication: an interplay of
+socio-technical elements ”,International Journal of Management Reviews , Vol. 25 No. 3,
+pp. 1-26, doi: 10.1111/ijmr.12323 .
+Wuersch, L., Neher, A., Maley, J. and Peter, M.K. (2023), “A template approach for developing a digital
+internal communication strategy ”,Proceedings of the British Academy of Management 2023
+Conference , September 1-6.
+About the authors
+Professor Jane F. Maley She an academic with over 20 years of industry experience in
+healthcare and have held Managing Director roles with several major healthcareMNCs. I remain closely engaged in practice through knowledge exchange and impactactivities. Her research focuses largely on international HRM. My teaching experienceincludes HRM, International HRM, Organisational Behaviour, and Leadership.Teaching evaluations are typically excellent (2019 4.9/5). She has held AssociateEditor with the Journal of Business Research (2015 –2020), and currently with
+International Journal of Management Review. She is on the editorial board of several
+journals. I have published over 60 research items, many in top-ranking journals.
+MD
+62,10
+3106
+Professor Marina Dabi /C19c is Full Professor of Entrepreneurship and International
+Business at the University of Zagreb, Faculty of Economics and Business, Croatia, andthe University of Ljubljana, School of Business and Economics. She published morethan 200 papers indexed in Web of Science and Scopus. Professor Dabi /C19c is an Editor in
+Chief for Technology in Society, Senior Department Editor for IEEE –Transactions on
+Engineering Management, Associate Editor of Technological Forecasting and SocialChange, and for Strategic Change journal. She was a member at large for the IEEE-TEMS 2020 –2022. Prof. Dabi /C19c prepared a background report on HE Innovate
+published by EC/OECD. In 2021, she received WAIB best paper award from the Academy ofInternational Business. Currently, she is WP leader for Industry 4.0 in the Horizon 2020 RISE Openinnovation project, ERASMUS K2 BENEFIT and VOIS project and partner for HORIZON 2020 CUES
+project. Marina Dabi /C19c is the corresponding author and can be contacted at: mdabic@efzg.hr
+Dr Alain Neher is a Senior Lecturer in the School of Business at Charles Sturt
+University. He graduated at the University of Applied Sciences in BusinessAdministration Zurich (Switzerland) before completing two Masters Degrees atLucerne University of Applied Sciences and Arts (Switzerland) and a Doctorate atCharles Sturt University (Australia).
+Alain has over 25 years of work experience including management roles in private
+and public organisations as well as in a not-for-profit organisation operating in amultinational environment. Additionally, he has a longstanding teaching experience in
+the field of Business/Management. Alain is passionate about understanding the world of work and thepotential for employees to develop professionally within their organisations, and loves to share hisexpertise and knowledge with students across a variety of modes.
+Dr Lucia Wuersch graduated with her Bachelor (2004) and Master (2006) in Science of
+Communication at the University of Lugano, Switzerland. She worked for more than
+10 years as a communication professional in the private and public sectors, then in
+2015, decided to undertake her PhD with Charles Sturt University, part-time and viadistance from Switzerland. Thanks to an international scholarship, she was able tomove to Bathurst to complete her PhD in internal communication and TransactionalAnalysis (TA) on campus. Coming from an intercultural background, Lucia is fluent infour languages: English, German (mother tongue), French and Italian. Lucia is now an
+early career researcher and academic, teaching several subjects within the School of Information andCommunication and the School of Business.
+Lynn Martin is a Professor of Entrepreneurship and Innovation at the Faculty of
+Business and Law. She received her PhD in Human Capital Formation in Small Firmsin 2000 from the University of Warwick (UK). A previous president and current Fellowof the Institute for Small Business and Entrepreneurship, she has also been a Fellow ofthe Economics and Social Science Research Council and a board member for Prowessand the CABS Small Business Charter Mark. She is also a non-executive director fortwo start-ups and a mentor for three high-growth technology firms. Lynn ’s primary
+research interest involves identity work in technology, innovation, and
+entrepreneurship, with recent publications ex ploring gender and identity in innovation and
+entrepreneurship. Lynn also has experience in consulting and research projects for various publicand private organisations, including European funds, three research councils, and private sector sourcessuch as the Goldman Sachs Foundation.
+Her recent research for the International Olympic Studies Centre (Geneva), Erasmus, and Women in
+Science and Engineering Education reflect issues related to entrepreneurship and to female leadership inSTEM innovation.
+Management
+Decision
+3107
+Professor Timothy Kiessling graduated from the University of Oklahoma with a
+Management/Marketing degree focusing on global business strategy after asuccessful practitioner career culminat ing as the top executive running the
+European operations. Currently he teaches at Sabanci University. He has over 50publications in journals such as the Journal of World Business, Industrial Marketing
+Management, Journal of Business Ethics, Journal of Knowledge Management, Journalof Business Research , etc. His research focuses on upper echelons, knowledge
+management, global business issues and management and currently on ecosystem
+management and development.
+Author Affiliations
+Jane F. Maley, Sabanci Business School, Sabanci University, Istanbul, Turkey
+Marina Dabi /C19c, Department of International Economics, Faculty of Economics and Business, University
+of Zagreb, Zagreb, Croatia; Department of Economics and Business, University of Dubrovnik,Dubrovnik, Croatia and School of Business and Economics, University of Ljubljana, Ljubljana, Slovenia
+Alain Neher and Lucia Wuersch, School of Business, Charles Sturt University, Bathurst, Australia
+Lynn Martin, Department of Entrepreneurshi p and Innovation, Anglia Ruskin University,
+Cambridge, UK
+Timothy Kiessling, Sabanci Business School, Sabanci University, Istanbul, Turkey
+For instructions on how to order reprints of this article, please visit our website:
+www.emeraldgrouppublishing.com/licensing/reprints.htmOr contact us for further details: permissions@emeraldinsight.com
+MD
+62,10
+3108
+© Jane F. Maley, Marina Dabić, Alain Neher, Lucia Wuersch,
+Lynn Martin and Timothy Kiessling. This work is published
+under http://creativecommons.org/licences/by/4.0/legalcode
+(the “License”). Notwithstanding the ProQuest Terms and
+Conditions, you may use this content in accordance with the
+terms of the License.

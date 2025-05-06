@@ -1,0 +1,1300 @@
+Acids to Ashes: The crash of Pan
+Am flight 160
+Admiral Cloudberg·Follow
+52 min read·1 day ago
+848 14
+The burnt wreckage of Pan Am flight 160 lies next to the runway at Boston Logan Airport. (FastStone/Vintage
+Image Photos via eBay)
+Open in app
+Search Write
+3/29/25, 5:17 PM Acids to Ashes: The crash of Pan Am flight 160 | by Admiral Cloudberg | Mar, 2025 | Medium
+https://medium.com/@admiralcloudberg/acids-to-ashes-the-crash-of-pan-am-flight-160-bed699b6b8b2 1/74
+On the 3rd of November 1973, the crew of a Pan Am cargo plane lined up to
+land at Boston’s Logan International Airport, struggling desperately to reach
+the runway as a fire raged in the cargo deck and smoke filled the cabin. But
+just moments from touchdown, the aircraft appeared to sway wildly from
+side to side before it abruptly dived into the runway threshold, spewing
+burning debris across Logan’s runway 33 Left. None of the three crew
+survived to explain why.
+The investigation into the crash revealed a sequence of events that touched
+multiple areas of the aviation industry, from supply line confusion involving
+a massive shipment of corrosive chemicals, to the design assumptions built
+into the Boeing 707’s firefighting procedures, to crew resource management
+issues, as the flight engineer turned off critical control systems without the
+captain’s knowledge. Piecing the details together wasn’t easy, even with the
+help of the sometimes vague NTSB report. But while some questions remain
+incompletely answered, the story of Pan Am flight 160 nevertheless
+highlights the fallacy underlying several safety assumptions that were not
+properly questioned until the crash of UPS flight 6 in 2010. In fact, those very
+parallels are part of what make this obscure 50-year-old accident worth
+revisiting — because some of the mistakes that brought down flight 160
+transcend the time period in which they occurred.
+◊◊◊3/29/25, 5:17 PM Acids to Ashes: The crash of Pan Am flight 160 | by Admiral Cloudberg | Mar, 2025 | Medium
+https://medium.com/@admiralcloudberg/acids-to-ashes-the-crash-of-pan-am-flight-160-bed699b6b8b2 2/74
+N458PA, the aircraft involved in the accident, pictured in 1971. (AeroIcarus via Flickr)
+Between 1956 and 1983, Pan American World Airways, the de facto flag
+carrier of the United States at the time, operated a cargo division specializing
+in international freight transport to and from the US. During the 1960s and
+1970s, the workhorse of the Pan Am Cargo fleet was the -320C variant of
+Boeing’s first jet airliner, the four-engine 707. The 707 – 320C had a
+strengthened floor and a new cargo door to permit cargo-only operations,
+with a cabin that was fully convertible between passenger and cargo
+configurations, as well as intermediate or “combi” formats. However, the 707
+that starred in this particular story was configured for cargo only.
+That aircraft, with registration N458PA, was manufactured in 1967 and had
+been in service for 6 years when it arrived at the cargo loading ramp at New
+York’s John F. Kennedy International Airport on the 3rd of November, 1973.
+Its next scheduled trip was flight 160 to Frankfurt, Germany, with a stop at
+3/29/25, 5:17 PM Acids to Ashes: The crash of Pan Am flight 160 | by Admiral Cloudberg | Mar, 2025 | Medium
+https://medium.com/@admiralcloudberg/acids-to-ashes-the-crash-of-pan-am-flight-160-bed699b6b8b2 3/74
+Glasgow Prestwick Airport in Scotland, where personnel were to offload
+several pallets of material bound for the National Semiconductor
+manufacturing plant in nearby Greenock.
+The headquarters of National Semiconductor in Santa Clara. (Bloomberg via Getty Images)
+Now a division of Texas Instruments, the National Semiconductor
+Corporation, or NSC, was a major independent manufacturer of
+semiconductors and related analog devices, headquartered in Santa Clara,
+California.
+The semiconductor manufacturing process involves a laundry list of caustic
+chemicals with scary names that I won’t enumerate, but it’s a fact of our
+modern world that sometimes these chemicals have to be transported from
+one place to another. And it was also a fact that sometimes NSC needed to
+buy chemicals in America for later use at its Scottish facility. It would be
+possible to ship them by water, but in a high-tech industry like3/29/25, 5:17 PM Acids to Ashes: The crash of Pan Am flight 160 | by Admiral Cloudberg | Mar, 2025 | Medium
+https://medium.com/@admiralcloudberg/acids-to-ashes-the-crash-of-pan-am-flight-160-bed699b6b8b2 4/74
+semiconductors, putting the materials on a cargo ship is sometimes too slow,
+so only an airplane will get the job done in time. And for this particular
+mission, who else but Pan Am?
+A 1949 Allied Chemical sales catalog. (Amazon.com)
+3/29/25, 5:17 PM Acids to Ashes: The crash of Pan Am flight 160 | by Admiral Cloudberg | Mar, 2025 | Medium
+https://medium.com/@admiralcloudberg/acids-to-ashes-the-crash-of-pan-am-flight-160-bed699b6b8b2 5/74
+In September and October 1973, NSC placed several orders for various
+chemicals from the Allied Chemical Corporation, or ACC, which is now part
+of Honeywell.* ACC acted as a one-stop-shop to buy chemicals that were
+mostly manufactured by other companies. The chemicals in NSC’s orders
+that were bound for the Scotland plant via Pan Am flight 160 included but
+were not limited to butyl acetate, stripping solution A-20, isopropanol,
+hydrogen peroxide, xylene, acetone, nitric acid, methanol, hydrofluoric acid,
+sulfuric acid, and glacial acetic acid. In its order request, NSC specified that
+the chemicals needed to be properly packaged for air transport, an area
+where ACC needed outside assistance. Given the large number of chemicals
+in its inventory, the company didn’t necessarily have the expertise on hand
+to safely repackage every chemical for every mode of transport.
+An ACC manager subsequently attempted to engage another chemical
+company to repack some of the chemicals that were stored in containers that
+exceeded the maximum quantity restrictions for air transport. However, the
+other company, which was not named in the report, replied that they were
+“not interested.” My understanding is that repacking these chemicals into
+smaller containers is a rather complex and potentially dangerous process,
+and this third company probably decided that the liability wasn’t worth it.
+On October 25, ACC advised NSC that while they were aware that the
+chemicals would be shipped by air, they would nevertheless be packaged for
+surface transport. Now, this is where matters become slightly confusing.
+To understand why, we need to talk about nitric acid, which is the chemical
+of primary interest to this story. Nitric acid (HNO3) is a corrosive mineral
+acid and an oxidizer that will react with a wide variety of substances,
+producing heat and oxygen as byproducts. It therefore presents not only a
+corrosion risk but also a fire risk — in fact, even though the acid itself isn’t3/29/25, 5:17 PM Acids to Ashes: The crash of Pan Am flight 160 | by Admiral Cloudberg | Mar, 2025 | Medium
+https://medium.com/@admiralcloudberg/acids-to-ashes-the-crash-of-pan-am-flight-160-bed699b6b8b2 6/74
+flammable, it’s such a powerful oxidizer that some fuels will ignite
+immediately upon contact with it. For this reason, in 1973 federal
+regulations required that bottles of nitric acid intended for transportation
+“be placed in tightly closed metal containers, and well cushioned therein on all
+sides with incombustible mineral packing material, such as whiting, mineral wool,
+infusorial earth (kieselguhr), asbestos, sifted ashes, or powdered china clay, etc.”
+*Actually, AlliedSignal, the successor of ACC, acquired Honeywell and adopted its
+name, not the other way around. I have to put this in here because my readers are
+pedants. I say that with love.3/29/25, 5:17 PM Acids to Ashes: The crash of Pan Am flight 160 | by Admiral Cloudberg | Mar, 2025 | Medium
+https://medium.com/@admiralcloudberg/acids-to-ashes-the-crash-of-pan-am-flight-160-bed699b6b8b2 7/74
+3/29/25, 5:17 PM Acids to Ashes: The crash of Pan Am flight 160 | by Admiral Cloudberg | Mar, 2025 | Medium
+https://medium.com/@admiralcloudberg/acids-to-ashes-the-crash-of-pan-am-flight-160-bed699b6b8b2 8/74
+A bottle of nitric acid, with warning labels. (Post Apple Scientific)
+Neither the NTSB report nor the reproduced text of the regulation states
+what type of transportation the above packaging was required for. I was also
+unable to find the original version of the federal hazmat regulations that
+were in force at the time. It appears most likely, from context, that these
+regulations did apply to transport of nitric acid by air, and the NTSB report
+states that there were generally few differences between the packaging
+requirements for chemicals shipped by cargo plane and those shipped by
+freight rail. However, any differences between packaging requirements for
+aircraft versus truck transportation are not mentioned in the report. Since
+ACC intended to ship the nitric acid to Pan Am’s JFK loading facility via
+truck, it can be presumed that when the company said it would package the
+3/29/25, 5:17 PM Acids to Ashes: The crash of Pan Am flight 160 | by Admiral Cloudberg | Mar, 2025 | Medium
+https://medium.com/@admiralcloudberg/acids-to-ashes-the-crash-of-pan-am-flight-160-bed699b6b8b2 9/74
+nitric acid “for surface transport,” it was following or attempting to follow
+the packaging regulations for truck transportation. However, I was not able
+to find these regulations or establish whether they differed from air
+transport packaging requirements in any way.
+One might presume that the main difference was the container size — after
+all, ACC had tried and failed to find a contractor who could repack some
+chemicals whose containers exceeded the maximum unit volume for air
+transport. However, according to the Pan Am flight 160 cargo manifest, the
+nitric acid was stored in 5-pint bottles, which are smaller than the maximum
+per-container quantity of 2.5 L prescribed by current US hazmat regulations
+for air transport. This volume presumably was within limits in 1973 as well,
+although this is not explicitly discussed in the NTSB report. Therefore, it
+remains unclear what ACC meant when it said it would package the nitric
+acid for surface transportation but not for air transportation.
+It is also not precisely known, or at least the NTSB report does not make it
+precisely known, how ACC originally packaged the nitric acid, except that
+the acid was stored in glass bottles with plastic screw-on caps. It is known
+that the bottles were not placed in metal containers as required by the
+hazmat regulations for air transport. I wasn’t able to determine whether
+such containers were required for truck transport at the time. What
+materials were used to cushion the bottles at this stage, if any, is also not
+stated in the report. However, we’ll come back to that topic in a moment.3/29/25, 5:17 PM Acids to Ashes: The crash of Pan Am flight 160 | by Admiral Cloudberg | Mar, 2025 | Medium
+https://medium.com/@admiralcloudberg/acids-to-ashes-the-crash-of-pan-am-flight-160-bed699b6b8b2 10/74
+Santini Brothers delivery trucks, pictured… sometime prior to 2001. (Seven Santini Brothers on Facebook)
+To deliver the nitric acid and other chemicals from its facility in southern
+California, ACC contracted the trucking company P. Calahan Inc. to
+transport the goods to Maspeth, New York, where they were to be deposited
+at a “repacking and trucking facility” owned by the logistics company Seven
+Santini Brothers. NSC had verbally contracted Santini to repackage the
+chemicals before transferring them to the Pan Am cargo loading facility at
+JFK Airport. It isn’t explicitly stated why this was done but I presume that
+NSC’s intention was for Santini to upgrade the packaging to meet air
+transport requirements after learning that ACC would not do so. At this point
+Santini should probably have asked NSC for detailed handling instructions,
+but they didn’t, and even if they had, NSC’s traffic manager possessed no
+such information anyway.
+3/29/25, 5:17 PM Acids to Ashes: The crash of Pan Am flight 160 | by Admiral Cloudberg | Mar, 2025 | Medium
+https://medium.com/@admiralcloudberg/acids-to-ashes-the-crash-of-pan-am-flight-160-bed699b6b8b2 11/74
+When the nitric acid and other chemicals arrived at the Santini facility, the
+Santini office manager consulted the International Air Transport Association
+(IATA) Restricted Articles Regulations in order to determine what types of
+packaging and labeling would be needed. He did not appear to be aware that
+IATA rules, while helpful, carried no legal force in the United States, and that
+FAA and Department of Transportation regulations had to be consulted as
+well. Nor did he appear to understand much of anything else about
+transporting hazmat.
+Here is where we have to come back to the question of how the nitric acid
+bottles were cushioned, and by whom. What we know for sure is that by the
+time the bottles reached the aircraft, they were cushioned with sawdust,
+which clearly doesn’t meet the regulatory requirement that nitric acid bottles
+be packed with an “incombustible” cushioning material. So who put the
+sawdust there? The NTSB report is somewhat open to interpretation on this
+matter.
+When discussing the packaging worksheet put together by the Santini office
+manager, the NTSB report states, “it was presumed by the packer that if
+[sawdust] was ‘OK’ for red label materials, it was ‘OK’ for white label materials.”
+So what does that mean?
+There are several possible meanings of “red label” and “white label,” and the
+NTSB report doesn’t clarify which. It could be that the labels refer to a
+labeling system that existed in 1973 but is no longer in use; however I have
+not identified any such systems.3/29/25, 5:17 PM Acids to Ashes: The crash of Pan Am flight 160 | by Admiral Cloudberg | Mar, 2025 | Medium
+https://medium.com/@admiralcloudberg/acids-to-ashes-the-crash-of-pan-am-flight-160-bed699b6b8b2 12/74
+The NFPA 704 diamond for nitric acid. (Fischer Scientific International)
+The possibility I prefer is that “red label” and “white label” refer to two of the
+four NFPA 704 label colors that are used to quickly convey information about
+the type of hazard posed by a chemical. Appearing in a diamond shape, the
+four colors — red, blue, yellow, and white — indicate, respectively, the
+chemical’s flammability, hazard to health, reactivity, and any other special
+properties it may possess. The red, blue, and yellow labels are accompanied
+by a number on a scale from 0 – 4 indicating the seriousness of the threat.
+The white label conveys other information using one of a small number of
+special symbols, including OX for an oxidizer.
+It would be somewhat strange for the report to refer to “red label materials”
+or “white label materials” when discussing NFPA 704, since all four colors
+3/29/25, 5:17 PM Acids to Ashes: The crash of Pan Am flight 160 | by Admiral Cloudberg | Mar, 2025 | Medium
+https://medium.com/@admiralcloudberg/acids-to-ashes-the-crash-of-pan-am-flight-160-bed699b6b8b2 13/74
+always appear on the label and it’s the number or symbol that indicates the
+level of danger. However, this statement isn’t a direct quotation from any of
+the individuals involved, and if we assume it got mangled somewhere
+between the packer’s original understanding and its description in the NTSB
+report, then an intriguing explanation makes itself apparent.
+The issue is that nitric acid will happily react with the organic compounds in
+sawdust to produce heat and oxygen that then combine to set the sawdust on
+fire. However, because the acid itself isn’t flammable, its NFPA 704 red label
+has a value of zero, indicating “not flammable.” Therefore, it’s plausible that
+the packer knew sawdust was an approved cushioning material for substances
+with a red label value of zero, and consequently believed that sawdust was an
+approved cushioning material for nitric acid bottles, even though the white
+label indicated that nitric acid is an oxidizer. To date, this is the only
+plausible explanation I’ve come up with for why someone would think
+sawdust was okay for this purpose.
+But even then, we’re still left with another glaring question: who was the
+“packer” who made this mistake? Unfortunately, the NTSB report isn’t clear
+about this matter either. One possibility was that “the packer” referred to
+Santini. But I think the evidence actually suggests that the packer who
+became confused about labels was ACC itself.3/29/25, 5:17 PM Acids to Ashes: The crash of Pan Am flight 160 | by Admiral Cloudberg | Mar, 2025 | Medium
+https://medium.com/@admiralcloudberg/acids-to-ashes-the-crash-of-pan-am-flight-160-bed699b6b8b2 14/74
+Obligatory excessively convoluted diagram showing how I deduced that ACC was the one who originally packed the
+nitric acid with sawdust and Santini was not. (Own work)
+On this matter, a crucial line in the report states, “Since Santini did not stock
+noncombustible cushioning material and had no metal cans to encase the nitric
+acid, the Lyon representative was contacted.” The middle part of this line makes
+it clear, as I stated earlier, that ACC placed the nitric acid bottles directly in
+the boxes without intermediate metal cans before sending them to Santini.
+Otherwise there would have been no need for Santini to provide its own
+metal cans.
+However, the first part of this line has multiple interpretations. First of all, if
+Santini was contacting a third party for advice because they didn’t have
+noncombustible cushioning materials, it follows that the Santini office
+manager knew or suspected that noncombustible cushioning material was
+3/29/25, 5:17 PM Acids to Ashes: The crash of Pan Am flight 160 | by Admiral Cloudberg | Mar, 2025 | Medium
+https://medium.com/@admiralcloudberg/acids-to-ashes-the-crash-of-pan-am-flight-160-bed699b6b8b2 15/74
+required to pack the nitric acid. Furthermore, one of three possibilities must
+be true: 1) the nitric acid as received by Santini was already cushioned in
+sawdust; 2) the nitric acid was received without cushioning material at all; or
+3) the nitric acid was received with noncombustible cushioning material, but
+Santini was unable to reuse the material. We know that one of these must be
+the answer because if the nitric acid had arrived with reusable,
+noncombustible cushioning, then the fact that Santini didn’t have
+noncombustible cushioning was irrelevant.
+Now, before trying to determine which of these possibilities is most likely,
+we need to explain who Lyon was and what they told Santini. This third party
+was Lyon Commercial and Export Packing Division, which had been
+contracted by NSC to pick up and pack 60 boxes of sulfuric acid from ACC in
+southern California. Lyon had then delivered the boxes to Burlington
+Northern Air Freight, which packaged them for air transport and handed
+them to TWA, which flew them to JFK. Lyon wasn’t involved in shipping any
+of the chemicals that ended up at Santini, but apparently they were being
+used as a point of contact. And when the Santini office manager telephoned
+Lyon for advice about the nitric acid, the Lyon representative told him that it
+was perfectly fine to omit the metal canisters and use sawdust as packing
+material. This was completely, wildly, pants-on-fire false. However, the
+office manager did what he was told, and the repackaging worksheet given
+to the floor personnel consequently instructed them to place the glass
+bottles of acid directly into the wooden boxes and cushion them with
+sawdust.
+This phone call is quite clearly the reason why Santini believed sawdust was
+an acceptable cushioning material. However, if we follow possibility 2 (the
+nitric acid was received without cushioning material) or possibility 3 (the
+nitric acid was received with noncombustible cushioning material that could3/29/25, 5:17 PM Acids to Ashes: The crash of Pan Am flight 160 | by Admiral Cloudberg | Mar, 2025 | Medium
+https://medium.com/@admiralcloudberg/acids-to-ashes-the-crash-of-pan-am-flight-160-bed699b6b8b2 16/74
+not be reused), then Santini is the party that first introduced the sawdust,
+and therefore must also be the “packer” who thought sawdust was okay
+because nitric acid has an NFPA 704 flammability score of zero. But that’s not
+why Santini thought sawdust was okay — they thought that because Lyon told
+them it was. So Santini can’t be the “packer.” And the “packer” can’t be Lyon
+because they didn’t pack the nitric acid at any point. So the packer who was
+confused about labels has to be ACC, and therefore the answer must be
+possibility 1 (the nitric acid as received by Santini was already cushioned in
+sawdust).
+As for why ACC, a chemical distributor, would make this mistake, it’s easier
+than you might think. Today, people involved in handling hazmat can refer to
+the Material Safety Data Sheet for detailed instructions, but the MSDS wasn’t
+created until 1983. And remember, ACC didn’t manufacture chemicals —
+they had an inventory of thousands of chemicals manufactured by other
+people. So one can imagine a poorly trained floor employee misreading the
+NFPA 704 and packing nitric acid in sawdust because the little diamond said
+it wasn’t flammable. The bottles cushioned in sawdust were then shipped
+across the country to Santini, where the office manager saw them, thought
+“that’s weird, shouldn’t the cushioning be noncombustible,” and then called
+Lyon, who told him it was fine as-is.
+None of the information in the above paragraph is clearly or directly stated
+in the NTSB report. However, I think it’s the most likely explanation for what
+happened, based on the available evidence.
+◊◊◊3/29/25, 5:17 PM Acids to Ashes: The crash of Pan Am flight 160 | by Admiral Cloudberg | Mar, 2025 | Medium
+https://medium.com/@admiralcloudberg/acids-to-ashes-the-crash-of-pan-am-flight-160-bed699b6b8b2 17/74
+The cargo deck layout of the accident aircraft. (NTSB)
+Working from the office manager’s instructions, Santini personnel
+constructed wooden boxes according to the specified federal standard,
+placed the nitric acid bottles and sawdust cushioning into the new boxes,
+and organized the boxes onto pallets for transportation by truck to JFK.
+Santini did not affix labels stating “corrosive liquid,” “cargo aircraft only,”
+and “this end up,” even though these were specified in the IATA rules used
+by the office manager to create the packaging worksheet. In this condition,
+the nitric acid and other chemicals were taken to the Pan Am loading dock
+on November 2nd, the day before flight 160’s scheduled departure, where the
+shipment was united with the sulfuric acid shipment from TWA.
+3/29/25, 5:17 PM Acids to Ashes: The crash of Pan Am flight 160 | by Admiral Cloudberg | Mar, 2025 | Medium
+https://medium.com/@admiralcloudberg/acids-to-ashes-the-crash-of-pan-am-flight-160-bed699b6b8b2 18/74
+The chemicals purchased by NSC represented only part of the cargo to be
+carried on flight 160. Out of 24,000 kg of cargo, only about 7,000 kg were
+restricted chemicals; the rest consisted of various merchandise, machinery,
+and mail, which collectively occupied 10 out of the aircraft’s 13 available
+cargo loading positions. Pan American attempted to organize the shipment
+onto three pallets to fit the remaining three positions, but the loaders
+discovered that not all of the chemicals would fit on three pallets. This was
+probably because the sulfuric acid was supposed to have been shipped via
+TWA on October 31st but was bumped to flight 160 at the last minute after
+the required space failed to materialize. To correct the issue, the loaders
+removed some items from a fourth pallet and replaced them with several
+boxes that may have contained sulfuric acid.3/29/25, 5:17 PM Acids to Ashes: The crash of Pan Am flight 160 | by Admiral Cloudberg | Mar, 2025 | Medium
+https://medium.com/@admiralcloudberg/acids-to-ashes-the-crash-of-pan-am-flight-160-bed699b6b8b2 19/74
+Cargo pallets and containers ready for loading onto a Lufthansa Cargo B707. Note how the top of each pallet
+gets narrower at the top to fit into the cylindrical fuselage. (Lufthansa Cargo)
+But when Pan Am ramp workers tried to load the three remaining pallets
+onto the aircraft, they found that the outer edges of the upper tier were not
+sufficiently contoured to fit into the 707’s cylindrical fuselage. If the stack of
+boxes on the pallet is too square, the upper corners won’t fit through the
+opening, which is exactly what happened in this case. So in order to make
+the topmost tier of each pallet narrower, the supervisors on duty instructed
+3/29/25, 5:17 PM Acids to Ashes: The crash of Pan Am flight 160 | by Admiral Cloudberg | Mar, 2025 | Medium
+https://medium.com/@admiralcloudberg/acids-to-ashes-the-crash-of-pan-am-flight-160-bed699b6b8b2 20/74
+the cargo loading personnel to turn some boxes on the topmost tier
+sideways. Although the nitric acid boxes did have small arrows pointing
+upward on each face, recall that Santini hadn’t affixed them with the
+required “this end up” labels. And considering that there were no less than
+160 nitric acid boxes in the NSC shipment, amounting to almost half the
+total, it was virtually certain that some of the boxes that were upturned by
+the Pan Am cargo loaders contained nitric acid.
+The first shift to work on the pallets bound for flight 160 didn’t quite finish
+the job, and when the second shift arrived to find boxes on their sides, one
+employee became concerned and took the issue to a supervisor. However,
+the supervisor told the employee to leave the boxes that way, and the matter
+was closed. A short time into this second shift, the pallets were finally
+wrapped and covered, and a walkaround inspection identified no spillage or
+unusual smells. The pallets were then loaded onto the 707’s main deck.
+According to federal regulations, flight crews must be notified of any
+restricted cargo aboard their aircraft so that they can use this information
+for things like emergency decision-making and notifying fire crews. These
+regulations specified that the dispatcher or person in charge of cargo
+palletization must sign a notification document listing the amount and type
+of hazmat on the aircraft, which was to be presented to the captain by the
+loadmaster. The captain was required to sign the notification, demonstrating
+their acceptance of the cargo (or, should the captain identify some problem
+with the hazmat, this would provide a final opportunity to reject the
+shipment).
+In the case of Pan Am flight 160, the hazmat notification was signed by the
+dispatcher, but was never given to the loadmaster, who was only barely
+aware that there was hazmat on board at all. Instead, the notification was3/29/25, 5:17 PM Acids to Ashes: The crash of Pan Am flight 160 | by Admiral Cloudberg | Mar, 2025 | Medium
+https://medium.com/@admiralcloudberg/acids-to-ashes-the-crash-of-pan-am-flight-160-bed699b6b8b2 21/74
+handed to another unspecified individual, who claimed that he presented it
+to the captain, then left the documents aboard the aircraft. But while one
+page from this notification was later found in the wreckage after the
+accident, the captain’s signature wasn’t on it — and as we will soon see, the
+actions of the crew during the flight did not suggest that they were aware of
+the hazmat lurking in the main deck cargo area.
+◊◊◊
+The crew of Pan Am flight 160 consisted of two pilots and a flight engineer,
+led by 53-year-old Captain John Zammett, a highly experienced airman with
+over 16,400 flying hours, including over 5,800 on the Boeing 707. The first
+officer was 34-year-old Gene Ritter, who had been flying for Pan Am since
+1966, accumulating a total of 3,843 flying hours, all of them on the 707. And
+lastly, the flight engineer was 37-year-old Davis Melvin, who had over 7,200
+hours, including 3,260 on the 707. Without going into excessive detail, it
+suffices to say that this was a crew who knew the 707 inside and out.
+At 08:25 local time, flight 160 took off from JFK and headed northeast across
+New England and Canada. For the first half an hour, there was no sign of
+trouble. But the apparent quiet belied the dangerous situation developing on
+the cargo deck.3/29/25, 5:17 PM Acids to Ashes: The crash of Pan Am flight 160 | by Admiral Cloudberg | Mar, 2025 | Medium
+https://medium.com/@admiralcloudberg/acids-to-ashes-the-crash-of-pan-am-flight-160-bed699b6b8b2 22/74
+Photos from the NTSB’s nitric acid + sawdust test. (NTSB)
+The NTSB could only guess at what exactly happened, but the theory goes as
+follows. Most likely, the caps on the nitric acid bottles were screwed shut at
+sea level, with no pressure differential between the inside and outside of the
+bottle. But while the 707’s main deck is pressurized, it’s not pressurized to sea
+level, so as flight 160 climbed, a pressure differential would have developed
+between the inside and outside of each bottle. This wouldn’t have been a
+problem in bottles that were stored upright, due to the layer of air between
+the top of the acid and the bottom of the lid. But if a jar was turned sideways
+with the acid directly against the lid, and the lid was only “sea level tight,”
+3/29/25, 5:17 PM Acids to Ashes: The crash of Pan Am flight 160 | by Admiral Cloudberg | Mar, 2025 | Medium
+https://medium.com/@admiralcloudberg/acids-to-ashes-the-crash-of-pan-am-flight-160-bed699b6b8b2 23/74
+then the pressure differential could have forced some of the nitric acid out
+the bottle through tiny gaps under the seal. If you’ve ever driven up a
+mountain with a reusable water bottle, and it started squealing and foaming,
+that’s the same phenomenon.
+If nitric acid began to leak in this manner, it would have come into direct
+contact with the sawdust cushioning material due, to the lack of
+intermediate metal canisters. In NTSB tests, sawdust exposed to nitric acid
+began to produce white smoke after 7 minutes, and flames became visible
+after 19. Two minutes after that, the flames escaped from the box. At that
+point, if the box had been aboard a real cargo plane, the fire would have
+become uncontrollable.3/29/25, 5:17 PM Acids to Ashes: The crash of Pan Am flight 160 | by Admiral Cloudberg | Mar, 2025 | Medium
+https://medium.com/@admiralcloudberg/acids-to-ashes-the-crash-of-pan-am-flight-160-bed699b6b8b2 24/74
+An overview of the main deck cargo smoke detector system on the 707 – 320C. (Caledonian Airways via
+Classic Jetliners Forum)
+At some point as flight 160 was climbing to its cruising altitude of 31,000 feet,
+one of the upturned nitric acid bottles most likely leaked into the sawdust,
+3/29/25, 5:17 PM Acids to Ashes: The crash of Pan Am flight 160 | by Admiral Cloudberg | Mar, 2025 | Medium
+https://medium.com/@admiralcloudberg/acids-to-ashes-the-crash-of-pan-am-flight-160-bed699b6b8b2 25/74
+triggering a reaction that generated heat and oxygen until something caught
+fire.
+Although the 707 – 320C was equipped with main deck smoke detectors, the
+NTSB found that they didn’t provide early warning of the fire, for unknown
+reasons. The smoke detectors on the 707 were a primitive design in which air
+from the compartment was physically drawn past a window in the flight
+engineer’s station, where smoke particles were illuminated by an indirect
+light source, creating the impression that the window was lit. A small
+pinhole above the window allowed the flight engineer to check whether the
+indicator bulb was working. Unfortunately, this setup was much less reliable
+than a smoke detector located in the compartment itself, and there are many
+plausible reasons for its failure to provide a timely warning.
+The cockpit voice recording only captured the last 30 minutes of the flight,
+which didn’t include the pilots’ initial observation of smoke. Rather, the first
+conversation on the CVR consisted of Captain Zammett calling the Pan Am
+operations department for advice. “Ah, yes sir, we have ah, accumulation of
+smoke in the lower 41 and we’re gonna go back to Boston. Do you want us
+back in Boston or back in New York?”
+“Ah, standby 160, we’ll find out,” Operations replied.
+The “lower 41” was a term used by 707 pilots to refer to the avionics bay,
+which was located underneath the forward galley and aft part of the cockpit.
+The cramped compartment could be reached by a crew access hatch in
+flight. It was also connected to the cockpit by a floor vent designed to
+prevent a pressure differential from developing between the two spaces.
+Cooling air to the avionics was supplied by a cooling fan that also drew air
+down from the cockpit into the compartment.3/29/25, 5:17 PM Acids to Ashes: The crash of Pan Am flight 160 | by Admiral Cloudberg | Mar, 2025 | Medium
+https://medium.com/@admiralcloudberg/acids-to-ashes-the-crash-of-pan-am-flight-160-bed699b6b8b2 26/74
+If the crew thought the lower 41 was the source of the smoke, then it must
+have been because it was the first place they saw smoke, probably swirling
+about near the floor vent. It is known that this smoke came from the fire in
+the main cabin, but how it got there is somewhat unclear from the NTSB
+report. According to the 707 – 320C operations manual, airflow into the
+underfloor avionics bay comes from the cockpit and is exhausted either
+directly from the compartment via the electronic cooling air valve, or
+indirectly via ducts leading around the outside of the forward (lower) cargo
+compartment and out through the forward outflow valve. I wasn’t able to
+find any reference to a normal airflow path from the main deck into the
+lower 41 that could have caused smoke to be drawn there.
+A detailed diagram of the B707 – 320C, for your enjoyment. (Charles Kennedy, “Boeing 707 Owners’ Workshop Manual:
+1957 to present”)
+The NTSB report states that during post-accident smoke tests, “airflow was
+observed to move downward through the barrier smoke chute into the lower 41.”
+3/29/25, 5:17 PM Acids to Ashes: The crash of Pan Am flight 160 | by Admiral Cloudberg | Mar, 2025 | Medium
+https://medium.com/@admiralcloudberg/acids-to-ashes-the-crash-of-pan-am-flight-160-bed699b6b8b2 27/74
+The “barrier” appears to refer to a “smoke barrier” installed between the
+main deck cargo area and the crew rest area behind the cockpit. However, I
+wasn’t able to find any reference to this barrier or a “smoke chute” anywhere
+in the operations manual, and the location, nature, and purpose of these
+components was not explained in the NTSB report.
+Furthermore, an annex to the report states, “The Boeing Company has issued
+[a] Service Bulletin… which permits installation of a smoke chute in the passenger-
+cargo configuration similar to that used in the all-cargo configuration. The cargo
+compartment in the passenger-cargo configuration is ventilated down through the
+cabin floor forward into the lower avionics area.” This line is also not explained,
+and doesn’t reflect what I read in the operations manual, but the manual was
+from a different airline and might not have matched 1:1 to the configuration
+used by Pan Am.
+The above quote appears to refer to a 707 “combi” configuration where the
+main deck is divided into a cargo area in the front and a passenger area in
+the rear. In an all-passenger configuration, air in the cabin flows toward the
+rear and out the rear outflow valve, but in a combi format, one would not
+want smoke from a fire in the cargo area to flow aft into the passenger area,
+so it makes sense that an alternate route would be established to ventilate
+the cargo area downward through the lower 41 and out the forward outflow
+valve instead. The above quotation also shows that this vent configuration
+was used on cargo-only versions of the 707 – 320C, which could include the
+accident aircraft.
+From the above information, I would hazard a guess that the smoke chute
+was intended to evacuate smoke from the main deck overboard via the lower
+41 avionics compartment. This would also explain the references to a
+“barrier,” as such a chute would form part of a smoke barrier system3/29/25, 5:17 PM Acids to Ashes: The crash of Pan Am flight 160 | by Admiral Cloudberg | Mar, 2025 | Medium
+https://medium.com/@admiralcloudberg/acids-to-ashes-the-crash-of-pan-am-flight-160-bed699b6b8b2 28/74
+designed to keep smoke out of occupied areas. But while this is one plausible
+interpretation of the information in the report, I’m still not 100% certain that
+it’s correct.
+Regardless of the answer, it remains true that as the fire spread through the
+main cargo deck on Pan Am flight 160, smoke made its way into the lower 41,
+where it was seen by the crew through the pressure relief vent prior to any
+formal indications from the smoke detectors. We know that if the main deck
+smoke detectors had illuminated first, then the crew probably wouldn’t have
+reported that the lower 41 was the source of the smoke. They also might have
+suspected that the smoke came from the main deck if they had been
+properly notified of the nature and quantity of the hazmat on board. But
+because neither of those things happened, they quickly developed an
+incorrect mental model of where the fire was located.
+The fact that the crew believed the smoke was coming from the avionics
+compartment turned out to be crucial to the sequence of events. If electronic
+equipment in the lower 41 was overheating or malfunctioning, then the
+source of smoke could be identified, isolated, and eliminated. But if there
+was a fire burning in the main cargo deck, there was little the crew could do
+about it, and there would be a correspondingly higher level of urgency.
+In their initial communications, the level of urgency displayed by the crew
+was rather low. At first, Captain Zammett and First Officer Ritter discussed
+the possibility of flying all the way back to New York, which would not be a
+reasonable course of action if they believed they were in an emergency.
+Zammett also said to Flight Engineer Melvin, “You don’t think you could get
+down there and spot that, huh,” suggesting that he climb into the lower 41
+and try to figure out what was burning.3/29/25, 5:17 PM Acids to Ashes: The crash of Pan Am flight 160 | by Admiral Cloudberg | Mar, 2025 | Medium
+https://medium.com/@admiralcloudberg/acids-to-ashes-the-crash-of-pan-am-flight-160-bed699b6b8b2 29/74
+“I can’t get around down there at all, I — I don’t see any reason why that
+####*, it should’ve popped a breaker by now. It ought to short out
+somewhere,” said Melvin. In his opinion, electrical smoke in the avionics bay
+should be associated with a tripped circuit breaker, which was an apt
+assessment. Unfortunately, this evidence didn’t cause the crew to question
+whether the fire was actually in the lower 41 — a classic form of
+psychological bias.
+*In the CVR transcript, the # symbol represents an expletive that was redacted. In
+previous articles, I sometimes attempted to guess what expletive was used based on
+context in order to make the text flow better. However, I’ve decided not to do this
+anymore.
+First Officer Ritter now jumped in with a suggestion. “Can we increase our
+airflow so we get rid of some of the smoke through the outflow valves and
+equipment cooling circuit?”
+“Yeah,” someone said.
+“Just stick your head down there and see if it’s still coming,” Captain
+Zammett suggested to the flight engineer.
+At 09:06, the Boston air traffic control center, still unaware of the situation,
+instructed flight 160 to contact Montreal center as the aircraft crossed the
+border into Canada. Seconds later, Pan Am operations stated that they would
+prefer the flight to return to New York, as opposed to Boston.
+As First Officer Ritter worked out their turn back to New York with Boston
+and Montreal, Flight Engineer Melvin continued to watch the smoke drifting
+up into the cockpit from the floor vent. “This # sure is coming, John,” he said3/29/25, 5:17 PM Acids to Ashes: The crash of Pan Am flight 160 | by Admiral Cloudberg | Mar, 2025 | Medium
+https://medium.com/@admiralcloudberg/acids-to-ashes-the-crash-of-pan-am-flight-160-bed699b6b8b2 30/74
+to the captain. “Lemme see if I can shut this, ah, blower off. I’m gonna raise
+the cabin up — up to ten thousand?”
+Melvin’ appeared to be following the emergency Smoke Evacuation
+procedure, on which the second item, after optionally donning oxygen
+masks, was to reduce the cabin pressure to the equivalent of 10,000 feet
+altitude. This would cause air to flow out of the cabin and cockpit faster,
+hopefully reducing the smoke.
+“Try that,” said Captain Zammett.
+“Could open a bleed and try to get some air in this ####,” Melvin added,
+referring to the next item on the checklist, which was to set the bleed valves
+to “maximum on” in order to increase airflow into the cabin and cockpit.
+This action would complement the previous step, which was to increase
+airflow out.
+“Go ahead,” said Zammett.
+On the radio, First Officer Ritter finally established contact with Montreal
+and stated their intention to return to New York. “Turn right heading one
+eight zero,” Montreal replied.
+In the cockpit, the smoke wasn’t going away. “It’s still getting thicker, isn’t it?”
+Zammett asked.
+“Seems like there could be equipment…” Melvin started to say.
+“There is no smoke in those detectors though, is there?” Zammett asked.3/29/25, 5:17 PM Acids to Ashes: The crash of Pan Am flight 160 | by Admiral Cloudberg | Mar, 2025 | Medium
+https://medium.com/@admiralcloudberg/acids-to-ashes-the-crash-of-pan-am-flight-160-bed699b6b8b2 31/74
+“Well, there is now,” said Melvin. Apparently enough smoke had finally
+reached the main deck smoke detection windows to give him an indication.
+“There is?” said Zammett.
+“Yeah.”
+“Where would that pick it up from?” Zammett wondered. “Back there, or…?”
+“Well, it’s probably going up this way and coming back around,” Melvin said,
+suggesting that the smoke in the main deck must have come from the lower
+41 via the cockpit. In fact, it was the other way around, and this statement
+marked another example of confirmation bias at work.
+“Turn the equipment cooling blower off,” Melvin said. “I think you don’t
+need to go in the back then.” Normally, a main deck smoke indication would
+prompt one of the pilots to check the main deck, but since they had
+convinced themselves they already knew the source of the smoke, they
+decided not to.
+“Right,” said Zammett.
+“Because it should pop a breaker someplace,” said Melvin.
+“Yeah.”
+“We ought to go on oxygen, this #’s getting a little thick, eh?” Melvin added.
+Before the crew could act on that suggestion, Zammett called Pan Am
+Operations to report that they were heading back to New York and that the3/29/25, 5:17 PM Acids to Ashes: The crash of Pan Am flight 160 | by Admiral Cloudberg | Mar, 2025 | Medium
+https://medium.com/@admiralcloudberg/acids-to-ashes-the-crash-of-pan-am-flight-160-bed699b6b8b2 32/74
+smoke was getting thicker. Operations asked if they needed equipment on
+arrival, to which Zammett told them they would make that decision in a few
+minutes.
+A B707 flight engineer station like the one used by Davis Melvin. (Daniel Berek)
+At this time, flight 160 completed a 180-degree turn overhead Sherbrooke,
+Quebec, and was now proceeding back into the United States. First Officer
+Ritter signed off with Montreal and returned to Boston Center.3/29/25, 5:17 PM Acids to Ashes: The crash of Pan Am flight 160 | by Admiral Cloudberg | Mar, 2025 | Medium
+https://medium.com/@admiralcloudberg/acids-to-ashes-the-crash-of-pan-am-flight-160-bed699b6b8b2 33/74
+“##, it is getting heavy,” Zammett exclaimed.
+“I think we better take it to Boston,” said Melvin.
+“Yeah.”
+“This # is getting thick back here,” Melvin repeated.
+Diverting to Boston was faster than going to JFK, but it still wasn’t the closest
+airport. If the crew believed they were in an emergency, they would probably
+have diverted to Montreal. However, Boston was the nearest airport with a
+Pan Am maintenance facility, which suggested that they believed this was a
+problem that could be managed in the air and fixed on the ground.
+As First Officer Ritter called up Pan Am Operations again, Captain Zammett
+said, “Tell ’em we wanna get down and head for Boston.”
+“Yes sir, I think we’re gonna take this thing into Boston, this smoke is getting
+too thick,” Ritter reported to Operations.
+Moments later, at time 09:11, all three crewmembers donned their oxygen
+masks, and then First Officer Ritter called for the descent checklist and
+requested descent from Boston center. The center then cleared them to
+descend from 31,000 to 19,000 feet.
+“Do you guys want to get your goggles?” Zammett asked, referring to the
+smoke goggles, which they promptly put on.
+Over the radio, Pan Am Operations asked, “Are you requesting equipment on
+arrival at Boston sir?” In this case “equipment” refers to the fire trucks.3/29/25, 5:17 PM Acids to Ashes: The crash of Pan Am flight 160 | by Admiral Cloudberg | Mar, 2025 | Medium
+https://medium.com/@admiralcloudberg/acids-to-ashes-the-crash-of-pan-am-flight-160-bed699b6b8b2 34/74
+“Do you want equipment on arrival at Boston?” Melvin asked. “Probably
+wouldn’t hurt, huh?”
+“Stand by one — I don’t know, what did — how’s the smoke doing?” said
+Zammett.
+“That #### is full back there,” said Melvin. He was probably looking into the
+crew rest area behind the cockpit, which was starting to fill up as smoke
+seeped through the barrier separating it from the main deck. Later tests
+proved that this barrier was somewhat permeable if the smoke was thick
+and/or if the curtain was poorly maintained.
+“Better have the equipment,” Zammett concluded. In response, Melvin
+requested that Operations notify Boston to roll the fire trucks.
+The pilots now began the descent checklist and grabbed their approach
+charts for Boston. First Officer Ritter also notified Boston of the nature of
+their emergency — although it was Boston who used the term “emergency,”
+not flight 160.
+By 14:14, the transcript makes clear that the seriousness of the situation was
+increasing. At that time, Boston asked flight 160 to change to a new
+frequency, but Ritter requested to remain on their current frequency
+because “It’s too # hard to change.” Most likely he was unable to see the radio
+clearly enough due to the heavy smoke. This issue would have been even
+worse for Captain Zammett, whose smoke goggles didn’t fit properly over his
+spectacles, leaving gaps around the edges that allowed smoke inside. Modern
+smoke goggles don’t have this issue, but the goggles on the 707 were
+extremely primitive.3/29/25, 5:17 PM Acids to Ashes: The crash of Pan Am flight 160 | by Admiral Cloudberg | Mar, 2025 | Medium
+https://medium.com/@admiralcloudberg/acids-to-ashes-the-crash-of-pan-am-flight-160-bed699b6b8b2 35/74
+Flight 160 was now cleared direct to Boston, descending over Maine. With
+growing concern, Zammett asked the flight engineer, “How does it look in
+the back, Dave?”
+“It’s full,” Melvin replied.
+“Smoke detector showing much?”
+“No, ah, it’s showing the same as it was,” said Melvin. “We’re somehow
+getting it up through the floor from down below and it’s going in the back I
+think.”
+The pilots had no idea that inside the main deck, a raging fire was
+consuming a pallet of caustic chemicals located just aft of the wings.
+At this point, Melvin suddenly realized that they were over their maximum
+landing weight. “We weigh 278 [thousand pounds] right now,” he pointed out.
+“Okay, I think we’ll take it on in,” Zammett said, expressing his intention to
+land without delay despite their high weight.
+“Just ease it on, it should be okay,” Melvin agreed.
+Hopping on the radio, Zammett told Boston, “We’d like to get down as soon
+as possible so we can burn off some fuel rather than dump.” By flying at a
+lower altitude the rest of the way to Boston, they would burn fuel less
+efficiently, reducing the weight of the airplane at landing.
+Meanwhile, Melvin continued to examine his panel for any sign of a
+problem, but there was nothing. “I can’t find a thing wrong back here,” he3/29/25, 5:17 PM Acids to Ashes: The crash of Pan Am flight 160 | by Admiral Cloudberg | Mar, 2025 | Medium
+https://medium.com/@admiralcloudberg/acids-to-ashes-the-crash-of-pan-am-flight-160-bed699b6b8b2 36/74
+said. All systems were working normally.
+“Okay, uh, maybe it’s in a package,” Zammett suggested.
+“Could be,” said Melvin.
+“Ah, you didn’t get in to open the door into the back section, did you?”
+Zammett asked. It seemed as though the pilots were on the brink of a
+realization. If they had been informed that there was hazmat on board, they
+would certainly have taken the possibility seriously. But instead Zammett
+said, “Ah, they’re supposed to be flame resistant or fire resistant anyhow,
+isn’t it?”
+The checklist that the crew would have used if they had identified a main deck cargo fire. (Caledonian Airways
+via Classic Jetliners Forum)
+3/29/25, 5:17 PM Acids to Ashes: The crash of Pan Am flight 160 | by Admiral Cloudberg | Mar, 2025 | Medium
+https://medium.com/@admiralcloudberg/acids-to-ashes-the-crash-of-pan-am-flight-160-bed699b6b8b2 37/74
+The main deck cargo hold was what’s known as a Class E compartment. The
+primary method of controlling a fire in a Class E cargo compartment is to
+depressurize the aircraft to starve the fire of oxygen. However, the pilots of
+flight 160 never attempted to do this, and even if they had, it wouldn’t have
+worked, because the reaction between the nitric acid and sawdust was
+generating its own oxygen. This comment therefore represented a
+misunderstanding of the nature of both the fire and the 707 itself.
+“Well, I — I looked back there — the smoke — there’s more smoke back there,
+but there’s none up here now,” said Melvin. As the heat of the fire cracked
+more nitric acid bottles, the amount of smoke would periodically increase,
+only to subside again temporarily before the next box of acid became
+involved, creating the fluctuations observed by the flight engineer. But,
+concluding his thoughts, Melvin again stated, “It must — it’s in the lower 41
+someplace.”
+“I think so,” Zammett agreed. It was an assumption that would seal their fate.
+Over the next few minutes, Zammett continued to speak intermittently with
+air traffic control while discussing their plans with Melvin. They resolved to
+make a normal landing using the normal checklists, but Melvin also
+suggested that they advise the fire department of the suspected electrical
+fire. Zammett also decided that they would land on runway 33 because it was
+longer and the airplane was heavy. Later, Melvin informed Pan Am
+Operations that the fire was “either in the lower 41 or the forward cargo
+hold” but that “there isn’t too much [smoke] in the cockpit right now.”
+Descending toward 2,000 feet, the pilots set up their instruments to capture
+the instrument landing system for runway 33 and completed the approach3/29/25, 5:17 PM Acids to Ashes: The crash of Pan Am flight 160 | by Admiral Cloudberg | Mar, 2025 | Medium
+https://medium.com/@admiralcloudberg/acids-to-ashes-the-crash-of-pan-am-flight-160-bed699b6b8b2 38/74
+checklist. Zammett also instructed, “Ah throw the gear down please,”
+presumably to increase drag and use more fuel.
+“Gear coming dow — “ First Officer Ritter started to say.
+“Hold it, hold it,” Zammett interrupted. “Wait till I slow it down, we’ll tear the
+# doors off.” Due to their lengthy descent, their airspeed was too high to
+safely deploy the landing gear.
+Meanwhile, Melvin was speaking with Operations. “Clipper 160, if you’re on
+the freq, would you advise us if the lower motor CB has been pulled, the
+blower motor CB,” Operations said, referring to the circuit breaker for the
+electronics equipment cooling blower. It’s not entirely clear why Operations
+would suggest this, given that the blower forces air into the lower 41 from
+the cockpit, and thus presumably was helping to keep the smoke out.
+“I tried that, it didn’t make any difference,” Melvin replied.
+Finishing up the checklist, Zammett commented, “I don’t smell that smoke
+as much now, there doesn’t seem to be as much, does it?”
+“Ah, it doesn’t seem to be as much,” Melvin agreed. He then called the
+engineer’s check and approach check complete; all that remained was the
+landing checklist. But just moments later, at time 09:29, he suddenly said,
+“Ah, it’s definitely coming out of lower 41.”
+“Still coming out, huh?” Zammett asked.
+“Yeah,” said Melvin. “That’s worse, I don’t see — ”3/29/25, 5:17 PM Acids to Ashes: The crash of Pan Am flight 160 | by Admiral Cloudberg | Mar, 2025 | Medium
+https://medium.com/@admiralcloudberg/acids-to-ashes-the-crash-of-pan-am-flight-160-bed699b6b8b2 39/74
+In the background, Boston center reported that they were 45 miles from the
+field.
+“It’s getting worse?” Zammett asked.
+“Ah, I turned the equipment blower off and that made it worse,” Melvin
+explained. This was an expected result for the reasons I stated above. In fact,
+airflow testing later proved that the blower was practically the only thing
+keeping them alive. Without it, smoke would flow from the lower 41, through
+the pressure relief vent, and into the cockpit completely unimpeded.
+“Okay, then if that’ll blow it out if you take the — keep it moving won’t it?”
+Zammett said.
+“Yeah, I just pulled the breaker out again. I tried the CB to see if that’d do it
+but the — ” Melvin said. “Okay, it’s, uh — “
+“All of a sudden it’s getting worse in here,” Zammett interrupted.
+“It’s somewhere down in lower 41,” Melvin repeated once again. He then
+pushed the breaker back in to restart the blower.
+3/29/25, 5:17 PM Acids to Ashes: The crash of Pan Am flight 160 | by Admiral Cloudberg | Mar, 2025 | Medium
+https://medium.com/@admiralcloudberg/acids-to-ashes-the-crash-of-pan-am-flight-160-bed699b6b8b2 40/74
+The contradiction between the CVR transcript and the accident narrative. (NTSB, labels mine)
+At this point a critical event occurred, but the NTSB report’s discussion of it
+contains a confusing contradiction. According to the narrative in the NTSB
+report, at approximately 09:31 Captain Zammett instructed the crew to “shut
+down everything you don’t need,” with quotations, implying a direct quote
+from the cockpit voice recording. However, the CVR transcript shows that at
+time 09:30:46, a person identified as the flight engineer, stated, “Tell ya what,
+turn the radar off, the dopplers off — anything ya don’t need, let’s shut ’em
+down.” At no point in the transcript does Captain Zammett issue an
+instruction similar to this, nor does anyone use the exact words quoted in the
+NTSB narrative. In fact, Zammett never even acknowledges Melvin’s desire to
+start turning off unnecessary systems.
+It follows from this discrepancy that either the NTSB’s analysis of the
+accident or the CVR transcript misattributes and misquotes this crucial
+statement. Even after researching this accident in considerable depth, I’m
+still not sure who actually said it.
+Whichever crewmember it was, they evidently wanted to shut down
+nonessential systems in an effort to isolate the source of the smoke. With no
+popped circuit breakers on his panel and no failure indications from any
+systems, yet having convinced himself that the smoke was coming from the
+avionics compartment, there was little left for the flight engineer to do
+except start turning things off just to see if it made any difference.
+The first thing Melvin turned off was the weather radar, which was not
+needed since there was no significant weather in the area. “That’s off,” he
+announced. “Okay, it’s VFR, could I turn the ah, radio altimeter off?” The3/29/25, 5:17 PM Acids to Ashes: The crash of Pan Am flight 160 | by Admiral Cloudberg | Mar, 2025 | Medium
+https://medium.com/@admiralcloudberg/acids-to-ashes-the-crash-of-pan-am-flight-160-bed699b6b8b2 41/74
+radio altimeter was most useful during instrument flight conditions; under
+visual flight rules, or VFR, he felt they wouldn’t need it.
+Melvin never received a reply to these statements. At that time, First Officer
+Ritter was engaged in continuous conversation with Boston ATC, who told
+them to expect a visual approach to runway 33 left. The controller also asked
+if they were declaring an emergency, to which Ritter replied, “negative.”
+Ritter and Zammett then spent around 30 seconds discussing their landing
+weight.
+After a awhile, Melvin interrupted to say, “Doesn’t seem to be getting any
+worse.”
+“No, but I don’t think it’s getting any better, is it?” Zammett replied.
+“No, it’s not getting any better,” Melvin agreed.
+“It’s getting worse right now, you can see it blowing around here,” Ritter
+added.
+Without further discussion, the pilots launched into the landing checklist.
+Boston ATC began vectoring them for a five mile final approach. Moments
+later, at 09:34:56, the cockpit voice recording ended mid-flight.
+◊◊◊
+By the time flight 160 was maneuvering for final approach, the fire in the
+main deck cargo area was burning ferociously both above and below the
+floor level, reaching temperatures in excess of 1,000 ˚ F (538 ˚ C). Evidence
+indicates that the fuselage skin adjacent to the fire started to melt while the3/29/25, 5:17 PM Acids to Ashes: The crash of Pan Am flight 160 | by Admiral Cloudberg | Mar, 2025 | Medium
+https://medium.com/@admiralcloudberg/acids-to-ashes-the-crash-of-pan-am-flight-160-bed699b6b8b2 42/74
+plane was still in the air. The fire is also thought to have destroyed the wires
+that powered the cockpit voice recorder, resulting in its premature
+shutdown.
+Thanks to various clues, some information is known about what happened
+during the final five minutes of the flight after the end of the CVR. For
+instance, based on the recovered positions of switches on the flight
+engineer’s panel, it was apparent that after turning off nonessential systems,
+flight engineer Melvin began working through the “Electrical smoke or fire”
+emergency checklist, pictured below. Since the origin of the smoke was not
+electrical in nature, none of the suggested solutions would have worked, and
+he would have progressed quite far down the checklist. One of these later
+steps was to set the “essential power” switch to “external.”3/29/25, 5:17 PM Acids to Ashes: The crash of Pan Am flight 160 | by Admiral Cloudberg | Mar, 2025 | Medium
+https://medium.com/@admiralcloudberg/acids-to-ashes-the-crash-of-pan-am-flight-160-bed699b6b8b2 43/74
+The procedure for electrical smoke or fire on the B707 – 320C. (Caledonian Airways via Classic Jetliners Forum)
+The essential power switch affects the power source for all systems on the
+“essential bus,” which distributes electrical power only to the most crucial
+systems on the airplane — as the name implies. To get this far in the
+checklist, you have to try turning off damn near everything else first,
+without success.
+3/29/25, 5:17 PM Acids to Ashes: The crash of Pan Am flight 160 | by Admiral Cloudberg | Mar, 2025 | Medium
+https://medium.com/@admiralcloudberg/acids-to-ashes-the-crash-of-pan-am-flight-160-bed699b6b8b2 44/74
+Setting the “essential power” switch to “external” will configure the essential
+bus to distribute power from an external power source when the aircraft is
+on the ground. In the air, since there is no external power source, this
+position cuts power to the bus and all systems on it. Those systems would
+have included the captain’s instrument panel, the captain’s VHF radio, the
+cockpit voice recorder, the transponder, the cockpit interphone system, and
+the yaw damper, among other items. However, by this point the CVR had
+already failed.
+After the accident, the essential power switch was indeed found set to
+“external,” indicating that Melvin must have cut power to essential systems
+at some point after the end of the CVR recording. It’s not known whether the
+crew followed the advice at the start of the checklist, which advises the pilots
+to “prepare for manual trim and loss of rudder power A.P. and yaw damper.”
+In fact, the NTSB suspected that such preparations were not made.
+As flight 160 aligned with the runway and commenced its final approach, the
+controller asked, “Clipper 160, advise anytime you have airport in sight.” But
+there was no reply from the aircraft. Seconds later, its transponder
+disappeared from the controller’s radar screens, although the airplane was
+visible in the distance, clearly still airborne. The loss of radar and radio
+contact were actually caused by the loss of the № 1 VHF radio and
+transponder when the flight engineer cut power to the essential bus.
+If the pilots were properly preparing for each step, they would have moved
+the VHF radio selector switch to № 2, allowing both pilots to use the still-
+powered alternate VHF radio. However, the loss of radio contact, and the
+crew’s failure to reestablish it, suggests that the flight engineer cut essential
+power without ensuring that the other crewmembers understood what
+would happen.3/29/25, 5:17 PM Acids to Ashes: The crash of Pan Am flight 160 | by Admiral Cloudberg | Mar, 2025 | Medium
+https://medium.com/@admiralcloudberg/acids-to-ashes-the-crash-of-pan-am-flight-160-bed699b6b8b2 45/74
+The smoke evacuation checklist for the B707 – 320C. (Caledonian Airways via Classic Jetliners Forum)
+This breakdown in crew communication might have taken place amid
+rapidly deteriorating conditions inside the cockpit. Witnesses on the ground
+reported that during the last phase of the approach, smoke was pouring
+through the open left cockpit sliding window. Thick smoke deposits were
+later found around this window, testifying to extreme conditions inside.
+Most likely, amid thickening smoke, the pilots opened the window in
+accordance with the final, most desperate solution prescribed by the cockpit
+smoke evacuation checklist. Unfortunately, the checklist assumed, first of
+all, that the smoke source was inside the cockpit; and second, that smoke
+was not being generated continuously. Neither of those was true in this case,
+and in fact, opening the cockpit window while a fire is actively burning
+inside the main deck cargo area was experimentally demonstrated to
+increase the rate of smoke intrusion into the cockpit. Considering the
+3/29/25, 5:17 PM Acids to Ashes: The crash of Pan Am flight 160 | by Admiral Cloudberg | Mar, 2025 | Medium
+https://medium.com/@admiralcloudberg/acids-to-ashes-the-crash-of-pan-am-flight-160-bed699b6b8b2 46/74
+captain’s poorly fitting smoke goggles, and the fact that cutting essential
+power disabled the interphone that the pilots were using to communicate
+through their oxygen masks, their ability to fly the airplane would have been
+substantially compromised from that point onward.
+The sequence of motions involved in Dutch roll. (Roberto Merino-Martinez)
+But in the end, the real killer wasn’t the smoke: it was the inoperative yaw
+damper. And to explain why, we need to go down yet another, no less
+fascinating rabbit hole.
+The yaw damper is a device that automatically makes constant, small rudder
+inputs in order to prevent unwanted excursions on the yaw axis — that is,
+nose left and nose right. All large swept wing jets have a yaw damper to
+3/29/25, 5:17 PM Acids to Ashes: The crash of Pan Am flight 160 | by Admiral Cloudberg | Mar, 2025 | Medium
+https://medium.com/@admiralcloudberg/acids-to-ashes-the-crash-of-pan-am-flight-160-bed699b6b8b2 47/74
+improve their directional stability, and in fact the 707 was one of the first
+aircraft to incorporate one.
+Without a yaw damper, swept wing jets tend to fall into a dynamic cycle
+known as “Dutch roll.” Basically, as the plane starts to yaw in a particular
+direction, let’s say nose right, then the left wing moves into a position where
+the airflow over its surface is more direct, resulting in increased lift. At the
+same time, the right wing falls back into a less advantageous position,
+resulting in decreased lift. Then, with more lift on the left and less on the
+right, the airplane starts to roll to the right. So in other words, a yaw tends to
+turn into a roll in the same direction. But as the yaw, or sideslip angle,
+increases, the aerodynamic force against the big, flat side of the vertical
+stabilizer also increases, until eventually that force causes the entire aircraft
+to weathercock back the other way. The yaw angle then passes back through
+neutral and into the opposite position, which in our example would be nose
+left. Correspondingly, the direction of bank reverses from right wing down
+to left wing down. This cycle then repeats, over and over and over — and
+that’s what we call Dutch roll.
+Dutch roll is typically excited by a sudden yawing force, such as a lateral
+wind gust or an accidental rudder input. It’s not inherently dangerous on
+most aircraft but it is extremely uncomfortable for the occupants, so the yaw
+damper works constantly in the background to ensure that it doesn’t happen.
+And even if it does, the pilot can recover simply by holding the wings level.
+Even without the yaw damper, modern aircraft are designed so that their
+inherent Dutch roll characteristics are either stable (the amplitude of each
+swing is smaller than the one before it) or neutral (the amplitude of each
+swing is equal to the one before it). This is as opposed to an aircraft with
+unstable Dutch roll characteristics, in which each swing is larger than the3/29/25, 5:17 PM Acids to Ashes: The crash of Pan Am flight 160 | by Admiral Cloudberg | Mar, 2025 | Medium
+https://medium.com/@admiralcloudberg/acids-to-ashes-the-crash-of-pan-am-flight-160-bed699b6b8b2 48/74
+one before it, which will eventually result in either loss of control or in-flight
+breakup of the aircraft if not corrected by the pilot or the yaw damper.
+Because the 707 was one of the first jet airliners ever designed, its engineers
+were not as successful at damping its Dutch roll characteristics as they are
+today. Early 707s were inherently unstable in Dutch roll without the yaw
+damper under all conditions. In later versions, this tendency was reduced,
+but some edge cases remained. Dutch roll on any aircraft is worse at low
+speed and high angles of attack with the flaps extended simply because these
+factors reduce controllability on the roll axis (i.e., larger inputs on the flight
+controls are required to produce the same roll response). This tendency is
+made even worse if the pilots have extended the speed brakes to reduce lift
+and slow the plane for landing.
+3/29/25, 5:17 PM Acids to Ashes: The crash of Pan Am flight 160 | by Admiral Cloudberg | Mar, 2025 | Medium
+https://medium.com/@admiralcloudberg/acids-to-ashes-the-crash-of-pan-am-flight-160-bed699b6b8b2 49/74
+Information about Dutch roll stability, from “Handling the Big Jets” by David P. Davies, 1971.
+According to the NTSB, flight testing has demonstrated that with the flaps
+fully extended to 40 degrees, the speed brakes extended, and the yaw
+damper inoperative, the Boeing 707’s Dutch roll characteristics become so
+unstable that “lateral control capability may be extremely limited, if not
+impossible.” In other words, the roll inputs required to recover from Dutch
+roll in that configuration equal or exceed the limits of the pilot’s roll
+authority.
+Before Flight Engineer Melvin started turning off critical systems, the pilots
+had not successfully stabilized the airplane for landing. In fact, when they
+made the final turn onto their truncated final approach, the aircraft was too
+high and was traveling too fast, which prompted the pilots to extend the flaps
+to 40 degrees and deploy the speed brakes in an attempt to slow down.
+Subsequently, when Melvin cut power to the essential bus, the yaw damper
+was disabled, placing the airplane into a configuration in which it was
+uncontrollable. If this matter had been discussed with the pilots beforehand,
+it’s doubtful that Melvin would have proceeded with cutting power, so it’s
+almost certain that Captain Zammett didn’t know that this was about to
+happen.
+On the ground, witnesses watched with growing alarm as the aircraft started
+to sway from side to side, back and forth, over and over, each swing growing
+larger and wilder than the one before. The aircraft was experiencing
+unstable Dutch roll, and although the pilots no doubt fought to halt the
+exaggerated gyrations, the only way to save the plane was to turn the yaw
+damper back on. Unfortunately, amid the chaos, the flight engineer never
+managed to do so.3/29/25, 5:17 PM Acids to Ashes: The crash of Pan Am flight 160 | by Admiral Cloudberg | Mar, 2025 | Medium
+https://medium.com/@admiralcloudberg/acids-to-ashes-the-crash-of-pan-am-flight-160-bed699b6b8b2 50/74
+Moments later, at approximately time 09:40, the airplane entered a bank that
+was too steep to sustain; the wings lost lift, the nose fell through, and the 707
+dived toward the ground. Within a few seconds it was all over. Pan Am flight
+160 spun and impacted the ground next to the threshold of runway 33,
+traveling almost perpendicular to the runway, in a steep nose down attitude
+with nearly 90 degrees of left bank. The fuel tanks exploded on impact,
+sending a huge fireball curling over Logan Airport as burning debris
+careened across the threshold, over the seawall, and into Boston harbor,
+setting fire to the approach lighting pier. Firefighters rushed to the scene
+and quickly extinguished the fire, but their rescue efforts were fruitless; all
+three crewmembers died on impact.
+◊◊◊
+One of three photos I was able to conclusively identify as showing the aftermath of flight 160. When searching
+for photos of the crash, most of the results are from Delta flight 723, which also crashed at the threshold of a
+runway at Boston Logan Airport in 1973. (Boston Globe via Getty Images)3/29/25, 5:17 PM Acids to Ashes: The crash of Pan Am flight 160 | by Admiral Cloudberg | Mar, 2025 | Medium
+https://medium.com/@admiralcloudberg/acids-to-ashes-the-crash-of-pan-am-flight-160-bed699b6b8b2 51/74
+The National Transportation Safety Board’s analysis of the events leading up
+to the crash of flight 160 focused on three principal areas: the design of the
+aircraft; the actions of the crew; and the packaging and loading of the
+hazmat.
+Although readers’ attention with regard to aircraft design is probably drawn
+toward the instability of the 707 in Dutch roll, this matter only received a
+single line in the NTSB report, and I had to do considerable outside research
+to confirm what the actual problem was. Instead, most of the NTSB’s focus
+was directed at the means available to exclude smoke from the cockpit. After
+all, the smoke in the cockpit was the motivating factor that led the crew to
+start searching for increasingly dangerous solutions. It also probably
+compromised the crew’s ability to fly the airplane safely during the final
+minutes due to lack of visibility.
+Under federal regulations at the time, and still today, a class E cargo
+compartment, such as the main deck of a purpose-built freighter, must have
+“means to exclude hazardous quantities of smoke, flames, or noxious gases from
+the flight compartment.” If that regulation sounds familiar, then you’re
+probably thinking of my previous article on UPS Airlines flight 6.3/29/25, 5:17 PM Acids to Ashes: The crash of Pan Am flight 160 | by Admiral Cloudberg | Mar, 2025 | Medium
+https://medium.com/@admiralcloudberg/acids-to-ashes-the-crash-of-pan-am-flight-160-bed699b6b8b2 52/74
+N571UP, the aircraft involved in the UPS 6 accident in 2010. (Konstantin von Wedelstaedt)
+To recap that story, in 2010 a Boeing 747 freighter experienced a fire in the
+main cargo deck, a class E compartment, due to thermal runaway of
+improperly packaged lithium batteries. The 747’s air conditioning packs
+were supposed to maintain positive pressure between the cockpit and the
+main deck so as to exclude smoke from the crew area. However, the
+procedure for extinguishing a fire in the main deck was to depressurize the
+hold, which involved turning off two of the three air conditioning packs. Not
+only did this fail to extinguish the fire, which was fueled by a chemical
+reaction that didn’t need oxygen to sustain itself, it also left the crew with no
+smoke protection after the third and final air conditioning pack suffered an
+unrelated malfunction. The cockpit subsequently filled with smoke, leading
+to the incapacitation of the captain. The first officer attempted to land the
+plane by himself but he was unsuccessful due to being unable to see.
+3/29/25, 5:17 PM Acids to Ashes: The crash of Pan Am flight 160 | by Admiral Cloudberg | Mar, 2025 | Medium
+https://medium.com/@admiralcloudberg/acids-to-ashes-the-crash-of-pan-am-flight-160-bed699b6b8b2 53/74
+In that accident, the United Arab Emirates General Civil Aviation Authority,
+which led the investigation, determined that the concept of a class E cargo
+compartment was potentially flawed, in that depressurizing the
+compartment required maintaining a high altitude to starve the fire of
+oxygen, which was in conflict with the need to land immediately in the event
+of a fire. They also found that depressurizing the hold was ineffective against
+fires involving hazardous materials and possibly ineffective against normal
+fires as well. Furthermore, the smoke detection systems wouldn’t detect the
+fire early enough to intervene before it became catastrophic if the fire
+started inside a container or a pallet with a rain cover. Investigators also
+expressed concern that the design of the 747’s emergency checklists did not
+provide adequate assurance that smoke would not enter the crew area.
+If all of this sounds like it should apply to Pan Am flight 160 as well, that’s
+because it does. The procedure for a fire in the class E compartment on the
+707 was also to depressurize and climb to a high altitude, which would have
+failed to extinguish the fire on flight 160 because nitric acid is an oxidizer
+that produces its own oxygen. This issue was tangentially addressed in the
+NTSB report, although the report didn’t discuss the inherent contradiction
+between this directive and the need to land immediately, even though
+investigators noted that the pilots should have landed immediately if they
+knew there was hazmat on board. Additionally, as in UPS 6, the smoke
+detector failed to provide timely warning of the fire, contributing to the
+pilots’ erroneous assumption about the location of the blaze.
+Once the fire was underway, the smoke barrier between the main deck and
+the crew area generally prevented smoke from entering the cockpit in a
+wholesale manner, but based on the pilots’ statements, considerable smoke
+nevertheless made it into the cockpit by traveling down the smoke chute
+from the main deck, into the lower 41 compartment, and then up into the3/29/25, 5:17 PM Acids to Ashes: The crash of Pan Am flight 160 | by Admiral Cloudberg | Mar, 2025 | Medium
+https://medium.com/@admiralcloudberg/acids-to-ashes-the-crash-of-pan-am-flight-160-bed699b6b8b2 54/74
+cockpit via the pressure relief vent. The NTSB and the FAA were concerned
+that this had happened even though the pilots followed the smoke
+evacuation checklist by increasing the cabin altitude to 10,000 feet, opening
+the outflow valves, and turning the bleeds to max. The exact reason why
+these actions failed to prevent smoke intrusion wasn’t determined, but
+investigators believed that the existence of an alternate airflow path into the
+cockpit via the lower 41 caused the 707 to fall short of the regulatory
+requirement for “means to exclude hazardous quantities of smoke… from
+the flight compartment.”
+After the accident, testing also showed that thick smoke would rapidly enter
+the cockpit via this route if the equipment cooling blower was turned off.
+This didn’t cause the smoke intrusion on flight 160 even though the flight
+engineer turned the blower off twice, simply because he turned it back on
+right away. But the FAA was concerned that if an electrical problem were to
+occur, or the blower malfunctioned, then there would be nothing to stop
+smoke from freely entering the cockpit. Doesn’t that sound a lot like what
+happened on UPS flight 6, with its malfunctioning air conditioning pack?3/29/25, 5:17 PM Acids to Ashes: The crash of Pan Am flight 160 | by Admiral Cloudberg | Mar, 2025 | Medium
+https://medium.com/@admiralcloudberg/acids-to-ashes-the-crash-of-pan-am-flight-160-bed699b6b8b2 55/74
+The first page of the FAA’s letter to Boeing about Pan Am flight 160. (NTSB)
+In 1974, the FAA laid out some of these concerns in a letter addressed to
+Boeing, which cited the Pan Am flight 160 CVR transcript to argue that the
+pilots followed the smoke evacuation procedure but that the procedure was
+ineffective. However, Boeing replied that it had conducted smoke generation
+3/29/25, 5:17 PM Acids to Ashes: The crash of Pan Am flight 160 | by Admiral Cloudberg | Mar, 2025 | Medium
+https://medium.com/@admiralcloudberg/acids-to-ashes-the-crash-of-pan-am-flight-160-bed699b6b8b2 56/74
+and airflow tests in May 1974 and found that the procedures adequately
+excluded smoke. Even when a continuous smoke source was placed in the
+main deck, Boeing reported that smoke didn’t move from the lower 41 into
+the cockpit. Boeing also argued that the CVR didn’t contain sufficient
+evidence to conclude that the pilots had followed the procedures correctly.
+However, in their reply to the FAA, Boeing also wrote, “If the procedure is
+followed, a continuous source of smoke will not exist as the fire will be smothered,
+except in the rare case where a hazardous material is carried which is packaged
+and handled such that it is released, generates heat, and provides its own oxygen.”
+So in other words, exactly what happened on Pan Am flight 160 and UPS
+flight 6 — and on several other notable flights, including but certainly not
+limited to ValuJet flight 592 (1996, 109 killed), American Airlines flight 132
+(1988, 13 seriously injured), and Asiana Airlines flight 991 (2011, 2 killed). All
+of these accidents and incidents involved fires caused by hazardous
+materials that generated oxygen as a byproduct, allowing them to grow and
+expand inside a cargo compartment where the active means of fire
+suppression was oxygen starvation, including compartments designated
+both class E and the now-defunct class D. So while it’s true that such
+accidents are rare, they aren’t really as rare as Boeing wanted to believe.
+Boeing also didn’t explore the possibility that depressurization is not fully
+effective at stopping non-self-oxygenating fires, which we know today to be
+true.
+One of the big issues with Boeing’s mindset was that checklists related to
+smoke clearance assumed the fire was already extinguished, which could
+cause the pilots to take potentially dangerous actions if smoke was still being
+generated. In fact, there are many reasons why a crew might not be able to
+extinguish a fire, including not only the reasons discussed above, but also
+other reasons, such as incorrect identification of its source (e.g. Pan Am3/29/25, 5:17 PM Acids to Ashes: The crash of Pan Am flight 160 | by Admiral Cloudberg | Mar, 2025 | Medium
+https://medium.com/@admiralcloudberg/acids-to-ashes-the-crash-of-pan-am-flight-160-bed699b6b8b2 57/74
+flight 160); a fire in an inaccessible location (e.g. Swissair flight 111, Air
+Canada flight 797); or a fire whose intensity exceeds the capabilities of the
+available extinguishing equipment (e.g. South African Airways flight 295). In
+any of these situations, the crew might — and in several of the above cases,
+actually did — attempt to evacuate smoke while the fire was still burning.
+If the flight crew reaches the final step on the smoke evacuation checklist,
+they will be advised to open a window in flight. On the 707, this was the
+cockpit sliding window; on UPS flight 6, this was a specially designed smoke
+shutter in the ceiling. But already in 1973, it had been demonstrated that
+opening a window in the cockpit while the fire is still burning will create an
+airflow path that draws more smoke into the cockpit. Despite this, the
+checklist didn’t warn the crew to apply the procedure only after
+extinguishing the fire. In fact, this warning also wasn’t included in the smoke
+and fumes removal checklist used by the ill-fated UPS crew 37 years later,
+and consequently that crew also unknowingly worsened the smoke intrusion
+by opening the smoke shutter. It’s unclear that either accident would have
+been prevented if the crew had kept the windows closed, but opening them
+certainly didn’t help.3/29/25, 5:17 PM Acids to Ashes: The crash of Pan Am flight 160 | by Admiral Cloudberg | Mar, 2025 | Medium
+https://medium.com/@admiralcloudberg/acids-to-ashes-the-crash-of-pan-am-flight-160-bed699b6b8b2 58/74
+Fire trucks at the scene of the crash of flight 160. (Boston Globe via Getty Images)
+In its final report, the NTSB recommended that the design of the 707 be
+changed to exclude an airflow path that could cause hazardous quantities of
+smoke to enter the cockpit; that operators be provided with supporting data
+to create more effective smoke evacuation procedures; and that the FAA
+evaluate whether certification tests adequately reflected the range of
+situations in which flight crews would apply the smoke evacuation
+procedures. Unfortunately, the NTSB did not specifically recommend that
+Boeing and the FAA reevaluate the checklist instruction to open a window, or
+the assumption that it’s possible to extinguish a fire in a class E cargo
+compartment by depressurizing the airplane.
+The NTSB also recommended that flight crews receive more training on how
+to identify the source of smoke or fire, and that flight crews be trained to
+land immediately following any in-flight occurrence that they believe to be
+related to hazmat on board the aircraft. But while these recommendations
+seemed sensible at the time, modern guidance for flight crews is to land
+immediately whenever smoke or fire is present, regardless of what the pilots3/29/25, 5:17 PM Acids to Ashes: The crash of Pan Am flight 160 | by Admiral Cloudberg | Mar, 2025 | Medium
+https://medium.com/@admiralcloudberg/acids-to-ashes-the-crash-of-pan-am-flight-160-bed699b6b8b2 59/74
+believe is the source. In several accidents during the 1970s and 1980s,
+including flight 160, flight crews facing in-flight fires did not land at the
+nearest available airport because they falsely believed that the fire was in a
+location that did not directly threaten the safety of the airplane. Encouraging
+identification of the source of unknown smoke before making a decision
+about whether to land immediately was an industry practice that cost lives.
+Identifying the source is still important, but it must come after the decision
+to land.
+In my opinion, Pan Am flight 160 represented a missed opportunity to
+reevaluate the assumption that flight crew identification of the smoke source
+was an appropriate or reliable means by which to judge the severity of a fire
+emergency.
+◊◊◊
+3/29/25, 5:17 PM Acids to Ashes: The crash of Pan Am flight 160 | by Admiral Cloudberg | Mar, 2025 | Medium
+https://medium.com/@admiralcloudberg/acids-to-ashes-the-crash-of-pan-am-flight-160-bed699b6b8b2 60/74
+The remains of flight 160’s burnt-out fuselage. (FastStone/Vintage Image Photos via eBay)
+The second major issue that contributed to the accident, after aircraft
+design, was crew coordination. Most significantly, the pilots might have
+been able to land the plane in one piece if the flight engineer had not cut
+essential electrical power, disabling the yaw damper. The flight engineer’s
+decision to follow the provisions of the “electrical fire or smoke” checklist
+was not coordinated with the pilots and the crew apparently did not discuss
+or prepare for the effects of shutting off essential power. Modern crew
+resource management training emphasizes the role of each crewmember in
+maintaining group awareness through the use of callouts and collective
+decision-making. But in 1973, this training did not yet exist, nor did the
+investigators conceive of its future importance, and no recommendations
+related to the issue were made.
+The misidentification of the smoke source also highlights the dangers of
+confirmation bias. At several points during the emergency, the flight crew
+considered the possibility that the fire might be on the main deck, and even
+named multiple indications that the fire was not in the avionics
+compartment, including the absence of any popped circuit breakers or
+equipment malfunction warning lights. And yet, despite these doubts, no
+crewmember ever went to the main deck to check whether the cargo was the
+source of the fire. Instead, they repeatedly rationalized their initial incorrect
+assumption despite growing evidence that it was wrong. This is a natural
+human tendency that has to be actively resisted using error entrapment and
+mitigation strategies — strategies that are taught today, but were not taught
+in 1973. If the crew had been taught how to constantly reevaluate their
+mental models of the situation based on the raw indications that they were
+receiving, they might have decided to check for a fire on the main deck —3/29/25, 5:17 PM Acids to Ashes: The crash of Pan Am flight 160 | by Admiral Cloudberg | Mar, 2025 | Medium
+https://medium.com/@admiralcloudberg/acids-to-ashes-the-crash-of-pan-am-flight-160-bed699b6b8b2 61/74
+and if they had done that, the flight engineer wouldn’t have started turning
+off electrical equipment, and the crash might not have happened.
+◊◊◊
+NTSB Wreckage Distribution Chart
+The third major causal factor was the failure by multiple companies to
+ensure that the nitric acid shipment was properly packaged and loaded.
+Based on my analysis of the information in the NTSB report, Allied
+Chemicals most likely packaged the nitric acid bottles with flammable
+sawdust cushioning; Santini Brothers, entrusted by NSC to repackage the
+acid for air transport, did not replace the sawdust or affix the required
+warning labels; and Pan Am’s cargo loaders turned the boxes of hazmat
+sideways in order to fit them into the aircraft. Each of these mistakes
+contributed directly to the eventual leakage and fire that brought down the
+plane.
+3/29/25, 5:17 PM Acids to Ashes: The crash of Pan Am flight 160 | by Admiral Cloudberg | Mar, 2025 | Medium
+https://medium.com/@admiralcloudberg/acids-to-ashes-the-crash-of-pan-am-flight-160-bed699b6b8b2 62/74
+Given the number of people and companies involved in this chain of errors,
+it was impossible to assign blame to any single person or entity. Legally
+speaking, regulations at the time placed responsibility for proper hazmat
+packaging onto the shipper, who in this case was NSC, but NSC had no
+operational control of the shipment at any point before it was loaded onto
+the aircraft. In fact, NSC was not involved in the shipping business and had
+no means whatsoever to ensure proper handling of the materials. Instead,
+the nitric acid was packaged and transported by employees of ACC, Santini,
+P. Calahan Inc., and Pan Am’s contract cargo agent Interamerican. Among
+the people at these companies who directly handled the nitric acid, the only
+person with any recent or formal hazmat training was the Santini office
+manager, and even he accepted Lyon’s assertion that sawdust was a safe
+cushioning material for an oxidizing chemical.
+Part of the problem was that regulations surrounding hazmat handling,
+packaging, and transport are extremely complex with detailed requirements
+for each individual chemical. It was difficult even for trained personnel to
+become familiar with all the requirements, and the US Department of
+Transport had not published any single document containing all of the
+relevant regulations. As a result, even in cases where personnel received
+hazmat training, it wasn’t particularly easy to access the rules that they were
+expected to follow.3/29/25, 5:17 PM Acids to Ashes: The crash of Pan Am flight 160 | by Admiral Cloudberg | Mar, 2025 | Medium
+https://medium.com/@admiralcloudberg/acids-to-ashes-the-crash-of-pan-am-flight-160-bed699b6b8b2 63/74
+The Hazardous Materials Table from 49 CFR §  172.101. Damn near every chemical you can imagine is in here. I actually
+had a lot of fun scrolling through to see what chemicals are completely forbidden to transport by air.
+Today, FAA and DOT hazmat rules can be found on the internet by
+consulting the US government’s electronic code of federal regulations, Title
+49, Subtitle B, Chapter I, Subchapter C, Parts 171 – 180. As an experiment, I —
+a complete amateur with no hazmat training and no previous experience
+with these regulations — decided to see whether I could figure out how to
+transport nitric acid by air in 2025. In the end, it took several hours for me to
+learn how to navigate the system of tables and codes linking each part of
+Subchapter C, but I was eventually able to determine that nitric acid with a
+concentration below 70% can be carried on cargo aircraft in bottles not
+larger than 2.5 L; the bottles must be glass, earthenware, or plastic with a
+metal overpackage; for bulk carriage, the bottles must be placed into an
+aluminum or steel canister; and the canisters must be placed into wood or
+metal boxes of certain federal specifications. I wasn’t able to find any
+3/29/25, 5:17 PM Acids to Ashes: The crash of Pan Am flight 160 | by Admiral Cloudberg | Mar, 2025 | Medium
+https://medium.com/@admiralcloudberg/acids-to-ashes-the-crash-of-pan-am-flight-160-bed699b6b8b2 64/74
+requirements for a cushioning material that applied to nitric acid, however I
+did find cushioning material standards with codes applying to certain other
+chemicals. I’m still not entirely sure whether regulations no longer require
+noncombustible cushioning material, or if I just missed something due to
+inexperience. The regulation specifying the cushioning material that was
+quoted in the NTSB report, Part 173.268, no longer exists. So if I were to
+follow the regulations I found to the letter — not that I would ever do this,
+seeing as I’m not qualified to ship acid — then I would have put the nitric
+acid into 2.5 L glass bottles, put the bottles into metal canisters, and then put
+the bottles into DOT specification boxes with labels reading “corrosive” and
+“oxidizer.” I didn’t find where the regulations require “this end up” labels, but
+I’m sure they do somewhere.
+Using this tool, and assuming I had access to the proper containers, I would
+have packaged the nitric acid more safely than it was packaged for Pan Am
+flight 160. Due to my lack of training and unfamiliarity with the system, I
+would have made some mistakes, but probably not as many. So the
+conclusion I’ve drawn from this exercise is that US hazmat regulations are
+vastly more user-friendly today than they were in 1973, even though they
+remain extraordinarily complicated. Furthermore, the availability of hazmat
+training is much more widespread than it was in 1973, and most employees
+involved in handling hazmat today are required to receive formal training.3/29/25, 5:17 PM Acids to Ashes: The crash of Pan Am flight 160 | by Admiral Cloudberg | Mar, 2025 | Medium
+https://medium.com/@admiralcloudberg/acids-to-ashes-the-crash-of-pan-am-flight-160-bed699b6b8b2 65/74
+The first page from the NTSB’s letter to the FAA containing recommendations related to hazmat. (NTSB)
+Although a lot of this improvement has to do with the miraculous invention
+of the internet, awareness and enforcement of hazmat regulations also
+improved as a result of several NTSB recommendations stemming from Pan
+Am flight 160. These recommendations included the following:
+3/29/25, 5:17 PM Acids to Ashes: The crash of Pan Am flight 160 | by Admiral Cloudberg | Mar, 2025 | Medium
+https://medium.com/@admiralcloudberg/acids-to-ashes-the-crash-of-pan-am-flight-160-bed699b6b8b2 66/74
+- The FAA should make the dispatcher directly responsible for notifying the
+captain of the presence of hazardous materials in the cargo.
+- The FAA should prohibit air carriers from relying on the shipper’s word as
+prima facie evidence of the shipment’s compliance with hazmat regulations,
+and require air carriers to implement a system for inspecting hazmat
+shipments at the receiving point prior to loading them onto an aircraft.
+- The FAA should create a system for air carriers to notify the FAA if a
+shipment is found not to be in compliance with hazmat regulations, and
+require the use of this system.
+- The FAA should conduct a one-time inspection of each air carrier’s cargo
+receiving, palletizing, inspecting, and loading procedures to ensure
+regulatory compliance.
+- The FAA and DOT should develop a checklist that personnel can use to
+determine whether a hazmat shipment meets federal regulations.
+- The FAA should disseminate information about the requirements for air
+transport of hazmat directly to air carriers’ sales’ representatives who accept
+bookings from shippers.
+The FAA ultimately implemented almost all of these recommendations. In
+addition to improving access to hazmat information, these changes also
+motivated air carriers to inspect and handle hazmat more cautiously, as
+regulations now hold carriers partly responsible for the safe packaging of
+hazmat carried aboard their aircraft.
+◊◊◊3/29/25, 5:17 PM Acids to Ashes: The crash of Pan Am flight 160 | by Admiral Cloudberg | Mar, 2025 | Medium
+https://medium.com/@admiralcloudberg/acids-to-ashes-the-crash-of-pan-am-flight-160-bed699b6b8b2 67/74
+N458PA’s sister ship, N457PA, takes off from Heathrow. (Ad Vercruijsse)
+Looking back from more than a half century later, the crash of Pan Am flight
+160 was at once a product of its time and a glimpse into the future. It
+represented an opportunity to learn a wide variety of lessons, some of which
+were learned to great effect, while others were not, and thus returned to kill
+again. Some of the causes of the accident might leave a modern reader
+horrified to discover how things were done in 1973, while others might strike
+aviation safety experts as surprisingly relevant to the present day. That
+makes flight 160 both a story of historical interest and a good case study for
+how human factors, information presentation, and procedural design can
+turn a hazard into an emergency and an emergency into a fatal accident.
+Unfortunately, it was a case study without a happy ending, as the crew
+navigated their burning airplane to the very threshold of the runway, only to
+3/29/25, 5:17 PM Acids to Ashes: The crash of Pan Am flight 160 | by Admiral Cloudberg | Mar, 2025 | Medium
+https://medium.com/@admiralcloudberg/acids-to-ashes-the-crash-of-pan-am-flight-160-bed699b6b8b2 68/74
+be undone by the consequences of an assumption they had made over half
+an hour earlier. It was the last assumption in a long string of them, from the
+checklist that assumed the fire had been put out before opening a window,
+to the logistics employee who assumed that nitric acid could be cushioned
+with sawdust because it wasn’t flammable. The outcome was a tragic
+example of why assumptions are dangerous, and why trust must be paired
+with verification. Neither flying nor hazmat is inherently safe, and both are
+as safe as they are today because everyone involved has worked hard to make
+them so, rather than assuming that everything is fine, or that someone else
+will take care of it. Because safety will never be someone else’s problem — it
+always has been and all ways will be everyone’s problem.
+_______________________________________________________________
+Note to readers: Because the NTSB report on this crash was unusually vague, my
+narrative of the accident includes personal deductions about what was meant by
+certain phrases and concepts and who performed certain actions. I reached best-
+guess conclusions in many of these areas after consulting with others and
+examining numerous documents, but my logic is not necessarily unimpeachable. If
+you know something about this case, or any of the people, companies, airplanes, or
+systems involved, and you think you can add to or clarify the information in this
+article, please shoot me an email. Thank you!
+_______________________________________________________________
+Don’t forget to listen to Controlled Pod Into Terrain, my podcast (with slides!),
+where I discuss aerospace disasters with my cohosts Ariadne and J! Check out our
+channel here, and listen to our latest episode about a titanic battle between a BAC
+1–11 and some wind. Alternatively, download audio-only versions via RSS.com, or
+look us up on Spotify!3/29/25, 5:17 PM Acids to Ashes: The crash of Pan Am flight 160 | by Admiral Cloudberg | Mar, 2025 | Medium
+https://medium.com/@admiralcloudberg/acids-to-ashes-the-crash-of-pan-am-flight-160-bed699b6b8b2 69/74
+_______________________________________________________________
+Join the discussion of this article on Reddit
+Support me on Patreon (Note: I do not earn money from views on Medium!)
+Follow me on Bluesky
+Visit r/admiralcloudberg to read and discuss over 260 similar articles
+Bibliography
+Written by Admiral Cloudberg
+71K Followers·2 Following
+Kyra Dempsey, analyzer of plane crashes. @Admiral_Cloudberg on Reddit,
+@KyraCloudy on Bluesky. Email inquires -> kyracloudy97@gmail.com.Follow
+Responses (14)
+Ashley caceres PaganAviation Flying History Technology Logistics
+What are your thoughts?3/29/25, 5:17 PM Acids to Ashes: The crash of Pan Am flight 160 | by Admiral Cloudberg | Mar, 2025 | Medium
+https://medium.com/@admiralcloudberg/acids-to-ashes-the-crash-of-pan-am-flight-160-bed699b6b8b2 70/74

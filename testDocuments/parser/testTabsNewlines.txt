@@ -1,0 +1,5 @@
+This    is	\
+a	test\
+with newlines\
+and tabs\
+to clean up\

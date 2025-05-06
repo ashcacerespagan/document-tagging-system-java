@@ -1,0 +1,1533 @@
+i
+ThermoScan® 7
+Ear thermometer
+Thermomètre auriculaire 
+Termómetro de oído
+IRT6520
+
+1Kaz USA, Inc., a Helen of Troy Company 
+Une société de Helen of Troy 
+Una Empresa de Helen of Troy 
+400 Donald Lynch Blvd., Suite 300 
+Marlborough, MA 01752 
+© 2022 All rights reserved. 
+Tous droits réservés.   
+Todos los derechos reservados. 
+BraunHealthcare.com
+Patents / brevets / patentes:  
+www.BraunHealthcare.com/us_en/patentsIRT6520 
+A001684R5 
+15JUN22English ...................................... 2
+Français .................................. 14
+Español ................................... 25
+Contact Us
+Questions or Comments? 
+Call:   1-800-327-7226
+Visit:   www.BraunHealthcare.com/contact-us 
+ BraunHealthcare.com
+Certain trademarks used under license from The Procter & Gamble Company or its affiliates.
+ThermoScan®, ExactTemp® and Age Precision™ are trademarks owned by Helen of Troy Limited.
+Pour communiquer avec nous
+Des questions ou observations ? 
+Téléphoner au : 1-800-327-7226
+Envoyer un courriel: ConsumerRelations@HelenofTroy.com
+Visiter: BraunHealthcare.com
+Certaines marques de commerce utilisées sous licence de The Procter & Gamble Company ou ses  
+sociétés affiliées.
+ThermoScanMD, ExactTempMD et Age PrecisionMC sont des marques des commerce propriété de  
+Helen of Troy Limited.
+Contáctenos
+¿Preguntas o Comentarios? 
+Llame al: 1-800-327-7226
+Visite: BraunHealthcare.com
+Ciertas marcas registradas utilizadas bajo licencia de The Procter & Gamble Company o sus afiliados.
+ThermoScan®, ExactTemp® y Age Precision™ son marcas pertenecientes a  Helen of Troy Limited.
+Imported by / Importé par / Importado por 
+Kaz Canada, Inc., a Helen of Troy Company  
+Une société de Helen of Troy 
+Una Empresa de Helen of Troy 
+6700 Century Avenue, Suite 210 
+Mississauga, Ontario L5N 6A4
+Designed in Germany. Made in Mexico.
+Conçu en Allemagne. Fabriqué au Mexique.
+Diseñado en Alemania. Hecho en México. IRT6520 Series: IRT6520CA, IRT6520US, IRT6520SP, IRT6520BUS
+2102
+59
+6
+7
+8111
+Hygienic lens filter (Box of 20)
+Probe tip 
+Probe
+ExacTemp® Stability indicator light
+Lens filter ejector
+Display
+Age Precision ™ Technology and memory buttons
+Power button
+Start button
+Battery door
+Protective case
+Product description
+The Braun ThermoScan® Ear thermometer has been carefully developed for accurate, safe, and fast  
+temperature measurements in the ear. 
+The shape of the thermometer probe prevents it from being inserted too far into the ear canal,  
+which can hurt the eardrum.
+However, as with any thermometer, proper technique is critical to obtaining accurate temperatures. 
+Therefore, read the instructions carefully and thoroughly.
+Indications for use / Intended use
+The Braun Thermoscan® IRT6000 Series infrared ear thermometers are indicated for the intermittent 
+measurement of human body temperature by consumers of all ages in a home use environment.  
+The hygienic lens filter is used as a sanitary barrier between the thermometer and the ear canal.
+IRT 6520
+1
+2
+3
+4
+5
+6
+7
+8
+9
+11103
+4
+3
+ Warnings and Precautions
+Please consult your physician if you see symptoms such as unexplained irritability, vomiting, diarrhea, 
+dehydration, changes in appetite or activity, seizure, muscle pain, shivering, stiff neck, pain when urinating, 
+etc. in spite of  any color  of the background light or absence of fever. 
+Please consult your physician if the thermometer shows fever (yellow or red background lights).
+The operating ambient temperature range for this thermometer is 50 – 104 °F (10 – 40 °C).
+DO NOT expose the thermometer to temperature extremes (below –13 °F / –25 °C or over 131 °F / 55 °C) 
+or excessive humidity (15 - 95 % RH).
+This thermometer must only be used with genuine Braun ThermoScan Hygienic lens filters (LF 40).
+To avoid inaccurate measurements ALWAYS  use this thermometer with a new, clean lens filter attached.
+If the thermometer is accidentally used without a hygienic lens filter attached, clean the lens  
+(see «Care and cleaning» section). 
+Keep hygienic lens filter out of reach of children.
+This thermometer is intended for household use only. 
+Use of this thermometer is not intended as a substitute for consultation with your physician.
+This thermometer is not intended for pre-term babies or small-for-gestational age newborn babies (birth to 
+4 weeks of age).  Pre-term is defined as babies born before 37 weeks of gestation.  Small-for-gestational-age 
+is defined as a newborn baby, born at 37 weeks or later, with a weight below the 10th percentile for newborn 
+babies of the same gestational age.
+Nursing mothers should not take a temperature measurement on themselves or have their temperature 
+measured by another individual while or immediately after nursing a baby, as nursing can affect body 
+temperature.
+This thermometer is not intended to interpret hypothermic temperatures. If the device displays a 
+temperature of 97.5°F (36.4°C) or less with an LED backlight color of green or white, and the individual is 
+exhibiting atypical symptoms or behaviors, contact your doctor or health care professional.
+DO NOT allow children to take their temperature unattended.
+DO NOT modify this equipment without authorization of the manufacturer.
+People who are on antibiotics, analgesics, or antipyretics should not be assessed solely on temperature 
+readings to determine the severity of their illness.
+Temperature elevation may signal a serious illness, especially in neonates and infants, or in adults who are 
+elderly, frail, or have a weakened immune system. Please seek professional advice immediately when there is 
+a temperature elevation and if you are taking temperature on:
+•   Neonates and infants under 3 months (Consult your physician immediately if the temperature exceeds 
+99.4 °F or 37.4 °C).
+•   Individuals having diabetes mellitus or a weakened immune system (e.g., HIV positive, cancer 
+chemotherapy, chronic immunosuppressant treatment, splenectomy).
+•   Individuals who are bedridden (e.g., paraplegia, quadriplegia, stroke, chronic illness, surgical recovery, 
+nursing home patient, stroke, chronic illness, recovering from surgery).
+•   A transplant recipient (e.g., liver, heart, lung, kidney).
+This thermometer contains small parts that can be swallowed or produce a choking hazard to children.
+Keep out of reach of children.English
+4Body temperature
+Normal body temperature is a range. It varies by site of measurement, and it tends to decrease 
+with age. It also varies from person to person and fluctuates throughout the day. Therefore, it is 
+important to determine normal temperature ranges. This is easily done using Braun ThermoScan. 
+Practice taking temperatures on yourself and healthy family members to determine the normal 
+temperature range.
+Note: When consulting your physician, communicate that the ThermoScan temperature is a 
+temperature measured in the ear and if possible, note the individual’s normal ThermoScan 
+temperature range as additional reference.  
+Why measure in the ear?
+The goal of thermometry is to measure core body temperature1, which is the temperature  
+of the vital organs. Ear temperatures accurately reflect core body temperature,2 since the 
+eardrum shares blood supply with the temperature control center in the brain,3 the 
+hypothalamus. Therefore, changes in body temperature are reflected sooner in the ear than  
+  at other sites. Axillary temperatures measure skin temperature and may not be a reliable 
+indicator of core body temperature. Oral temperatures are influenced by drinking, eating 
+and mouth breathing. Rectal temperatures often lag behind changes in core body 
+temperature and there is a risk of cross-contamination.
+Age Precision ™ Technology
+Clinical research shows the definition of fever changes as newborns grow into children and 
+children grow into adults.4
+Select the appropriate age setting, take a temperature, and the display will glow green, yellow,  
+or red to indicate whether the temperature is in a normal, fever, or high fever range, respectively.  
+The device is only intended for the measurement of human body temperature.  It is not intended 
+to diagnose or monitor a serious medical condition or disease.
+How does Braun ThermoScan® work?
+Braun ThermoScan measures the infrared heat generated by the eardrum and surrounding 
+tissues. When placed in the ear, Braun ThermoScan continuously monitors the infrared energy 
+and the ExactTemp® Stability Indicator displays a reading only if the thermometer detects that 
+an accurate and stable temperature measurement has been taken.
+1 Guyton A C, Textbook of Medical Physiology, W.B. Saunders, Philadelphia, 1996, p 919.  
+2 Guyton A C, Textbook of Medical Physiology, W.B. Saunders, Philadelphia, 1996, pp 754-5. 
+3 Netter H F, Atlas of Human Anatomy, Novartis Medical Education, East Hanover, NJ, 1997, pp 63, 95.  
+4 Herzog L., Phillips S. Addressing Concerns About Fever. Clinical Pediatrics. 2011; 50(#5): 383-390. 
+5
+1
+2
+3
+4How to use your Braun ThermoScan®
+Remove the thermometer from the protective case.
+Push the Power button .
+During an internal self-check, the display shows all segments.  
+Then the last temperature taken will be displayed for 5 seconds. 
+0-3 Mos >3-36 Mos >36 Mos – 
+ adultSelect an age with the Age Precision™ Technology button   as shown.   
+Press button to toggle through each age group. 
+NOTE: You must select an age in order to take a measurement.
+The hygienic lens filter indicator will blink to signal  
+one is needed.
+To achieve accurate measurements, make sure a  
+new, clean, hygienic lens filter is in place before each 
+measurement.
+Attach a new hygienic lens filter by pushing the 
+thermometer probe straight into the lens filter inside 
+the box and then pulling out.
+Note: The Braun ThermoScan will not work unless a 
+hygienic lens filter is attached.
+The thermometer is ready to take a temperature when the display 
+looks like the image below. English
+66
+7
+8
+ExacTemp® Stability Indicator light will pulse while temperature measurement is 
+in progress. The light will remain solid for 3 seconds to indicate that a 
+successful temperature reading has been achieved.
+NOTE: If the probe has been properly inserted into the ear canal during the 
+measurement, a long beep will sound to signal the completed measurement. 
+If the probe has NOT  been constantly placed in a stable position in the  
+ear canal, a sequence of short beeps will sound, the ExacTemp® Stability 
+Indicator light light will go out and the display will show an error message 
+(POS = position error).
+See «Errors and troubleshooting» section for more information.
+The confirmation beep indicates that an accurate temperature measurement has been taken. 
+The result is shown on the display.
+0-3    3-36    36+
+Months0-3    3-36    36+
+Months0-3    3-36    36+
+Months
+For the next measurement, press Eject button  to 
+remove, and discard used lens filter, and put on a new, 
+clean lens filter.
+NOTE: Defaults to last age setting used if you do not 
+change.
+The Braun ThermoScan Ear thermometer turns off 
+automatically after 60 seconds of inactivity.  
+The thermometer can also be turned off by  
+pressing and holding the Power button . 
+The display will briefly flash OFF and it will go blank.
+Age range Green  
+Normal temperatureY ellow  
+FeverRed  
+High fever
+ 0*-3 Months≥96.4 – ≤99.4 °F  
+(≥35.8 – ≤37.4 °C)>99.4 °F  
+(>37.4 °C)
+3-36 Months≥95.7 – ≤99.6 °F  
+(≥35.4 – ≤37.6 °C>99.6 – ≤101.3 °F  
+(>37.6 – ≤38.5 °C)>101.3 °F  
+(>38.5 °C)
+36 Months -   
+adult≥95.7 – ≤99.9 °F  
+(≥35.4 – ≤37.7 °C)>99.9 – ≤103.0 °F  
+(>37.7 – ≤39.4 °C)>103.0 °F  
+(>39.4 °C)
+* 0 months is defined as having a gestational age of greater than or equal to 37 calendar weeks at birth.Fully insert the probe into the ear canal 
+and point straight towards the 
+opposite ear or temple.
+Once positioned correctly, press and 
+release the start button .
+Probe Cover
+ Probe Cover
+ Probe Cover
+ Probe Cover
+5
+7
+1
+2
+3Temperature-taking hints
+ALWAYS  replace disposable lens filters to maintain accuracy and hygiene. The right ear  
+measurement may differ from the measurement taken in the left ear. Therefore, ALWAYS  take the 
+temperature in the same ear. The ear must be free from obstructions or excess earwax build-up to 
+take an accurate reading.
+External factors may influence ear temperatures, including when an individual has: 
+Factor Affects 
+Poor probe placement
+Used hygienic lens filter
+Dirty lens
+In the cases below, wait 20 minutes prior to taking a temperature. 
+Extreme hot or cold room temperatures
+Hearing aid
+Use the untreated ear if ear drops or other ear medications have been placed in the ear canal.
+Use the ear that has been facing upwards if an individual has been lying down on their side  
+with an ear face down on a pillow.
+English
+This model stores the last 9 temperature measurements. 
+To display the stored measurement, the thermometer 
+must be turned on. 
+Press the Mem button. 
+The display shows the temperature, and when releasing 
+the  Mem button, the stored temperature for that 
+memory number is displayed, together with “M” . 
+Each time the Mem button is pushed, the stored  
+reading and an M is displayed to indicate each  
+temperature measurement (e.g., M2).
+Memory mode is automatically exited by  
+not pressing the memory button for 5 seconds.Memory mode
+Night light feature 
+The thermometer includes a convenient night light to illuminate 
+the display in a dim environment. 
+The light will turn on when you press any button. It will stay on 
+until the thermometer is inactive for up to 15 seconds even after 
+temperature is taken.
+15 sec
+ 15 secEnglish
+81
+2
+3How to change temperature between °F and °C
+US: Your Braun ThermoScan is shipped with the Fahrenheit (°F) temperature scale activated.  
+If you wish to switch to  Celsius (°C) and/or back from Fahrenheit to Celsius, proceed as follows:
+CA:  Your Braun Thermoscan is shipped with the Celsius (C) temperature scale activated.   
+If you wish to switch to Fahrenheit (F) and/or back from Celsius to Fahrenheit, proceed as follows:
+Make sure the thermometer is turned off.
+Press and hold down the Power button . After about 3 seconds  
+the display will show this sequence: °F  /  SET  /  °C   /  SET.
+Release the Power  button when the desired temperature scale is shown.  
+There will be a short beep to confirm the new setting, then the thermometer  
+is turned off automatically.
+Care and cleaning
+The probe tip is the most delicate part of the thermometer.  
+It must be clean and intact to ensure accurate readings.  
+If the thermometer is ever accidentally used without a hygienic lens filter, clean the 
+probe tip as follows:
+Very gently wipe the surface with a cotton swab or soft cloth moistened with alcohol. 
+After the alcohol has completely dried out, you can put a new lens filter on and take a 
+temperature measurement. 
+If the probe tip is damaged, please contact Consumer Relations.
+Use a soft, dry cloth to clean the thermometer display and exterior. DO NOT use abrasive cleaners. 
+NEVER submerge this thermometer in water or any other liquid. Store thermometer and lens filters 
+in a dry location free from dust and contamination and away from direct sunlight. 
+Additional hygienic lens filter (LF 40) are available at most stores carrying Braun ThermoScan.
+Replacing the batteries
+The thermometer is supplied with two 1.5 V type AA (LR06) batteries.
+Insert new batteries when the battery symbol appears on the display.
+Open the battery compartment. Remove the batteries and replace with  
+new batteries, making sure the poles are in the right direction. 
+Snap battery door into place.
+Only discard empty batteries. To protect the environment, dispose of 
+empty batteries at your retail store or at appropriate collection sites 
+according to national or local regulations.
+Do not mix alkaline, standard, or rechargeable batteries.
+Calibration 
+The thermometer is initially calibrated at the time of manufacture. If this thermometer is used 
+according to the use instructions, periodic re-adjustment is not required. If at any time you question 
+the accuracy, please contact Consumer Relations.The
+rmoScan1
+2
+3
+9
+EnglishErrors and troubleshooting
+Error message Situation Solution
+No hygienic lens filter is attached. Attach new, clean lens filter.
+The thermometer probe was not 
+positioned securely in the ear. 
+An accurate measurement  
+was not possible.Take care that the positioning of the 
+probe is correct and remains stable.
+Ambient temperature is not within  
+the allowed operating range  
+(50  –  104 °F or 10  –  40 °C).Allow the thermometer to remain for  
+30 minutes in a room where  
+the temperature is between  
+50 and 104 °F or 10 and 40 °C.
+Temperature taken is not within  
+typical human temperature range  
+(93.2  –  108 °F or 34   –  42.2 °C).
+HI = too high
+LO = too low Make sure the probe tip and lens are 
+clean and a new, clean lens filter is 
+attached. Make sure the thermometer  
+is properly inserted. Then, take a new 
+temperature.
+System error – self-check display 
+flashes continuously and will not be 
+followed by the ready beep and the 
+ready symbol or screen is blank.
+If error persists, 
+If error persists. 
+If error still persists,Wait 1 minute until the thermometer 
+turns off automatically, then turn  
+on again. 
+... reset the thermometer by removing 
+the batteries and putting them back in.
+... replace the batteries with new 
+batteries
+... please contact the Consumer Relations.
+Battery is low, but thermometer will 
+still operate correctly.Insert new batteries.
+Battery is too low to take correct 
+temperature measurement.Insert new batteries.English
+10Product specifications
+Displayed temperature range: 93.2 – 108 °F  (34 – 42.2 °C)  
+Operating ambient temperature range: 50 – 104 °F  (10 – 40 °C)    
+Storage temperature range: -13 – 131 °F (-25 – 55 °C)   
+Storage relative humidity:  Storage 15-95% RH (non-condensing)  
+Operating relative humidity: Operating 10-95%  
+Display resolution:  0.1 °F or °C 
+Accuracy for displayed temperature range   Maximum Laboratory Error 
+35  –  42 °C (95  –  107.6 °F):  ±0.4 °F  (±0.2 °C)  
+Outside this range:  ±0.5 °F  (±0.3 °C)   
+Clinical repeatability:  ±0.26 °F  (±0.14 °C)   
+Reference Body Site:  Oral Equivalent 
+Battery life:   2 years in sleep mode / 350 measurements  
+Service life:   5 years
+This thermometer is specified to operate at 1 atmosphere or at altitudes with an atmospheric pressure up to 
+1 atmosphere (700 - 1060 hPa).
+Consult Instructions for Use Type BF Applied Part10 °C40 °C
+Operating temperature Keep dry Storage temperature 
+Subject to change without notice.
+This appliance conforms to the following standards: 
+This infrared thermometer meets requirements established in ASTM Standard (E 1965-98) as it pertains to 
+infrared thermometers. Full responsibility for the conformance of this product to the standard is assumed by 
+Kaz USA, Inc. ASTM laboratory accuracy requirements in the display range of 98 to 102 °F (37 to 39 °C) for IR 
+thermometers is ±0.4 °F (±0.2 °C), whereas for mercury in-glass and electronic thermometers, the 
+requirement per ASTM Standards E 667-86 and E 1112-86 is ±0.2 °F (±0.1°C).
+EN ISO 80601-2-56: Medical electrical equipment – Part 2-56: Particular requirements for basic safety and 
+essential performance of clinical thermometers for body temperature measurement.
+EN IEC 60601-1: Medical electrical equipment – Part 1: General requirements for basic safety and essential 
+performance.
+EN ISO 14971: Medical devices – Application of risk management to medical devices.
+EN ISO 10993-1: Biological evaluation of medical devices – Part 1: Evaluation and testing within a risk 
+management process.
+EN IEC 60601-1-2: Medical electrical equipment – Part 1-2: General requirements for basic safety and 
+essential performance – Collateral standard: Electromagnetic compatibility – Requirements and tests.
+EN ISO 15223-1: Medical devices. Symbols to be used with medical device labels, labelling and information 
+to be supplied. General requirements.
+EN IEC 60601-1-11: Medical electrical equipment – Part 1-11: General requirements for basic safety and 
+essential performance – Collateral standard: Requirements for medical electrical equipment and medical 
+electrical systems used in the home healthcare environment.
+This product conforms to the provisions of the EC directive 93/42/EEC.
+MEDICAL ELECTRICAL EQUIPMENT needs special precautions regarding EMC. For detailed description of 
+EMC requirements please contact your authorized local Service Center (See guarantee card).
+Portable and mobile RF communications equipment can affect MEDICAL ELECTRICAL EQUIPMENT.
+Please do not dispose of the product in the household waste at the end of its useful life. 
+To protect the environment, dispose of empty batteries at appropriate collection sites according to 
+national or local regulations. Attention, consult 
+accompanying documentsStorage relative  
+humidityOperating relative  
+humidity
+Hygienic lens filter:  
+Do not reuseManufacturer Date of 
+Manufacture2
+Serial 
+NumberLot 
+Number
+11
+EnglishLimited three year warranty  
+Y ou should first read all Instructions before attempting to use this product.
+A. This 3 year limited warranty applies to repair or replacement of product found to be defective in 
+material or workmanship. This warranty does not apply to damage resulting from commercial, abusive, 
+unreasonable use or supplemental damage. Defects that are the result of normal wear and tear will not 
+be considered manufacturing defects under this warranty. KAZ IS NOT LIABLE FOR INCIDENTAL OR 
+CONSEQUENTIAL DAMAGES OF ANY NATURE, ANY IMPLIED WARRANTY OF MERCHANTABILITY 
+OR FITNESS FOR A PARTICULAR PURPOSE ON THIS PRODUCT IS LIMITED IN DURATION  TO THE 
+DURATION OF  THIS WARRANTY . Some jurisdictions do not allow the exclusion or limitation of 
+incidental or consequential damages or limitations on how long an implied warranty lasts, so the above 
+limitations or exclusions may not apply to you. This warranty gives you specific legal rights, and you 
+also may have other rights which vary from jurisdiction to jurisdiction. This warranty applies only to the 
+original purchaser of this product from the original date of purchase.
+B. At its option, Kaz will repair or replace this product if it is found to be defective in material or 
+workmanship.
+C. This warranty does not cover damage resulting from any unauthorized attempts to repair or from any 
+use not in accordance with the instruction manual.
+Call us toll-free at 1-800-327-7226 or visit:  BraunHealthcare.com/contact-us
+Please be sure to specify a model number.
+NOTE: IF YOU EXPERIENCE A PROBLEM, PLEASE CONTACT CONSUMER RELATIONS FIRST OR SEE  
+YOUR WARRANTY . DO NOT RETURN THE PRODUCT TO THE ORIGINAL PLACE OF PURCHASE.  DO 
+NOT ATTEMPT TO OPEN THE THERMOMETER HOUSING YOURSELF, DOING SO MAY VOID YOUR 
+WARRANTY AND CAUSE DAMAGE TO THE PRODUCT OR PERSONAL INJURY .English
+12The IRT6520 is intended for use in the electromagnetic environment speci/f_ied below.  
+The customer or the user of the IRT6520 should ensure that it is used in such an environment.
+The IRT6520 equipment is intended for use in the electromagnetic environment speci/f_ied below.  
+The customer or the user of the IRT6520 should ensure that it is used in such an environment.
+13
+EnglishEnglish
+141
+2
+3
+4
+5
+6
+7
+8
+9
+1110Embout jetable (boîte de 20)
+Lentille 
+Sonde
+Voyant lumineux ExacTempMD
+Éjecteur d’embout jetable
+Écran
+Boutons Age PrecisionMC et mémoire
+Bouton marche/arrêt
+Bouton start (démarrage)
+Couvercle du compartiment à piles
+Boîte de protection
+Le thermomètre ThermoScan Braun a été élaboré avec soin pour prendre des mesures de température 
+auriculaire précises et rapides en toute sécurité. 
+La forme de sa sonde empêche tout risque d’insertion trop profonde dans le conduit auditif, de manière à ne 
+pas endommager le tympan.
+Cependant, comme pour tous les thermomètres, l’utilisation d’une technique adéquate est essentielle pour 
+l’obtention de températures précises. 
+Nous vous invitons donc à lire attentivement l’intégralité des instructions d’utilisation.
+Indications pour l’utilisation/utilisation prévue
+Le thermomètre ThermoScan Braun est indiqué pour la mesure et le contrôle intermittents de la 
+température du corps humain chez les personnes de tous les âges. Il est réservé à un usage domestique.
+Mises en garde et précautions
+Consultez votre médecin si vous observez des symptômes tels qu’une irritabilité inexpliquée, des 
+vomissements, une diarrhée, une déshydratation, des changements d’appétit ou d’activité, des convulsions, 
+une douleur musculaire, des tremblements, une raideur du cou, une douleur lors de la miction, etc., malgré 
+la couleur du rétroéclairage ou l’absence de fièvre.
+Consultez votre médecin si le thermomètre indique une fievre (rétroéclairage jaune ou rouge).Description du produit
+La fourchette de température ambiante de fonctionnement de ce thermomètre est de 50 à 104 °F (10 à 40 °C).
+N’exposez PAS  ce thermomètre à des températures extrêmes (moins de -13 °F / -25 °C ou plus de 131 °F / 55 °C) 
+ou à une humidité excessive (HR de 15 à 95 %). 
+Ce thermomètre ne doit être utilisé qu’avec les embouts jetables (filtres de lentille) Braun ThermoScan 
+authentiques (LF 40).
+Pour éviter les mesures imprécises, employez TOUJOURS le thermomètre avec un nouvel embout jetable 
+propre.
+Si le thermomètre est par mégarde utilisé sans embout jetable, nettoyez la lentille (voir la rubrique Entretien 
+et nettoyage). 
+Gardez les embouts jetables hors de la portée des enfants.
+Ce thermomètre est prévu pour un usage domestique seulement. 
+L’utilisation de ce thermomètre ne doit en aucun cas remplacer une consultation chez votre médecin.
+15
+1 Guyton A C, Textbook of Medical Physiology, W.B. Saunders, Philadelphia, 1996, p 919. Ce thermomètre n’est pas conçu pour les enfants prématurés ou les nouveau-nés petits pour leur 
+âge gestionnel (de la naissance à 4 semaines d’âge). Les enfants prématurés sont définis par un âge 
+gestionnel inférieur à 37 semaines. Les nouveau-nés petits pour leur âge gestionnel sont définis 
+comme des nouveau-nés, nés à 37 semaines ou plus, ayant un poids inférieur au 10e percentile pour les 
+nouveau-nés du même âge gestionnel.
+Ce thermomètre n’est pas conçu pour les bébés prématurés et les bébés petits pour leur âge gestionnel 
+Les femmes qui allaitent ne devraient pas prendre leur température ou demander à une autre personne 
+de prendre leur température pendant qu’elles allaitent un bébé, ou immédiatement après, du fait que 
+l’allaitement peut avoir une incidence sur la température corporelle.
+Ce thermomètre ne permet pas d’interpréter les températures hypothermiques. Si l’appareil affiche 
+une température de 97,5°F (36,4°C) ou moins (rétroéclairage DEL vert ou blanc) et que la personne 
+présente des symptômes ou des comportements atypiques, communiquez avec votre médecin ou votre 
+professionnel de la santé.
+Ne laissez PAS  les enfants prendre leur température sans surveillance.
+Ne modifiez PAS l’appareil sans l’autorisation du fabricant.
+Chez les personnes qui prennent des antibiotiques, analgésiques ou antipyrétiques, la gravité de la 
+maladie ne devrait pas être évaluée uniquement en fonction des relevés de température.
+Une élévation de la température peut être le signe d’une maladie grave, en particulier chez les nouveau-nés 
+et les nourrissons, ou chez les adultes âgés et fragiles ou dont le système immunitaire est affaibli. Demandez 
+immédiatement un avis médical en cas d’élévation de la température si celle-ci est mesurée chez :
+•  des nouveau-nés et des nourrissons de moins de trois mois (consultez immédiatement votre médecin 
+si la température dépasse 99,4 °F ou 37,4 °C).
+•  des personnes qui ont des problèmes de diabète sucré ou dont le système immunitaire est affaibli (par 
+ex. personnes séropositives pour le VIH, sous chimiothérapie pour un cancer, recevant un traitement 
+immunosuppresseur chronique, ayant subi une splénectomie);
+•  des personnes alitées (par ex. paraplégie, quadriplégie, accident vasculaire cérébral, maladie chronique, 
+rétablissement postopératoire, patient d’un centre d’hébergement et de soins longue durée) 
+•  des personnes ayant reçu une greffe (par ex. du foie, du cœur, du poumon, du rein).
+Ce thermomètre contient des petites pièces qui peuvent être avalées ou provoquer un risque de 
+suffocation chez les enfants.
+Conservez-le hors de portée des enfants.
+Température corporelle
+La température corporelle normale correspond à une fourchette de valeurs. Elle varie en fonction de la 
+partie du corps où elle est relevée et diminue généralement avec l’âge. Elle varie également d’une 
+personne à l’autre et au cours d’une même journée. Il est donc important de déterminer les fourchettes 
+de températures normales. Cette évaluation est très simple avec le thermomètre ThermoScan Braun. 
+Entraînez-vous à prendre la température sur vous-même et sur les membres de votre famille en bonne 
+santé afin de déterminer vos fourchettes de températures normales.
+Remarque : lorsque vous consultez votre médecin, indiquez-lui que la température mesurée par 
+ThermoScan est une température auriculaire et, si possible, notez la fourchette de températures 
+ThermoScan habituelle pour la personne concernée, à titre d’indication supplémentaire.
+Ce thermomètre contient des petites pièces qui peuvent être avalées ou provoquer un risque de 
+suffocation chez les enfants. Conservez-le hors de portée des enfants de moins de 12 ans.
+Pourquoi prendre les mesures dans l’ oreille ?
+L’objectif de la thermométrie est de mesurer la température centrale du corps1, qui correspond 
+à la température des organes vitaux. La température auriculaire reflète précisément la 
+température corporelle centrale3, le tympan étant irrigué par les mêmes flux sanguins que 
+l’hypothalamus, qui est le centre de régulation de la température du cerveau4. Par conséquent, 
+les changements de température corporelle se reflètent plus rapidement dans l’oreille que 
+dans les autres parties du corps. La température axillaire mesure la température de la peau et 
+ne constitue pas toujours un indicateur fiable de la température corporelle centrale. La 
+température buccale est influencée par la consommation de boissons et d’aliments et par la 
+respiration buccale. La température rectale reflète souvent avec retard la température 
+corporelle centrale et il existe en outre un risque de contamination croisée.Français
+16
+Retirez le thermomètre de la boîte de protection.
+2 Herzog L, Phillips S. Addressing Concerns About Fever. Clinical Pediatrics. 2011; 50(#5): 383-390. 
+3 Guyton A C, Textbook of Medical Physiology, W.B. Saunders, Philadelphia, 1996, pp 754-5. 
+4 Netter H F, Atlas of Human Anatomy, Novartis Medical Education, East Hanover, NJ, 1997, pp 63, 95. Appuyez sur le bouton marche/arrêt .
+Pendant un autocontrôle interne, tous les voyants s’affichent à l’écran.  
+La dernière température prise s’affiche ensuite pendant 5 secondes. Écran à code couleur Age PrecisionMC
+Les recherches cliniques montrent que la définition de la fièvre change lorsque les 
+nouveaux-nés deviennent des enfants et que les enfants deviennent des adultes. 2
+Sélectionnez la tranche d’âge appropriée, prenez la température et l’écran deviendra 
+vert, jaune ou rouge pour indiquer si la température est normale, si la personne fait de 
+la fièvre ou une fièvre élevée, respectivement. L’appareil n’est conçu que pour mesurer 
+la température corporelle humaine. Il n’est pas conçu pour diagnostiquer ou surveiller 
+un trouble médical ou une maladie grave.
+Comment le ThermoScanMD Braun fonctionne-t-il ?
+Le thermomètre ThermoScan Braun mesure la chaleur infrarouge émise par le  
+tympan et les tissus environnants. Lorsque le thermomètre ThermoScan Braun  
+est placé dans l’oreille, il mesure l’énergie infrarouge en continu et l’indicateur  
+de stabilité ExactTempMD affiche un résultat seulement si le thermomètre détecte 
+qu’une mesure de température précise a été effectuée.
+Comment utiliser votre ThermoScanMD Braun ?
+1
+2
+17
+Le thermomètre est prêt à prendre une température lorsque l’écran correspond aux 
+images ci-dessous. 
+0-3 Mos >3-36 Mos >36 Mos – 
+ adult
+Sélectionnez l’âge à l’aide du bouton Age PrecisionMC  comme indiqué ci-dessous. 
+Appuyez sur le bouton pour passer d’un groupe d’âge à l’autre.
+REMARQUE : Sélectionnez un âge pour prendre une mesure.
+mois moismois
+L’indicateur d’embout jetable clignote pour signaler qu’un 
+embout jetable est nécessaire.
+Pour obtenir des mesures précises, assurez-vous qu’un 
+nouvel embout jetable propre est installé avant chaque 
+relevé de température.
+Fixez un nouvel embout jetable en poussant la sonde  
+du thermomètre directement dans l’embout jetable à 
+l’intérieur de la boîte, puis en la ressortant.
+Remarque : Le thermomètre ThermoScan Braun ne 
+fonctionne pas tant qu’il ne comporte pas d’embout jetable.
+Le voyant lumineux ExacTempMD clignote pendant que la mesure de la 
+température est en cours. 
+Le voyant lumineux reste fixe pendant 3 secondes pour indiquer que la 
+mesure de la température est terminée.
+REMARQUE : Si la sonde a été correctement introduite dans le conduit 
+auditif pendant la mesure, un long bip signale la fin de la mesure. 
+Si la sonde n’a PAS été placée dans une position stable et constante dans  
+le conduit auditif, une série de bips courts retentit, le voyant lumineux 
+ExacTemp s’éteint et l’écran affiche un message d’erreur (POS = erreur  
+de position).
+Pour plus de détails, voir la rubrique « Erreurs et dépannage ».
+Français
+Insérez complètement la sonde 
+dans le conduit auditif et 
+dirigez-la vers l’oreille ou la tempe 
+opposée.
+Une fois que la sonde est cor -
+rectement positionnée, appuyez 
+sur le bouton marche/arrêt et 
+relâchez. .
+Probe Cover
+ Probe Cover
+Probe Cover
+ Probe Cover3
+4
+5
+6Français
+18
+Le bip de confirmation signale qu’une température précise a été relevée.  
+Le résultat s’affiche à l’écran.
+0-3    3-36    36+
+Months0-3    3-36    36+
+Months0-3    3-36    36+
+Months
+Tranche d’âge
+0*-3 mois
+ 3-36 mois
+36 mois -   
+adulteVert  
+Température normale
+≥ 35,8 – ≤ 37,4 °C  
+(≥ 96,4 – ≤ 99,4 °F)
+≥ 35,4 – ≤ 37,6 °C  
+(≥ 95,7 – ≤ 99,6 °F)
+≥ 35,4 – ≤ 37,7 °C  
+(≥ 95,7 – ≤ 99,9 °F)Jaune  
+Fièvre
+> 37,6 – ≤ 38,5 °C  
+(> 99,6 – ≤ 101,3 °F)
+> 37,7 – ≤ 39,4 °C  
+(> 99,9 – ≤ 103,0 °F)Rouge  
+Forte fièvre
+> 37,4 °C  
+(> 99,4 °F)
+> 38,5 °C  
+(> 101,3 °F)
+> 39,4 °C  
+(> 103,0 °F)
+Pour la mesure suivante, appuyez sur le bouton eject 
+(éjecter)   pour retirer et jeter l’embout jetable utilisé 
+et installez-en un nouveau et propre.
+REMARQUE : Affiche par défaut la dernière tranche  
+d’âge utilisée si vous ne la modifiez pas.
+Le thermomètre auriculaire ThermoScan Braun s’éteint 
+automatiquement après 60 secondes d’inactivité. Il est 
+également possible de l’éteindre en appuyant sur le 
+bouton marche/arrêt . 
+L’indication OFF clignote brièvement puis l’écran 
+devient blanc.
+Conseils pour la mesure de la température
+Remplacez toujours les embouts jetables afin de préserver la précision et l’hygiène du thermomètre.  
+La prise de mesure peut différer entre l’oreille droite et l’oreille gauche. Par conséquent, veillez à toujours 
+prendre la température dans la même oreille. Pour obtenir une mesure précise, l’oreille ne doit pas être  
+obstruée ou présenter d’accumulation excessive de cérumen.
+Des facteurs externes peuvent influencer la température auriculaire, incluant notamment les suivants : 
+Facteur Influe sur la mesure  
+Mauvais positionnement de la sonde
+Embout jetable déjà utilisé
+Lentille sale
+Dans les cas indiqués ci-dessous, attendez 20 minutes avant de  
+prendre la température.
+Température ambiante extrêmement chaude ou froide
+Prothèse auditive
+Utilisez l’oreille non traitée si des gouttes auriculaires ou d’autres médicaments pour l’oreille ont été introduits 
+dans le conduit auditif.  
+Utilisez l’oreille vers le haut, si la personne était couchée sur le côté avec une oreille vers le bas sur un oreiller.* 0 mois est défini comme ayant un âge gestationnel supérieur ou égal à 37 semaines civiles à la naissance.7
+8
+19
+Mode « mémoire » 
+Ce modèle enregistre les 9 dernières mesures de température. Pour afficher les 
+mesures enregistrées, le thermomètre doit être allumé. 
+Appuyez sur le bouton Mem. 
+L’écran affiche la température et, lorsque le bouton Mem est relâché, la 
+température enregistrée  pour ce numéro de mémoire s’affiche avec un « M » 
+placé à côté. 
+Chaque fois que vous appuyez sur le bouton Mem,  
+la mesure enregistrée et un M s’affichent pour indiquer  
+la mesure de température concernée (par exemple M2).
+Le thermomètre quitte automatiquement le mode  
+« mémoire » après 5 secondes sans appuyer sur le  
+bouton mémoire.
+Fonction éclairage nuit 
+Ce thermomètre est équipé d’un éclairage nuit pratique pour illuminer  
+l’écran dans un environnement mal éclairé. 
+L’éclairage s’allume lorsque vous appuyez sur un bouton. Il reste allumé  
+jusqu’à ce que le thermomètre soit resté inactif pendant 15 secondes,  
+même après la prise de température.
+Comment passer de l’affichage en °F à l’affichage en °C
+Votre thermomètre ThermoScan Braun est fourni avec un affichage des températures  
+en degrés Fahrenheit (°F). Si vous souhaitez passer à un affichage en Celsius (°C) et/ou 
+retourner de l’affichage en Fahrenheit à celui en Celsius, procédez comme suit :
+Assurez-vous que le thermomètre est éteint.
+Maintenez le bouton marche/arrêt enfoncé . 
+Au bout d’environ 3 secondes, la séquence suivante apparaît à l’écran :  
+°F /  SET  /  °C  /  SET (°F  /  RÉGLER  /  °C  /  RÉGLER).
+3 Relâchez le bouton marche/arrêt  lorsque l’échelle de température souhaitée  
+s’affiche.Un court bip retentit pour confirmer le nouveau réglage, puis le thermomètre 
+s’éteintautomatiquement.1
+12
+23
+3
+FrançaisFrançais
+20Entretien et nettoyage
+La lentille est la partie la plus fragile du thermomètre. Elle doit être propre et intacte pour 
+garantir des mesures précises. En cas d’utilisation accidentelle du thermomètre sans embout 
+jetable, nettoyez la lentille de la façon suivante :
+Essuyez très délicatement la surface de la lentille à l’aide d’un tampon de coton ou d’un chiffon 
+doux imbibé d’alcool. Une fois l’alcool complètement évaporé, il est possible de mettre un 
+nouvel embout jetable et de prendre une mesure de température. 
+Si la lentille est endommagée, contactez le service des relations clients.
+Utilisez un chiffon doux et sec pour nettoyer l’écran et l’extérieur du thermomètre. N’utilisez pas de 
+produits de nettoyage abrasifs. Ne plongez jamais ce thermomètre dans l’eau ou dans un autre 
+liquide. Conservez le thermomètre et les embouts jetables dans un lieu sec exempt de toute 
+poussière, à l’abri de toute contamination et de la lumière directe du soleil. 
+Des embouts jetables supplémentaires (LF 40) sont disponibles dans la plupart des boutiques qui 
+proposent les produits ThermoScan Braun.
+Remplacement des piles
+Le thermomètre est fourni avec deux piles de 1,5 V de type AA (LR 06). 
+Insérez des piles neuves lorsque le symbole représentant une pile apparaît sur l’écran.
+Ouvrez le compartiment à piles. Retirez les piles et remplacez-les par des piles neuves, en 
+vous assurant de la bonne orientation des pôles. 
+Refermez le couvercle du logement à pile en l’enclenchant.
+Jetez uniquement des piles usagées. Dans un souci de protection de 
+l’environnement, jetez les piles usagées chez votre détaillant ou dans des 
+centres de collecte adaptés, conformément aux réglementations nationales 
+ou locales.
+Ne pas mélanger les piles alcalines, standards ou rechargeables.
+Étalonnage 
+Le thermomètre est initialement étalonné au moment de la fabrication. Si ce thermomètre est 
+utilisé conformément aux instructions d’utilisation, il n’est pas nécessaire d’effectuer 
+périodiquement des réajustements. Si, en tout temps, vous avez des questions concernant la 
+précision, veuillez communiquer avec le service à la clientèle. 
+POUR LE CANADA SEULEMENT :
+Le CODE DE DATE, situé dans le compartiment des piles, indique la date de fabrication. Les trois (3) premiers 
+chiffres après le CODE DE DATE représentent la date julienne du jour de fabrication et les deux (2) chiffres 
+suivants correspondent aux deux derniers chiffres de l’année de fabrication. Les lettres d’identification qui 
+viennent ensuite représentent le fabricant.
+Exemple : Le CODE DE DATE 11614KTC indique que cet appareil a été fabriqué le 116e jour de l’année 2014.The
+rmoScan1
+2
+3
+21
+Erreurs et dépannage
+Message d’erreur Situation Solution
+Aucun embout jetable n’est fixé. Fixez un nouvel embout jetable propre.
+La sonde du thermomètre n’a pas 
+été placée correctement dans 
+l’oreille. 
+Il n’a pas été possible de prendre 
+une mesure précise.Veillez au positionnement correct et 
+stable de la sonde. 
+Remplacez l’embout jetable et 
+repositionnez la sonde.
+Appuyez sur le bouton Start 
+(démarrage) pour commencer une 
+nouvelle mesure.
+La température ambiante ne 
+correspond pas aux températures 
+de fonctionnement autorisées (de 
+10 à  40 °C ou de 50  à  104 °F).Laissez le thermomètre reposer 30 
+minutes dans une pièce où la 
+température est comprise entre 10 et 
+40 °C ou 50 et 104 °F.
+La température prise ne se situe pas 
+dans la fourchette de températures 
+habituelle chez l’homme (de 34 
+à  42,2 °C ou de 93,2 à  108 °F).
+HI = trop élevée
+LO = trop faibleAssurez-vous que l’embout de la sonde 
+et la lentille sont propres et qu’un 
+nouvel embout jetable est installé. 
+Assurez-vous que le thermomètre est 
+correctement introduit. Puis, prenez 
+une nouvelle mesure de température.
+Erreur système – l’écran 
+d’autocontrôle clignote en continu 
+et n’est pas suivi du bip et du 
+symbole indiquant que le 
+thermomètre est prêt. 
+Si l’erreur persiste, 
+ 
+Si l’erreur persiste,
+Si l’erreur persiste toujours,Attendez 1 minute jusqu’à ce que le 
+thermomètre s’éteigne 
+automatiquement, puis rallumez-le. 
+ 
+ 
+... réinitialisez le thermomètre en retirant 
+les piles et en les remettant en place
+... changez les piles
+... contactez le centre d’entretien.
+Le niveau des piles est faible, mais le 
+thermomètre fonctionne toujours 
+correctement.   Changez les piles.
+Le niveau des piles est trop faible 
+pour permettre une mesure correcte 
+de la température.Changez les piles.
+FrançaisFrançais
+22Caractéristiques techniques du produit
+Fourchette des températures affichées : 34 à 42,2 °C  (93,2 à 108 °F) 
+Température ambiante de fonctionnement : 10 à 40 °C  (50 à 104 °F)  
+Température de stockage : -25 à 55 °C  (-13 à 131 °F)  
+Humidité relative de stockage :   HR de 15 à 95 % (sans condensation)  
+Humidité relative de fonctionnement :  10 à 95 %  
+Résolution d’affichage :  0,1 °C ou °F 
+Précision pour la fourchette des températures affichées Erreur maximale en laboratoire 
+35 °C à  42 °C (95 °F  à  107,6 °F) : ± 0,2 °C  (± 0,4 °F) 
+En dehors de cette fourchette :  ± 0,3 °C  (± 0,5 °F)  
+Répétabilité clinique :  ± 0,14 °C  (± 0,26 °F) 
+Site corporel de référence : Équivalent oral 
+Durée de vie des piles :   2 ans/350 mesures  
+Vie utile :   5 ans
+Ce thermomètre peut fonctionner à 1 atmosphère ou à des altitudes dont la pression atmosphérique ne 
+dépasse pas 1 (700 à 1 060 hPa). 
+Consulter la notice 
+d’utilisationPièces appliquées  
+de type BF10 °C40 °C
+Température de 
+fonctionnement Tenir au secTempérature de  
+stockage
+Sous réserve de modifications sans préavis.
+Cet appareil est conforme aux normes suivantes :
+Ce thermomètre infrarouge répond aux exigences établies dans la norme ASTM (E 1965-98) puisqu’elle 
+concerne les thermomètres infrarouges. Kaz USA, Inc. assume l’entière responsabilité quant à la conformité 
+de ce produit à la norme. Les exigences du laboratoire ASTM en matière d’exactitude dans l’échelle 
+d’affichage de 98 à 102 °F (37 à 39 °C) pour les thermomètres IR est de ±0,4 °F (±0,2 °C), tandis que pour les 
+thermomètres électroniques et ceux à mercure en verre, l’exigence selon les normes ASTM E 667-86 et E 
+1112-86, est de ±0,2 °F (±0,1 °C).
+EN ISO 80601-2-56: – Appareils électromédicaux - Partie 2-56 : Règles particulières pour la sécurité de base et 
+les performances essentielles des thermomètres cliniques pour prendre la température corporelle.
+EN IEC 60601-1:Appareils électromédicaux – Partie 1 : Exigences générales pour la sécurité de base et les 
+performances essentielles.
+EN ISO 14971 : Dispositifs médicaux – Application de la gestion des risques aux dispositifs médicaux.
+EN ISO 10993-1 : Évaluation biologique des dispositifs médicaux – Partie 1 : Évaluation et essais au sein d’un 
+système de gestion du risque.
+EN IEC 60601-1-2 : Appareils électromédicaux – Partie 1-2 : Exigences générales pour la sécurité de base et 
+les performances essentielles – Norme collatérale : Compatibilité électromagnétique – Exigences et essais.
+EN ISO 15223-1: - Dispositifs médicaux. Symboles à utiliser avec les étiquettes, l’étiquetage et les 
+informations à fournir relatifs aux dispositifs médicaux. Exigences générales.
+EN IEC 60601-1-11 : Appareils électromédicaux – Partie 1-11 : Exigences générales pour la sécurité de base et 
+les performances essentielles -- Norme collatérale : Exigences pour les appareils électromédicaux et les 
+systèmes électromédicaux utilisés dans l’environnement des soins à domicile.
+Ce produit est conforme aux dispositions de la Directive européenne 93/42/CEE.
+Les APPAREILS ÉLECTROMÉDICAUX requièrent des précautions particulières en matière de compatibilité 
+électromagnétique. Pour une description détaillée des exigences en matière de compatibilité 
+électromagnétique, contactez votre centre d’entretien agréé local (voir la carte de garantie).
+Les appareils de communication RF portables et mobiles peuvent perturber les APPAREILS 
+ÉLECTROMÉDICAUX.
+Ne jetez pas le produit dans les ordures ménagères à la fin de sa durée de vie.   
+ 
+Dans un souci de protection de l’environnement, jetez les piles usagées dans des centres de collecte 
+adaptés, conformément aux réglementations nationales ou locales. 
+Garantie
+Carte Consommateur disponible sur notre site : http://www.hot-europe.com/fr/sav/
+Veuillez consulter la dernière page de ce manuel afin de trouver les coordonnées du Centre de Services 
+après-vente Kaz agréé de votre pays.Attention, consultez les 
+documents d’accompagnementHumidité relative  
+de stockage Humidité relative de 
+fonctionnement  
+Embout jetable :  
+ne pas réutiliserFabricant Date de 
+fabrication2
+Numéro  
+de sérieNuméro 
+de lot
+23
+ Garantie limitée de trois ans 
+Vous devriez d’abord lire les instructions au complet avant de tenter d’utiliser le produit.
+A.  Cette garantie limitée de 3 ans s’applique à la réparation ou au remplacement d’un produit qui s’avère défectueux en 
+raison d’un vice de matériau ou de main-d’oeuvre. Cette garantie ne couvre pas les dommages résultant d’une utilisation 
+commerciale, abusive ou excessive, ni les dommages associés. Les dommages qui résultent de l’usure normale ne sont 
+pas considérés comme des défectuosités en vertu de cette garantie. KAZ DÉCLINE TOUTE RESPONSABILITÉ EN CAS DE 
+DOMMAGES ACCESSOIRES OU INDIRECTS DE QUELQUE NATURE QUE CE SOIT. TOUTE GARANTIE IMPLICITE DE 
+COMMERCIABILITÉ OU DE PERTINENCE À DES FINS PARTICULIÈRES SUR CE PRODUIT EST LIMITÉE À LA DURÉE DE 
+CETTE GARANTIE. Certains États n’autorisent pas l’exclusion ou la limitation des dommages accessoires ou indirects, ou 
+la limitation de la durée d’une garantie implicite, de sorte que les limites ou exclusions ci-dessus peuvent ne pas 
+s’appliquer à vous. Cette garantie vous accorde des droits légaux particuliers, et vous pouvez avoir en plus d’autres droits 
+qui varient selon les États. Cette garantie ne s’applique qu’à l’acheteur initial de ce produit, à partir de la date d’achat.
+B.  Kaz peut, à son gré, réparer ou remplacer ce produit s’il s’avère défectueux en raison d’un vice de matériau ou de 
+main-d’oeuvre.
+C.  Cette garantie ne couvre pas les dommages résultant d’une tentative non autorisée de réparer cet appareil, ni d’une 
+utilisation non conforme à ce manuel d’instructions.
+Téléphonez-nous sans frais au : 1-800-327-7226  
+Courriel :  ConsumerRelations@HelenofTroy.com
+N’oubliez pas d’indiquer le numéro de modèle.
+REMARQUE : SI VOUS AVEZ UN PROBLÈME, VEUILLEZ COMMUNIQUER AVEC NOTRE SERVICE À LA CLIENTÈLE OU 
+RELIRE LA GARANTIE. NE RETOURNEZ PAS LE PRODUIT AU MAGASIN OÙ VOUS L’AVEZ ACHETÉ INITIALEMENT. 
+N’ESSAYEZ PAS D’OUVRIR LE BOÎTIER DU MOTEUR, CAR CE FAISANT VOUS RISQUEZ D’ANNULER LA GARANTIE, 
+D’ENDOMMAGER L’APPAREIL OU DE VOUS BLESSER.
+IRT6520
+IRT6520IRT6520IRT6520
+a)
+a)
+b)
+f)e)c)
+d)Français
+24IRT6520
+IRT6520IRT6520IRT6520
+a)
+a)
+b)
+f)e)c)
+d)
+ 
+Directives et déclaration du fabricant - Immunité de l'équipement de communication RF sans fil 
+Fréquence
+du test 
+(MHz) Bande a) 
+ 
+(MHz) Service a) Modulation b) Puissance 
+maximale 
+(W)  
+Distance 
+ 
+(m) NIVEAU DU 
+TEST  
+D’IMMUNITÉ 
+ 
+(V/m) 
+ 
+385  
+380 - 390  
+TETRA 400 Modulation 
+par 
+impulsions b) 
+18 Hz  
+1,8  
+0,3  
+27 
+ 
+450  
+430 - 470  
+GMRS 460, 
+FRS 460 FM c) 
+± 5 kHz d’écart-
+type 
+1 kHz sinusoïdale  
+2  
+0,3  
+28 
+710  
+ 
+704 - 787  
+Bande  LTE 13, 
+17 Modulation 
+par impulsions b) 
+217 Hz  
+ 
+0,2  
+ 
+0,3  
+ 
+9 745 
+780 
+810  
+ 
+800 - 960 GSM 800/900; 
+TETRA 800; 
+iDEN 820; 
+CDMA 850; 
+Bande  LTE 5  
+Modulation 
+par 
+impulsions b) 
+18 Hz  
+ 
+2  
+ 
+0,3  
+ 
+28 870 
+930 
+1720  
+ 
+1700  - 
+1990 GSM 1800 , 
+CDMA 1900 , 
+GSM 1900 , 
+DECT, 
+Bande  LTE 1, 
+3, 
+4, 25 ; UMTS  
+Modulation 
+par impulsions b) 
+217 Hz  
+ 
+2  
+ 
+0,3  
+ 
+28 1845 
+1970 
+ 
+2450  
+2400  - 
+2570 Bluetooth, 
+Réseau local 
+sans fil, 
+802.11 b/g/n, 
+RFID 2450 , 
+Bande  LTE 7  
+Modulatio
+n par 
+impulsions b) 
+217 Hz  
+ 
+2  
+ 
+0,3  
+ 
+28 
+5240  
+5100  - 
+5800  
+Réseau local 
+sans fil 802.11 
+a/n  
+Modulation 
+par impulsions b) 
+217 Hz  
+ 
+0,2  
+ 
+0,3  
+ 
+9 5500 
+5785 
+a)  Certains services comprennen t uniquement les fréquenc es de liaisons ascendan tes. 
+b)  L’onde  porteuse doit être modulée à l'aide d'une onde  carrée à rappo rt cyclique modulée à 50%. 
+c) Comme alternative à la modulation de fréquence , une modulation par impulsions à 18 Hz de 50% peut être utilisée 
+car, bien qu'elle ne représente pas une modulation réelle, elle serait la pire option. 
+25
+Filtro para la lente (caja de 20)
+Punta de la sonda  
+Sonda
+Luz ExacTemp®
+Eyector del filtro para la lente
+Pantalla
+Botones de memoria y Age Precision™
+Botón de encendido y apagado
+Botón de inicio
+Puerta de las pilas
+Funda protectora
+El termómetro Braun ThermoScan se ha desarrollado cuidadosamente para obtener mediciones de 
+temperatura precisas, seguras y rápidas en el oído. 
+La forma de la sonda del termómetro impide que el tímpano resulte dañado debido a una inserción 
+demasiado profunda en el conducto auditivo.
+Sin embargo, como con cualquier termómetro, el uso de la técnica adecuada es fundamental para obtener 
+temperaturas exactas. 
+Por lo tanto, lea atenta y minuciosamente todas las instrucciones. 
+Indicaciones de uso/Uso previsto 
+El termómetro Braun ThermoScan está indicado para la medición intermitente y el control de la temperatura 
+corporal humana en personas de todas las edades. Está diseñado exclusivamente para uso doméstico.
+Advertencias y precauciones
+Consulte con su médico si observa síntomas como irritabilidad inexplicable, vómitos, diarrea, 
+deshidratación, cambios en el apetito o la actividad, convulsiones, dolor muscular, temblores, rigidez del 
+cuello, dolor al orinar, etc., a pesar de cualquier color de la luz de retroiluminación o ausencia de fiebre.
+Consulte con su médico si el termómetro muestra fiebre (retroiluminación amarilla o roja).
+El rango de temperatura ambiente de funcionamiento de este termómetro es de 10 – 40 °C (50 – 104 °F).
+NO exponga el termómetro a temperaturas extremas (por debajo de 25 °C / –13 °F / o más de 55 °C / 131 °F) o 
+humedad excesiva (15- 95 % HR). 
+Este termómetro solo debe utilizarse con filtros de lente originales ThermoScan de Braun (LF 40).
+Para evitar mediciones inexactas SIEMPRE use este termómetro con un filtro de lente nuevo y  
+limpio adjunto.
+Si el termómetro se utiliza accidentalmente sin un filtro de lente adjunto, limpie la lente (consulte la sección 
+«Cuidado y limpieza»). 
+Mantenga los filtros de lentes fuera del alcance de los niños.
+Este termómetro está diseñado solo para uso doméstico. 
+El uso de este termómetro no pretende ser un sustituto de la consulta con su médico.Descripción del producto
+1
+2
+3
+4
+5
+6
+7
+8
+9
+1110Español
+261 Guyton A C, Textbook of Medical Physiology, W.B. Saunders, Philadelphia, 1996, p 919.Este termómetro no está destinado para bebés prematuros o bebés recién nacidos pequeños para la edad 
+gestacional (desde el nacimiento hasta las 4 semanas de edad).  Prematuro se define como los bebés 
+nacidos antes de las 37 semanas de gestación. Pequeño para la edad gestacional se define como un bebé 
+recién nacido, nacido a las 37 semanas o después, con un peso por debajo del percentil 10 para los bebés 
+recién nacidos de la misma edad gestacional.
+Este termómetro no está diseñado para bebés prematuros o bebés pequeños para la edad gestacional.  
+Las madres lactantes no deben tomar una medición de temperatura en sí mismas o hacer que su 
+temperatura sea medida por otra persona mientras o inmediatamente después de amamantar a un bebé, 
+ya que la lactancia puede afectar la temperatura corporal. 
+Este termómetro no está destinado para interpretar temperaturas hipotérmicas. Si el dispositivo muestra 
+una temperatura de 36.4°C (97.5°F) o menor con una luz de fondo LED verde o blanca, y el individuo 
+presenta síntomas o comportamientos atípicos, comuníquese con su médico o profesional de la salud.
+DO NOT allow children to take their temperature unattended.
+NO permita que los niños se tomen la temperatura sin supervisión.
+Las personas que toman antibióticos, analgésicos o antipiréticos no deben evaluarse únicamente en las 
+lecturas de temperatura para determinar la gravedad de su enfermedad. 
+La elevación de la temperatura puede indicar una enfermedad grave, especialmente en recién nacidos y 
+bebés, o en adultos de la tercera edad, frágiles o con un sistema inmunológico debilitado. Por favor busque 
+inmediatamente asesoramiento profesional cuando haya una elevación de temperatura y si está tomando 
+la temperatura en:
+•  Recién nacidos y bebés menores de 3 meses (Consulte inmediatamente a su médico si la temperatura 
+excede los 37.4 °C ó 99.4 °F).
+•  Personas con diabetes mellitus o un sistema inmunológico debilitado (por ejemplo, VIH positivo, 
+quimioterapia contra el cáncer, tratamiento inmunosupresor crónico, esplenectomía). 
+•  Personas que están postradas en cama (por ejemplo, paraplejia, cuadriplejia, accidente cerebrovascular, 
+enfermedad crónica, recuperación quirúrgica, paciente de asilo de ancianos, recuperación de cirugía).
+•  Receptor de trasplante (por ejemplo, hígado, corazón, pulmón, riñón).
+Este termómetro contiene partes pequeñas que se pueden ingerir o producir un riesgo de asfixia para los 
+niños. Mantenga fuera del alcance de los niños.
+Temperatura corporal
+La temperatura corporal normal es un rango. Varía según la zona de medición y tiende a disminuir 
+con la edad. También varía de una persona a otra y fluctúa durante el día. Por tanto, es importante 
+determinar los rangos normales de temperatura. Esto se realiza fácilmente utilizando el termómetro 
+Braun ThermoScan. Practique midiéndose usted mismo la temperatura y a familiares sanos para 
+determinar el rango normal de temperatura.
+Nota: Cuando consulte con su médico, comuníquele que la temperatura medida con el termómetro 
+¿Por qué medir en el oído?
+El objetivo de la termometría es medir la temperatura central del cuerpo1, que es la 
+temperatura de los órganos vitales. La temperatura del oído refleja de forma precisa la 
+temperatura central del cuerpo3, puesto que el tímpano comparte el suministro de sangre con 
+el centro de control de la temperatura en el cerebro4, el hipotálamo. Por tanto, los cambios en 
+la temperatura corporal se reflejan antes en el oído que en otras zonas. La temperatura axilar 
+mide la temperatura de la piel y puede que no sea un indicador fiable de la temperatura central 
+del cuerpo. La temperatura oral se ve influenciada al beber, comer y respirar por la boca.  
+La temperatura rectal con frecuencia se retrasa en relación a los cambios en la temperatura 
+central del cuerpo y existe riesgo de contaminación cruzada. ThermoScan se ha obtenido  
+en el oído y si es posible, indíquele el rango normal de temperatura con el termómetro ThermoScan  
+como referencia adicional.
+27
+Pantalla Age Precision™ codificada por colores
+La investigación clínica muestra la definición de los cambios de la fiebre cuando los recién 
+nacidos crecen en niños y los niños se convierten en adultos. 2
+ Seleccione el ajuste de edad apropiado, tome la temperatura, y la pantalla se encenderá de 
+color verde, amarillo o rojo para indicar si la temperatura está en un rango normal, de fiebre  
+o de fiebre alta, respectivamente. El dispositivo está diseñado únicamente para la medición 
+de la temperatura del cuerpo humano. No está diseñado para diagnosticar o monitorear una 
+afección o enfermedad médica grave.
+¿Cómo funciona el termómetro Braun ThermoScan®?
+ThermoScan de Braun mide el calor infrarrojo generado por el tímpano y los tejidos 
+circundantes. Cuando se coloca en el oído, el ThermoScan de Braun  monitorea 
+continuamente la energía infrarroja y el Indicador de Estabilidad ExactTemp® muestra  
+una lectura solo si el termómetro detecta que se ha tomado una medición de temperatura 
+precisa y estable.
+Cómo usar el termómetro Braun ThermoScan®
+Retire el termómetro de la funda protectora.
+2 Herzog L, Phillips S. Addressing Concerns About Fever. Clinical Pediatrics. 2011; 50(#5): 383-390.  
+3 Guyton A C, Textbook of Medical Physiology, W.B. Saunders, Philadelphia, 1996, pp 754-5. 
+4 Netter H F, Atlas of Human Anatomy, Novartis Medical Education, East Hanover, NJ, 1997, pp 63, 95. Presione el botón de encendido y apagado .
+Durante una autocomprobación interna, la pantalla muestra 
+todos los segmentos. Después, la última temperatura medida 
+se visualizará durante 5 segundos. Español
+1
+2
+28
+0-3 Mos >3-36 Mos >36 Mos – 
+ adult
+Seleccione la edad con el botón Age Precision      como se muestra a continuación.
+Presione el botón para cambiar entre cada grupo de edad. 
+NOTA : Usted debe seleccionar una edad para realizar una medición.
+El indicador del filtro para la lente parpadeará para 
+indicar que se necesita uno.
+Para lograr mediciones exactas, asegúrese de instalar 
+un filtro para la lente nuevo y limpio antes de cada 
+medición.
+Instale un nuevo filtro para la lente introduciendo la 
+sonda del termómetro directamente en el filtro para la 
+lente dentro de la caja y después extráigala.
+Nota: El termómetro Braun ThermoScan no funcionará 
+salvo que se instale un filtro para la lente.
+La luz Indicadora de Estabilidad ExacTemp® pulsará mientras la medición de 
+temperatura está en curso.
+La luz permanecerá sólida durante 3 segundos para indicar que se ha 
+obtenido una lectura satisfactoria de temperatura.
+NOTA : Si la sonda se ha introducido correctamente en el conducto auditivo 
+durante la medición, sonará un pitido largo para indicar que la medición ha 
+terminado. 
+Si la sonda NO ha permanecido constantemente en una posición estable en 
+el conducto auditivo, sonará una secuencia de pitidos cortos, la luz  
+ExacTemp se apagará y la pantalla mostrará un mensaje de error (POS = error 
+de posición).
+Vea la sección «Errores y resolución de problemas» para obtener más 
+informaciónEl termómetro está listo para medir la temperatura cuando la pantalla tiene el aspecto de las 
+imágenes que se ven a continuación. 
+Inserte completamente la sonda en el 
+canal auditivo y apunte directamente 
+hacia el oído o la sien opuestos.
+Una vez colocado correctamente, pulse 
+y suelte el botón de inicio .
+Probe Cover
+ Probe Cover
+Probe Cover
+ Probe Cover3
+4
+5
+6
+29
+El pitido de confirmación indica que se ha obtenido una medición exacta de la 
+temperatura. El resultado se muestra en la pantalla.
+0-3    3-36    36+
+Months0-3    3-36    36+
+Months0-3    3-36    36+
+Months
+Rango de edad
+0*-3 meses 
+ 3-36 meses
+36 meses - 
+adultoVerde  
+Temperatura normal
+≥35,8 – ≤37,4 °C  
+(≥96,4 – ≤99,4 °F)
+≥35,4 – ≤37,6 °C  
+(≥95,7 – ≤99,6 °F)
+≥35,4 – ≤37,7 °C  
+(≥95,7 – ≤99,9 °F)Amarillo  
+Temperatura elevada
+>37,6 – ≤38,5 °C  
+(>99,6 – ≤101,3 °F)
+>37,7 – ≤39,4 °C  
+(>99,9 – ≤103,0 °F)Rojo  
+Temperatura alta
+>37,4 °C  
+(>99,4 °F)
+>38,5 °C  
+(>101,3 °F)
+>39,4 °C  
+(>103,0 °F)
+Para la siguiente medición, pulse el botón Expulsar   para 
+quitar y desechar el filtro para la lente utilizado e instalar un 
+nuevo filtro limpio.
+NOTA: Si no lo cambia, la edad predeterminada será la última 
+edad utilizada.
+El termómetro Braun ThermoScan para el oído se apaga 
+automáticamente después de 60 segundos de  
+inactividad. El termómetro también se puede apagar  
+pulsando el botón de encendido y apagado . 
+Parpadeará brevemente OFF (Apagar) en la pantalla  
+y esta se quedará en blanco.
+Consejos para tomar la temperatura
+Sustituya siempre los filtros desechables para la lente para mantener la precisión y la higiene. La medición en el oído 
+derecho puede diferir de la medición obtenida en el oído izquierdo. Por tanto, mida siempre la temperatura en el 
+mismo oído. Para obtener una lectura exacta, el oído no debe tener obstrucciones ni una cantidad excesiva de cera.
+Hay factores externos que pueden afectar a las temperaturas en el oído, como por ejemplo los siguientes: 
+Factor Afecta
+Mala colocación de la sonda
+Filtro para la sonda utilizado
+Lente sucia
+En los siguientes casos, espere 20 minutos antes de medir la temperatura.
+Temperatura ambiente excesivamente alta o baja
+Audífono
+Usar el oído sin tratar si se han echado gotas u otro medicamento para los oídos en el conducto auditivo.  
+Utilice el oído que ha estado hacia arriba, si el individuo ha estado acostado de lado con un oído hacia abajo  
+sobre una almohada.*Se define como 0 meses a tener una edad gestacional mayor o igual a 37 semanas de calendario al nacer.7
+8Español
+30Modo Memoria 
+Este modelo almacena las últimas 9 mediciones de la temperatura. Para mostrar la 
+medición almacenada, el termómetro debe estar encendido. 
+Pulse el botón Mem. 
+La panta lla muestra la temperatura y, cuando se suelta el botón Mem, se muestra la 
+temperatura almacenada para ese número de memorización, junto con “M” . 
+Cada vez que se presione el botón Mem, aparece la lectura 
+almacenada y una M para indicar cada medición de temperatura (por 
+ejemplo, M2).
+Se sale automáticamente del modo Memoria si no se presiona el 
+botón de memoria durante 5 segundos.
+ 
+La última temperatura medida se conserva en su memoria  
+y se mostrará automáticamente durante 5 segundos cuando  
+se encienda de nuevo el termómetro.
+Función de luz nocturna 
+El termómetro incluye una práctica luz nocturna que ilumina la pantalla 
+en un ambiente tenue. 
+La luz se encenderá cuando presione cualquier botón. Permanecerá 
+encendida hasta que el termómetro esté inactivo durante un período 
+máximo de 15 segundos incluso después de haber medido la 
+temperatura.
+Cómo cambiar la temperatura entre °F y °C
+Su termómetro Braun ThermoScan se envía con la escala de 
+temperatura en grados Fahrenheit (°F) activada. Si desea cambiar  
+a Celsius (°C) y/o cambiar de grados Fahrenheit a Celsius, proceda  
+como se indica a continuación:
+Asegúrese de que el termómetro está apagado.
+Presione y mantenga pulsado el botón de encendido y  
+apagado . Después de unos 3 segundos, la pantalla  
+mostrará esta secuencia: °F  /  SET (CONFIGURAR)  /  °C  /  SET 
+(CONFIGURAR).
+Suelte el botón de encendido  y apagado cuando se muestre 
+la escala de temperatura deseada. Se escuchará un pitido corto 
+para confirmar el nuevo valor de configuración; después, el 
+termómetro se apaga automáticamente.1
+2
+3
+1
+1
+2
+3
+31
+Cuidado y limpieza
+La punta de la sonda es la pieza más delicada del termómetro. Debe estar limpia e intacta para 
+asegurar lecturas precisas. Si el termómetro se utiliza accidentalmente sin un filtro para la lente, 
+limpie la punta de la sonda como se indica a continuación:
+Limpie muy suavemente la superficie con una torunda de algodón o con un paño suave 
+humedecido con alcohol. Después de que el alcohol se haya secado, puede instalar un nuevo 
+filtro para la lente y realizar una medición de la temperatura. 
+Si la punta de la sonda está dañada, comuníquese con Atención al Cliente.
+Utilice un paño suave y seco para limpiar la pantalla y el exterior del termómetro. No utilice 
+limpiadores abrasivos. Nunca sumerja este termómetro en agua ni en ningún otro líquido. 
+Almacene el termómetro y los filtros para la lente en un lugar seco libre de polvo y 
+contaminación y alejado de la luz solar directa. 
+Se pueden comprar filtros para la lente (LF 40) adicionales en la mayoría de las tiendas que 
+venden el termómetro Braun ThermoScan.
+Sustitución de las pilas
+El termómetro se suministra con dos pilas de 1,5 V de tipo AA (LR 06).
+Instale pilas nuevas cuando aparezca el símbolo de una pila en la pantalla.
+Abra el compartimiento de las pilas. Extraiga las pilas e instale pilas nuevas, 
+asegurándose de que los polos están en la dirección correcta. 
+Encaje la puerta de las pilas en su lugar.
+Deseche solamente las pilas descargadas. Para proteger el medioambiente, 
+elimine las pilas usadas en su tienda de venta al por menor o en un punto de 
+recogida adecuado de conformidad con la normativa local o nacional.
+No mezcle pilas alcalinas, estándar o recargables.
+Calibrado 
+El termómetro es calibrado inicialmente en el momento de fabricación. Si este termómetro se 
+usa de acuerdo con las instrucciones de uso, no es necesario el reajuste periódico. Si en cualquier 
+momento se cuestiona de la exactitud, por favor contacte Servicio al Consumidor.
+SOLO PARA CANADÁ: 
+La fecha de fabricación es dada por el número de CÓDIGO DE FECHA ubicado dentro del 
+compartimiento de la batería. Los primeros tres (3) dígitos después del CÓDIGO DE FECHA representan 
+la fecha Juliana  
+en la que el producto fue fabricado y los siguientes dos (2) dígitos representan los dos últimos números  
+del año en el que el producto fue fabricado. Los últimos identificadores son las letras que representan  
+el fabricante.
+Un ejemplo: CÓDIGO DE FECHA 11614KTC, este producto ha sido fabricado el 116º día del año 2014.The
+rmoScanEspañol
+1
+32
+32Errores y resolución de problemas
+Mensaje de error Situación Solución
+No se ha instalado ningún filtro para 
+la lente.Instale un nuevo filtro limpio para la 
+lente.
+La sonda del termómetro no se ha 
+colocado de manera segura en el 
+oído. 
+No ha sido posible obtener una 
+medición exacta.Tenga cuidado de que la posición de la 
+sonda sea correcta y permanezca 
+estable.
+Cambie el filtro para la lente y cambie 
+de posición. 
+Presione el botón de inicio para 
+empezar una nueva medición.
+La temperatura ambiente no está 
+dentro del rango de funcionamiento 
+permitido (10  –  40 °C o 50  –  104 °F).Deje el termómetro durante 30 minutos 
+en una habitación donde la 
+temperatura sea entre 10 y 40 °C o 50 y 
+104 °F.
+La temperatura medida no está 
+dentro del rango normal de 
+temperatura en el ser humano 
+(34  –  42,2 °C o 93,2  –  108 °F).
+HI = demasiado alta
+LO = demasiado bajaAsegúrese de que la punta de la sonda y 
+las lentes estén limpias y se haya 
+instalado un nuevo filtro limpio para la 
+lente. Asegúrese de que el termómetro 
+está correctamente introducido. 
+Después, obtenga una nueva 
+temperatura.
+Error del sistema: la pantalla de 
+autocomprobación parpadea 
+continuamente y no vendrá seguida 
+por el pitido de listo y el símbolo de 
+listo. 
+Si persiste el error,
+Si el error todavía persiste,Espere 1 minuto hasta que el 
+termómetro se apague 
+automáticamente; después, enciéndalo 
+de nuevo. 
+ 
+ 
+... reinicie el termómetro quitando las 
+pilas y volviéndolas a instalar. 
+ 
+... comuníquese con el centro de 
+servicio técnico.
+La carga de las pilas es baja, pero el 
+termómetro todavía funcionará 
+correctamente.Instale pilas nuevas.
+La carga de las pilas es demasiado 
+baja para obtener una medición 
+correcta de la temperatura.Instale pilas nuevas.
+33
+Especificaciones del producto
+Rango de la temperatura visualizada: 34 – 42,2 °C  (93,2 – 108 °F) 
+Rango de temperatura ambiente de funcionamiento: 10 – 40 °C  (50 – 104 °F)  
+Rango de temperatura de almacenamiento: -25 – 55 °C  (-13 – 131 °F)  
+Humedad relativa de almacenamiento:  Almacenamiento 15-95% HR (sin condensación)  
+Humedad relativa de funcionamiento:  Funcionamiento 10-95%  
+Resolución de la pantalla:  0,1 °C o °F 
+Precisión del rango de temperatura visualizada  Error máximo de laboratorio 
+35 °C  –  42 °C (95 °F  –  107,6 °F): ± 0,2 °C  (± 0,4 °F) 
+Fuera de este rango:  ± 0,3 °C  (± 0,5 °F)  
+Reproducibilidad clínica:  ± 0,14 °C  (± 0,26 °F)  
+Sitio del Cuerpo de Referencia: Equivalente Oral 
+Duración de la batería:   2 años/350 mediciones  
+Vida útil:   5 años
+Este termómetro está especificado para que funcione en 1 atmósfera ó a altitudes con una presión atmosférica 
+de hasta 1 atmósfera (700 - 1060 hPa).
+ 
+Consulte  las instrucciones  
+de usoPiezas  aplicadas  
+tipo BF10 °C40 °C
+Temperatura de 
+funcionamientoMantener seco Temperatura de 
+almacenamiento
+Sujeto a cambios sin aviso.
+Este aparato cumple las siguientes normas de homologación:
+Este termómetro infrarrojo cumple con los requisitos establecidos en la Norma ASTM (E 1965-98) en lo que 
+respecta a los termómetros infrarrojos. Toda la responsabilidad por la conformidad de este producto con la 
+norma es asumida por Kaz USA, Inc. Los requisitos de precisión de laboratorio ASTM en el rango de visualización 
+de 98 a 102 °F (37 a 39 °C) para termómetros infrarrojos es +0.4 °F (+0.2 °C), mientras que para los termómetros 
+de mercurio y electrónicos, el requisito por Normas ASTM E 667-86 y E 1112-86 es +0.2 °F (+0.1°C).
+EN ISO 80601-2-56: – Equipo eléctrico médico - Parte 2-56: Requisitos particulares para la seguridad básica  
+y el funcionamiento esencial de los termómetros clínicos para la medición de la temperatura corporal.
+EN IEC 60601-1:2006+A11:Equipos electromédicos. Parte 1: Requisitos generales para la seguridad básica  
+y funcionamiento esencial.
+EN ISO 14971: Productos sanitarios. Aplicación de la gestión de riesgos a los productos sanitarios.
+EN ISO 10993-1: Evaluación biológica de dispositivos médicos. Parte 1: Evaluación y ensayo dentro de un 
+proceso de gestión de riesgos.
+EN IEC 60601-1-2: Equipos electromédicos. Parte 1-2: Requisitos generales para la seguridad básica  
+y el funcionamiento esencial. Estándar colateral: Compatibilidad electromagnética. Requisitos y pruebas.
+EN ISO 15223-1: - Dispositivos médicos. Los símbolos utilizados con etiquetas de dispositivos médicos, 
+etiquetado e información por suministrar. Requisitos generales.
+EN IEC 60601-1-11: Equipos electromédicos. Parte 1-11: Requisitos generales para la seguridad básica  
+y el funcionamiento esencial. Estándar colateral: Requisitos para equipo electromédico y sistemas 
+electromédicos utilizados para el cuidado en el entorno médico del hogar.
+Este producto cumple las disposiciones de la directiva 93/42/CEE del Consejo.
+EQUIPO ELECTROMÉDICO con precauciones especiales relativas a la compatibilidad electromagnética.  
+Para obtener una descripción detallada de los requisitos de CEM, comuníquese con su servicio técnico local 
+autorizado (véase la tarjeta de garantía).
+Los equipos de comunicación por RF móviles y portátiles pueden afectar a los EQUIPOS ELECTROMÉDICOS.
+No deseche este producto junto con los residuos domésticos una vez agotada su vida útil.   
+Para proteger el medioambiente, elimine las pilas usadas en un punto de recogida adecuado de 
+conformidad con la normativa local o nacional. Atención, consulte los 
+documentos adjuntossHumedad relativa de 
+almacenamientoHumedad relativa de 
+funcionamiento
+Filtro de lente higiénico: 
+No reutilizarFabricante Fecha de 
+Fabricación2Español
+Número  
+de SerieNúmero  
+de Lote
+34Garantía limitada de tres años 
+Antes de usar este producto, por favor lea completamente las instrucciones.
+A.  La presente garantía limitada de 3 años cubre la reparación o reemplazo del producto si éste presenta un defecto de fábrica o de mano de obra. Esta 
+garantía excluye todo daño resultante del uso comercial, abusivo o inadecuado del producto, o de daños asociados. Los defectos resultantes del 
+desgaste normal no se consideran defectos de fábrica en virtud de la presente garantía. KAZ NO SERÁ CONSIDERADA RESPONSABLE DE DAÑOS 
+FORTUITOS O INDIRECTOS DE NINGÚN TIPO. TODA GARANTÍA IMPLÍCITA DE CALIDAD COMERCIAL O DE CONVENIENCIA CON UN FIN 
+ESPECÍFICO RELACIONADA CON ESTE PRODUCTO TENDRÁ LA MISMA VIGENCIA QUE LA PRESENTE GARANTÍA. En ciertos lugares no se 
+permite la exclusión o limitación de daños fortuitos o indirectos, ni los límites de duración aplicables a una garantía implícita. Por consiguiente, es 
+posible que estas limitaciones o exclusiones no se apliquen en su caso. Esta garantía le confiere ciertos derechos legales específicos. Es posible que 
+usted también tenga otros derechos legales, los que varían según la jurisdicción. La presente garantía sólo es válida para el comprador inicial del 
+producto a partir de la fecha de compra.  
+B.  A su discreción, Kaz reparará o reemplazará el presente producto si se constata que presenta un defecto de fábrica o de  
+mano de obra. 
+C.  Esta garantía no cubre los daños ocasionados por tentativas de reparación no autorizadas o por todo uso que no esté en concordancia con el 
+presente manual.
+Llámenos lada gratuita al: 1-800-327-7226;  Correo Electrónico: ConsumerRelations@HelenofTroy.com  
+Por favor asegúrese de especificar el número de modelo.
+NOTA: SI TIENE PROBLEMAS, POR FAVOR LLAME PRIMERO A SERVICIO AL CLIENTE O CONSULTE SU GARANTÍA. NO DEVUELVA AL LUGAR 
+ORIGINAL DE COMPRA. NO INTENTE ABRIR LA CARCASA DEL MOTOR USTED MISMO, HACERLO PODRÍA ANULAR SU GARANTÍA Y CAUSAR 
+DAÑO AL PRODUCTO P DAÑOS CORPORALES.
+Los termómetros IRT6020, IRT6030 e IRT6510 están diseñados para utilizarse en el entorno 
+electromagnético especi/f_icado a continuación. El cliente o el usuario de los termómetros 
+IRT6020, IRT6030 y IRT6510 debe asegurarse de que se utiliza en dichoentorno.
+El equipo IRT6520 está indicado para usar en el entorno electromagnético que se especi/f_ica a continuación.
+El cliente o el usuario del equipo IRT6520 deben asegurarse de que se utiliza en dicho entorno.
+35
+Los termómetros IRT6020, IRT6030 e IRT6510 están diseñados para utilizarse en el entorno 
+electromagnético especi/f_icado a continuación. El cliente o el usuario de los termómetros 
+IRT6020, IRT6030 y IRT6510 debe asegurarse de que se utiliza en dichoentorno.
+El equipo IRT6520 está indicado para usar en el entorno electromagnético que se especi/f_ica a continuación.
+El cliente o el usuario del equipo IRT6520 deben asegurarse de que se utiliza en dicho entorno.
+Guía y declaración del fabricante - Inmunidad de equipos de comunicaciones inalámbricas por RF
+Prueba de
+frecuenciaPotencia
+MáximaNIVEL DE PRUEBA
+DE INMUNIDADBanda Servicio Modulación
+Modulación
+de pulsos
+Modulación
+de pulsosDesviación de
+Sinusoidal de
+Modulación
+de pulsos
+Modulación
+de pulsos
+Modulación
+de pulsos
+LTE Banda  7LTE Banda 5LTE Banda 13,
+17
+LTE Banda 1, 3,
+Modulación
+de pulsos
+Para algunos servicios, sólo se incluyen las frecuencias de subida.
+La portadora deberá ser modulada utilizando una señal de onda cuadrada del ciclo de trabajo del 50%.
+Como alternativa a la modulación FM, puede usarse una modulación de pulsos del 50% a 18 Hz porque, si bien no
+representa una modulación real, sería el peor de los casos.DistanciaEspañol
+

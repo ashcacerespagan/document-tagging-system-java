@@ -1,0 +1,146 @@
+🏡 wfh Home About
+Featured
+On making remote work more
+human: Meetings
+New rules (and experiments) for remote work
+Brittany Jezouit·Follow
+Published in🏡 wfh·6 min read·Dec 19, 2024
+1.2K 24
+Open in app
+Search Write
+3/29/25, 5:21 PM On making remote work more human: Meetings | by Brittany Jezouit | 🏡  wfh | Medium
+https://medium.com/workfromhome/on-making-remote-work-more-human-meetings-643ada83308b 1/11
+A humble remote work desk setup. Photo by author.
+Last week I read a story from tech writer JA W estenberg called Modern Work
+Fucking Sucks. It describes a nightmarish state of remote work: waking up to
+Slack notifications, jumping back and forth between twenty different
+systems, an inexhaustible onslaught of Zoom meetings.
+As someone who thinks a lot about work culture, the story felt like a rallying
+cry, a tidy articulation of what not to do: how do we create something that feels
+like the opposite of this?
+For what it’s worth, I don’t think that remote work sucks. I think remote work
+is great. I am a fan. Please, never make me go back to an office. But yeah,
+Westenberg has a point — the way we design for remote work often forgets
+3/29/25, 5:21 PM On making remote work more human: Meetings | by Brittany Jezouit | 🏡  wfh | Medium
+https://medium.com/workfromhome/on-making-remote-work-more-human-meetings-643ada83308b 2/11
+that we are human people with bodies and brains and not just work-input-
+cogs. We work on machines; we are not the machines.
+In my role as Chief of Staff, I think a lot about how to make work more
+human. “Humans first” is our Medium’s first operating principle, after all.
+And even though there are so many remote workplaces in the world, there’s
+no single playbook to follow on how to “do” remote work. What works for
+one company won’t work for every company. So we experiment, we try new
+things, we gather feedback, we see what works best for our unique group of
+~70 human people who are trying their best to figure out how to build
+something good together.
+Lately I’ve been thinking about meetings, i.e., the part of your workday
+where you interact with other humans. I’ve been experimenting with how to
+make the meetings part of my work-world more human. Here are a few
+things I’ve tried and liked lately.
+Implementing a “no chat” rule
+You know this feeling: you’re in a Zoom meeting, trying to pay attention, but
+there’s side-chatter in the chat. I find this so distracting. As soon as there’s
+comments in the chat (or worse, full conversations), my attention is split. I’ve
+also heard this come up as a conversation in our Abilities ERG as a particular
+struggle for folks with attention differences, so it’s worth thinking about
+from an inclusivity lens, too.
+New rule: For small team meetings, I’ve been trying out a no chat rule. No
+one is allowed to post in the chat (save for sharing a link to a doc, perhaps).
+Instead, if you have something to say, say it in the meeting. This doesn’t need
+to be a rule for all meetings — for example, in our all-company meeting, the3/29/25, 5:21 PM On making remote work more human: Meetings | by Brittany Jezouit | 🏡  wfh | Medium
+https://medium.com/workfromhome/on-making-remote-work-more-human-meetings-643ada83308b 3/11
+side-chat is a fun way that people stay engaged. But for the right meeting size
+and purpose, I am a huge fan of this change.
+Literally just close your Slack in meetings
+I recently read (and loved!) Four Thousand Weeks, a time management book
+that’s kind of anti-productivity-culture while also still being very much, well,
+a productivity book. In the book, Burkeman explains that the reason we drift
+into distraction (say, checking your Slack DMs while you’re in a Zoom
+meeting) is not because you’re bored, but because paying attention is hard and
+distraction is easy. The cognitive work of actually thinking deeply — or even
+better, actively listening — is harder than scanning your email or replying to
+a Slack thread. Your impulse to keep tabs on Slack isn’t productivity or
+boredom-driven; it’s your brain’s way of saying please don’t make me work this
+hard.
+New rule: In a recent team retro, I asked everyone to close Slack. All the way.
+(And then also, to take off your Apple Watch or turn your phone upside down
+or whatever other ways those notifications might sneak into your space.)
+And then we had an hour-long meeting where we talked to each other.
+Even as the facilitator of the meeting and the person making the rule, I
+found this, to be honest, sort of excruciating. At several points in the
+meeting I found myself drifting to the Slack icon or to open a new tab. But I
+didn’t!! And I think the meeting was better for it.
+No-meeting mornings
+We don’t have a shared company-wide, heads-down get-things-done time
+(yet! maybe one day), but lots of people have their own versions. I’ve mostly
+seen this in the form of a no-meeting day. I had a no-meeting Thursday for a
+while, but I was finding that a whole day wasn’t as ideal because a) it’s really3/29/25, 5:21 PM On making remote work more human: Meetings | by Brittany Jezouit | 🏡  wfh | Medium
+https://medium.com/workfromhome/on-making-remote-work-more-human-meetings-643ada83308b 4/11
+hard to sustain 8 hours of deep work and b) by lunchtime, I was craving
+some human connection.
+New rule: I’ve switched to no-meeting mornings on Tuesdays and Thursdays.
+I’m writing this from my Thursday no-meeting block! Lately, I’ve felt like this
+is my best chance to get work done. These little windows on my calendar feel
+like sanctuaries, the place where I can take shelter from the work frenzy and
+use a deeper part of my brain for an uninterrupted space of time. Maybe I’ll
+adapt this to something different in the future, but for now I will protect this
+fiercely, no I cannot meet Tuesdays and Thursday AMs, please find another
+time!!
+Differentiate between working meetings and planning meetings
+Sometimes, a next step for a project is to “schedule a meeting”. But it’s
+helpful to clearly set set the expectation as to what type of meeting it is.
+When people have different expecations on whether a meeting is to get work
+done or to plan to get work done, frustration abounds.
+New rule: State explicitly whether a meeting is to get work done or to plan to
+get work done. A team sync or check-in is a good example of a plan to get
+things done meeting. These should be efficient and focused on information-
+sharing but essentially, at the end of it, you break to go do the work. A get
+work done meeting is where you build something together.
+As an example of this that worked well: A few weeks ago, I needed to meet
+with my coworker Carly to build a new CRM. We could have either met to
+make a plan about how to do it (short meeting), or met to actually do it
+(probably longer). Because it’s a collaborative project, we decided to go with
+a get work done meeting. I even titled the meeting “Brittany and Carly build a
+CRM”. And we built what we needed in an hour. It was great.3/29/25, 5:21 PM On making remote work more human: Meetings | by Brittany Jezouit | 🏡  wfh | Medium
+https://medium.com/workfromhome/on-making-remote-work-more-human-meetings-643ada83308b 5/11
+Put the talking order in the chat
+This is a small one, but I hate the experience of being in a Zoom meeting,
+saying “who wants to go first?” or “who wants to go next?” and waiting for
+people to respond. It feels unnecessarily awkward.
+New rule: where it makes sense, I’ve been putting the order in the Zoom
+chat. For example, we recently had a team meeting where we introduced a
+new contractor, and we needed to do a round of intros for everyone on the
+team. I just typed up everyone’s names quickly, in the order they appeared
+on my screen, and put it in the chat, and we went in that order. It was easy
+and also hopefully had the side effect of lessening the anxiety of everyone
+involved, because everyone knew when it would be their turn to talk.
+What’s the remote version of sitting next to each other, but mostly doing
+your own thing, but chatting sometimes?
+I haven’t tried this one yet, but I have a plan in the new year to schedule a
+regular working hour with one of my teams. It’s for a team that mostly meets
+for plan to get things done meetings, and I’m craving more side-by-side
+collaborative time. I miss sitting next to someone who I know is working on
+something similar to me and chatting with them a bit while I work or looking
+up to ask a quick question or get feedback, without having to schedule a
+whole meeting about it. What’s the remote version of that?
+I’m not sure, but in this meeting, we’re going to try to recreate some version
+of that vibe. We’re planning to use Around.co as a virtual room to hang out
+while we work on a variety of individual projects: writing blog posts, event
+planning, copywriting/editing, writer outreach. Maybe it’ll be annoying and
+we won’t like it, but maybe it’ll be nice to have some co-presence that’s in
+between a Zoom meeting and working alone.3/29/25, 5:21 PM On making remote work more human: Meetings | by Brittany Jezouit | 🏡  wfh | Medium
+https://medium.com/workfromhome/on-making-remote-work-more-human-meetings-643ada83308b 6/11
+Those are some of the meeting experiments I’ve tried lately to make
+meetings more human. If you have ideas you’ve tried or ways you run
+meetings that get closer to the more human goal, please share in the
+comments — I’d love to hear about it.
+Published in 🏡 wfh
+139 Followers·Last published Jan 8, 2025
+Tips, wisdom, ideas, and provocations about remote work.Follow
+Written by Brittany Jezouit
+4.8K Followers·1.4K Following
+Chief of Staff @ Medium.Follow
+Responses (24)
+Ashley caceres PaganRemote Work Work Productivity Media
+What are your thoughts?3/29/25, 5:21 PM On making remote work more human: Meetings | by Brittany Jezouit | 🏡  wfh | Medium
+https://medium.com/workfromhome/on-making-remote-work-more-human-meetings-643ada83308b 7/11

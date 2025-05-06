@@ -1,0 +1,1070 @@
+arXiv:2504.02662v1  [cs.LG]  3 Apr 2025Integrating Human Knowledge Through Action
+Masking in Reinforcement Learning for Operations
+Research
+Mirko Stappert ·Bernhard Lutz ·Niklas Goby ·Dirk Neumann
+April 3, 2025
+Abstract Reinforcement learning (RL) provides a powerful method to ad-
+dressproblemsinoperationsresearch.However,itsreal-worldap plicationoften
+fails due to a lack of user acceptance and trust. A possible remedy is to pro-
+vide managers with the possibility of altering the RL policy by incorpora ting
+human expert knowledge. In this study, we analyze the beneﬁts an d caveats of
+including human knowledge via action masking. While action masking has s o
+farbeenusedtoexcludeinvalidactions,itsabilitytointegratehuman expertise
+remains underexplored. Human knowledge is often encapsulated in h euristics,
+which suggest reasonable,near-optimal actions in certain situatio ns. Enforcing
+such actions should hence increase trust among the human workfo rce to rely
+onthe model’s decisions.Yet, astrictenforcementofheuristic act ionsmayalso
+restrict the policy from exploring superior actions, thereby leading to overall
+lower performance. We analyze the eﬀects of action masking based on three
+problems with diﬀerent characteristics, namely, paint shop schedu ling, peak
+load management, and inventory management. Our ﬁndings demons trate that
+incorporating human knowledge through action masking can achieve substan-
+tial improvements over policies trained without action masking. In ad dition,
+we ﬁnd that action masking is crucial for learning eﬀective policies in co n-
+strained action spaces, where certain actions can only be perform ed a limited
+number of times. Finally, we highlight the potential for suboptimal ou tcomes
+when action masks are overly restrictive.
+Keywords Reinforcement Learning ·Action Masking ·Human Domain
+Knowledge ·Human-AI Collaboration
+M. Stappert, B. Lutz, N. Goby, D. Neumann
+University of Freiburg, Rempartstr. 16, 79098 Freiburg, Ge rmany
+E-mail: mirko.stappert@is.uni-freiburg.de, bernhard.l utz@is.uni-freiburg.de,
+niklas.goby@googlemail.com, dirk.neumann@is.uni-frei burg.de
+2 Stappert et al.
+1 Introduction
+Reinforcement Learning (RL), a branch of machine learning, has be en success-
+fully applied to solve complex problems such as the games of Chess and Go
+by self-play only [34, 35]. The resulting performance even surpasse s the skills
+of human experts by signiﬁcant amounts. In RL, an agent interact s with an
+environment to maximize the expected reward [36]. The environmen t presents
+a numerical representation of the current state to the agent, w ho then decides
+upon the action to perform next. After receiving an action, the en vironment
+transforms to the next state and emits a numerical reward to the agent. Ad-
+vances in deep reinforcement learning (DRL) allowed researchers t o solve the
+problem of the exploding state space as the mapping of states to Q- values or
+action probabilities is now approximated by neural networks [23].
+Over the past few years, RL has also been increasingly used as a pow erful
+tool for addressing complex problems in operations research (OR) . The con-
+sidered problem areas include production planning and control [14, 2 6, 43],
+supply chain management and inventory management [31], machine sc hedul-
+ing [20], machine maintenance planning [25], and quality control [28], am ong
+many others. A major advantage of RL over traditional solution me thods (e.g.,
+hand-crafted rules, heuristics, mathematical solvers) is that a t rained RL pol-
+icy presents a fast and adaptive solution method. Businesses ofte n encounter
+similar decision problems where the parameters follow known distribut ions
+like package delivery problems in the same district [e.g., 2, 32], or seque ncing
+problems with similar demand plans [e.g., 7, 8]. A RL policy can be trained
+in a simulated environment and subsequently transfer knowledge fr om prior
+learning experiences to unseen problem instances [37]. By contrast , the afore-
+mentioned traditional solution methods are designed to solve each p roblem
+instance individually without relying on prior experience. In addition, R L can
+be trained to accountfor the uncertainty in real-worldoperations regardingde-
+liverytimesorcustomerdemand.TheparadigmofRLhencealignspar ticularly
+well with the goals of Industry 4.0, where adaptive and fast decision -making
+under uncertainty are crucial [10, 42].
+A major challenge of implementing RL in real-world operations is the tas k
+of converting the problem presumably formulated as a mixed-intege r linear
+programming (MILP) problem to a Markov decision process, including states,
+actions, and reward function, that is suitable for RL policy learning [3 6]. Here,
+businesses need to ensure that i) the policy generates valid solution s, and
+that ii) a (near-)optimal policy of the MDP also generates (near-)o ptimal
+solutions of the actual MILP problem. A common approach to guiding the RL
+policy towards generating only valid solutions is given by returning the same
+state and penalizing invalid actions with large negative rewards [e.g., 8, 38].
+While this method generally achieves the desired outcome, the policy w ill still
+perform invalid actions during the training process, thereby increa sing the
+time required for learning eﬀective policies. An alternative is given by a ction
+masking [e.g., 17, 22, 41], a technique in RL that constrains the action space
+by limiting the set of available actions in speciﬁc states.
+Integrating Human Knowledge Through Action Masking in RL 3
+In addition to these technical challenges, the implementation of RL, like
+other AI-based solution methods, often fails in real-world operatio ns due to a
+lack of human trust and acceptance of AI decisions [11, 21]. Althoug h prob-
+lems from OR are often considered as repetitive low-stake problems [24], hu-
+man decision-makers still want to be able to make appropriate adjus tments,
+particularly when models are wrong [12]. Therefore, a possible remed y to in-
+crease trust and user acceptance is given by allowing managers to m odify the
+RL policy by including human domain knowledge. Human knowledge can pr e-
+scribe reasonable heuristic actions in certain states, or even prov ably optimal
+actions. By ensuring that a policy incorporates human knowledge, t he work-
+force should be less likely to suﬀer from algorithm aversion and instea d rely
+on the model’s decisions.
+In this study, we analyze the inclusion of human domain knowledge via
+action masking. While traditionally used to prevent invalid actions, its p o-
+tential for enforcing heuristic-suggested or provably optimal ac tions remains
+unexplored. Although a RL policy could, in theory, learn the actions s uggested
+by the action mask implicitly after suﬃcient training time, there is no su ch
+guarantee in DRL due to the “deadly triad” of function approximatio n, boot-
+strapping, and oﬀ-policy learning [36, 39]. Unlike tabular-based Q-lea rning,
+where convergence to a global maximum is theoretically guaranteed [36], DRL
+approximates the values of states using a neural network, introd ucing function
+approximation errors. In fact, an update of the network’s weight s inﬂuences
+several states instead of only a single state-action entry of the Q -value ta-
+ble. In addition, policy updates depend on previous estimates (boot strapping)
+and are often applied to past experience (oﬀ-policy learning), ther eby possi-
+bly amplifying approximation errors. Including action masks in the tra ining
+process could hence lead to considerably superior policies. At the sa me time,
+action masks might also restrict the ﬂexibility of the policy, preventin g it from
+reaching particular optima.
+We examine the beneﬁts and caveats of action masking based on thr ee
+OR problems with diﬀerent characteristics (paint shop scheduling, p eak load
+management, inventory management). In particular, we outline th e eﬀects of
+action masking when incorporating diﬀerent types of human knowled ge re-
+garding heuristic and provably optimal actions. Our evaluation yields several
+important insights. First, we ﬁnd that action masking can lead to con sider-
+able increases in the performance of a trained RL policy. Enforcing h euristic
+actions in a paint shop scheduling problem yields considerably better p olicies
+than omitting action masking. Second, we observe that, for proble ms with
+constrained action spaces, applying action masking can even be nec essary to
+learn eﬀective policies. The considered peak load management only allo ws a
+limited number of turn-oﬀ operations. If the policy is not guided using human
+knowledge, it never learned to eﬀectively manage the load. Third, we acknowl-
+edge that action masking should be applied with caution as the enforc ement
+of non-optimal heuristics may also harm the resulting performance .
+Our study contributes to the literature by analyzing the eﬀects of incor-
+porating human domain knowledge into the training and application of R L
+4 Stappert et al.
+policies via action masking. Alternatives to action masking include imitat ion
+learning [19] and inverse RL [1], allowing the policy to learn from observ ing
+human actions. However, it may not often be possible to learn from h uman ac-
+tions due to labor shortage or the problem is simply too complex for a h uman
+to solve optimally. Other approaches employ reward shaping [9] or tr ansfer
+learning [4]. Yet, these methods still do not allow human decision-make rs to
+enforce or disallow actions in certain situations. While our study is limite d
+to oﬄine learning, where a policy is pretrained in a simulated environmen t,
+action masking may also help to counter the cold start problem that o ccurs
+when RL is trained directly in real-world applications. Here, action mas king
+can be used to prevent the execution of clearly unreasonable actio ns, as, e.g.,
+reordering stock when the current inventory is full, which would res ult in con-
+siderable losses. We thus hope to pave the way for future studies t hat develop
+RL-based solution methods for OR problems.
+The remainder of this paper is structured as follows. Section 2 desc ribes
+the methodological framework by introducing deﬁnitions of Markov decision
+processes and detailing how human domain knowledge can be included v ia
+actionmasking.Section3presentsthe paint shopschedulingproble m,utilizing
+action masking to implement multiple heuristics. Section 4 explores the peak
+load management problem with constrained actions. Section 5 examin es an
+inventory management problem with stochastic demands and deliver y times.
+Section 6 discusses our ﬁndings and provides an outlook on future r esearch.
+2 Methodological Framework
+2.1 Reinforcement Learning
+Reinforcement learning is a type of machine learning where an agent in teracts
+with an environment to learn a policy, which speciﬁes the optimal actio n(s)
+in a given state. Most real-world decision problems with known parame ters
+and a ﬁnite number of actions can be transferred to a problem from RL. RL
+problems are formally modeled as a Markov decision process [36].
+Deﬁnition 2.1 (Markov decision process) A Markov decision process
+(MDP) is a tuple ( S,A,T,R,s 0,γ) with state space S, action space A, tran-
+sition function T(st+1|a,st)∈[0,1], reward function R(rt|a,st)∈[0,1],
+initial state s0and discount factor γ∈[0,1].
+The state st∈Sreﬂects the current situation of the environment. The
+action space Adenotes all possible decision options (e.g., ordering supplies,
+producing a certain item). The transition function T(st+1|a,st) speciﬁes
+how the environment evolves from one state to another if a particu lar action
+is performed. The transition function can be deterministic (e.g., in pr oduc-
+tion scheduling problems with ﬁxed processing times) or stochastic ( e.g., in
+inventory management problems with demand uncertainty). In the general
+stochastic case, T(st+1|a,st) denotes the probability that st+1followsst
+Integrating Human Knowledge Through Action Masking in RL 5
+given that action ais performed. The reward function can also be stochastic,
+so thatR(rt|a,st) speciﬁes the probability of receiving reward rtwhen ac-
+tionais performed in state st. The reward function should be designed in a
+way that assigns positive rewards to actions that are eﬀective in ac hieving the
+overarching goal (e.g., fulﬁlling demand while minimizing storage costs) and
+negative rewards to ineﬀective and sub-optimal actions.
+The goal of RL is to ﬁnd a policy πθ(a|st), which maximizes the expected
+total sum of discounted rewards J=Eπθ/bracketleftBig/summationtextH
+t=0γtrt/bracketrightBig
+. Speciﬁcally, πθ(a|st)
+denotestheprobabilityofperformingaction ainstatest.Indeepreinforcement
+learning,a neuralnetworkreceivesthe stateas input andoutput s aprobability
+distribution over the action space. The policy parameters θdenote the weights
+of the neural network, which must be learned during the training pr ocess. The
+training process alternates between generating experience in the form of state-
+action-reward tuples s0,a0,r0,...,s T,aT,rTby sampling from the policy and
+using this experience to update the policy parameters θ.
+So far, it is assumed that the action space is constant in every stat e, i.e.,
+each action can alwaysbe performed. However,in real-worldapplica tions, only
+a subset of all actions are admissible in each speciﬁc state. Invalid ac tions are
+oftenexcludedbyintroducing A(st)asthesetofadmissibleactionsin st.While
+introducing A(st) is theoretically feasible, there are practical limitations. In
+fact, the policy networks employed in deep RL have a ﬁxed number of output
+neurons, which cannot be adjusted dynamically during the training p rocess.
+Consequently, invalid actions must be handled manually during the tra ining
+process and real-world application. A common approach is to mask inv alid
+actions by setting their probability to zero and sampling from the rem aining
+(admissible) actions.
+While action masking is an obvious step in the application of a trained
+policy, it also aﬀects the training process in general. First, action ma sking
+prevents the exploration of invalid actions, which increases the eﬃc iency of
+the training process. Second, action masking inﬂuences learning by updating
+the policy parameters according to an adjusted policy gradient [17]. Third,
+action masking provides an early guideline for an untrained RL policy so that
+it suﬀers lessfrom the coldstart problem,whereobviouslynon-opt imalactions
+are explored in the early learning episodes. From an implementation vie w,
+action masking has recently been implemented as part of the popular RL
+framework “Stable Baselines3” [30] based on the implementation of [1 7].
+2.2 Integrating Human Domain Knowledge via Action Masking
+An action mask mis a function m:S×A→ {0,1}that reduces the set of
+actions in a given state [17]. By evaluating m(a,st) for all actions, we obtain
+A(st) ={a∈A|m(a,st) = 1}. (1)
+Action masking can hence be used to reduce the set of admissible act ions in
+reinforcement learning. In addition to excluding invalid actions, the f unction-
+6 Stappert et al.
+ality of action masking can be employed to include human domain knowled ge,
+namely, (i) prescribe heuristic rules and, more strictly, (ii) enforce provably
+optimal actions.
+To exclude invalid actions, we simply set m(a,st) = 0 ifais invalid in st
+[3, 17, 40]
+m(a,st) =/braceleftBigg
+1 ifais valid in st
+0 else.(2)
+To the best of our knowledge, action masking has so far only been us ed to
+exclude invalid actions [e.g., 3, 17, 40]. In fact, the term “action mask ing” is
+often used in combination with “invalid” like in the title “A Closer Look at I n-
+valid Action Masking in Policy Gradient Algorithms” by Huang and Onta˜ n ´ on
+[17]. Nevertheless, the application of action masking is equally suited t o guid-
+ing the policy towards heuristic actions as to enforcing valid actions.
+Prescribing Domain Heuristics
+For many problems from operations research, there are certain h euristics that
+can be used to restrict the action space. For instance, in an invent ory man-
+agement problem, there might be knowledge that we should produce at most
+twice the demand of the previous period. While producing more is still p ossi-
+ble, we know that many of the products will not be sold in the next per iod.
+Therefore, the heuristic suggests that the action space is restr icted to actions
+that order less than twice the demand of the previous period.
+Leth(st) denote the action suggested by the given heuristic in state st.
+We do not strictly enforce a heuristic, as this would make the policy eq ual to
+the heuristic.Instead,weaimto approximatelyprescribethe heur istic,thereby
+impartingknowledgetotheRLagentbutalsogivingittheﬂexibilitytode viate
+from the action suggested by the heuristic.
+Prescribingaheuristicwhileprovidingthe RLpolicywithalimited amount
+ofﬂexibilityis, in particular,possible ifthe actionspacehasa certains tructure
+that allows us to rank actions based on a reasonable order. For inst ance, in
+inventory management problems, this corresponds to the quantit y of items to
+be produced in the next period. Given such an order of actions, we c an restrict
+the action space to the action suggested by the heuristic and the a ctions close
+toh(st) according to a given threshold M
+m(a,st) =/braceleftBigg
+1 if|h(st)−a|≤M
+0 else.(3)
+Similarly, the action space can be restricted to actions greater or s maller
+than the action suggested by the heuristic
+m(a,st) =/braceleftBigg
+1 ifa≥h(st) (conversely a≤h(st))
+0 else.(4)
+Integrating Human Knowledge Through Action Masking in RL 7
+Note that the speciﬁc selection of the action mask depends on the p articular
+problem characteristics.
+Enforcing Optimal Actions
+The strictest approach of incorporating human domain knowledge is given by
+enforcing provably optimal actions. An action a∗is optimal in state stif there
+is an action sequence that maximizes cumulative reward in stand starts with
+a∗. Due to their optimality, these actions should be enforced while disallo wing
+all non-optimal actions. However, we generally know the optimal ac tions only
+for a small subset of states S′⊂S. We thus set m(a∗,st) = 1 for all optimal
+actionsa∗andm(a,st) = 0 for all non-optimal actions in all states st∈S′. For
+all other states st∈S\S′, where optimal actions are not known, we simply
+allow all actions. Taken together, we get
+m(a,st) =
+
+1 ifst∈S′andais optimal in st
+0 ifst∈S′andais not optimal in st
+1 ifst∈S\S′.(5)
+Combining Action Masks
+So far, we only discussed individual action masks. However, there m ight be
+situations where several reasonable action masks should be combin ed. There-
+fore, we outline two approaches to combine action masks. First, we deﬁne the
+conjunction operation m1⊕m2, which only allows action ato be performed
+in statest, if both masks allow a
+(m1⊕m2)(a,st) =/braceleftBigg
+1 ifm1(a,st) = 1 and m2(a,st) = 1
+0 else.(6)
+Thesecondoperation m1/ogreaterthanm2appliestwoactionmasksinasequentialway,
+while assigning higher priority to m1. This approach is particularly relevant if
+we want to prioritize one mask over another. m1/ogreaterthanm2thus applies m1ifm1
+isactiveinst, i.e.,m1forbids at least one action, and m2otherwise
+(m1/ogreaterthanm2)(a,st) =/braceleftBigg
+m1(a,st) if∃a′∈A:m1(a′,st) = 0
+m2(a,st) else.(7)
+Policy Gradient Calculations with Action Masking
+TheimplementationofactionmaskingbyHuangandOnta˜ n´ on[17]bu ildsupon
+the policy gradient method. The objective of maximizing the expecte d sum
+of discounted rewards J=Eπθ/bracketleftBig/summationtextH
+t=0γtrt/bracketrightBig
+is achieved by applying gradient
+ascent optimization to the function Jwith respect to the policy parameters
+8 Stappert et al.
+θ. The calculation of the policy gradient is enabled by the policy gradient
+theorem [36]
+∇θJ=Eπθ/bracketleftBiggH/summationdisplay
+t=0∇θlogπθ(a|st)Gt/bracketrightBigg
+, (8)
+whereGt=/summationtextH
+k=0γkrt+kis the sum of discounted rewards starting at time
+stept. The gradient ∇θJcan be estimated by sampling trajectories from the
+policyπθand averaging the resulting values inside the expectation operator .
+The action probabilities arecalculated via the softmax function from the logits
+lθ(a|st) as
+πθ(a|st) = [softmax( lθ(·|st))]a=exp(lθ(a|st))/summationtext
+a′∈Aexp(lθ(a′|st))(9)
+Given an action mask m, one proceeds as follows. First, the logits are
+updated by setting actions with m(a,st) = 0 to negative inﬁnity
+lm
+θ(a|st) =/braceleftBigg
+lθ(a|st) ifm(a,st) = 1
+−∞ ifm(a,st) = 0.(10)
+Second, the action probabilities are recalculated based on the adju sted logits
+πm
+θ(a|st) = [softmax( lm
+θ(·|st))]a. (11)
+The eﬀect of action masking can easily be shown on a small example. Le t the
+logits of state stbe given as [ lθ(a0|st),lθ(a1|st),lθ(a2|st)] = [1,1,1]. The three
+actionsa0,a1,a2are thus performed with equal probability of1
+3. Given an
+action mask mthat disallows action a2inst, the resulting probabilities based
+on the adjusted logits are πm
+θ(a0|st) =πm
+θ(a1|st) =1
+2andπm
+θ(a2|st) = 0.
+Finally, the modiﬁed policy gradient ∇m
+θJis calculated using the updated
+action probabilities of πm
+θ(a|st)
+∇m
+θJ=Eπθ/bracketleftBiggH/summationdisplay
+t=0∇θlogπm
+θ(a|st)Gt/bracketrightBigg
+. (12)
+An action mask is thus not only enforced by hand but also incorporat ed
+into the learning process itself by performing gradient ascent step s with an
+adjusted policy gradient.
+3 Problem 1: Paint Shop Scheduling
+The paint shop scheduling problem deals with minimizing the number of co lor
+changes in the painting procedure of the automotive manufacturin g process.
+Therefore, an incoming sequence of unordered cars with assigned colors has to
+be reshuﬄed using a multi-lane buﬀer system that allows storage and retrieval
+operations.
+Integrating Human Knowledge Through Action Masking in RL 9
+color of outgo-
+ing sequence
+... et,1 et,2
+Incoming sequence
+Bt,4,1Bt,3,1Bt,2,1Bt,1,1
+Bt,4,2Bt,3,2Bt,2,2Bt,1,2
+Bt,4,3Bt,3,3Bt,2,3Bt,1,3
+Bt,4,4Bt,3,4Bt,2,4Bt,1,4
+Bt,4,5Bt,3,5Bt,2,5Bt,1,5Bt,1,5 Bt,1,4 Bt,1,3 Bt,1,2
+Bt,2,5 Bt,2,4
+Bt,3,5 Bt,3,4 Bt,3,3
+Bt,4,5
+BuﬀerFIFO queue
+Storage RetrievalBt,4,5=pt⇒no color change... pt
+Outgoing sequence
+Fig. 1: Paint shop problem with a 4x5 buﬀer (four lanes of width ﬁve). The
+system retrieves from lane 4 without causing a color change.
+3.1 Environment
+At each time step, the next car of the incoming sequence can be sto red in the
+rightmost free position of a buﬀer lane or the rightmost car of a buﬀ er lane
+can be retrieved and added to the last position of the outgoing sequ ence. The
+buﬀer consists of Llanes, each of width W. The action space hence consists
+of 2Lactions
+APS={1,...,L/bracehtipupleft/bracehtipdownright/bracehtipdownleft/bracehtipupright
+Retrieve
+actions,L+1,...,2L/bracehtipupleft/bracehtipdownright/bracehtipdownleft/bracehtipupright
+Store
+actions}. (13)
+We deﬁne the state to contain the entire buﬀer content, the next K= 5 colors
+of the incoming sequence, and the current color of the outgoing se quence
+sPS
+t= (Bt,1,1,...,B t,L,W/bracehtipupleft/bracehtipdownright/bracehtipdownleft /bracehtipupright
+Buﬀer content, et,1,...,e t,K/bracehtipupleft/bracehtipdownright/bracehtipdownleft/bracehtipupright
+K next incoming cars
+of input sequence, p t/bracehtipupleft/bracehtipdownright/bracehtipdownleft/bracehtipupright
+Current
+painting color). (14)
+Each value (0 ,1,...,C) is one-hot encoded and either denotes an empty posi-
+tion or a color 1 ,...,C.
+The reward function penalizes invalid actions and retrieve actions ca using
+a color change. Invalid actions yield a reward of −10. Valid store actions and
+retrieve actions that cause a color change receive no reward. How ever, valid
+retrieve actions not causing a color change are assigned a positive r eward of 1.
+10 Stappert et al.
+RPS(a,st) =
+
+0a≤L, Bt,a,W/\e}atio\slash= 0, Bt,a,W/\e}atio\slash=pt
+(valid retrieval with color change)
+1a≤L, Bt,a,W/\e}atio\slash= 0, Bt,a,W=pt
+(valid retrieval without color change)
+−10a≤L, Bt,a,W= 0 (invalid retrieval)
+0a > L, B t,a−L,1= 0, et,1/\e}atio\slash= 0 (valid store)
+−10a > L, B t,a−L,1/\e}atio\slash= 0 oret,1= 0 (invalid store)(15)
+We implement the environment in the RL framework “Stable Baselines3 ” [30].
+The method for policy learning is proximalpolicy optimization [PPO, 33]. T he
+hyperparameters of PPO (e.g., size of policy network and PPO coeﬃc ients)
+are provided in Appendix A.
+3.2 Action Masking
+We consider four action masks as illustrated in Figure 2. The ﬁrst act ion mask
+mINVexcludes invalid actions, i.e., storing in a full lane or retrieving from an
+empty lane
+mINV(a,st) =
+
+1 ifa∈ {1,...,L}andBt,a,W/\e}atio\slash= 0
+1 ifa∈ {L+1,...,2L}andBt,a−L,1= 0 and et,1/\e}atio\slash= 0
+0 else.(16)
+Adding this action mask hence waives the need to penalize invalid action s
+with negative rewards. Thus, the learning episodes can also be expe cted to be
+shorter, resulting in a more eﬃcient learning process overall.
+The next two action masks mGRandmFTenforce so called greedy retrieval
+andfast-track . These provably optimal actions are not possible in every state.
+We thus deﬁne two action masks that enforce these actions whene ver they
+are possible, following the general procedure of enforcing optimal actions (see
+Section 2.2). An action is called greedy retrieval if it retrieves a car from the
+rightmost position of a buﬀer lane that has the same color as the cur rent color
+of the outgoing sequence. The greedy retrieval mask mGR(a,st) is given as
+mGR(a,st) =
+
+1 ifa∈ {1,...,L}andpt=Bt,a,W
+1 ifpt/\e}atio\slash=Bt,i,W∀i= 1,...,L
+0 else.(17)
+We refer to fast-track as storing a car in an empty buﬀer lane in order
+to directly retrieve in the next step without causing a color change. The fast-
+track mask mFTenforces store actions to empty lanes if a subsequent greedy
+Integrating Human Knowledge Through Action Masking in RL 11
+retrieval from this lane is possible. Otherwise, the mask allows all act ions if
+fast-track is not possible
+mFT(a,st) =
+
+1 ifa∈ {L+1,...,2L}andBt,a−L,1= 0 and pt=et,1
+1 ifpt/\e}atio\slash=et,1orBt,i,1/\e}atio\slash= 0,∀i= 1,...,L
+0 else.(18)
+color of next
+incoming carcurrent color
+(a) Invalid action mask: Only storing in
+lane 1 or 3 and retrieving from lane 1 or 2
+is allowed.color of next
+incoming carcurrent color
+(b) Greedy retrieval action mask: Only
+retrieving from lane 1 or 2 is allowed.
+color of next
+incoming carcurrent color
+(c) Fast track action mask: Only storing in
+lane 3 is allowed.color of next
+incoming carcurrent color
+(d) Greedy storage action mask: Only
+storing in lane 1 or 2 is allowed.
+Fig. 2: Illustration of the four considered action masks.
+Finally, we consider greedy storage , i.e., storing the current car from the
+incoming sequence in a buﬀer lane, where the leftmost car is of the sa me color.
+While we cannot prove that the heuristic is indeed optimal, it still prese nts a
+reasonable heuristic. However, our action space does not posses s any structure
+that follows a reasonable order as colors are uniquely diﬀerent. We t herefore
+cannot follow Equation (3) or Equation (4) to approximately prescr ibe the
+heuristic. Nevertheless, we still evaluate a fourth action mask mGS(a,st) that
+enforces greedy storage
+mGS(a,st) =
+
+1 ifa∈ {L+1,...,2L}and∃j∈ {2,...,W}:
+et,1=Bt,a−L,j,Bt,a−L,j−1= 0
+1 if∄i∈ {1,...,L},j∈ {2,...,W}:
+et,1=Bt,i,j,Bt,i,j−1= 0
+0 else.(19)
+12 Stappert et al.
+Note that employing the aforementioned action masks does not solv e the
+paint shop problem. In fact, greedy retrieval, greedy storage, a nd fast-track
+actions are often not possible. Therefore, an eﬀective solution po licy still needs
+to perform several optimal storage and retrieval actions.
+So far, we considered several action masks independently. Howev er, we can
+combine multiple action masks and perform our evaluations using the p roce-
+dure for combining action masks deﬁned in Equation (6) and Equation (7).
+We give the least priority to mGS, as we do not know whether greedy storage
+is indeed optimal
+–mINV⊕/parenleftbig/parenleftbig
+mGR/ogreaterthanmFT/parenrightbig
+/ogreaterthanmGS/parenrightbig
+(all action masks)
+–mINV⊕/parenleftbig
+mGR/ogreaterthanmFT/parenrightbig
+(invalid + greedy retrieval + fast-track)
+–mINV⊕mGR(invalid + greedy retrieval)
+–mINV(invalid)
+2 3 4102030405060708090
+Buﬀer sizeColor changes
+(a) Instances with 5 colors.2 3 4 5 6 7 8102030405060708090
+Buﬀer sizeColor changes
+(b) Instances with 10 colors.
+2 3 4 5 6 7 8102030405060708090
+Buﬀer sizeColor changes
+(c) Instances with 15 colors.
+RL (all masks) RL (invalid + greedy retrieval + fast-track mask)
+RL (invalid mask) RL (invalid + greedy retrieval mask)
+RL (no mask) Greedy heuristic
+Fig. 3: Evaluation results (color changes) for all RL approaches an d Greedy
+heuristic.
+Integrating Human Knowledge Through Action Masking in RL 13
+3.3 Results
+We compare the number of color changes for RL combined with all act ion
+masks against the greedy heuristic. This heuristic simply applies the a ctions
+suggested by greedy retrieval, fast-track, and greedy storag e. If none of these
+arepossible,it performsarandompossibleaction. We varythe buﬀe r size from
+2x2to 8x8and number ofcolorsas C= 5,10,15.Foreachbuﬀer size, wegener-
+ate ten random incoming sequences of length 100. Each sequence is randomly
+generated by sampling the color at each sequence position independ ently and
+with equal probability.
+TheresultsareshowninFigure3.Weﬁndthatcombiningagreaternu mber
+of action masks generally decreases the number of color changes. Furthermore,
+we observe that this improvement depends on the buﬀer size. For s mall 2x2
+buﬀers, the beneﬁt is almost negligible, while the performance increa se is more
+signiﬁcant for larger buﬀers. For 8x8 buﬀers in particular, RL with t he com-
+bination of all action masks causes approximately half the number of color
+changes compared to RL without any action masking.
+0 2 4 6 8 1002040
+Timesteps (millions)Reward
+(a) No action mask.0 2 4 6 8 1002040
+Timesteps (millions)Reward
+(b) Invalid mask.0 2 4 6 8 1002040
+Timesteps (millions)Reward
+(c) Invalid + greedy
+retrieval mask.
+0 2 4 6 8 1002040
+Timesteps (millions)Reward
+(d) Invalid + greedy
+retrieval + fast-track mask.0 2 4 6 8 1002040
+Timesteps (millions)Reward
+(e) All action masks.
+Fig.4:LearningcurvesforRLmodelswith10colorsand4x4buﬀeran dvarying
+action masks.
+We also analyze the learning curves for a problem instance with 10 colo rs,
+4x4 buﬀer, and all evaluated combinations of action masks, as show n in Fig-
+14 Stappert et al.
+ure 4. The plots show that the RL policies trained with more action mas ks
+convergeto agreaterreward.Furthermore,the learningproce ssis considerably
+fasterifmoreactionmasksareadded topolicylearning.Speciﬁcally, the model
+without action masking only reaches positive rewards after 500,000 time steps.
+Conversely, including the invalid mask ensures positive rewards from the ﬁrst
+learning episode. Increasing the number of action masks leads to a h igher ini-
+tial reward over the ﬁrst learning episodes. Therefore, action ma sking not only
+leads to higher overall rewards but also mitigates the “cold start” p roblem of
+an untrained RL policy.
+4 Problem 2: Peak Load Management
+A peak load management system (LMS) needs to decide when to turn oﬀ
+electric devices with high energy consumption to keep the peak load b elow a
+given threshold [13, 27]. Violations of this threshold must be avoided a t any
+time point as they entail large payments to the energy supplier.
+4.1 Environment
+The company can turn oﬀ large energy consumers like air conditioning to
+reduce the peak load. Hence, the action space consists of only two actions:
+turning oﬀ air conditioning and leaving it on
+ALMS={oﬀ, on}. (20)
+If the air conditioning is turned oﬀ, energy consumption is considera bly re-
+duced during the next time period.
+We consider a time horizon of one day, while one period lasts 15 minutes .
+This yields a ﬁnite time horizon of T= 24×4 = 96 time steps. However,
+due to legal requirements, executing action offto turn oﬀ air conditioning
+is constrained to a total of three executions per day. Therefore , actionoff
+should only be performed when a high peak load occurs.
+0 50 1000.000.250.500.751.001.251.50
+Time stepLoad
+Fig. 5: Load curve for load management system over 96 timesteps.
+Integrating Human Knowledge Through Action Masking in RL 15
+The system’s load curve is illustrated in Figure 5. While this curve remain s
+constant throughout the study, it is initially unknown to the reinfor cement
+learning policy and must be discovered during training. We do not evalu ate
+diﬀerent or changing curves, as the setup with a ﬁxed curve and no isy fore-
+casts already creates suﬃcient complexity for analyzing the policy’s learning
+capabilities.
+The state of the LMS is given by the actual consumption ct−1of the last
+time period, the estimated consumption /hatwidectof the next time period, and how
+often the action offcan still be performed, denoted by n
+sLMS
+t= (ct−1,/hatwidect,n). (21)
+The estimated consumption is given by a predictive model /hatwidect=ct+εwith
+normally distributed error ε∼ N(0,σ) and standard deviation σ.
+The goal of the LMS problem is to keep the maximum load over all time
+steps below a given threshold ζ. The RL policy’s actions to reduce the peak
+load are successful if the maximum load c∗= maxT−1
+t=0{ct|at= on}over all
+T= 96 time steps is lower than the peak load threshold of ζ= 1.24. Therefore,
+whether or not the RL policy was successful in managing the peak loa d can
+only be determined at the end of the time horizon. Accordingly, we de ﬁne the
+following reward function
+RLMS(a,st) =
+
+1 ift=T−1∧c∗< ζ
+−1 ift=T−1∧c∗≥ζ
+0 ift < T−1.(22)
+4.2 Action Masking
+We consider action masks that restrict the execution of action off. Given that
+offcan only be performed a limited number of times due to legal constrain ts,
+it seems reasonable to perform it only, if the estimate of the next pe riod/hatwidectis
+suﬃciently high. Therefore, we deﬁne the mask with respect to /hatwidect, so thatoff
+can only be performed if the predicted consumption is above a given t hreshold
+θLMS
+m(a,st) =
+
+1 if/hatwidect≥θLMSanda= oﬀ
+1 ifa= on
+0 else.(23)
+We consider multiple masks with varying θLMSbetween 0 and 1.20. Setting
+θLMS= 0 corresponds to excluding action masking. The action masks beco me
+more restrictive for higher values of θLMS.
+16 Stappert et al.
+4.3 Results
+In our evaluation, we vary the parameters σandθLMS. For each parameter
+setting, we train an RL policy for one million time steps and then report
+the number of successfully solved instances out of 100 evaluations to account
+for randomness in /hatwidect. The results are presented in Table 1. We present the
+fractionofinstancesthatcouldbesuccessfullysolved(i.e.,thepea kloadalways
+remained below the threshold ζ). We ﬁnd that RL without action masking
+(see column “none”) is not able to learn an eﬀective policy, irrespect ive of
+the noise level. The same results can be observed for the lower value sθLMS=
+0.20,0.40,0.60.However,if θLMS≥0.80,the trained policies manageto solve
+considerable fractions of the problem instances, depending on the noise level.
+Note that apart from the setting with perfect load forecasts (no ise level=none,
+/hatwidect=ct), we do not expect to consistently succeed due the randomness o f/hatwidect
+and the general diﬃculty of the problem.
+0 0.2 0.4 0.6 0.8 1−1−0.50
+Timesteps (millions)Reward
+(a)σ= 0.20 andθLMS= 0.0 0.2 0.4 0.6 0.8 1−1−0.50
+Timesteps (millions)Reward
+(b)σ= 0.20 andθLMS= 0.40.
+0 0.2 0.4 0.6 0.8 1−1−0.50
+Timesteps (millions)Reward
+(c)σ= 0.20 andθLMS= 0.80.0 0.2 0.4 0.6 0.8 1−1−0.50
+Timesteps (millions)Reward
+(d)σ= 0.20 andθLMS= 1.20.
+Fig. 6: Learning curves for RL models with σ= 0.20 and thresholds θLMS=
+0, 0.40, 0.80, 1.20.
+We also consider the learning curves for the noise level σ= 0.20 shown
+in Figure 6. The RL models with θLMS= 0.00 andθLMS= 0.40 are not
+able to learn an eﬀective policy. However, the RL models with θLMS= 0.80
+Integrating Human Knowledge Through Action Masking in RL 17
+andθLMS= 1.20 converge to an average reward of roughly −0.50 and a
+slightly positive reward, respectively. Note that a reward of −0.50 corresponds
+to solving 25 % of the problem instances.
+Table 1: Fraction of solved instances from 100 episodes after policy learning
+for one million time steps for diﬀerent action mask thresholds and nois e levels.
+action mask threshold θLMS
+noise level σnone 0.20 0.40 0.60 0.80 1.00 1.20
+none 0 % 0 % 0 % 0 % 56 % 100 % 100 %
+0.10 0 % 0 % 0 % 0 % 46 % 74 % 85 %
+0.20 0 % 0 % 0 % 0 % 23 % 31 % 61 %
+0.30 0 % 0 % 0 % 0 % 17 % 23 % 48 %
+0.40 0 % 0 % 0 % 0 % 0 % 17 % 34 %
+5 Problem 3: Inventory Management
+The objective of the inventory management problem is to minimize the cost
+of operating an inventory [e.g., 6, 16]. At each time step, a stochast ic demand
+is realized and the operating agent places an order to replenish the in ventory.
+However, orders do not arrive instantly as they are delayed by the lead time,
+which can be either stochastic or deterministic. The total costs of operating
+the inventory are the sum of inventory and lost sales costs.1
+Table 2: Overview of parameters and variables.
+Parameters
+c= 1 Holding cost
+p∈ {1,4} Lost sales cost
+N∈ {4,8} Maximum lead time: N= 4 (deterministic) or N= 8 (stochastic)
+λ= 5 Mean demand of Poisson distribution
+H= 5000 Time horizon
+∆= 10 Discretization value of action space
+Variables
+It Inventory at time t
+Qt,i Pipeline vector at time tand position i∈ {1,...N}
+dt Demand at time t
+Lt Lead time at time t: deterministic ( Lt=N) or stochastic Lt∼
+Unif(1,N)
+1We consider the lost sales setting instead of backlogged sys tems since it is more chal-
+lenging and interesting. In fact, the so called base-stock p olicy is proven to be optimal for
+backlogged systems [44].
+18 Stappert et al.
+In addition, there is a trade-oﬀ between minimizing losing sales and mini-
+mizing inventory holding costs. One major challenge of the inventory problem
+is to learn the distribution of demand and lead times. However, due to its in-
+tensive study, several useful heuristics were developed in prior w orks [29, 44],
+which we consider for action masking.
+5.1 Environment
+We adopt the RL formalization of the inventory management problem by Gi-
+jsbrechts et al. [15] and adjust it to include stochastic lead times. A n overview
+of all parameters and variables is provided in Table 2. The state of th e system
+is given by the current inventory and the pipeline vector of incoming o rders
+sIM
+t= (It/bracehtipupleft/bracehtipdownright/bracehtipdownleft/bracehtipupright
+Current
+inventory, Qt,1,...Qt,N/bracehtipupleft/bracehtipdownright/bracehtipdownleft/bracehtipupright
+Pipeline vector of
+incoming orders). (24)
+The pipeline vector has length N, denoting the maximum lead time.
+The actions specify the amount of items to be reordered. We discre tize the
+action space by only allowing quantities given as multiples of ∆= 10
+AIM={0,∆,2∆,...,10∆}. (25)
+After a certain quantity is ordered, the next incoming order is adde d to
+the inventory level and the orders of the pipeline vector are shifte d one step
+forward
+I′
+t=It+Qt,1, Q′
+t,i=Qt,i+1, Qt,N= 0. (26)
+Next, the demand dtis drawn from a Poisson distribution Pois( λ) and sub-
+tracted from the inventory level. If the demand is greater than th e inventory
+level, the inventory is set to zero and the remaining demand causes lo st sales
+costs
+It+1= (It+Qt,1−dt)+. (27)
+Lastly, the selected action ais executed by sampling a lead time Ltfrom
+the discrete uniform distribution and adding the ordered quantity ato the
+pipeline vector at the respective lead time. We also evaluate determin istic
+lead times with Lt=N
+Lt∼Unif(1,N) (28)
+Qt+1,i=/braceleftBigg
+Q′
+t,i+aifi=Lt
+Q′
+t,ielse.(29)
+Integrating Human Knowledge Through Action Masking in RL 19
+The reward function depends on whether or not sales are lost. If o rders
+cannot be met, the agent receives a penalty proportionate to the number of
+lost sales. Otherwise, holding costs are charged proportionate to the inventory
+RIM(a,st) =/braceleftBigg
+−c(It+Qt,1−dt) ifIt+Qt,1−dt≥0
+p(It+Qt,1−dt) else.(30)
+Therefore, maximizing the cumulative reward over the given time hor izonH
+is equivalent to minimizing the total cost.
+5.2 Action Masking
+Our action masks are informed by the base stock heuristic that was frequently
+used in prior studies [e.g., 5, 18, 44]. This heuristic depends on a param eter
+S, thebase-stock level and it chooses the action h(st) =S−It−/summationtext
+iQt,i, i.e.,
+the action that sets the sum of inventory and pipeline to the base-s tock level.
+The heuristic is employed independently of the lost sales costs p. However, for
+p→ ∞it converges to the optimal policy [18]. Consequently, we primarily
+consider smaller values of p.
+We derive two action masks based on this heuristic, mINTandmTHR. The
+ﬁrst action mask mINTallows actions that order a similar quantity as the
+prescribed action
+mINT(a,st) =/braceleftBigg
+1 if|a−(S−It−/summationtext
+iQt,i)| ≤∆
+0 else.(31)
+The second action mask mTHRuses the prescribed action h(st) as a thresh-
+old and allows all actions that order at least as much
+mTHR(a,st) =/braceleftBigg
+1 ifa+It+/summationtext
+iQt,i≥S
+0 else.(32)
+For a given instance of the inventory problem, the optimal base-st ock level
+Scan be determined by a search algorithm. The optimal values have alr eady
+beencomputedformanyrelevantsituationsandcanbefoundinsev eralsources
+[e.g., 18]. In our setting, the optimal values are given as S= 18 for p= 1 and
+S= 25 for p= 4.
+5.3 Results
+Wecomparetheaverageinventorycostforthethreeactionmask smINT,mTHR
+and no action mask. We consider the scenariosof deterministic/sto chastic lead
+times and lost sales costs of p= 1 and p= 4 with ﬁxed holding costs c= 1.
+For each scenario, we train an RL policy for 1 million time steps and aver age
+20 Stappert et al.
+its inventory cost over 100 evaluations. The time horizon for each e valuation
+is set to H= 5000.
+Table3providestheresults.For p= 1,weobservethattheRLpolicieswith
+no actionmaskingactually providethe lowestaverageinventorycos t. However,
+if the lost sales costs increase, the RL policies with action masking yield lower
+inventory costs. This ﬁnding holds for both deterministic and stoch astic lead
+times. In summary, we note that action masking using heuristics gen erally
+improves the resulting performances. Yet, as the base-stock level heuristic is
+not optimal for p= 1, we observe that omitting action masking leads to lower
+inventory costs.
+Table 3: Results of inventory problem.
+Lost sales cost pLead time Action mask Avg. costs
+1 Deterministic none 2.112
+1 Deterministic mINT2.186
+1 Deterministic mTHR2.198
+1 Stochastic none 3.266
+1 Stochastic mINT3.560
+1 Stochastic mTHR3.791
+4 Deterministic none 5.330
+4 Deterministic mINT5.058
+4 Deterministic mTHR5.155
+4 Stochastic none 8.311
+4 Stochastic mINT7.933
+4 Stochastic mTHR8.105
+We also present the learning curves for stochastic lead times in Figur e 7.
+The ﬁrst row shows models with low lost sales cost ( p= 1). We observe that
+the RL model without action masking smoothly reaches the highest r eward,
+outperformingthemodelswithactionmask.Forthehigherlostsales costs(p=
+4) shown in the second row, we ﬁnd the opposite results, namely, th at action
+masking is necessary to achieve a reward of roughly −40.000, corresponding
+to an average inventory cost of eight.
+Note that the learning curves for the inventory optimization proble m tend
+to be much smoother compared to those for the paint shop and load manage-
+ment problems. This can be attributed to the more predictable dyna mics of
+the inventory optimization problem. In the load management problem , only a
+single non-zerorewardis given at the end ofeach episode, and its va lue reﬂects
+the cumulative eﬀect of all previous actions. A small change in any ac tion can
+have a signiﬁcant impact on the ﬁnal reward, leading to more ﬂuctua tions in
+the reward. Similarly, in the paint shop problem, individual actions can have
+persistent long-term eﬀects; for example, a poor storage opera tion can block a
+buﬀer lane for many timesteps with detrimental eﬀects on subsequ ent actions.
+By contrast, in the inventory management problem, the total rew ard is more
+Integrating Human Knowledge Through Action Masking in RL 21
+0 0.2 0.4 0.6 0.8 1-40-20
+Timesteps (millions)Reward/parenleftbig
+×103/parenrightbig
+(a)p= 1, no mask.0 0.2 0.4 0.6 0.8 1-40-20
+Timesteps (millions)Reward/parenleftbig×103/parenrightbig
+(b)p= 1 and mTHR.0 0.2 0.4 0.6 0.8 1-40-20
+Timesteps (millions)Reward/parenleftbig×103/parenrightbig
+(c)p= 1 and mINT.
+0 0.2 0.4 0.6 0.8 1-40
+-60
+Timesteps (millions)Reward/parenleftbig×103/parenrightbig
+(d)p= 4, no mask.0 0.2 0.4 0.6 0.8 1-40
+-60
+Timesteps (millions)Reward/parenleftbig
+×103/parenrightbig
+(e)p= 4 and mTHR.0 0.2 0.4 0.6 0.8 1-40
+-60
+Timesteps (millions)Reward/parenleftbig
+×103/parenrightbig
+(f)p= 4 and mINT.
+Fig. 7: Learning curves for RL models with stochastic lead times, p= 1 (ﬁrst
+row),p= 4 (second row).
+gradually aﬀected by individual actions. For instance, ordering 70 u nits in-
+stead of 60 causes only a small change to the total reward over th e entire time
+horizon, leading to a smoother reward function and, consequently , smoother
+learning curves.
+6 Conclusion
+We proposed the integration of human domain knowledge into reinfor cement
+learning via action masking. Based on three OR problems, we showed t hat in
+addition to excluding invalid actions, action masking can also be employe d to
+(i) prescribe heuristics and (ii) enforce provably optimal actions. I n particular,
+our results suggest that the training process and the resulting pe rformance of
+the trained policy can be improved considerably. Given that DRL does not
+provide any guarantees regarding convergence to a global optimu m [36], em-
+ployingactionmaskingtoenforceprovablyoptimalactionsincertain statesled
+to considerable performance increases. For problems with constr ained action
+spaces, action masking can even be necessary to learn eﬀective po licies that
+manageto solvea problem.Actionmaskingcanthus help todisallowunr eason-
+able executions of the constrained action. As such, action masking presents an
+important ingredient for a successful implementation of RL in real-w orld op-
+erations. However, at the same time, we found that action masking might also
+decrease the performance if prescribing overly strict non-optima l heuristics,
+which prevent the learning of optimal policies.
+22 Stappert et al.
+Our study adds to the literature that focuses on solving OR problem s
+with RL. Speciﬁcally, we propose action masking as a method to integr ate
+human domain knowledge to increase trust and the resulting solution qual-
+ity. So far, related works employed action masking to disallow invalid ac tions
+[e.g., 17, 22, 41]. We go beyond excluding invalid actions by guiding the po licy
+towards near-optimal heuristic actions. From a theoretical view, a suﬃcient
+amount of training time should yield the same policy despite the lack of a c-
+tion masking. However, we found considerable diﬀerences in the solu tion qual-
+ity between policies with and without action masking, even after millions of
+timesteps. While a randomly initialized policy ﬁrst needs to learn the bas ic
+rules of the environment, action masking led to superior performan ce partic-
+ularly in the early stages of learning. Action masking ensures that th e policy
+follows human domain knowledge from the ﬁrst learning episode. Altho ugh
+problemsfromdaily operationsareoften consideredaslow-staked ecisionprob-
+lems [24], ensuring that AI models always operate as intended increas es trust
+and user acceptance, which ultimately results in greater usage and reliance on
+the model [21].
+An alternative to action masking is given by reward shaping [9]. Here, t he
+reward function can be deﬁned in a way that guides the RL policy towa rds
+heuristic actions. Reward shaping is less restrictive regarding how t he policy
+evolves. An action receiving a large positive reward might not even be chosen
+if the policy never explores it. In addition, the higher reward for an a ction
+might not reach an overall higher cumulative reward over the entire learning
+episode.Conversely,actionmaskingdirectlyenforcesthesugges tedaction(s)in
+speciﬁc states, which restricts the policy from exploring potential alternatives.
+We therefore encourage future studies to look deeper into the pr os and cons
+of action masking vs. reward shaping.
+The use of action masks can enhance the safety and trustworthin ess of
+RL systems in real-world applications. By constraining the agent’s ac tions to
+safe and permissible options, organizations can ensure that the sy stem oper-
+ates within predeﬁned boundaries, reducing the risk of unintended or harmful
+behaviors [24]. This is particularly important in safety-critical doma ins, such
+as autonomous driving, banking, and healthcare, where trustwor thiness and
+reliability are paramount. In addition, employing action masking can lea d to
+faster convergence and reduced training times, ultimately resultin g in quicker
+implementation and deployment of RL-based solutions.
+Furthermore, businesses can rely on action masking for post hoc p olicy
+adjustments. If human experts identify non-optimal actions tha t should be
+included or excluded, they simply need to deﬁne a novel action mask a nd
+apply it to a trained policy instead of retraining the policy. Businesses could
+also deﬁne separate action masks for diﬀerent departments, pro ducts, and
+factories, further increasing the utility of a trained RL policy.
+Action masking presents a promising approach to embedding heurist ics
+within RL systems. However, it is not without limitations. One signiﬁcan t
+challenge arises when the heuristics themselves are imperfect or inc omplete.
+In such cases, action masks may inadvertently constrain the agen t too much,
+Integrating Human Knowledge Through Action Masking in RL 23
+preventing it from exploring potentially better actions outside the s cope of
+the provided heuristics. This can lead to suboptimal performance a s we saw
+in the case of the base stock policy for inventory optimization with low lost
+sales costs. Future research should explore methods to dynamica lly adjust or
+reﬁne action masks as the agent learns, ensuring that the masks d o not overly
+restrict the agent’s exploration while still guiding it eﬀectively.
+Furthermore, the comparison between action masking and traditio nal re-
+ward shaping highlights another area for further investigation. Wh ile action
+masking provides a direct way to control the agent’s behavior by limit ing
+its action space, reward shaping inﬂuences the learning process ind irectly by
+modifying the reward signal. Each method has its strengths and wea knesses;
+action masking may provide faster convergence but at the potent ial cost of
+ﬂexibility, whereas reward shaping allows for more nuanced guidance but can
+be more challenging to design eﬀectively. Future research could foc us on hy-
+brid approaches that combine action masking with other RL enhance ments,
+such as exploration rewards or traditional reward shaping techniq ues. Such a
+dual approach could leverage the strengths of both methods, pr omoting ro-
+bust learning by both restricting irrelevant actions and encouragin g desirable
+behaviors through carefully designed rewardsignals. This could help overcome
+some of the limitations associated with each method when applied in isola tion,
+ultimately leading to more versatile and eﬀective RL systems.
+24 Stappert et al.
+Declaration of interests: The authorsdeclarethat they havenoknown com-
+peting ﬁnancial interests or personal relationships that could hav e appeared
+to inﬂuence the work reported in this paper.
+References
+1. Arora S, Doshi P (2021) A survey of inverse reinforcement lear ning: Chal-
+lenges, methods and progress. Artiﬁcial Intelligence 297:103,500
+2. Bengio Y, Lodi A, Prouvost A (2021) Machine learning for combina to-
+rial optimization: A methodological tour d’horizon. European Journ al of
+Operational Research 290:405–421
+3. Berner C, Brockman G, Chan B, Cheung V, Debiak P, Denni-
+son C, Farhi D, Fischer Q, Hashme S, Hesse C, et al. (2019)
+Dota 2 with large scale deep reinforcement learning. Available at
+https://arxiv.org/abs/1912.06680
+4. Bianchi RA, Celiberto Jr LA, Santos PE, Matsuura JP, De Mantar as RL
+(2015) Transferring knowledge as heuristics in reinforcement lear ning: A
+case-based approach. Artiﬁcial Intelligence 226:102–121
+5. Bijvank M, Vis IF (2011) Lost-salesinventory theory: A review. European
+Journal of Operational Research 215:1–13
+6. BouteRN, GijsbrechtsJ,VanJaarsveldW, VanvuchelenN(2022 )Deep re-
+inforcement learning for inventory control: A roadmap. European Journal
+of Operational Research 298:401–412
+7. Brammer J, Lutz B, Neumann D (2022) Permutation ﬂow shop sch edul-
+ing with multiple lines and demand plans using reinforcement learning.
+European Journal of Operational Research 299:75–86
+8. Brammer J, Lutz B, Neumann D (2022) Stochastic mixed model se quenc-
+ing with multiple stations using reinforcement learning and probability
+quantiles. OR Spectrum 44:29–56
+9. Cheng CA, Kolobov A, Swaminathan A (2021) Heuristic-guided rein -
+forcement learning. Advances in Neural Information Processing S ystems
+34:13,550–13,563
+10. Choi TM, Kumar S, Yue X, Chan HL (2022) Disruptive technologie s and
+operations management in the industry 4.0 era and beyond. Produc tion
+and Operations Management 31:9–31
+11. Dietvorst BJ, Simmons JP, Massey C (2015) Algorithm aversion: people
+erroneously avoid algorithms after seeing them err. Journal of Ex perimen-
+tal Psychology: General 144:114–126
+12. Dietvorst BJ, Simmons JP, Massey C (2018) Overcoming algorith m aver-
+sion:Peoplewilluseimperfectalgorithmsiftheycan(evenslightly)mo dify
+them. Management Science 64:1155–1170
+13. DongC, NgCT,ChengT (2017)Electricitytime-of-usetariﬀwith stochas-
+tic demand. Production and Operations Management 26:64–79
+Integrating Human Knowledge Through Action Masking in RL 25
+14. Esteso A, Peidro D, Mula J, D´ ıaz-Madro˜ nero M (2023) Reinfor cement
+learningapplied toproductionplanning andcontrol. InternationalJ ournal
+of Production Research 61:5772–5789
+15. Gijsbrechts J, Boute RN, Van Mieghem JA, Zhang DJ (2022) Can deep
+reinforcement learning improve inventory management? Performa nce on
+lost sales, dual-sourcing, and multi-echelon problems. Manufactur ing &
+Service Operations Management 24:1349–1368
+16. Heger J, Klein R (2024) Assortment optimization: A systematic lit erature
+review. OR Spectrum 46:1099–1161
+17. Huang S, Onta˜ n´ on S (2022) A closer look at invalid action maskin g in
+policy gradient algorithms. In: The International FLAIRS Confere nce
+Proceedings, vol. 35
+18. Huh WT, Janakiraman G, Muckstadt JA, Rusmevichientong P (20 09)
+Asymptotic optimality of order-up-to policies in lost sales inventory s ys-
+tems. Management Science 55:404–420
+19. Hussein A, Gaber MM, Elyan E, Jayne C (2017) Imitation learning: A
+survey of learning methods. ACM Computing Surveys (CSUR) 50:1–3 5
+20. Kayhan BM, Yildiz G (2023) Reinforcement learning applications to ma-
+chine scheduling problems: A comprehensive literature review. Jour nal of
+Intelligent Manufacturing 34:905–929
+21. Lehmann CA, Haubitz CB, F¨ ugener A, Thonemann UW (2022) Th e risk
+of algorithm transparency: How algorithm complexity drives the eﬀe cts on
+the use of advice. Production and Operations Management 31:3419 –3434
+22. Luo PC, Xiong HQ, ZhangBW, PengJY, Xiong ZF (2022) Multi-reso urce
+constrained dynamic workshop scheduling based on proximal policy o pti-
+misation. International Journal of Production Research 60:5937 –5955
+23. Mnih V, Kavukcuoglu K, Silver D, Rusu AA, Veness J, Bellemare MG,
+Graves A, Riedmiller M, Fidjeland AK, Ostrovski G, et al. (2015) Huma n-
+LevelControlThroughDeepReinforcementLearning. Nature51 8:529–533
+24. Notz PM, Pibernik R (2024) Explainable subgradient tree boostin g for
+prescriptive analytics in operations management. European Journ al of
+Operational Research 312:1119–1133
+25. Ogunfowora O, Najjaran H (2023) Reinforcement and deep re inforcement
+learning-based solutions for machine maintenance planning, schedu ling
+policies, and optimization. Journal of Manufacturing Systems 70:24 4–263
+26. PanzerM, BenderB (2022)Deep reinforcementlearningin prod uction sys-
+tems: A systematic literature review. International Journal of P roduction
+Research 60:4316–4341
+27. Papier F (2016) Managing electricity peak loads in make-to-stoc k manu-
+facturing lines. Production and Operations Management 25:1709–1 726
+28. Paraschos PD, Koulouriotis DE (2024) Learning-based produc tion, main-
+tenance,and qualityoptimizationin smartmanufacturingsystems: Aliter-
+ature review and trends. Computers & Industrial Engineering 198 :110,656
+29. Perera SC, Sethi SP (2023) A survey of stochastic inventory models with
+ﬁxedcosts:Optimalityof(s,S)and(s,S)-typepolicies—discrete- timecase.
+Production and Operations Management 32:131–153
+26 Stappert et al.
+30. Raﬃn A, Hill A, Gleave A, Kanervisto A, Ernestus M, Dormann N (2 021)
+Stable-baselines3: Reliable reinforcement learning implementations. Jour-
+nal of Machine Learning Research 22:1–8
+31. Rolf B, Jackson I, M¨ uller M, Lang S, Reggelin T, Ivanov D (2023) A
+review on reinforcement learning algorithms and applications in supply
+chainmanagement. InternationalJournalofProductionResear ch61:7151–
+7179
+32. Schiewe P, Stinzend¨ orfer M (2024) Optimizing combined tours: The truck-
+and-cargo-bike case. OR Spectrum 46:545–587
+33. Schulman J, Wolski F, Dhariwal P, Radford A, Klimov O
+(2017) Proximal policy optimization algorithms. Available at
+http://arxiv.org/pdf/1707.06347
+34. SilverD, Hubert T, SchrittwieserJ, AntonoglouI, LaiM, Guez A , Lanctot
+M, Sifre L, Kumaran D, Graepel T, et al. (2018) A general reinforc ement
+learning algorithm that masters Chess, Shogi, and Go through self- play.
+Science 362:1140–1144
+35. Silver D, Schrittwieser J, Simonyan K, Antonoglou I, Huang A, Gu ez A,
+Hubert T, Baker L, Lai M, Bolton A, et al. (2017) Mastering the gam e of
+Go without human knowledge. Nature 550:354–359
+36. Sutton RS, Barto AG, et al. (2018) Introduction to Reinforce ment Learn-
+ing (2nd edition). MIT Press, Cambridge, MA
+37. Taylor ME, Stone P (2009) Transfer learning for reinforcemen t learning
+domains: A survey. Journal of Machine Learning Research 10:1633 –1685
+38. ValetA,Altenm¨ ullerT,WaschneckB,MayMC,KuhnleA,LanzaG( 2022)
+Opportunistic maintenance scheduling with deep reinforcement lear ning.
+Journal of Manufacturing Systems 64:518–534
+39. Van Hasselt H, Doron Y, Strub F, Hessel M, Sonnerat N, Moday il J (2018)
+Deepreinforcementlearningandthedeadlytriad. ArXivpreprintav ailable
+athttps://arxiv.org/abs/1812.02648
+40. Vinyals O, Ewalds T, Bartunov S, Georgiev P, Vezhnevets AS, Ye o
+M, Makhzani A, K¨ uttler H, Agapiou J, Schrittwieser J, et al. (2017 )
+Starcraft ii: A new challenge for reinforcement learning. Available at
+https://arxiv.org/abs/1708.04782
+41. Wang X, Zhang L, Liu Y, Laili Y (2024) An improved deep reinforce ment
+learning-based scheduling approach for dynamic task scheduling in c loud
+manufacturing. International Journal of Production Research 62:4014–
+4030
+42. Weckenborg C, Schumacher P, Thies C, Spengler TS (2024) Flex ibility in
+manufacturing system design: A review of recent approaches fro m opera-
+tions research. European journal of operational research 315 :413–441
+43. Zhang X, Zhu GY (2024) A literature review of reinforcement lea rning
+methods applied to job-shop scheduling problems. Computers & Ope ra-
+tions Research p. 106929
+44. Zipkin P (2008) Old and new methods for lost-sales inventory sys tems.
+Operations Research 56:1256–1263
+Integrating Human Knowledge Through Action Masking in RL 27
+Appendix A: Details on Implementation and Hyperparameters
+Table A.1 presents the hyperparameter settings of PPO for all stu dies. We
+implement the PPO algorithm from the RL framework “Stable Baselines 3”
+version 1.5.0 [30]. All parameters are set to their default values.
+Table A.1: Hyperparameters of proximal policy optimization.
+Hyperparameter Value
+Size of hidden layer 64
+Number of hidden layers 2
+Horizon 2048
+Clipping parameter ( ε) 0.20
+State-value estimate coeﬃcient ( c1) 0.50
+Entropy coeﬃcient ( c2) 0.00
+Number of epochs 10
+Adam stepsize 0.0003
+Minibatch size 64
+Discount factor ( γ) 0.99
+Generalized advantage estimate (GAE) parameter ( λ) 0.95

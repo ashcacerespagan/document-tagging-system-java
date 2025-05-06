@@ -1,0 +1,210 @@
+ 
+https://crsreports.congress.gov  
+ 
+April 4, 2025
+Census Bureau Data : Selected Access , Privacy , and Penalt y 
+Provisions in  Titles 13 and 26, U.S. Code
+The Census Bureau  collects and pub lishes  data on various 
+population and economic characteristics  under the authority 
+of Title 13 of the U.S. Code . Additionally, Section 6103(j) 
+of Title 26 authorizes the Interna l Revenue Service (IRS)  to 
+share certain information  from federal tax returns with the 
+Census Bureau . All of t hese data are collected from 
+individuals, commercial entities, and governments across 
+the United States and territories.   
+Under Section 9 of Title 13 , data collected by the Census 
+Bureau are to be used solely for statistical purposes , which 
+includes the “description, estimation, or analysis of the 
+characteristics of gr oups, without identifying the 
+individuals or organizations that comprise such groups.”  
+Some  of the data that the Census Bureau collects are 
+considered personally identifiable information  (PII)  and 
+business identifiable information  (BII) , which includes but 
+is not limited to names, addresses , Social Security numbers, 
+employer identification numbers, telephone numbers, email 
+addresses , trade secrets, commercial  information , and 
+financial information .  
+Much of the data collected during Census Bureau surveys 
+are disseminated for public access  in a digital format  
+without identifying individuals . Federal law require s that 
+PII and BII remain confidential . 
+Confidentiality p rotection s of Census Bureau data are found 
+primarily in Sections 9 and 214 of Title 13 , and also in 
+Section 6103 (j) of Title 26 as it pertains to tax information  
+for statistical purposes .  
+Data Access  
+Generally, access to Census’s restricted -use, confidential 
+data is limited to Census Bureau and Department of 
+Commerce personnel as detailed in Section 9 of Title 13 . 
+Section 6103(j)(1) of Title 26  permits the IRS to share 
+federal tax return information with the Census Bureau only 
+for structuring the census and conducting related statistical 
+activities . Under Section 3583 of Title 44 , the Census 
+Bureau (and other agencies within the federal statistical 
+system ) permits researchers  to access confidential data 
+through a standard application process (SAP).  
+Access under Title 13   
+The confidentiality of certain information  collected by the 
+Census Bureau is established in Section 9 of Title 13 . 
+Specifically , Section 9 (a) states that the Secretary of 
+Commerce, any officer or employee of the Department of 
+Commerce or Census Bureau, or a local government census 
+liaison may not:  (1) use the information furnished under the 
+provisions of this title for any purpose other than th e 
+statistical purposes for which it is supplied; or  
+(2) make any publication whereby the data 
+furnished by any particular establishment or 
+individual under this title can be identified; or  
+(3) permit anyone other than the sworn officers and 
+employees of th e Department or bureau or agency 
+thereof to examine the individual reports.  
+Individuals  who are authorized to have access to 
+confidential informati on are referred to in Section 214 of 
+Title 13 . Individuals with access  generally include  those 
+who are an employee or staff member  of the C ensus 
+Bureau , who have “taken and subscribed the oath of office ” 
+or “sworn to observe limitations imposed by section 9” of 
+Title 13; or those who are a “census liaison ” per Section 16 
+of Title 13 . Under Section 214, these individuals  (as well as  
+former employees , staff members , and census liaisons ) are 
+prohibited from wrongfully disclosing confidential 
+information from census respondents and are subject to 
+penalties for doing so .  
+Section 23 of Title 13  allows t he Secretary  to utilize 
+temporary staff including “ employees of Federal, State, or 
+local agencies or instrumentalities, and emplo yees of 
+private organizations ” to assist the Census Bureau in 
+performing work authorized under Title 13 , but only if such 
+temporary staff  swear  to observe the confidentiality 
+requirements of Section 9.  
+Section 9  also prohibits census reports collected  from 
+individuals or establishments from being admitted as 
+“evidence or used for any purpose in any action, suit, or 
+other judicial or administrat ive proceeding ” without their 
+consent.  
+Federal Statistical Research Data Centers  
+Certain restricted -use data are accessible to researchers  at 
+Federal  Statistical Research Data Center s (FSRDCs ) 
+established across the continental United States.  FSRDCs 
+are intended to serve as secure hubs for members of the 
+public to access certain confidential information.  
+In order to gain access to FSRDCs, r esearchers must 
+complete a standard application process (SAP) , which 
+includes completing a background investigatio n and 
+fingerprinting in order to obtain special sworn status ( SSS).  
+As part of the SAP, researchers must be associated with an 
+approved project. According to the SAP portal , the access 
+application proces s can take an expected 12 to 24 weeks  for 
+Census Bureau Data: Selected Access, Privacy, and Penalty Provisions in Titles 13 and 26, U.S. Code  
+https://crsreports.congress.gov  approval , depending in part on whether  the applicant needs 
+data from multiple statistical agencies or units. This process 
+can take longer than the expected 24 weeks for applications 
+that require approval from organ ization s and  entities  
+outside of the SAP, such as state and local governments .  
+The SAP is developed in compliance with Section 3583  of 
+Title 44 , which includes criteria to determine an applicant’s 
+access to a data asset. OMB memorandum M -23-04 further 
+establishes SAP guidance, including the condition that th e 
+restricted -access data must be  used exclusively for 
+statistical purposes.  
+Data Privacy  
+The Census Bureau has established its own policies and 
+procedures to ensure access and confidentiality standards  
+are followed within the agency . This includes applying  
+statistical safeguards  to Census data, as well as data 
+stewardship controls such as Census’s Disclosure Review 
+Board  (DRB)  and training programs for staff.  
+Statistic al Safeguards  
+According to the Census  Bureau , statistical safeguards 
+“help prevent someone from using that statistic to learn 
+about a specific person .” Statistical safeguards limit the 
+possibility that information on individuals may be disclosed 
+by using  methods to remove, modify, or disguise data 
+collected from respondents.  
+Over time, the Census Bureau has used several different 
+methods  to limit disclosure, such as cell suppression, data 
+swapping, and noise injection. The Census Bureau is 
+currently using a  differential privacy  framework . The 
+Census Bureau explains that differential privacy “wo rks by 
+adding statistical noise —small, random additions or 
+subtractions —to every published statistic so that no one can 
+reidentify  a specific person or household with any certainty 
+using any combination of the published data .” 
+The Census Bureau indicates  that this process requires 
+balance. If too much noise is introduced, the data will be of 
+no use; if there is too little noise, the data are unprotected.  
+Data Stewardship  
+The Census Bureau  established the Disclosure Review 
+Board (DRB) , which has the primary responsibility to 
+ensure that released statistical products adhere to the 
+confidentiality standards established by federal law . The 
+DRB broadly oversees the Census Bureau’s disclosure 
+avoidance  policies and methodologies.  
+The DRB supports the Data Stewardship Executive Policy 
+(DSEP) Committee , which was established to ensure 
+protection of Title 13 data . The mission of the DSEP 
+Committee is to ensure the Census Bureau can “effectively 
+and responsibly collect and use data ab out the nation’s 
+people and economy ,” which requires respondents ’ privacy 
+and data confidentiality to be protected throughout the data 
+lifecycle.  Census Bureau employees —as well as contractors and 
+other individuals who have attained SSS —are, by virtue of 
+their lifetime oath,  considered data stewards who have 
+responsibility to protect the confidentiality and privacy of 
+information they  can access. To ensure compliance with the 
+confidentiality of information collected per Titles 13 and 
+26, the Census Bureau requires the aforementioned 
+personnel to complete a “ data stewardship awareness 
+training ,” which consists of four courses:  Data 
+Stewardship/Controlled Unclassified Information (CUI) , 
+Title 13/CUI , Title 26 , and Cyber Security . 
+New Census Bureau employees, contractors, and other SSS 
+individuals must complete the trainings prior to or 
+immediately upon onboarding. Trainings must be 
+completed annually in compliance with the Federal 
+Information Security Modernization  Act (FISMA).  
+Penalties  
+Under  Section 214 of Title 13 , individuals with access to 
+sensitive information maintained by the Census Bureau are 
+subject to penalties for wrongf ul disclos ure of  such 
+information.  
+Furthermore, Section 7213(a)(1) of Title 26  provides 
+criminal penalties for unauthorized disclosure of  tax 
+information , which for the most part are the same as the 
+penalties for 13 U.S.C. §214 . Section 7431 of Title 26 
+provides civil damages for unauthorized disclosure.  While 
+both Section 214 and Section 7213(a)(1) provide for a 
+maximum fine of $5,000,  or imprisonment of not more than 
+5 years, or both , it is possible that violations of those 
+offenses may be subject to the superseding fines set out in 
+Section 3571(b) of Title 18.  
+Issues for Congress  
+Considering the breadth of private information on 
+individua ls across the United States and territories held by 
+the Census Bureau, Congress may have an interest in the 
+statutory and administrative policies intended to protect 
+respondents ’ confidentiality.  
+Congress could conduct  oversight on the  administrative 
+policies and procedures implemented  by the Census Bureau  
+to ensure they  are compliant and sufficient to meet the 
+confidentiality requirements established by Title 13 and 26.  
+Furthermore, Congress may request additional reporting on 
+the statistical safeguard  methods used to protect 
+confidential data.  
+Taylor R. Knoedl , Analyst in American National 
+Government    
+IF12957
+  
+Census Bureau Data: Selected Access, Privacy, and Penalty Provisions in Titles 13 and 26, U.S. Code  
+https://crsreports.congress.gov  | IF12957  · VERSION 1 · NEW   
+ 
+Disclaimer  
+This document was  prepared by the Congressional Research Service (CRS). CRS serves as nonpartisan shared staff to 
+congressional committees and Members of Congress. It operates solely at the behest of and under the direction of Congress. 
+Information in a CRS Report should n ot be relied upon for purposes other than public understanding of information that has 
+been provided by CRS to Members of Congress in connection with CRS’s institutional role. CRS Reports, as a work of the 
+United States Government, are not subject to copyr ight protection in the United States. Any CRS Report may be 
+reproduced and distributed in its entirety without permission from CRS. However, as a CRS Report may include 
+copyrighted images or material from a third party, you may need to obtain the permissio n of the copyright holder if you 
+wish to copy or otherwise use copyrighted material.  
+ 

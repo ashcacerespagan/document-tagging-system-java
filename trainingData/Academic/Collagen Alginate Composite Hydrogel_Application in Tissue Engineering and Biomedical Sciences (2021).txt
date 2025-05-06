@@ -1,0 +1,1322 @@
+polymers 
+Review
+Collagen–Alginate Composite Hydrogel: Application in Tissue
+Engineering and Biomedical Sciences
+Tingyu Hu and Amy C. Y. Lo *
+/gid00030/gid00035/gid00032/gid00030/gid00038/gid00001/gid00033/gid00042/gid00045 /gid00001
+/gid00048/gid00043/gid00031/gid00028/gid00047/gid00032/gid00046
+Citation: Hu, T.; Lo, A.C.Y.
+Collagen–Alginate Composite
+Hydrogel: Application in Tissue
+Engineering and Biomedical Sciences.
+Polymers 2021 ,13, 1852. https://
+doi.org/10.3390/polym13111852
+Academic Editors: Mikyung Shin and
+Marco Sangermano
+Received: 20 April 2021
+Accepted: 27 May 2021
+Published: 2 June 2021
+Publisher’s Note: MDPI stays neutral
+with regard to jurisdictional claims in
+published maps and institutional afﬁl-
+iations.
+Copyright: © 2021 by the authors.
+Licensee MDPI, Basel, Switzerland.
+This article is an open access article
+distributed under the terms and
+conditions of the Creative Commons
+Attribution (CC BY) license (https://
+creativecommons.org/licenses/by/
+4.0/).Department of Ophthalmology, Li Ka Shing Faculty of Medicine, The University of Hong Kong,
+Hong Kong, China; tingyuhu@connect.hku.hk
+*Correspondence: amylo@hku.hk; Tel.: +852-2831-5363
+Abstract: Alginate (ALG), a polysaccharide derived from brown seaweed, has been extensively
+investigated as a biomaterial not only in tissue engineering but also for numerous biomedical sciences
+owing to its wide availability, good compatibility, weak cytotoxicity, low cost, and ease of gelation.
+Nevertheless, alginate lacks cell-binding sites, limiting long-term cell survival and viability in 3D
+culture. Collagen (Col), a major component protein found in the extracellular matrix (ECM), exhibits
+excellent biocompatibility and weak immunogenicity. Furthermore, collagen contains cell-binding
+motifs, which facilitate cell attachment, interaction, and spreading, consequently maintaining cell
+viability and promoting cell proliferation. Recently, there has been a growing body of investigations
+into collagen-based hydrogel trying to overcome the poor mechanical properties of collagen. In
+particular, collagen–alginate composite (CAC) hydrogel has attracted much attention due to its
+excellent biocompatibility, gelling under mild conditions, low cytotoxicity, controllable mechanic
+properties, wider availability as well as ease of incorporation of other biomaterials and bioactive
+agents. This review aims to provide an overview of the properties of alginate and collagen. Moreover,
+the application of CAC hydrogel in tissue engineering and biomedical sciences is also discussed.
+Keywords: collagen–alginate composite hydrogel; tissue regeneration; wound dressing; tissue
+engineering; encapsulated cell therapy
+1. Introduction
+The vital role of biomaterials in tissue engineering and biomedical application has
+attracted much attention in the past decades [ 1]. Research into biomaterials and their
+application holds great promise in the future. Synthetic polymers had been extensively
+studied in the early twentieth century due to their better performance and ease of manu-
+facture compared to natural materials [ 2,3]. Recently, naturally derived biomaterials have
+regained considerable interest in material science due to their extracellular matrix (ECM)-
+like structure that highly recapitulates in vivo environment, inherent biocompatibility, and
+a limited chance of immune response and immune rejection compared to human-made
+materials [4,5].
+Alginate is a natural polysaccharide derived from brown algae with favorable prop-
+erties, including broader availability, cost-effectiveness, good biocompatibility, weak cy-
+totoxicity as well as ease of gelation in the presence of divalent cations [ 6]. Moreover,
+alginate has unique properties in comparison with other materials including, (1) ability to
+provide an inert aqueous environment, (2) sol-gel transition under the mild condition that
+enables excellent retention of bioactive molecules and cell encapsulation, (3) controllable
+porosity allowing adjustable molecular diffusion, (4) biodegradability under physiological
+environment, and (5) structural similarity to ECM [ 7–10]. These properties allow the wide
+investigation of alginate in tissue engineering and biomedical sciences, including cell
+encapsulation, wound dressing, tissue regeneration, and pharmaceutical application [ 11].
+It is well known that anchorage-dependent cell death is activated in the absence of extra-
+cellular matrix [ 12]. Nevertheless, alginate inherently lacks cell-binding sites, thus limiting
+Polymers 2021 ,13, 1852. https://doi.org/10.3390/polym13111852 https://www.mdpi.com/journal/polymers
+Polymers 2021 ,13, 1852 2 of 26
+its wider-range application. Alginate modiﬁed with Arg-Gly-Asp (RGD) peptides or in
+combination with other biomaterials has been the focus of research.
+Collagen is the primary protein found in soft connective tissue and hard connective
+tissue. Moreover, 33% of the protein found in the human body is collagen [ 13,14]. To
+date, 29 types of collagen are identiﬁed in the animals [ 15].According to its structure,
+physical location in the body, and chain binding, collagen can also be divided into eight
+families [ 15]. Collagen-based hydrogel has been widely studied in tissue engineering and
+biomedical sciences owing to its excellent biocompatibility and weak immunogenicity [ 15–19].
+Moreover, collagen, which contains RGD peptides, highly recapitulates ECM in the human
+body [ 20,21]. However, the insufﬁcient mechanical properties limit its extensive application.
+It is ubiquitous to incorporate other biomaterials such as alginate, chitosan, and hyaluronic
+acid into collagen to improve its mechanical properties.
+CAC hydrogel can be cross-linked under mild conditions. Therefore, CAC hydrogel
+is widely investigated for cell encapsulation and drug delivery [ 22–25]. What is more,
+the combination of collagen and alginate provides cell-binding motifs and enhances the
+mechanical properties [ 26]. There is a growing body of investigations into CAC hydro-
+gel and its application in tissue engineering and biomedical sciences, including tissue
+regeneration, wound dressing, encapsulated cell therapy (ECT), and tumor biology. The
+composite hydrogel has been developed as a matrix scaffold to deliver a range of bioactive
+agents, cell populations, or in the combination of cell and bioactive factor to the defect site
+in tissue engineering. The composite hydrogel is also attracting much research attention
+in biomedical sciences. Collagen–alginate wound dressings can provide and maintain
+a moist environment to the wound site, promote cell migration, differentiation, thereby
+accelerating wound healing. CAC hydrogel is also promising for tissue regeneration due
+to its ease of gelling under mild conditions, which enables retention of bioactive agents
+and cell encapsulation. Alginate can provide encapsulation power that limits the chance
+of cell leakage from the ECT device. In addition, collagen can improve cell viability and
+proliferation. Therefore, CAC hydrogel has been exploited as a potential platform in ECT.
+Moreover, the composite hydrogels with tunning stiffness and higher similarity to ECM
+can mimic in vivo tumor cell environment. Therefore, it also explores a new ﬁeld for the
+study on tumor biology.
+This review aims to provide a comprehensive review of CAC hydrogel and its applica-
+tion (Figure 1). Firstly, the characteristics of alginate and collagen will be given respectively,
+followed by presenting the properties of CAC and the techniques. Finally, the application of
+CAC in tissue engineering and biomedical sciences, especially tissue regeneration, wound
+dressing and encapsulated cell therapy, and tumor biology, will be described.
+Figure 1. An overview of this review paper.
+2. General Properties of Alginate and Collagen
+2.1. Alginate
+2.1.1. Alginate Sources
+Alginate can be obtained from two major sources, including brown seaweed and
+bacteria [ 27]. Three species of brown seaweeds, including Laminaria Hyperborea ,Ascophyl-
+lum Nodosum , and Macrocystis Pyrifera , are the primary source for commercially available
+Polymers 2021 ,13, 1852 3 of 26
+alginate [ 28]. Alginate can also be isolated from other algae species, including Laminaria
+Japonica ,Eclonia Maxima ,Lesonia Negrescens , and Sargassum [28]. The isolation of alginate
+from brown seaweeds requires multiple steps and procedures. With the exception of
+Macrocystis Pyrifera , which is processed in wet form, brown seaweeds are ﬁrst cropped
+and dried for further extraction. In brief, the initial removal of unwanted materials and
+impurities from algae is achieved by addition of dilute mineral acid [ 29]. The preparation
+of sodium alginate is done by addition of alkali solution such as NaOH, followed by cen-
+trifugation to remove sediments. The removal of homopolysaccharides is done by adding
+mineral acid, ethanol, or CaCl 2. After these procedures, there are remaining impurities in
+alginates, which require further puriﬁcation in order to be used in the pharmaceutic ﬁeld
+and biomedical sciences.
+Alginate can be secreted by some bacteria, including Azotobacter Vinerlandii andPseu-
+domonas species. The synthesis of alginate by these two bacteria is highly similar. Alginate
+synthesized by bacteria varies in mechanical properties and has been utilized for differ-
+ent applications. Alginate isolated from bacteria possesses more chemical structure and
+physical properties than brown algae sources. The biosynthesis of alginate by bacteria
+has already been illustrated. In brief, precursor substrate was ﬁrstly synthesized, fol-
+lowed by polymerization on the precursor. It was then transferred to the cytoplasmic
+membrane and periplasmic membrane for further modiﬁcation, ﬁnally transported to the
+surroundings [30].
+2.1.2. Chemical Structure and Molecular Weight
+Alginate is a naturally occurring polysaccharide consisting of varying amounts
+of residues, including -D-mannuronic acid (M) and 1–4 linked -L-guluronic(G) [ 31].
+Three different molecular structure patterns, including homogenous monomers (-GGGG-,
+-MMMM- ) and alternating monomers (-MGMGMG-), are identiﬁed in alginates (Figure 2).
+M/G ratio and block length vary depending on the alginate source [ 32]. Up to now, over
+200 alginate products are available in the market [ 32]. The mechanical properties of alginate
+are affected by the composition, length of the polymer chain, and molecular weight [ 33].
+The molecular weight of alginate also varies with the sources. Increased proportion of G
+content in alginate and higher molecular weight can form strong mechanical properties.
+In the market, the molecular weight of alginate varies from 33,000 to 400,000 g/mol [ 11].
+Alginate with higher molecular weight also results in greater viscosity, contributing to the
+difﬁculty in processing [ 34]. Meanwhile, greater shear forces are generated, which can
+cause undesirable damage to the encapsulated cells and proteins [35].
+2.1.3. Biocompatibility and Biodegradability
+Although many investigations on the biocompatibility of alginate had been under-
+taken in vitro andin vivo , a much-debated question about the effect of alginate composition
+on its biocompatibility had been discussed for many years. Until recently, it is widely
+accepted that alginate’s immunogenicity is associated with the presence of existing impuri-
+ties, including heavy metals, endotoxins, and polyphenol [ 36]. Orive et al. demonstrated
+that poor biocompatibility, foreign body reaction, and inﬂammatory response of alginate
+primarily lie in the remaining impurities as they observed no immunological response
+when implanted highly puriﬁed alginate. Lee et al. further validated the importance
+of using puriﬁed alginate to reduce the risk of potential immunologic response by the
+host [37].
+In human body, due to the lack of a speciﬁc enzyme named alginase to cleave alginate
+polymer chains, alginate is theoretically considered as nondegradable biomaterials. How-
+ever, alginate cross-linked by covalent ions can be gradually dissolved by the ion-exchange
+reaction that continuous covalent ions release such as Ca2+from alginate exchanges mono-
+valent cations such as Na+from the surroundings.
+Polymers 2021 ,13, 1852 4 of 26
+Figure 2. The chemical structure of 1,4 -L-guluronic acid and -D-mannuronic acid in alginate.
+The chemical arrangement of three block patterns, including homogenous monomers (-GGGG-,
+-MMMM-) and alternating monomers (-MGMGMG-) can be identiﬁed in alginate.
+Mushollaeni et al. investigated the toxicity of alginate from two brown seaweed
+sources, including Sargassum andPadina by feeding Wistar mice with varying alginate
+concentrations. Alginate from Sargassum source ranging from 0.75% to 1% was regarded as
+safety concentration since the lower level of alanine aminotransferase (ALT) and aspartate
+transaminase (AST) was observed in the alginate-feeding group compared to the control
+group. However, alginate from Padina source could cause potential damage to the liver
+with a concentration above 0.75% [38].
+2.1.4. Ionic Cross-Linking
+Alginate gelation can be achieved via physical and chemical methods. A 3D network
+of alginate is formed in the presence of divalent cation such as Ca2+, Sr2+, and Ba2+.
+Divalent cation can exchange Na+from guluronate located in the separated ALG chains,
+forming the ‘egg-box’ structure (Figure 3) [ 39]. The most commonly utilized ion for alginate
+gelation is Ca2+owing to its lower cytotoxicity effect, while it is reported that both Sr2+
+and Ba2+-induced alginate is mechanically stronger than Ca2+-induced alginate. Gelation
+speed plays a critical role in controlling alginate gelation. Uniform hydrogel structure
+and superior mechanical integrity are achieved by decreasing the gelation speed, which is
+desirable for their application [ 40]. When directly using calcium chloride to initiate alginate
+gelation, it gives rise to uncontrollable and quick alginate gelling [ 40]. The reaction can be
+Polymers 2021 ,13, 1852 5 of 26
+controlled by addition of carboxylate group and phosphate into calcium chloride solution
+since these ions can compete with Ca2+to slow and delay the gelation reaction, ﬁnally
+forming a uniform hydrogel with greater mechanic integrity. In addition, temperature is
+considered another essential factor [ 40]. The cross-linking reaction can be slowed by low
+temperature as it reduces the reactivity of Ca2+. Therefore, it generates a uniform structure
+and greater mechanical integrity.
+Figure 3. Schematic diagram of sodium alginate cross-linking by Ca2+. In the alginate containing
+ COO group, Ca2+exchanges with Na+from guluronate block in ALG and interacts with separated
+ALG chains, forming the “egg-box structure”. Reproduced from [ 41] with permission. Copyright
+(2020) Springer Nature.
+Gallium has been investigated as an ionic cross-linker for alginate gelation. Like
+calcium ion, gallium binds with the guluronate block in the separated ALG chains, forming
+a 3D structure [ 42]. It is worth noting that alginate-based hydrogel cross-linked by gallium
+possesses antibacterial function against Gram-positive and Gram-negative bacteria via the
+interpretation of metabolic pathway mediated by iron [ 43,44]. Rastin et al. employed 3D
+bioprinting technique with Gallium-induced ALG cross-linking together. Multilayered
+cell-laden alginate-methylcellulose hydrogel was fabricated using 3D bioprinting followed
+by gallium bath [ 45]. Moreover, there is no signiﬁcant difference in encapsulated cell
+viability between Gallium and Ca2+-induced gelation group over a 7-day cell culture.
+2.2. Collagen
+Collagen is the major component protein found in the extracellular matrix in both hard
+and soft connective tissues. Collagen also has a dominant role in maintaining the structural
+and biological integrity of ECM [ 46]. Until now, 29 types of collagen have been identiﬁed
+in which triple-helical tertiary structure is commonly present. Collagen consists of three
+polypeptide chains, and each chain is comprised of repetitive Glycine-X-Y sequences where
+X and Y are often occupied by proline and hydroxyproline [ 47,48]. Glycine located at every
+third residue enables the tight packing of the three polypeptide chains into a tropocollagen
+molecule. The most common types of collagen are summarized in Table 1. In addition
+to its favorable properties, including excellent biocompatibility, weak immunogenicity,
+porosity, and degradability, collagen also has a vital role in regulating cell morphology,
+attachment, migration as well as differentiation [ 49,50]. Although various collagen types
+have been identiﬁed, ﬁbril-forming collagens, including type I, II, III, V , and IV , have
+achieved the most popularity in tissue engineering. It is worth noting that type I collagen is
+considered a golden material in tissue engineering, which comprises up to 90% of protein
+found in connective tissue [ 51]. The sol-gel transition of collagen happened under deﬁned
+conditions, such as neutral pH and physiological temperature [52].
+Polymers 2021 ,13, 1852 6 of 26
+Table 1. Collagen types, molecular formula, and tissue distribution. Reproduced from [ 46] with permission. Copyright
+(2010) MDPI AG.
+Type Molecular Formula Polymerized Form Tissue Distribution
+Fibril-Forming
+(ﬁbrillar)I [1(I)]22(I) ﬁbrilbone, skin, tendons, ligaments,
+cornea (represent 90% of total
+collagen of the human body)
+II [ 1(II)] ﬁbrilcartilage, intervertebral disc,
+notochord, vitreous humor in
+the eye
+III [ 1(III)]3 ﬁbril skin, blood vessels
+V[1(V)]22(V) and
+1(V)2(V)3(V)ﬁbril
+(assemble with type I)idem as type I
+XI1(XI)2(XI)3(XI)ﬁbril
+(assemble with type II)idem as type II
+Fibril-associatedIX1(IX)2(IX)3(IX) lateral association with type II ﬁbril cartilage
+XII [ 1(XII)]3 lateral association with type I ﬁbril tendons, ligaments
+Network-formingIV [1(IV)]22(IV) sheet-like network basal lamina
+VII [ 1(VII)]3 anchoringbeneath stratiﬁed squamous
+epithelia
+2.2.1. Collagen Source
+Collagen can be obtained from various sources, including animal sources, synthetic
+sources, and marine sources. Type I collagen is the most used biomaterial in tissue engi-
+neering due to its widespread presence in animals and cost-effectiveness. Commercially
+available collagen in the market is mainly extracted from animals, including bovine, porcine,
+rat tail, and ﬁsh [ 53]. Yet, there is grave concern regarding the inﬂammation induced by
+remaining impurities in collagen, possible pathogen transmission, and batch-to-batch vari-
+ability [ 54,55]. Indeed, it is reported that 2–4% of the population are allergic to collagen
+with a porcine and bovine source [ 56]. Recently, marine sources, including sponges and
+jellyﬁsh, could be potential source candidates since there is no risk of pathogen transmis-
+sion [ 55,57]. However, the poor thermal stability of marine-derived collagen may limit its
+application [58].
+2.2.2. Biodegradability and Immunogenicity
+The majority of collagen degradation in vivo is digested by collagenase such as matrix
+metalloproteinases (MMPs). There are various collagenases in human body, and it is worth
+noting that collagen degradation rate varies in different collagenases and cross-linking
+methods. The collagen degradation via collagenase includes (1) matrix metalloproteinases
+binding to collagen ﬁrst, (2) ability to unwind three polypeptides chain into a single chain
+since three-helical structure blocks the enzyme active sites, and (3) MMPs acting on each
+strand to cleave [ 59]. Different types of collagen can be digested by their corresponding
+MMPs [ 60–62]. After the degradation by MMPs, the remaining collagen fragments can
+be further degraded by gelatinase and other nonspeciﬁc enzymes. It is widely accepted
+that collagen exhibits excellent biocompatibility since it has a limited possibility to induce
+immunological response. Helical structure and telopeptide are regarded as the speciﬁc
+regions that can cause immune rejection [ 54]. Since collagen has low antigenicity, collagen-
+based material is widely used in tissue engineering and regeneration [63].
+2.2.3. Physical Cross-Linking
+To date, there are various cross-linking methods for collagen including chemical cross-
+linking, physical cross-linking and enzyme-induced gelation. Although collagen cross-
+linked by chemicals including glutaraldehyde, carbodiimides, and polyepoxy compounds
+are more stable than other cross-linking methods, the cytotoxicity of the residuals and its
+byproducts after degeneration is a grave concern [64–67].
+Polymers 2021 ,13, 1852 7 of 26
+Collagen can be cross-linked by physical methods including ultraviolet (UV) light,
+gamma-ray radiation and dehydrothermal (DHT) [ 68]. Compared to chemical cross-linking,
+physical cross-linking is considered a begin method since it does not require cytotoxic
+chemicals; however, the low efﬁcacy of physical gelation has been reported [69].
+The DHT-induced collagen gelation is achieved by the formation of amide bonds
+between the free carboxyl group and amine group as a result of water removal under a
+higher temperature and vacuum condition [ 70]. In brief, the vacuum was set at 0.05 mbar
+and temperature at 40 degrees Celsius to remove water from COL molecule and prevent
+denaturation. After that, higher temperature (over 100 degree Celsius) was utilized to
+induce COL gelation further. It is worth noting that gelation and denaturation can co-occur.
+Collagen denaturation can occur under the higher temperature condition, ﬁnally resulting
+in poor-organized structure [ 71]. It is reported that temperature at 100 degree Celsius and
+24 h treatment are the optimal parameters for DHT [72].
+UV light is considered an effective and quick method compared to DHT treatment.
+Once collagen exposures to UV light, double bonds and aromatic rings can give rise to
+free radicals. The generated free radicals on the amino acids form covalent bonds between
+collagen molecules.
+Collagen gelation via 254 nm UV light only takes 15 min, and UV-induced collagen
+shows higher resistance to degradation [ 73]. Dehydrothermal treatment is time-consuming
+as it requires a more extended period compared to UV light. DHT-induced collagen is
+more sensitive to trypsin but more resistant to degradation [74].
+2.3. Collagen–Alginate Composite Hydrogel
+2.3.1. Stiffness and Cell-Binding Sites
+The combination of collagen with alginate overcomes the limitation of each material and
+integrates their favorable properties altogether. The major hurdle that restricts the widespread
+application of collagen is its poor mechanical properties. Incorporation with other materials
+can improve the mechanical properties. It is reported that collagen in the combination
+with alginate not only enhances the mechanical properties of the composite hydrogel
+but also tunes the stiffness of CAC hydrogel simply via the concentration of Ca2+[26].
+It is worth noting that stiffness is of great importance in the determination of stem cell
+fate [ 75].Scaffold with suitable and proper mechanical properties is capable of providing the
+mechanical cues to stem or progenitor cell towards certain cell lineages [ 76]. The increase in
+calcium concentration improves the stiffness of the composite hydrogel and vice versa.
+On account of collagen containing cell-binding ligands and the inherent lack of cell-
+binding motifs inside alginate, the increase in the proportion of collagens in CAC hydrogel
+improves cell-binding ligands, which enable more cell adhesion and attachment, thereby
+maintaining cell viability and promoting cell proliferation. The relationship between the
+stiffness of composite hydrogel and calcium concentration and the association between col-
+lagen concentration and the cell-binding site inside the composite hydrogel are illustrated
+in Figure 4.
+Figure 4. The relationship between the stiffness of composite hydrogel and calcium concentration and
+the association between collagen concentration and cell-binding sites inside the composite hydrogel.
+With the increase in Ca2+concentration, the stiffness of composite hydrogel will be enhanced. Cell-
+adhesion ligands also increase as collagen concentration increases. Reproduced from [ 26] with
+permission, Copyright (2020) Elsevier.
+Polymers 2021 ,13, 1852 8 of 26
+2.3.2. Technique
+Over the past decades, scientists have developed various techniques to manufacture
+CAC hydrogel on a large scale, surpassing the limitations of traditional 3D culture, which is
+time-consuming, technical, and laborious. In this section, 3D bioprinting on CAC hydrogel
+and other techniques will be discussed.
+Three-Dimensional (3D) Bioprinting
+Compared to traditional technique, 3D printing is an advanced technique that enables
+the construction of a complicated 3D structure via layer-by-layer manufacturing under the
+help of computer system [ 77]. 3D printing has achieved great success in the preparation
+of hydrogel scaffold in tissue engineering, especially in bone tissue and cartilage tissue
+engineering [ 78]. It is worth noting that 3D bioprinting enables the rapid fabrication
+of personalized implants which meet the individual need of patients [ 79]. The unique
+features of hydrogel include high water content and sensitivity to various stimuli including
+temperature, light as well as external signals. Therefore hydrogel is an excellent candidate
+in 3D bioprinting when working with cells [80].
+3D printing can be classiﬁed into three categories including laser-based printing,
+nozzle-based printing and inkjet printer-based system [ 78]. Considering the good com-
+patibility and ease of procession, alginate has received most popularity in bone tissue
+engineering as well as bioprinting [ 81,82]. Chondrocyte laden alginate hydrogel by 3D
+printing technique showed higher cell viability and promoted ECM deposition in vitro [83].
+The main hurdle of using single materials as a bioink is poor mechanical properties [ 83].
+Nevertheless, the poor mechanical properties of alginate usually result in instability of
+3D structure, which is the main hurdle that restricts its application in hard tissue engi-
+neering [ 84]. Therefore, alginate in combination with other materials has received much
+popularity in 3D printing. Kim et al. demonstrated the prospect of a poly ( "-caprolactone)
+PCL/alginate scaffold with greater mechanical properties in hard tissue engineering since
+higher water absorption, greater retention efﬁcacy of encapsulated cells, increased cell
+viability and signiﬁcant calcium deposition were observed in PCL/alginate group com-
+pared to PCL group [ 85]. Recently, D’ Amora et al. combined 3D printing with surface
+modiﬁcation, which enables the construction of 3D scaffold with structural and chemical
+gradients [ 86]. Moreover, recent advance also allows the incorporation of nanoparticle into
+the scaffold and the fabrication of injectable hydrogel [ 87]. Moreover, Collagen, one of the
+most popular bioinks, has received much research interest in tissue engineering [52].
+Nozzle system is gaining most popularity in the preparation of scaffold-based hydro-
+gel. The construction of 3D scaffold via nozzle system is based on three steps including (1)
+hydrogel solution was loaded into the system, (2) then it was forced out of the system into
+pre-designed mold, and (3) sol-gel transition. It is widely accepted that interlayer adhesion
+is essential for the successful fabrication of 3D structure. Besides, there are various factors
+which can play a dominant role in the fabrication including temperature, shear thinning,
+thixotropy and cross-linking methods.
+A set of research groups proposed the use of dual concentric nozzle system to manu-
+facture CAC hydrogel [ 88–90]. The dual concentric nozzle system consists of three different
+parts including outer syringe, inner syringe and CaCl 2bath. Collagen and alginate solution
+were loaded into inner syringe and outer syringe respectively to enable simultaneous
+injection of CAC solution into the calcium bath to form a ﬁber [ 88,89]. It is worth men-
+tioning that ﬁber manufactured by dual concentric nozzle system can be molded into any
+irregular shapes. Besides, bioactive agents can be successfully loaded in collagen and
+alginate solution [ 89,90]. Buitrago et al. incorporated bioactive glass nanoparticle into
+alginate solution, which has demonstrated differentiation of stem cells towards osteogenic
+lineage [90].
+Yao et al. adopted another electro-assisted inkjet printing to produce alginate micro-
+spheres coated with collagen [ 91]. Alginate microspheres were ﬁrst fabricated via inkjet
+printing followed by collagen coating. The diameter of alginate-collagen microspheres,
+Polymers 2021 ,13, 1852 9 of 26
+ranging from 245 m to 657m, can be tuned by the following parameters including needle
+size, voltage, electrode distance and push speed.
+In addition to 3D printing technique, there are other techniques to manufacture CAC
+hydrogel. One study applied a microconcave mold to fabricate CAC hydrogel for cell
+encapsulation, which overcame the traditional cell encapsulation technique [ 92]. In this
+study, islets cells were seeded into the microconcave mold followed by introduction of
+CAC solution. After that, CaCl 2solution was added to form islet spheroid. Microcapsules
+or spheroids can also be fabricated using microﬂuidics [ 93,94]. Jose et al. employed
+microﬂuidics to manufacture stem cell laden CAC microspheres. In brief, a CAC-stem
+cells mixture was loaded into the device. The CAC microspheres were fabricated when
+the solution passed through the inlet followed by shear force [ 94]. The techniques for the
+manufacture of CAC hydrogel are summarized in Table 2.
+Table 2. Summary of novel techniques for the manufacture of CAC hydrogel.
+Technique DescriptionIncorporation of
+Bioactive AgentCell TypeHydrogel
+CharacteristicsReference
+Dual
+concentric
+nozzle systemAlginate and collagen solution were loaded
+into outer and inner syringe respectively.
+Simultaneous injection of ALG and COL
+solution into CaCl 2bath to form a ﬁberBioactive glass
+nanoparticles loaded in
+the shell [90]Mesenchymal
+stem cells
+(MSCs)CAC ﬁber (core
+diameter:
+700–1000m and
+shell diameter:
+200–500m) [88][88–90]
+BMP loaded in the core
+and cobalt loaded in
+the shell [89]CAC ﬁber (core
+diameter: 1000 m
+and shell diameter:
+150m [89]
+Electro-
+assisted inkjet
+printingAlginate microsphere was fabricated by inkjet
+printing followed by collagen coatingNilEndothelial
+cellCAC microsphere [91]
+Concave well
+moldCAC containing islet cells were introduced
+into concave well mold followed by Ca2+bathNilPancreatic
+islets cellIslets spheroid [92]
+MicroﬂuidicsCAC microspheres/spheroids
+were generated when pass through the inlet
+followed by shear forceNil Stem cell CAC microsphere [93]
+Nil Liver cell CAC spheroid [94]
+3. Application of CAC Hydrogel
+3.1. Tissue Engineering
+3.1.1. Bone Tissue Engineering
+In bone tissue engineering, despite transplantation of autografts into defects site is
+the gold standard, the limited autograft sources and potential complications such as the
+risk of bacterial infection and donor site morbidity cannot be ignored [ 95]. CAC hydrogel
+has found prospect as their potential in treating bone defects via delivery of stem cells
+or progenitor cell population, bone inductive growth factors, or the combination of cells
+and molecules.
+Many studies have demonstrated that alginate hydrogel, compared to others, can
+be delivered into the human body in a minimally invasive way, its powerful molding
+ability that enables it ﬁtting into any irregular defect sites and its tunning porosity to
+release many drugs to the defects [ 96,97]. Nevertheless, the biological property of alginate
+in terms of cell adhesion and attachment is limited. Therefore, alginate combined with
+other biodegradable biomaterials and RGD peptides in attempt to improve long-term cell
+viability and survival has attracted much research attention recently.
+Collagen-based hydrogel is receiving much attention in bone tissue engineering since
+collagen is the major component protein found in bone tissue [ 98]. Despite collagen
+owns excellent biocompatibility and ECM-like structure that facilitates cell attachment and
+proliferation, the limited biomechanical stability, especially in the presence of cells and
+the poor moldability, limit its widespread application in the ﬁeld of orthopedics [ 99–102].
+What is more, it has been reported that collagen has limited ability to induce osteogenic
+differentiation from stem cells in comparison to other materials [99–101].
+Polymers 2021 ,13, 1852 10 of 26
+The composite hydrogel integrates the merits of each material and overcomes each lim-
+itation such as enhanced mechanical properties, powerful moldability, capability to main-
+tain cell viability and potential to induce osteogenic lineage under deﬁned environment.
+The excellent biocompatibility of CAC hydrogel has been extensively examined [ 90,103]. A
+study conducted by Benayahu et al. showed that up to six-month system stability of the
+composite hydrogel under different storage conditions in vitro and excellent biocompat-
+ibility by the observation of the absence of adverse effect and non-cytotoxicity near the
+implants [103].
+In an attempt to accelerate bone regeneration, the ability of CAC hydrogel to deliver
+cell population to the defect site has also been examined. Perez et al. developed core-
+shell dual-layered hydrogels using a nozzle system in which cell-containing collagen and
+alginate were fabricated in the core and the outer shell respectively [ 88]. Moreover, the
+nozzle system enables hydrogel to be easily molded into any irregular shape, which is
+desirable and corresponds with clinical needs. More importantly, the authors illustrated
+that compared to the non-cell-loading construct, core-shell hydrogel loaded with bone
+marrow mesenchymal stem cells (bMSCs) exhibited considerable bone formation at the
+central region of the defect site in the rat model of calvarium defect [88]. CAC can also be
+incorporated with other biomaterials. Bendtsen et al. incorporated hydroxyapatite, one of
+the major component proteins found in bone, into CAC hydrogel [ 104]. The development of
+in situ injectable hydrogels provided a candidate scaffold for bone tissue engineering [ 104].
+Moreover, CAC hydrogel containing chitosan (ChS) and hydroxyapatite (HAp) has shown
+their advantages for cell inﬁltration and proliferation [105].
+While CAC hydrogel can support bMSCs survival and proliferation, bMSCs osteo-
+genesis happens in the presence of osteo-inductive molecules [ 104,106]. CAC hydrogel
+can be incorporated with other bioactive agents to provide mechanical cues to bMSCs.
+Perez et al. showed bMSCs differentiation towards osteocytes under the inductive condi-
+tion in vitro [107]. CAC hydrogel is also being incorporated with novel nanoparticles to
+promote bone regeneration by guiding stem cell differentiation towards osteogenic lineages.
+The sequential delivery of cobalt ions followed by bone morphogenetic protein (BMP2)
+has shown promoting effect on bone regeneration in the rat model of calvarium defect
+(Figure 5). In particular, the author developed a core-shell CAC construct that enables
+the loading of Cobalt, which has a pro-angiogenic effect, and BMP-2 that stimulates bone
+regeneration into the outer shell and inner cone respectively. The scaffold promoted bone
+regeneration and angiogenesis [ 89]. Buitrago et al. further incorporated bioactive glass
+nanoparticles into the outer alginate shell using a nozzle system and showed that bioactive
+glass nanoparticles were capable of directing bMSCs cell differentiation into osteoblasts
+in vitro [90].
+The delivery of bone morphogenetic proteins (BMPs) has also been explored in
+collagen–alginate hydrogel. Quinlan et al. showed the same kinetics BMPs release from
+Col-HAp scaffold incorporated with ALG microparticle [ 108]. HAp-Col-Alg scaffold with
+BMPs loading was also fabricated by Sotome et al., and the results showed the composite
+hydrogel is a potential drug carrier scaffold for bone tissue engineering [109].
+Polymers 2021 ,13, 1852 11 of 26
+Figure 5. H&E stained sections of CAC implant in vivo after 6 weeks. ( a) Low magniﬁcation image of
+CAC hydrogel groups including Co (  ) BMP (  ), Co (+) BMP (  ) Co ( ) BMP (+), and Co (+) BMP
+(+), ( b) high magniﬁcation image of each groups. Reproduced from [ 89] with permission. Copyright
+(2015) Elsevier.
+3.1.2. Cartilage Tissue Engineering
+Due to its nonrenewable property, cartilage itself cannot regenerate once damaged.
+Therefore, cartilage regeneration poses a signiﬁcant challenge in the ﬁeld of orthopedics.
+Up to now, extensive efforts and investigations are focusing on developing alternative
+therapy to repair damaged cartilage. In particular, tissue engineering is considered a
+promising approach in cartilage regeneration.
+The use of bMSCs shows great promise in cartilage regeneration as its potential dif-
+ferentiation into chondroblasts under certain conditions, and their favorable advantages.
+including ease of isolation and the limited autologous source [ 110]. Therefore, it is a press-
+ing need to develop an ideal bMSC scaffold that highly recapitulates the native scenario
+and provides mechanical cues. Many studies have suggested that inducible molecules
+are essential for guiding chondrogenic differentiation of bMSCs [ 111]. Zhang et al. (2017)
+demonstrated that the CAC scaffold provides a suitable environment for bMSCs growth
+and proliferation. Moreover, bMSCs were capable of differentiating into chondrocytes by
+inducible agents secreted by co-cultured chondrocytes in vitro [111]. In addition, Ledo et al.
+(2020) successfully incorporated SOX9 polynucleotides, which play a vital role in chon-
+drogenesis, into CAC hydrogel, which may provide new approach for cartilage tissue
+engineering [26].
+Although transplantation of chondrocytes to damaged cartilage is attractive, one
+major issue in cartilage regeneration is the chondrocytes’ dedifferentiation characterized by
+the continuous loss of chondrocyte markers [ 112]. A set of studies have demonstrated that
+alginate is capable of dedifferentiating the differentiated chondrocytes [ 113,114]. Neverthe-
+less, alginate hydrogel has limited ability to maintain chondrocyte viability, restricting the
+application in the preservation of chondrocyte phenotype. Collagen–alginate hydrogel has
+the potential to preserve chondrocytes phenotypes [ 115]. Jin et al. (2018) demonstrated that
+incorporating collagen into alginate can maintain long-term chondrocytes survival and
+viability while preserving chondrocyte phenotype. Although collagen gel showed higher
+cell viability when compared to CAC hydrogel, the enhanced chondrocyte dedifferentiation
+was observed. Incorporating collagen into alginate, providing a suitable environment for
+chondrocyte growth and proliferation, inhibits chondrocyte dedifferentiation and preserves
+its phenotype [ 115]. Yang et al. (2018) employed 3D printing to fabricate cartilage tissue
+using CAC hydrogel (Figure 6). In comparison with ALG and ALG/agarose group, CAC
+Polymers 2021 ,13, 1852 12 of 26
+group showed higher chondrocyte survival and enhanced chondrocyte gene expression
+including Acan, Sox9 and Col2a1 and decreased Col1a1 gene expression which is a ﬁ-
+broblast cell marker (Figure 7). This study may provide new approach for cartilage tissue
+engineering [116].
+Figure 6. Small grids by 3D printing. ( a) sodium alginate/agarose (3:1), ( b) sodium alginate/collagen
+(3:1), and ( c) sodium alginate, sodium alginate/agarose (4:1) and sodium alginate/collagen (4:1).
+Reproduced from [116] with permission. Copyright (2018) Elsevier.
+Figure 7. Expression level of genes including Acan, Sox9, Col2a1, and Col1a1 was determined by qRT-PCR. 3D constructs
+including SA, SA/AG and SA/Col in vitro after 3 days ( a), 7 days ( b), and 14 days ( c). *, **, and *** indicated p< 0.05, p< 0.01
+andp< 0.001 between SA/AG and SA/COL vs. SA. ### indicated p< 0.001 between SA/AG vs. SA/COL. Reproduced
+from [116] with permission. Copyright (2018) Elsevier.
+3.1.3. Intervertebral Disc (IVD)
+Intervertebral discs lie between adjacent vertebras and function as cushions during
+movement, modulating spinal motion and providing ﬂexibility [ 117]. An IVD consists of
+two distinct regions including annulus ﬁbrous (AF) and nucleus pulposus (NP). Gelatinous
+nucleus pulposus (NP) is located in the inner region which is surrounded by ﬁbrocartilagi-
+nous AF ring.
+AF is a highly organized tissue composing of collagen (type I) and proteoglycans,
+while NP is an unaligned structure consisting of collagen (type II) and proteoglycans [ 118].
+Low back pain is highly associated with IVD degeneration. The majority of patients with
+IVD degeneration suffer from low back pain, which poses a signiﬁcant burden on their
+quality of life. Current treatment for low back pain includes analgesics, anti-inﬂammatory
+and surgical intervention. Spinal fusion is regarded as gold standard for treating low back
+pain caused by IVD degeneration. However, it comes with limited spinal mobility and
+increased chance of adjacent IVD degeneration [ 119].Therefore, many efforts and strategies
+have been placed on the development of engineered IVD to replace the degenerated
+IVD [ 120–122]. In particular, hydrogels including alginate, chitosan, hyaluronic acid, and
+collagen have been found to have potential as a scaffold in the IVD degeneration [ 121,123].
+Collagen-based hydrogels have been widely investigated for their potential scaffold to
+treat IVD regeneration. Moriguchi et al. seeded AF cells into high-density collagen gel and
+Polymers 2021 ,13, 1852 13 of 26
+showed that cell-loading group has the capacity of promoting IVD regeneration compared
+to acellular group in the rat model of IVD degeneration induced by needle puncture [ 124].
+Hussain et al. fabricated MSCs laden high-density collagen hydrogel and showed their
+prospect in AF and NP regeneration in a sheep model of lumbar IVD degeneration [125].
+Both alginate and collagen have been widely investigated in IVD regeneration.
+Tsaryk et al. engineered collagen–alginate IVD construct containing gelatin microspheres.
+Moreover, the composite hydrogel supported MSC cell survival and promoted its dif-
+ferentiation towards chondrocytes [ 126]. Bowles et al. seeded AF cells into composite
+hydrogel in which collagen and alginate were fabricated in the outer region and inner
+region respectively. The increased alignments of circumferential ﬁbril were observed in the
+1% collagen group in vitro [127], which provide a new approach for the engineered-IVD
+with more complicated structure. Gloria et al. employed 3D bioprinting to manufacture
+IVD construct containing PCL, collagen with low molecular weight, HA and chitosan
+nanoparticles [ 128]. The study further demonstrated that the injectability of this scaffold,
+similarity of compressive modulus to the natural IVD, and maintenance of cell viability
+in vitro [128]. Moriguchi et al. constructed engineered IVD construct consisting of outer
+collagen hydrogel and inner alginate hydrogel [ 129]. The author also seeded AF and NP
+cells into both inner and outer region [ 129]. The implantation of the designed interverbal
+discs into the canine model of discectomy showed a successful integration of composite
+hydrogel into the host tissue with no immune response [129].
+3.2. Tissue Regeneration
+CAC hydrogel is also being extensively explored for the potential in the ﬁeld of tissue
+regeneration to generate a range of tissues, including vessel, neuron, liver, and vocal
+folds owing to its favorable properties, including gelling under mild condition, proper
+environment for cell growth and proliferation, and ease of incorporation of bioactive agents,
+and greater retention of bioactive agents.
+3.2.1. Blood Vessel
+In the human body, blood vessels play an important role in regulating and maintaining
+homeostasis, such as carrying oxygen and transporting nutrients to tissues, clearance of
+metabolic waste from cells, and delivering stem cells or progenitor cells to the tissues [ 130].
+The establishment of the blood vessel network, deﬁned by new blood vessel formation
+from existing blood vessels via cell proliferation, sprouting, and migration, is of great
+importance in the ﬁeld of tissue engineering, especially in 3D constructs on a large scale
+since angiogenesis is crucial for improving transplanted cell survival, and normal function
+of newly constructed tissues [ 130,131]. Cells could suffer from hypoxia and receive limited
+nutrient supply once the distance between cells and blood vessels is over a few hundred
+microns (150–200 m) [132]. The situation is even worse in 3D constructs as cells in the core
+receive oxygen and nutrients only via a blood perfusion reaction rather than a diffusion
+pathway [ 133]. In addition, neovascularization is also holding great promise to treat
+patients with myocardial infarction and stroke.
+In order to achieve neovascularization, there are several strategies, including the
+delivery of pro-angiogenic cells to the body, transportation of angiogenic stimulating
+factors such as vascular endothelial growth factor (VEGF) and platelet-derived growth
+factor (PDGF), or the combination of both strategies. However, the direct delivery of cell
+suspension or angiogenic growth factors to the ischemic tissue comes with poor retention
+of pro-angiogenic cells and therapeutic factors [ 134]. In order to combat this issue, many
+efforts have been placed on achieving better retention of cells and therapeutic agents using
+biocompatible hydrogel in recent years.
+CAC hydrogel has been studied as a drug delivery platform to deliver several angio-
+genic growth factors to the ischemic tissues. Quinlan et al. incorporated collagen-based
+scaffold with spray-dried alginate microparticle to achieve long-term (at least 35 days)
+release of VEGF in vitro [135]. More importantly, when implanted into a rat model of
+Polymers 2021 ,13, 1852 14 of 26
+calvarial bone defect, the functionalized composite scaffold was capable of promoting bone
+regeneration and stimulating new blood vessel formation as demonstrated by threefold
+increase in the number of endothelial cells labelled by CD31 in comparison to the empty
+scaffold group (Figure 8). Ali et al. engineered alginate collagen microspheres loaded
+with FGF-2 and showed at least a 7-day FGF-2 release [ 136]. The direct transplantation of
+injectable spheres into ischemic tissue enhances blood vessel formation in zebraﬁsh [136].
+Figure 8. Immunobiological images of blood vessel formation and H&E sections. ( A) Immunological
+images of endothelium labeled by CD31 (red). ( B) H&E staining of empty defect, empty scaffold and
+VEGF-MP scaffold. HB, FT and WB for host bone, ﬁbrotic tissue, and woven bone. Arrows indicated
+new bone formation. Reproduced from [ 135] with permission Copyright (2015) John Wiley & Sons,
+Ltd. Hoboken, NJ, USA.
+3.2.2. Neuron
+In comparison with other tissues, the extracellular matrix of the brain is considered
+complicated and soft with a heterogenous network of proteoglycan [ 137]. Hyaluronic
+acid, a mucopolysaccharide, interacted with other proteins to contribute the majority of
+proteoglycan [ 138]. Nevertheless, the cross-linking of hyaluronic acid-based hydrogel
+requires chemical modiﬁcation or physical methods including high temperature, base and
+UV [ 139]. The cytotoxicity of the chemical cross-linker or the uncompromised physical
+method limits its use when working with cell [ 139]. Alginate is receiving research interest
+in neuron regeneration in light of its high structure similarity to hyaluronic acid and
+gelling method under mild condition [ 140]. Its incorporation with collagen, which contains
+cell binding motifs to form CAC hydrogel has also been investigated for its ability to
+encourage neurogenesis.
+Moxon et al. demonstrated that compared to alginate hydrogel, composite hydrogel
+provides a suitable 3D environment that maintains encapsulated cells survival, stimulates
+neuronal maturation and encourages the projection from neurites as demonstrated by the
+signiﬁcant expression of synaptophysin [ 25]. In addition to collagen ﬁbrils that provide
+mechanical cues to iPSC-derived neuron, the study further demonstrated that increased
+stiffness via Ca2+concentration signiﬁcantly decreased the expression of microtubule
+associated protein 2 which is a marker for neurogenesis. The composite hydrogel may be
+a potential approach to treat patients with disorders related to damaged or degenerated
+nervous tissue as the work by Jose et al. demonstrated that neural stem cell encapsulated
+Polymers 2021 ,13, 1852 15 of 26
+into CAC microsphere using microﬂuidics technology maintained at least 10-day cell
+viability and differentiated into neural lineage in the ex vivo model of spinal cord injury [ 94].
+CAC hydrogel has also been combined with other biomaterials and peptides to promote
+neuronal differentiation. Collagen–alginate composite hydrogel containing hyaluronic acid
+and methacrylic anhydride has triggered the neuronal differentiation from iPSCs [141].
+3.2.3. Liver
+Collagen–alginate hydrogel may be a promising approach for the replacement of
+damaged liver tissue. Chan et al. successfully employed microﬂuidics technology to
+encapsulate hepatocytes into CAC hydrogel [ 93]. Moreover, hepatocytes showed greater
+functions [ 93]. In particular, when compared to the control groups including collagen and
+alginate group, the total albumin secretion from hepatocytes in the CAC group was signiﬁ-
+cantly higher in vitro . In addition, increased cytochrome enzyme activity was observed in
+the CAC group.
+3.2.4. Vocal Folds Restoration
+The work conducted by Hahn et al. showed promise as a potential scaffold in vocal
+fold restoration [ 142]. A signiﬁcant increase in synthesized reticular collagen ﬁbrils was
+observed in CAC group compared to the collagen-hyaluronic acid group. In addition,
+CAC hydrogel maintained excellent mass and no reduction in gel size over a 42-day cell
+culture, further suggesting that CAC hydrogel exhibited a desirable 3D matrix for vocal
+folds regeneration compared to the collagen-HA scaffold.
+CAC hydrogel has been found great potential as a scaffold in tissue engineering and
+tissue regeneration. Table 3 provides a list of existing studies of CAC hydrogel as a scaffold
+that can be used in different tissues.
+Table 3. Summary of CAC as a scaffold in tissue engineering and tissue regeneration.
+Tissue Engineering or Tissue Regeneration Tissue Application Reference
+Tissue engineeringBone [88–90,104,105,109]
+Cartilage [26,115,116]
+IVD [129]
+Tissue regenerationBlood vessel [135,136]
+Neuron [25,94,141]
+Liver [93]
+Vocal folds [142]
+3.3. Biomedical Sciences
+3.3.1. Wound Dressing
+The deﬁnition of a wound is the laceration or discontinuity of epithelium or mucosa
+resulting from violence, accidents or surgical procedure. Wound can be classiﬁed into two
+categories, including acute and chronic wound, based on the duration and nature of the
+healing process [ 143,144]. Wound healing is a complicated, intricate, and dynamic process
+orchestrated by an array of cells, growth factors, cytokines, and ECM, which requires
+an appropriate and suitable environment to assist the healing process [ 145]. The wound
+dressing is of great importance during the healing process since a proper wound dressing
+can accelerate the physiological reconstruction meanwhile minimizing the risk of bacterial
+infection and protecting wound contamination from the surroundings and retention of a
+moist environment for the wound [ 146]. The ultimate goal of wound care is to completely
+restore and reconstruct the damaged tissue to its prior functional level with satisfactory
+cosmetic results [147].
+When designing an ideal wound dressing, various considerations and factors should
+be taken into account, including its ability to (1) keep and maintain a moist environment, (2)
+promote new blood vessel and physiological reconstruction of connective tissue and skins,
+(3) accelerate epidermal migration (4) permit gas exchange between injury site and the
+Polymers 2021 ,13, 1852 16 of 26
+surroundings (5) remove easily (6) ﬁght microbial infection (7) maintain appropriate envi-
+ronments such as PH and temperature and (8) offer sterilized condition with noncytotoxic
+and nonallergenic properties [148].
+Traditional wound dressings, including gauze, and bandages, mainly provide a phys-
+iological barrier to prevent microorganism infection, meanwhile permitting exudate ad-
+sorption to maintain a dry environment for the wound site [ 149]. Nowadays, the market of
+modern wound dressing is expanding as it can provide a moist environment that stimulates
+cell proliferation and differentiation, therefore accelerating the healing process and mini-
+mizing the chance of bacterial infection compared with traditional wound dressing. There
+are growing modern wound dressing products available in the market that combine two or
+three natural biomaterials, including alginate, collagen, chitosan, and cellulose, since the
+composite hydrogel enables the integration of each individual favorable properties to meet
+the requirements of ideal wound dressings.
+Alginate-based wound dressing has been applied as one type of modern dressings for
+many years since alginate provides several superior features, including biocompatibility,
+low cytotoxicity to mammalian cells, and moist environment retention compared to tradi-
+tional ones [ 149]. Plenty of studies have reported that alginate exhibited a great promoting
+effect on the wound healing process. However, the poor hemostatic effect has also been rec-
+ognized. Collagen has been studied as a biomaterial in wound dressing owing to its unique
+characteristics, such as excellent biocompatibility and biodegradability [ 150]. Collagen
+has been found to accelerate wound healing by increasing cell proliferation, guiding cell
+differentiation, promoting neovascularization, and accelerating blood coagulation [ 151].
+Incorporating collagen with alginate has attracted much research attention recently due to
+its properties, including excellent biocompatibility, low immunogenicity and superb hemo-
+static effect. In addition to that, collagen–alginate wound dressings have exhibited unique
+properties, including (1) alginate could provide a moist environment which is essential
+and beneﬁcial for wound healing, (2) collagen can stimulate ﬁbroblast migration, promote
+re-epithelization and angiogenesis, (3) mild gelling that enables cell encapsulation and (4)
+ease of incorporation with other materials and antimicrobial agents (Table 4). Therefore,
+CAC composite hydrogel is a potential candidate in wound care. Several collagen–alginate
+wound dressing products, including FIBRACOL Plus, DermaCol Ag, and ColActive Plus,
+are commercially available.
+Table 4. Summary of CAC hydrogel in wound dressing.
+Composition Finding Reference
+Collagen–alginate-AMPs Antimicrobial activity and no cytotoxicity to ﬁbroblasts [152]
+Collagen–alginate-hyaluronic acid-AMPsAntimicrobial activity, good biocompatibility, reduced
+inﬂammation, and angiogenesis[153]
+Collagen–alginate wound dressing Accelerating wound healing and great patients’ satisfaction [154,155]
+Aminated collagen-oxidized
+alginate-polymyxin B sulfate-bacitracinAntimicrobial activity, angiogenesis, and reepithelization [156]
+Chitosan-collagen–alginate dressing-PU
+membraneHemocompatibility, reepithelization, and water-resistance [157]
+Collagen–alginate-AgNPsAntibacterial activity but dose-dependent cytotoxicity to
+mammalian cells[158]
+Collagen–alginate-hUCMSCs Promote wound healing, reepithelization, and angiogenesis [159]
+Recently, a novel wound dressing comprised of two or three biomaterials such as
+collagen, alginate, chitosan, HA, and cellulose incorporated with functional and bioactive
+agents has been studied since single material cannot meet all requirements of the ideal
+wound dressing [160].
+Carl et al. demonstrated that, compared to traditional dressing, the collagen–alginate
+wound dressing consisting of 90% collagen and 10% alginate presented a decreased wound
+healing duration and reduced chance of infection and contamination, improved patients’
+Polymers 2021 ,13, 1852 17 of 26
+compliance, and higher satisfaction in patients with chemical matricectomies [ 154]. In
+another randomized clinical trial, patients with diabetic foot ulcers were treated with
+traditional wound dressing (gauze moistened with 0.9% NaCl) and a modern collagen–
+alginate wound dressing. The results showed that a reduction of wound size in the
+collagen–alginate group compared to the gauze group. More patients reported having
+complete wound healing in the CAC group, which suggested that the collagen–alginate
+wound dressing has more efﬁcacy than commercially used gauze wound dressing [ 155].
+Moreover, greater satisfaction was shown in collagen–alginate treatment group owing
+to its ease of removal and limited wound care duration. Collagen–alginate dressing
+group showed signiﬁcantly less painful index, cost-effectiveness, decreased duration of re-
+epithelization. The transplantation of CAC scaffold into defects promoted wound healing
+in vivo . Collagen–alginate wound dressings have more advantageous effects on promoting
+wound healing [103].
+The use of stem cells in wound dressing has emerged as a promising strategy due to
+their potential to reconstruct tissue to a pre-injured state. A recent study by Zhang et al.
+demonstrated that encapsulated human umbilical cord mesenchymal stem cells (HUCM-
+SCs) in collagen–alginate hydrogel maintained good viability and growth factors secreted
+by HUCMSCs inhibited immunological response, thereby promoting wound healing and
+tissue reconstruction [159].
+CAC hydrogel can also be incorporated with other biomaterials to gain more favor-
+able properties. A recent study by Xie et al. demonstrated that coupling chitosan, which
+exhibits non-cytotoxicity, antibacterial effect, hemostatic effect, and biocompatibility, into
+CAC wound dressing facilitated platelet aggregation and formation of a ﬁbrin clot, accel-
+erated cell migration including ﬁbroblasts and endothelium to the wound site, thereby
+promoting wound healing in the rat model of the full-thickness wound [ 157]. The CCA
+wound dressing was further attached to polyurethanes (PU) membrane to obtain sea-
+water resistance [ 157]. Patients with acute full-thickness wounds suffered from a more
+extended wound healing period, which increases the risk of bacterial infection, ﬁnally
+leading to wound ulceration, necrosis, and even life-threatening complications. It is esti-
+mated that over two million people carry wounds containing antibiotic-resistant bacteria
+contamination. The growing prevalence of multidrug-resistant (MDR) pathogen has led to
+more than twenty thousand deaths yearly, providing a strong impetus to develop modern
+dressing with anti-bacterial infection [ 161]. Up to date, the functionalization of wound
+dressings with antiseptic and anti-inﬂammatory agents are showing a more powerful effect
+on promoting wound healing [ 162]. CAC wound dressing does not possess antibacterial
+properties. Therefore, research into the development of novel dressing designs with antimi-
+crobial properties by incorporating nanoparticles or antiseptic agents has received much
+attention. Feng et al. incorporated polymyxin B sulfate and bacitracin into CAC wound
+dressing. They reported that CAC-PB exhibited an excellent antibacterial effect against E.
+coliandS. aureus and promoted wound healing in a rat model of a full-thickness wound
+as the evidence of observation of granulation tissue, the new formation of the vascular
+network, and re-epithelization [ 156]. Silver has been extensively studied as its excellent
+antimicrobial activity against fungi, bacteria, and viruses. In a recent study by Zhang et al.,
+AgNps, a silver nanoparticle, was introduced into a collagen–alginate wound dressing
+to achieve the anti-microorganism function [ 158]. Functionalization of CAC with AgNps
+showed their signiﬁcant antibacterial effect against E. coli and S. aureus . Nevertheless,
+the dose-dependent cytotoxicity of silver nanoparticles to mammalian cells and impaired
+wound healing process cannot be overlooked. Therefore, scientists are searching for novel
+wound dressing with broad antibacterial function and weak toxicity to mammalian cells.
+Antimicrobial peptides (AMPs), which belong to one part of innate immune system,
+have found their beneﬁt for promoting wound healing and therapeutic potentials to treat
+wound infection on account of their broad-spectrum antimicrobial effect on both Gram-
+positive and Gram-negative bacteria and inherent favorable properties including limited
+cytotoxicity to human mammalian cells and regulatory effect on immune cell migration
+Polymers 2021 ,13, 1852 18 of 26
+and dendritic differentiation [ 163]. Lin et al. conjugated AMP Tet213 with CAC hydrogel
+containing hyaluronic acid via the chemical bond. Moreover, slow and controlled release of
+AMP Tet213 from Alg/Ha/Col-AMP wound dressing showed a signiﬁcant inhibitory effect
+on bacterial infection such as E. coli andS. aureus and promoting effect on wound healing
+in vivo via its regulatory role in inﬂammation, collagen deposition, and angiogenesis [ 153].
+Although a vast amount of biomaterial-based wound dressings has been developed,
+there is limited knowledge regarding the impact of biomaterial scaffold on the wound heal-
+ing process. One study conducted by Cunha et al. synthesized a set of CAC scaffolds with
+different storage modulus via tuning the concentration of Ca2+. The result demonstrated
+that varying stiffnesses caused the morphologic change on ﬁbroblasts and regulated the
+secretion of inﬂammatory factors, therefore accelerating or inhibiting the wound dressing
+process [164].
+3.3.2. Encapsulated Cell Therapy
+CAC hydrogel has been developed as cell carriers to deliver bioactive agents secreted
+by encapsulated cells inside the device to treat a set of diseases including type 1 diabetes
+and retina degeneration.
+The concept of ECT is to deliver fresh and synthesized therapeutic agents secreted by
+live cells either from allogeneic or xenogeneic sources that are encapsulated in a semiperme-
+able membrane. The semipermeable membrane allows gas exchange and nutrients supply
+while avoiding immunological reaction from host upon transplantation via blocking the
+immune mediators [ 165]. Moreover, the function of polymers is to provide mechanical
+protection to the enclosed cells from shear force damage [ 166]. The history of cell encap-
+sulation can be traced back to the early 1930s when Bisceglie et al. encapsulated cancer
+cells into the polymer scaffold and successfully transplanted the capsule into pig abdomen.
+The concept of “artiﬁcial cell” was ﬁrstly depicted by Tomas Chang, who subsequently
+proposed the idea of encapsulated cell therapy [167].
+Various preclinical and clinical trials on the efﬁcacy of ECT to treat central nervous
+system degeneration and retinal degeneration, including amyotrophic lateral sclerosis,
+Huntington’s disease, Alzheimer’s disease as well as retinitis pigmentosa have been under-
+taken [ 168]. There are plenty of biomaterials which have been investigated and developed
+as a scaffold for ECT device. Among these biomaterials, alginate is the most commonly
+used biomaterial either alone or in combination with other biomaterials. Nevertheless,
+the inherent lack of cell-binding sites limits its widespread application in ECT. Therefore,
+incorporating collagen, which contains cell-binding motifs, maintains cell viability and
+promotes cell proliferation via facilitating cell adhesion and attachment. CAC hydrogel is
+becoming the focus in ECT as composite hydrogel combines collagen and alginate merits.
+In this section, encapsulation of glial cell line-derived neurotrophic factor (GDNF)-secreting
+human embryonic kidney (HEK) cells, islet cells as an alternative therapy to treat retinal
+degenerative disease, and type 1 diabetes will be illustrated.
+Islet Cells
+The increasing number of diabetes mellitus (DM) imposes a signiﬁcant burden on
+the healthcare system around the world. Pancreatic islets transplantation recently has
+been considered as a potential treatment for DM patients. Nevertheless, there remains
+the difﬁculty in the isolation of pancreatic islet cells from the donor, maintaining viability
+during the procedure, and the relative risk of pancreas transplantation is of grave concern.
+The work conducted by Lee et al. revealed the great promise of ECT as a treatment for type
+1 diabetes. The author encapsulated islet cells into collagen–alginate composite hydrogel
+using the concave well array for manufacturing CAC hydrogel on a large scale.
+The author showed the successful encapsulation of islet spheroids into CAC hydro-
+gel. Compared to the pure alginate group, CAC showed increased islet cell viability and
+integrity for at least eight weeks, suggesting CAC is an excellent biomaterial scaffold for
+maintaining islet cell viability and function [ 92]. Moreover, the incorporation of collagen
+Polymers 2021 ,13, 1852 19 of 26
+enhanced the inward diffusion of oxygen and nutrient to the islet cells. More importantly,
+encapsulated islet spheroids showed a glucose-controlling effect compared to the direct
+implantation of intact islets into the mice with diabetes. Direct implant of intact islets
+demonstrated robust and signiﬁcant CD 45 ﬂuorescent signals compared to the encapsu-
+lated islet group, strongly suggesting that CAC protected islets cells from immune attack
+and provided mechanical protection.
+GDNF-Secreting HEK Cells
+GDNF has demonstrated a neuroprotective effect on both the central nervous system
+(CNS) and peripheral nervous system (PNS). GDNF has been proved its neuroprotective
+effect in a set of animal models. Recently, GDNF has been applied into preclinical and
+clinic trials to treat CNS degeneration. Nevertheless, considering the relative half-life of
+GDNF, and the potential adverse effect of systemically administration of GDNF, ECT that
+enables continuous GDNF release is required. Wong et al. encapsulated GDNF-secreting
+HEK cells into three-dimensional collagen microspheres to achieve the continuous GDNF
+secretion. When enclosing GDNF-secreting HEK cells into 3D collagen microsphere, it
+showed dramatically increased GDNF secretion compared to monolayer cell culture since
+collagen recapitulates a native tissue-like environment for cells to grow and proliferate [ 169].
+Further analysis suggested that GDNF secreted from 3D collagen microspheres possesses
+bioactive properties as GDNF promoted neurite extension, highly suggesting the potential
+of cell-collagen encapsulation as a drug delivery platform in the ﬁeld of pharmaceutics.
+Another study conducted by the same group introduced alginate into collagen-cell
+microspheres to limit cell migration from collagen scaffold to the surroundings for further
+application since cell migration from ECT may elicit immunological response and immune
+rejection [ 170]. In this work, the author illustrated that the collaboration of alginate with
+collagen is able to prevent cell migration and also allow continuous GDNF secretion
+from the device. Moreover, cell viability is highly associated with alginate concentration.
+In summary, the work developed a novel CAC ECT device as a potential drug delivery
+platform to treat CNS degenerative disease. Wong et al. further developed CAC ECT device
+from microsphere to cylinder-like structure as a potential treatment for retinal degeneration
+and possibly retinitis pigmentosa. The work demonstrated that long-term system stability
+and performance of CAC ECT design can be tuned by alginate concentration and the
+importance of initial cell density on the optimization of ECT device. In vivo studies
+demonstrated that rat vitreous can support cell survival and proliferation inside CAC ECT
+device and GDNF secretion from the device [ 22]. Wong et al. further demonstrated that
+the performance of CAC ECT device could be tuned by varying parameters, including
+initial cell density, gelation sequence, alginate molecular weight, and concentration. More
+importantly, continuous GDNF secretion from the CAC ECT device has a neuroprotective
+effect on photoreceptor both histologically and electrophysiologically in the rat model of
+photoreceptor degeneration, which strongly implied that CAC ECT platform is a promising
+treatment to treat a group of retinal degenerative diseases [23].
+3.3.3. Tumor Biology
+There is no doubt that cells live in the extracellular matrix that facilitates cell inter-
+action, cell migration and cell attachment to basement, allows metabolic waste exchange
+and provides oxygen and nutrients to the cells. Although the vast majority of research
+into cancer studies are performed in two-dimensional (2D) cell culture, the limitation of
+2D cancer cell studies compared to 3D culture cannot be ignored, including lack of cell
+interaction to ECM and cell migration, limited signal transduction, and the absence of
+cytoskeletal organization, which may lead to inconsistent ﬁndings between in vitro and
+in vivo studies.
+The proliferation of tumor cells and their morphology are associated with the stiffness
+of 3D scaffold. A study showed that higher 3D stiffness promoted multicellular aggre-
+gate proliferation, which may provide an alternative strategy for cancer treatment and
+Polymers 2021 ,13, 1852 20 of 26
+diagnosis [ 171]. Wang et al. further demonstrated the effect of stiffness on tumor cell
+migration. The study showed that higher stiffness can decrease cell volume, reducing the
+tumor cell migration capability [ 172]. Liu et al. also developed a tumor-like scaffold to
+mimick in vivo tumor scenario and showed tumor invasion in the 3D scaffold is similar to
+in vivo environment [173].
+4. Conclusions and Future Perspectives
+CAC hydrogel has shown its great potential in tissue engineering and biomedical
+sciences owing to its wide availability, excellent biocompatibility, ease of gelation, and
+weak cytotoxicity. The unique properties of CAC hydrogel include enhanced mechanical
+properties, moldability, and tunning porosity. Besides, CAC can also be incorporated with
+other materials, molecules, and nanoparticles to obtain more favorable features. In particu-
+lar, in tissue engineering, CAC has been developed as a platform to deliver molecules or
+cells to the defect site. Moreover, Composite hydrogel can be further incorporated with
+other bioactive agents, especially in bone tissue engineering. CAC hydrogel is also being
+extensively explored for its potential in tissue regeneration, including angiogenesis, liver,
+neuron, and vocal folds. CAC hydrogel promotes wound healing by providing a moist
+environment and cell-binding site that enables cell migration and cell proliferation. The
+ease of incorporation of antibacterial agents and AMPs further expands their application in
+wound care. CAC hydrogel has been investigated as a drug delivery platform in the ﬁeld
+of ECT. ECT device can be optimized by different parameters such as initial cell density,
+ALG concentration and molecular weight, and collagen concentration, which provides a
+new view for ECT application.
+However, the majority of CAC studies in cartilage tissue engineering are performed
+in vitro . The applicability of CAC in cartilage regeneration warrants further animal investi-
+gation. 3D printing may provide an alternative approach for CAC application in cartilage
+tissue engineering. Although hydrogel has been investigated in IVD regeneration, the
+construction of IVD for clinical use is still a considerable challenge. More investigations
+should be placed on the generation of engineered-IVD with optimal mechanical properties,
+the integration of engineered-IVD to host tissue, and the maintenances of encapsulated
+cell viability. The performance of CAC ECT device can be tuned via initial cell number,
+ALG and COL concentration, and molecular weight. Therefore, the efﬁcacy of ECT in the
+treatment of diseases requires more investigation. One of the merits of composite hydrogel
+is its tunning mechanical properties. However, there are limited studies regarding the
+effect of stiffness on encapsulated cells and tumor cells, which warrants more investigation.
+Author Contributions: T.H. contributed to writing the manuscript. A.C.Y.L. contributed to editing
+the manuscript. Both authors have read and agreed to the published version of the manuscript.
+Funding: This research was funded by Health and Medical Research Fund, the Food and Health
+Bureau, The Government of the Hong Kong Special Administrative Region (06171516). The funder
+had no role in study design, data collection and analysis, decision to publish, or preparation of
+the manuscript.
+Institutional Review Board Statement: Not applicable.
+Informed Consent Statement: Not applicable.
+Data Availability Statement: Not applicable.
+Conﬂicts of Interest: The authors declare no conﬂict of interest.
+References
+1. Hubbell, J.A. Biomaterials in tissue engineering. Bio-technology 1995 ,13, 565–576. [CrossRef] [PubMed]
+2. Huebsch, N.; Mooney, D.J. Inspiration and application in the evolution of biomaterials. Nature 2009 ,462, 426–432. [CrossRef]
+3. Ratner, B.D.; Bryant, S.J. Biomaterials: Where we have been and where we are going. Annu. Rev. Biomed. Eng. 2004 ,6, 41–75.
+[CrossRef]
+Polymers 2021 ,13, 1852 21 of 26
+4. Ullah, S.; Chen, X. Fabrication, applications and challenges of natural biomaterials in tissue engineering. Appl. Mater. Today 2020 ,
+20, 100656. [CrossRef]
+5. Porter, R.M.; Akers, R.M.; Howard, R.D.; Forsten-Williams, K. Alginate encapsulation impacts the insulin-like growth factor-
+I system of monolayer-expanded equine articular chondrocytes and cell response to interleukin-1 beta. Tissue Eng. 2007 ,
+13, 1333–1345. [CrossRef]
+6. Wee, S.; Gombotz, W.R. Protein release from alginate matrices. Adv. Drug Deliv. Rev. 1998 ,31, 267–285. [PubMed]
+7. Kim, W.S.; Mooney, D.J.; Arany, P .R.; Lee, K.; Huebsch, N.; Kim, J. Adipose tissue engineering using injectable, oxidized alginate
+hydrogels. Tissue Eng. Part A 2012 ,18, 737–743. [CrossRef] [PubMed]
+8. Suzuki, Y.; Nishimura, Y.; Tanihara, M.; Suzuki, K.; Nakamura, T.; Shimizu, Y.; Yamawaki, Y.; Kakimaru, Y. Evaluation of a novel
+alginate gel dressing: Cytotoxicity to ﬁbroblasts in vitro and foreign-body reaction in pig skin in vivo .J. Biomed. Mater. Res. 1998 ,
+39, 317–322. [CrossRef]
+9. Peters, M.C.; Polverini, P .J.; Mooney, D.J. Engineering vascular networks in porous polymer matrices. J. Biomed. Mater. Res. 2002 ,
+60, 668–678. [CrossRef] [PubMed]
+10. You, J.O.; Liu, Y.C.; Peng, C.A. Efﬁcient gene transfection using chitosan-alginate core-shell nanoparticles. Int. J. Nanomed. 2006 ,
+1, 173–180. [CrossRef]
+11. Lee, K.Y.; Mooney, D.J. Alginate: Properties and biomedical applications. Prog. Polym. Sci. 2012 ,37, 106–126. [CrossRef] [PubMed]
+12. Lee, J.W.; Juliano, R. Mitogenic signal transduction by integrin—And growth factor receptor—Mediated pathways. Mol. Cells
+2004 ,17, 188–202.
+13. Burgeson, R.E.; Nimni, M.E. Collagen types—Molecular-structure and tissue Distribution. Clin. Orthop. Relat. R. 1992 ,282, 250–272.
+14. Ramachandran, G.N. Structure of collagen at the molecular level. In Treatise on Collagen ; Ramachandran, G.N., Ed.; Academic Press:
+New York, NJ, USA, 1967; pp. 103–183.
+15. Chattopadhyay, S.; Raines, R.T. Collagen-based biomaterials for wound healing. Biopolymers 2014 ,101, 821–833. [CrossRef]
+[PubMed]
+16. Hesse, E.; Hefferan, T.E.; Tarara, J.E.; Haasper, C.; Meller, R.; Krettek, C.; Lu, L.C.; Yaszemski, M.J. Collagen type I hydrogel
+allows migration, proliferation, and osteogenic differentiation of rat bone marrow stromal cells. J. Biomed. Mater. Res. A 2010 ,
+94, 442–449. [CrossRef] [PubMed]
+17. Lynn, A.K.; Yannas, I.V .; Bonﬁeld, W. Antigenicity and immunogenicity of collagen. J. Biomed. Mater. Res. Part B 2004 ,71B,
+343–354. [CrossRef]
+18. Radhakrishnan, S.; Nagarajan, S.; Bechelany, M.; Kalkura, S.N. Collagen based biomaterials for tissue engineering applications: A
+review. In Processes and Phenomena on the Boundary between Biogenic and Abiogenic Nature—Lecture Notes in Earth System Sciences ;
+Frank-Kamenetskaya, O., Vlasov, D., Panova, E., Lessovaia, S., Eds.; Springer: Cham, Switzerland, 2020; pp. 3–22.
+19. Antoine, E.E.; Vlachos, P .P .; Rylander, M.N. Review of collagen i hydrogels for bioengineered tissue microenvironments:
+Characterization of mechanics, structure, and transport. Tissue Eng. Part B Rev. 2014 ,20, 683–696. [CrossRef]
+20. Heino, J. Cellular signaling by collagen-binding integrins. I Domain Integrins 2014 ,819, 143–155.
+21. Holder, A.J.; Badiei, N.; Hawkins, K.; Wright, C.; Williams, P .R.; Curtis, D.J. Control of collagen gel mechanical properties through
+manipulation of gelation conditions near the sol-gel transition. Soft Matter 2018 ,14, 574–580. [CrossRef]
+22. Wong, F.S.Y.; Wong, C.C.H.; Chan, B.P .; Lo, A.C.Y. Sustained delivery of bioactive GDNF from collagen and alginate-based
+cell-encapsulating gel promoted photoreceptor survival in an inherited retinal degeneration model. PLoS ONE 2016 ,11, e0159342.
+[CrossRef]
+23. Wong, F.S.Y.; Tsang, K.K.; Chu, A.M.W.; Chan, B.P .; Yao, K.M.; Lo, A.C.Y. Injectable cell-encapsulating composite alginate-collagen
+platform with inducible termination switch for safer ocular drug delivery. Biomaterials 2019 ,201, 53–67. [CrossRef] [PubMed]
+24. Liu, W.G.; Grifﬁth, M.; Li, F.F. Alginate microsphere-collagen composite hydrogel for ocular drug delivery and implantation. J.
+Mater. Sci. Mater. Med. 2008 ,19, 3365–3371. [CrossRef]
+25. Moxon, S.R.; Corbett, N.J.; Fisher, K.; Potjewyd, G.; Domingos, M.; Hooper, N.M. Blended alginate/collagen hydrogels promote
+neurogenesis and neuronal maturation. Mat. Sci. Eng. C 2019 ,104, 109904. [CrossRef]
+26. Ledo, A.M.; Vining, K.H.; Alonso, M.J.; Garcia-Fuentes, M.; Mooney, D.J. Extracellular matrix mechanics regulate transfection
+and SOX9-directed differentiation of mesenchymal stem cells. Acta Biomater. 2020 ,110, 153–163. [CrossRef]
+27. Strand, B.L.; Morch, Y.A.; Skjak-Braek, G. Alginate as immobilization matrix for cells. Minerva Biotecnol. 2000 ,12, 223–233.
+28. Smidsrod, O.; Skjakbraek, G. Alginate as immobilization matrix for cells. Trends Biotechnol. 1990 ,8, 71–78. [CrossRef]
+29. Rinaudo, M. Main properties and current applications of some polysaccharides as biomaterials. Polym. Int. 2008 ,57, 397–430.
+[CrossRef]
+30. Remminghorst, U.; Rehm, B.H.A. Bacterial alginates: From biosynthesis to applications. Biotechnol. Lett. 2006 ,28, 1701–1712.
+[CrossRef]
+31. Martinsen, A.; Skjakbraek, G.; Smidsrod, O. Alginate as immobilization material.1. Correlation between chemical and physical-
+properties of alginate gel beads. Biotechnol. Bioeng. 1989 ,33, 79–89. [CrossRef]
+32. Tonnesen, H.H.; Karlsen, J. Alginate in drug delivery systems. Drug Dev. Ind. Pharm. 2002 ,28, 621–630. [CrossRef]
+33. George, M.; Abraham, T.E. Polyionic hydrocolloids for the intestinal delivery of protein drugs: Alginate and chitosan—A review.
+J. Control. Release 2006 ,114, 1–14. [CrossRef] [PubMed]
+Polymers 2021 ,13, 1852 22 of 26
+34. LeRoux, M.A.; Guilak, F.; Setton, L.A. Compressive and shear properties of alginate gel: Effects of sodium ions and alginate
+concentration. J. Biomed. Mater. Res. 1999 ,47, 46–53. [CrossRef]
+35. Kong, H.J.; Smith, M.K.; Mooney, D.J. Designing alginate hydrogels to maintain viability of immobilized cells. Biomaterials 2003 ,
+24, 4023–4029. [CrossRef]
+36. Orive, G.; Carcaboso, A.M.; Hernandez, R.M.; Gascon, A.R.; Pedraz, J.L. Biocompatibility evaluation of different alginates and
+alginate-based microcapsules. Biomacromolecules 2005 ,6, 927–931. [CrossRef]
+37. Lee, J.; Lee, K.Y. Local and sustained vascular endothelial growth factor delivery for angiogenesis using an injectable system.
+Pharm Res. 2009 ,26, 1739–1744. [CrossRef]
+38. Mushollaeni, W.; Supartini, N.; Rusdiana, E. Toxicity test of alginate from Sargassum and Padina on the liver of mice. Food Public
+Health 2014 ,4, 204–208.
+39. Grant, G.T.; Morris, E.R.; Rees, D.A.; Smith, P .J.C.; Thom, D. Biological interactions between polysaccharides and divalent
+cations—Egg-box model. FEBS Lett. 1973 ,32, 195–198. [CrossRef]
+40. Kuo, C.K.; Ma, P .X. Ionically cross-linked alginate hydrogels as scaffolds for tissue engineering: Part 1. Structure, gelation rate
+and mechanical properties. Biomaterials 2001 ,22, 511–521. [CrossRef]
+41. Abasalizadeh, F.; Moghaddam, S.V .; Alizadeh, E.; Akbari, E.; Kashani, E.; Fazljou, S.M.B.; Torbati, M.; Akbarzadeh, A. Alginate-
+based hydrogels as drug delivery vehicles in cancer treatment and their applications in wound dressing and 3D bioprinting. J.
+Biol. Eng. 2020 ,14, 8. [CrossRef]
+42. Mourino, V .; Newby, P .; Pishbin, F.; Cattalini, J.P .; Lucangioli, S.; Boccaccini, A.R. Physicochemical, biological and drug-release
+properties of gallium cross-linked alginate/nanoparticulate bioactive glass composite ﬁlms. Soft Matter 2011 ,7, 6705–6712.
+[CrossRef]
+43. Hijazi, S.; Visaggio, D.; Pirolo, M.; Frangipani, E.; Bernstein, L.; Visca, P . Antimicrobial activity of gallium compounds on ESKAPE
+pathogens. Front. Cell Infect. Microbiol. 2018 ,8, 316. [CrossRef] [PubMed]
+44. Chitambar, C.R. Gallium and its competing roles with iron in biological systems. BBA Mol. Cell Res. 2016 ,1863 , 2044–2053.
+[CrossRef] [PubMed]
+45. Rastin, H.; Ramezanpour, M.; Hassan, K.; Mazinani, A.; Tung, T.T.; Vreugde, S.; Losic, D. 3D bioprinting of a cell-laden
+antibacterial polysaccharide hydrogel composite. Carbohydr. Polym. 2021 ,264, 117989. [CrossRef] [PubMed]
+46. Parenteau-Bareil, R.; Gauvin, R.; Berthod, F. Collagen-based biomaterials for tissue engineering applications. Materials 2010 ,
+3, 1863–1887. [CrossRef]
+47. Vanderrest, M.; Garrone, R. Collagen family of proteins. FASEB J. 1991 ,5, 2814–2823. [CrossRef]
+48. Prockop, D.J.; Kivirikko, K.I. Collagens—Molecular-Biology, diseases, and potentials for therapy. Annu. Rev. Biochem. 1995 ,
+64, 403–434. [CrossRef] [PubMed]
+49. Chevallay, B.; Herbage, D. Collagen-based biomaterials as 3D scaffold for cell cultures: Applications for tissue engineering and
+gene therapy. Med. Biol. Eng. Comput. 2000 ,38, 211–218. [CrossRef]
+50. Wolf, K.; Alexander, S.; Schacht, V .; Coussens, L.M.; von Andrian, U.H.; van Rheenen, J.; Deryugina, E.; Friedl, P . Collagen-based
+cell migration models in vitro and in vivo. Semin. Cell Dev. Biol. 2009 ,20, 931–941. [CrossRef]
+51. Gelse, K.; Poschl, E.; Aigner, T. Collagens—structure, function, and biosynthesis. Adv. Drug Deliv. Rev. 2003 ,55, 1531–1546.
+[CrossRef]
+52. Osidak, E.O.; Kozhukhov, V .I.; Osidak, M.S.; Domogatsky, S.P . Collagen as bioink for bioprinting: A comprehensive review. Int. J.
+Bioprint. 2020 ,6, 270.
+53. Badylak, S.F. Xenogeneic extracellular matrix as a scaffold for tissue reconstruction. Transpl. Immunol. 2004 ,12, 367–377.
+[CrossRef] [PubMed]
+54. Kumar, V .A.; Taylor, N.L.; Jalan, A.A.; Hwang, L.K.; Wang, B.K.; Hartgerink, J.D. A Nanostructured synthetic collagen mimic for
+hemostasis. Biomacromolecules 2014 ,15, 1484–1490. [CrossRef]
+55. Xu, X.; Gan, Q.L.; Clough, R.C.; Pappu, K.M.; Howard, J.A.; Baez, J.A.; Wang, K. Hydroxylation of recombinant human collagen
+type I alpha 1 in transgenic maize co-expressed with a recombinant human prolyl 4-hydroxylase. BMC Biotechnol. 2011 ,11, 69.
+[CrossRef]
+56. Cooperman, L.; Michaeli, D. The immunogenicity of injectable collagen. II. A retrospective review of seventy-two tested and
+treated patients. J. Am. Acad. Derm. 1984 ,10, 647–651. [CrossRef]
+57. Addad, S.; Exposito, J.Y.; Faye, C.; Ricard-Blum, S.; Lethias, C. Isolation, characterization and biological evaluation of jellyﬁsh
+collagen for use in biomedical applications. Mar. Drugs 2011 ,9, 967–983. [CrossRef] [PubMed]
+58. Kim, B.S.; Choi, J.S.; Kim, J.D.; Yoon, H.I.; Choi, Y.C.; Cho, Y.W. Human collagen isolated from adipose tissue. Biotechnol. Prog.
+2012 ,28, 973–980. [CrossRef] [PubMed]
+59. Lauer-Fields, J.L.; Fields, G.B. Triple-helical peptide analysis of collagenolytic protease activity. Biol. Chem. 2002 ,383, 1095–1105.
+[CrossRef]
+60. Fields, G.B. A Model for interstitial collagen catabolism by mammalian collagenases. J. Theor. Biol. 1991 ,153, 585–602. [CrossRef]
+61. Aimes, R.T.; Quigley, J.P . Matrix metalloproteinase-2 Is an interstitial collagenase—Inhibitor-Free Enzyme catalyzes the cleavage
+of collagen ﬁbrils and soluble native type-I collagen generating the speciﬁc 3/4-length and 1/4-length fragments. J. Biol. Chem.
+1995 ,270, 5872–5876. [CrossRef]
+Polymers 2021 ,13, 1852 23 of 26
+62. Ohuchi, E.; Imai, K.; Fujii, Y.; Sato, H.; Seiki, M.; Okada, Y. Membrane type 1 matrix metalloproteinase digests interstitial collagens
+and other extracellular matrix macromolecules. J. Biol. Chem. 1997 ,272, 2446–2451. [CrossRef]
+63. Song, E.; Kim, S.Y.; Chun, T.; Byun, H.J.; Lee, Y.M. Collagen scaffolds derived from a marine source and their biocompatibility.
+Biomaterials 2006 ,27, 2951–2961. [CrossRef] [PubMed]
+64. Wu, X.M.; Black, L.; Santacana-Lafﬁtte, G.; Patrick, C.W. Preparation and assessment of glutaraldehyde-cross-linked collagen-
+chitosan hydrogels for adipose tissue engineering. J. Biomed. Mater. Res. Part A 2007 ,81A, 59–65. [CrossRef]
+65. Powell, H.M.; Boyce, S.T. EDC cross-linking improves skin substitute strength and stability. Biomaterials 2006 ,27, 5821–5827.
+[CrossRef] [PubMed]
+66. Tu, R.; Quijano, R.C.; Lu, C.L.; Shen, S.; Wang, E.; Hata, C.; Lin, D. A preliminary-study of the ﬁxation mechanism of collagen
+reaction with a polyepoxy ﬁxative. Int. J. Artif. Organs 1993 ,16, 537–544. [CrossRef] [PubMed]
+67. Speer, D.P .; Chvapil, M.; Eskelson, C.D.; Ulreich, J. Biological effects of residual glutaraldehyde in glutaraldehyde-tanned collagen
+biomaterials. J. Biomed. Mater. Res. 1980 ,14, 753–764. [CrossRef]
+68. Weadock, K.S.; Miller, E.J.; Bellincampi, L.D.; Zawadsky, J.P .; Dunn, M.G. Physical cross-linking of collagen ﬁbers: Comparison of
+ultraviolet irradiation and dehydrothermal treatment. J. Biomed. Mater. Res. 1995 ,29, 1373–1379. [CrossRef] [PubMed]
+69. Zork, N.M.; Myers, K.M.; Yoshida, K.; Cremers, S.; Jiang, H.F.; Ananth, C.V .; Wapner, R.J.; Kitajewski, J.; Vink, J. A systematic
+evaluation of collagen cross-links in the human cervix. Am. J. Obs. Gynecol. 2015 ,212. [CrossRef]
+70. Haugh, M.G.; Jaasma, M.J.; O’Brien, F.J. The effect of dehydrothermal treatment on the mechanical and structural properties of
+collagen-GAG scaffolds. J. Biomed. Mater. Res. Part A 2009 ,89A, 363–369. [CrossRef] [PubMed]
+71. Miles, C.A.; Bailey, A.J. Thermally labile domains in the collagen molecule. Micron 2001 ,32, 325–332. [CrossRef]
+72. Haugh, M.G.; Murphy, C.M.; McKiernan, R.C.; Altenbuchner, C.; O’Brien, F.J. Cross-linking and mechanical properties signiﬁ-
+cantly inﬂuence cell attachment, proliferation, and migration within collagen glycosaminoglycan scaffolds. Tissue Eng. Part A
+2011 ,17A, 1201–1208. [CrossRef] [PubMed]
+73. Weadock, K.S.; Miller, E.J.; Keuffel, E.L.; Dunn, M.G. Effect of physical cross-linking methods on collagen-ﬁber durability in
+proteolytic solutions. J. Biomed. Mater. Res. 1996 ,32, 221–226. [CrossRef]
+74. Gorham, S.D.; Light, N.D.; Diamond, A.M.; Willins, M.J.; Bailey, A.J.; Wess, T.J.; Leslie, N.J. Effect of chemical modiﬁcations on the
+susceptibility of collagen to proteolysis. II. Dehydrothermal cross-linking. Int. J. Biol. Macromol. 1992 ,14, 129–138. [CrossRef]
+75. Lv, H.W.; Wang, H.P .; Zhang, Z.J.; Yang, W.; Liu, W.B.; Li, Y.L.; Li, L.S. Biomaterial stiffness determines stem cell fate. Life Sci.
+2017 ,178, 42–48. [CrossRef] [PubMed]
+76. Mitrousis, N.; Fokina, A.; Shoichet, M.S. Biomaterials for cell transplantation. Nat. Rev. Mater. 2018 ,3, 441–456. [CrossRef]
+77. Velasco-Hogan, A.; Xu, J.; Meyers, M.A. Additive manufacturing as a method to design and optimize bioinspired structures. Adv.
+Mater. 2018 ,30, 1800940. [CrossRef] [PubMed]
+78. De Mori, A.; Fernandez, M.P .; Blunn, G.; Tozzi, G.; Roldo, M. 3D printing and electrospinning of composite hydrogels for cartilage
+and bone tissue engineering. Polymers 2018 ,10, 285. [CrossRef] [PubMed]
+79. Nagarajan, N.; Dupret-Bories, A.; Karabulut, E.; Zorlutuna, P .; Vrana, N.E. Enabling personalized implant and controllable
+biosystem development through 3D printing. Biotechnol. Adv. 2018 ,36, 521–533. [CrossRef] [PubMed]
+80. Higuchi, A.; Ling, Q.-D.; Kumar, S.S.; Chang, Y.; Kao, T.-C.; Munusamy, M.A.; Alarfaj, A.A.; Hsu, S.-T.; Umezawa, A. External
+stimulus-responsive biomaterials designed for the culture and differentiation of ES, iPS, and adult stem cells. Prog. Polym. Sci.
+2014 ,39, 1585–1613. [CrossRef]
+81. Draget, K.I.; Skjåk-Bræk, G.; Smidsrød, O. Alginate based new materials. Int. J. Biol. Macromol. 1997 ,21, 47–55. [CrossRef]
+82. Venkatesan, J.; Bhatnagar, I.; Manivasagan, P .; Kang, K.H.; Kim, S.K. Alginate composites for bone tissue engineering: A review.
+Int. J. Biol. Macromol. 2015 ,72, 269–281. [CrossRef] [PubMed]
+83. You, F.; Wu, X.; Zhu, N.; Lei, M.; Eames, B.F.; Chen, X. 3D printing of porous cell-laden hydrogel constructs for potential
+applications in cartilage tissue engineering. ACS Biomater. Sci. Eng. 2016 ,2, 1200–1210. [CrossRef] [PubMed]
+84. Luo, Y.; Wu, C.; Lode, A.; Gelinsky, M. Hierarchical mesoporous bioactive glass/alginate composite scaffolds fabricated by
+three-dimensional plotting for bone tissue engineering. Biofabrication 2013 ,5, 015005. [CrossRef] [PubMed]
+85. Kim, Y.B.; Kim, G.H. PCL/alginate composite scaffolds for hard tissue engineering: Fabrication, characterization, and cellular
+activities. ACS Comb. Sci. 2015 ,17, 87–99. [CrossRef]
+86. D’Amora, U.; D’Este, M.; Eglin, D.; Safari, F.; Sprecher, C.M.; Gloria, A.; De Santis, R.; Alini, M.; Ambrosio, L. Collagen density
+gradient on three-dimensional printed poly( "-caprolactone) scaffolds for interface tissue engineering. J. Tissue Eng. Regen. Med.
+2018 ,12, 321–329. [CrossRef]
+87. Gloria, A.; Russo, T.; Rodrigues, D.F.L.; D’Amora, U.; Colella, F.; Improta, G.; Triassi, M.; De Santis, R.; Ambrosio, L. From 3D
+hierarchical scaffolds for tissue engineering to advanced hydrogel-based and complex devices for in situ cell or drug release.
+Procedia CIRP 2016 ,49, 72–75. [CrossRef]
+88. Perez, R.A.; Kim, M.; Kim, T.H.; Kim, J.H.; Lee, J.H.; Park, J.H.; Knowles, J.C.; Kim, H.W. Utilizing core-shell ﬁbrous collagen–
+alginate hydrogel cell delivery system for bone tissue engineering. Tissue Eng. Part A 2014 ,20A, 103–114. [CrossRef] [PubMed]
+89. Perez, R.A.; Kim, J.H.; Buitrago, J.O.; Wall, I.B.; Kim, H.W. Novel therapeutic core-shell hydrogel scaffolds with sequential delivery
+of cobalt and bone morphogenetic protein-2 for synergistic bone regeneration. Acta Biomater. 2015 ,23, 295–308. [CrossRef]
+[PubMed]
+Polymers 2021 ,13, 1852 24 of 26
+90. Buitrago, J.O.; Perez, R.A.; El-Fiqi, A.; Singh, R.K.; Kim, J.H.; Kim, H.W. Core-shell ﬁbrous stem cell carriers incorporating
+osteogenic nanoparticulate cues for bone tissue engineering. Acta Biomater. 2015 ,28, 183–192. [CrossRef]
+91. Yao, R.; Alkhawtani, A.Y.F.; Chen, R.Y.; Luang, J.; Xu, M.E. Rapid and efﬁcient in vivo angiogenesis directed by electro-assisted
+bioprinting of alginate/collagen microspheres with human umbilical vein endothelial cell coating layer. Int. J. Bioprint. 2019 ,
+5, 3–14. [CrossRef]
+92. Lee, B.R.; Hwang, J.W.; Choi, Y.Y.; Wong, S.F.; Hwang, Y.H.; Lee, D.Y.; Lee, S.H. In situ formation and collagen–alginate composite
+encapsulation of pancreatic islet spheroids. Biomaterials 2012 ,33, 837–845. [CrossRef]
+93. Chan, H.F.; Zhang, Y.; Leong, K.W. Efﬁcient One-step production of microencapsulated hepatocyte spheroids with enhanced
+functions. Small 2016 ,12, 2720–2730. [CrossRef] [PubMed]
+94. San Jose, L.H.; Stephens, P .; Song, B.; Barrow, D. Microﬂuidic encapsulation supports stem cell viability, proliferation, and
+neuronal differentiation. Tissue Eng. Part C Methods 2018 ,24, 158–170. [CrossRef]
+95. Henkel, J.; Woodruff, M.A.; Epari, D.R.; Steck, R.; Glatt, V .; Dickinson, I.C.; Choong, P .F.M.; Schuetz, M.A.; Hutmacher, D.W. Bone
+regeneration based on tissue engineering conceptions—A 21st century perspective. Bone Res. 2013 ,1, 216–248. [CrossRef]
+96. Sakiyama-Elbert, S.E.; Hubbell, J.A. Functional biomaterials: Design of novel biomaterials. Annu. Rev. Mater. Res. 2001 ,
+31, 183–201. [CrossRef]
+97. Boontheekul, T.; Kong, H.J.; Mooney, D.J. Controlling alginate gel degradation utilizing partial oxidation and bimodal molecular
+weight distribution. Biomaterials 2005 ,26, 2455–2465. [CrossRef]
+98. Rico-Llanos, G.A.; Borrego-Gonzalez, S.; Moncayo-Donoso, M.; Becerra, J.; Visser, R. Collagen type I Biomaterials as scaffolds for
+bone tissue engineering. Polymers 2021 ,13, 599. [CrossRef] [PubMed]
+99. Brinkman, W.T.; Nagapudi, K.; Thomas, B.S.; Chaikof, E.L. Photo-cross-linking of type I collagen gels in the presence of smooth
+muscle cells: Mechanical properties, cell viability, and function. Biomacromolecules 2003 ,4, 890–895. [CrossRef]
+100. Sionkowska, A.; Kozlowska, J. Properties and modiﬁcation of porous 3-D collagen/hydroxyapatite composites. Int. J. Biol.
+Macromol. 2013 ,52, 250–259. [CrossRef] [PubMed]
+101. Liu, X.H.; Ma, P .X. Polymeric scaffolds for bone tissue engineering. Ann. Biomed. Eng. 2004 ,32, 477–486. [CrossRef] [PubMed]
+102. Lee, C.H.; Singla, A.; Lee, Y. Biomedical applications of collagen. Int. J. Pharm. 2001 ,221, 1–22. [CrossRef]
+103. Benayahu, D.; Pomeraniec, L.; Shemesh, S.; Heller, S.; Rosenthal, Y.; Rath-Wolfson, L.; Benayahu, Y. Biocompatibility of a marine
+collagen-based scaffold in vitro and in vivo. Mar. Drugs 2020 ,18, 420. [CrossRef]
+104. Bendtsen, S.T.; Wei, M. Synthesis and characterization of a novel injectable alginate-collagen-hydroxyapatite hydrogel for bone
+tissue regeneration. J. Mater. Chem. B 2015 ,3, 3081–3090. [CrossRef]
+105. Yu, C.C.; Chang, J.J.; Lee, Y.H.; Lin, Y.C.; Wu, M.H.; Yang, M.C.; Chien, C.T. Electrospun scaffolds composing of alginate, chitosan,
+collagen and hydroxyapatite for applying in bone tissue engineering. Mater. Lett. 2013 ,93, 133–136. [CrossRef]
+106. Parmentier, L.; Riffault, M.; Hoey, D.A. Utilizing osteocyte derived factors to enhance cell viability and osteogenic matrix
+deposition within IPN hydrogels. Materials 2020 ,13, 1690. [CrossRef]
+107. Perez, R.A.; Won, J.E.; Knowles, J.C.; Kim, H.W. Naturally and synthetic smart composite biomaterials for tissue regeneration.
+Adv. Drug Deliv. Rev. 2013 ,65, 471–496. [CrossRef] [PubMed]
+108. Quinlan, E.; Lopez-Noriega, A.; Thompson, E.; Kelly, H.M.; Cryan, S.A.; O’Brien, F.J. Development of collagen-hydroxyapatite
+scaffolds incorporating PLGA and alginate microparticles for the controlled delivery of rhBMP-2 for bone tissue engineering. J.
+Control. Release 2015 ,198, 71–79. [CrossRef] [PubMed]
+109. Sotome, S.; Uemura, T.; Kikuchi, M.; Chen, J.; Itoh, S.; Tanaka, J.; Tateishi, T.; Shinomiya, K. Synthesis and in vivo evaluation of a
+novel hydroxyapatite/collagen–alginate as a bone ﬁller and a drug delivery carrier of bone morphogenetic protein. Mat. Sci. Eng.
+C2004 ,24, 341–347. [CrossRef]
+110. Pak, J.; Lee, J.H.; Kartolo, W.A.; Lee, S.H. Cartilage regeneration in human with adipose tissue-derived stem cells: Current status
+in clinical implications. Biomed. Res. Int. 2016 ,2016 . [CrossRef]
+111. Zhang, L.; Zheng, L.; Fan, H.S.; Zhang, X.D. A scaffold-ﬁlter model for studying the chondrogenic differentiation of stem cells
+in vitro. Mat. Sci. Eng. C 2017 ,70, 962–968. [CrossRef]
+112. Roach, H.I.; Erenpreisa, J.; Aigner, T. Osteogenic differentiation of hypertrophic chondrocytes involves asymmetric cell divisions
+and apoptosis. J. Cell Biol. 1995 ,131, 483–494. [CrossRef] [PubMed]
+113. Domm, C.; Schunke, M.; Christesen, K.; Kurz, B. Redifferentiation of dedifferentiated bovine articular chondrocytes in alginate
+culture under low oxygen tension. Osteoarthr. Cartil. 2002 ,10, 13–22. [CrossRef] [PubMed]
+114. Bonaventure, J.; Kadhom, N.; Cohensolal, L.; Ng, K.H.; Bourguignon, J.; Lasselin, C.; Freisinger, P . Reexpression of cartilage-
+speciﬁc genes by dedifferentiated human articular chondrocytes cultured in alginate beads. Exp. Cell Res. 1994 ,212, 97–104.
+[CrossRef] [PubMed]
+115. Jin, G.Z.; Kim, H.W. Efﬁcacy of collagen and alginate hydrogels for the prevention of rat chondrocyte dedifferentiation. J. Tissue
+Eng. 2018 ,9. [CrossRef] [PubMed]
+116. Yang, X.; Lu, Z.; Wu, H.; Li, W.; Zheng, L.; Zhao, J. Collagen–alginate as bioink for three-dimensional (3D) cell printing based
+cartilage tissue engineering. Mater. Sci. Eng. C 2018 ,83, 195–201. [CrossRef] [PubMed]
+117. Chan, S.C.W.; Ferguson, S.J.; Gantenbein-Ritter, B. The effects of dynamic loading on the intervertebral disc. Eur. Spine J. 2011 ,
+20, 1796–1812. [CrossRef]
+118. Eyre, D.R. Biochemistry of the intervertebral disc. Int. Rev. Connect. Tissue Res. 1979 ,8, 227–291. [PubMed]
+Polymers 2021 ,13, 1852 25 of 26
+119. Kishen, T.J.; Diwan, A.D. Fusion versus disk replacement for degenerative conditions of the lumbar and cervical spine: Quid est
+testimonium? Orthop. Clin. N. Am. 2010 ,41, 167–181. [CrossRef] [PubMed]
+120. Tavakoli, J.; Diwan, A.D.; Tipper, J.L. Advanced strategies for the regeneration of lumbar disc annulus ﬁbrosus. Int. J. Mol. Sci.
+2020 ,21, 4889. [CrossRef]
+121. Choi, Y.; Park, M.H.; Lee, K. Tissue engineering strategies for intervertebral disc treatment using functional polymers. Polymers
+2019 ,11, 872. [CrossRef]
+122. Zhao, R.Z.; Liu, W.Q.; Xia, T.T.; Yang, L. Disordered mechanical stress and tissue engineering therapies in intervertebral disc
+degeneration. Polymers 2019 ,11, 1151. [CrossRef] [PubMed]
+123. Borzacchiello, A.; Gloria, A.; De Santis, R.; Ambrosio, L. Spinal disc implants using hydrogels. In Biomedical Hydrogels ; Rimmer, S.,
+Ed.; Woodhead Publishing: Cambridge, UK, 2011; pp. 103–117.
+124. Moriguchi, Y.; Borde, B.; Berlin, C.; Wipplinger, C.; Sloan, S.R.; Kirnaz, S.; Pennicooke, B.; Navarro-Ramirez, R.; Khair, T.;
+Grunert, P .; et al .In vivo annular repair using high-density collagen gel seeded with annulus ﬁbrosus cells. Acta Biomater. 2018 ,
+79, 230–238. [CrossRef] [PubMed]
+125. Hussain, I.; Sloan, S.R.; Wipplinger, C.; Navarro-Ramirez, R.; Zubkov, M.; Kim, E.; Kirnaz, S.; Bonassar, L.J.; Härtl, R. Mesenchymal
+stem cell-seeded high-density collagen gel for annular repair: 6-week results from in vivo sheep models. Neurosurgery 2019 ,85,
+E350–E359. [CrossRef] [PubMed]
+126. Tsaryk, R.; Gloria, A.; Russo, T.; Anspach, L.; De Santis, R.; Ghanaati, S.; Unger, R.E.; Ambrosio, L.; Kirkpatrick, C.J. Collagen-low
+molecular weight hyaluronic acid semi-interpenetrating network loaded with gelatin microspheres for cell and growth factor
+delivery for nucleus pulposus regeneration. Acta Biomater. 2015 ,20, 10–21. [CrossRef] [PubMed]
+127. Bowles, R.D.; Williams, R.M.; Zipfel, W.R.; Bonassar, L.J. Self-assembly of aligned tissue-engineered annulus ﬁbrosus and
+intervertebral disc composite via collagen gel contraction. Tissue Eng. Part A 2010 ,16A, 1339–1348. [CrossRef] [PubMed]
+128. Gloria, A.; Russo, T.; D’Amora, U.; Santin, M.; De Santis, R.; Ambrosio, L. Customised multiphasic nucleus/annulus scaffold for
+intervertebral disc repair/regeneration. Connect. Tissue Res. 2020 ,61, 152–162. [CrossRef] [PubMed]
+129. Moriguchi, Y.; Mojica-Santiago, J.; Grunert, P .; Pennicooke, B.; Berlin, C.; Khair, T.; Navarro-Ramirez, R.; Arbona, R.J.R.;
+Nguyen, J.; Hartl, R.; et al . Total disc replacement using tissue-engineered intervertebral discs in the canine cervical spine. PLoS
+ONE 2017 ,12, e0185716. [CrossRef]
+130. Carmeliet, P . Angiogenesis in life, disease and medicine. Nature 2005 ,438, 932–936. [CrossRef] [PubMed]
+131. Risau, W. Mechanisms of angiogenesis. Nature 1997 ,386, 671–674. [CrossRef]
+132. Folkman, J.; Hochberg, M. Self-regulation of growth in three dimensions. J. Exp. Med. 1973 ,138, 745–753. [CrossRef]
+133. Carmeliet, P . Angiogenesis in health and disease. Nat. Med. 2003 ,9, 653–660. [CrossRef]
+134. Gelmi, A.; Cieslar-Pobuda, A.; de Muinck, E.; Los, M.; Rafat, M.; Jager, E.W.H. Direct mechanical stimulation of stem cells: A
+beating electromechanically active scaffold for cardiac tissue engineering. Adv. Healthc. Mater. 2016 ,5, 1471–1480. [CrossRef]
+135. Quinlan, E.; Lopez-Noriega, A.; Thompson, E.M.; Hibbitts, A.; Cryan, S.A.; O’Brien, F.J. Controlled release of vascular endothelial
+growth factor from spray-dried alginate microparticles in collagen-hydroxyapatite scaffolds for promoting vascularization and
+bone repair. J. Tissue Eng. Regen. Med. 2017 ,11, 1097–1109. [CrossRef]
+136. Ali, Z.; Islam, A.; Sherrell, P .; Le-Moine, M.; Lolas, G.; Syrigos, K.; Rafat, M.; Jensen, L.D. Adjustable delivery of pro-angiogenic
+FGF-2 by alginate: Collagen microspheres. Biol. Open 2018 ,7, bio027060. [CrossRef] [PubMed]
+137. Ruoslahti, E. Brain extracellular matrix. Glycobiology 1996 ,6, 489–492. [CrossRef]
+138. Ripellino, J.A.; Klinger, M.M.; Margolis, R.U.; Margolis, R.K. The hyaluronic acid binding region as a speciﬁc probe for the
+localization of hyaluronic acid in tissue sections. Application to chick embryo and rat brain. J. Histochem. Cytochem. 1985 ,
+33, 1060–1066. [CrossRef] [PubMed]
+139. Luo, Y.; Kirker, K.R.; Prestwich, G.D. Cross-linked hyaluronic acid hydrogel ﬁlms: New biomaterials for drug delivery. J. Control.
+Release 2000 ,69, 169–184. [CrossRef]
+140. Park, H.; Kang, S.W.; Kim, B.S.; Mooney, D.J.; Lee, K.Y. Shear-reversibly cross-linked alginate hydrogels for tissue engineering.
+Macromol. Biosci. 2009 ,9, 895–901. [CrossRef]
+141. Kuo, Y.C.; Hsueh, C.H. Neuronal production from induced pluripotent stem cells in self-assembled collagen-hyaluronic acid-
+alginate microgel scaffolds with grafted GRGDSP/Ln5-P4. Mater. Sci. Eng. C 2017 ,76, 760–774. [CrossRef] [PubMed]
+142. Hahn, M.S.; Teply, B.A.; Stevens, M.M.; Zeitels, S.M.; Langer, R. Collagen composite hydrogels for vocal fold lamina propria
+restoration. Biomaterials 2006 ,27, 1104–1109. [CrossRef] [PubMed]
+143. Robson, M.C.; Steed, D.L.; Franz, M.G. Wound healing: Biologic features and approaches to maximize healing trajectories—In
+brief. Curr. Prob. Surg. 2001 ,38, 65–140. [CrossRef]
+144. Szycher, M.; Lee, S.J. Modern wound dressings: A systematic approach to wound healing. J. Biomater. Appl. 1992 ,7, 142–213.
+[CrossRef]
+145. Singer, A.J.; Clark, R.A.F. Mechanisms of disease—Cutaneous wound healing. N. Engl. J. Med. 1999 ,341, 738–746. [CrossRef]
+[PubMed]
+146. Jayakumar, R.; Prabaharan, M.; Kumar, P .T.S.; Nair, S.V .; Tamura, H. Biomaterials based on chitin and chitosan in wound dressing
+applications. Biotechnol. Adv. 2011 ,29, 322–337. [CrossRef]
+147. Pinho, E.; Soares, G. Functionalization of cotton cellulose for improved wound healing. J. Mater. Chem. B 2018 ,6, 1887–1898.
+[CrossRef] [PubMed]
+Polymers 2021 ,13, 1852 26 of 26
+148. Dhivya, S.; Padma, V .V .; Santhini, E. Wound dressings—A review. Biomedicine 2015 ,5, 24–28. [CrossRef]
+149. Boateng, J.S.; Matthews, K.H.; Stevens, H.N.E.; Eccleston, G.M. Wound healing dressings and drug delivery systems: A review. J.
+Pharm. Sci. 2008 ,97, 2892–2923. [CrossRef] [PubMed]
+150. Liu, B.; Ding, F.X.; Hu, D.; Zhou, Y.; Long, C.L.; Shen, L.J.; Zhang, Y.Y.; Zhang, D.Y.; Wei, G.H. Human umbilical cord mesenchymal
+stem cell conditioned medium attenuates renal ﬁbrosis by reducing inﬂammation and epithelial-to-mesenchymal transition via
+the TLR4/NF-kappa B signaling pathway in vivo and in vitro. Stem Cell Res. Ther. 2018 ,9, 7. [CrossRef] [PubMed]
+151. Zhu, S.C.; Yuan, Q.J.; Yin, T.; You, J.; Gu, Z.P .; Xiong, S.B.; Hu, Y. Self-assembly of collagen-based biomaterials: Preparation,
+characterizations and biomedical applications. J. Mater. Chem. B 2018 ,6, 2650–2676. [CrossRef] [PubMed]
+152. Lozeau, L.D.; Grosha, J.; Smith, I.M.; Stewart, E.J.; Camesano, T.A.; Rolle, M.W. Alginate affects bioactivity of chimeric collagen-
+binding LL37 antimicrobial peptides adsorbed to collagen-alginate wound dressings. ACS Biomater. Sci. Eng. 2020 ,6, 3398–3410.
+[CrossRef] [PubMed]
+153. Lin, Z.F.; Wu, T.T.; Wang, W.S.; Li, B.L.; Wang, M.; Chen, L.L.; Xia, H.; Zhang, T. Biofunctions of antimicrobial peptide-conjugated
+alginate/hyaluronic acid/collagen wound dressings promote wound healing of a mixed-bacteria-infected wound. Int. J. Biol.
+Macromol. 2019 ,140, 330–342. [CrossRef]
+154. Van Gils, C.C.; Roeder, B.; Chesler, S.M.; Mason, S. Improved healing with a collagen–alginate dressing in the chemical
+matricectomy. J. Am. Podiat. Med. Assoc. 1998 ,88, 452–456. [CrossRef] [PubMed]
+155. Donaghue, V .M.; Chrzan, J.S.; Rosenblum, B.I.; Giurini, J.M.; Habershaw, G.M.; Veves, A. A clinical evaluation of a collagen–
+alginate topical wound dressing in the management of diabetic foot ulcers. Diabetologia 1996 ,39, 1019.
+156. Feng, X.L.; Zhang, X.F.; Li, S.Q.; Zheng, Y.Q.; Shi, X.N.; Li, F.; Guo, S.B.; Yang, J.M. Preparation of aminated ﬁsh scale collagen and
+oxidized sodium alginate hybrid hydrogel for enhanced full-thickness wound healing. Int. J. Biol. Macromol. 2020 ,164, 626–637.
+[CrossRef]
+157. Xie, H.X.; Chen, X.L.; Shen, X.R.; He, Y.; Chen, W.; Luo, Q.; Ge, W.H.; Yuan, W.H.; Tang, X.; Hou, D.Y.; et al. Preparation
+of chitosan-collagen–alginate composite dressing and its promoting effects on wound healing. Int. J. Biol. Macromol. 2018 ,
+107, 93–104. [CrossRef]
+158. Zhang, H.J.; Peng, M.X.; Cheng, T.; Zhao, P .; Qiu, L.P .; Zhou, J.; Lu, G.Z.; Chen, J.H. Silver nanoparticles-doped collagen–alginate
+antimicrobial biocomposite as potential wound dressing. J. Mater. Sci. 2018 ,53, 14944–14952. [CrossRef]
+159. Zhang, Z.K.; Li, Z.; Li, Y.; Wang, Y.Y.; Yao, M.H.; Zhang, K.; Chen, Z.Y.; Yue, H.; Shi, J.J.; Guan, F.X.; et al. Sodium alginate/collagen
+hydrogel loaded with human umbilical cord mesenchymal stem cells promotes wound healing and skin remodeling. Cell Tissue
+Res. 2021 ,383, 809–821. [CrossRef] [PubMed]
+160. Michalska-Sionkowska, M.; Walczak, M.; Sionkowska, A. Antimicrobial activity of collagen material with thymol addition for
+potential application as wound dressing. Polym. Test. 2017 ,63, 360–366. [CrossRef]
+161. Qu, J.; Zhao, X.; Liang, Y.P .; Xu, Y.M.; Ma, P .X.; Guo, B.L. Degradable conductive injectable hydrogels as novel antibacterial,
+anti-oxidant wound dressings for wound healing. Chem. Eng. J. 2019 ,362, 548–560. [CrossRef]
+162. Zahedi, P .; Rezaeian, I.; Ranaei-Siadat, S.O.; Jafari, S.H.; Supaphol, P . A review on wound dressings with an emphasis on
+electrospun nanoﬁbrous polymeric bandages. Polym. Advan. Technol. 2010 ,21, 77–95. [CrossRef]
+163. Otvos, L., Jr.; Ostorhazi, E. Therapeutic utility of antibacterial peptides in wound healing. Expert Rev. Anti-Infect. Ther. 2015 ,
+13, 871–881. [CrossRef] [PubMed]
+164. Branco da Cunha, C.; Klumpers, D.D.; Li, W.A.; Koshy, S.T.; Weaver, J.C.; Chaudhuri, O.; Granja, P .L.; Mooney, D.J. Inﬂuence of the
+stiffness of three-dimensional alginate/collagen-I interpenetrating networks on ﬁbroblast biology. Biomaterials 2014 ,35, 8927–8936.
+[CrossRef]
+165. Orive, G.; Hernandez, R.M.; Gascon, A.R.; Calaﬁore, R.; Chang, T.M.S.; De Vos, P .; Hortelano, G.; Hunkeler, D.; Lacik, I.;
+Shapiro, A.M.J.; et al. Cell encapsulation: Promise and progress. Nat. Med. 2003 ,9, 104–107. [CrossRef] [PubMed]
+166. Uludag, H.; De Vos, P .; Tresco, P .A. Technology of mammalian cell encapsulation. Adv. Drug Deliv. Rev. 2000 ,42, 29–64. [CrossRef]
+167. Chang, T.M.S.; Malave, N. Development and First clinical use of semipermeable microcapsules (artiﬁcial cells) as a compact
+artiﬁcial kidney. Trans. Am. Soc. Artif. Intern. Organs 1970 ,16, 141–148. [CrossRef]
+168. Zurn, A.D.; Henry, H.; Schluep, M.; Aubert, V .; Winkel, L.; Eilers, B.; Bachmann, C.; Aebischer, P . Evaluation of an intrathecal
+immune response in amyotrophic lateral sclerosis patients implanted with encapsulated genetically engineered xenogeneic cells.
+Cell Transplant. 2000 ,9, 471–484. [CrossRef]
+169. Wong, H.L.; Wang, M.X.; Cheung, P .T.; Yao, K.M.; Chan, B.P . A 3D collagen microsphere culture system for GDNF-secreting
+HEK293 cells with enhanced protein productivity. Biomaterials 2007 ,28, 5369–5380. [CrossRef]
+170. Lee, M.; Lo, A.C.; Cheung, P .T.; Wong, D.; Chan, B.P . Drug carrier systems based on collagen–alginate composite structures for
+improving the performance of GDNF-secreting HEK293 cells. Biomaterials 2009 ,30, 1214–1221. [CrossRef] [PubMed]
+171. Khavari, A.; Nyden, M.; Weitz, D.A.; Ehrlicher, A.J. Composite alginate gels for tunable cellular microenvironment mechanics.
+Sci. Rep. 2016 ,6, 30854. [CrossRef] [PubMed]
+172. Wang, M.; Yang, Y.W.; Han, L.C.; Han, S.; Liu, N.; Xu, F.; Li, F. Effect of three-dimensional ECM stiffness on cancer cell migration
+through regulating cell volume homeostasis. Biochem. Biophys. Res. Commun. 2020 ,528, 459–465. [CrossRef] [PubMed]
+173. Liu, C.; Mejia, D.L.; Chiang, B.; Luker, K.E.; Luker, G.D. Hybrid collagen alginate hydrogel as a platform for 3D tumor spheroid
+invasion. Acta Biomater. 2018 ,75, 213–225. [CrossRef] [PubMed]
+Reproduced with permission of copyright owner. Further reproduction
+prohibited without permission.

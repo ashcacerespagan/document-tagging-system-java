@@ -1,0 +1,292 @@
+Why I think a robot could take my
+white-collar job
+Ceda Verbakel·Follow
+12 min read·3 days ago
+50 1
+Still from Spike Jonez’ movie “Her”Get unlimited access to the best of Medium for less than $1/week.Become a member
+Open in app
+Search Write
+3/29/25, 5:15 PM Why I think a robot could take my white-collar job | by Ceda Verbakel | Mar, 2025 | Medium
+https://medium.com/@helloceda/why-i-think-a-robot-could-take-my-white-collar-job-60c5940d07d5 1/15
+Australian songwriter Tim Minchin recently gave an off-the-cuff critique of
+AI in the arts that left me wondering. He asked the audience to consider an
+artwork that at first looks like a large photograph, but on closer inspection,
+is a painting rendered to look as though it is a photograph. There’s something
+undeniably impressive about it. “What drove that person to do that?”, it
+makes you wonder.
+Now imagine the same painting, but this time computer generated to look
+like a human painted it to photorealistic finish. We would never be anywhere
+near as moved by the AI version because the fact that a human went to
+lengths to imitate the photograph is precisely what is so compelling about
+that human-made artwork. It tells us something about the artist, and
+therefore, it tells us something about ourselves.
+I’m not an artist, but I work in the technology sector as a “human-centered
+strategist” and have the privilege of being able to take part in some of the
+bigger creative decisions that get made when companies decide to employ
+technology to solve problems, develop new products, reach new markets, or
+improve employee experience. Minchin’s critique reminded me of the many
+conversations I’ve observed amongst my colleagues, some of whom are
+concerned for their own long-term job stability, just as many artists are.
+I don’t think they’re wrong to be worried — we’ve all recently witnessed what
+it’s like to completely rethink our assumptions of what technology is capable
+of since the launch of ChatGPT, it’s copycats, and it’s as-impressive cousins.
+Given people are falling in love with and becoming emotionally dependent
+on these LLM’s (as anticipated and beautifully manifested in the movie
+“Her”) it would be silly to cast aside the possibility that those same models
+could eventually be capable of doing what we like to think is the very3/29/25, 5:15 PM Why I think a robot could take my white-collar job | by Ceda Verbakel | Mar, 2025 | Medium
+https://medium.com/@helloceda/why-i-think-a-robot-could-take-my-white-collar-job-60c5940d07d5 2/15
+“empathic”, “intelligent” and “creative” work that is “human-centered
+innovation”.
+Can robots research?
+In case you’re not familiar with human-centered methods, one of the most
+un-algorithmic types of research that we do involves dynamic, long-format
+interviews with users of products and services, and sometimes even
+contextual studies in people’s homes or workplaces. Then we take all the
+detailed notes we’ve made, synthesize them into insights, themes, or any
+other format that makes sense for the situation.
+It’s obvious at this point, especially given how human-like LLM’s have
+become, that a machine could plausibly conduct a very thorough interview,
+and if you gave it a body, rolley-wheels, and an injection of relevant data to
+train on, it could probably roll out into the field and conduct contextual
+research too. That might sound ridiculous at first — but stay with me — the
+idea of humans dating robots was also far-fetched a few months ago.
+It might be tempting to argue that only human researchers would be able to
+elicit the kinds of responses we would find useful or usable to the work that
+we do — perhaps, that humans can empathize in a way that a robot couldn’t,
+and therefore, would not be able to harvest responses from participants in
+the same way. But we all know what it feels like to consult Google with our
+deepest fears and most embarrassing maladies, and I suspect that same
+comfort, anonymity, and willingness to be honest, would be felt by a
+research participant harping on about their experiences and opinions to a
+camera lens rather than having to look dead in the eyes of a fellow human
+being they’ve just met.3/29/25, 5:15 PM Why I think a robot could take my white-collar job | by Ceda Verbakel | Mar, 2025 | Medium
+https://medium.com/@helloceda/why-i-think-a-robot-could-take-my-white-collar-job-60c5940d07d5 3/15
+Some of us researchers might be tempted to lean into our laurels and explain
+that interviews aren’t about just listening to what participants say — it’s
+listening for what they mean. That is, reading between the lines and being
+able to probe with the next best question to ask because we as fellow
+humans relate and can make intuitive inferences that a robot might not.
+However, if you open up ChatGPT now and type in the following: “I am doing
+a project for X type of company. Could you assume the role of me as an
+interviewer, and pretend that I am a [insert research participant
+demographics] who you are interviewing to find out more about me, and
+specifically, find out ways in which the company could better serve me?
+Please ask me one question at a time, and change your question based on the
+answer I already gave. Ask me only 5 questions.”
+I did it. Within 5 questions, the computer had enough information, despite
+my brief, unforthcoming answers, to suggest a solution that I had recently
+also presented to a real life client (after working on the very project I had
+asked the machine to work on). That’s not to say the machines output was
+equal to mine— there was a lot more to it — but it makes you wonder
+whether, one day, it could be.
+What about the other phases of human-centered processes? Synthesis of the
+qualitative data is a no brainer, quite literally, for a machine. Ingesting and
+synthesizing information is exactly what LLM’s are designed to do, at speeds
+much faster than any human. Speeds fast enough to give us the same feeling
+that European GO! Champion, Fan Hui, expressed when robots first beat him
+in 2015 — defeat. Sure, some of the reasoning we do on projects requires a
+range of inputs to come up with helpful insights (e.g. constraints on
+technology, the organizations willingness to innovate etc.), but with enough
+data and integrations flowing through whatever future AI platforms will exist
+one day, I don’t doubt that it’s possible — or even probable — especially now3/29/25, 5:15 PM Why I think a robot could take my white-collar job | by Ceda Verbakel | Mar, 2025 | Medium
+https://medium.com/@helloceda/why-i-think-a-robot-could-take-my-white-collar-job-60c5940d07d5 4/15
+that DeepSeek and others are rapidly integrating the ability to reason (rather
+than regurgitate reasoning) to their models.
+Can robots com e up with good ideas?
+So this brings us to the interventions — the ideas we (often together with our
+clients) come up with to serve the humans we’ve interviewed and the clients
+we’re working for. Given that machines are trained on everything that was or
+is, can they truly come up with *new* ideas? The iPhone for example, was a
+revolutionary innovation that required multiple shifts or trends to occur at
+once for Steve Jobs and his team to “connect the dots” and invent the one-
+button phone: Apple’s minimalist design aesthetic, development of multi-
+touch capacitive touch screen technology, and the usability benefits of a
+larger touch screen. Even if the words “phone with touch screen” had not
+been uttered, let alone collected as training data, wouldn’t reason-mode not
+make this kind of ideation possible for a machine to do? Could it have even
+triangulated those data points faster?
+While our culture rewards those, like Jobs, who come up with “great ideas” —
+ideas are cheap — and the real art is in not just choosing the right ideas to
+implement but in what combination, for who, and how exactly to implement
+them. That is, to figure out the details. It’s all well and good to have come up
+with the iPhone but clearly a conscious decision was made to keep *some*
+buttons, for usability. So couldn’t that same research-robot take its first-blush
+ideas back out to research participants, gather feedback, and continue
+iterating until the ideas have legs? Really, really, good, fine-tuned, flying-off-
+the-shelves legs? Not unlike the targeted content on my social media feed,
+can’t my machine friends come up with perfect, perhaps even personalized,
+product, service, and digital experiences for me if they spent enough time3/29/25, 5:15 PM Why I think a robot could take my white-collar job | by Ceda Verbakel | Mar, 2025 | Medium
+https://medium.com/@helloceda/why-i-think-a-robot-could-take-my-white-collar-job-60c5940d07d5 5/15
+with me and millions of others like me, sharpening its understanding of
+what that target market values?
+W ould we even need a hum an in the loop, eventually?
+So if the key steps of the human-centered innovation process could be
+automated, is that it for me? Can’t I just delegate the easy or boring bits to
+ChatGPT? Doesn’t my work — which is about humans — need to be
+completed in some small part by a human for it to be truly valuable? When I
+get honest with myself, I realize that my clients probably find my work
+valuable for reasons that don’t include that I made it, or any human really.
+Ultimately, they want a recommendation about what to do next to solve
+whatever problem it is they came to us to solve.
+So if robots could, hypothetically, complete my work to the same standard (if
+not better but definitely faster), could this hypothetical “automated
+innovation factory” take my job?
+I don’t doubt these new technologies will, and already have to some extent,
+augmented the “innovation” workforce. When I’m scrolling social media and
+see a carousel of products from Amazon, most of which are unusual or niche
+or never-seen-before, I can’t help but think that some of them might not exist
+at all — they are the physical product equivalent of vaporware — at least until
+enough people click on it, or buy it, in which case the cunning on-demand
+factory, possibly in Asia somewhere, will start to produce it. I guess, as the
+cyberpunk author William Gibson once said — the future is already here, it’s
+just not evenly distributed.
+If that’s the case for the small stuff — kitchen doo-dads or button placement
+on apps — what about the big stuff? What about clients who are experiencing3/29/25, 5:15 PM Why I think a robot could take my white-collar job | by Ceda Verbakel | Mar, 2025 | Medium
+https://medium.com/@helloceda/why-i-think-a-robot-could-take-my-white-collar-job-60c5940d07d5 6/15
+a more complicated problem like “we need more customers” or “we need to
+cut costs”. One where the answer lies in untangling human conflict and
+managing human egos, to arrive at a way forward that meets the needs of all
+the various stakeholders and all the different user types?
+I often walk away from these kinds of complicated multi-stakeholder and
+multi-user projects thinking that it wasn’t the outputs or ideas that brought
+the client value — it was that we were a neutral third party. We play the role
+of “Innovation-Switzerland” so to speak and help cut through the internal
+politics that naturally comes when humans get the privilege of dreaming up
+an audacious new destination to aim for, and once aligned, collaborate on
+the plan to get there. In other words, I like to think the value we bring is in
+the process (which also happens to lead, much of the time, to valuable
+outcomes).
+It’s conceivable that an LLM, or perhaps multiple “robo-facilitators” with
+complimentary roles, could guide a group of people through a fraught
+human process. If regular old software can mediate interactions with
+multiple different user types in real time, surely LLM’s could to. When I
+think of the soft skills I draw on to do this kind of labor (e.g. process design,
+stakeholder facilitation, conflict management etc.) I struggle to think of
+something that a machine could not also eventually learn. I struggle to be
+able to tell you how my “intuition” to do this kind of work wasn’t born from a
+series of real-life lessons, like watching a client subtly grimace when you say
+the wrong thing — that an LLM couldn’t also learn with the right training or
+computer vision or both.
+Ok but would people buy it?3/29/25, 5:15 PM Why I think a robot could take my white-collar job | by Ceda Verbakel | Mar, 2025 | Medium
+https://medium.com/@helloceda/why-i-think-a-robot-could-take-my-white-collar-job-60c5940d07d5 7/15
+Assuming this hypothetical robo-facilitator were feasible, it leads us to the
+same questions we would ask of any proposed innovation — would it be
+viable in the market? Would it help a company cut costs or even generate a
+profit? I don’t think I’d even need to do a back of the envelope calculation to
+guess it will eventually be cheaper to hire a hypothetical fleet of robot
+researchers then it would be to send us humans out into the field, and that
+the same could be said for robo-facilitators too.
+Typists, for example, have become redundant because the advent of the
+original human-computer interface — the keyboard — made it so that
+everyone became typists, not just those who had been trained on
+typewriters. In that way, technology didn’t make humans redundant per se, it
+made other humans capable of doing the same work (documenting stuff in
+administrative systems). Could a robo-facilitator whispering from an
+earpiece coach a Chief Innovation Officer to support her team through a
+process such that they don’t need the help of a “specialist” like me? Probably.
+Will that significantly reduce the demand on human experts? Maybe.
+Consider then, the checkout assistant at your local grocery store. These jobs
+have been threatened by automation for years, yet they persist. This might
+have something to do with the fact that stores require workers to also stack
+shelves, and clean up spillages, and help customers locate vegan chicken
+nuggets, and that the labor wage for humans to do these things, including
+running the check-out line as default, is as affordable as fully automating
+everything.
+But I like to think it’s more than that. Unlike for example, the huge swaths of
+factory workers whose jobs have been fully automated over the past fifty or
+so years, checkout assistants are different. They have something in common
+with hotel check-in clerks, bartenders and even tutors — their job involves3/29/25, 5:15 PM Why I think a robot could take my white-collar job | by Ceda Verbakel | Mar, 2025 | Medium
+https://medium.com/@helloceda/why-i-think-a-robot-could-take-my-white-collar-job-60c5940d07d5 8/15
+interacting with other humans — and for many “users” of their service, the
+human is a valuable part of the experience. Human labor can feel like a
+luxury, like a bellboy carrying your bags to your room, but it can also feel
+like a necessity, like having a human deliver bad medical news. Is my
+humanity necessary for the kind of work to be valued differently to that of an
+automated counterpart? Even if we’re not making art, isn’t there something
+about being a human that makes us an ideal interface for other humans no
+matter how good robots get at emulating us? I like to think so.
+Hannah Arendt’s distinction between labor, work, and action reminds us
+that human effort carries cultural meaning beyond mere utility — it is an act
+of preservation, creation, and relational exchange that ties individuals to
+their communities and the shared world. Cory Doctorow’s concept of the
+“enshittification of the internet” exemplifies this dynamic, where platforms
+that once served participatory communities devolve into hollow profit-
+machines, prioritizing advertisers and monetization at the expense of users.
+This same hollowing-out has long been evident in our physical world
+forever: PFAS pollutes our ecosystems, flipped homes create sterile profit-
+maximizing spaces devoid of real people’s stories, and broken medical
+systems prioritize billing codes over meaningful care.
+If you think of all the examples in your own life where the value of an object
+or interaction has eroded in this way, it becomes clear that the common
+denominator isn’t the technology that made it possible — it’s unregulated
+capitalism that made “transactions” the goal. Sure, robots can calculate, but
+capitalism is calculated: economic value is the goal, and meaning-making is
+secondary. Part of my job is helping organizations toe the line between these
+two values, but it’s the client who pays my salary, not the users.3/29/25, 5:15 PM Why I think a robot could take my white-collar job | by Ceda Verbakel | Mar, 2025 | Medium
+https://medium.com/@helloceda/why-i-think-a-robot-could-take-my-white-collar-job-60c5940d07d5 9/15
+With the seemingly imminent arrival of AGI, we might want to wonder what
+*are* the values we’re imbuing these machines? We have come to learn that
+even seemingly ethically neutral software, like AirBnB and Uber, aren’t what
+they seem, and have, in their own unique ways, both democratized access to
+jobs but also monopolized industries. I recently saw an interview with a
+troubled teen on social media, who exclaimed, “What do I know? What else
+will I work for?” The “what” instead of “who” stopped me in my tracks — it
+made me wonder if kids these don’t even recognize the humanity of their
+own employers, because so many of them aren’t people at all — their apps.
+Even if AI models never grow their own out-of-control intentions a la AGI,
+technology will never truly center humans, so long as their design remains
+in the hands of those who subscribe to capitalist incentives, myself included.
+So what do we do about it?
+What I do know is that the reason why I didn’t share the same concern with
+my colleagues wasn’t because I didn’t believe in a future where a robot could
+do (large parts of) my job. It was because it didn’t feel like it was in the hands
+of us, at least from within the context of the technology consulting company
+we work for, to solve the problems that will arise as our economies and
+cultures evolve in response to rapid technological change. We do what we
+can to help our clients make ethical decisions within our current political
+systems as they stand, but ultimately the more effective levers are outside of
+the corporate world.
+Author and futurist Karl Schroeder recently wrote,“if we can’t predict
+[technological advancement], we also can’t design.” That is, we can’t make
+ethical decisions about how we implement technology before it’s already
+here. With that in mind, it’s the business of government, as slow moving as it
+is, to buffer those who need it with help as the world transitions, and to3/29/25, 5:15 PM Why I think a robot could take my white-collar job | by Ceda Verbakel | Mar, 2025 | Medium
+https://medium.com/@helloceda/why-i-think-a-robot-could-take-my-white-collar-job-60c5940d07d5 10/15
+incubate a society that is capable of coming up with new visions of our
+collective futures, new structures of governance, new ways of understanding
+and valuing “work” that respects the dignity of life no matter the color of
+your collar.
+I hope Minchin is right. Once we’ve survived our current technofascist era,
+figured out how to power all the digital stuff sustainably, and maintain
+societies so all humans can flourish with or without the requirement of
+work, maybe then it’s ok if the robots take every job other than art. Maybe, if
+art really is what sets us apart from our electrified friends, there could be a
+future out there where art is the most valuable thing you can do with your
+time.
+More realistically, I am holding on to the hope that there’s something about
+how I do my work that the robots either can’t do, or that my clients don’t
+want them to do, hopefully forever, or at least until our policies and
+economies catch up.
+With that in mind, below are some organizations and initiatives I’ve come
+across doing interesting work in this space — what else should I know about?
+If, on the other hand, you’re reading this and wondering about your own
+industry or company, and its ability to (ethically) surf the digital currents to
+come, let’s chat.
+World Economic Forum Reskilling Revolution
+AI Now Institute
+Aspen Institute Future of Work3/29/25, 5:15 PM Why I think a robot could take my white-collar job | by Ceda Verbakel | Mar, 2025 | Medium
+https://medium.com/@helloceda/why-i-think-a-robot-could-take-my-white-collar-job-60c5940d07d5 11/15
+Written by Ceda Verbakel
+6 Followers·39 Following
+Researcher & Strategist in tech | currently consulting, previously in-house at
+healthcare tech development & investmentFollow
+Responses (1)
+Ashley caceres Pagan
+Márcio Siqueira
+13 hours ago
+excellent article, keep it up
+ReplyAutomation Artificial Intelligence Human Centered Research Technology
+Innovation
+What are your thoughts?
+23/29/25, 5:15 PM Why I think a robot could take my white-collar job | by Ceda Verbakel | Mar, 2025 | Medium
+https://medium.com/@helloceda/why-i-think-a-robot-could-take-my-white-collar-job-60c5940d07d5 12/15

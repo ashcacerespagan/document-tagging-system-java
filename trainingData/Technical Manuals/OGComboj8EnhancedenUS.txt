@@ -1,0 +1,572 @@
+j8   Enhanced  
+  robot     
+ 
+            Auto Empt y          dock      
+Owner's Guide
+EN Roomba Combo® j8 Enhanced robot + AutoEmpty dock Owner’s Guide        1Safety information
+Important safety information
+This owner’s guide includes information for Regulatory Model(s): Robot: RVE-Y2 | Dock: ADJ-Ny (y=1-3) | Battery: ABL-H, 
+ABL-F, ABL-D2Ax, ABL-D2Bx (x = 1 or 2) | Robot Radio Module: 6233E-UUB 
+SAVE THESE INSTRUCTIONS
+WARNING:  When using an electrical appliance, basic precautions should always be followed, including the following:
+READ ALL INSTRUCTIONS
+WARNING:  to reduce the risk of injury or damage, read and follow the safety precautions when setting up, using, and maintaining your robot.
+This appliance is not intended for use by persons (including children) with reduced physical, sensory or mental capabilities, or lack of 
+experience and knowledge, unless they have been given supervision or instruction concerning use of the appliance by a person responsible 
+for their safety. Children should be supervised to ensure that they do not play with the appliance. 
+This is the safety alert symbol. It is used to alert you to potential physical injury hazards.
+Obey all safety messages that follow this symbol to avoid possible injury or death.
+Risk of electric shock For indoor use only Rated power output, d.c. Read operator’s manual General symbol for recycling
+Risk of fire Class II equipment Rated power input, d.c.Keep out of 
+reach of childrenSeparate Supply Unit
+Caution Class III equipment Rated power input, a.c.
+EN2        F or more information, visit global.irobot.comWARNING:  Indicates a hazardous situation that, if not avoided, could result 
+in death or serious injury. 
+CAUTION:  Indicates a hazardous situation that, if not avoided, could result 
+in minor or moderate injury. 
+NOTICE:  Indicates a hazardous situation that, if not avoided, could result in 
+property damage. 
+GENERAL
+WARNING  
+• This product comes with a region approved power supply cord and is 
+designed to be plugged into a standard household AC power outlet only. 
+Do not use any other power supply cord or power strip. For replacement 
+cords, please contact Customer Care to ensure proper selection of 
+country specific power supply cord.
+• Do not disassemble or open this product other than instructed in 
+the Owner’s Guide. There are no user serviceable parts inside. Refer 
+servicing to qualified service personnel.
+• Risk of electric shock, use indoors in dry location only.
+• Do not handle this product with wet hands. 
+• Do not use unauthorized chargers. Use of an unauthorized charger 
+could cause the battery to generate heat, smoke, catch fire, or explode.
+• This product is not a toy. Small children and pets should be supervised 
+when the product is operating. 
+• Do not sit or stand on this product.
+• Store and operate this product in room temperature environments only.
+• If the room to be cleaned contains a balcony, a physical barrier 
+should be used to prevent robot access to the balcony and ensure 
+safe operation.
+• Clean cliff sensors for buildup.
+• If the room to be cleaned contains equipment, such as a stove, fan, 
+space heater, or humidifier, remove the equipment before operation. 
+There is a risk of injury, accident or malfunction if the robot comes in 
+contact and pushes the equipment.• This robot is intended for dry floor use only. Do not use this device to pick 
+up spills. Do not allow your robot or dock to become wet.
+CAUTION 
+• Do not operate the robot in areas with exposed electrical outlets in the 
+floor.  
+• Do not use this device to pick up sharp objects, glass, or anything that is 
+burning or smoking.
+• Be aware that the robot moves on its own. Take care when walking 
+in the area that the robot is operating in to avoid stepping on it or 
+tripping over it.
+•  If the device passes over a power cord and drags it, there is a chance an 
+object could be pulled off a table or shelf. Before using this device, pick 
+up objects like clothing, loose papers, pull cords for blinds or curtains, 
+power cords, and any fragile objects. Extinguish candles. Shut off 
+space heaters.
+• Perform the required maintenance per the Owner’s Guide to ensure safe 
+operation of the robot and dock.
+NOTICE
+• Do not place anything on top of your robot or dock.
+•  The failure to maintain cleanliness of charger contacts could result in 
+loss of ability for the robot to charge the battery.
+• Before running your robot on carpets or rugs, ensure that the carpets 
+or rugs are compatible with vacuums using bars or brushes. Using your 
+robot on a carpet or rug that is not compatible could result in damage 
+to your carpet or rug. Contact your carpet or rug manufacturer with 
+questions on compatibility.
+EN Roomba Combo® j8 Enhanced robot + AutoEmpty dock Owner’s Guide        3CLEANING SOLUTION
+WARNING 
+• Household cleaning products are safe when used and stored according 
+to the instructions on the label. Always be sure to read and follow the 
+directions carefully.
+• Only use authorised cleaning solutions found on answers.irobot.com/s/
+roomba-combo-cleanser.
+• For cleaning solution warnings, please refer to the outer box and 
+solution bottle.
+Keep away from children
+Keep away from eyes. If product gets into eyes rinse 
+thoroughly with water.
+Rinse hands after use
+AUTOEMPTY DOCK
+WARNING  
+• Do not use if the cord or plug is damaged. If appliance is not working as 
+it should, has been dropped, damaged, left outdoors or dropped into 
+water, return it to a service centre. 
+• Always disconnect your robot from the dock before cleaning  
+or maintaining it.
+• Do not use the dock as a step.
+• Do not put any object into openings. Do not use with any opening 
+blocked; keep free of dust, lint, hair and anything that may reduce  
+air flow. 
+• To properly maintain your dock, do not place foreign objects inside and 
+ensure that it is clear of debris.• In order to avoid a hazard due to inadvertent resetting of the thermal 
+cut-out, this appliance must not be supplied through an external 
+switching device, such as a timer, or connected to a circuit that is 
+regularly switched on and off by the utility.
+• Do not allow liquids to get on or into the dock.
+• Do not pour any liquids into the device and do not immerse in water.
+• Do not use outdoors or on wet surfaces. 
+• Do not allow to be used as a toy. Close attention is necessary when used 
+by or near children.
+• Use only as described in this manual.
+• To reduce the risk of electric shock, unplug your dock before cleaning.
+• Keep the dock and power cord away from heated surfaces.
+NOTICE
+• Product may not be used with any type of power converter. Use of power 
+converters will immediately void the warranty.
+• If you live in an area prone to electrical storms, it is recommended that 
+you use additional surge protection. Your dock may be protected with a 
+surge protector in the event of severe electrical storms.
+• Do not use without dust bag and/or filters in place.
+BATTERY
+WARNING 
+• Do not open, crush, heat above 176°F: 80°C, or incinerate. Follow the 
+Owner’s Guide instructions for proper use, maintenance, handling, 
+and disposal.
+• Do not short-circuit the battery by allowing metal objects to contact 
+battery terminals or immerse in liquid. Do not subject batteries to 
+mechanical shock.
+• Lithium ion batteries and products that contain lithium ion batteries are 
+subject to stringent transportation regulations. If you need to ship this 
+product (with the battery included) for service, travel or any other reason, 
+EN4        F or more information, visit global.irobot.comyou must see the Troubleshooting section of your manual or contact 
+customer care for shipping instructions.
+• Periodically inspect the battery pack for any sign of damage or leakage. 
+Do not charge damaged or leaking battery packs, do not allow the 
+liquid to come in contact with skin or eyes. If contact has been made, 
+wash the affected area with copious amounts of water and seek medical 
+advice. Place the battery in a sealed plastic bag and recycle or dispose 
+of safely according to local environmental regulations, or return it to your 
+local authorized iRobot Service Center for disposal.
+CAUTION 
+• Battery usage by children should be supervised. Seek medical advice 
+immediately if a cell or a battery has been swallowed.
+NOTICE  
+• The battery pack must be removed from the robot before recycling 
+or disposal.
+• For best results, only use the iRobot Lithium Ion Battery that comes with 
+the robot. 
+• Do not use non-rechargeable batteries. Use only the rechargeable 
+battery supplied with the product. For replacement, purchase identical 
+iRobot battery or contact iRobot Customer Care for alternative 
+battery options.
+• Always charge and remove the battery from your robot and accessories 
+before long-term storage.
+This symbol on the battery indicates that the battery must not be disposed 
+of with unsorted common municipal waste. As the end-user, it is your 
+responsibility to dispose of the end-of-life battery in your appliance in an 
+environmentally sensitive manner as follows:
+(1) returning it to the distributor/dealer from whom you purchased the 
+product; or
+(2) depositing it in a designated collection point.The separate collection and recycling of end-of-life batteries at the time 
+of disposal will help to conserve natural resources and to ensure that it is 
+recycled in a manner that protects human health and the environment. 
+For more information, please contact your local recycling office or the 
+dealer from whom you originally purchased the product. Failure to properly 
+dispose of end-of-life batteries may result in the negative potential effects 
+on the environment and human health due to the substances in the 
+batteries and accumulators.
+For battery recycling go to call2recycle.org  or call 1-800-822-8837.
+EN Roomba Combo® j8 Enhanced robot + AutoEmpty dock Owner’s Guide        5Getting started
+1 Position the AutoEmpty dock
+Good Wi-Fi® Coverage
+1.5 ft (0.5 m) 
+both sides4 ft (1.2 m) 
+from stairs
+4 ft (1.2 m) in front0.3 m (1 ft) above
+NOTE:  Position your dock on hard surface flooring. Do not place it in 
+direct sunlight. Ensure the area around the dock is free of clutter to 
+improve docking performance.
+WARNING:  To prevent the risk of your robot falling down stairs, ensure 
+that your dock is placed at least 4 feet (1.2 meters) away from stairs.2 Plug in the dock
+Plug the power cord into the dock, then into the wall. Wrap the cord back so it 
+won’t get in the way of the robot as it comes and goes.
+EN6        F or more information, visit global.irobot.com3 Wake up the robot
+Place your robot on the AutoEmpty dock by lining up the metal charging contacts. 
+After a few minutes, a sound will let you know it’s awake.
+NOTE:  Your robot comes with a partial charge, but we recommend 
+that you charge the robot for 3 hours prior to starting the first 
+cleaning job.
+If the light ring is swirling white, the robot is not ready and is 
+still waking up.4 Download the iRobot Home App
+Scan the QR code with the camera on your mobile device or find the iRobot Home 
+App in your app store. 
+• Follow step-by-step instructions to set up your robot.
+• Set an automatic cleaning schedule and customize cleaning preferences.
+• Create smart maps to tell your robot where and when to clean.
+• Access to tips, tricks, and answers to commonly asked questions.
+IMPORTANT:  Read enclosed safety information guide first before 
+using your robot.
+EN Roomba Combo® j8 Enhanced robot + AutoEmpty dock Owner’s Guide        7About your robot
+Top view Bottom view
+1 Clean button
+2 Wall follow sensor
+3 Camera
+4 Edge-sweeping brush1 Multi-Surface Brushes
+2 Caster Wheel
+3 Cliff Sensor
+4 Charging Contacts
+5 Bin Release Button6 Brush Caps
+7 Floor Tracking Sensor
+8 Brush Frame Release Tab
+9 Dust Bin & Filter
+EN8        F or more information, visit global.irobot.comAbout your Combo™ bin
+Top view Bottom view
+1 Filter
+2 Dust bin
+3 Water tank
+4 Mopping pad5 Dust bin door
+6 Tank cap
+7 Pad plate1 Pad attachments
+2 Wick cap3 Pad track
+EN Roomba Combo® j8 Enhanced robot + AutoEmpty dock Owner’s Guide        9About your dock
+Front view Back view
+1 Canister Lid
+2 Exhaust Vent
+3 IR Window
+4 Charging Contacts
+5 Wheel Wells6 Pull Tab
+7 LED Indicator
+8 Visual Docking Target
+9 Debris Evacuation Port1 Cord Wrap
+EN10        F or more information, visit global.irobot.comTop view Bottom view
+1 Bag Storage Compartment
+2 Blower Cover3 Bag Guide Rails
+4 Bag Presence Sensor
+5 Debris Evacuation Tube1 Debris Evacuation Tube
+EN Roomba Combo® j8 Enhanced robot + AutoEmpty dock Owner’s Guide        11Charging
+Light Ring: Charging in progress
+Sweeping white : charging
+• Percentage charged is indicated by the size of the 
+solid white
+• For example, if half the light ring is solid, it’s 
+50% charged
+Pulsing red: charging, low battery
+Light Ring: Charging complete
+Solid white: fully charged
+Pulsing white at rear: fully charged and asleep
+Charging during a cleaning job
+You robot will return to the AutoEmpty dock whenever it needs to recharge. 
+Once the robot is sufficiently charged, it will then resume the cleaning job where 
+it left off.Standby mode
+The robot uses a small amount of power whenever it is on the dock. You can put 
+the robot in a further-reduced power state when not in use. For instructions and 
+more details on this Reduced Power Standby Mode, refer to the FAQ page on 
+our website.
+Storing your robot
+For long-term storage, turn off the robot by removing it from the dock and holding 
+down the clean button for 3 seconds with one wheel off the ground. Store the 
+robot in a cool, dry place.
+EN12        F or more information, visit global.irobot.comCleaning
+Clean button controls
+Tap to Start / Pause / Resume a job
+Hold for 2-5 seconds to end a job and send the robot 
+back to its dock
+Light Ring: Cleaning
+Sweeping red toward rear: robot bin needs to 
+be emptied
+Blue marching forward:  robot seeking dock
+Flashing blue: Dirt Detect™ mode engagedCleaning pattern
+Once your robot creates a map of your home, it will automatically explore and 
+clean in neat rows, avoiding obstacles by using its front-facing camera. 
+IMPORTANT:  The robot is unable to navigate in complete darkness. 
+Turn on lights or open blinds to help the robot navigate. 
+You robot will return to the dock at the end of a cleaning job and whenever it 
+needs to empty the bin or recharge. Once complete, it will resume the cleaning 
+job where it left off.
+Your robot is able to recognize and avoid objects. However, it is still 
+recommended to remove excess obstacles before cleaning.
+After 90 minutes of inactivity off the dock, the robot will automatically end its 
+cleaning job. If you are unsure if the robot is finished or paused, visit the iRobot 
+Home App to check on its status.
+Dirt Detect™
+When your robot detects an especially dirty area, it will engage Dirt Detect™ 
+mode, moving in a forward/backward motion to clean the area more thoroughly. 
+The light ring indicator will flash blue when Dirt Detect™ mode is engaged.
+Vacuuming
+Starting a vaccum only cleaning job from your robot
+1 Install the dust bin (not the Combo bin)
+EN Roomba Combo® j8 Enhanced robot + AutoEmpty dock Owner’s Guide        132 Place on the floor and press the clean button on the robot.
+Vacuuming and mopping
+Your robot is able to both vacuum and mop at the same time when the Combo™ 
+bin is installed.
+IMPORTANT:  Do not flip the robot over with the Combo Bin installed. 
+The product starts wicking as soon as water is put into the tank
+After completing your mopping and vacuum cleaning job, make sure 
+to empty the robot bin water tank and replace the mopping pad.
+Only certain cleaning solutions can be safely used with your robot. 
+A full list of compatible cleaning solutions can be found on http://
+answers.irobot.com/s/roomba-combo-cleanser  or by visiting 
+the app. Please do not use other cleaning solutions or bleach-
+based products.
+Starting a vacuum and mop cleaning job from your robot
+1 Install the mopping pad. Slide the pad down over the track. Press the pad to 
+the plate to attach.  2 Fill the Combo™ bin with water. You may also use a compatible 
+cleaning solution.  
+3 Remove the Dust Bin from the robot, and install the Combo™bin.  
+NOTE:  If you start a cleaning job from off the dock, the robot will still 
+end its job on the dock. If it can’t find its dock, it will end wherever it 
+started in your home.
+EN14        F or more information, visit global.irobot.comEmptying the bin
+Emptying the bin from your robot
+When your robot senses that its bin needs to be emptied, the light ring indicator 
+will illuminate in a red sweeping motion toward the rear.
+1 Press bin release button to remove bin.  
+2 Open bin door to empty bin.  3 Place bin back in the robot.  
+Emptying the bin from your dock
+While cleaning, your robot will automatically return to the dock to empty its bin. 
+Once complete, it will resume the cleaning job where it left off.
+NOTE:  If you place your robot on the dock by hand, it will not empty 
+automatically. In this case, use the iRobot Home App or hold the 
+clean button down for 2-5 seconds.
+EN Roomba Combo® j8 Enhanced robot + AutoEmpty dock Owner’s Guide        15Care and maintenance for your robot
+To keep your robot at optimal performance, make sure you periodically perform the following basic care & 
+maintenance. There are additional instructional videos in the iRobot Home App. If you notice the robot picking 
+up less debris from your floor, empty the bin, clean the filter, and clean the brushes.
+Part Care Frequency Replacement Frequency* 
+Bin Empty bin as needed -
+FilterClean once a week (twice a week if 
+you have a pet). Do not washEvery 3-6 months
+Edge-sweeping brushClean once a month (twice a month 
+if you have a pet)Every 3-6 months
+Front caster wheel Clean every 2 weeks or as needed -
+Multi-surface brushClean once a month (twice a month 
+if you have a pet)Every 6-12 months
+Full bin sensor Clean every 2 weeks or as needed -
+Charging contacts Clean once a month or as needed -
+Sensors Clean once a month or as needed -
+Camera window Clean and inspect on ce a month -
+Mopping pad Clean after a mopping job After 30 washes
+Wick caps - Replace if dirty or shows wear
+*  Replacement frequency may vary. Parts should be replaced if visible wear appears. If you think you need a replacement part, 
+please contact iRobot Customer Care for more information.Washing the bin
+1 Release the bin, remove the filter, and open 
+the bin door.
+2 Rinse the dust bin and water tank using 
+warm water.  
+3 Make sure bin is completely dry. Reinsert filter 
+and place bin back in the robot.
+IMPORTANT:  The bin is not dishwasher 
+safe. Do not wash the filter. Remove the 
+filter before washing the bin. 
+EN16        F or more information, visit global.irobot.comCleaning the filter
+1 Remove the bin. Remove the filter by grasping 
+both ends and pulling out.  
+2 Remove debris by tapping the filter against your 
+trash container.  
+3 Reinsert filter with ridged grips facing out. Place 
+bin back in the robot.
+NOTE:  The robot will not run if the filter 
+is not installed correctly. Replace the 
+filter every two months.Cleaning the Edge-Sweeping Brush
+1  Use a coin or small screwdriver to remove 
+the screw holding the Edge-Sweeping 
+Brush in place.
+2  Pull to remove the Edge-Sweeping Brush. 
+Remove any hair or debris, then reinstall 
+the brush.  Cleaning the front caster wheel
+1 Pull firmly on the front wheel module to remove it 
+from the robot.
+2  Pull firmly on the wheel to remove it from its 
+housing (see illustration below).
+3 Remove any debris from inside the wheel cavity.
+4 Reinstall all parts when finished. Make sure the 
+wheel clicks back into place.  
+Wheel Axle
+Housing
+IMPORTANT:  A front wheel clogged with 
+hair and debris could result in damage 
+to your floor. If the wheel is not spinning 
+freely after you have cleaned it, please 
+contact Customer Care.
+EN Roomba Combo® j8 Enhanced robot + AutoEmpty dock Owner’s Guide        17Cleaning the Multi-Surface Brushes
+1 Pinch the brush frame release tab, lift the tab, 
+and remove any obstructions.  
+2 Remove the brushes from the robot. Remove the 
+brush caps from the ends of the brushes. Remove 
+any hair or debris that has collected beneath the 
+caps. Reinstall the brush caps.  
+3 Remove any hair or debris from the square 
+and hexagonal pegs on the opposite side of 
+the brushes.  4 Remove the bin from the robot and clear any 
+debris from the vacuum path.  
+5 Reinstall the brushes in the robot. Match the 
+shape of the brush pegs with the shape of the 
+brush icons in the cleaning head module.  
+Cleaning the Full Bin Sensors
+1 Remove and empty the bin.
+2 Wipe the inner sensors with a clean, dry cloth.  
+3 Wipe the bin door with a clean, dry cloth.  
+Closed Door
+Open Door
+EN18        F or more information, visit global.irobot.comCleaning the Sensors, Camera Window and Charging Contacts
+Wipe sensors, camera window, and charging contacts with a clean, dry cloth.
+CHARGING CONTACTS  
+CAMERA WINDOW  SENSORS  
+IMPORTANT:  Do not spray cleaning 
+solution or water onto the sensors or 
+sensor openings.Cleaning the Mopping Pad
+HAND WASHING
+Thoroughly wash the pad with warm water.
+MACHINE WASHING
+Wash using the warm cycle, then air dry. Do not 
+tumble dry. Do not wash with delicates.
+EN Roomba Combo® j8 Enhanced robot + AutoEmpty dock Owner’s Guide        19Replacing the Wick Cap
+1 Remove pad plate.  
+2 Remove the wick cap by pulling on the side 
+rubber tab.  
+3 Replace with a new wick cap, pressing firmly 
+into place to create a tight seal to preven t 
+leaking.
+4 Reintall pad plate.
+EN20        F or more information, visit global.irobot.comCare and maintenance for your dock
+To keep your AutoEmpty dock running at peak performance, perform the procedures on the following pages.
+Part Care Frequency Replacement Frequency* 
+Charging contacts Once every month -
+Sensors, IR window, Visual 
+docking targetClean once a month -
+Bags -Bags should be replaced when 
+prompted by the LED indicator or the 
+iRobot Home app
+Blower Cover 
+inside canisterOnce every month (remove debris 
+from blower cover)
+*  Replacement frequency may vary. Parts should be replaced if visible wear appears. If you think you need a replacement part, 
+please contact iRobot Customer Care for more information.Cleaning the charging contacts, IR 
+window, and visual docking target
+Inspect the components to make sure that they are 
+clear of debris. Wipe with a clean, dry cloth.  
+IMPORTANT:  Do not spray cleaning 
+solution or water onto the sensors or 
+sensor openings.
+EN Roomba Combo® j8 Enhanced robot + AutoEmpty dock Owner’s Guide        21Replacing the bag
+1 Lift up on the canister lid to open.  
+2 Pull up on the card to remove the bag from the 
+canister. Discard the used bag.  3 Install a new bag, sliding the plastic card into 
+the guide rails. This will seal the bag so dust and 
+debris cannot escape.  
+4 Press down on the lid making sure that it is 
+completely closed.
+IMPORTANT:  To achieve optimal 
+performance with your robot and dock, 
+clean and/or replace your robot’s 
+filter as needed.
+ Removing Debris from Blower Cover
+Inspect blower cover for any lint or debris build-up, 
+and wipe with a clean dry cloth to remove.  
+EN22        F or more information, visit global.irobot.comTroubleshooting your robot
+Your robot will tell you something is wrong by playing an audio alert and turning 
+the light ring indicator red. Press the clean button for details. Check the iRobot 
+Home App for further support.
+Red light ring
+Low battery. Please charge.BATTERY SAFETY & SHIPPING
+For best results, only use the iRobot Lithium Ion Battery that comes with your robot.
+WARNING:  Lithium ion batteries and products that contain lithium 
+ion batteries are subject to stringent transportation regulations. If 
+you need to ship this product for service, travel or any other reason, 
+you MUST follow the below shipping instructions.
+• Battery MUST be turned off before shipping.
+• Turn off the battery by removing the robot from the charging station and 
+holding down the clean button for 3 seconds with one wheel off the ground. All 
+indicators will turn off.
+• Package the robot securely for shipping.
+If you need further assistance, contact our Customer Care team or visit  http://
+global.irobot.com .
+EN Roomba Combo® j8 Enhanced robot + AutoEmpty dock Owner’s Guide        23Troubleshooting your dock
+Your AutoEmpty dock will tell you if something is wrong via an LED indicator on 
+the front of the canister and through the iRobot Home App . If the dock is not 
+performing as expected, check the iRobot Home app for errors.
+LED indicator Common error How to fix
+Solid redBag 
+full or missing1. Replace bag if it is full or missing.
+2. Make sure that the bag is 
+securely inserted.
+3. If problem persists, remove any 
+debris from the port on the bottom 
+of your robot and dock.
+Blinking redThere is a 
+leak or a clog 
+in the dock 
+evacuation path1. Make sure that the canister lid is 
+pushed down and firmly sealed. 
+Hold the clean button on your robot 
+down for 2-5 seconds to manually 
+empty the bin.
+2. Remove any debris from the port on 
+the bottom of your robot and dock.
+3. Unplug the dock from the wall. 
+Place it on its side and inspect the 
+debris evacuation tube for debris. If 
+necessary, remove the tube to clear 
+any debris.
+This product has been equipped with a thermal protector designed to protect 
+against damage due to overheating. If the protector operates, the motor will 
+stop running. If this happens, unplug the unit, allow it to cool for 30 minutes, clear 
+any obstructions from the evacuation port and evacuation tube, then plug the 
+unit back in. 
+EN24        F or more information, visit global.irobot.comRegulatory information
+FCC SUPPLIER’S DECLARATION OF CONFORMITY
+iRobot Corporation  Roomba Combo®  Enhanced robot model: RVE-Y2
+Contains FCC ID: 2AATL-6233E-UUB and contains IC: 12425A-6233EUUB
+This device complies with part 15 of the FCC Rules and CAN ICES-003(B) / 
+NMB-003(B).
+Operation is subject to the following two conditions: (1) This device may not cause 
+harmful interference, and (2) This device must accept any interference received, 
+including interference that may cause undesired operation.
+This device complies with Industry Canada license-exempt RSS standard(s). 
+Operation is subject to the following two conditions: (1) This device may not 
+cause interference, and (2) This device must accept any interference, including 
+interference that may cause undesired operation of the device.
+Changes or modifications not expressly approved by iRobot Corporation could 
+void the user’s authority to operate the equipment. 
+• This equipment has been tested and found to comply with the limits for 
+a Class B digital device, pursuant to part 15 of the FCC Rules as well as 
+CAN ICES-003(B) / NMB-003(B) Rules. These limits are designed to provide 
+reasonable protection against harmful interference in a residential installation. 
+This equipment generates, uses and can radiate radio frequency energy and, if 
+not installed and used in accordance with the instructions, may cause harmful 
+interference to radio communications. However, there is no guarantee that 
+interference to radio communication will not occur in a particular installation. 
+If this equipment does cause harmful interference to radio or television 
+reception, which can be determined by turning the equipment off and on, the 
+user is encouraged to try to correct the interference by one or more of the 
+following measures:
+• Reorient or relocate the receiving antenna.
+• Increase the separation between the equipment and receiver.•  Connect the equipment into an outlet on a circuit different from that to 
+which the receiver is connected.
+•  Consult the dealer or an experienced radio/TV technician for help.
+•  Under Industry Canada regulations, this radio transmitter may only operate 
+using an antenna of a type and maximum (or lesser) gain approved for the 
+transmitter by Industry Canada. To reduce potential radio interference to other 
+users, the antenna type and its gain should be so chosen that the equivalent 
+isotropically radiated power (e.i.r.p.) is not more than the necessary for 
+successful communication.
+•  FCC Radiation Exposure Statement: This product complies with FCC §2.1091(b) 
+for mobile device RF exposure limits, set forth for an uncontrolled environment 
+and is safe for the intended operation as described in this manual. Per FCC 
+requirements, maintain a distance of more than 8 inches (20 cm) between any 
+person and the host device (Roomba robot).
+•  ISED Radiation Exposure Statement: This product complies with the Canadian 
+Standard RSS-102 for mobile device RF exposure limits, set forth for an 
+uncontrolled environment and is safe for the intended operation as described 
+in this manual. Per ISED requirements, maintain a distance of more than 8 
+inches (20 cm) between any person and the robot.
+iRobot Corporation, 8 Crosby Drive, Bedford, MA 01730 USA
+https://global. irobot.com
+For battery recycling go to call2recycle.org or call 
+1-800-822-8837.
+EN Roomba Combo® j8 Enhanced robot + AutoEmpty dock Owner’s Guide        25©2024 iRobot Corporation, 8 Crosby Drive, Bedford, MA 01730 USA. All rights reserved. iRobot 
+and Roomba are registered trademarks of iRobot Corporation. Dirt Detect is a trademark of 
+the iRobot Corporation. Wi-Fi and the Wi-Fi logo are registered trademarks of Wi-Fi Alliance. 
+Apple and App Store are trademarks of Apple Inc., registered in the U.S. and other countries. 
+Google Play is a trademark of Google LLC.
+Don't return to store. Let us help.
+Download the iRobot Home app or visit global.irobot.com  for product support or to contact 
+your local support center. If you need further assitance in the US & Canada, call the US 
+Customer Care team at (877) 855-8593.iRobot USA Customer Care Hours
+Monday to Friday, 9AM — 9PM Eastern Time
+Saturday and Sunday 9AM — 6PM Eastern Time
+WC# 4844123 vA

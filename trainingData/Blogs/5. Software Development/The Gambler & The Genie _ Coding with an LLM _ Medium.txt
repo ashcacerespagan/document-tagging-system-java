@@ -1,0 +1,388 @@
+Credit: Bailey Rosser
+The Gambler and the Genie
+How it feels to write code in partnership with a large language model
+Drew Harry·Follow
+16 min read·3 days ago
+258 9Get unlimited access to the best of Medium for less than $1/week.Become a member
+Open in app
+Search Write
+3/29/25, 5:19 PM The Gambler & The Genie | Coding with an LLM | Medium
+https://medium.com/@drewwww/the-gambler-and-the-genie-08491d96aee6 1/22
+hat if you could describe — in plain, non-technical English—an app
+you want to create and it simply appeared? From a distance, this is
+what an engineer does. Someone describes a feature they want added to the
+app, the engineer asks some clarifying questions, and then adds the feature.
+English in, code out. Simple enough. Now, swap out that human for a model
+that has the same basic interface. Write your request for code into a box, see
+that code spit back to you.
+If this swap — a large language model like ChatGPT for a human — worked
+when it comes to writing software, it would obviously be consequential.
+Software is the engine at the heart of a significant portion of the economy.
+We should take seriously this question: can you write code using just English
+and no technical knowledge?
+With no other constraints, the answer is “yes.” I can put a sentence into
+Claude and get out a working game. Magic! So we’re done? The end of
+humans writing software?
+Not quite. Can you build something novel, something substantial, something
+you can iterate on over time? Writing only in English? I’ve spent a couple of
+months going deep with the best tools money can buy to do this, and the
+answer is “absolutely not.”
+The reasons why this doesn’t work are important to consider more deeply.
+The way you write software with an LLM is quite different than writing
+software “manually.” This transformation offers clues about how producing
+software might change and what skills will be necessary to produce the
+software of the future.
+What kind of thing is an LLM?W3/29/25, 5:19 PM The Gambler & The Genie | Coding with an LLM | Medium
+https://medium.com/@drewwww/the-gambler-and-the-genie-08491d96aee6 2/22
+We regularly draw on physical objects to name software components. These
+metaphors offer us intuition about the purpose and operation of otherwise
+very complex bits of software.
+Folder. Proxy. Server. Client. Desktop. Keys. Library. Trash Can. Dropbox.
+Bookmark. Firewall. Cache. Passwords.
+Many of these metaphors are so successful that they lose their connection to
+their namesake entirely.
+A technology as surprising and contested as the large language model
+demands a metaphor. What is this thing?
+One dangerously prominent option is “a person.” This is communicated to us
+by the dominant interface to LLMs; the chat box. We enter a message, the
+model processes (thinks?) and sends (types?) a response.
+There are many sorts of relationships you might have with a person that
+offer useful metaphors: coach, editor, teacher, therapist, lawyer, care-giver,
+assistant, collaborator, friend, or lover. You can find a startup trying to sell
+you each of these kinds of “people.”
+Perhaps the most valuable relationship is “employee.” If you can craft an
+experience that feels like sending an email or a text message to an
+“employee” and they complete the work for you, that would be a jackpot.
+The Genie
+When I’m writing code with an LLM, I don’t feel like I have an employee or a
+partner. It feels like I have a mediocre Genie. I imagine a feature I want to3/29/25, 5:19 PM The Gambler & The Genie | Coding with an LLM | Medium
+https://medium.com/@drewwww/the-gambler-and-the-genie-08491d96aee6 3/22
+build, rub the lamp, and make a wish. Sometimes I get what I want,
+sometimes I don’t.
+Luckily, this Genie doesn’t have a limit on wishes. If I get something useless
+in response to my wish, that’s okay. I can wish again with slightly different
+wording and maybe that will work.
+This metaphor makes us face an immediate problem. Do I actually know
+what I want? Can I describe it? Genies are known for their literal
+interpretation of wishes, and this one is no different.
+In a very basic sense, the Genie has to read between the lines of your wish. If
+I ask for a certain capability in 20 words, perhaps 50 lines of code are
+generated. My words and the generated code are both attempts to represent
+the same idea, but there is quite a bit more code than words describing the
+code. I am taking advantage of the ambiguity that natural language affords to
+save time manipulating the code itself. The Genie is making assumptions
+about what I meant based on the rest of the code, our past conversations,
+and all the code it has been trained on from other people. Herein lies a
+fundamental (and perhaps irresolvable) tension. The more precisely I write
+my prompt to get something useful, the less value I’m getting from having a
+Genie in the first place. So I’m encouraged to be pithy and hope the Genie
+will give me what I wanted.
+A pithy prompt. I don’t even offer the LLM clarity on what “proper” would be. But this worked!
+3/29/25, 5:19 PM The Gambler & The Genie | Coding with an LLM | Medium
+https://medium.com/@drewwww/the-gambler-and-the-genie-08491d96aee6 4/22
+A more elaborate prompt, but one that still seriously under-specifies all the implementation details. Worked
+fine.
+Unfortunately, what I want is often not clear to myself. When I want
+something nearly identical to something that exists in the world already, I
+just name the thing I want to copy. So when I say “like that thing someone
+else made, but slightly different” it is uncommonly good at delivering what
+you ask for.
+But when I step outside that territory and try to make something new, I run
+into two roadblocks.
+1. Without something to mimic, the Genie is much worse at generating
+working code.
+2. Without something to mimic, I don’t actually know what I want. So my
+descriptions of what to build are less explicit and leave more to the
+imagination. Which in turn tends to disappoint me even when it does
+work.
+Without the Genie, I might carefully map out what I want to build. Its
+components and their connections, or draw a picture of the end result I’m
+aiming for. But the Genie is patient, and will iterate with me indefinitely. So
+instead of having a plan, it’s more like I’m throwing darts. Make this. No, not
+like that, make it more like this. Ugh, that doesn’t work. I give up and I’ll ask
+again tomorrow and see if I get a different result. I think a lot less, and shift
+into “guess and check” mode.
+Mechanics, Doctors, Detectives, and the Gambler
+3/29/25, 5:19 PM The Gambler & The Genie | Coding with an LLM | Medium
+https://medium.com/@drewwww/the-gambler-and-the-genie-08491d96aee6 5/22
+When the process of producing code is nearly instantaneous, the affective
+experience of writing software undergoes a shift. The experience would,
+“before,” be a mangle of activities like this:
+Think about what you intend to build next.
+Explore your existing code.
+Add some code, see what happens.
+Look up documentation (or StackOverflow) to figure out how something
+is supposed to work.
+Open your “debugger” — a highly sophisticated diagnostic tool that lets
+you peer into the operations of a program and see what’s happening.
+Think about what you should name something in your program.
+Sketch a design for something on a piece of paper.
+Go for a walk.
+It is a contemplative, deliberative, intentional process. Sometimes you’re like
+a Mechanic, replacing an old component with something more modern and
+high performance. Other times you are like a Doctor, ordering a battery of
+labs to diagnose a concerning outcome.
+Then there’s the anticipation every time you run your code — did you get it
+right? And a moment of joy when it works as you hoped. Most of the time,
+though, nothing happens and you’re left scratching your head and
+wondering where you went wrong.
+My favorite role is the Detective. You’re in a “Beautiful Mind”-style fugue
+state and suddenly all the pieces fit together. You experience the elation of3/29/25, 5:19 PM The Gambler & The Genie | Coding with an LLM | Medium
+https://medium.com/@drewwww/the-gambler-and-the-genie-08491d96aee6 6/22
+successful deduction. You see with perfect clarity why something that should
+work is broken. You make one careful change in the exact right place and
+then everything works.
+The Genie ends these roles. It does the scientific work of the Doctor, the
+Mechanic’s work of installing new capabilities, and (less well) the Detective’s
+work of synthesizing the evidence required to make sense of a mysterious
+bug.
+In their place emerges “the Gambler.” The Gambler does not study the code
+or make plans. The Gambler keeps asking the Genie for code until
+something they desire appears in front of them. Then they start asking for
+something new. And so on until the Gambler gets exhausted, because the
+Genie never will.
+Sometimes, simple requests fail. You ask to change the color of something,
+and the Genie simply doesn’t do it. Ask again, and it sheepishly says “Oh,
+sorry. Sure!” Sometimes you ask to change the layout of a screen and it
+breaks all the buttons on the screen at the same time.
+Commo n failure mode; prior functionality is removed as a side effect of adding new functionality.
+3/29/25, 5:19 PM The Gambler & The Genie | Coding with an LLM | Medium
+https://medium.com/@drewwww/the-gambler-and-the-genie-08491d96aee6 7/22
+Sometimes your code will fail in an odd way and you don’t know why. You
+ask the Genie “any ideas why this might not work?” And the Genie suggests a
+fix that works perfectly. Or it might suggest an obviously irrelevant change to
+a part of your code that is operating perfectly fine. Try again?
+Responding to a proposed change that computed (-1,-1) as a valid point for a circle with radius 1. It’s not.
+We must not neglect that being a Gambler is quite a bit more fun than being
+a Mechanic, a Doctor, or a Detective. Sometimes, you gamble and win. A task
+that might have taken you hours without your Genie is completed in
+minutes. It’s done in a way you would not have realized would work, but is
+more elegant than you might have imagined without much more time
+planning. And when you lose, the sting isn’t that bad. Just ask the Genie in a
+different way. All you have to lose is your own time.
+Finding The Right Questions
+There is tremendous variation in how to build any given piece of software.
+Even if you could describe the behavior of a piece of software in a truly
+exhaustive way (which is known to be possible for narrow, math-y pieces of a
+program), there are many ways to do it. They are not equally useful.
+Consider an analog example. You tell the Genie “make me a robot that can
+get me any book I want from the library given a title and author.” The Genie
+produces a machine that rolls around the stacks and scans every book,
+3/29/25, 5:19 PM The Gambler & The Genie | Coding with an LLM | Medium
+https://medium.com/@drewwww/the-gambler-and-the-genie-08491d96aee6 8/22
+looking for the title/author combination you requested. It can take anywhere
+from 5 minutes to about an hour to find what you’re looking for. Even worse,
+it can’t tell you the library doesn’t have the book without spending an hour
+doing a complete search.
+You might say “do it faster” or “use the card catalog instead of checking every
+book” or “check another library if the first one doesn’t have the book.”
+Sometimes these additions will work great. More often, some element of how
+the existing code operates will make it difficult to add the next feature you
+imagine. At which point, you have to tear down what you’ve built so far, and
+rebuild the code from scratch with your hard-earned foresight about where
+you intend to go.
+This is one great weakness of the Genie. You cannot necessarily transform a
+piece of software that does one thing into a piece of software that does two
+things. The order of the questions you ask, and the way you phrase them,
+really do have an impact on whether you get working code out the other end.
+Do I get better results when I ask nicely? Should I be terse or verbose?
+Should I ask the Genie for ideas about what to do next? Do I need to remind
+the Genie not to break the code that works? The Genie offers no feedback; it
+appears to understand you reasonably well regardless of what you do, but
+can produce all manner of outcomes even with similar sorts of questions.
+This feeds the Gambler’s superstition. Sometimes it feels like you’re gaining
+mastery over the Genie, learning to deploy it more effectively. Intuiting what
+it will struggle with and where it will shine. But the Genie is full of surprises.3/29/25, 5:19 PM The Gambler & The Genie | Coding with an LLM | Medium
+https://medium.com/@drewwww/the-gambler-and-the-genie-08491d96aee6 9/22
+Sometimes it seems slower or faster at different times of day. More
+perceptive at night, maybe. Who can say?
+Superstition or not, this more ad hoc, improvisational mode of producing
+software has a real velocity to it. I don’t finish a session working with the
+Genie to be exhausting. I don’t feel taxed to my intellectual limits. When I
+consider a new arc of work, I feel a sense of possibility more than I feel
+overwhelmed by uncertainty or difficulty. Maybe this is just my relatively
+weak engineering skills peeking through. As someone more motivated by
+the result than the craft itself, though, I find that removing a significant
+amount of the mechanical drudgery of producing code is mildly liberating.
+A bit of code that calculates a color some percentage “between” two colors. In other words, it transforms the
+statement “find a color 22% between blue and green” into a specific color. The Genie generated this working
+code in one shot with a very minimalist prompt, probably because this is commo n task.
+3/29/25, 5:19 PM The Gambler & The Genie | Coding with an LLM | Medium
+https://medium.com/@drewwww/the-gambler-and-the-genie-08491d96aee6 10/22
+I have always been someone who thinks out loud, and the Genie plays
+naturally to this instinct. Instead of saying “add keyboard input with re-
+mappable inputs” I might say “I’m thinking about a new keyboard input
+system. I know I will want to support alternate key mappings for players who
+prefer arrow keys instead of WASD for movement. I’d also like to configure
+these mappings using a text-based configuration file, not in code.” Part of
+me knows this to be an inefficient affectation.
+And yet… when I write out my long-form thinking (like I might if I were
+explaining my plans to a human collaborator), I find that my ideas become
+sharper, the pitfalls of a particular design become more obvious, and I feel
+more connected to the output. Is this a form of anthropomorphizing the
+Genie? Showing care for its feelings by expressing my desires as gentle
+suggestions rather than orders? I can’t say that’s not part of it. But the
+production of software is a lonely business, and the artifice of the “chat”
+really does do something for me. Psychologically, you know? It feels too
+much like interacting a work colleague over Slack for me to fully let go of my
+corporate communication habits.
+The shadows of others
+If venture capitalists are seeking “employee” as the most valuable potential
+metaphor, there are popular countervailing movements to classify LLMs as
+something more akin to a dressed-up copy machine. Something that
+facilitates copyright violation and wage theft from professional artists.
+Stories abound of the illustrator laid off when their Senior Marketing
+Director discovered they could get illustrations for free from the Canva AI
+Image Generator, or the video game concept artist who was “replaced” by the
+Stable Diffusion Discord Server. Whether cause and effect is quite so neat is
+hard to judge. Still, stories of jobs lost because of LLMs are plausible and
+plentiful enough to catalyze a neo-Luddite reaction that seeks to punish3/29/25, 5:19 PM The Gambler & The Genie | Coding with an LLM | Medium
+https://medium.com/@drewwww/the-gambler-and-the-genie-08491d96aee6 11/22
+corporations through bad press and boycotts when it appears that they
+intend to use “AI” in a substantial way in the production of creative work.
+A project page on itch.io, an indie game marketplace. Including AI-generated graphics, sound, or text will
+cause your work to be de-listed by default.
+Among engineers, this movement has not really taken hold in the same way
+as among visual artists. Perhaps because engineers are inclined to feel
+economically secure at the top of the corporate pay scales. Perhaps because
+they understand that there is little public sympathy for the precarity of the
+Software Engineer in the U.S. with a median salary of $130k. Or perhaps they
+have faith that the demand for productivity-improving software is without
+practical limit.
+It’s certainly the case that no past tool that improves software engineer
+efficiency has done much to dent their employability. Tools like Salesforce or
+Workday that at one time purported to let non-technical business users
+configure and manage their “business processes” without having to hire an
+engineer instead gave rise to their own specialized class of certification-
+3/29/25, 5:19 PM The Gambler & The Genie | Coding with an LLM | Medium
+https://medium.com/@drewwww/the-gambler-and-the-genie-08491d96aee6 12/22
+toting analysts and consultants who could manipulate the ever-more-
+complex logics of these monolithic tools.
+And yet, to look at the outputs of the Genie one would have to be engaged in
+systematic self-delusion to not sense the existence of other authors. The
+facile example is that if you start to write your own email address for people
+to share feedback requests to, it will eagerly suggest someone else’s email
+address instead.
+Auto-completing someone else’s email address.
+Jeff is a real guy who seems to have written a lot of code!
+The fingerprints of other authors are omni-present. The style of code
+sometimes shifts noticeably. The names the Genie chooses for things are
+good quality, but don’t feel like what you would choose. Sometimes a block of
+code does more than you need in a way that makes it feel lifted out of some
+other system. Magic values with alarming precision will sometimes appear.
+Are these the result of some human tuning them until they work, or a true
+synthetic “insight” from the model or my prompt language?3/29/25, 5:19 PM The Gambler & The Genie | Coding with an LLM | Medium
+https://medium.com/@drewwww/the-gambler-and-the-genie-08491d96aee6 13/22
+The logic for a bit of animation code, filled with arbitrary constants.
+I feel it most acutely when I try to do anything actually novel, or use a niche
+software library or language. The rate at which the Genie produces useless
+garbage will skyrocket. I have tangibly stepped outside the realm in which
+there exist plentiful authors from whom you can copy, and all of a sudden
+the magic’s potency fades. It leaves me wondering whether the power I felt
+was just the power to launder other people’s work into my own in a
+sufficiently complex manner as to avoid feeling responsible.
+I don’t think there is a good faith argument that this is not a form of
+copyright laundering. It may be that engineers, unlike artists, don’t mind
+that this is happening and would consent to contributing their code to the
+training datasets of these models if asked.
+There are some important historical differences between engineering and
+art work that help explain the more muted outcry. Software, especially
+commercial software, rarely credits its authors. Engineers are habituated to
+a sort of “remix culture” in which any software of consequence is a melange
+of tens or hundreds of “libraries” written by others and included for free.
+Some of the most famous engineers are famous precisely because they have
+designed and maintain some of these building block libraries and give them
+away for free.
+3/29/25, 5:19 PM The Gambler & The Genie | Coding with an LLM | Medium
+https://medium.com/@drewwww/the-gambler-and-the-genie-08491d96aee6 14/22
+The Illustrator “splash” screen over time. Early versions listed contributing authors, modern versions do not.
+Photoshop, however, does still credit individual contributors.
+We might be able to explain the difference in reaction. But as someone who
+both produces my own code from scratch on occasion and who is finding
+value in producing code with the help of a Genie, I still desire absolution for
+what I’m doing. If my Genie is valuable to me, it is only because of an
+incomprehensibly large pool of code that it was trained on. Companies that
+train LLMs should be required to pay licensing fees far more broadly than
+they do today. It’s possible to imagine a more equitable exchange of value
+where instead of paying $20/month for my Genie (which gets split between
+the LLM company and the company that built the Genie), I’m paying
+$200/month and much of that flows into a licensing revenue pool that pays
+out tiny fractions of pennies per line to people who contributed something
+novel to the model training set. This structure doesn’t exist yet and I don’t
+perceive much demand to create it. We should not mistake this lack of a
+reaction among engineers for enthusiastic consent for how LLM companies
+are treating publicly available code examples. I expect that if we get closer to
+a true “write English, get working code” level of performance, it must also be
+valuable enough to compensate everyone who makes it possible. We need
+some incentive for people to continue to generate novel code that extends the
+zone of what is possible for LLM-users to draft off.
+Layers upon layers
+3/29/25, 5:19 PM The Gambler & The Genie | Coding with an LLM | Medium
+https://medium.com/@drewwww/the-gambler-and-the-genie-08491d96aee6 15/22
+If engineers have any instinctive revulsion to LLM-generated code, it flows
+more from pride than a perceived loss of economic power. “A tool like that
+would just slow me down, and produce lower quality code than I can write.”
+Today we can say “draw a circle on screen” in one line of code. Engineers 50
+years ago would be painstakingly doing the math to compute the locations of
+every pixel on the screen and turning them on or off one-at-a-time in a
+display buffer. The difference for the modern engineer is that the work of
+computing a circle and making it appear on the screen has been done by
+someone else and packaged up so you don’t have to think about it. The work
+isn’t gone, it’s just hidden. So much of computing is about solving problems
+and then “hiding” them so that someone else can build something on top
+without thinking much about the details. This has happened so many times
+that a modern engineer might not even know what’s actually going on when
+they say drawCircle. They just know it works.
+One might try to draw the Genie into this history of adding layers. We
+already have the notion of a “compiler” — a program that takes in human-
+readable statements like drawCircle and spits out a long list of computer-
+readable instructions that produce that outcome. You could view the Genie
+through the same lens — a way to ascend to a higher plane of existence
+where we say “draw a circle” in English and that is translated into drawCircle
+and then into machine code. Just one more layer on the stack of many other
+layers.
+But adding an unpredictable layer into the stack would have deep
+consequences. The predictability of a computer is the one firm point of
+leverage you have when trying to fix a broken program. Any errors must lie
+with your own faulty instructions. Any unpredictability you observe is the
+result of your own misunderstanding of the code you wrote, not in the3/29/25, 5:19 PM The Gambler & The Genie | Coding with an LLM | Medium
+https://medium.com/@drewwww/the-gambler-and-the-genie-08491d96aee6 16/22
+machine itself. If something is going wrong, you know for absolute certainty
+the computer is doing exactly what it was told, and somewhere you have not
+given it the correct instructions.
+To add the Genie into this mix is to violate a deep contract between the
+human and the machine. You are unleashing unpredictability into a world of
+perfectly predictable operation. It may be a useful, it may become the
+common way to write code, but we must be honest; it is an inflection point
+in the history of tools that help us write code, not a continuation of trends.
+What comes next
+The era that this Genie portends is filled with unknowns. Amidst the
+uncertainty, I will make one firm claim about the future. The next era will
+reward taste and judgement over raw speed, intellect, access, or training. If
+you know what you want software to do but not how to write the code to do
+it, there are fewer barriers to making it real than they have ever been. The
+dream of “describe it and it will exist” is false. However, I wager that with
+tenacity and a vision for something new, you are more likely than ever to be
+able to succeed. It will require learning how to write software. Maybe not in
+the same way I learned, and maybe with some conceptual gaps that would
+alarm a traditionalist. You might not be able to pass a software engineering
+job interview. Nevertheless, you can create something from nothing. That is
+the enduring magic of engineering and it feels almost as good as it did before
+the era of Genies and Gamblers.
+Many thanks to Bailey Rosser for contributing graphics and editing.
+Additional editing from Max Brawer, Alix Gierke.3/29/25, 5:19 PM The Gambler & The Genie | Coding with an LLM | Medium
+https://medium.com/@drewwww/the-gambler-and-the-genie-08491d96aee6 17/22
+The game I built using Cursor (and Claude) is called GRIDLOCK. Code is on
+github.
+Continue on this thread with another writer thinking about gamblers and
+genies and LLMS!
+Written by Drew Harry
+864 Followers·348 Following
+@medialab phd, @olincollege engineer. interested in: games, socio-technical
+systems, computer-me diated commu nication, online commu nities, & data
+visualizationFollow
+Responses (9)
+Ashley caceres PaganSoftware Development Large Language Models Metaphor Creativity
+Artificial Intelligence
+What are your thoughts?3/29/25, 5:19 PM The Gambler & The Genie | Coding with an LLM | Medium
+https://medium.com/@drewwww/the-gambler-and-the-genie-08491d96aee6 18/22

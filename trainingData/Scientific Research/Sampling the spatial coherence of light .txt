@@ -1,0 +1,711 @@
+Sampling the spatial coherence of light
+M. Vitek, M. Peterek, D. Koutn´ y, M. Pa´ ur, L. Motka, B. Stoklasa, Z. Hradil, and J. ˇReh´aˇcek
+Department of Optics, Palack ´y University, 771 46 Olomouc, Czech Republic
+L. L. S ´anchez-Soto
+Departamento de ´Optica, Facultad de F ´ısica, Universidad Complutense, 28040 Madrid, Spain
+Max-Planck-Institut f ¨ur die Physik des Lichts, 91058 Erlangen, Germany and
+Institute for Quantum Studies, Chapman University, Orange, CA 92866, USA
+We introduce a novel application of the Hartmann sensor, traditionally designed for wavefront sensing, to
+measure the coherence properties of optical signals. By drawing an analogy between the coherence matrix and
+the density matrix of a quantum system, we recast the sensor operation as a quantum estimation problem. We
+experimentally demonstrate its effectiveness in the regime where signals from different apertures significantly
+overlap, enabling information extraction beyond the reach of standard wavefront sensing.
+I. INTRODUCTION
+Three-dimensional objects radiate complex wavefronts
+shaped by their intrinsic properties, such as geometry, refrac-
+tive index, density, and temperature. These wavefronts carry
+critical information about the emitter, yet conventional detec-
+tors are limited to capturing only two-dimensional intensity
+and lack sensitivity to phase variations. As a result, wavefront
+sensing becomes essential for reconstructing the full optical
+field, enabling a deeper understanding of the object structure
+and behavior. This capability is crucial in applications such as
+high-resolution imaging [1, 2], ophthalmology [3–5], optical
+testing [6], beam shaping [7, 8] adaptive optics [9, 10], and
+precision metrology [11], where extracting phase information
+provides insights beyond what intensity-based measurements
+alone can offer.
+Wavefront reconstruction can be accomplished through sev-
+eral distinct approaches, each with its own strengths and lim-
+itations [12]. Broadly, these methods fall into three primary
+categories: (a) interferometric techniques, which rely on the
+interference of two beams with a carefully controlled relative
+phase; (b) methods based on the determination of the wave-
+front’s slope or curvature; and (c) image-based approaches
+utilizing iterative phase-retrieval algorithms [13, 14]. While
+substantial progress has been made in this area, achieving ro-
+bust wavefront sensing remains a challenging problem.
+Among the various schemes for wavefront reconstruction,
+the time-honored Shack-Hartmann sensor surely deserves spe-
+cial recognition. The original design incorporated a Hartmann
+mask, consisting of a regular array of pinholes [15]. In the late
+1960s, Shack revolutionized the design by introducing lens
+arrays, greatly enhancing the sensor sensitivity [16]. With
+its dynamic range, high optical efficiency, compatibility with
+white light, and versatility in handling both continuous and
+pulsed sources, this setup has proven to be an exceptional
+solution for a variety of applications [17].
+The operation of a Hartmann sensor may at first seem intu-
+itively straightforward [18]. The wavefront is sampled by an
+array of pinholes, producing a corresponding set of spots on
+the recording plane. The local slope of the wavefront at each
+sample point is inferred from the direction in which most of the
+light emerges from the respective pinhole—specifically, fromthe position of the resulting spot. However, this simplified
+geometrical framework inherently assumes the presence of a
+well-defined wavefront, implying full coherence of the signal.
+Furthermore, it requires that the spots remain non-overlapping.
+However, emerging applications in fields such as lithogra-
+phy [19], optical microscopy [20], and holography [21] de-
+mand the measurement of signals with increasingly complex
+temporal and spatial mode structures. In these scenarios, con-
+ventional wavefront-sensing strategies prove inadequate, as
+they are designed to handle spatially coherent signals.
+It has been suggested [22, 23] that conventional wavefront
+sensors may be underrated, as they do not fully exploit the
+potential of the recorded data. By incorporating tomographic
+reconstruction techniques, Shack-Hartmann sensors could fa-
+cilitate the evaluation of the mutual coherence, thus enabling
+a complete characterization of the signal.
+In this paper, we build upon our previous work by incor-
+porating a digital micromirror device (DMD) as an address-
+able reflective mask in the sensor. Although DMDs are lim-
+ited to binary amplitude modulation, their rapid and reliable
+modulation capabilities have enabled a wide range of appli-
+cations [24, 25]. Recently, they have been explored for char-
+acterizing the spatial coherence through interferometric tech-
+niques [26–28]. However, this approach is limited to assessing
+the complex degree of coherence, as it relies on measuring a
+visibility.
+We expand the scope of this framework to achieve point-
+by-point sampling of the mutual coherence. By leveraging
+quantum estimation theory [29], we surpass the limitations
+of conventional wavefront sensors, extracting information be-
+yond standard reconstruction methods. This is more than an
+academic curiosity, as spatial coherence plays a vital role in
+various applications [30].
+This paper is organized as follows. In Sec. II we briefly
+review the essential ingredients needed to describe partially
+coherent light and rephrase the action of a Hartmann sensor
+in a quantum parlance that will prove useful for the remaining
+discussion. This is applied in Sec. III to devise a feasible
+DMD-based protocol that allows for the sampling of the mutual
+intensity. The experimental results are presented in Sec. IV,
+confirming the reconstruction of the coherence properties of
+the signal. Finally, our conclusions are summarized in Sec. V.arXiv:2504.02031v1  [quant-ph]  2 Apr 2025
+2
+II. SAMPLING THE MUTUAL INTENSITY
+Partially coherent light cannot be adequately described by
+intensity or complex amplitude alone. Instead, its proper-
+ties must be captured through correlation functions, with the
+second-order correlation (commonly known as the mutual co-
+herence function) being the most commonly used [31]. To
+simplify our discussion, we will restrict ourselves to the quasi-
+monochromatic regime, where this correlation reduces to the
+so-called mutual intensity,
+𝐽(x,x′)=⟨𝑢(x,𝑡)𝑢∗(x′,𝑡)⟩, (2.1)
+with𝑢(x,𝑡)representing the complex amplitude. Assuming
+𝑢(x,𝑡)is an ergodic random process, 𝐽becomes time inde-
+pendent, allowing the ensemble average ⟨·⟩to be replaced by
+a time average.
+The sensors we are considering here operate by dividing
+the incoming light wavefront into smaller sections. This is
+achieved through an array of holes (in a Hartmann sensor)
+or lenslets (in a Shack-Hartmann sensor), each directing light
+onto a detector. For a perfectly flat (planar) wavefront, all the
+spots align in a regular grid, forming the reference spot field.
+When the wavefront is distorted by aberrations, its curvature
+changes, creating small tilts in different regions. These tilts
+cause the positions of the image spots to shift. By comparing
+the shifted positions to their original locations in the reference
+spot field, we can determine the wavefront shape and any
+aberrations in the beam. By analyzing the entire pupil, this
+information is combined into a phase map, which reveals the
+wavefront structure [9]. Unfortunately, as heralded in the
+Introduction, when dealing with partially coherent light, this
+naive picture breaks down, as the concept of a single, well-
+defined wavefront becomes ambiguous.
+In a standard wavefront configuration, the setup is care-
+fully arranged to prevent overlapping spots. This enables the
+reconstruction of a putative wavefront, but precludes the mea-
+surement of spatial coherence. In contrast, we explore an al-
+ternative scenario, where signals are deliberately overlapped.
+This distinctive setup fosters mutual interference among sig-
+nals from the subapertures, thereby encoding valuable coher-
+ence properties directly into the experimental data.
+To facilitate possible generalizations, we frame the follow-
+ing discussion in quantum terms, drawing on the deep math-
+ematical parallels between wave optics and quantum theory.
+In an obvious Dirac notation, a coherent beam with a com-
+plex amplitude 𝑢(x)will be assigned to a ket |𝑢⟩, such that
+𝑢(x)=⟨x|𝑢⟩, where|x⟩represents a pointlike source located
+atx. In this framework, partial coherence is naturally de-
+scribed by the density matrix 𝜚. Consequently, the mutual
+intensity (2.1) can be rewritten as
+𝐽(x,x′)=⟨x|𝜚|x′⟩=Tr(𝜚|x⟩⟨x′|), (2.2)
+which corresponds to the position representation of the density
+matrix.
+The key step in our approach is to expand the signal 𝜚
+as a finite superposition of appropriate modes that serve as
+a computational basis. We denote this basis as {ψ𝑗}, for𝑗=1,...,𝑑 , where𝑑represents the effective dimension of
+the signal. In this basis the mutual intensity appears as a 𝑑×𝑑
+nonnegative matrix
+𝐽𝑖 𝑗=⟨ψ𝑖|𝜚|ψ𝑗⟩. (2.3)
+The choice of basis depends on the specific experimental setup.
+For instance, in Ref. [23] the basis consisted of spatially un-
+bounded modes, which is suitable when there is no spot over-
+lap. In such a scenario, signal components passing through
+different apertures remain separate, preventing the determina-
+tion of their mutual coherence.
+In contradistinction, when spots overlap, a different elec-
+tion is required. We adopt a basis composed of sharply
+bounded modes (i.e., modes with vanishing amplitude outside
+a finite region). While these modes possess an unbounded
+Fourier spectrum and, consequently, an unlimited range of
+transverse momenta, they are conveniently characterized in
+the𝑥-representation, which we prioritize in this work. If, for
+simplicity, we restrict ourselves to a one-dimensional model,
+a sensible choice for these modes is
+𝜓𝑗(𝑥)=⟨𝑥|𝜓𝑗⟩=rect𝑥−𝑥0
+𝑎
+𝑒𝑖𝑘 𝑗𝑥, (2.4)
+where the rectangle function describes the action of a single
+Hartmann aperture centered at 𝑥0, which is taken as a square
+aperture of side 𝑎. We assume here that the intensity, phase,
+and statistical properties evolve slowly relative to the size of
+the apertures, similar to sampling assumptions in classical
+wavefront sensors. Additionally, we have limited a single
+mode (i.e., a single local kvector) to each aperture.
+The measurement process is described using a positive
+operator-valued measure (POVM) [32], represented by the pro-
+jectorsΠ𝜉, where𝜉corresponds to the specific signal detected
+at a given pixel on the detector. Essentially, the POVM pro-
+vides a mathematical framework for understanding how the
+measurement extracts information from the incoming light.
+It encapsulates the operational principles of the DMD, free-
+space propagation, and detection. In the computational basis,
+it can be conveniently represented as the measurement matrix
+(Π𝜉)𝑖 𝑗=𝜓′
+𝑖(𝜉)𝜓′∗
+𝑗(𝜉), (2.5)
+where𝜓′
+𝑗(𝜉)is the complex amplitude at the detector generated
+by the𝑗th basis mode.
+To compute 𝜓′
+𝑗(𝜉), we employ standard methods from
+Fourier optics [33]. Assuming the 𝑗th mode is incident on
+the DMD, the outcoming signal can be written as
+[rect(𝑥/𝐷)⊗comb(𝑥/Δ)]𝜓𝑗(𝑥), (2.6)
+where⊗indicates the convolution, and 𝐷andΔare the mi-
+cromirror width and DMD mirror spacing, respectively. The
+function comb(𝑧)=Í
+𝑛∈Z𝛿(𝑧−𝑛)accounts for the grating
+structure of the DMD. This outgoing signal is propagated to-
+wards the detector, which spatially separates individual diffrac-
+tion orders. For our analysis, we consider only one diffraction
+order. By applying the Fresnel diffraction integral, the com-
+plex amplitude at 𝑧, the detector plane position, is then obtained
+3
+II. ML re c o n s t r u c t i o n
+ I. Hartma n n  s e n s i n g
+FIG. 1. Protocol steps. (Left panel) The first row displays binary
+masks addressed on the DMD. The second row shows numerically
+simulated data for the Hartmann sensing step, with centroids marked
+by crosses, followed by their middle-image profiles in the third row.
+(Right panel) The third column, denoted as the maximum-likelihood
+(ML) reconstruction step, shows a two-aperture mask and simulated
+data for a partially coherent signal.
+as
+𝜓′
+𝑗(𝜉)≃𝑒𝑖𝑘 𝑗𝑥0sin𝛼𝑒𝑖𝑘 𝑗(𝜉−𝑥0)2/2𝑧sinc𝑎
+𝜆𝑧(𝜉−𝑥0+𝑧sin𝛼)
+,
+(2.7)
+where𝜆is the wavelength. Note the argument of the sinc func-
+tion [sinc𝑥=(sin𝑥)/𝑥] takes the form(𝜉−𝑥0+𝑧sin𝛼), where
+𝛼is the wave deflection angle, indicating that the position of
+peak intensity depends on the local slope of the wavefront
+incident on the Hartmann aperture.
+Finally, the detected intensity 𝐼(𝜉)at𝜉is determined by
+the Born rule 𝐼(𝜉)=Tr(𝜚Π𝜉)[34]. This reflects the fun-
+damental principle that the measured intensity results from
+the interplay between the signal state, represented by 𝜚, and
+the measurement process, encapsulated by the POVM element
+Π𝜉.
+III. RECONSTRUCTION PROTOCOL
+We consider a simple scenario where the incoming signal
+impinges on a two-aperture Hartmann screen, propagating as
+a statistical mixture of two coherent modes. Under this setup,
+both the mutual intensity and the measurement reduce to di-
+mension𝑑=2.
+The first step of our scheme employs a centroid algorithm
+to reconstruct the k-vector corresponding to individual mask
+apertures. To this end, we keep only one DMD aperture open,
+FIG. 2. Layout of the Hartmann sensor with the LED-based partially
+coherent light source used in the experiment. MO stands for micro-
+scope objective.
+as depicted in Fig. 1, ensuring that only a single spot is regis-
+tered. Among various algorithms proposed for locating spot
+centroids [35, 36], the center of gravity (COG) algorithm re-
+mains the most widely used due to its simplicity and low com-
+putational demand, making it well-suited for our measurement
+needs. Furthermore, several advanced COG algorithms have
+been developed to mitigate noise [37]. In our implementation,
+we minimize the root mean squared error between the mea-
+sured data and our model, which is dependent on the precise
+spot position.
+In the second step, the information about the k-vectors is
+utilized to construct the computational basis and the corre-
+sponding POVM.
+From the registered intensity 𝐼(𝜉)=Tr(𝜚Π𝜉)and the pre-
+vious expansions, we can invert this equation and reconstruct
+𝜚and, consequently, 𝐽(x,x′). To achieve this, we utilize max-
+imum likelihood estimation, which allows us to incorporate
+the positivity constraint on the density matrix. This is essen-
+tial for both density matrices describing quantum systems and
+mutual intensity matrices representing classical signals. Given
+this context, employing a quantum reconstruction algorithm is
+not merely a peculiarity; it is well justified. We implemented
+the algorithm described in Ref. [38], which is specifically de-
+signed for biased tomography schemes and operates through
+an iterative process.
+To increase the accuracy of the proposed reconstruction
+scheme, the maximum likelihood algorithm was integrated
+into the minimization procedure, where the centroids of indi-
+vidual spots serve as input variables. We minimize the root
+mean square error using the centroid values obtained from the
+COG algorithm as initial values for the iterative procedure.
+Finally, we emphasize that maximum likelihood estimation
+has been applied to raw Hartmann image data, enhancing accu-
+racy but at the expense of significantly higher computational
+complexity [39–41]. In contrast, our quantum-inspired pro-
+tocol offers a simple, compact implementation with minimal
+computational overhead.
+4
+IV. EXPERIMENTAL RESULTS
+To validate the method, we use signals with predefined co-
+herence properties. For signal preparation, light from a light-
+emitting diode (LED) with a central wavelength of 625 nm
+(M625F2, Thorlabs) is coupled into multimode fibers with
+different core diameters. The output from these fibers is then
+collimated using a microscope objective (TL2X-SAP, Thor-
+labs) with an effective focal length of 𝑓=100 mm.
+Given the LED spectral bandwidth, we can consider light
+to be quasi-monochromatic. Since the LED source is spatially
+incoherent, the fiber end-face can be modeled as an incoher-
+ent circular planar source. Applying the van Cittert-Zernike
+theorem [42], the amplitude of the mutual intensity |𝐽(𝑥,𝑥′)|
+at the collimator output can be expressed as
+|𝐽(𝑥,𝑥′)|=2|𝑢(𝑥)||𝑢(𝑥′)|𝐽1
+𝜋𝑤|𝑥−𝑥′|
+𝜆 𝑓
+𝜋𝑤|𝑥−𝑥′|
+𝜆 𝑓, (4.1)
+where𝐽1is the Bessel function of the first kind and 𝑤is the
+diameter of the fiber core. By using fibers with different core
+diameters, one can obtain light with varying degrees of co-
+herence. Our reconstruction algorithm provides information
+about𝐽(𝑥,𝑥′)in the form of sampled mutual intensity matri-
+ces.
+Our experimental setup is sketched in Fig. 2. To measure the
+prepared signals, we use a DMD (V-6501, Vialux) configured
+as a reflective binary Hartmann mask. The DMD is positioned
+such that each micromirror diagonal is perpendicular to the
+optical table, ensuring that both the incident and reflected
+signals are in a plane parallel to the table.
+To minimize chromatic blur caused by the diffractive nature
+of the DMD, the incoming light is filtered using a narrowband
+filter (FLH633-1, Thorlabs) with a full width at half maximum
+(FWHM) of 1 nm. The collimated beam hits the DMD at
+an angle of 24◦relative to the normal of the array. This
+configuration ensures that mirrors tilted at 12◦reflect light in a
+direction perpendicular to the chip surface. The reflected light
+is then detected by an EMCCD camera (Hamamatsu ImagEM
+X2 C9100-23B), positioned 180 mm from the DMD, allowing
+for complete overlapping of the signals.
+Once the measured beam is scanned with a two-subaperture
+mask, we stitch together partial measurements for each com-
+bination of measurement points [43, 44]. In principle, one
+might reconstruct the mutual intensity matrix at 𝑁×𝑁points;
+such a measurement requires1
+2(𝑁2−𝑁)samples. This im-
+plies a polynomial complexity, but can be easily handled for
+reasonable values of 𝑁.
+Our objective is to examine the statistical properties of the
+prepared signal as the separation between the Hartmann mask
+apertures increases. Figure 3 presents an example from our
+collected data sets. The data correspond to a 200 𝜇m fiber
+core, with two square apertures addressed to the DMD chip
+separated by 152, 304, and 456 𝜇m, respectively (which cor-
+responds to 20, 40, and 60 pixels, respectively).
+As predicted by the van Cittert-Zernike theorem, the degree
+of coherence decreases as the separation between points in-
+ [pixel]
+Intensity [a.u.]Separation = 152m
+Model
+Data
+ [pixel]
+Intensity [a.u.]Separation = 304m
+Model
+Data
+ [pixel]
+Intensity [a.u.]Separation = 456m
+Model
+Data/uni000003ed
+/uni000003ee
+/uni000003ed/uni000003ee
+/uni000003ec/uni00000358/uni000003ec/uni000003ec/uni000003ec/uni00000358/uni000003ed/uni000003ec/uni000003ec/uni00000358/uni000003ee/uni000003ec/uni000003ec/uni00000358/uni000003ef/uni000003ec/uni000003ec/uni00000358/uni000003f0/uni000003ec/uni000003ec/uni00000358/uni000003f1/uni000003ec/uni000003ec/uni00000358/uni000003f2/uni000003ecAbs(est)
+/uni000003ed
+/uni000003ee
+/uni000003ed/uni000003ee
+/uni000003ec/uni00000358/uni000003ec/uni000003ec/uni000003ec/uni00000358/uni000003ed/uni000003ec/uni000003ec/uni00000358/uni000003ee/uni000003ec/uni000003ec/uni00000358/uni000003ef/uni000003ec/uni000003ec/uni00000358/uni000003f0/uni000003ec/uni000003ec/uni00000358/uni000003f1/uni000003ec/uni000003ec/uni00000358/uni000003f2/uni000003ecAbs(est)
+/uni000003ed
+/uni000003ee
+/uni000003ed/uni000003ee
+/uni000003ec/uni00000358/uni000003ec/uni000003ec/uni000003ec/uni00000358/uni000003ed/uni000003ec/uni000003ec/uni00000358/uni000003ee/uni000003ec/uni000003ec/uni00000358/uni000003ef/uni000003ec/uni000003ec/uni00000358/uni000003f0/uni000003ec/uni000003ec/uni00000358/uni000003f1/uni000003ec/uni000003ec/uni00000358/uni000003f2/uni000003ecAbs(est)
+FIG. 3. Example of measured data and reconstructed mutual intensity
+matrices with 200 𝜇m fiber and three different separations of the
+apertures used to scan the measured field.
+creases. This behavior is evident in the off-diagonal elements
+of the reconstructed matrices, shown in the right column of
+Fig. 3. Additionally, the nearly equal diagonal elements indi-
+cate that the intensity of both apertures are roughly identical.
+To assess the accuracy of our reconstruction, we perform in-
+verse engineering based on the reconstructed data, ensuring
+the fidelity of our method.
+In Fig. 4 we summarize our results for three fibers with core
+diameters of 105, 200, and 400 𝜇m, respectively. As a proof
+of principle, we have chosen a stitching with 𝑁=4. However,
+this number can be readily increased, with the only limitations
+being the spatial size and pixelization of the DMD.
+We present both the theoretical mutual intensity values, de-
+rived from the van Cittert-Zernike theorem, and the recon-
+structed values, along with their associated errors. The ab-
+solute value and phase of the mutual intensity are displayed
+separately. As expected, increasing the fiber diameter leads
+5
+/uni000003ed
+/uni000003ee
+/uni000003ef
+/uni000003f0
+ /uni000003ed/uni000003ee/uni000003ef/uni000003f0
+/uni000003ec/uni00000358/uni000003ec/uni000003ec/uni000003ec/uni00000358/uni000003ec/uni000003f1/uni000003ec/uni00000358/uni000003ed/uni000003ec/uni000003ec/uni00000358/uni000003ed/uni000003f1/uni000003ec/uni00000358/uni000003ee/uni000003ec/uni000003ec/uni00000358/uni000003ee/uni000003f1/uni000003ec/uni00000358/uni000003ef/uni000003ecAbs(true)
+105m
+/uni000003ed
+/uni000003ee
+/uni000003ef
+/uni000003f0
+ /uni000003ed/uni000003ee/uni000003ef/uni000003f0
+/uni00000372/uni000003ed
+/uni00000372/uni000003ec/uni00000358/uni000003f1
+/uni000003ec/uni000003ec/uni00000358/uni000003f1
+/uni000003ed
+Arg(true)
+/uni000003ed
+/uni000003ee
+/uni000003ef
+/uni000003f0
+ /uni000003ed/uni000003ee/uni000003ef/uni000003f0
+/uni000003ec/uni00000358/uni000003ec/uni000003ec/uni000003ec/uni00000358/uni000003ec/uni000003f1/uni000003ec/uni00000358/uni000003ed/uni000003ec/uni000003ec/uni00000358/uni000003ed/uni000003f1/uni000003ec/uni00000358/uni000003ee/uni000003ec/uni000003ec/uni00000358/uni000003ee/uni000003f1/uni000003ec/uni00000358/uni000003ef/uni000003ecAbs(true)
+200m
+/uni000003ed
+/uni000003ee
+/uni000003ef
+/uni000003f0
+ /uni000003ed/uni000003ee/uni000003ef/uni000003f0
+/uni00000372/uni000003ed
+/uni00000372/uni000003ec/uni00000358/uni000003f1
+/uni000003ec/uni000003ec/uni00000358/uni000003f1
+/uni000003ed
+Arg(true)
+/uni000003ed
+/uni000003ee
+/uni000003ef
+/uni000003f0
+ /uni000003ed/uni000003ee/uni000003ef/uni000003f0
+/uni000003ec/uni00000358/uni000003ec/uni000003ec/uni000003ec/uni00000358/uni000003ec/uni000003f1/uni000003ec/uni00000358/uni000003ed/uni000003ec/uni000003ec/uni00000358/uni000003ed/uni000003f1/uni000003ec/uni00000358/uni000003ee/uni000003ec/uni000003ec/uni00000358/uni000003ee/uni000003f1/uni000003ec/uni00000358/uni000003ef/uni000003ecAbs(true)
+400m
+/uni000003ed
+/uni000003ee
+/uni000003ef
+/uni000003f0
+ /uni000003ed/uni000003ee/uni000003ef/uni000003f0
+/uni00000372/uni000003ed
+/uni00000372/uni000003ec/uni00000358/uni000003f1
+/uni000003ec/uni000003ec/uni00000358/uni000003f1
+/uni000003ed
+Arg(true)
+/uni000003ed
+/uni000003ee
+/uni000003ef
+/uni000003f0
+ /uni000003ed/uni000003ee/uni000003ef/uni000003f0
+/uni000003ec/uni00000358/uni000003ec/uni000003ec/uni000003ec/uni00000358/uni000003ec/uni000003f1/uni000003ec/uni00000358/uni000003ed/uni000003ec/uni000003ec/uni00000358/uni000003ed/uni000003f1/uni000003ec/uni00000358/uni000003ee/uni000003ec/uni000003ec/uni00000358/uni000003ee/uni000003f1/uni000003ec/uni00000358/uni000003ef/uni000003ecAbs(est)
+/uni000003ed
+/uni000003ee
+/uni000003ef
+/uni000003f0
+ /uni000003ed/uni000003ee/uni000003ef/uni000003f0
+/uni00000372/uni000003ed
+/uni00000372/uni000003ec/uni00000358/uni000003f1
+/uni000003ec/uni000003ec/uni00000358/uni000003f1
+/uni000003ed
+Arg(est)
+/uni000003ed
+/uni000003ee
+/uni000003ef
+/uni000003f0
+ /uni000003ed/uni000003ee/uni000003ef/uni000003f0
+/uni000003ec/uni00000358/uni000003ec/uni000003ec/uni000003ec/uni00000358/uni000003ec/uni000003f1/uni000003ec/uni00000358/uni000003ed/uni000003ec/uni000003ec/uni00000358/uni000003ed/uni000003f1/uni000003ec/uni00000358/uni000003ee/uni000003ec/uni000003ec/uni00000358/uni000003ee/uni000003f1/uni000003ec/uni00000358/uni000003ef/uni000003ecAbs(est)
+/uni000003ed
+/uni000003ee
+/uni000003ef
+/uni000003f0
+ /uni000003ed/uni000003ee/uni000003ef/uni000003f0
+/uni00000372/uni000003ed
+/uni00000372/uni000003ec/uni00000358/uni000003f1
+/uni000003ec/uni000003ec/uni00000358/uni000003f1
+/uni000003ed
+Arg(est)
+/uni000003ed
+/uni000003ee
+/uni000003ef
+/uni000003f0
+ /uni000003ed/uni000003ee/uni000003ef/uni000003f0
+/uni000003ec/uni00000358/uni000003ec/uni000003ec/uni000003ec/uni00000358/uni000003ec/uni000003f1/uni000003ec/uni00000358/uni000003ed/uni000003ec/uni000003ec/uni00000358/uni000003ed/uni000003f1/uni000003ec/uni00000358/uni000003ee/uni000003ec/uni000003ec/uni00000358/uni000003ee/uni000003f1/uni000003ec/uni00000358/uni000003ef/uni000003ecAbs(est)
+/uni000003ed
+/uni000003ee
+/uni000003ef
+/uni000003f0
+ /uni000003ed/uni000003ee/uni000003ef/uni000003f0
+/uni00000372/uni000003ed
+/uni00000372/uni000003ec/uni00000358/uni000003f1
+/uni000003ec/uni000003ec/uni00000358/uni000003f1
+/uni000003ed
+Arg(est)
+/uni000003ed
+/uni000003ee
+/uni000003ef
+/uni000003f0
+ /uni000003ed/uni000003ee/uni000003ef/uni000003f0
+/uni000003ec/uni00000358/uni000003ec/uni000003ec/uni000003ec/uni00000358/uni000003ec/uni000003f1/uni000003ec/uni00000358/uni000003ed/uni000003ec/uni000003ec/uni00000358/uni000003ed/uni000003f1/uni000003ec/uni00000358/uni000003ee/uni000003ec/uni000003ec/uni00000358/uni000003ee/uni000003f1/uni000003ec/uni00000358/uni000003ef/uni000003ecAbs(est true)
+/uni000003ed
+/uni000003ee
+/uni000003ef
+/uni000003f0
+ /uni000003ed/uni000003ee/uni000003ef/uni000003f0
+/uni00000372/uni000003ed
+/uni00000372/uni000003ec/uni00000358/uni000003f1
+/uni000003ec/uni000003ec/uni00000358/uni000003f1
+/uni000003ed
+Arg(est)Arg(true)
+/uni000003ed
+/uni000003ee
+/uni000003ef
+/uni000003f0
+ /uni000003ed/uni000003ee/uni000003ef/uni000003f0
+/uni000003ec/uni00000358/uni000003ec/uni000003ec/uni000003ec/uni00000358/uni000003ec/uni000003f1/uni000003ec/uni00000358/uni000003ed/uni000003ec/uni000003ec/uni00000358/uni000003ed/uni000003f1/uni000003ec/uni00000358/uni000003ee/uni000003ec/uni000003ec/uni00000358/uni000003ee/uni000003f1/uni000003ec/uni00000358/uni000003ef/uni000003ecAbs(est true)
+/uni000003ed
+/uni000003ee
+/uni000003ef
+/uni000003f0
+ /uni000003ed/uni000003ee/uni000003ef/uni000003f0
+/uni00000372/uni000003ed
+/uni00000372/uni000003ec/uni00000358/uni000003f1
+/uni000003ec/uni000003ec/uni00000358/uni000003f1
+/uni000003ed
+Arg(est)Arg(true)
+/uni000003ed
+/uni000003ee
+/uni000003ef
+/uni000003f0
+ /uni000003ed/uni000003ee/uni000003ef/uni000003f0
+/uni000003ec/uni00000358/uni000003ec/uni000003ec/uni000003ec/uni00000358/uni000003ec/uni000003f1/uni000003ec/uni00000358/uni000003ed/uni000003ec/uni000003ec/uni00000358/uni000003ed/uni000003f1/uni000003ec/uni00000358/uni000003ee/uni000003ec/uni000003ec/uni00000358/uni000003ee/uni000003f1/uni000003ec/uni00000358/uni000003ef/uni000003ecAbs(est true)
+/uni000003ed
+/uni000003ee
+/uni000003ef
+/uni000003f0
+ /uni000003ed/uni000003ee/uni000003ef/uni000003f0
+/uni00000372/uni000003ed
+/uni00000372/uni000003ec/uni00000358/uni000003f1
+/uni000003ec/uni000003ec/uni00000358/uni000003f1
+/uni000003ed
+Arg(est)Arg(true)
+FIG. 4. Results for fibers with 105, 200, and 400 𝜇m core diameter. The upper row shows the absolute value and the phase of the true 𝜚, whereas
+the middle row presents the reconstructed values according to our protocol. The lower row displays the corresponding errors, demonstrating
+an excellent match with the theoretical predictions.
+to a decrease in coherence between individual points, an ef-
+fect that becomes more pronounced as the separation between
+points grows. For the 400 𝜇m fiber, coherence is confined to a
+small neighborhood, as indicated by nonzero values appearing
+only along the diagonal elements.
+Furthermore, the imaginary part of the mutual intensity
+remains identically zero, as the matrix is reconstructed in a
+basis where the propagation directions align with those of the
+signals. As evident from the plots, the reconstructed values
+closely match the theoretical predictions, demonstrating the
+accuracy of our method.
+To experimentally validate our method, we compare the
+measured values of the mutual intensity with those predicted
+by the van Cittert–Zernike theorem. To this end, we normal-
+ize𝐽(𝑥,𝑥′)to obtain the complex degree of coherence [31],
+denoted as𝜇(𝑥,𝑥′). For an incoherent circular planar source
+case, this yields
+|𝜇(𝑥,𝑥′)|=2𝐽1
+𝜋𝑤|𝑥−𝑥′|
+𝜆 𝑓
+𝜋𝑤|𝑥−𝑥′|
+𝜆 𝑓. (4.2)
+We fit our experimental results to this function to estimate the
+values of the diameters 𝑤for the three fibers, as shown in Fig. 5,
+obtaining 118 𝜇m, 185𝜇m, and 369𝜇m, respectively. Given
+the limited number of sampled points, these measurements
+show satisfactory agreement with the nominal values and serve
+as a proof of principle for our method. The observed deviations
+may arise from factors such as partial coherence or finite-
+/uni000003ec /uni000003ed/uni000003ec/uni000003ec /uni000003ee/uni000003ec/uni000003ec /uni000003ef/uni000003ec/uni000003ec /uni000003f0/uni000003ec/uni000003ec /uni000003f1/uni000003ec/uni000003ec /uni000003f2/uni000003ec/uni000003ec
+/uni0000036e/uni000001c6/uni00000372/uni000001c6 /uni0000036e/uni00000003/uni00000380/uni00000452/uni00000175/uni00000381
+/uni000003ec/uni00000358/uni000003ec/uni000003ec/uni00000358/uni000003ee/uni000003ec/uni00000358/uni000003f0/uni000003ec/uni00000358/uni000003f2/uni000003ec/uni00000358/uni000003f4/uni000003ed/uni00000358/uni000003ec/uni0000036e/uni00000452/uni0000037e/uni000001c6/uni00000355/uni00000003/uni000001c6 /uni0000037f/uni0000036e
+/uni00000018/uni00000102/uni0000019a/uni00000102/uni00000003/uni0000037e/uni000001c1/uni00000003/uni00000441/uni00000003/uni000003ed/uni000003ec/uni000003f1/uni00000003/uni00000452/uni00000175/uni0000037f
+/uni00000018/uni00000102/uni0000019a/uni00000102/uni00000003/uni0000037e/uni000001c1/uni00000003/uni00000441/uni00000003/uni000003ee/uni000003ec/uni000003ec/uni00000003/uni00000452/uni00000175/uni0000037f
+/uni00000018/uni00000102/uni0000019a/uni00000102/uni00000003/uni0000037e/uni000001c1/uni00000003/uni00000441/uni00000003/uni000003f0/uni000003ec/uni000003ec/uni00000003/uni00000452/uni00000175/uni0000037f
+/uni00000026/uni0000015d/uni0000019a/uni00000003/uni0000037e/uni000001c1/uni00000003/uni00000441/uni00000003/uni000003ed/uni000003ed/uni000003f4/uni00000003/uni00000452/uni00000175/uni0000037f
+/uni00000026/uni0000015d/uni0000019a/uni00000003/uni0000037e/uni000001c1/uni00000003/uni00000441/uni00000003/uni000003ed/uni000003f3/uni000003f1/uni00000003/uni00000452/uni00000175/uni0000037f
+/uni00000026/uni0000015d/uni0000019a/uni00000003/uni0000037e/uni000001c1/uni00000003/uni00000441/uni00000003/uni000003ef/uni000003f2/uni000003f5/uni00000003/uni00000452/uni00000175/uni0000037fFIG. 5. Points represent the measured values of the complex degree
+of coherence|𝜇(𝑥,𝑥′)|as derived from the data in Fig. 4. The curves
+are the fits to the theoretical predictions from the van Cittert-Zernike
+theorem (4.2).
+aperture effects.
+V. CONCLUDING REMARKS
+We have experimentally measured the spatial coherence of
+a partially coherent signal, introducing a key innovation: oper-
+ating a DMD-based Hartmann wavefront sensor in the regime
+6
+of overlapping spots. This approach overcomes the limita-
+tions of traditional wavefront sensors, enabling us to access
+information beyond the capabilities of conventional recon-
+struction methods. When the interfering signal arises from
+spatial points, our method directly yields the 𝑥-representation
+of the mutual intensity.
+Whether for improving image quality, enhancing wavefront
+correction, or understanding quantum phenomena, spatial co-
+herence is a key parameter in modern optics. Our quantum-
+inspired method paves the way for new possibilities that could
+be relevant for the field.ACKNOWLEDGMENTS
+This work has received financial support from the QuantEra
+program (project ApresSF), from Palack´ y University (Grant
+IGA PRF 2025 –005) and from the Spanish Agencia Estatal
+de Investigaci ´on (Grant PID2021-127781NB-I00). L. L. S. S.
+was supported in part by the grant NSF PHY-1748958 to the
+Kavli Institute for Theoretical Physics (KITP).
+[1] Y. Wu, M. K. Sharma, and A. Veeraraghavan, WISH: wave-
+front imaging sensor with high resolution, Light sci. appl. 8, 44
+(2019).
+[2] K. M. Hampson, R. Turcotte, D. T. Miller, K. Kurokawa,
+J. R. Males, N. Ji, and M. J. Booth, Adaptive optics for high-
+resolution imaging, Nat. Rev. Methods Primers 1, 68 (2021).
+[3] N. Maeda, Wavefront technology in ophthalmology, Curr. Opin.
+Ophthalmol. 12(2001).
+[4] G.-M. Dai, Wavefront Optics for Vision Correction (SPIE Press,
+Bellingham, WA, 2008).
+[5] M. Vacalebre, R. Frison, C. Corsaro, F. Neri, S. Conoci, E. Anas-
+tasi, M. C. Curatolo, and E. Fazio, Advanced optical wavefront
+technologies to improve patient quality of vision and meet clin-
+ical requests, Polymers 14, 5321 (2022).
+[6] D. Malacara, ed., Optical Shop Testing , 3rd ed. (Wiley, Hoboken,
+NJ, 2007).
+[7] A. P. Mosk, A. Lagendijk, G. Lerosey, and M. Fink, Controlling
+waves in space and time for imaging and focusing in complex
+media, Nat. Photonics 6, 283 (2012).
+[8] H. Yu, J. Park, K. Lee, J. Yoon, K. Kim, S. Lee, and Y. Park,
+Recent advances in wavefront shaping techniques for biomedical
+applications, Curr. Appl. Phys. 15, 632 (2015).
+[9] R. K. Tyson and B. W. Frazier, Principles of Adaptive Optics ,
+5th ed. (CRC Press, Boca Raton, Fl, 2022).
+[10] E. Fernandez, ed., Handbook of Adaptive Optics: From Foun-
+dations to Applications (CRC Press, Boca Raton, Fl, 2024).
+[11] P. K. Rastogi, ed., Optical Measurement Techniques and Appli-
+cations (Artech House, Boston, 1997).
+[12] J. M. Geary, Introduction to Wavefront Sensors (SPIE Press,
+Bellingham, WA, 1995).
+[13] D. R. Luke, J. V. Burke, and R. G. Lyon, Optical wavefront
+reconstruction: Theory and numerical methods, SIAM Rev. 44,
+169 (2002).
+[14] L. Guo, G. Ju, B. Xu, X. Bai, Q. Meng, F. Jiang, and S. Xu, Jitter-
+robust phase retrieval wavefront sensing algorithms, Sensors 22,
+5584 (2022).
+[15] J. Hartmann, Bemerkungen uber den Bau und die Justierung
+von Spektrographen, Zt. Instrumentenkd. 20, 47 (1900).
+[16] B. C. Platt and R. Shack, History and principles of Shack-
+Hartmann wavefront sensing, J. Refract. Surg. 17, S573 (2001).
+[17] D. R. Neal, J. Copland, and D. A. Neal, Shack-Hartmann wave-
+front sensor precision and accuracy, Proc. SPIE 4779 , 148
+(2002).
+[18] J. Primot, Theoretical description of Shack–Hartmann wave-
+front sensor, Opt. Commun. 222, 81 (2003).
+[19] D. Kazazis, J. G. Santaclara, J. van Schoot, I. Mochi, and Y. Ek-
+inci, Extreme ultraviolet lithography, Nat. Rev. Methods Primers
+4, 84 (2024).[20] M. J. Booth, Adaptive optical microscopy: the ongoing quest
+for a perfect image, Light sci. appl. 3, e165 (2014).
+[21] Y. Peng, S. Choi, J. Kim, and G. Wetzstein, Speckle-free holog-
+raphy with partially coherent light sources and camera-in-the-
+loop calibration, Sci. Adv. 7, eabg5040 (2021).
+[22] Z. Hradil, J. ˇReh´aˇcek, and L. L. S ´anchez-Soto, Quantum recon-
+struction of the mutual coherence function, Phys. Rev. Lett. 105,
+010401 (2010).
+[23] B. Stoklasa, L. Motka, J. Rehacek, Z. Hradil, and L. L. S ´anchez-
+Soto, Wavefront sensing reveals optical coherence, Nat. Com-
+mun. 5, 3275 (2014).
+[24] Y.-X. Ren, R.-D. Lu, and L. Gong, Tailoring light with a digital
+micromirror device, Ann. Phys. 527, 447 (2015).
+[25] S. Scholes, R. Kara, J. Pinnell, V. Rodr ´ıguez-Fajardo, and
+A. Forbes, Structured light with digital micromirror devices:
+a guide to best practice, Opt. Eng. 59, 041202 (2019).
+[26] H. Partanen, J. Turunen, and J. Tervo, Coherence measurement
+with digital micromirror device, Opt. Lett. 39, 1034 (2014).
+[27] T. E. Magalh ˜aes, J. M. Rebord ˜ao, and A. Cabral, Spatial co-
+herence characterization of light: An experimental study using
+digital micromirror devices, Optik 226, 166034 (2021).
+[28] T. Shirai and A. T. Friberg, Spatial coherence measurement via
+a digital micromirror device based spatiotemporal light modu-
+lation, Opt. Lett. 46, 4160 (2021).
+[29] C. W. Helstrom, Quantum Detection and Estimation Theory
+(Academic, New York, 1976).
+[30] O. Korotkova and G. Gbur, Applications of optical coherence
+theory, Prog. Opt. 65, 43 (2020).
+[31] L. Mandel and E. Wolf, Optical Coherence and Quantum Optics
+(Cambridge University Press, Cambridge, 1995).
+[32] A. S. Holevo, Probabilistic and Statistical Aspects of Quantum
+Theory , 2nd ed. (North Holland, Amsterdam, 2003).
+[33] J. W. Goodman, Introduction to Fourier Optics (Roberts and
+Company, Englewood, 2004).
+[34] A. Peres, Quantum Theory: Concepts and Methods (Kluwer,
+New York, 2002).
+[35] S. Thomas, Optimized centroid computing in a Shack-Hartmann
+sensor, Proc. SPIE 5490 , 1238 (2004).
+[36] P. Wei, X. Li, X. Luo, and J. Li, Analysis of the wavefront re-
+construction error of the spot location algorithms for the Shack–
+Hartmann wavefront sensor, Opt. Eng. 59, 043103 (2020).
+[37] Y. Gao, F. Xiang, J. Yu, T. Wu, J. Liao, H. Li, S. Ye, and
+W. Zheng, Accurate piecewise centroid calculation algorithm
+for wavefront measurement in adaptive optics, Opt. Express 32,
+301 (2024).
+[38] Z. Hradil, D. Mogilevtsev, and J. ˇReh´aˇcek, Biased tomography
+schemes: An objective approach, Phys. Rev. Lett. 96, 230401
+(2006).
+7
+[39] R. C. Cannon, Global wave-front reconstruction using Shack–
+Hartmann sensors, J. Opt. Soc. Am. A 12, 2031 (1995).
+[40] M. A. van Dam and R. G. Lane, Wave-front slope estimation, J.
+Opt. Soc. Am. A 17, 1319 (2000).
+[41] H. H. Barrett, C. Dainty, and D. Lara, Maximum-likelihood
+methods in wavefront sensing: stochastic models and likelihood
+functions, J. Opt. Soc. Am. A 24, 391 (2007).[42] E. Wolf, Introduction to the Theory of Coherence and Polariza-
+tion of Light (Cambridge University Press, Cambridge, 2007).
+[43] M. Idir, K. Kaznatcheev, G. Dovillaire, J. Legrand, and R. Rung-
+sawang, A 2D high accuracy slope measuring system based on
+a stitching Shack Hartmann optical head, Opt. Express 22, 2770
+(2014).
+[44] J. Wang, X. Wang, L. Peng, J. Wang, Z. Liu, L. Li, M. Cai,
+B. Liu, W. Li, and X. Zhang, Method for testing freeform sur-
+faces based on a Shack-Hartmann sensor with plane wavefront
+scanning and stitching, Opt. Express 31, 36702 (2023).

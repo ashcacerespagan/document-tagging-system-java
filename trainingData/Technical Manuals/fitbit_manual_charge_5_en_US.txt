@@ -1,0 +1,1401 @@
+ 
+User  Manual
+Version  1.0
+Table of Contents
+Get started 6
+What's in the box 6
+Charge your tracker 7
+Set up Charge 5 8
+See your data in the Fitbit app 8
+Unlock Fitbit Premium 9
+Wear Charge 5 10
+Placement  for all-day wear vs. exercise 10
+Fasten the band 11
+Handedness 12
+Wear and care tips 13
+Change  the band 13
+Remove  a band 13
+Attach a band 14
+Basics 15
+Navigate  Charge 5 15
+Basic navigation 15
+Quick settings 16
+Adjust settings 18
+Display 18
+Quiet modes 19
+Other settings 20
+Check battery level 20
+Set up device lock 21
+Adjust always- on display 21
+Turn off the screen 22
+Apps and Clock Faces 23
+Change  the clock face 23
+Open apps 23
+2
+Notifications  from your phone 25
+Set up notifications 25
+See incoming  notifications 25
+Manage  notifications 26
+Turn off notifications 26
+Answer  or reject phone calls 27
+Respond  to messages  (Android  phones) 28
+Timekeeping 29
+Use the Alarms app 29
+Dismiss  or snooze an alarm 29
+Use the Timers app 30
+Activity  and Wellness 31
+See your stats 31
+Track a daily activity goal 31
+Choose a goal 32
+Track your hourly activity 32
+Track your sleep 32
+Set a sleep goal 33
+Learn about your sleep habits 33
+Manage  stress 33
+Use the EDA Scan app 33
+Check your stress management  score 34
+Advanced  health metrics 35
+Exercise  and Heart Health 36
+Track your exercise  automatically 36
+Track and analyze  exercise  with the Exercise  app 36
+Phone GPS requirements 37
+Customize  your exercise  settings 38
+Check your workout  summary 40
+Check your heart rate 40
+Custom  heart-rate zones 42
+Receive  heart-rate notifications 43
+View your cardio fitness score 44
+3
+Share your activity 44
+Fitbit Pay 45
+Use credit and debit cards 45
+Set up Fitbit Pay 45
+Make purchases 46
+Change  your default card 47
+Pay for transit 47
+Update,  Restart,  and Erase 48
+Update Charge 5 48
+Restart Charge 5 48
+Erase Charge 5 49
+Troubleshooting 50
+Heart-rate signal missing 50
+GPS signal missing 50
+Other issues 51
+General  Info and Specifications 52
+Sensors  and Components 52
+Materials 52
+Wireless  technology 52
+Haptic feedback 52
+Battery 53
+Memory 53
+Display 53
+Band size 53
+Environmental  conditions 54
+Learn more 54
+Return policy and warranty 54
+Regulatory  and Safety Notices 55
+USA: Federal  Communications  Commission  (FCC) statement 55
+Canada: Industry  Canada  (IC) statement 56
+European  Union (EU) 57
+Argentina 59
+4
+Australia  and New Zealand 59
+Belarus 59
+Customs  Union 60
+Indonesia 60
+Israel 60
+Japan 60
+Kingdom  of Saudi Arabia 61
+Mexico 61
+Morocco 61
+Nigeria 62
+Oman 62
+Philippines 62
+Serbia 62
+Singapore 63
+South Korea 63
+Taiwan 63
+United Arab Emirates 66
+United Kingdom 67
+Vietnam 67
+About the Battery 67
+IP Rating 68
+Safety Statement 68
+Regulatory  Markings 68
+5
+Get started
+Meet Fitbit Charge 5, our most advanced  health and fitness tracker that helps you 
+keep a pulse on your stress, physical  readiness,  heart health, and overall well-being.
+Take a moment  to review our complete  safety information  at fitbit.com/safety .  
+Charge 5 is not intended  to provide  medical  or scientific  data.
+What's in the box
+Your Charge 5 box includes:
+Tracker  with small band
+(color and material  varies)Charging  cable Additional  large band
+The detachable  bands on Charge 5 come in a variety of colors and materials,  sold 
+separately.
+6
+Charge your tracker 
+A fully-charged  Charge 5 has a battery life of up to 7 days. Battery life and charge 
+cycles vary with use and other factors; actual results will vary.
+To charge Charge 5:
+ 1. Plug the charging  cable into the USB port on your computer,  a UL-certified  
+USB wall charger,  or another  low-energy charging  device.
+ 2. Hold the other end of the charging  cable near the port on the back of the 
+tracker until it attaches  magnetically.  Make sure the pins on the charging  cable 
+align with the port on the back of your tracker. 
+ 
+Charging  fully takes about 1-2 hours. While Charge 5 charges,  double- tap the screen 
+to turn it on and check the battery level. Swipe right on the battery screen to use 
+Charge 5. A fully charged  tracker shows a solid battery icon.
+7
+Set up Charge 5
+Set up Charge 5 with the Fitbit app. The Fitbit app is compatible  with most popular  
+phones.  See fitbit.com/devices  to check if your phone is compatible.
+To get started:
+ 1. Download  the Fitbit app: 
+ lApple App Store for  iPhones  
+ lGoogle Play Store for Android  phones
+ 2. Install the app, and open it.
+ lIf you already have a Fitbit account,  log in to your account   
+ tap the 
+Today tab  
+  your profile picture  
+ Set Up a Device. 
+ lIf you don't have a Fitbit account,  tap Join Fitbit to be guided through  a 
+series of questions  to create a Fitbit account.
+ 3. Continue  to follow the on-screen instructions  to connect  Charge 5 to your 
+account.  
+When you're done with setup, read through  the guide to learn more about your new 
+tracker and then explore the Fitbit app.
+For more information,  see the related help article.
+See your data in the Fitbit app
+Open the Fitbit app on your phone to view your activity, health metrics,  and sleep 
+data; log food and water; participate  in challenges;  and more. 
+8
+Unlock Fitbit Premium
+Fitbit Premium  is your personalized  resource  in the Fitbit app that helps you stay 
+active, sleep well, and manage  stress. A Premium  subscription  includes  programs  
+tailored  to your health and fitness goals, personalized  insights,  hundreds  of 
+workouts  from fitness brands, guided meditations,  and more. 
+Charge 5 includes  a 6-month Fitbit Premium  membership  for eligible customers  in 
+certain countries.
+For more information,  see the related help article.
+9
+Wear Charge 5
+Wear Charge 5 around your wrist. If you need to attach a different  size band, or if 
+you purchased  another  band, see the instructions   in "Change  the band" on page 13. 
+Placement  for all-day wear vs. exercise
+When you're not exercising,  wear Charge 5 a finger's width above your wrist bone.
+In general,  it's always important  to give your wrist a break on a regular basis by 
+removing  your tracker for around an hour after extended  wear. We recommend  
+removing  your tracker while you shower.  Although  you can shower while wearing  
+your tracker, not doing so reduces  the potential  for exposure  to soaps, shampoos,  
+and conditioners,  which can cause long-term damage  to your tracker and may 
+cause skin irritation.
+For optimized  heart-rate tracking  while exercising:
+ lDuring a workout,  experiment  with wearing  your tracker a bit higher on your 
+wrist  for an improved  fit. Many exercises,  such as bike riding or weight lifting, 
+cause you to bend your wrist frequently,  which could interfere  with the heart-
+rate signal if the tracker is lower on your wrist.
+10
+ lWear your tracker on top of your wrist, and make sure the back of the device 
+is in contact  with your skin.
+ lConsider  tightening  your band before a workout  and loosening  it when you’re 
+done. The band should be snug but not constricting  (a tight band restricts  
+blood flow, potentially  affecting  the heart-rate signal).
+Fasten the band
+ 1. Place Charge 5 around your wrist.
+ 2. Slide the bottom band  through  the first loop in the top band.
+11
+ 3. Tighten  the band until it fits comfortably,  and press the peg through  one of 
+the holes in the band.
+ 4. Slide the loose end of the band through  the second loop until it lies flat on 
+your wrist. Make sure the band isn’t too tight. Wear the band loosely enough 
+that it can move back and forth on your wrist.
+Handedness
+For greater accuracy,  you must specify whether  you wear Charge 5 on your 
+dominant  or non-dominant  hand. Your dominant  hand is the one you use for writing 
+and eating. To start, the Wrist setting is set to non-dominant.  If you wear Charge 5 
+on your dominant  hand, change the Wrist setting in the Fitbit app:
+From the Today tab 
+ in the Fitbit app, tap your profile picture  
+ Charge 5 tile  
+ Wrist  
+ Dominant .
+12
+Wear and care tips
+ lClean your band and wrist regularly  with a soap-free cleanser.
+ lIf your tracker gets wet, remove  and dry it completely  after your activity.
+ lTake your tracker off from time to time.
+Change  the band
+Charge 5 comes with a small band attached  and an additional  large, bottom band in 
+the box. Both the  top and bottom bands can be swapped  with accessory  bands, 
+sold separately  on fitbit.com . For band measurements,  see "Band size" on page 53 .
+Remove  a band
+ 1. Turn over Charge 5 and find the band latches.
+ 2. To release the latch, use your fingernail  to press the flat button toward the 
+band.
+13
+ 3. Gently pull the band away from the tracker to release it.
+ 4. Repeat on the other side.
+Attach a band
+To attach a band, press it into the end of the tracker until you hear a click and it 
+snaps into place. The band with the loops and peg attaches  to the top of the 
+tracker.
+14
+Basics
+Learn how to manage  settings,  set a personal  PIN code, navigate  the screen, and 
+check the battery level.
+Navigate  Charge 5
+Charge 5 has a color AMOLED  touchscreen  display.
+Navigate  Charge 5 by tapping  the screen and swiping  side to side and up and down. 
+To preserve  battery,  the tracker’s screen turns off when not in use.
+Basic navigation
+The home screen is the clock.
+ lFirmly tap the screen twice or turn your wrist to wake Charge 5.
+ lSwipe down from the top of the screen to access quick settings , the Payments  
+app 
+, and the Settings  app 
+. While in quick settings,  swipe right to 
+return to the clock screen.
+ lSwipe up to see your daily stats. To return to the clock screen, swipe right.
+ lSwipe left and right to see the apps on your tracker. 
+ lSwipe right to go back to a previous  screen. Firmly double- tap the screen to 
+return to the clock screen. 
+15
+Quick settings
+For a faster way to access certain settings,  swipe down from the clock screen. Tap  a 
+setting to adjust it. When you turn off a setting, the icon appears  dim with a line 
+through  it.
+16
+Payments   
+Make contactless  payments  from your wrist with Fitbit 
+Pay.
+DND mode  
+ When the do not disturb  setting is on: 
+ lNotifications,  goal celebrations,  and reminders  
+are muted. 
+ lThe do not disturb icon illuminates  
+ in quick 
+settings.
+You can't turn on the do not disturb setting  and sleep 
+mode at the same time.
+Sleep mode 
+When the sleep mode setting is on: 
+ lNotifications,  goal celebrations,  and reminders  
+are muted. 
+ lThe screen's  brightness  is set to dim.
+ lThe screen stays dark when you turn your wrist. 
+To wake Charge 5, firmly tap the screen twice.
+ lThe sleep mode icon illuminates  
+  in quick 
+settings.
+Sleep mode turns off automatically  when you set a 
+sleep schedule.  For more information,  see "Adjust 
+settings"  on the next page
+You can't turn on the do not disturb setting and sleep 
+mode at the same time.
+Screen wake 
+ When you set screen wake to Auto 
+, the screen 
+turns on each time you turn your wrist.
+When you  set screen wake to Manual 
+, firmly tap 
+the screen twice to turn it on.
+Water lock 
+ Turn on the water lock setting when you're in water, for 
+17
+example  showering  or swimming,  to prevent  your 
+screen from activating.  When water lock is on, your 
+screen locks, and the water lock icon appears  at the 
+bottom.  Notifications  and alarms still appear on your 
+tracker,  but you must unlock your screen to interact  
+with them.
+To turn on water lock,  tap swipe down from the clock 
+screen 
+ tap Water Lock 
+ firmly tap your screen 
+twice. To turn off water lock, double- tap your screen 
+again.
+Note that water lock turns on automatically  when you 
+start a swim in the Exercise  app 
+.
+Settings  app 
+ Tap the Settings  app 
+ to open it. For more 
+information,  see "Adjust settings"  below.
+Adjust settings
+Manage  basic settings  in the Settings  app 
+. Swipe down from the clock screen 
+and tap the Settings  app 
+ to open it. Tap a setting to adjust it. Swipe to see the 
+full list of settings.
+Display
+Brightness Change  the screen's  brightness.
+Screen 
+wakeChange  whether  the screen turns on when you turn your wrist.
+Screen 
+timeoutAdjust the amount  of time before the screen turns off or switches  to 
+the always- on display clock face.
+Always- on 
+displayTurn always- on display on or off. For more information,  see "Adjust 
+always- on display"  on page 21.
+18
+Quiet modes
+Exercise  
+focusTurn off notifications  while using the Exercise  app 
+.
+Do not 
+disturbTurn off all notifications.
+Sleep 
+modeAdjust sleep mode 
+settings,  including  setting a schedule  for the 
+mode to automatically  turn on and off.
+To set a schedule:  
+ 1. Open the Settings  app  and tap Quiet modes  
+ Sleep Mode  
+ Schedule   
+ Interval.
+ 2. Tap the start or end time to adjust when the mode turns on and 
+off. Swipe up or down to change the time, and tap the time to 
+select it. Sleep mode automatically  turns off at the time you 
+schedule,  even if you manually  turned it on. 
+19
+Other settings
+Heart rate Turn heart-rate tracking  on or off.
+Heart zone 
+notificationsTurn the heart-zone notifications  that you receive during everyday  
+activity on or off. For more information,  see the related help article.
+Vibrations Adjust your tracker's vibration  strength.
+GPS Choose the GPS mode. For more information,  see the related help 
+article.
+Device Info View your tracker's regulatory  information  and activation  date, 
+which is the day your tracker's warranty  begins. The activation  date 
+is the day you set up your device.  
+Tap Device Info
+ System Info to see the activation  date.
+For more information,  see the related help article.
+Restart 
+deviceTap Restart device
+  Restart to restart your tracker.
+Check battery level
+From the clock face, swipe up. The battery level is at the top of the screen.
+If your tracker's battery is low (fewer than 24 hours remaining),  the battery 
+indicator  turns red. If your tracker's battery is critically  low (fewer than 4 hours 
+remaining),    a warning  appears  on the clock face and the  battery indicator  flashes.
+When the battery is low:
+20
+ lIf you’re tracking  an exercise  with GPS, GPS tracking  turns off
+ lAlways- on display is turned off
+ lYou can't use quick replies
+ lYou won't receive notifications  from your phone
+Charge Charge 5 to use or adjust these features.
+Set up device lock
+To help keep your tracker secure, turn on device lock in the Fitbit app, which 
+prompts  you to enter a personal  4-digit PIN code  to unlock your tracker. If you set 
+up Fitbit Pay to make contactless  payments  from your tracker, device lock is turned 
+on automatically  and you're required  to set a code. If you don't use Fitbit Pay, 
+device lock is optional.
+Turn on device lock or reset your PIN code  in the Fitbit app:
+From the Today tab 
+ in the Fitbit app, tap your profile picture  
+ Charge 5 tile  
+ Device Lock.
+For more information,  see the related help article.
+Adjust always- on display
+Turn on always- on display to show the time on your tracker, even when you're not 
+interacting  with the screen.
+21
+To turn always- on display on or off:
+ 1. Swipe down from the clock face to access quick settings.
+ 2. Tap the Settings  app 
+ 
+Display settings
+ Always- on display. 
+ 3. Tap Always- on display to turn the setting on or off. To  set the display to 
+automatically  turn off during certain hours, tap Off-hours. 
+Note that turning on this feature impacts  your tracker's battery life. When always-
+on display is turned on, Charge 5 requires  more frequent  charging.
+Clock faces without  an always- on display mode use a default always- on display 
+clock face.
+Always- on display  automatically  turns off when your tracker's battery is critically  
+low.
+For more information,   see the related help article.
+Turn off the screen
+To turn off your tracker's screen when not in use, briefly cover the tracker face with 
+your opposite  hand or turn your wrist away from your body.
+Note that if you turn on the always- on display setting, the screen won't turn off.
+22
+Apps and Clock Faces
+Learn how to change your clock face and access apps on Charge 5. 
+Change  the clock face
+The Fitbit  Clock Gallery offers a variety of clock faces to personalize  your tracker.
+ 1. From the Today tab 
+ in the Fitbit app, tap your profile picture  
+ Charge 5 
+tile.
+ 2. Tap Clock Faces.
+ 3. Browse the available  clock faces. Tap a clock face to see a detailed  view.
+ 4. Tap Install to add the clock face to Charge 5.
+Open apps
+From the clock face, swipe left and right to see the apps installed  on your tracker. 
+Swipe up or tap an app to open it. Swipe right to return to a previous  screen, or 
+double tap  to return to the clock screen.
+23
+24
+Notifications  from your phone
+Charge 5 can show call, text, calendar,  and app notifications  from your phone to 
+keep you informed.  Keep your tracker within 30 feet of your phone to receive 
+notifications.  
+Set up notifications
+Check that Bluetooth  on your phone is on and that your phone can receive 
+notifications  (often under Settings   
+ Notifications).  Then  set up notifications:
+ 1. From the Today tab 
+ in the Fitbit app, tap your profile picture  
+ Charge 5 
+tile.
+ 2. Tap Notifications . 
+ 3. Follow the on-screen instructions  to pair your tracker if you haven't already.   
+Call, text, and calendar  notifications  are turned on automatically.
+ 4. To turn on notifications  from apps installed  on your phone, including  Fitbit and 
+WhatsApp,  tap App Notifications  and turn on the notifications  you want to 
+see.
+Note that if you have an iPhone, Charge 5 shows notifications  from all calendars  
+synced to the Calendar  app. If you have an Android  phone, Charge 5 shows 
+calendar  notifications  from the calendar  app you chose during setup.
+For more information,  see the related help article.
+See incoming  notifications
+A notification  causes your tracker to vibrate. Tap the notification  to expand the 
+message.  
+25
+If you don't read the notification  when it arrives, you can check it later in the 
+Notifications  app 
+. Swipe right or left to the Notifications  app 
+, then swipe 
+up to open it.  Your tracker shows the first 250 characters  of the notification.  Check 
+your phone for the full message.
+Manage  notifications
+Charge 5 stores up to 10 notifications,  after which the oldest are replaced  as you 
+receive new ones. 
+Manage  notifications  in the Notifications  app 
+:
+ lSwipe up to scroll through  your notifications,  and tap any notification  to 
+expand it.
+ lTo delete a notification,  tap to expand it, then swipe to the bottom and tap 
+Clear. 
+ lTo delete all notifications  at once, swipe up until you reach the end of your 
+notifications  and tap Clear All.
+ lTo exit the notifications  screen, swipe right.
+Turn off notifications
+Turn off certain notifications  in the Fitbit app, or turn off all notifications  in quick 
+settings  on Charge 5. When you turn off all notifications,  your tracker won't vibrate 
+and the screen won't turn on when your phone receives  a notification.
+To turn off certain notifications:
+26
+ 1. From the Today tab 
+ in the Fitbit app on your phone, tap your profile 
+picture  
+ Charge 5 tile  
+ Notifications.
+ 2. Turn off the notifications  you no longer want to receive on your tracker.
+To turn off all notifications:
+ 1. From the clock face, swipe down to access quick settings.
+ 2. Turn on DND Mode  
+. All notifications  and reminders  are turned off. 
+Note that if you use the do not disturb setting on your phone, you don't receive 
+notifications  on your tracker until you turn off this setting.
+Answer or reject phone calls
+If paired to an iPhone or Android  phone, Charge 5 lets you accept or reject 
+incoming  phone calls.
+To accept a call, tap the green phone icon on your tracker's screen. Note that you 
+can't speak into the tracker—accepting  a phone call answers  the call on your nearby 
+phone. To reject a call, tap the red phone icon to send the caller to voicemail.
+The caller's name appears  if that person is in your contacts  list; otherwise  you see a 
+phone number.
+27
+Respond  to messages  (Android  phones)
+Respond  directly  to text messages  and notifications  from certain apps on your 
+tracker with preset quick replies. Keep your phone nearby with the Fitbit app 
+running  in the background  to respond  to messages  from your tracker.
+To respond  to a message:
+ 1. Open the notification  you want to respond  to.
+ 2. Choose how to reply to the message:
+ lTap the text icon 
+ to respond  to a message  from a list of quick replies.
+ lTap the emoji icon 
+ to respond  to the message  with an emoji.
+For more information,  including  how to customize  quick replies, see the related help 
+article.
+28
+Timekeeping
+Alarms vibrate to wake or alert you at a time you set. Set up to 8 alarms to occur 
+once or on multiple  days of the week. You can also time events with the stopwatch  
+or set a countdown  timer.
+Use the Alarms app
+Set one-time or recurring  alarms with the Alarms app 
+. When an alarm goes off, 
+your tracker vibrates.  
+When setting an alarm, turn on Smart Wake to allow your tracker to find the best 
+time to wake you starting  30 minutes  before the alarm time you set. It avoids 
+waking you during deep sleep so you're more likely to wake up feeling refreshed.  If 
+Smart Wake can’t find the best time to wake you, your alarm alerts you at the set 
+time.
+For more information,  see the related help article.
+Dismiss or snooze an alarm
+When an alarm goes off, your tracker vibrates.  To dismiss the alarm, swipe up from 
+the bottom of the screen and tap the dismiss icon 
+. To snooze the alarm for 9 
+minutes,  swipe down from the top of the screen.
+Snooze the alarm as many times as you want. Charge 5 automatically  goes into 
+snooze mode if you ignore the alarm for more than 1 minute.
+29
+Use the Timers app
+Time events with the stopwatch  or set a countdown  timer with the Timer app 
+ 
+on your tracker. You can run the stopwatch  and countdown  timer at the same time. 
+If always- on display is on, the screen continues  to display the stopwatch  or 
+countdown  timer until it ends or you exit the app.
+For more information,  see the related help article.
+30
+Activity  and Wellness
+Charge 5 continuously  tracks a variety of stats whenever  you wear it. Data 
+automatically  syncs with the Fitbit app throughout  the day.
+See your stats
+Swipe up from the clock face to see your daily stats, including:
+Core stats Steps taken today, distance  covered,  calories  burned,   and 
+Active Zone Minutes
+Heart rate Current  heart rate and heart-rate zone, and resting heart rate
+Exercise Number  of days you met your exercise  goal this week 
+Sleep Sleep duration
+Hourly activity The number  of hours today you met your hourly activity goal
+Menstrual  health Information  on the current stage of your menstrual  cycle, if 
+applicable
+Oxygen  
+Saturation  
+(Today app only)Your most recent resting SpO2 average  and range
+If you set a goal in the Fitbit app, a ring shows your progress  toward that goal. 
+Find your complete  history and other information   detected  by your tracker in the 
+Fitbit app. 
+Track a daily activity goal
+Charge 5 tracks your progress  toward a daily activity goal of your choice. When you 
+reach your goal, your tracker vibrates  and shows a celebration.   
+31
+Choose a goal
+Set a goal to help you get started on your health and fitness journey.  To begin, your 
+goal is to take 10,000 steps per day. Choose to change the number  of steps, or pick 
+a different  activity goal depending  on your device.
+For more information,  see the related help article.
+Track progress  toward your goal on Charge 5.  For more information,  see "See your 
+stats" on the previous  page.
+Track your hourly activity
+Charge 5 helps you stay active throughout  the day by keeping  track of when you're 
+stationary  and reminding  you to move. 
+Reminders  nudge you to walk at least 250 steps each hour. You feel a vibration  and 
+see a reminder  on your screen at 10 minutes  before the hour if you haven't walked 
+250 steps. When you meet the 250-step goal after receiving  the reminder,  you feel 
+a second vibration  and see a congratulatory  message.
+For more information,  see the related help article.
+Track your sleep
+Wear Charge 5 to bed to automatically  track basic stats about your sleep, including  
+your time asleep, sleep stages (time spent in REM, light sleep, and deep sleep), and 
+sleep score (the quality of your sleep). 
+32
+Charge 5 also tracks your estimated  oxygen variation  throughout  the night to help 
+you uncover  potential  breathing  disturbances  and SpO2 levels, which estimate  the 
+amount  of oxygen in your blood.
+To see your sleep stats, sync your tracker when you wake up and check the Fitbit 
+app, or swipe up from the clock face on your tracker.
+For more information,  see the related help article.
+Set a sleep goal
+To start, you have a sleep goal of 8 hours of sleep per night. Customize  this goal to 
+meet your needs.
+For more information,  see the related help article.
+Learn about your sleep habits
+With a Fitbit Premium  subscription,   see more details about your sleep score and 
+how you compare  to your peers, which can help you build a better sleep routine and 
+wake up feeling refreshed.
+For more information,  see the related help article.
+Manage  stress
+Track and manage  your stress with mindfulness  features.
+Use the EDA Scan app
+The EDA Scan app 
+ on Charge 5 detects electrodermal  activity which may 
+indicate  your body's response  to stress. Because  your sweat level is controlled  by 
+the sympathetic  nervous  system,  these changes  can show meaningful  trends about 
+how your body responds  to stress.
+33
+ 1. On Charge 5, swipe left or right to the EDA Scan app 
+ and tap to open it.
+ 2. To begin a scan the same length as your previous  scan, tap the play icon. To 
+change the length of time for the scan, swipe up and tap Edit length
+ tap 
+your desired number  of minutes.  
+ 3. Gently hold the sides of your tracker with your thumb and index finger. 
+ 4. Remain still and keep your fingers on your tracker until the scan is complete.
+ 5. If you remove  your fingers, the scan pauses. To resume,  place your fingers 
+back on the sides of your tracker.  To end the session,  tap End session. 
+ 6. When the scan is complete,  tap a mood to reflect on how you feel, or tap Skip.
+ 7. Swipe up to see the summary  of your scan, including  your number  of EDA 
+responses,  heart rate at the start and end of the session,  and reflection  if you 
+logged a reflection.  
+ 8. Tap Done to close the summary  screen.
+ 9. To see more details about your session,  open the Fitbit app on your phone. 
+From the Today tab 
+, tap the Mindfulness  tile 
+    Your Journey .
+For more information,  see the related help article.
+Check your stress management  score
+Based on your heart rate, exercise,  and sleep data, your stress management  score 
+helps you see if your body is showing  signs of stress on a daily basis. The score 
+ranges from 1 to 100, where a higher number  means your body is showing  fewer 
+signs of physical  stress.  To see your daily stress management  score, wear your 
+tracker to sleep, and open the Fitbit app on your phone the next morning.  From the 
+Today tab 
+, tap the Stress Management  tile.
+Log how you feel throughout  the day to get a clearer picture of how your mind and 
+body respond  to stress. With a Fitbit Premium  subscription,  see details about your 
+score breakdown.
+For more information,  see the related help article.
+34
+Advanced  health metrics
+Know your body better with health metrics in the Fitbit app. This feature helps you 
+view key metrics tracked  by your Fitbit device over time so that you can see trends 
+and assess what’s changed.
+Metrics include:
+ lOxygen  saturation  (SpO2)
+ lSkin temperature  variation
+ lHeart-rate variability
+ lResting  heart rate
+ lBreathing  rate
+Note: This feature is not intended  to diagnose  or treat any medical  condition  and 
+should not be relied on for any medical  purposes.  It is intended  to provide  
+information  that can help you manage  your well-being. If you have any concerns  
+about your health, please talk to a healthcare  provider.  If you believe you are 
+experiencing  a medical  emergency,  call emergency  services.
+For more information,  see the related help article.
+35
+Exercise  and Heart Health
+Automatically  track exercise  or track activity with the Exercise  app 
+ to see real-
+time stats and a post-workout  summary.
+Check the Fitbit app to share your activity with friends and family, see how your 
+overall fitness level compares  to your peers, and more.
+Track your exercise  automatically
+Charge 5 automatically  recognizes  and records  many high-movement  activities  
+which are at least 15 minutes  long. See basic stats about your activity in the Fitbit 
+app on your phone. From the Today tab 
+, tap the Exercise  tile 
+.
+For more information,  see the related help article.
+Track and analyze exercise  with the Exercise  app
+Track specific  exercises  with the Exercise  app 
+ on  Charge 5 to see real-time 
+stats, including  heart-rate data, calories  burned,  elapsed  time, and a post-workout  
+summary  on your wrist. For complete  workout  stats, and a workout  intensity  map if 
+you used GPS, tap the Exercise  tile in the Fitbit app.
+For more information  about tracking  an exercise  with GPS, see the related help 
+article.
+Dynamic  GPS on Charge 5 allows the tracker to set the GPS type at the start of the 
+exercise.  Charge 5 attempts  to connect  to the GPS sensors  on your phone to 
+preserve  battery life. If your phone isn’t nearby or moving,  Charge 5 uses built-in 
+36
+GPS. Manage  your GPS settings  in the Settings  app 
+. For more information,  see 
+the related help article.
+Phone GPS requirements
+Phone GPS  is available  for all supported  phones with GPS sensors.  For more 
+information,  see the related help article.
+ 1. Turn on Bluetooth  and GPS on your phone.
+ 2. Make sure Charge 5 is paired to your phone.
+ 3. Make sure the Fitbit app has permission  to use GPS or location  services.
+ 4. Check that GPS  is turned on for the exercise.
+ a. Open the Exercise  app  and swipe up to find an exercise.
+ b. Tap the exercise,  then swipe up and make sure GPS is turned on.
+ 5. Make sure the GPS mode  on Charge 5 is set to Dynamic  or Phone GPS (open 
+the Settings  app 
+ 
+GPS 
+ GPS Mode ).
+ 6. Keep your phone with you while you exercise.
+To track an exercise:
+ 1. On Charge 5, swipe left or right to the Exercise  app 
+ , then swipe up to find 
+an exercise.  
+ 2. Tap the exercise  to choose it.  If the exercise  uses GPS, you can wait for the 
+signal to connect,  or start the exercise  and GPS will  connect  when a signal is 
+available.   Note that GPS can take a few minutes  to connect.  
+ 3. Tap the play icon 
+ to begin the exercise,  or swipe up to choose an exercise  
+goal or adjust the settings.  For more information  on the settings,  see 
+"Customize  your exercise  settings"  on the next page.
+ 4. Tap the middle of the screen to scroll through  your real-time stats. To pause 
+your workout,  swipe up and tap Pause 
+.
+ 5. When you're done with your workout,  swipe up and tap Pause 
+ Finish 
+. Your workout  summary  appears.
+ 6. Swipe up and tap Done to close the summary  screen.
+Notes:
+37
+ lIf you set an exercise  goal, your tracker alerts you when you’re halfway  to your 
+goal and when you reach the goal.
+ lIf the exercise  uses GPS, "GPS connecting  
+..." appears  at the top of the 
+screen. Charge 5 is connected  when the screen says "GPS connected  
+." 
+ lUse connected  GPS with your nearby phone for activities  with a longer 
+duration,  such as golf or a hike, to ensure your full workout  is recorded  with 
+GPS.
+ lFor best results, make sure your tracker's battery is above 80% before you 
+track an exercise  longer than 2 hours with built-in GPS.
+For more information,  see the related help article.
+Using built-in GPS impacts  your tracker's battery life. If you use GPS tracking  
+regularly,  Charge 5 has a battery life of about 4 days.
+Customize  your exercise  settings
+Customize  settings  for each exercise  type on your device or in the Fitbit app. 
+Change  or reorder exercise  shortcuts  in the Fitbit app. 
+Settings  include:
+38
+Heart Zone 
+NotificationsReceive  notifications  when you hit target heart-rate zones during 
+your workout. For  more information,  see the related help article
+Laps Receive  notifications  when you reach certain milestones  during 
+your workout
+GPS Track your route using GPS
+Auto-Pause Automatically  pause a run when you stop moving
+Run Detect Track runs automatically  without  opening  the Exercise  app
+Always- on 
+DisplayKeep the screen on during exercise
+Pool Length Set the length of your pool
+Unit Change  the unit of measurement  you use for pool length
+Interval Adjust the move and rest intervals  used during interval training
+ 
+To customize  the settings  for each exercise  type on your tracker:
+ 1. Swipe to the Exercise  app 
+ , then swipe up to find an exercise.  
+ 2. Tap the exercise  to choose it. 
+ 3. Swipe up through  the exercise  settings.  Tap a setting to adjust it.
+ 4. When you're done, swipe down until you see the play icon 
+. 
+To customize  certain exercise  settings  and change or reorder Exercise  app 
+ 
+shortcuts  in the Fitbit app: 
+ 1. From the Today tab 
+ in the Fitbit app, tap your profile picture  
+ Charge 5 
+tile.
+ 2. Tap Exercise  Shortcuts .
+ lTo add a new exercise  shortcut,  tap the + icon and select an exercise.  
+ lTo remove  an exercise  shortcut,  swipe left on a shortcut.  
+ lTo reorder an exercise  shortcut,  tap Edit (iPhones  only), and press and 
+hold the menu icon 
+, then drag it up or down.
+39
+ lTo customize  an exercise  setting, tap an exercise  and adjust your 
+settings.
+You can have up to 6 exercise  shortcuts  on Charge 5. 
+For more information,  see the related help article. 
+Check your workout  summary
+After you complete  a workout,  Charge 5 shows a summary  of your stats.
+Check the Exercise  tile in the Fitbit app to see additional  stats and a workout  
+intensity  map if you used GPS. 
+Check your heart rate
+Charge 5 personalizes  your heart-rate zones using your heart rate reserve,  which is 
+the difference  between  your maximum  heart rate and your resting heart rate. To 
+help you target the training  intensity  of your choice, check your heart rate and 
+heart-rate zone on your tracker during exercise.  Charge 5 notifies you when you 
+enter a heart-rate zone.
+40
+Icon Zone Calculation Description
+Below 
+ZoneBelow 
+40% of 
+your heart 
+rate 
+reserveBelow the fat burn zone, your 
+heart beats at a slower pace.
+Fat Burn 
+ZoneBetween  
+40% and 
+59% of 
+your heart 
+rate 
+reserveIn the fat burn zone, you’re likely in 
+a moderate  activity such as a brisk 
+walk. Your heart rate and 
+breathing  might be elevated,  but 
+you can still carry on a 
+conversation.  
+Cardio 
+ZoneBetween  
+60% and 
+84% of 
+your heart 
+rate 
+reserveIn the cardio zone, you’re likely 
+doing a vigorous  activity such as 
+running  or spinning.   
+Peak 
+ZoneGreater  
+than 85% of 
+your heart 
+rate 
+reserveIn the peak zone, you’re likely 
+doing a short, intense activity that 
+improves  performance  and speed, 
+such as sprinting  or high-intensity  
+interval training.
+41
+Custom  heart-rate zones
+Instead of using these heart-rate zones, you can create a custom zone in the Fitbit 
+app to target a specific  heart-rate range.
+For more information,  see the related help article.
+Earn Active Zone Minutes  for time spent in the fat burn, cardio, or peak heart-rate 
+zones. To help you maximize  your time, you earn 2 Active Zone Minutes  for each 
+minute you’re in the cardio or peak zones.
+1 minute in the fat burn zone = 1 Active Zone Minute
+1 minute in the cardio or peak zones = 2 Active Zone Minutes
+There are 2 ways Charge 5 notifies you about Active Zone Minutes:
+ lA few moments  after you enter a different  heart-rate zone during your 
+exercise  using the Exercise  app 
+, so that you know how hard you’re 
+working.  The number  of times your tracker vibrates  indicates  which zone 
+you’re in:
+1 buzz = fat burn zone
+2 buzzes = cardio zone
+3 buzzes = peak zone
+ l7 minutes  after you enter a heart-rate zone throughout  the day (for example,  
+during a brisk walk).
+42
+To start, your weekly goal is set to 150 Active Zone Minutes.  You’ll receive 
+notifications  as you reach your goal.
+For more information,  see the related help article.
+Receive  heart-rate notifications
+Stay informed  when Charge 5 detects that your heart rate is outside of your high or 
+low thresholds  when you appear to be inactive  for at least 10 minutes.
+ 
+To turn this feature off or adjust the thresholds:
+ 1. From the Today tab 
+ in the Fitbit app on your phone, tap your profile 
+picture  
+ Charge 5 tile.
+ 2. In the Activity  & Wellness  section,  tap Heart Settings
+  High & low heart rate.
+ 3. Turn High heart rate notification  or Low heart rate notification  on or off,  or tap 
+Custom  to adjust the threshold.
+View past heart-rate notifications,  log possible  symptoms  and causes, or delete 
+notifications  in the Fitbit app. For more information,  see the related help article.
+43
+View your cardio fitness score
+View your overall cardiovascular  fitness in the Fitbit app. See your cardio fitness 
+score and cardio fitness level, which shows how you compare  to your peers. 
+In the Fitbit app, tap the Heart-rate tile and swipe left on your heart-rate graph to 
+see your detailed  cardio fitness stats.
+For more information,  see the related help article.
+Share your activity
+After you complete  a workout,  open the Fitbit app to share your stats with friends 
+and family.
+For more information,  see the related help article.
+44
+Fitbit Pay
+Charge 5 includes  a built-in NFC chip, which lets you use your credit and debit cards 
+on your tracker.
+Use credit and debit cards
+Set up Fitbit Pay in the Wallet section of the Fitbit app, and use your tracker to 
+make purchases  in stores that accept contactless  payments.
+We’re always adding new locations  and card issuers to our list of partners.  To see if 
+your payment  card works with Fitbit Pay, see fitbit.com/fitbit- pay/banks .
+Set up Fitbit Pay
+To use Fitbit Pay, add at least 1 credit or debit card from a participating  bank to the 
+Wallet section of the Fitbit app. The Wallet is where you add and remove  payment  
+cards, set a default card for your tracker, edit a payment  method,  and review recent 
+purchases.
+ 1. From the Today tab 
+ in the Fitbit app, tap your profile picture  
+ Charge 5 
+tile.
+ 2. Tap the Wallet tile.
+ 3. Follow the on-screen instructions  to add a payment  card. In some cases, your 
+bank might require additional  verification.  If you're adding a card for the first 
+time, you might be prompted  to set a 4-digit PIN code for your tracker. Note 
+that you also need passcode  protection  enabled  for your phone.
+ 4. After you add a card, follow the on-screen instructions  to turn on notifications  
+for your phone (if you haven't already done so) to complete  the setup.
+You can add up to 5 payment  cards to the Wallet and choose which card to set as 
+the default payment  option.
+45
+Make purchases
+Note: To make contactless  payments  with Charge 5 in Australia,  follow the 
+instructions  below for all card types. If prompted  to enter a PIN code, enter your 4-
+digit tracker PIN code (not the PIN code for your card). For more information  about 
+setting a PIN code, see the related help article.
+Make purchases  using Fitbit Pay at any store that accepts  contactless  payments.  To 
+determine  if the store accepts  Fitbit Pay, look for the symbol below on the payment  
+terminal:
+All customers,  including  those in Australia: 
+ 1. Swipe down from the clock face and tap  Payments  
+. 
+ 2. If prompted,  enter your 4-digit tracker PIN code.  Your default card appears  on 
+the screen.
+ 3. To pay with your default card, hold your wrist near the payment  terminal.  To 
+pay with a different  card, swipe to find the card you want to use, and hold 
+your wrist near the payment  terminal.
+When the payment  succeeds,  your tracker vibrates  and you see a confirmation  on 
+the screen.
+46
+If the payment  terminal  doesn't recognize  Fitbit Pay, make sure the tracker face is 
+near the reader and that the cashier knows you're using a contactless  payment.
+For added security,  you must wear Charge 5 on your wrist to use Fitbit Pay.
+For more information,  see the related help article.
+Change  your default card
+ 1. From the Today tab 
+ in the Fitbit app, tap your profile picture  
+ Charge 5 
+tile.
+ 2. Tap  the Wallet tile.
+ 3. Find the card you want to set as the default option.
+ 4. Tap Set as Default on Charge 5.
+Pay for transit
+Use Fitbit Pay to tap on and off at transit readers that accept contactless  credit or 
+debit card payments.  To pay with your tracker, follow the steps listed in "Use credit 
+and debit cards" on page 45 .
+Pay with the same card on your Fitbit tracker when you tap the transit reader at the 
+start and end of your trip. Make sure your device is charged  before beginning  your 
+trip.
+47
+Update,  Restart,  and Erase
+Some troubleshooting  steps may require you to restart your tracker, while erasing it 
+is useful if you want to give Charge 5 to another  person. Update your tracker to 
+receive the latest firmware.
+Update Charge 5
+Update your tracker to get the latest feature enhancements  and product  updates.
+When an update is available,  a notification  appears  in the Fitbit app. After you start 
+the update,  follow the progress  bars on Charge 5 and in the Fitbit app until the 
+update is complete.  Keep your tracker and phone close to each other during the 
+update.
+To update Charge 5, your tracker's battery must be at least 20% charged.  Updating  
+Charge 5 may be demanding  on the battery.  We recommend  plugging  your tracker 
+into the charger  before starting  an update.
+For more information,  see the related help article.
+Restart Charge 5
+If you can’t sync Charge 5 or you have trouble with tracking  your stats or receiving  
+notifications,   restart your tracker from your wrist: 
+ 1. Swipe down from the clock screen to find the Settings  app 
+. 
+ 2. Open the Settings  app 
+ Restart Device
+  Restart.
+If Charge 5 is unresponsive: 
+ 1. Connect  Charge 5 to the charging  cable.  For instructions,  see "Charge  your 
+tracker " on page 7. 
+48
+ 2. Press the button located on the flat end of the charger  3 times, pausing  for 1 
+second between  presses.  Then wait 10 seconds  or until the Fitbit logo appears.  
+Restarting  your tracker doesn't delete any data.
+Erase Charge 5
+If you want to give Charge 5 to another  person or wish to return it, first clear your 
+personal  data:
+ 1. Swipe down from the clock screen to find the Settings  app 
+. 
+ 2. Open the Settings  app 
+ Device Info
+ Clear User Data. 
+ 3. Swipe up, then press Hold 3 Sec for 3 seconds  and release. 
+ 4. When you see the Fitbit logo and Charge 5 vibrates,  your data is erased. 
+49
+Troubleshooting
+If Charge 5 isn't working  properly,  see our troubleshooting  steps below.
+Heart-rate signal missing
+Charge 5 continuously  tracks your heart rate while you're exercising  and 
+throughout  the day. If the heart-rate sensor on your tracker has difficulty  detecting  
+a  signal, dashed lines appear.
+If your tracker doesn't detect a heart-rate signal, make sure you're wearing  your 
+tracker correctly,  either by moving it higher or lower on your wrist or by tightening  
+or loosening  the band. Charge 5 should be in contact  with your skin. After holding 
+your arm still and straight  for a short time, you should see your heart rate again. 
+For more information,  see the related help article.
+GPS signal missing
+Environmental  factors including  tall buildings,  dense forest, steep hills, and thick 
+cloud cover can interfere  with your tracker's ability to connect  to GPS satellites.  If 
+your tracker is searching  for a GPS signal during an exercise,  you’ll see “ 
+GPS connecting   
+” appear at the top of the screen. If Charge 5 can't connect  to 
+a GPS satellite,  the tracker stops trying to connect  until the next time you start a 
+GPS exercise.  
+50
+For best results, wait for Charge 5 to find the signal before you start your workout.  
+For more information,  see the related help article. 
+Other issues
+If you experience  any of the following  issues, restart your tracker:
+ lWon't sync
+ lWon't respond  to taps or swipes
+ lWon't track steps or other data
+ lWon't show notifications
+For instructions,  see "Restart  Charge 5" on page 48 .
+51
+General  Info and Specifications
+Sensors  and Components
+Fitbit Charge 5 contains  the following  sensors  and motors:   
+ l3-axis accelerometer,  which tracks motion patterns
+ lBuilt-in GPS receiver  + GLONASS , which tracks your location  during a workout
+ lOptical heart-rate tracker
+ lMultipurpose  electrical  sensors  compatible  with the EDA Scan app
+ lAmbient  light sensor
+ lVibration  motor
+Materials
+The housing  on Charge 5 is made of anodized  aluminum  and surgical- grade 
+stainless  steel. The band that comes with Charge 5 is made of a flexible,  durable  
+silicone similar to that used in many sports watches.  While all stainless  steel and 
+anodized  aluminum  can contain traces of nickel, which can cause an allergic 
+reaction  in someone  with nickel sensitivity,  the amount  of nickel in all Fitbit 
+products  meets the European  Union's stringent  Nickel Directive.  
+Wireless  technology
+Charge 5 contains  a Bluetooth  5.0 radio transceiver  and NFC chip .
+Haptic feedback
+Charge 5 contains  a vibration  motor for alarms, goals, notifications,  reminders,  and 
+apps.
+52
+Battery
+Charge 5 contains  a rechargeable  lithium- polymer  battery.
+Memory
+Charge 5 stores your data, including  daily stats, sleep information,  and exercise  
+history, for 7 days. See your historical  data in the Fitbit app. 
+Display
+Charge 5 has a color AMOLED  display.
+Band size
+Band sizes are shown below. Note that accessory  bands sold separately  may vary 
+slightly.
+Small bandFits a wrist between  5.5 - 7.1 inches (140 mm - 180 mm) in 
+circumference
+Large 
+bandFits a wrist between  7.1 - 8.7 inches (180 mm - 220 mm) in 
+circumference
+53
+Environmental  conditions
+Operating  temperature 14° to 113° F
+(-10° to 45° C)
+Non-operating  temperature -4° to  14° F 
+(-20° to -10° C)
+113° to 140°F
+(45° to 60° C)
+Water resistance Water resistant  up to 50 meters
+Maximum  operating  altitude 28,000 feet
+(8,534 m)
+Learn more
+To learn more about your tracker, how to track your progress  in the Fitbit app, and 
+how to build healthy habits with Fitbit Premium,  visit help.fitbit.com .
+Return policy and warranty
+Find warranty  information  and the fitbit.com  return policy  on our website .
+54
+Regulatory  and Safety Notices
+Notice to the User: Regulatory  content  for certain regions can also be viewed on 
+your device.  To view the content:
+Settings  
+ Device Info  
+ Regulatory  Info 
+USA: Federal  Communications  Commission  (FCC) 
+statement
+Model FB421
+FCC ID: XRAFB421
+Notice to the User:  The FCC ID can also be viewed on your device. To view the 
+content:
+Settings   
+ Device Info  
+ Regulatory  Info 
+Supplier's  Declaration  of Conformity
+Unique Identifier:  FB421
+Responsible  Party – U.S. Contact  Information
+199 Fremont  Street, 14th Floor
+San Francisco,  CA
+94105
+United States
+877-623-4997
+FCC Compliance  Statement  (for products  subject to Part 15)
+This device complies  with Part 15 of the FCC Rules.
+Operation  is subject to the following  two conditions:
+55
+ 1. This device may not cause harmful  interference  and
+ 2. This device must accept any interference,  including  interference  that may 
+cause undesired  operation  of the device.
+FCC Warning
+Changes  or modifications  not expressly  approved  by the party responsible  for 
+compliance  could void the user’s authority  to operate  the equipment.
+Note: This equipment  has been tested and found to comply with the limits for a 
+Class B digital device, pursuant  to part 15 of the FCC Rules. These limits are 
+designed  to provide  reasonable  protection  against harmful  interference  in a 
+residential  installation.  This equipment  generates,  uses and can radiate radio 
+frequency  energy and, if not installed  and used in accordance  with the instructions,  
+may cause harmful  interference  to radio communications.  However,  there is no 
+guarantee  that interference  will not occur in a particular  installation.  If this 
+equipment  does cause harmful  interference  to radio or television  reception,  which 
+can be determined  by turning the equipment  off and on, the user is encouraged  to 
+try to correct the interference  by one or more of the following  measures:
+ lReorient  or relocate  the receiving  antenna.
+ lIncrease  the separation  between  the equipment  and receiver.
+ lConnect  the equipment  into an outlet on a circuit different  from that to which 
+the receiver  is connected.
+ lConsult  the dealer or an experienced  radio/TV  technician  for help.
+This device meets the FCC and IC requirements  for RF exposure  in public or 
+uncontrolled  environments.
+Canada: Industry  Canada (IC) statement
+Model/Modèle  FB421
+IC: 8542A-FB421
+Notice to the User:  The IC ID can also be viewed on your device. To view the 
+content:
+Settings   
+ Device Info  
+ Regulatory  Info 
+56
+Avis à l'utilisateur:  L'ID de l'IC peut également  être consulté  sur votre appareil.  Pour 
+voir le contenu:
+Paramètres  
+ Informations  sur l'appareil   
+ Informations  réglementaires
+This device meets the IC requirements  for RF exposure  in public or uncontrolled  
+environments.
+Cet appareil  est conforme  aux conditions  de la IC en matière  de RF dans des 
+environnements  publics ou incontrôlée
+IC Notice to Users English/French  in accordance  with current issue of RSS GEN:
+This device complies  with Industry  Canada  license exempt  RSS standard (s).
+Operation  is subject to the following  two conditions:
+ 1. this device may not cause interference,  and
+ 2. this device must accept any interference,  including  interference  that may 
+cause undesired  operation  of the device.
+Cet appareil  est conforme  avec Industrie  Canada  RSS standard  exempts  de licence 
+(s). Son utilisation  est soumise  à Les deux conditions  suivantes:
+ 1. cet appareil  ne peut pas provoquer  d’interférences  et
+ 2. cet appareil  doit accepter  Toute interférence,  y compris  les interférences  qui 
+peuvent  causer un mauvais  fonctionnement  du dispositif
+European  Union (EU)
+Notice to the User: Regulatory  content  for this region can also be viewed on your 
+device. To view the content: 
+Settings   
+ Device Info  
+ Regulatory  Info 
+Simplified  EU Declaration  of Conformity
+57
+Hereby,  Fitbit LLC declares  that the radio equipment  type Model FB421 is in 
+compliance  with Directive  2014/53/EU.   The full text of the EU declaration  of 
+conformity  is available  at the following  internet  address:   www.fitbit.com/safety
+Vereinfachte  EU-Konformitätserklärung
+Fitbit LLC erklärt hiermit, dass die Funkgerättypen  Modell FB421 die Richtlinie  
+2014/53/EU  erfüllen.  Der vollständige  Wortlaut  der EU-Konformitätserklärungen  
+kann unter folgender  Internetadresse  abgerufen  werden:  www.fitbit.com/safety
+Declaración  UE de Conformidad  simplificada
+Por la presente,  Fitbit LLC declara que el tipo de dispositivo  de radio Modelo FB421 
+cumple con la Directiva  2014/53/UE.  El texto completo  de la declaración  de 
+conformidad  de la UE está disponible  en la siguiente  dirección  de Internet:  
+www.fitbit.com/safety
+Déclaration  UE de conformité  simplifiée
+Fitbit LLC déclare par la présente  que les modèles  d’appareils  radio FB421 sont 
+conformes  à la Directive 2014/53/UE.  Les déclarations  UE de conformité  sont 
+disponibles  dans leur intégralité  sur le site suivant :  www.fitbit.com/safety
+Dichiarazione  di conformità  UE semplificata
+Fitbit LLC dichiara  che il tipo di apparecchiatura  radio Modello  FB421 è conforme  
+alla Direttiva  2014/53/UE.  Il testo completo  della dichiarazione  di conformità  UE è 
+disponibile  al seguente  indirizzo  Internet:  www.fitbit.com/safety
+58
+Argentina  
+C-26160
+Australia  and New Zealand
+Notice to the User: Regulatory  content  for this region can also be viewed on your 
+device. To view the content:
+Settings   
+ Device Info  
+ Regulatory  Info 
+Belarus
+Notice to the User: Regulatory  content  for this region can also be viewed on your 
+device. To view the content:
+Settings   
+ Device Info  
+ Regulatory  Info 
+59
+Customs  Union
+Notice to the User: Regulatory  content  for this region can also be viewed on your 
+device. To view the content:
+Settings   
+ Device Info  
+ Regulatory  Info 
+Indonesia
+73244/SDPPI/2021  
+3788
+76114/SDPPI/2021  
+3788
+Israel
+Japan
+Notice to the User: Regulatory  content  for this region can also be viewed on your 
+device. To view the content:
+Settings   
+ Device Info  
+ Regulatory  Info 
+201-210387
+60
+Kingdom  of Saudi Arabia
+Notice to the User: Regulatory  content  for this region can also be viewed on your 
+device. To view the content:
+Settings   
+ Device Info  
+ Regulatory  Info 
+Mexico
+Notice to the User: Regulatory  content  for this region can also be viewed on your 
+device. To view the content:
+Settings   
+ Device Info  
+ Regulatory  Info 
+La operación  de este equipo está sujeta a las siguientes  dos condiciones:
+ 1. Es posible que este equipo o dispositivo  no cause interferencia  perjudicial  y
+ 2. Este equipo o dispositivo  debe aceptar  cualquier  interferencia,  incluyendo  la 
+que pueda causar su operación  no deseada
+Morocco
+61
+AGREE PAR L’ANRT  MAROC
+Numéro  d’agrément:  MR00029210ANRT2021
+ Date d’agrément:  23/06/2021
+Nigeria
+Connection  and use of this communications  equipment  is permitted  by the Nigerian  
+Communications  Commission.
+Oman
+TRA/TA- R/11836/21
+D090258
+Philippines
+Type Accepted
+No: ESD- RCE-2126831
+Serbia
+62
+Singapore
+Notice to the User: Regulatory  content  for this region can also be viewed on your 
+device. To view the content:
+Settings   
+ Device Info  
+ Regulatory  Info 
+South Korea
+Notice to the User: Regulatory  content  for this region can also be viewed on your 
+device. To view the content:
+Settings   
+ Device Info  
+ Regulatory  Info 
+Taiwan
+用戶注意： 某些地區的法規內容也可以在您的設備上查看。 要查看內容： 
+設置  
+ 設備信息  
+  法規信息
+Translation:
+Notice to the User: Regulatory  content  can also be viewed on your device. 
+Instructions  to view content  from your menu:
+Settings   
+ Device Info  
+ Regulatory  Info 
+低功率警語:
+ l取得審驗證明之低功率射頻器材， 非經核准， 公司、 商號或使用者均不得擅自變更
+頻率、 加大功率或變更原設計之特性及功能。 
+ l低功率射頻器材之使用不得影響飛航安全及干擾合法通信； 經發現有干擾現象時， 
+應立即停用， 並改善至無干擾時方得繼續使用。 前述合法通信， 指依電信管理法規
+定作業之無線電通信。 低功率射頻器材須忍受合法通信或工業、 科學及醫療用電
+波輻射性電機設備之干擾。 
+Translation:
+63
+Warning  Statement  for Low Power Radios:
+ lWithout  permission  granted  by the NCC, no company,  enterprise,  or user is 
+allowed  to change the frequency  of an approved  low power radio-frequency  
+device, enhance  its transmitting  power or alter original characteristics  or 
+performance.
+ lThe use of low power RF devices  must not affect flight safety or interfere  with 
+legal communications:  when interference  is found, it should be immediately  
+stopped  and ameliorated  not to interfere  before continuing  to use it. The legal 
+communications  mentioned  here refer to radio communications  operating  in 
+accordance  with the provisions  of the Telecommunication  Law. Low power RF 
+devices  need to bear with interference  from legal communications  or 
+industrial,  scientific  and medical  radio wave radiating  equipment
+電池警語： 
+此裝置使用鋰電池。 
+若未遵照下列準則， 則裝置內的鋰離子電池壽命可能會縮短或有損壞裝置、 發生火災、 
+化學品灼傷、 電解液洩漏及／或受傷的風險。 
+ l請勿拆解、 鑿孔或損壞裝置或電池。 
+ l請勿取出或嘗試取出使用者不可自行更換的電池。 
+ l請勿將電池曝露於火焰、 爆炸或其他危險中。 
+ l請勿使用尖銳物品取出電池。 
+Translation:
+Battery warning:
+This device uses a lithium- ion battery.
+If the following  guidelines  are not followed,  the life of the lithium- ion battery in the 
+device may be shortened  or there is a risk of damage  to the device, fire, chemical  
+burn, electrolyte  leakage  and / or injury.
+ lDo not disassemble,  puncture  or damage  the device or battery.
+ lDo not remove  or try to remove  the battery that the user cannot replace.
+ lDo not expose the battery to flames, explosions  or other hazards.
+ lDo not use sharp objects to remove  the battery.
+64
+Vision Warning
+使用過度恐傷害視力
+警語
+ l使用過度恐傷害視力
+注意事項
+ l使用30分鐘請休息10分鐘。 未滿2歲幼兒不看螢幕， 2歲以上每天看螢幕不要超過1
+小時
+Translation:
+Excessive  use may damage  vision
+Warning:
+ lExcessive  use may damage  vision
+Attention:
+ lRest for 10 minutes  after every 30 minutes.
+ lChildren  under 2 years old should stay away from this product.   Children  2 
+years old or more should not see the screen for more than 1 hour a day.
+65
+Taiwan RoHS
+United Arab Emirates
+TRA – United Arab Emirates
+Dealer ID:  DA35294/14
+TA RTTE:  ER98025/21
+Model: FB421
+Type:  Wireless  Activity  Tracker
+66
+United Kingdom
+Notice to the User: Regulatory  content  for this region can also be viewed on your 
+device. To view the content: 
+Settings   
+ Device Info  
+ Regulatory  Info 
+Simplified  UK Declaration  of Conformity
+Hereby,  Fitbit LLC declares  that the radio equipment  type Model FB421 is in 
+compliance  with Radio Equipment  Regulations  2017. The full text of the UK 
+declaration  of conformity  is available  at the following  internet  address:  
+www.fitbit.com/legal/safety- instructions
+Vietnam
+About the Battery
+This unit contains  a non-replaceable  internal lithium- ion battery.  The battery can 
+burst or explode,  releasing  hazardous  chemicals.  To reduce the risk of fire or burns, 
+do not disassemble,  crush, puncture  or dispose  of in fire or water. 
+67
+CAUTION :  Risk of explosion  if battery is replaced  by an incorrect  type.  Dispose  of 
+used batteries  according  to the instructions.
+ lThe battery must be recycled  or disposed  of properly
+ lUse the battery only in the specified  equipment
+ lDo not leave the battery in an extremely  high temperature  environment  that 
+may result in an explosion  or the leakage  of flammable  liquid or gas
+ lDo not subject battery to extremely  low air pressure  that may result in an 
+explosion  or the leakage  of flammable  liquid or gas
+IP Rating
+Model FB421 has a water resistance  rating of IPX8 under IEC standard  60529, up to 
+a depth of 50 meters.
+Model FB421 has a dust ingress rating of IP6X under IEC standard  60529 which 
+indicates  the device is dust-tight.
+Please refer to the beginning  of this section for instructions  on how to access your 
+product’s  IP rating.
+Safety Statement
+This equipment  has been tested to comply with safety certification  in accordance  
+with the specifications  of:  IEC 60950-1:2005 + AMD1:2009  + AMD2:2013,  EN60950-
+1:2006 + A11:2009  + A1:2010  + A12: 2011 + A2:2013,  IEC 62368-1: 2014, EN62368-
+1:2014 + A11:2017,  BS EN62368- 1:2014 +A11:2017.
+Regulatory  Markings
+Device regulatory  markings  can be viewed on your device by removing  the band.  
+Markings  are located in the band attach area.
+68
+Band Pocket View
+69
+ 
+©2021FitbitLLC.Allrightsreserved. FitbitandtheFitbitlogoaretrademarks
+orregistered trademarks ofFitbitintheUSandothercountries. Amore
+complete listofFitbittrademarks canbefoundattheFitbitTrademark List.
+Third-partytrademarks mentioned aretheproperty oftheirrespective

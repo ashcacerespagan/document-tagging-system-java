@@ -1,0 +1,399 @@
+User ManualG30P/G30
+Original Instructions www.segway.com 
+V1.0The manufacturer reserves the right to make changes to the product, release firmware 
+updates, and update this manual at any time. Visit www.segway.com or check the App to 
+download the latest user materials. You must install the App, activate your KickScooter, and 
+obtain the latest updates and safety instructions.
+Thanks for choosing the Ninebot KickScooter Max (hereinafter referred to as KickScooter)! 
+Your KickScooter is a recreational product with mobile app, allowing you to connect with other riders.
+Enjoy your ride and connect with riders worldwide!Contents Thanks for choosing the Ninebot KickScooter Max!
+4 Assembling Y our KickScooter1 Riding Safety 
+2 Packing List
+3 Diagram
+5 First Ride
+6 Charging
+7 Learning to Ride
+8 Warnings
+10 Maintenance
+12 Certiﬁcations11 Speciﬁcations9 Folding and Carrying
+13 T rademark and Legal Statement
+14 Contact 02
+04
+05
+06
+07
+08
+08
+10
+14
+15
+1716
+20
+21
+01
+1 Riding Safety 
+1. The KickScooter is a recreational product. Before mastering riding skills, you need to practice. Neither Ninebot Inc. 
+(means Ninebot (Beijing) Tech Co., Ltd. and its subsidiaries and affiliates) nor Segway Inc. is responsible for any 
+injuries or damage caused by a rider's inexperience or failure to follow the instructions in this document.
+2. Please understand that you can reduce the risk by following all the instructions and warnings in this manual, but 
+you cannot eliminate all the risks. Remember that whenever you ride the KickScooter you risk injury from loss of 
+control, collisions, and falls. When entering into public spaces always comply with the local laws and regulations. 
+As with other vehicles, faster speeds require longer braking distance. Sudden braking on low traction surfaces 
+could lead to wheel slip, or falls. Be cautious and always keep a safe distance between you and other people or 
+vehicles when riding. Be alert and slow down when entering unfamiliar areas.
+3. Always wear a helmet when riding. Use an approved bicycle or skateboard helmet that fits properly with the chin 
+strap in place, and provides protection for the back of your head.
+4. Do not attempt your first ride in any area where you might encounter children, pedestrians, pets, vehicles, 
+bicycles, or other obstacles and potential hazards.
+5. Respect pedestrians by always yielding the right of way. Pass on the left whenever possible. When approaching a 
+pedestrian from the front, stay to the right and slow down. Avoid startling pedestrians. When approaching from 
+behind, announce yourself and slow down to walking speed when passing. Please obey local traffic laws and 
+regulations if situation is different.
+6. In places without laws comply with the safety guidelines outlined in this manual. Neither Ninebot Inc. nor Segway 
+Inc. is responsible for any property damage, personal injury/death, accidents, or legal disputes caused by 
+violations of the safety instructions.
+7. Do not allow anyone to ride your KickScooter on his/her own unless they have carefully read this manual and 
+followed the New Rider Tutorial in the App. The safety of new riders is your responsibility. Assist new riders until 
+they are comfortable with the basic operation of the KickScooter. Make sure each new rider wears a helmet and 
+other protective gear.
+8. Before each ride check for loose fasteners and damaged components. If the KickScooter makes abnormal sounds 
+or signals an alarm, immediately stop riding. Diagnose your KickScooter via the Segway-Ninebot App and call your 
+dealer/distributor for service.9. Be alert! Scan both far ahead and in front of your KickScooter — your eyes are your best tool for safely avoiding 
+obstacles and low traction surfaces (including, but not limited to, wet ground, loose sand, loose gravel, and ice).
+10. To reduce risk of injury, you must read and follow all “CAUTION” and “WARNING” notices in this document. Do not 
+ride at an unsafe speed. Under no circumstance should you ride on roads with motor vehicles. The manufacturer 
+recommends riders be 14+ years old. Always follow these safety instructions:
+A. People who should not ride the KickScooter include:
+i. Anyone under the influence of alcohol or drugs.
+ii. Anyone who suffers from disease that puts them at risk if they engage in strenuous physical activity.
+iii. Anyone who has problems with balance or with motor skills that would interfere with their ability to maintain 
+balance.
+iv. Anyone whose weight is outside the stated limits (see Specifications).
+v. Pregnant women.
+B. Riders under the age of 18 years old should ride under adult supervision.
+C. Comply with local laws and regulations when riding this product. Do not ride where prohibited by local laws.
+D. To ride safely, you must be able to clearly see what is in front of you and you must be clearly visible to others.
+E. Do not ride in the snow, in the rain, or on roads which are wet, muddy, icy, or that are slippery for any reason. 
+Do not ride over obstacles (sand, loose gravel, or sticks). Doing so could result in a loss of balance or traction 
+and could cause a fall.
+11. Do not attempt to charge your KickScooter if, the charger, or the power outlet is wet.
+12. As with any electronic device, use a surge protector when charging to help protect your KickScooter from damage 
+due to power surges and voltage spikes. Only use the Segway supplied charger. Do not use a charger from any 
+other different product models.
+13. Use only Ninebot or Segway approved parts and accessories. Do not modify your KickScooter. Modifications to 
+your KickScooter could interfere with the operation of the KickScooter, could result in serious injury and/or 
+damage, and could void the Limited Warranty.
+02 03
+04 053 Diagram 2 Packing List
+Dashboard & Power ButtonBattery 
+CompartmentHub MotorBrake LightBuckleDashboard & Power ButtonElectronic Throttle
+Rear FenderQuick Release Lever
+KickstandFolding Mechanism
+Front ForkStem
+Drum BrakeCharge PortHandlebarBrake LeverBellSnap Hook
+Headlight
+Speedometer: Display the current speed of the KickScooter, as well as to display error codes.
+Modes: Three modes available. "ECO" for Energy saving mode (smooth acceleration, suitable for beginners), "D" for Standard 
+mode and "S" for Sport mode (powerful, only recommended for skilled riders).
+Bluetooth: The icon indicates that the KickScooter has been successfully connected to the mobile device.
+Error: The wrench icon indicates that the KickScooter has detected an error.
+Battery Level: The battery power is indicated by 5 bars, each representing approximately 20% of a full battery.
+Power Button: Press the button to turn the KickScooter on; and press and hold the button for 3 seconds to turn the KickScooter off. 
+When the KickScooter is on, press the button to turn the headlight on/off, and double press to switch between modes.Pedestrian mode: Makes pushing the KickScooter easier.When unpacking your KickScooter, please verify that the above items are included in the package. If you are missing any 
+components, please contact your dealer/distributor or nearest service center (see Contact in the user manual). After 
+verifying that all components are present and in good condition, you can assemble your new KickScooter. 
+Please retain the box and packaging materials in case you need to ship your KickScooter in the future. 
+Remember to power off your KickScooter and unplug the power cord before assembling, mounting accessories, or 
+cleaning the mainframe. AccessoriesUser Materials Assembled KickScooter
+QUICK START USER MANUAL LIMITED WARRANTY
+Power Cord
+M5 Flathead Screw x 6 Hex Wrench
+Battery Charger
+(Sold Separately) Valve Stem Extension
+06 074 Assembling Y our KickScooter
+3. Install six screws (two on each side) 
+with the included hex wrench.4. Verify that your KickScooter can be 
+powered on and off.2. Firmly connect the wires inside the 
+handle and the stem. Slide the handle 
+onto the stem. Be aware of the correct 
+orientation.
+Headlight 
+toward front1. Unfold the handlebar stem and fasten 
+it. Then unfold the kickstand to 
+support the KickScooter.5 First Ride      There are safety risks when learning to ride the KickScooter. You must read the 
+Riding Safety via the App before your first ride. 
+For your safety, your new KickScooter is not activated and will beep occasionally after 
+Power ON. 
+Until activated, the KickScooter maintains very low riding speed, and cannot be ridden 
+with full function. Install the App on your mobile device (with Bluetooth 4.0 or above), 
+connect to the KickScooter with Bluetooth, and follow the App instructions to activate 
+your KickScooter and enjoy the full performance. 
+Scan the QR code to download the App.
+2 1Install the App and register/login. Power on the KickScooter. A blinking 
+Bluetooth icon indicates the KickScooter is 
+waiting for a connection. 
+3
+4Click “Vehicle”→ “Scan for Vehicle” to connect to 
+your KickScooter. 
+The KickScooter will beep when the connection 
+is successful. The Bluetooth icon will stop 
+blinking and remain illuminated. 
+Follow the App instructions to active the KickScooter and learn how to ride safely.
+You can now start to use your KickScooter, check the status with App, and interact with other 
+users. Have fun!Vehicle Fans Moments Me DiscoverSegway-Ninebot App
+21
+08 09     WARNING
+When hard braking, you risk serious injury due to loss of traction and falls. 
+Maintain a moderate speed and look out for potential hazards.3. Put your other foot on the footrest to keep 
+both feet stable. Press the throttle on the 
+right hand to speed up when you are 
+balanced.
+Note, for your safety, the motor will not
+engage until the KickScooter reaches 
+1.86 mph (3 km/h)
+4. Slow down by releasing the throttle; and 
+brake by squeezing the brake lever.5. To turn, shift your body weight and 
+turn the handle slightly.2. Stand on the footrest with one foot 
+and push off with another foot to 
+start gliding.
+7 Learning to Ride
+Wear an approved helmet and other protective 
+gear to minimize any possible injury.1. Power on the KickScooter and check 
+the power level indicator. Charge the 
+KickScooter if the battery level is low.     WARNING
+Do not charge if the charge port or power cord is wet. 
+Do not charge or use your battery if it is damaged or see trace of water. 
+Close the charge port cover when not charging.Close the charge 
+port cover when 
+finished.Open the charge 
+port cover.Insert the 
+charge plug.Charging step tips6 Charging
+Charge port
+10 11DO NOT press the throttle when 
+walking with the KickScooter.
+DO NOT carry heavy objects on 
+the handlebar.DO NOT ride the KickScooter with 
+only one foot.Avoid contacting obstacles with the 
+tire/wheel.
+Watch your head when 
+passing through doorways.Do not keep your feet on the rear fender.DO NOT ride over speed bumps, thresholds, or other 
+bumps at HIGH SPEED.8 Warnings
+DO NOT ride the 
+KickScooter in the rain.
+DO NOT get wet. Failure to follow these instructions could lead to 
+serious injury.     WARNING
+12 13     WARNING
+Always keep both hands on the handlebar or you risk serious injury due to loss of balance and falls.DO NOT rotate the handle violently 
+while driving at high speed. DO NOT ride on public roads, 
+motorways, or highways.
+DO NOT ride through puddles or 
+other bodies of water.The KickScooter is for one rider
+only. Do not carry any passengers. 
+Do not carry a child. Do not ride 
+when pregnant.DO NOT take your hands off the 
+handlebar while riding. Do not ride 
+with one hand only.DO NOT touch the hub motor after 
+riding because it can get hot.
+DO NOT ride up and down stairs or jump 
+over obstacles. Do not use mobile phone or wear 
+earphones when operating the 
+KickScooter. 
+10 Maintenance
+Cleaning and Storage
+Use a soft, wet cloth to wipe the mainframe clean. Dirt hard to remove can be scrubbed with a toothbrush and 
+toothpaste, then cleaned with a soft, wet cloth. 
+NOTE
+Do not wash your KickScooter with alcohol, gasoline, acetone, or other corrosive/volatile solvents. These substances 
+may damage the appearance and internal structure of your KickScooter. Do not wash your KickScooter with a power 
+washer or hose. 
+        WARNING
+Make sure the KickScooter is powered OFF, the power cord is unplugged, and the rubber cap on the charge port is 
+tightly sealed before cleaning; otherwise you may damage the electronic components. 
+Store your KickScooter in a cool, dry place. Do not store it outdoors for extended periods of time. Exposure to sunlight 
+and temperature extremes (both hot and cold) will accelerate the aging process of the plastic components and may 
+reduce battery life. 
+Tire Pressure
+Inflate tires to 32–37 psi. Inflate both tires equally.
+Battery Pack Maintenance
+Do not store or charge the battery at temperatures outside the stated limits (see Specifications). Do not puncture the 
+battery. Refer to your local laws and regulations regarding battery recycling and/or disposal. 
+A well maintained battery can perform well even after many miles of riding. Charge the battery after each ride and avoid 
+draining the battery completely. When used at room temperature (70°F [22°C]) the battery range and performance is at 
+its best; whereas using it at temperatures below 32°F (0°C) can decrease range and performance. Typically, at -4°F 
+(-20°C) range can be half that of the same battery at 70°F (22°C). Battery range will recover when temperature rises. 
+More details are available in the App. 
+NOTE
+Typically, a fully charged battery should retain power for 120-180 days. A low-power battery should retain power for 
+30–60 days. Remember to charge the battery after each use. Completely draining the battery may cause permanent 
+damage to the battery. Electronics inside the battery record the charge-discharge condition of the battery; damage 
+caused by over-charging or under-charging will not be covered by the Limited Warranty. 
+        WARNING
+Do not attempt to disassemble the battery. Do not touch battery contacts. Do not dismantle or puncture the casing. 
+Keep the battery contacts away from metal objects to prevent short circuit. Risk of fire and electric shock. No user 
+serviceable parts. Do not charge or use your battery if it is damaged or see trace of water.
+        WARNING
+Do not ride when the ambient temperature is outside the machine operation temperature (see Specifications) because 
+low/high temperature will limit the maximum power/torque. Doing so could cause personal injury or property damage 
+due to slips or falls.
+14 159 Folding and Carrying
+When your KickScooter is folded up, lift it by the stem to carry.CarryingTurn off your KickScooter. Turn the 
+safety hook counterclockwise and 
+open the quick release lever.Folding
+Align the snap hook and the 
+buckle and hook them.Disengage the snap hook from 
+the buckle. Fold the handlebar 
+stem up, close the quick release 
+lever and turn the safety hook 
+clockwise.Safety Hook Snap Hook
+2
+1
+For model: G30P
+This product is certified to ANSI/CAN/UL-2272 by TUV Rheinland.
+The battery complies with UN/DOT 38.3.
+The battery complies with ANSI/UL 2271.
+Federal Communications Commission (FCC) Compliance Statement for USA
+This device complies with part 15 of the FCC rules. Operation is subject to the following two conditions: (1) This device 
+may not cause harmful interference, and (2) this device must accept any interference received, including interference 
+that may cause undesired operation.
+NOTE
+This equipment has been tested and found to comply with the limits for a Class B digital device, pursuant to part 15 of 
+the FCC Rules. These limits are designed to provide reasonable protection against harmful interference in a residential 
+installation. This equipment generates, uses and can radiate radio frequency energy and, if not installed and used in 
+accordance with the instructions, may cause harmful interference to radio communications. However, there is no 
+guarantee that interference will not occur in a particular installation. If this equipment does cause harmful interference 
+to radio or television reception, which can be determined by turning the equipment off and on, the user is encouraged to 
+try to correct the interference by one or more of the following measures: 
+— Reorient or relocate the receiving antenna.
+— Increase the separation between the equipment and receiver. 
+— Connect the equipment into an outlet on a circuit different from that to which the receiver is connected. 
+— Consult the dealer or an experienced radio/TV technician for help.
+This equipment complies with FCC radiation exposure limits set forth for an uncontrolled environment.
+Industry Canada (IC) Compliance Statement for Canada
+This device complies with Industry Canada license-exempt RSS standard (s). Operation is subject to the following two 
+conditions: (1) this device may not cause interference, and (2) this device must accept any interference, including 
+interference that may cause undesired operation of the device.
+CAN ICES-3 (B)/NMB-3(B)
+“Le présent appareil est conforme aux CNR d'Industrie Canada applicables aux appareils radio exempts de licence. 
+L'exploitation est autorisée aux deux conditions suivantes : (1) l'appareil ne doit pas produire de brouillage, et (2) 
+l'utilisateur de l'appareil doit accepter tout brouillage radioélectrique subi, même si le brouillage est susceptible d'en 
+compromettre le fonctionnement."
+Neither Segway Inc. nor Ninebot is responsible for any changes or modifications not expressly approved by Segway Inc. 
+or Ninebot. Such modifications could void the user's authority to operate the equipment.
+ FCC ID: 2ALS8-NB9676
+ IC: 22636-NB967612 Certiﬁcations
+16 1711 Speciﬁcations
+Dimensions
+Weight
+Machine 
+Parameters
+Battery 
+Motor
+Charger
+FeaturesBrake LightUnfold: Length x Width x Height
+Fold: Length x Width x Height
+Payload
+Rider Recommended Age
+Required Height 
+Max. Speed
+Typical Range [1] 
+Max. Slope
+Operating Temperature
+Storage Temperature
+IP Rating
+Duration of ChargingTraversable Terrain
+Max. Charging Voltage
+Charging Temperature 32–104°F (0–40°C)
+Nominal Capacity 
+Battery Management System
+Input Voltage
+Output Voltage
+Output CurrentNominal Voltage
+Nominal Power
+Output Power~ 45.9 × 18.6 × 47.4 in (1167 × 472 × 1203 mm)
+~ 45.9 × 18.6 × 21.0 in (1167 × 472 × 534 mm)
+66.1–220.5 lbs (30.0–100.0 kg)
+Approx. 40.4 miles (65 km)
+Approx. 20%
+36 VDC14–104°F (-10–40°C)
+-4–122°F (-20–50°C)
+42 VDC
+551 Wh
+350 WOver-heating, short circuit, over-current and 
+over-charge protection
+Number Of Batteries 1
+100–240V j 50/60Hz
+42 VDC
+2.9 A121 W14+ years
+3’11”–6’6” (120–200 cm)
+IPX5
+~ 6 hasphalt/flat pavement; obstacles < 0.4 in (1 cm); 
+gaps < 1.2 in (3 cm)Approx. 18.6 mph (30 km/h)           Approx. 15.5 mph (25 km/h)
+LED rear light
+Riding Modes Energy Saving mode, Standard mode and Sport modeNet Approx. 42.1 lbs (19.1 kg)G30P G30 Item
+[1] Typical Range: tested while riding under full power, 165.3 lbs (75.0 kg) load, 77°F (25°C), 60% of max. speed on average on pavement.
+For model: G30
+Important WEEE information
+WEEE Disposal and Recycling Information Correct Disposal of this product. This marking indicates that this product 
+should not be disposal with other household wastes throughout the EU.
+To prevent possible harm to the environment or human health from uncontrolled waste disposal, recycle it responsible 
+to promote the sustainable reuse of materials resources. To return your used device, please use the return and 
+collection systems or contact the retailer where the product was purchased. They can take this product for environmen-
+tal safe recycling.
+Battery recycling information for the European Union
+Batteries or packaging for batteries are labeled in accordance with European Directive 2006/66/EC and amendment 
+2013/56/EU concerning batteries and accumulators and waste batteries and accumulators. The Directive determines 
+the framework for the return and recycling of used batteries and accumulators as applicable throughout the European 
+Union. This label is applied to various batteries to indicate that the battery is not to be thrown away, but rather 
+reclaimed upon end of life per this Directive.
+In accordance with the European Directive 2006/66/EC and amendment 2013/56/EU, batteries and accumulators are 
+labeled to indicate that they are to be collected separately and recycled at end of life. The label on the battery may also 
+include a chemical symbol for the metal concerned in the battery (Pb for lead, Hg for mercury, and Cd for cadmium). 
+Users of batteries and accumulators must not dispose of batteries and accumulators as unsorted municipal waste, but 
+use the collection framework available to customers for the return, recycling, and treatment of batteries and 
+accumulators. Customer participation is important to minimize any potential effects of batteries and accumulators on 
+the environment and human health due to the potential presence of hazardous substances.
+Before placing electrical and electronic equipment (EEE) in the waste collection stream or in waste collection facilities, 
+the end user of equipment containing batteries and/or accumulators must remove those batteries and accumulators 
+for separate collection.Restriction of Hazardous Substances (RoHS) Directive
+This Ninebot (Changzhou) Tech Co., Ltd. product, with included parts (cables, cords, and so on) meets the 
+requirements of Directive 2011/65/EU on the restriction of the use of certain hazardous substances in electrical 
+and electronic equipment ( “RoHS recast”  or “RoHS 2” ).
+Radio Equipment Directive
+Segway Europe BV, Hogehilweg 8, 1101 CC Amsterdam, The Netherlands. 
+Hereby, [Ninebot (Changzhou) Tech Co., Ltd,] declares that the radio equipment type [G30] is in compliance with 
+Directive 2014/53/EU.
+Bluetooth
+Max. RF PowerFrequency Band(s)
+100mW2.4000–2.4835GHz
+18 19
+Ninebot is the registered trademark of Ninebot (Tianjin) Tech. Co., Ltd; Segway and the Rider Design are the registered 
+trademarks of Segway Inc.; Android, Google Play are trademarks of Google Inc., App Store is a service mark of Apple 
+Inc., The respective owners reserve the rights of their trademarks referred to in this manual.
+The KickScooter is covered by relevant patents. For patent information go to http://www.segway.com.
+We have attempted to include descriptions and instructions for all the functions of the KickScooter at the time of 
+printing. However, due to constant improvement of product features and changes of design, your KickScooter may 
+differ slightly from the one shown in this document. Visit the Apple App Store (iOS) or the Google Play Store (Android) 
+to download and install the App. 
+Please note that there are multiple Segway and Ninebot models with different functions, and some of the functions 
+mentioned herein may not be applicable to your unit. The manufacturer reserves the right to change the design and 
+functionality of the KickScooter product and documentation without prior notice. 
+© 2019 Ninebot (Beijing) Tech Co. Ltd. All rights reserved.13 T rademark and Legal Statement
+Contact us if you experience issues relating to riding, maintenance and safety, or errors/faults with your 
+KickScooter.
+Americas:
+Segway Inc.
+14 Technology Drive, Bedford, NH 03110, USA
+Tel: 1-603-222-6000
+Fax: 1-603-222-6001
+Toll Free: 1-866-473-4929
+E-mail Sales: customeroperation@segway.com
+E-mail Service: technicalsupport@segway.com
+Website: www.segway.com
+Europe, Middle East and Africa:
+Segway Europe B.V.
+Hogehilweg 8, 1101CC Amsterdam, The Netherlands
+Website: www.segway.com
+Have your KickScooter serial number on hand when contacting Segway.
+You can find your serial number on the underside of your KickScooter or in the App under More Settings –> Basic 
+Information.14 Contact 
+20 21

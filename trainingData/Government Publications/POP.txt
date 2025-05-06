@@ -1,0 +1,242 @@
+Population 2023
+Ranking Economy (thousands)
+1 India 1,438,070            
+2 China 1,410,710            
+3 United States 334,915               
+4 Indonesia 281,190               
+5 Pakistan 247,504               
+6 Nigeria 227,883               
+7 Brazil 211,141               
+8 Bangladesh 171,467               
+9 Russian Federation 143,826               
+10 Mexico 129,740               
+11 Ethiopia 128,692               
+12 Japan 124,517               
+13 Philippines 114,891               
+14 Egypt, Arab Rep. 114,536               
+15 Congo, Dem. Rep. 105,790               
+16 Viet Nam 100,352               
+17 Iran, Islamic Rep. 90,609                 
+18 Türkiye 85,326                 
+19 Germany 83,280                 
+20 Thailand 71,702                 
+21 United Kingdom 68,350                 
+22 France 68,287                 
+23 Tanzania 66,618                 
+24 South Africa 63,212                 
+25 Italy 58,993                 
+26 Kenya 55,339                 
+27 Myanmar 54,134                 
+28 Colombia 52,321                 
+29 Korea, Rep. 51,713                 
+30 Sudan 50,043                 
+31 Uganda 48,657                 
+32 Spain 48,348                 
+33 Algeria 46,164                 
+34 Argentina 45,538                 
+35 Iraq 45,074                 
+36 Afghanistan 41,455                 
+37 Canada 40,098                 
+38 Yemen, Rep. 39,391                 
+39 Ukraine 37,733                 
+40 Morocco 37,713                 
+41 Angola 36,750                 
+42 Poland 36,687                 
+43 Uzbekistan 35,652                 
+44 Malaysia 35,126                 
+45 Peru 33,846                 
+46 Ghana 33,788                 
+47 Mozambique 33,635                 
+48 Saudi Arabia 33,264                 
+49 Madagascar 31,196                 
+50 Côte d'Ivoire 31,166                 
+51 Nepal 29,695                 
+52 Cameroon 28,373                 
+53 Venezuela, RB 28,301                 
+54 Australia 26,659                 
+55 Korea, Dem. People's Rep. 26,418                 
+56 Niger 26,160                 
+57 Mali 23,769                 
+58 Syrian Arab Republic 23,595                 
+59 Burkina Faso 23,026                 
+World Development Indicators database, World Bank, 16 December 2024 1
+Population 2023
+Ranking Economy (thousands)
+60 Sri Lanka 22,037                 
+61 Malawi 21,104                 
+62 Zambia 20,724                 
+63 Kazakhstan 20,330                 
+64 Chile 19,659                 
+65 Chad 19,319                 
+66 Romania 19,059                 
+67 Somalia 18,359                 
+68 Guatemala 18,125                 
+69 Senegal 18,078                 
+70 Ecuador 17,980                 
+71 Netherlands 17,877                 
+72 Cambodia 17,424                 
+73 Zimbabwe 16,341                 
+74 Guinea 14,405                 
+75 Benin 14,111                 
+76 Rwanda 13,954                 
+77 Burundi 13,689                 
+78 Bolivia 12,244                 
+79 Tunisia 12,200                 
+80 Belgium 11,787                 
+81 Haiti 11,637                 
+82 South Sudan 11,483                 
+83 Jordan 11,439                 
+84 Dominican Republic 11,331                 
+85 Cuba 11,020                 
+86 Czech Republic 10,864                 
+87 Honduras 10,645                 
+88 Portugal 10,578                 
+89 Sweden 10,537                 
+90 United Arab Emirates 10,484                 
+91 Greece 10,406                 
+92 Tajikistan 10,390                 
+93 Papua New Guinea 10,390                 
+94 Azerbaijan 10,154                 
+95 Israel 9,757                   
+96 Hungary 9,592                   
+97 Togo 9,304                   
+98 Belarus 9,178                   
+99 Austria 9,132                   
+100 Switzerland 8,888                   
+101 Sierra Leone 8,461                   
+102 Lao PDR 7,665                   
+103 Hong Kong SAR, China 7,536                   
+104 Turkmenistan 7,364                   
+105 Libya 7,306                   
+106 Kyrgyz Republic 7,100                   
+107 Paraguay 6,844                   
+108 Nicaragua 6,824                   
+109 Serbia 6,623                   
+110 Bulgaria 6,447                   
+111 El Salvador 6,310                   
+112 Congo, Rep. 6,183                   
+113 Denmark 5,947                   
+114 Singapore 5,918                   
+115 Lebanon 5,773                   
+116 Finland 5,584                   
+117 Norway 5,520                   
+118 Liberia 5,493                   
+World Development Indicators database, World Bank, 16 December 2024 2
+Population 2023
+Ranking Economy (thousands)
+119 Slovak Republic 5,427                   
+120 Ireland 5,308                   
+121 New Zealand 5,223                   
+122 West Bank and Gaza 5,166                   
+123 Central African Republic 5,152                   
+124 Costa Rica 5,106                   
+125 Oman 5,049                   
+126 Mauritania 5,022                   
+127 Kuwait 4,853                   
+128 Panama 4,459                   
+129 Croatia 3,860                   
+130 Georgia 3,715                   a
+131 Mongolia 3,481                   
+132 Eritrea 3,470                   
+133 Uruguay 3,388                   
+134 Puerto Rico 3,206                   
+135 Bosnia and Herzegovina 3,185                   
+136 Armenia 2,991                   
+137 Namibia 2,963                   
+138 Lithuania 2,872                   
+139 Jamaica 2,840                   
+140 Albania 2,746                   
+141 Gambia, The 2,698                   
+142 Qatar 2,656                   
+143 Gabon 2,485                   
+144 Botswana 2,480                   
+145 Moldova 2,458                   b
+146 Lesotho 2,311                   
+147 Guinea-Bissau 2,153                   
+148 Slovenia 2,120                   
+149 Latvia 1,877                   
+150 Equatorial Guinea 1,848                   
+151 North Macedonia 1,828                   
+152 Kosovo 1,756                   
+153 Bahrain 1,577                   
+154 Timor-Leste 1,384                   
+155 Estonia 1,370                   
+156 Trinidad and Tobago 1,368                   
+157 Cyprus 1,345                   
+158 Mauritius 1,261                   
+159 Eswatini 1,231                   
+160 Djibouti 1,153                   
+161 Fiji 924                      
+162 Comoros 850                      
+163 Guyana 826                      
+164 Solomon Islands 800                      
+165 Bhutan 786                      
+166 Macao SAR, China 679                      
+167 Luxembourg 666                      
+168 Suriname 629                      
+169 Montenegro 616                      
+170 Malta 553                      
+171 Maldives 526                      
+172 Cabo Verde 522                      
+173 Brunei Darussalam 459                      
+174 Belize 411                      
+175 Bahamas, The 399                      
+176 Iceland 393                      
+177 Vanuatu 320                      
+World Development Indicators database, World Bank, 16 December 2024 3
+Population 2023
+Ranking Economy (thousands)
+178 New Caledonia 290                      
+179 Barbados 282                      
+180 French Polynesia 281                      
+181 São Tomé and Principe 231                      
+182 Samoa 217                      
+183 St. Lucia 179                      
+184 Channel Islands 168                      
+185 Guam 167                      
+186 Curaçao 148                      
+187 Kiribati 133                      
+188 Seychelles 120                      
+189 Grenada 117                      
+190 Micronesia, Fed. Sts. 113                      
+191 Aruba 107                      
+192 Virgin Islands (U.S.) 105                      
+193 Tonga 105                      
+194 St. Vincent and the Grenadines 101                      
+195 Antigua and Barbuda 93                        
+196 Isle of Man 84                        
+197 Andorra 81                        
+198 Cayman Islands 73                        
+199 Dominica 67                        
+200 Bermuda 65                        
+201 Greenland 57                        
+202 Faroe Islands 54                        
+203 American Samoa 48                        
+204 St. Kitts and Nevis 47                        
+205 Turks and Caicos Islands 46                        
+206 Northern Mariana Islands 45                        
+207 Sint Maarten (Dutch part) 43                        
+208 Liechtenstein 40                        
+209 British Virgin Islands 39                        
+210 Monaco 39                        
+211 Marshall Islands 39                        
+212 Gibraltar 38                        
+213 San Marino 34                        
+214 St. Martin (French part) 28                        
+215 Palau 18                        
+216 Nauru 12                        
+217 Tuvalu 10                        
+World 8,061,876            
+East Asia & Pacific 2,384,464            
+Europe & Central Asia 924,970               
+Latin America & Caribbean 657,612               
+Middle East & North Africa 508,311               
+North America 375,077               
+South Asia 1,951,540            
+Sub-Saharan Africa 1,259,902            
+Low income 736,466               
+Lower middle income 3,079,779            
+Upper middle income 2,816,864            
+High income 1,400,466            
+http://data.worldbank.org/data-catalog/world-development-indicatorsa. Excludes Abkhazia and South Ossetia.  b. Excludes Transnistria.  
+World Development Indicators database, World Bank, 16 December 2024 4

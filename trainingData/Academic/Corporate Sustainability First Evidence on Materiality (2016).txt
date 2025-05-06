@@ -1,0 +1,3035 @@
+ 
+ 
+Corporate Sustainability: First Evidence on Materiality 
+Author(s): Mozaffar Khan, George Serafeim and  Aaron Yoon 
+Source: The Accounting Review,  Vol. 91, No. 6 (NOVEMBER 2016), pp. 1697-1724 
+Published by: American Accounting Association 
+Stable URL: https://www.jstor.org/stable/24907173 
+Accessed: 29-03-2025 21:22 UTC 
+ 
+JSTOR is a not-for-profit service that helps scholars, researchers, and students discover, use, and build upon a wide 
+range of content in a trusted digital archive. We use information technology and tools to increase productivity and 
+facilitate new forms of scholarship. For more information about JSTOR, please contact support@jstor.org. 
+ 
+Your use of the JSTOR archive indicates your acceptance of the Terms & Conditions of Use, available at 
+https://about.jstor.org/terms 
+American Accounting Association  is collaborating with JSTOR to digitize, preserve and 
+extend access to The Accounting Review 
+This content downloaded from 34.225.236.11 on Sat, 29 Mar 2025 21:22:55 UTC 
+All use subject to https://about.jstor.org/terms 
+ THE ACCOUNTING REVIEW American Accounting Association 
+ Vol. 91, No. 6 DOI: 10.2308/accr-51383 
+ November 2016 
+ pp. 1697-1724 
+ Corporate Sustainability: First Evidence on Materiality 
+ Mozaffar Khan 
+ Harvard University and University of Minnesota 
+ George Serafeim 
+ Aaron Yoon 
+ Harvard University 
+ ABSTRACT: Using newly available materiality classifications of sustainability topics, we develop a novel dataset by 
+ hand-mapping sustainability investments classified as material for each industry into firm-specific sustainability 
+ ratings. This allows us to present new evidence on the value implications of sustainability investments. Using both 
+ calendar-time portfolio stock return regressions and firm-level panel regressions, we find that firms with good ratings 
+ on material sustainability issues significantly outperform firms with poor ratings on these issues. In contrast, firms 
+ with good ratings on immaterial sustainability issues do not significantly outperform firms with poor ratings on the 
+ same issues. These results are confirmed when we analyze future changes in accounting performance. The results 
+ have implications for asset managers who have committed to the integration of sustainability factors in their capital 
+ allocation decisions. 
+ Keywords: sustainability; corporate social responsibility; investment performance. 
+ I. INTRODUCTION 
+ Corporate investment policies are a key determinant of firm value. Multiple studies have investigated different types of  investments and how these relate to future financial performance. A relatively newer class of corporate investments, 
+ broadly termed sustainability investments, has attracted the attention of firms, institutional investors, societal advocacy 
+ groups, and academics (e.g., Dhaliwal, Tsang, and Yang 2011; Dhaliwal, Radhakrishnan, Tsang, and Yang 2012; Kim, Park, 
+ and Wier 2012; Moser and Martin 2012). A large number of firms identify sustainability issues as strategically important, and 
+ an increasing number of investors have committed to the integration of environmental, social, and governance (ESG) data in 
+ their capital allocation process.1 Firms release a wealth of information in the form of ESG data, but the sheer number of 
+ sustainability issues that attract investment raises the question of which of these ESG data are more or less material. 
+ The materiality of the different sustainability issues likely varies systematically across firms and industries (Eccles and 
+ Serafeim 2013; United Nations Environment Program Finance Initiative and World Business Council for Sustainable 
+ Development 2010). As such, a new organization, the Sustainability Accounting Standards Board (SASB), adopts a 
+ We are grateful for comments from seminar participants at National University of Singapore, the 2015 Annual Conference of the Alliance for Research on  Corporate Sustainability, Harvard Business School, Oxford University, and from staff members of the Sustainability Accounting Standards Board (SASB).  We are grateful for financial support from the Division of Faculty Research and Development at Harvard Business School. 
+ George Serafeim has served on the Standards Council of SASB. The views expressed in this paper are those of the author and do not reflect an official  position of the SASB. 
+ Editor's note: Accepted by T. J. Wong. 
+ Submitted: May 2015 
+ Accepted: January 2016 
+ Published Online: January 2016 
+ 1 The terms "sustainability," "environmental, social, and governance" (ESG), and "corporate social responsibility" (CSR) have been used  interchangeably in the past to describe a firm's voluntary actions to manage its environmental and social impact and increase its positive contribution to  society. Throughout this paper, we use the word sustainability, given that more firms around the world use this word rather than CSR to describe the  strategic aspect of their efforts to improve performance on ESG issues. A manifestation of this phenomenon is the institutionalization of a new C-level  position, the Chief Sustainability Officer (Miller and Serafeim 2015). Moreover, this term is consistent with the labeling of the Sustainability  Accounting Standards Board that we use as the source of materiality guidance. The ESG label represents an effort to group all the issues that fall under  the umbrella of sustainability. 
+ 1697
+This content downloaded from 34.225.236.11 on Sat, 29 Mar 2025 21:22:55 UTC 
+All use subject to https://about.jstor.org/terms 
+ 1698  Khan, Serafeim, and Yoon 
+ shareholder viewpoint in defining materiality and develops standards for reporting of ESG issues concentrated on 
+ discriminating between material and immaterial issues. If the discrimination is meaningful, then exploiting variation in 
+ materiality across sustainability issues has the potential to improve the signal-to-noise ratio in testing the future performance 
+ implications of sustainability investments, and reduce the dimensionality of price-relevant investment signals used by the large 
+ number of institutional investors committed to ESG initiatives. In this paper, we take a first step toward these objectives by 
+ examining the future performance implications of material versus immaterial sustainability investments. 
+ We develop a novel dataset to measure firm investments on material sustainability issues by hand-mapping recently 
+ available industry-specific guidance on materiality from the SASB to MSCI KLD that has firm-level ratings on an array of 
+ sustainability issues. The SASB considers material issues to be those with evidence of wide interest from a variety of user 
+ groups and evidence of financial impact, the same evidence used by the Securities and Exchange Commission (SEC) in 
+ determining the materiality of financial information (the SASB classification process is described in more detail in Appendix A, 
+ Section 3, and Appendix B). From the merged data, we construct a materiality (immateriality) score for each firm-year that 
+ measures performance on material (immaterial) sustainability issues. 
+ To test the future shareholder value implications of sustainability investments, we first orthogonalize a firm's change in the 
+ sustainability index of material issues with respect to changes in firm size, market-to-book ratio, leverage, profitability, research 
+ and development (R&D) intensity, advertising intensity, and institutional ownership and sector membership. Next, we form 
+ portfolios of firms in the top and bottom quintile of the unexplained portion of the sustainability index change (the residuals 
+ from the first step), and estimate Fama and French (1993) calendar-time regressions to test for one-year-ahead abnormal stock 
+ return performance of the portfolio. This procedure allows us to attribute the future performance of this portfolio more 
+ confidently to material sustainability investments, rather than to underlying firm characteristics of portfolio firms. 
+ Although one would expect that if organizations such as the SASB perform their standard-setting process reasonably, then 
+ materiality guidance should help return prediction, we view the relation between material investments and firm performance as 
+ a testable hypothesis rather than a tautology for multiple reasons. First, if the research process of organizations such as the 
+ SASB is captured by special interests that seek to steer the output in preferred directions, then this would lead to no 
+ improvement in the informativeness of ESG ratings. For example, it could be that non-government organizations (NGOs) that 
+ support environmental causes influence the SASB's standards to classify as material environmental issues when they are not 
+ material in a given industry, or that corporations influence the SASB's standards to classify labor issues as immaterial when 
+ they are material in a given industry. Second, there has previously been a void in the materiality measurement space, in that 
+ classification of issues as material or immaterial has not previously been available. As such, it is helpful to validate any such 
+ classification efforts for use by future researchers. A naive classification of sustainability issues as material is less likely to be 
+ associated with superior future performance. Consider, for example, if different materiality classifications were available from 
+ different sources, with each source using a different process to identify material issues. The relation between materiality 
+ classifications and future firm performance is unlikely to be tautological if there is variation across classifications in their 
+ relation with future performance. Rather, the relation between a particular classification and future firm performance is 
+ conducive to empirical testing. This is the spirit of our paper. 
+ Results indicate that firms with high residual changes on material sustainability topics outperform firms with low residual 
+ changes on these topics. In contrast, firms with high residual changes on immaterial sustainability topics do not outperform 
+ firms with low residual changes on the same topics. Across all our specifications, we find that portfolios formed on the basis of 
+ the residual materiality index outperform portfolios formed on the basis of the residual total KLD index or portfolios formed on 
+ the basis of the residual immaterial index. These findings are confirmed using firm-level panel regressions that account for a 
+ host of additional firm characteristics, such as analyst coverage, investments in R&D, advertising and capital expenditures, and 
+ board characteristics and firm or industry fixed effects. 
+ A series of additional tests indicate that the results are robust to alternative factor models, alternative methods to calculate 
+ firm-level sustainability indices, different subsamples or subperiods, and alternative portfolio construction rules. Finally, firms 
+ scoring high on the residual materiality index exhibit higher growth in accounting profitability compared to firms scoring low 
+ on the residual materiality index. Consistent with the stock return analysis, we find that the residual materiality index has much 
+ higher predictive power in both the economic and statistical sense over the residual total KLD index or the residual immaterial 
+ index for accounting performance. 
+ Our interpretation of the significant alpha from a classification of materiality of sustainability investments is as follows: 
+ Since materiality classifications were not previously available, investors could not react to them as soon as ESG performance 
+ data became available (the sustainability performance data did not distinguish between material and immaterial investments). 
+ As such, the price change (or alpha) is realized over a longer horizon as the materiality investments begin to pay off through 
+ observable metrics such as higher accounting returns. There is no alpha (or future abnormal stock return) to immaterial 
+ investments because these do not appear to pay off through observable metrics over a longer horizon. 
+ American  Accounting 
+ Association  The Accounting Review 
+ Volume 91, Number 6, 2016 
+This content downloaded from 34.225.236.11 on Sat, 29 Mar 2025 21:22:55 UTC 
+All use subject to https://about.jstor.org/terms 
+ Corporate Sustainability: First Evidence on Materiality  1699
+ Collectively, the tests mitigate concerns about endogeneity by using empirical approaches from the forefront of the return 
+ predictability literature: (1) The returns tests are predictive rather than contemporaneous regressions; (2) The return prediction 
+ signal is the change in the materiality index orthogonolized with respect to changes in a number of firm characteristics; (3) The 
+ portfolio tests control for conventional risk factors, allowing attribution of the alpha to material investments. This inferential 
+ approach is standard in the asset pricing literature; and (4) The portfolio tests are supplemented by firm-level return prediction 
+ regressions saturated with controls for known return predictors, a host of firm characteristics, and time and firm fixed effects. 
+ The inclusion of both time and firm fixed effects in the panel regressions is a generalization of the difference-in-differences 
+ approach that allows a causal interpretation in a regression setting (as noted in Bertrand and Mullainathan [2003], Angrist and 
+ Pischke [2009], and Armstrong, Balakrishnan, and Cohen [2012]). The fixed effects soak up unobserved firm-specific and 
+ economy-wide factors that could otherwise cloud identification. 
+ Our results contribute to the literature on sustainability and corporate social responsibility (CSR) that has recently attracted 
+ interest from accounting scholars. Kim et al. (2012) examine the relation between sustainability scores and earnings quality. 
+ Dhaliwal et al. (2011, 2012) examine the relation between sustainability disclosures and firms' cost of equity, as well as analyst 
+ forecast accuracy. Hoi, Wu, and Zhang (2013) examine the relation between irresponsible sustainability activities and corporate 
+ tax avoidance. Moser and Martin (2012) provide an overview and call for further research on sustainability activities. This 
+ paper responds to the interest from accounting scholars, and adds to the evidence on the relation between sustainability or 
+ sustainability ratings and firm performance (e.g., Waddock and Graves 1997; Barnett and Salomon 2006; Margolis, Anger 
+ Elfenbein, and Walsh 2009; Eccles, Ioannou, and Serafeim 2015). Past literature has not controlled for the differential 
+ importance of sustainability issues across industries, therefore treating all sustainability issues as of equal importance across 
+ industries. While meta-analyses find an overall small positive relation between sustainability ratings and firm performance, our 
+ results suggest that this relation could be significantly more robust if one considers the differential materiality of sustainability 
+ issues. Moreover, this paper makes a contribution to a literature that attempts to construct better measures of a firm's 
+ sustainability performance. To date, however, the literature has not identified a ranking of importance for the various issues as a 
+ guide for empirical work. The results of this paper suggest that innovations in accounting standard-setting practice are useful in 
+ guiding researchers on constructing better measures of sustainability. Importantly, our results suggest that ESG performance 
+ measures that take into account materiality guidance are more likely to be able to clarify the relation between sustainability 
+ investments and financial performance. 
+ The rest of the paper proceeds as follows. Section II describes the motivation and literature review. Section HI presents our 
+ sample and data. Section IV presents the empirical results from a variety of tests of future stock market performance. Section V 
+ presents analysis of future accounting performance. Section VI concludes. 
+ II. MOTIVATION AND LITERATURE REVIEW 
+ An increasing number of investors have committed to integrating sustainability issues in their asset allocation decisions. As 
+ of 2014, the United Nations Principles for Responsible Investment (UNPRI) had 1,260 signatories with $45 trillion in assets 
+ under management who had committed to six principles "recognizing the materiality of environmental, social, and governance 
+ (ESG) issues."2 At the same time, an increasing number of companies have been disclosing sustainability information, growing 
+ from less than 30 in the early 1990s to more than 7,000 in 2014 (Serafeim 2014). Given this backdrop, understanding the value 
+ implications of sustainability issues has been of interest to a wide audience. 
+ The number of sustainability issues firms can potentially invest in is very large. For example, KLD, a leading data 
+ provider, ranks firms' performance on more than 50 distinct sustainability issues.3 In addition, an increasing number of 
+ investors recognize that a given sustainability issue is unlikely to be equally material for firms in distinct industries. For 
+ example, managing climate change risk can be strategically important for some firms, while employee health and safety issues 
+ are more likely to be strategically important for other firms. As such, exploiting variation in the materiality of sustainability 
+ issues across firms in testing the future performance implications of sustainability investments has the potential to increase the 
+ signal-to-noise ratio in the investment-performance relation and reduce the dimensionality of investment signals considered by 
+ institutional investors in the asset allocation decisions. Taking a first step toward these goals is the motivation for this paper. 
+ The prior academic literature on the performance implications of sustainability investments has adopted a number of 
+ different viewpoints. One viewpoint is that such investments are efficient from shareholders' perspective. For example, 
+ enhanced sustainability performance could lead to obtaining better resources (Cochran and Wood 1984; Waddock and Graves 
+ 1997), higher-quality employees (Turban and Greening 1997), and better marketing of products and services (Moskowitz 
+ 1972; Fombrun 1996). It could also mitigate the likelihood of negative regulatory, legislative, or fiscal action (Freeman 1984; 
+ 2 See: http://www.unpri.org/about-pri/about-pri/ 
+ 3 For more information, see the dataset list at: https://goo.gl/qugXSI 
+ The Accounting Review ; 
+ American 
+ Accounting 
+ Volume 91, Number 6, 2016 "V A"oel*,,on 
+This content downloaded from 34.225.236.11 on Sat, 29 Mar 2025 21:22:55 UTC 
+All use subject to https://about.jstor.org/terms 
+ 1700  Khan, Serafeim, and Yoon 
+ Berman, Wicks, Kotha, and Jones 1999; Hillman and Keim 2001) while protecting and enhancing corporate reputation 
+ (Fombrun and Shanley 1990; Fombrun 2005; Freeman, Harrison, and Wicks 2007). A number of papers provide empirical 
+ evidence consistent with sustainability investments creating financial value. Eccles et al. (2014) identify a set of firms that 
+ adopted corporate policies related to environmental and social issues before the adoption of such policies became widespread, 
+ and find that these firms outperform their peers in the future in terms of stock market and accounting performance. Borgers, 
+ Derwall, Koedijk, and ter Horst (2013) find that firms with better sustainability performance have higher risk-adjusted returns in 
+ the future (but that this result has reversed in more recent years). Dimson, Karaka§, and Li (2015) show that after successful 
+ engagements, particularly on environmental/social issues, companies experience improved accounting performance. 
+ A second viewpoint is that sustainability investments disproportionately raise a firm's costs, creating a competitive 
+ disadvantage in a competitive market (Friedman 1970; Aupperle, Carroll, and Hatfield 1985; McWilliams and Siegel 1997; 
+ Jensen 2002). One reason for making such inefficient investments could be that managers capture private benefits (Brammer 
+ and Millington 2008; Cheng, Hong, and Shue 2014). Another reason for making such inefficient investments could be 
+ managers' political beliefs (Di Giuli and Kostovetsky 2014). 
+ There is mixed evidence in the prior literature on the relation between sustainability and performance (Barnett and 
+ Salomon 2006; Margolis and Walsh 2003; Orlitzky, Schmidt, and Rynes 2003; Hillman and Keim 2001; McWilliams and 
+ Siegel 2000). Importantly, prior papers have not accounted for the differential importance of the different sustainability issues 
+ across industries. This is not a criticism of the literature, but rather a reflection of the lack of guidance on the materiality of the 
+ sustainability issues. While considerable progress has been made in the past 20 years in the quantity of sustainability disclosure, 
+ no organization had provided materiality guidance through a standard-setting process. The SASB was the first to attempt to fill 
+ this gap and it provides a unique opportunity to clarify the relation between sustainability investments and future financial 
+ performance. Moreover, our results serve as a way to validate whether the SASB's output has any meaningful predictive power 
+ over future financial performance. Finally, since sustainability performance does not have the feature of aggregation that the 
+ financial statements have, materiality guidance could serve as a new aggregation procedure that is more informative than 
+ aggregating all data items by assigning equal weights. 
+ III. DATA AND SAMPLE 
+ Materiality Data 
+ Our data collection is driven by the availability of materiality guidance from the SASB, which is an independent 501(c)3 
+ non-profit whose mission is to develop and disseminate sustainability accounting standards that help publicly listed 
+ corporations disclose material factors in compliance with SEC requirements. SASB standards are designed for the disclosure of 
+ material sustainability issues in mandatory SEC filings, such as the Form 10-K and 20-F. The SASB is accredited to establish 
+ sustainability accounting standards by the American National Standards Institute (ANSI), and such accreditation is intended to 
+ signify that the SASB's procedures to develop sustainability accounting standards meet the Institute's requirements for 
+ openness, balance, consensus, and due process. The SASB's board comprises a mix of regulators, academics, lawyers, and 
+ investors, including two former chairwomen of the SEC and a former chairman of the Financial Accounting Standards Board 
+ (FASB). 
+ The SASB adopts an investor viewpoint and, as a result, a topic might be classified as immaterial from an investor 
+ standpoint although such a topic could be important for other stakeholders. That being said, we expect that there will be overlap 
+ between materiality classifications for different stakeholders if sustainability investments affect financial performance by 
+ affecting customer satisfaction, loyalty, employee engagement, and regulatory risk, for example. The SASB uses the SEC 
+ definition of materiality as interpreted by the U.S. Supreme Court.4 The Public Company Accounting Oversight Board 
+ (PCAOB)5 also refers to the U.S. Supreme Court's6 interpretation of securities laws in its materiality guidance; that is, material 
+ information is defined as presenting a substantial likelihood that the disclosure of the omitted fact would have been viewed by 
+ the reasonable investor as having significantly altered the total mix of information made available. Like the PCAOB, the SASB 
+ defines material information as information that represents a substantial likelihood that its disclosure will be viewed by the 
+ reasonable investor as significantly altering the total mix of information made available. 
+ 4 TSC Industries v. Northway, Inc., 426 U.S. 438, 449 (1976). See, also, Basic, Inc. v. Levinson, 485 U.S. 224 (1988). 
+ 5 The Public Company Accounting Oversight Board is a nonprofit corporation established by the U.S. Congress to oversee the audits of public  companies in order to protect investors and the public interest by promoting informative, accurate, and independent audit reports. See: http://pcaobus.  org/About/Pages/default.aspx  6 TSC Industries v. Northway, Inc., 426 U.S. 438, 449 (1976). See, also, Basic, Inc. v. Levinson, 485 U.S. 224 (1988). 
+ American t j • • r> • 
+ Accounting The Accounting Review 
+ Association Volume 91, Number 6, 2016 
+This content downloaded from 34.225.236.11 on Sat, 29 Mar 2025 21:22:55 UTC 
+All use subject to https://about.jstor.org/terms 
+ Corporate Sustainability: First Evidence on Materiality  1701
+ The investor focus of the SASB is narrower compared to other organizations such as the Global Reporting Initiative (GRI), 
+ which has a multi-stakeholder focus. The GRI states that the information in a GRI-compliant report should cover Aspects7 that: 
+ reflect the organization's significant economic, environmental, and social impacts; or substantively influence the assessments 
+ and decisions of stakeholders. Materiality is the threshold at which Aspects become sufficiently important that they should be 
+ reported.8 
+ By February 2014, the SASB had produced guidance for six sectors (out of a total of ten) that include 45 industries. These 
+ sectors were healthcare, financials, technology and communications, nonrenewable resources, transportation, and services. The 
+ SASB's standards are developed via a multi-stakeholder process consisting of research supported by Bloomberg technology, 
+ data, and analytical tools; balanced, multi-stakeholder industry working groups; a public comment period; and review by an 
+ independent Standards Council comprised of experts in standards development, securities law, environmental law, metrics, and 
+ accounting. Appendix A illustrates each step of the standard-setting process. The SASB convenes balanced industry working 
+ groups—consisting of one-third corporations, one-third market participants, and one-third other stakeholders—to provide 
+ feedback on the SASB's draft sustainability accounting standards. For the six sectors mentioned above, more than 2,100 
+ experts representing $21.7 trillion in assets under management and $9.7 trillion in company market capitalization had 
+ participated in the SASB's industry working groups. 
+ For each topic, the SASB conducts an evidence of materiality test, informed by staff research and industry working groups, 
+ the results of which are ultimately debated and reviewed by the Standards Council after industry working groups composed of 
+ industry experts have provided their input. The test has three components: evidence of interest, evidence of financial impact, 
+ and forward impact adjustment. We describe each one in more detail in Appendix B, but the interested reader can find more 
+ information on the SASB website (see: http://www.sasb.org/). 
+ Sustainability Data 
+ We use MSCI KLD as our source of sustainability data, the dataset most widely used by past studies. For the purposes of 
+ this paper, KLD has a number of advantages. First, it includes a large number of U.S. companies over a long period of time. In 
+ particular, between 1991 and 2000, it included approximately 650 companies; 2001-2002, 1,100 companies; and 2003-2012, 
+ 3,000 companies. Other databases with sustainability data (for example, Thomson Reuters ASSET4) have shorter time-series 
+ and cover fewer U.S. companies. Another advantage of the KLD data is that they provide information about performance on a 
+ specific issue in a standardized format rather than the presence or absence of disclosure, as is the case for many data items in 
+ ASSET4 or Bloomberg. 
+ KLD data have been widely used in the literature by researchers examining the relation between social responsibility and 
+ financial performance (e.g., Graves and Waddock 1994; Turban and Greening 1997; Mattingly and Berman 2006; Godfrey, 
+ Merrill, and Hansen 2009; Ioannou and Serafeim 2015). Researchers at KLD review the company's public documents, 
+ including the annual report, the company website, corporate social responsibility reporting, and other stakeholders' and data 
+ sources. Company ratings represent a snapshot of the firm's profile at calendar year-end. KLD researchers also monitor media 
+ sources for developing issues on a daily basis. The KLD dataset is compiled around the beginning of every year (i.e., January) 
+ and it is typically available in spreadsheets for distribution, at the latest, by late February. 
+ The KLD historical ratings dataset is designed as a binary system and comprises both strengths and concerns. Strengths 
+ represent policies, procedures, and outcomes that enable a firm to have a positive impact on the focal issue. Concerns represent 
+ policies, procedures, and outcomes that tend to have a negative impact on the focal issue. For each strength or concern rating 
+ applied to a company, KLD includes a "1" indicating the presence of that screen/criterion and a "0" indicating its absence. In 
+ total, seven issue areas are included: (1) Community, (2) Corporate Governance, (3) Diversity, (4) Employee Relations, (5) 
+ Product, (6) Environment, and (7) Human Rights. Within each issue area, multiple topics and respective data items exist. For 
+ example, under the Environment issue area, KLD tracks performance on waste management, packaging materials and waste, 
+ environmental opportunities, climate change, and water stress, among other issues. Under the Social issues area, KLD tracks 
+ performance on community engagement, human rights, union relations, workforce diversity, and access to finance, among 
+ other issues. Under the Governance issues area, KLD tracks performance on issues including reporting quality, corruption and 
+ political instability, financial system instability, governance structure, and business ethics. 
+ 7 The term "Aspect" is used in the GRI G4 Guidelines (Guidelines) to refer to the list of subjects for disclosure that are covered by the Guidelines.  Aspects are set out into three Categories—Economic, Environmental, and Social. The Social Category is further divided into four sub-Categories,  which are Labor Practices and Decent Work, Human Rights, Society, and Product Responsibility. See: https://www.globalreporting.org/  resourcelibrary/GRIG4-Partl-Reporting-Principles-and-Standard-Disclosures.pdf 
+ 8 Global Reporting Initiative. G4 Sustainability Reporting Guidelines, Reporting Principles and Standard Disclosures. Available at: https://www.  globalreporting.org/resourcelibrary/GRIG4-Partl-Reporting-Principles-and-Standard-Disclosures.pdf 
+ The Accounting Review aSSSSSn 
+ Volume 91, Number 6, 2016 V A"ocl"lon 
+This content downloaded from 34.225.236.11 on Sat, 29 Mar 2025 21:22:55 UTC 
+All use subject to https://about.jstor.org/terms 
+ 1702 Khan, Serafeim, and Yoon 
+ TABLE 1 
+ Sample Composition 
+ Panel A: Sample Construction 
+ KLD Data (From 1991 to 2013) 
+ Less: not covered by SASB standards released so far 
+ Less: missing firm fundamentals (Compustat/CRSP items) 
+ Less: deletion from changes spec  # of Firms 
+ 6,397
+ (3,420) 
+ (52)
+ (529)
+ # of Firm-Years 
+ 40,518 
+ (22,353) 
+ (315)
+ (3,462) 
+ Total 
+ 2,396
+ 14,388 
+ Panel B: Frequency by Sector 
+ Sector # Unique Firms # of Firm-Years 
+ Financial 670 4,166 
+ Healthcare 554 3,135 
+ Nonrenewable Resources 359 2,324 
+ Services 302 1,814 
+ Technology and Communication 388 2,063 
+ Transportation 123 886 
+ Total 2,396 14,388 
+ Panel C: Frequency by Year 
+ Year # of Firms 
+ 1992 194
+ 1993 196
+ 1994
+ 193
+ 1995 156
+ 1996
+ 183
+ 1997
+ 180
+ 1998
+ 183
+ 1999
+ 193
+ 2000
+ 189
+ 2001 211
+ 2002
+ 376
+ 2003
+ 462
+ 2004
+ 1,107
+ 2005
+ 1,151
+ 2006
+ 1,136
+ 2007
+ 1,111
+ 2008
+ 1,185
+ 2009
+ 1,237
+ 2010
+ 1,211
+ 2011
+ 1,285
+ 2012
+ 1,205
+ 2013
+ 1,044
+ Sum
+ 14,388 
+ TABLE 1 
+ Sample Composition 
+ Table 1, Panel A shows how we arrive at the final sample from the original KLD dataset. Panel B shows the number of 
+ unique firms and unique firm-years that are covered by KLD and included in the sample. The sample comprises 670 firms from 
+ the financial, 554 from the healthcare, 359 from the nonrenewable resources, 302 from the services, 388 from the technology 
+ and communications, and 123 from the transportation sector. In total, there are 2,396 unique firms and 14,388 unique firm 
+ years included in our sample. Firms are allocated to sectors and industries according to the Bloomberg Industrial Classification 
+ l/\l American 
+ \ I Accounting 
+ TV Association  The Accounting Review 
+ Volume 91, Number 6, 2016 
+This content downloaded from 34.225.236.11 on Sat, 29 Mar 2025 21:22:55 UTC 
+All use subject to https://about.jstor.org/terms 
+ Corporate Sustainability: First Evidence on Materiality  1703
+ System (BICS) and the Sustainability Industrial Classification System (SICS).9 We mapped every industry in BICS to every 
+ industry in SICS in order to merge financial data with sustainability data. BICS is the standard system used by investment 
+ banks and money management firms.10 Panel C shows the frequency of firms in our sample by year, which, as expected, 
+ increases over time. 
+ Construction of the Materiality and Immateriality Index 
+ To classify each KLD data item as material or immaterial, we follow guidance from the SASB for each one of the 45 
+ industries in our sample. Specifically, we download each industry standard that identifies material sustainability issues for 
+ companies within an industry. To classify topics, one researcher takes the lead in one sector and all the industries included in 
+ that sector. For each industry, KLD data items that are mapped to material SASB items are classified as material for a given 
+ industry, and all remaining KLD items are classified immaterial for the same industry. After having a complete mapping, 
+ another researcher follows the same process. The two mappings are then compared by a third researcher, who assesses any 
+ differences. In our case, differences in mappings across researchers were minimal.11 
+ Appendix C shows the materiality map of the SASB at the sector level. A more granular view at the industry level can be 
+ obtained by visiting the SASB website. Industries within a sector generally had similar issues classified as material, but differences 
+ could be found. Appendix D provides a mapping of the SASB material topics to the KLD data items across sectors. Approximately 
+ 55 percent of all possible sector-SASB issue pairs were either material or immaterial for all industries within the sector. The largest 
+ variability across industries within a sector is in the services sector, where only 20 percent of the issues were either material or 
+ immaterial across all industries. The lowest variability is within the financials and technology and communication sectors, with 
+ more than 67 percent. The total number of material items identified is small compared to the total number of KLD data items, which 
+ is 124, consistent with SASB claims that their guidance narrows significantly the number of issues that a firm needs to disclose. The 
+ number of material data items ranges from 13 for the healthcare sector to 32 for the services sector, while the financials, 
+ transportation, and the nonrenewable resources sectors have 22 and the technology and communications sector has 19 data items 
+ that are material. Broadly speaking, environmental issues tend to be more material for the nonrenewable resources and 
+ transportation sectors, governance and product-related issues tend to be more material for the financial sector, and social issues tend 
+ to be more material for the healthcare, services, and the technology and communications sectors. Appendix C provides more 
+ detailed information, and for industry mappings, the interested reader can visit the SASB website. 
+ To construct a materiality and immateriality index for firm i in year t, we follow the practice, common in the literature, of 
+ subtracting the concerns from the strengths to arrive at a single net index (e.g., Graves and Waddock 1994; Griffin and Mahon 
+ 1997; Waddock and Graves 1997; Johnson and Greening 1999; Ruf, Muralidhar, and Paul 1993; Ioannou and Serafeim 2015): 
+ Material„ = KLD STRENGTHSASB - ^ KLD CONCERN■„ SASB (1) 
+ Immaterialit = ^ KLD STRENGTH», NONSASB - KLD CONCERNNONSASB (2) 
+ Panel B of Table 1 shows the number of firms each year with a materiality index number and an immateriality index number. 
+ These are the firms available each year to form portfolios, as described next. 
+ Portfolio Formation and Estimation 
+ To test the future performance implications of firms' sustainability performance, we begin by orthogonalizing changes in 
+ the materiality index with respect to changes in firm size, market-to-book ratio (MTB), profitability (ROA), financial leverage, 
+ amount spent on R&D and advertising, institutional ownership, and sector fixed effects (fs). We estimate these models cross 
+ sectionally for each year, as follows:12,13 
+ 9 For more information, see: http://www.sasb.org/sics/ 
+ 10 The SASB's industrial classification system is powered by the Bloomberg Industry Classification System. The SASB leverages the Bloomberg Industry  Classification System to identify to which industry the companies are assigned. 
+ 11 The two researchers disagreed on 2 percent of the total number of mappings. These differences were resolved by consultation with the third researcher. 
+ 12 We regress on those variables because they are fundamental characteristics of a firm in terms of size, growth opportunities and valuation, financial  structure, investment profile, ownership, and profitability. In untabulated results, we added past stock return and earnings volatility, accruals, and  dividend yield, but the explanatory power of the model was unchanged. Moreover, in later analysis, we control for more firm characteristics and our  results remain unchanged. 
+ 13 Substituting sector for industry fixed effects produces very similar results and does not raise the explanatory power of the model. While sustainability  investments seem to vary across sectors, they vary to a less significant extent across industries within a sector. Moreover, in the early period of the  sample, the number of industries is large enough that the average number of companies within an industry is small. 
+ The Accounting Review O £££££!* 
+ Volume 91, Number 6, 2016 V A"ocl*tlon 
+This content downloaded from 34.225.236.11 on Sat, 29 Mar 2025 21:22:55 UTC 
+All use subject to https://about.jstor.org/terms 
+ 1704  Khan, Serafeim, and Yoon 
+ AMaterialit — b\ + bjASizeu + b^AMTB,, + b^AROAi, + b$ ^Leverage u + b^AR&Du 
+ +b-] ^Advertising,, + b^AInstitutionalOwnership,, +fs + e,jt 
+ (3)
+ AImmaterialj, = a.\ + ajASizen + 1x3 AMTBlt + a4AROAlt + 0C5ALeverage^ + a^AR&Du 
+ +0L-1 AAdvertisingu + a^AlnstitutionalOwnershipu +fs + m,j( 
+ (4)
+ The signals used to construct portfolios are the residuals from Equations (3) and (4), which are unexplained changes in the 
+ materiality and immateriality indices (hereafter, "Materiality" and "Immateriality"). This procedure is intended to mitigate 
+ concerns about correlated firm characteristics potentially confounding inferences about the future performance implications of 
+ the materiality index. Moreover, by using for each firm the residual change in the material or immateriality index, we attempt to 
+ isolate the unexpected level of sustainability investments. 
+ The Materiality portfolios are constructed each year by assigning firms with a residual materiality index at the top (bottom) 
+ quintile in that year to the top (bottom) portfolio. Results are robust to constructing the top and bottom portfolios as the top and 
+ bottom deciles. The Immateriality portfolios are constructed in the same manner. 
+ The KLD data are released by the end of February each year, and financial statement data needed for estimation of 
+ Equation (3) are available for almost all firms by the end of March, so we construct portfolios at the end of March to allow an 
+ implementable trading strategy. Value-weighted and equal-weighted portfolios are held from the beginning of April until the 
+ end of March of the following year. Abnormal stock return performance of the portfolios (i.e., alpha) is estimated from Fama 
+ and French (1993) monthly calendar-time regressions that include the market, size, book-to-market, momentum (Carhart 1997), 
+ and liquidity (Pastor and Stambaugh 2003) factors. 
+ Our research design examines the correlation between changes in sustainability investments to changes in stock prices. 
+ Within this research design, alphas capture unexpected performance that cannot be attributed to the five systematic risk factors 
+ of the model. As a result, if ESG data are informative about a firm's future performance that is not attributed to its correlation 
+ with the market, size, value or growth characteristics, momentum, and liquidity, then this informativeness will be captured in a 
+ significant alpha estimate. Our research design draws on the return predictability literature that examines whether a given firm 
+ characteristic (for example, accruals, investment, sustainability scores in our case, among others) is associated with future stock 
+ returns. The approach adopted in that literature is to control for standard risk factors and then test whether a portfolio long and 
+ short scoring high or low in the focal characteristic yields alpha. The alpha indicates the future stock returns associated with the 
+ relevant firm characteristic and unexplained by the firm's exposure to conventional risk factors. 
+ The return predictability literature offers alternative interpretations of alphas. One interpretation is that the alpha likely 
+ captures omitted risk factors and is, therefore, spurious in some sense. This is not the interpretation we adopt in the present 
+ paper. Another interpretation, which we adopt, is that the alpha truly captures return predictability unassociated with risk 
+ factors and that the stock price did not fully impound immediately. Our specific interpretation of the materiality alpha we 
+ document is as follows: since materiality classifications were not previously available, investors could not react to them as soon 
+ as ESG performance data became available (the sustainability data did not distinguish between material and immaterial 
+ investments). As such, the price change (or alpha) was realized over a longer horizon as the materiality investments began to 
+ pay off through observable metrics, such as higher accounting returns, or as investors better understood the financial 
+ implications of sustainability investments through their own analysis. 
+ Table 2, Panels A and B present summary statistics for our sample and the Compustat universe, respectively. As expected, 
+ and consistent with prior studies using KLD data, our sample includes larger firms with higher price-to-book ratios and 
+ profitability margins and higher institutional ownership. Panel C presents summary statistics for the level of the materiality and 
+ immateriality indices, as well as for all the variables used to estimate Models (3) and (4). Panel D presents the results of 
+ estimation of Models (3) and (4), as well as the same model for the total KLD index that takes into account both material and 
+ immaterial items. We obtain similar results mean-adjusting the raw changes in the indices using either the sector or industry 
+ mean raw index. The advantage of the multivariate regression models is that they create a more continuous distribution of 
+ residual values, therefore allowing us to be more precise in our portfolio allocation rules (i.e., including exactly 10 percent of 
+ the firms in a portfolio when we use decile portfolios or 20 percent when we use quintiles). Using the alternative method, where 
+ we simply mean-adjust by sector or industry, we are facing the challenge of lumpy distributions where multiple firms receive 
+ exactly the same score, leading us to include either much lower (if we do not include the last cutoff point) or much higher (if we 
+ do include the last cutoff point) percentages of the sample in the portfolio. However, we report results using this alternative 
+ specification, as well. 
+ Table 3 presents univariate correlations between the variables used in the analysis. The correlation between the materiality 
+ and immateriality indices is positive and moderate (0.3). This suggests that different types of investments are related, but are 
+ sufficiently different to allow us to differentiate firms. The materiality index exhibits small positive correlations with both MTB 
+ (0.08) and Size (0.03) and a small negative correlation with Leverage (-0.02). The immateriality index exhibits small positive 
+ Q aSSS*) The Accounting Review 
+ v A"oc'a,lor' Volume 91, Number 6, 2016 
+This content downloaded from 34.225.236.11 on Sat, 29 Mar 2025 21:22:55 UTC 
+All use subject to https://about.jstor.org/terms 
+ Corporate Sustainability: First Evidence on Materiality 1705 
+ TABLE 2 
+ Summary Statistics 
+ Panel A: Summary Statistics for the Sample in this Study 
+ Mean 
+ Median 
+ Std. Dev.  Ql
+ Q3 n
+ ROA  0.02 0.03
+ 0.12 0.01 0.07
+ 14,388 
+ Leverage  0.19 0.16 0.18
+ 0.04
+ 0.29
+ 14,388 
+ MTB  1.19 1.09
+ 0.53 0.80 1.46
+ 14,388 
+ Size
+ 7.37
+ 7.20
+ 1.62 6.16 8.37 14,388 
+ Market Cap 
+ 6993.17 
+ 1354.77 
+ 17664.86 
+ 459.89 
+ 4429.96 
+ 14,388 
+ R&D 
+ 0.12 0.00 0.53 0.00
+ 0.06 14,388 
+ Advertising Intensity  0.01
+ 0.00
+ 0.02
+ 0.00 0.01
+ 14,388 
+ Institutional Ownership  0.68 0.71 0.25
+ 0.51 0.87
+ 14,388 
+ Capex  0.11
+ 0.09
+ 0.10 0.03 0.15
+ 14,388 
+ SG&A 
+ 0.24 0.19
+ 0.24
+ 0.04 0.36
+ 14,388 
+ Panel B: Summary Statistics for the Compustat Universe 
+ Mean 
+ Median 
+ Std. Dev.  Ql
+ Q3 n
+ ROA
+ -0.17  0.01
+ 0.74
+ -0.09  0.06 224,312 
+ Leverage  0.31 0.19
+ 0.51 0.03 0.39 224,312 
+ MTB  0.93
+ 0.86 0.74
+ 0.47 1.30 224,312  Size
+ 4.39
+ 4.46
+ 2.78 2.46 6.38 224,312 
+ Market Cap 
+ 1708.17 
+ 86.62 
+ 5924.78 
+ 11.74 
+ 588.41  224,312 
+ R&D
+ 0.19 0.00
+ 0.98
+ 0.00 0.02 224,312 
+ Advertising Intensity 
+ 0.01
+ 0.00 0.03 0.00 0.00 224,312 
+ Institutional Ownership  0.19
+ 0.00 0.29
+ 0.00 0.32 224,312 
+ Capex  0.13 0.08
+ 0.16
+ 0.02 0.16 224,312 
+ SG&A 
+ 0.43 0.18 1.24
+ 0.00 0.36 224,312 
+ Panel C: Summary Statistics for Sustainability Scores and Firm Characteristics 
+ Mean 
+ Median 
+ Std. Dev.  Ql
+ Q3
+ n
+ KLD Index 
+ -0.2240 
+ 0.0000 
+ 2.4212 
+ -2.0000 
+ 1.0000 
+ 14,388 
+ Material Index 
+ -0.0954 
+ 0.0000 
+ 0.9413 
+ -1.0000 
+ 0.0000 
+ 14,388 
+ Immaterial Index 
+ -0.1286 
+ 0.0000  1.9652 
+ -1.0000 
+ 1.0000 
+ 14,388 
+ AKLD Index 
+ 0.0306 
+ 0.0000 
+ 1.5518 
+ -1.0000 
+ 1.0000 
+ 14,388 
+ AMaterial Index 
+ 0.0003 
+ 0.0000 
+ 0.6912 
+ 0.0000 
+ 0.0000 
+ 14,388 
+ AImmaterial Index 
+ 0.0303 
+ 0.0000 
+ 1.2880 
+ -1.0000 
+ 1.0000 
+ 14,388  ASize
+ 0.0550 
+ 0.0867 
+ 0.4927 
+ -0.1556 
+ 0.3107  14,388 
+ AMTB 
+ -0.0199 
+ -0.0021 
+ 0.3209 
+ -0.1550 
+ 0.1293  14,388  AROA 
+ -0.0015 
+ 0.0000 
+ 0.0988 
+ -0.0175 
+ 0.0154  14,388 
+ ALeverage 
+ 0.0036 
+ 0.0000 
+ 0.0783 
+ -0.0229 
+ 0.0160  14,388 
+ AR&D 
+ -0.0138 
+ 0.0000 
+ 1.2213 
+ 0.0000 
+ 0.0000  14,388 
+ AAdvertising Intensity 
+ -0.0002 
+ 0.0000 
+ 0.0067 
+ 0.0000 
+ 0.0000  14,388 
+ AInstitutional Ownership 
+ 0.0318 
+ 0.0214 
+ 0.1122 
+ -0.0166 
+ 0.0704  14,388 
+ Panel D: Changes in Sustainability Investments 
+ AKLD Index 
+ AMaterial Index 
+ AImmaterial Index 
+ Parameter Estimate 
+ t
+ Estimate 
+ t
+ Estimate 
+ t
+ Intercept 
+ 0.0869  0.14
+ 0.0118  0.27
+ 0.0752  0.15
+ ASize 
+ 0.0659 
+ -0.11 
+ -0.0075  -0.18 
+ 0.0734 
+ -0.11 
+ AMTB  ■0.0768  0.25
+ 0.0214 
+ 0.40
+ -0.0982  0.26
+ AROA 
+ 0.2858  0.34
+ 0.0833  0.74
+ 0.2025  0.43
+ ALeverage 
+ 0.1955  0.62
+ 0.1806  1.74
+ 0.0149  0.77
+ (continued on next page) 
+ TABLE 2 
+ Summary Statistics 
+ The Accounting Review O JSS* 
+ Volume 91, Number 6, 2016 V A"oc,*"on 
+This content downloaded from 34.225.236.11 on Sat, 29 Mar 2025 21:22:55 UTC 
+All use subject to https://about.jstor.org/terms 
+ 1706 Khan, Serafeim, and Yoon 
+ TABLE 2 (continued) 
+ AKLD Index ^Material Index AImmaterial Index 
+ Parameter 
+ Estimate 
+ t
+ Estimate 
+ t
+ Estimate 
+ t
+ AR&D 
+ 0.3748 
+ 0.06
+ 0.0678 
+ 0.12
+ 0.3070  0.05
+ AAdvertising Intensity 
+ 7.6956  0.52
+ 2.5531  1.92
+ 5.1425  0.58
+ Linstitutional Ownership 
+ -0.1108 
+ 0.04
+ 0.0077  0.07
+ -0.1185  0.05
+ Sector F.E. 
+ Yes
+ Yes
+ Yes
+ n  22
+ 22  22
+ Adj. R2 
+ 5.23% 
+ 7.35% 
+ 6.03% 
+ Panel A presents summary statistics for the analysis sample. Panel B presents summary statistics for the Compustat universe. Panel C reports summary  statistics for the variables used to estimate Models (3) and (4) in Panel D. Panel D reports the time-series average of estimated coefficients from yearly  cross-sectional regressions. The first column uses the change in the total KLD Index as the dependent variable. The second column uses the change in the  Materiality Index as the dependent variable. The third column uses the change in the Immateriality Index as the dependent variable. 
+ Variable Definitions: 
+ Materiality Index = calculated according to Equation (1);  Immateriality Index = calculated according to Equation (2);  ROA = income before extraordinary items over the average of total assets of the current and previous year,  Leverage = long-term debt plus current debt over the average of total assets of the current and previous year,  MTB = market value of equity over book value of equity;  Size = the natural logarithm of calendar year-end market capitalization;  Market Cap = calendar year-end market capitalization;  R&D = research and development expenditures over sales;  Advertising Intensity — advertising expenses over sales;  Institutional Ownership = the percentage of shares held by institutional investors;  Capex = capital expenditures over property, plant, and equipment; and  SG&A = sales, general, and administrative expenses over sales. 
+ correlations with both MTB (0.05) and ROA (0.08) and a moderate correlation with Size (0.28). The residuals derived from 
+ Models (3) and (4) exhibit much lower correlation between them (0.13) compared to the 0.30 of the raw indices, and they have 
+ nearly zero correlation with all MTB, ROA, Size, R&D and Advertising Intensity, and Leverage. 
+ We also discuss some observations from analyzing the different indices at the sector level (untabulated data). The means of 
+ the total KLD, materiality, and immateriality indices represent the differences between strengths and concerns, so that a positive 
+ mean indicates more strengths than concerns. In three of the six sectors we currently examine (Financial, Healthcare, and 
+ Technology and Communication), the signs of total KLD and materiality indices differ. This suggests that for the average firm 
+ in these sectors, the total KLD index misrepresents the strengths and concerns on material issues alone. This highlights the 
+ relevance for investors of materiality classifications. 
+ Moreover, even in sectors where the means of total KLD and materiality indices have the same sign (Nonrenewable 
+ Resources, Services, and Transportation), the ratio of strengths to concerns for the total KLD index is not necessarily 
+ representative of the same ratio for the materiality index. This, too, suggests some loss of relevant information if an investor 
+ uses the total KLD index rather than the materiality index. 
+ In every sector, the standard deviation of the total KLD index is more than twice that of the materiality index. This suggests 
+ that most of the variability in sustainability indices (the total KLD index) across firms comes from their performance on 
+ immaterial issues. If an investor uses the total KLD index to rank firms in a sector on their sustainability score in order to take a 
+ position in higher-ranked firms, then this ranking on the total index will likely misrepresent firms' rankings on material issues. 
+ Finally, the correlations in every sector suggest that the total KLD index is much more highly correlated with the 
+ immaterial index than with the material index (correlations close to 0.8 versus 0.4). This suggests that much of the information 
+ in the total KLD index is about immaterial issues. 
+ IV. RESULTS 
+ Calendar-Time Portfolio Returns 
+ Table 4 presents the estimated coefficients of a five-factor model for the bottom quintile and decile portfolios and top 
+ quintile and decile portfolios of performance on all, material, and immaterial sustainability issues. Panel A presents results 
+ l/\ American 
+ Accounting 
+ Association  The Accounting Review 
+ Volume 91, Number 6, 2016 
+This content downloaded from 34.225.236.11 on Sat, 29 Mar 2025 21:22:55 UTC 
+All use subject to https://about.jstor.org/terms 
+ Corporate Sustainability: First Evidence on Materiality 1707 
+ TABLE 3 
+ Correlation Matrix 
+ Panel A: Correlation Variables KLD Index to Immaterial Index (Residual) 
+ KLD Index Material Index 
+ KLD Index (Residual) Material Index (Residual) 
+ Immaterial Index 
+ Immaterial Index (Residual) 
+ KLD Index (Residual) 
+ 0.35251 
+ 1
+ <0.0001 
+ Material Index 
+ 0.63328 
+ 0.20318 
+ 1
+ <0.0001 
+ <0.0001 
+ Material Index (Residual) 
+ 0.24955 
+ 0.55274 
+ 0.42068 
+ 1
+ <0.0001 
+ <0.0001 
+ <0.0001 
+ Immaterial Index 
+ 0.92875 
+ 0.337 
+ 0.30126 
+ 0.10597 
+ 1
+ <0.0001 
+ <0.0001 
+ <0.0001 
+ <0.0001 
+ Immaterial Index (Residual) 
+ 0.2878 
+ 0.89828 
+ 0.01995 
+ 0.13032 
+ 0.34504 
+ 1
+ <0.0001 
+ <0.0001 
+ 0.0167 
+ <0.0001 
+ <0.0001 
+ MTB
+ 0.06674 
+ 0.01772 
+ 0.08362 
+ 0.01207 
+ 0.04218 
+ 0.01464 
+ <0.0001 
+ 0.0335 
+ <0.0001 
+ 0.1477 
+ <0.0001 
+ 0.0791  Size
+ 0.27088 
+ 0.11108 
+ 0.06914 
+ 0.08914 
+ 0.30063 
+ 0.08516 
+ <0.0001 
+ <0.0001 
+ <0.0001 
+ <0.0001 
+ <0.0001 
+ <0.0001 
+ ROA
+ 0.06554 
+ 0.031 
+ -0.00491 
+ 0.02254 
+ 0.0831 
+ 0.02506 
+ <0.0001 
+ 0.0002 
+ 0.5562 
+ 0.0069 
+ <0.0001 
+ 0.0026 
+ Leverage 
+ -0.00961 
+ 0.01042 
+ -0.02277 
+ 0.00372 
+ -0.00093 
+ 0.01042 
+ 0.249 
+ 0.2115 
+ 0.0063 
+ 0.6554 
+ 0.9109 
+ 0.2114 
+ R&D
+ -0.02321 
+ -0.01133 
+ 0.03504 
+ -0.01122 
+ -0.04226 
+ -0.00798 
+ 0.0666 
+ 0.3705 
+ 0.0056 
+ 0.3752 
+ 0.0008 
+ 0.5282 
+ Advertising Intensity 
+ 0.03185 
+ 0.00977 
+ -0.00808 
+ 0.00794 
+ 0.04289 
+ 0.00751 
+ 0.0132 
+ 0.447 
+ 0.5296 
+ 0.5365 
+ 0.0008 
+ 0.5587 
+ Institutional Ownership 
+ -0.01957 
+ 0.02301 
+ 0.01454 
+ 0.02444 
+ -0.03108 
+ 0.01446 
+ 0.0197 
+ 0.0061 
+ 0.0831 
+ 0.0036 
+ 0.0002 
+ 0.0847 
+ Panel B: Correlation Variables MTB to Institutional Ownership 
+ MTB  Size ROA 
+ Leverage 
+ R&D  Advertising Intensity 
+ MTB
+ 0.24624 
+ <0.0001 
+ 0.01973 
+ 0.018 
+ -0.04258 
+ <0.0001 
+ 0.11429 
+ <0.0001 
+ 0.14828 
+ <0.0001 
+ 0.07656 
+ <0.0001 
+ 1
+ 0.29318 
+ <0.0001 
+ 0.07134 
+ <0.0001 
+ -0.1263 
+ <0.0001 
+ 0.09524 
+ <0.0001 
+ 0.18385 
+ <0.0001 
+ 1
+ -0.08941 
+ <0.0001 
+ -0.49103 
+ <0.0001 
+ -0.0856 
+ <0.0001 
+ 0.12964 
+ <0.0001 
+ 1
+ -0.01587 
+ 0.2099 
+ 0.03848 
+ 0.0027 
+ 0.08006 
+ <0.0001 
+ 1
+ 0.19638 
+ <0.0001 
+ -0.11333 
+ <0.0001 
+ 0.01274 
+ 0.3237  Size
+ ROA 
+ Leverage 
+ R&D 
+ Advertising Intensity 
+ Institutional Ownership 
+ The table presents a univariate correlation matrix. 
+ Variable Definitions: 
+ KLD Index = a calculation summing all of KLD strengths and subtracting all KLD concerns;  Material and Immaterial Indices = calculated as in Models (1) and (2). The residuals for all indices are calculated as in Models (3) and (4);  ROA = income before extraordinary items over the average of total assets of the current and previous year;  Leverage = long-term debt plus current debt over the average of total assets of the current and previous year,  MTB = market value of equity over book value of equity;  Size = the natural logarithm of calendar year-end market capitalization;  Market Cap = calendar year-end market capitalization;  R&D = research and development expenditures over sales;  Advertising Intensity = advertising expenses over sales;  Institutional Ownership = the percentage of shares held by institutional investors;  Capex = capita] expenditures over property, plant, and equipment; and  SG&A is sales, general, and administrative expenses over sales. 
+ TABLE 3 
+ Correlation Matrix 
+ The Accounting Review itoSSSXig 
+ Volume 91, Number 6, 2016 V = 
+This content downloaded from 34.225.236.11 on Sat, 29 Mar 2025 21:22:55 UTC 
+All use subject to https://about.jstor.org/terms 
+ 1708 Khan, Serafeim, and Yoon 
+ TABLE 4
+ Calendar Time Portfolio Analysis
+ TABLE 4
+ Calendar Time Portfolio Analysis
+ Panel A: Investments in All Sustainability Issues
+ Value-Weighted Equal-Weighted
+ Low
+ High
+ Low
+ High
+ Low
+ High
+ Low
+ High
+ Investment
+ Investment
+ Investment
+ Investment
+ Investment
+ Investment
+ Investment
+ Investment
+ Quintile
+ Decile
+ Quintile
+ Decile
+ Parameter
+ Estimate
+ t
+ Estimate
+ t
+ Estimate
+ t
+ Estimate
+ t
+ Estimate
+ t
+ Estimate
+ t
+ Estimate
+ t
+ Estimate
+ t
+ Intercept
+ -0.0003
+ -0.19
+ 0.0021
+ 1.78
+ -0.0002
+ -0.11
+ 0.0017
+ 1.15
+ 0.0021
+ 1.78
+ 0.0019
+ 1.55
+ 0.0020
+ 1.42
+ 0.0021
+ 1.58
+ Market
+ 0.9903
+ 22.25
+ 0.9647
+ 32.88
+ 1.0363
+ 17.66
+ 1.0215
+ 26.71
+ 1.0589
+ 36.35
+ 1.0623
+ 37.06
+ 1.0717
+ 33.03
+ 1.1285
+ 34.22
+ SMB
+ -0.0674
+ -0.97
+ -0.1396
+ -3.21
+ 0.0295
+ 0.34
+ -0.2074
+ -4.26
+ 0.2067
+ 4.46
+ 0.2351
+ 5.39
+ 0.2741
+ 4.96
+ 0.1583
+ 2.98
+ HML
+ 0.0546
+ 0.74
+ 0.1527
+ 3.62
+ 0.0494
+ 0.51
+ 0.1634
+ 2.56
+ 0.4699
+ 9.78
+ 0.5002
+ 11.15
+ 0.4239
+ 7.71
+ 0.4885
+ 9.61
+ UMD
+ -0.0979
+ -1.60
+ -0.0129
+ -0.39
+ -0.1847
+ -2.30
+ -0.0074
+ -0.17
+ -0.1471
+ -5.68
+ -0.1866
+ -4.70
+ -0.1486
+ -4.04
+ -0.2114
+ -4.72
+ LIQ
+ 0.1048
+ 2.42
+ -0.0145
+ -0.44
+ 0.1313
+ 2.46
+ -0.0181
+ -0.41
+ 0.0924
+ 3.28
+ 0.0191
+ 0.61
+ 0.0683
+ 1.90
+ 0.0468
+ 1.37
+ n
+ 261
+ 261
+ 261
+ 261
+ 261
+ 261
+ 261
+ 261
+ Annualized Alpha
+ -0.38%
+ 2.55%
+ -0.29%
+ 2.00%
+ 2.54%
+ 2.32%
+ 2.38%
+ 2.49%
+ Difference in Alphas
+ 2.93%*
+ 2.29%
+ -0.22%
+ 0.11%
+ Panel B: Investments in Material Sustainability Issues
+ Value-Weighted Equal-Weighted
+ Low High
+ Investment Investment
+ Low
+ Investment
+ High
+ Investment
+ Low High
+ Investment Investment
+ Low High
+ Investment Investment
+ Quintile
+ Decile
+ Quintile
+ Decile
+ Parameter
+ Estimate
+ t
+ Estimate
+ t
+ Estimate
+ t
+ Estimate
+ t
+ Estimate
+ t
+ Estimate
+ t
+ Estimate
+ t
+ Estimate
+ t
+ Intercept
+ -0.0011
+ -0.63
+ 0.0024
+ 1.85
+ -0.0019
+ -1.04
+ 0.0043
+ 2.63
+ 0.0016
+ 1.44
+ 0.0038
+ 2.34
+ 0.0014
+ 0.90
+ 0.0036
+ 2.17
+ Market
+ 1.0812
+ 22.31
+ 0.9344
+ 28.23
+ 1.0913
+ 20.91
+ 0.9532
+ 23.46
+ 1.0636
+ 38.25
+ 1.0636
+ 25.92
+ 1.0741
+ 29.87
+ 1.0567
+ 24.10
+ SMB
+ -0.2158
+ -2.52
+ -0.2342
+ -4.26
+ -0.2631
+ -2.93
+ -0.1902
+ -3.15
+ 0.1430
+ 2.90
+ 0.2418
+ 4.08
+ 0.1484
+ 2.21
+ 0.1700
+ 2.83
+ HML
+ -0.0962
+ -1.13
+ 0.1051
+ 1.94
+ 0.0231
+ 0.20
+ 0.0683
+ 1.17
+ 0.3819
+ 8.25
+ 0.6367
+ 8.66
+ 0.5659
+ 9.76
+ 0.5580
+ 7.69
+ UMD
+ -0.0231
+ -0.39
+ -0.0186
+ -0.45
+ -0.0506
+ -0.82
+ -0.1153
+ -2.24
+ -0.1167
+ -4.09
+ -0.1875
+ -2.90
+ -0.1243
+ -2.58
+ -0.1686
+ -3.43
+ LIQ
+ 0.1279
+ 2.72
+ 0.0818
+ 1.96
+ 0.1505
+ 2.65
+ 0.0830
+ 1.86
+ 0.1055
+ 3.70
+ 0.1258
+ 2.19
+ 0.1888
+ 4.83
+ 0.1150
+ 2.11
+ n
+ 261
+ 261
+ 261
+ 261
+ 261
+ 261
+ 261
+ 261
+ Annualized Alpha
+ -1.27%
+ 2.91%
+ -2.23%
+ 5.24%
+ 1.96%
+ 4.65%
+ 1.63%
+ 4.38%
+ Difference in Alphas
+ 4.18%**
+ 7.47%***
+ 2.69%*
+ 2.75%*
+ (continued on next page)
+ o
+ Accosting The Accounting Review 
+ Association  Volume 91, Number 6, 2016 
+This content downloaded from 34.225.236.11 on Sat, 29 Mar 2025 21:22:55 UTC 
+All use subject to https://about.jstor.org/terms 
+ Corporate Sustainability: First Evidence on Materiality 1709 
+ TABLE 4 (continued)
+ Panel C: Investments in Immaterial Sustainability Issues
+ Value-Weighted
+ Equal-Weighted
+ Low
+ Investment
+ High
+ Investment
+ Low
+ Investment
+ High
+ Investment
+ Low
+ Investment
+ High
+ Investment
+ Low
+ Investment
+ High
+ Investment
+ Quintile
+ Decile
+ Quintile
+ Decile
+ Parameter
+ Estimate
+ t
+ Estimate
+ t
+ Estimate
+ t
+ Estimate
+ t
+ Estimate
+ t
+ Estimate
+ t
+ Estimate
+ t
+ Estimate
+ t
+ Intercept
+ -0.0001
+ -0.08
+ 0.0026
+ 2.11
+ -0.0004
+ -0.27
+ 0.0019
+ 1.23
+ 0.0029
+ 2.25
+ 0.0025
+ 2.08
+ 0.0032
+ 2.35
+ 0.0010
+ 0.73
+ Market
+ 0.9564
+ 23.46
+ 0.9979
+ 31.24
+ 0.9668
+ 26.03
+ 1.0805
+ 21.55
+ 1.0456
+ 34.54
+ 1.0620
+ 33.59
+ 1.0590
+ 32.53
+ 1.0139
+ 22.99
+ SMB
+ -0.1083
+ -1.63
+ -0.1497
+ -3.14
+ -0.1705
+ -3.30
+ -0.1333
+ -1.92
+ 0.2235
+ 4.51
+ 0.2195
+ 3.92
+ 0.1569
+ 2.96
+ 0.1990
+ 3.24
+ HML
+ 0.0409
+ 0.57
+ 0.1021
+ 1.98
+ 0.1548
+ 2.63
+ 0.4842
+ 7.06
+ 0.4554
+ 9.40
+ 0.4667
+ 9.39
+ 0.3975
+ 6.42
+ 0.5780
+ 7.87
+ UMD
+ -0.0681
+ -1.14
+ 0.0235
+ 0.61
+ -0.0259
+ -0.82
+ 0.1114
+ 1.89
+ -0.1492
+ -4.65
+ -0.1772
+ -4.17
+ -0.1298
+ -4.08
+ -0.0606
+ -1.03
+ LIQ
+ 0.0775
+ 1.93
+ -0.0791
+ -2.22
+ 0.0985
+ 2.73
+ 0.0371
+ 0.76
+ 0.0390
+ 1.20
+ 0.0136
+ 0.42
+ 0.0657
+ 2.00
+ 0.0369
+ 0.77
+ n 261 261 261 261 261 261 261 261
+ Annualized Alpha -0.15% 3.22% -0.45% 2.27% 3.49% 3.01% 3.92% 1.18%
+ Difference in Alphas 3.37%** 2.72% -0.49% -2.73%*
+ ***, **, * Indicate one-tailed p-values less than 1 percent, 2.5 percent, and 5 percent, respectively.
+ Table 4 reports alphas, factor loadings, and t-statistics from monthly calendar-time Fama-French regressions. Panel A reports results for value-weighted and equal-weighted portfolios of firms scoring at
+ the bottom (Low Investment) and top (High Investment) quintiles of the residual total KLD index. Panel B reports results for value-weighted and equal-weighted portfolios of firms scoring at the bottom
+ (Low Investment) and top (High Investment) quintiles of the residual material index. Panel C reports results for value-weighted and equal-weighted portfolios of firms scoring at the bottom (Low
+ Investment) and top (High Investment) quintiles of the residual immaterial index. The regressions are estimated from April 1993 to March 2014. Market is the market excess return; SMB and HML are
+ the Fama and French (1993) size and book-to-market factors; UMD is the Carhart (1997) momentum factor, and LIQ is the liquidity factor from Pastor and Stambaugh (2003).
+ The Accounting Review A^ntPno 
+ Volume 91, Number 6, 2016 » A««ociation 
+This content downloaded from 34.225.236.11 on Sat, 29 Mar 2025 21:22:55 UTC 
+All use subject to https://about.jstor.org/terms 
+ 1710  Khan, Serafeim, and Yoon 
+ using the residual total KLD index, Panel B using the residual material index, and Panel C using the residual immaterial index. 
+ We present results using both equal- and value-weighted. 
+ In Table 4, Panel A, using the residual total KLD index that aggregates both material and immaterial issues, we find mostly 
+ insignificant alphas. Specifically, the only alphas that are statistically different between the top and bottom portfolio are for the 
+ quintile value-weighted portfolios. The annualized outperformance of the top portfolio is equal to 2.93 percent. The decile 
+ value-weighted portfolios yield an outperformance of 2.29 percent that is not statistically significant. The quintile and decile 
+ equal-weighted portfolios yield a differential performance of —0.22 percent and 0.11 percent, respectively. None of these 
+ estimates are statistically significant. 
+ Table 4, Panel B uses the residual material index and yields stronger results. The estimated alpha for the top portfolio is 
+ significant (p-value < 0.05), ranging from about 3 percent to about 5 percent annualized. The differential alphas between the 
+ bottom and top portfolios are always larger than the ones reported in Panel A. These range from 2.69 percent to 7.47 percent. 
+ We find stronger results as we construct portfolios that maximize the difference in residual material index, with the decile 
+ results producing a larger difference in alphas compared to the quintile portfolios. The value-weighted alphas are slightly higher 
+ than the equal-weighted alphas for equivalent specifications. 
+ Table 4, Panel C uses the residual immaterial index. We find that this index does not consistently predict future stock 
+ returns. Using quintile value-weighted portfolios yields an annualized outperformance of 3.37 percent that is statistically 
+ significant. However, this result does not hold when we use decile portfolios or equal weights. Using equal-weighted portfolios 
+ the top portfolios underperform the bottom portfolio by -0.49 percent and —2.73 percent using quintile or decile allocation 
+ rules, respectively. 
+ Table 5 presents a series of robustness tests. Panel A uses the residual material index, and Panel B uses the residual 
+ immaterial index. For the sake of brevity, we discuss mostly the results of Panel A on the residual material index. As in Table 4, 
+ the results in Panel B of Table 5 are mostly insignificant. We mention in parentheses the estimates for the residual immateriality 
+ index. First, we assess the robustness of results to different factor models. We estimate alphas using the Fama and French 
+ (1993) three-factor model that excludes the momentum and liquidity factors, or a four-factor model that excludes the liquidity 
+ factor (Carhart 1997). The results are unchanged using these alternative factor models. We find a 3.91 percent and 3.88 percent 
+ outperformance on a three- and four-factor model, respectively, using value-weighted portfolios (1.34 percent and 1.21 percent 
+ using the residual immaterial index). The outperformance is 2.18 percent and 2.86 percent on a three- and four-factor model, 
+ respectively, using equal-weighted portfolios (—1.50 percent and —1.28 percent using the residual immaterial index). Raw 
+ returns (i.e., no risk adjustment) show an outperformance of 3.47 percent and 3.67 percent using value- and equal-weighted 
+ portfolios, respectively (1.54 percent and —1.34 percent using the residual immaterial index). 
+ The second robustness test in Table 5 relates to the alternative residual index. Instead of using Models (3) and (4), and 
+ given the relative modest explanatory power of the firm-level variables and the fact that sector fixed effects provide most of the 
+ explanatory power, we construct residual indices by calculating the change in material (immaterial) index for a firm between 
+ years f+1 and t and then adjusting this by the change in material (immaterial) index for the focal firm's sector mean between 
+ years f+1 and t. We find outperformance of 5.59 percent and 3.03 percent using value- and equal-weighted portfolios, 
+ respectively (1.40 percent and —1.02 percent using the residual immaterial index). Therefore, simply mean-adjusting the indices 
+ leaves our results unchanged. 
+ The third series of robustness tests in Table 5 includes a subset of the original sample. First, we exclude any companies 
+ with non-December fiscal year-ends. We exclude those firms since their financial information has been reported well before the 
+ portfolio construction process, therefore potentially influencing our estimates in Models (3) and (4) and the risk-adjustment 
+ process. We find outperformance of 4.93 percent and 1.54 percent using value- and equal-weighted portfolios, respectively 
+ (3.44 percent and —0.52 percent using the residual immaterial index). Second, we exclude firms with business involvement in 
+ controversial businesses. Past literature documents that "sin" stocks outperform in the future because they have been neglected 
+ by the market (Hong and Kacperczyk 2009). Because the involvement in "sin" businesses could be directly related to 
+ sustainability indices, we assess the robustness of our results excluding firms that participate in such lines of business. Although 
+ the industries included in our sample do not involve "sin" businesses, some of the companies might still have ties to "sin" 
+ businesses through equity ownerships or alliances. KLD provides data on business involvement in the alcohol, firearms, 
+ gambling, military, and tobacco businesses. These stocks are just 4 percent of the entire sample and we exclude them from our 
+ portfolios. As expected, for the industries in our sample, relatively fewer companies are involved in sin businesses. Therefore, 
+ the main results remain robust, with outperformance of 4.53 percent and 3.41 percent on a value- and equal-weighted basis, 
+ respectively (1.03 percent and —1.28 percent using the residual immaterial index). 
+ The fourth series of robustness tests in Table 5 analyzes performance over different time periods. We split the analysis 
+ period to before and after 2003. This is the time that KLD increased its coverage, as was documented in Table 1, and it is also 
+ the midpoint of our total period of examination. We find outperformance of 4.27 percent and 1.99 percent using value- and 
+ equal-weighted portfolios, respectively, for the period 1991-2002 (4.19 percent and —1.95 percent using the residual 
+ American 
+ Accounting 
+ %■# Association  The Accounting Review 
+ Volume 91, Number 6, 2016 
+This content downloaded from 34.225.236.11 on Sat, 29 Mar 2025 21:22:55 UTC 
+All use subject to https://about.jstor.org/terms 
+ Corporate Sustainability: First Evidence on Materiality 1711 
+ TABLE 5 
+ Robustness Tests 
+ Panel A: Investments in Material Sustainability Issues 
+ Alternative Factor Models 
+ Low
+ Investment 
+ High
+ Investment 
+ Value-Weigh ted 
+ Low
+ Investment 
+ High
+ Investment 
+ Equal-Weighted 
+ Annualized Alpha 
+ Diff. Annualized Alpha  Diff.
+ Raw Return 
+ 7.18% 
+ 10.64% 
+ 3.47% 
+ **
+ 12.05% 
+ 15.72% 
+ 3.67% 
+ **
+ Three-factor alpha 
+ -0.56% 
+ 3.35% 
+ 3.91% 
+ **
+ 1.67% 
+ 3.85% 
+ 2.18% 
+ *
+ Four-factor alpha 
+ -0.37% 
+ 3.51% 
+ 3.88% 
+ **
+ 2.73% 
+ 5.59% 
+ 2.86% 
+ *
+ Alternative Residual Index 
+ Mean-adjusted 
+ -2.01% 
+ 3.58% 
+ 5.59% 
+ *** 
+ 2.30% 
+ 5.33% 
+ 3.03% 
+ **
+ Subset of Firms 
+ Excluding non-December year-end firms 
+ -2.36% 
+ 2.57% 
+ 4.93% 
+ *** 
+ 1.29%  2.83% 
+ 1.54% 
+ Excluding "sin" firms 
+ -0.79% 
+ 3.74% 
+ 4.53% 
+ **
+ 2.54% 
+ 5.94% 
+ 3.41% 
+ **
+ Subperiods  Analysis Period: 1991-2002 
+ 0.18% 
+ 4.44% 
+ 4.27% 
+ **
+ 3.10% 
+ 5.09% 
+ 1.99% 
+ Analysis Period: 2003-2013 
+ 0.17% 
+ 2.92% 
+ 2.75%  *
+ 2.29% 
+ 5.68% 
+ 3.39% 
+ **
+ Subrankings 
+ Ranking only on strengths 
+ 1.43% 
+ 2.80% 
+ 1.37% 
+ 2.43% 
+ 5.34% 
+ 2.91% 
+ *
+ Ranking only on concerns 
+ 1.03% 
+ -1.19% 
+ -2.22% 
+ 1.52% 
+ 1.80% 
+ 0.29% 
+ Panel B: Investments in Immaterial Sustainability Issues 
+ Low High 
+ Investment Investment 
+ Value-Weighted 
+ Annualized Alpha 
+ Diff.
+ Alternative Factor Models 
+ Raw Return 
+ Three-factor alpha 
+ Four-factor alpha 
+ Alternative Residual Index 
+ Mean-adjusted 
+ Subset of Firms 
+ Excluding non-December year-end firms 
+ Excluding "sin" firms 
+ Subperiods 
+ Analysis Period: 1991-2002 
+ Analysis Period: 2003-2013 
+ Subrankings 
+ Ranking only on strengths 
+ Ranking only on concerns 
+ 7.11% 
+ -0.33% 
+ -0.37% 
+ -0.29% 
+ -0.44% 
+ 0.42% 
+ 1.03% 
+ -1.03% 
+ 1.20% 
+ 4.47% 
+ 8.65% 
+ 1.01% 
+ 0.84% 
+ 1.11% 
+ 2.99% 
+ 1.45% 
+ 5.22% 
+ 1.5
+ 1.54% 
+ 1.34% 
+ 1.21% 
+ 1.!
+ 0.91% 
+ Low High 
+ Investment Investment 
+ Equal-Weighted 
+ Annualized Alpha 
+ Diff.
+ 3.44% ** 
+ 1.0
+ 4.19% ** 
+ 2.61% * 
+ 0.75% 
+ -3.56% 
+ 13.11% 
+ 2.31% 
+ 3.71% 
+ 3.91% 
+ 2.63% 
+ 4.35% 
+ 4.70% 
+ 2.74% 
+ 3.55% 
+ 3.53% 
+ 11.77% 
+ 0.81% 
+ 2.43% 
+ 2.:
+ 2.11% 
+ 3.07% 
+ 2.75% 
+ 3.70% 
+ 2.91% 
+ 3.35% 
+ -1.34% 
+ -1.50% 
+ -1.28% 
+ -1.02% 
+ -0.52% 
+ -1.28% 
+ -1.95% 
+ 0.96% 
+ -0.64% 
+ -0.18% 
+ ***, **, * Indicate one-tailed p-values less than 1 percent, 2.5 percent, and 5 percent, respectively.  The table reports alphas from Fama and French (1993) and Carhart (1997) calendar-time regressions of monthly returns. Under "Alternative Factor  Models," we report estimates and differences in raw returns and in alphas from three- and four-factor models. Under "Alternative Residual Index," we  report estimates and differences in alphas from five-factor models using a residual index that adjusts changes in indices from Models (1) and (2) with  changes in sector mean indices (not using Models (3) and (4)). Under "Subset of Firms," we report estimates and differences in alphas from five-factor  models after excluding firms that have fiscal year-ends other than December or companies involved in "sin" businesses. Under "Subperiods," we report  estimates and differences in alphas from five-factor models separately for the period from 1991-2002 and 2003-2013. Under "Subrankings," we construct  the residual materiality and immateriality index by taking into account only the KLD strengths or concerns. Panel A reports results using the residual  materiality index, while Panel B reports results using the residual immateriality index. Firms scoring at the bottom (Low Investment) and top (High  Investment) quintiles of the residual index are included in the portfolios. 
+ TABLE 5 
+ Robustness Tests 
+ The Accounting Review i 
+ American 
+ Accounting 
+ Volume 91, Number 6, 2016 V A«x«iation 
+This content downloaded from 34.225.236.11 on Sat, 29 Mar 2025 21:22:55 UTC 
+All use subject to https://about.jstor.org/terms 
+ 1712  Khan, Serafeim, and Yoon 
+ immaterial index). We find outperformance of 2.75 percent and 3.39 percent using value- and equal-weighted portfolios, 
+ respectively, for the period 2003-2013 (2.61 percent and 0.96 percent using the residual immaterial index). 
+ The fifth series of robustness tests in Table 5 separates the KLD ranking based on strengths and concerns. Since strengths 
+ are more likely to reflect actual investments, we isolate these data items and replicate our analysis. However, it has been 
+ empirically shown that strengths and concerns are positively correlated (Kotchen and Moon 2012; Ioannou and Serafeim 
+ 2015). Therefore, ranking firms based on only one or the other is likely to ignore information from the other component 
+ (Ioannou and Serafeim 2015). Indeed, we find weaker results when we screen only on strengths or only on concerns. The 
+ outperformance on a value-weighted base is 1.37 percent and on an equal-weighted base is 2.91 percent using strengths (0.75 
+ percent and —0.64 percent using the immaterial index).14 
+ Across almost all specifications estimated, we find a larger difference in performance across the two groups of firms for 
+ value-weighted portfolios, consistent with studies that document sustainability issues to have a larger impact on larger firms. 
+ For example, Eccles et al. (2014) show that firms adopting sustainability policies in the early 1990s, before adoption of such 
+ policies became common, outperformed their matched peers by 2.4 percent on an equal-weighted basis, but by 4.7 percent on a 
+ value-weighted basis.15 
+ Firm-Level Panel Regressions 
+ In Table 6, we estimate firm-level panel regressions of future monthly stock returns on a number of firm characteristics. 
+ This specification allows us to control for a host of potential return predictors not captured in the Fama and French (1993) 
+ calendar-time regression specification above. We control for past stock returns, firm size, book-to-market, share turnover, ROE, 
+ analyst coverage, R&D intensity, advertising intensity, SG&A intensity, capital expenditures, and leverage. We include year 
+ month fixed effects and industry or firm fixed effects. Including industry fixed effects in Panel A allows us to estimate estimates 
+ across firms. Panel B allows us to estimate within-firm variation in stock returns as a function of a firm's sustainability 
+ investments. We also report specifications that control for a host of observable governance characteristics that might be 
+ correlated with our residual materiality index. Specifically, we control for the number of institutional blockholders, the number 
+ of directors failing to attend the minimum number of board meetings, and the number of directors that are busy (sitting at four 
+ or more boards). The variables of interest are indicator variables for firms that score at the top quintile of the residual total KLD, 
+ materiality, and immateriality index. 
+ The results are very similar to the results from the time-series portfolio analysis. In Table 6, Panel A, Column (1), we find 
+ that firms scoring at the top quintile of the residual total KLD index have a 2.16 percent higher annualized stock return that is 
+ marginally significant. Column (2) shows that this outperformance is driven only by firms that score high on the residual 
+ materiality index. The estimated coefficient on the indicator for firms that score at the top quintile of the residual materiality 
+ index suggests that these firms outperform by 6.47 percent annually. In contrast, the estimated coefficient on the indicator 
+ variable for firms in the top quintile of the residual immateriality index is insignificant. Columns (3) and (4) also include 
+ governance variables as a control. Our sample decreases by close to 32 percent as a result of missing observations for the 
+ governance controls. However, our results remain qualitatively unchanged. Firms scoring at the top quintile of the residual total 
+ KLD index have a 1.92 percent higher annualized stock return, but it is not significant. The estimated coefficient on the 
+ indicator for firms that score at the top quintile of the residual materiality index suggests that these firms outperform by 4.90 
+ percent annually. In contrast, the estimated coefficient on the indicator variable for firms in the top quintile of the residual 
+ immateriality index is again negative, but insignificant. 
+ Panel B of Table 6 shows estimates after including firm fixed effects. The results are very similar. In Column (1), we find 
+ that firms scoring at the top quintile of the residual total KLD index have a 2.34 percent higher annualized stock return that is 
+ 14 We also attempted to perform our analysis within each sector separately. This approach is problematic using our sample, though, because of the small  sample that is available to us within each sector. This makes the portfolio approach difficult to implement as, especially in the early years, we have only  50-70 firms or so within a sector and allocating firms to quintiles leads to very thin portfolios. While we still find significant results for four out of the  six sectors (financials, healthcare, services, technology), we are careful not to place much confidence in results generated from thin portfolios. An  alternative approach would be to run the panel regressions interacting the materiality indicator variable with the sector fixed effects. When we do so, we  find that across all sectors, there is a return premium for firms in the top quintile of the materiality index. 
+ 15 Material issues do not appear to relate predominantly to those that involve technical stakeholders, such as employees and customers, with whom the  firm exchanges resources, while immaterial issues do not relate predominantly to those that involve institutional stakeholders, such as communities,  environmental groups, and minorities, who might impose normative expectations on firms. Prior research has suggested that benefits that accrue to the  firm from attending to institutional stakeholders are more uncertain and difficult to assess relative to benefits from attending to employees and  customers (Atkinson and Galaskiewicz 1988; Hart 1995; Shrivastava and Hart 1995; Delery and Doty 1996). There is variability across industries in  whether material sustainability issues fall within the realm of resource exchange stakeholders versus institutional stakeholders and, on average, material  issues fall roughly equally into the two stakeholder groups. Therefore, our results are unlikely to be explained by the difference between technical and 
+ institutional stakeholders. 
+ O The Accounting Review 
+ V A"ocla,lon Volume 91, Number 6, 2016 
+This content downloaded from 34.225.236.11 on Sat, 29 Mar 2025 21:22:55 UTC 
+All use subject to https://about.jstor.org/terms 
+ Corporate Sustainability: First Evidence on Materiality 1713 
+ TABLE 6 
+ Firm-Level Panel Regressions for Investments in Sustainability Issues and Stock Returns 
+ TABLE 6 
+ Firm-Level Panel Regressions for Investments in Sustainability Issues and Stock Returns 
+ Panel A: Cross-Sectional Estimates 
+ Parameter 
+ Estimate 
+ t
+ Estimate 
+ t
+ Estimate 
+ t
+ Estimate 
+ t
+ Intercept 
+ 0.0322  4.35
+ 0.0323 
+ 4.36
+ 0.0411  3.07
+ 0.0407  3.03
+ High All Sustainability Issues 
+ 0.0018 
+ 1.86
+ 0.0016  1.58
+ High Material Sustainability Issues 
+ 0.0052 
+ 6.60
+ 0.0040  3.83
+ High Immaterial Sustainability Issues 
+ -0.0002 
+ -0.31 
+ -0.0005 
+ -0.50 
+ Last Year's Return 
+ -0.0319 
+ -2.47 
+ -0.0313 
+ -2.42 
+ -0.0710 
+ -4.68 
+ -0.0691 
+ -4.55 
+ Size
+ -0.0009 
+ -4.26 
+ -0.0009 
+ -4.79 
+ -0.0017 
+ -5.71 
+ -0.0017 
+ -5.80 
+ BTM 
+ 0.0008 
+ 1.34
+ 0.0007  1.22
+ 0.0020  2.93
+ 0.0019  2.89
+ Turnover 
+ -0.0007 
+ -2.24 
+ -0.0007 
+ -2.31 
+ -0.0002 
+ -0.64 
+ -0.0002 
+ -0.65 
+ ROE
+ -0.0076 
+ -3.29 
+ -0.0076 
+ -3.32 
+ -0.0051 
+ -2.11 
+ -0.0051 
+ -2.10 
+ Analyst Coverage 
+ -0.0030 
+ -1.05 
+ -0.0030 
+ -1.04 
+ -0.0055 
+ -1.07 
+ -0.0055 
+ -1.07 
+ Leverage 
+ 0.0003 
+ 0.17
+ 0.0001 
+ 0.05
+ 0.0026  1.03
+ 0.0023  0.93
+ R&D
+ 0.0000  6.51
+ 0.0000  6.36
+ 0.0000 
+ 14.74 
+ 0.0000 
+ 14.42 
+ Advertising Intensity 
+ -0.0140 
+ -6.11 
+ -0.0139 
+ -6.14 
+ -0.0107 
+ -1.26 
+ -0.0104 
+ -1.25 
+ SG&A 
+ -0.0001 
+ -0.70 
+ -0.0001 
+ -0.70 
+ 0.0000 
+ -0.32 
+ 0.0000 
+ -0.32 
+ Capital Expenditure 
+ -0.0014 
+ -0.31 
+ -0.0015 
+ -0.34 
+ -0.0025 
+ -0.52 
+ -0.0025 
+ -0.54 
+ Institutional Blockholders 
+ -0.0011 
+ -4.06 
+ -0.0011 
+ -4.05 
+ Directors Failing 
+ 0.0130  1.38
+ 0.0135  1.43
+ Busy Directors 
+ 0.0120  2.81
+ 0.0120  2.83
+ Year-Month F.E. 
+ Yes
+ Yes
+ Yes
+ Yes
+ Industry F.E. 
+ Yes
+ Yes
+ Yes
+ Yes
+ n
+ 154,786  154,786  105,674 
+ 105,674 
+ Adj. R2 
+ 17.41% 
+ 17.43% 
+ 20.72% 
+ 20.73% 
+ Annualized abnormal performance 
+ 2.16% 
+ 6.47% 
+ 1.92% 
+ 4.90% 
+ Panel B: Within-Firm Estimates 
+ Parameter 
+ Estimate 
+ t
+ Estimate 
+ t
+ Estimate 
+ t
+ Estimate 
+ t
+ Intercept 
+ 0.2728  16.39 
+ 0.2710 
+ 15.65 
+ 0.2748  9.98
+ 0.2730  12.55 
+ High Residual KID index 
+ 0.0019 
+ 2.24
+ 0.0017  1.75
+ High Residual Materiality Index 
+ 0.0039 
+ 4.50
+ 0.0033 
+ 3.10
+ High Residual Immateriality Index 
+ 0.0000  0.01
+ -0.0003 
+ -0.27 
+ Last Year's Return 
+ -0.0427 
+ -2.65 
+ -0.0418 
+ -3.42 
+ -0.0796 
+ -4.48 
+ -0.0777 
+ -5.40 
+ Size
+ -0.0319 -  -23.08 
+ -0.0319 - 
+ -32.95 
+ -0.0418 
+ -20.19 
+ -0.0418 
+ -32.34 
+ BTM 
+ -0.0011 
+ -0.64 
+ -0.0011 
+ -1.16 
+ -0.0003 
+ -0.17 
+ -0.0003 
+ -0.25 
+ Turnover 
+ -0.0027 
+ -5.68 
+ -0.0027 
+ -9.23 
+ -0.0024 
+ -5.04 
+ -0.0024 
+ -7.22 
+ ROE
+ -0.0027 
+ -0.98 
+ -0.0027 
+ -1.42 
+ -0.0033 
+ -0.99 
+ -0.0033 
+ -1.45 
+ Analyst Coverage 
+ -0.0232 
+ -5.52 
+ -0.0231 
+ -7.71 
+ -0.0140 
+ -1.64 
+ -0.0140 
+ -2.63 
+ Leverage 
+ -0.0021 
+ -0.41 
+ -0.0018 
+ -0.42 
+ 0.0068 
+ 1.02
+ 0.0067  1.22
+ R&D
+ 0.0000  1.39
+ 0.0000  2.27
+ 0.0000  1.28
+ 0.0000 
+ 2.17
+ Advertising Intensity 
+ -0.0157 
+ -3.05 
+ -0.0157 
+ -3.37 
+ -0.0097 
+ -0.68 
+ -0.0095 
+ -0.72 
+ SG&A 
+ -0.0002 
+ -1.52 
+ -0.0002 
+ -1.98 
+ -0.0001 
+ -1.01 
+ -0.0001 
+ -1.41 
+ Capital Expenditure 
+ -0.0136 
+ -2.18 
+ -0.0137 
+ -2.67 
+ -0.0138 
+ -1.75 
+ -0.0137 
+ -2.22 
+ Institutional Blockholders 
+ -0.0024 
+ -5.62 
+ -0.0024 
+ -6.41 
+ Directors Failing 
+ 0.0165 
+ 1.45 0.0171  1.52
+ Busy Directors 
+ -0.0031 
+ -0.55 
+ -0.0030 
+ -0.46 
+ Year-Month F.E. 
+ Yes
+ Yes
+ Yes
+ Yes
+ Firm F.E. 
+ Yes
+ Yes
+ Yes
+ Yes
+ n 154,786 
+ 154,786 
+ 105,674  105,674 
+ Adj. R2 
+ 20.38% 
+ 20.38% 
+ 24.02% 
+ 24.02% 
+ Annualized abnormal performance 
+ 2.34% 
+ 4.78% 
+ 2.08% 
+ 4.01% 
+ (continued on next page) 
+ The Accounting Review Tj iSSK* 
+ Volume 91, Number 6, 2016 V A"CK:l*"on 
+This content downloaded from 34.225.236.11 on Sat, 29 Mar 2025 21:22:55 UTC 
+All use subject to https://about.jstor.org/terms 
+ 1714  Khan, Serafeim, and Yoon 
+ TABLE 6 (continued) 
+ Dependent variable is the monthly stock return for each firm, measured as in the calendar-time portfolios for every month beginning in April of the year  after a KLD index is calculated (year M-l) until March of the year after (year f+2). Standard errors are robust and clustered at the firm level. 
+ Variable Definitions: 
+ High Residual KLD Index = an indicator variable for firms scoring at the top quintile of the residual total KLD index;  High Residual Materiality Index = an indicator variable for firms scoring at the top quintile of the residual material index;  High Residual Immateriality Index = an indicator variable for firms scoring at the top quintile of the residual immaterial index;  Last Year's Return = the 12-month stock return of the firm between April in year t— 1 and March in year t;  Size = the natural logarithm of the market capitalization of the firm at the end of the previous month;  BTM = shareholders' equity in the last fiscal year over market capitalization at the end of the previous month;  Turnover = shares traded over shares outstanding calculated each month;  ROE = net income over beginning shareholders' equity in the previous fiscal year;  Analyst Coverage = calculated as the number of analysts making earnings per share (EPS) forecasts for a firm over the previous fiscal year;  Leverage — total liabilities over total assets calculated over the previous calendar year;  R&D = research and development expenditures divided by sales;  Advertising Intensity = advertising expenditures over sales;  SG&A = sales, general, and administrative expenditures over sales;  Capital Expenditure = capital expenditures over sales;  Institutional Blockholders = the natural logarithm of 1 plus the number of institutions that own 5 percent or more of the outstanding shares;  Directors Failing = the number of directors that failed to attend the minimum number of board meetings; and  Busy Directors = the number of directors that sit on four or more boards. 
+ marginally significant. Column (2) shows that this outperformance is driven only by firms that score high on the residual 
+ materiality index. The estimated coefficient on the indicator for firms that score at the top quintile of the residual materiality 
+ index suggests that these firms outperform by 4.78 percent annually. In contrast, the estimated coefficient on the indicator 
+ variable for firms in the top quintile of the residual immateriality index is insignificant. After controlling for the governance 
+ variables, firms scoring at the top quintile of the residual total KLD index have a 2.08 percent higher annualized stock return, 
+ but it is not significant. The estimated coefficient on the indicator for firms that score at the top quintile of the residual 
+ materiality index suggests that these firms outperform by 4.01 percent annually. In contrast, the estimated coefficient on the 
+ indicator variable for firms in the top quintile of the residual immateriality index is negative, but insignificant. 
+ In untabulated analysis, we replicate the analysis in Table 6 using the continuous indices, rather than an indicator variable, 
+ for the firms that score at the top quintile. The indicator variable approach is consistent with our main portfolio-level research 
+ design and investment management practice in the responsible investing space that uses best-in-class screens, which seek to 
+ identify and include in the portfolio the firms that score at the top quintile or decile of the distribution. An advantage of the 
+ continuous variable approach is that it can provide evidence of the value of sustainability investments for the full continuum of 
+ firms by differentiating between firms investing the most and all the rest. A disadvantage of this approach is that it requires 
+ relatively high confidence in the ability of the index to differentiate between firms across the whole distribution of values. 
+ We find weaker results using the continuous indices. Although the estimated coefficients are directionally consistent with 
+ the analysis so far, they do not attain significance or, at best, attain modest significance. This is consistent with the financial 
+ implications from sustainability investments having a nonlinear profile. Estimating coefficients on indicator variables that take 
+ the value of 1 for each quintile of firms according to the residual materiality index (omitted category is the bottom quintile), we 
+ find that the third quintile is the cause of the weakened results using the continuous residual materiality index. Firms in the third 
+ quintile have lower stock returns compared to the first quintile (bottom portfolio). The estimated coefficient on an indicator 
+ variable for firms in the third quintile is —0.0020 (t-stat = —1.84) and —0.0017 (t-stat=—1.42) using the second or fourth model 
+ as in Table 6, Panel B. The highest returns are for the fifth quintile (top portfolio), as expected. The estimated coefficient on an 
+ indicator variable for firms in the fifth quintile is 0.0038 (t-stat = 3.65) and 0.0035 (t-stat = 2.76) using the second or fourth 
+ model as in Table 6, Panel B. Another explanation for these results is that the ability of the index to differentiate between firms 
+ within a more narrow range of differences is more limited, therefore increasing noise in the estimation and biasing the 
+ coefficients toward zero. 
+ Materiality Index, Immateriality Index, and Stock Returns 
+ To shed more light on the differential return on investment from material versus immaterial sustainability issues, we 
+ compare firms that score high on the residual materiality index and low on the residual immateriality index ("Material 
+ investment firms") versus firms that score low on the residual materiality index and high on the residual immateriality index 
+ The Accounting Review 
+ Volume 91, Number 6, 2016 
+This content downloaded from 34.225.236.11 on Sat, 29 Mar 2025 21:22:55 UTC 
+All use subject to https://about.jstor.org/terms 
+ Corporate Sustainability: First Evidence on Materiality 1715 
+ TABLE 7 
+ Performance on Material and Immaterial Sustainability Issues 
+ Low Investment  High Investment  High Investment 
+ Low Investment 
+ on Immaterial 
+ on Immaterial 
+ on Immaterial 
+ on Immaterial 
+ Issues and High  Issues and High 
+ Issues and Low 
+ Issues and Low 
+ Investment on 
+ Investment on 
+ Investment on 
+ Investment on 
+ Material 
+ Material 
+ Material 
+ Material 
+ Parameter 
+ Estimate 
+ t
+ Estimate 
+ t
+ Estimate 
+ t
+ Estimate 
+ t
+ Intercept 
+ 0.0039  1.96
+ 0.0012  0.57
+ -0.0003 
+ -0.15 
+ -0.0019 
+ -0.78 
+ Market 
+ 0.8882 17.99 
+ 0.9358  17.96 
+ 1.0641 
+ 19.24 
+ 1.0242 
+ 16.22 
+ SMB 
+ -0.2222  3.13
+ -0.0557 
+ -0.73 
+ -0.2448 
+ -2.70 
+ -0.0181 
+ -0.14 
+ HML 
+ 0.3145 
+ 4.47
+ -0.0846 
+ -0.82 
+ -0.1508 
+ -1.34 
+ 0.0310  0.28
+ UMD 
+ 0.0214  0.46
+ -0.1994 
+ -2.78 
+ -0.0438 
+ -0.73 
+ -0.1633 
+ -1.79 
+ LIQ
+ 0.0514 
+ 0.93
+ 0.0287  0.39
+ 0.0383  0.59
+ 0.2554 
+ 3.94
+ n  261
+ 261
+ 261 261
+ Annualized Alpha 
+ 4.83% 
+ 1.50% 
+ -0.38% 
+ -2.20% 
+ Difference Alphas; Column (1) is the benchmark 
+ 3.32%* 
+ 5.20%** 
+ 7.03%*** 
+ ***, **, * Indicate one-tailed p-values less than 1 percent, 2.5 percent, and 5 percent, respectively.  The table reports alphas, factor loadings, and t-statistics from monthly calendar-time Fama-French regressions for value-weighted portfolios.  Classifications are based on the residual materiality and immateriality indices as calculated in Models (3) and (4). The intersections of quartile portfolios  are formed to estimate the regressions. Firms scoring at the bottom (Low Investment) and top (High Investment) quintiles of the residual index are  included in the portfolios. The regressions are estimated from April 1993 to March 2013. Market is the market excess return; SMB and HML are the Fama  and French (1993) size and book-to-market factors; UMD is the Carhart (1997) momentum factor; and LIQ is the liquidity factor from Pastor and  Stambaugh (2003). 
+ TABLE 7 
+ Performance on Material and Immaterial Sustainability Issues 
+ ("Immaterial investment firms"). This allows us to provide sharper evidence on the shareholder value implications of 
+ sustainability investments. 
+ We use quartile portfolios as cutoff values both for bad and good performance, as quintile and decile portfolios are too thin 
+ due to the positive univariate correlation between material and immaterial indices. However, quartile portfolio cutoffs yield 
+ weaker results overall, so the results in this section should be benchmarked against that backdrop. Imposing a quartile cutoff for 
+ the portfolio results in approximately 35 stocks, on average, every year in each one of the portfolios for Material and Immaterial 
+ investment firms. The number of stocks in the All and No investment firms is, on average, closer to 50 every year. This is likely 
+ due to the positive correlation between the residual material and the immaterial index. The number of firms that exhibit high 
+ performance on one index and low performance on the other is lower compared to firms that perform well or badly on both. As 
+ before, we use the residuals of the indices to construct the portfolios. 
+ Table 7 presents the estimated coefficients of a five-factor model for value-weighted portfolios. The estimated alpha for the 
+ portfolio of Material investment firms is larger in magnitude and statistically different from zero. We find estimated annualized 
+ alphas of 4.83 and —0.38 percent for top performers on material issues and immaterial issues, respectively, for a difference of 
+ 5.20 percent, which is statistically significant at the 1 percent level. Material investment firms also outperform All investment 
+ firms by 3.32 percent. This result shows the importance of firms distinguishing between the types of investments they make. 
+ Grouping both material and immaterial investments together yields lower performance. Firms that make no investments have 
+ the worst performance across all groups of firms, with an estimated alpha of—2.20 percent. The results are similar using equal 
+ weighted instead of value-weighted portfolios. Comparing the alphas on the set of firms with good performance on material 
+ sustainability suggests that the positive effect from investments in material sustainability issues is larger for firms that make 
+ investments only in material sustainability issues versus firms that make investments in both material and immaterial issues. 
+ Firms that invest only in material issues are likely to have concentrated their efforts only on the material issues after 
+ undertaking a careful materiality analysis. Indeed, in the last ten years, the number of firms that perform a materiality 
+ assessment through stakeholder engagement has been increasing (Eccles and Krzus 2014). One potential interpretation, 
+ therefore, is that while two firms could both score at the top quartile of the residual material index, their relative score on the 
+ residual immaterial index provides information about the extent of commitment of resources on the material sustainability 
+ issues. We are careful not to over-emphasize the results of this analysis, though, since the two portfolios that require high scores 
+ on one index and low scores on the other index are somewhat thin. 
+ The Accounting Review aJJSSSIn 
+ Volume 91, Number 6, 2016 V 
+This content downloaded from 34.225.236.11 on Sat, 29 Mar 2025 21:22:55 UTC 
+All use subject to https://about.jstor.org/terms 
+ 1716  Khan, Serafeim, and Yoon 
+ V. FUTURE ACCOUNTING PERFORMANCE 
+ Until this point, we have examined future stock market performance to understand the value implications of sustainability 
+ investments. We complement this analysis by examining future changes in accounting performance. The number of investors 
+ integrating ESG data in investment decisions has grown considerably over the period of study, potentially putting price 
+ pressure on the stocks of firms with good ESG performance and contributing to the positive alphas found earlier for firms with 
+ good sustainability performance. If firms investing in material sustainability issues exhibit superior future accounting 
+ performance, then this would suggest that price pressure alone cannot explain the superior future stock price performance. 
+ Table 8 shows future changes in accounting performance (return on sales [ROS]) of firms scoring high and low on the 
+ residual materiality index for quintile portfolios. In untabulated analysis, we find similar patterns when we examine changes in 
+ return on assets and return on equity. We tabulate changes in ROS up to five years in the future. Panel A presents results using 
+ the residual total KLD index, the residual material index, and the residual immaterial index. We do not find a consistent 
+ outperformance for firms scoring in the top quintile of the residual total KLD index relative to firms scoring at the bottom. 
+ In contrast, Table 8, Panel A shows that firms scoring high on the residual material index experience relatively more 
+ positive changes in profitability margins. Specifically, we find that changes in ROS are more positive for the portfolio of firms 
+ performing better on material issues. Across all time horizons, the difference in future changes in profitability margins is 
+ positive. Starting from the second year in the future and until the fifth year in the future, we find significant difference in ROS 
+ growth of 6.89 percent to 9.20 percent. While the top portfolio experiences increases in ROS, the bottom portfolio experiences 
+ declines. The residual immaterial index fails to predict future changes in profitability margins. We find no difference in future 
+ accounting performance between firms scoring at the top or bottom quintile of the residual immaterial index. 
+ Table 8, Panel B presents panel-level regressions, similar to the analysis in Table 6. Columns (1) and (2) include industry 
+ fixed effects, while Columns (3) and (4) use firm fixed effects. Columns (2) and (4) also control for the governance variables. 
+ We use as the dependent variable the two-year-ahead change in ROS. Using three-, four-, or five-year changes lead to similar 
+ results. We find that, all else equal, firms scoring at the top quintile of the residual material index have higher future ROS 
+ growth. In contrast, the coefficient on the indicator variable for firms scoring at the top quintile of the residual immaterial index 
+ is insignificant. Overall, the results from the analysis of the accounting performance complement the analysis of stock returns 
+ and suggest that the materiality guidance helps construct measures of sustainability investments that are better predictors of 
+ future financial performance. 
+ Consistent with the profitability margin analysis in Table 8, in untabulated analysis, we find that investors incorporate in 
+ stock prices the financial implications from sustainability investments in the future. Specifically, we replicate the analysis in 
+ Table 4 now constructing the portfolios starting in April of year t+2 and holding the stocks until March of f+3 (sustainability 
+ data are for year t). We find insignificant differences in alphas across the top and bottom portfolios when we use the residual 
+ materiality index. Using value-weighted (equal-weighted) portfolios, we find a statistically insignificant difference of —0.2 
+ percent (—2.0 percent). As the impact from sustainability investments flows through a company's financial numbers, investors 
+ are incorporating this information in stock prices and, as a result, the differential alpha across portfolios disappears. 
+ Collectively, the results are unlikely to be driven by stock demand by sustainability-conscious investors whose buying 
+ exerts upward stock price pressure, because the price pressure story: (1) Does not explain the better future accounting 
+ performance of firms with strong material sustainability ratings, as we document; and (2) Requires that investors were able to 
+ discriminate between material and immaterial investments in the absence of publicly available materiality classifications, and 
+ increase demand only for firms with investments in material sustainability issues. However, as described earlier, this appears to 
+ conflict with the expressed demand of institutional investors for better investment signals in the form of materiality 
+ classifications. 
+ VI. CONCLUSION 
+ We use recent guidance by the SASB to classify sustainability issues as material or immaterial according to industry 
+ membership. Exploiting variation in materiality across the large number of sustainability issues has the potential to improve the 
+ signal-to-noise ratio in testing the future performance implications of sustainability investments and reduce the dimensionality 
+ of price-relevant investment signals used by the large number of institutional investors committed to ESG initiatives. In this 
+ paper, we take a first step toward these objectives by examining the future performance implications of material versus 
+ immaterial sustainability investments. 
+ We find that firms with strong ratings on material sustainability issues have better future performance than firms with 
+ inferior ratings on the same issues. In contrast, firms with strong ratings on immaterial issues do not outperform firms with poor 
+ ratings on these issues. Finally, firms with strong ratings on material issues and concurrently poor ratings on immaterial issues 
+ have the best future performance. Collectively, these results are consistent with materiality guidance being helpful in improving 
+ l/\ American  Accounting 
+ X7 Association  The Accounting Review 
+ Volume 91, Number 6, 2016 
+This content downloaded from 34.225.236.11 on Sat, 29 Mar 2025 21:22:55 UTC 
+All use subject to https://about.jstor.org/terms 
+ Corporate Sustainability: First Evidence on Materiality 1717 
+ TABLE 8 
+ Future Accounting Performance 
+ Panel A: Portfolio Results 
+ t = 0 
+ t = 0 
+ f = 0 
+ t = 0 
+ t = 0 
+ to t = 1 
+ tot = 2 
+ to t = 3 
+ to t = 4 
+ to t = 5 
+ All Sustainability Issues 
+ Low Investment 
+ -0.58% 
+ -0.41% 
+ -0.70% 
+ -3.48% 
+ -7.52% 
+ High Investment 
+ -0.56% 
+ 4.18% 
+ -1.13% 
+ -0.13% 
+ -2.15% 
+ Difference 
+ 0.02% 
+ 4.59% 
+ -0.44% 
+ 3.36% 
+ 5.37% 
+ t-stat  0.01 2.08
+ -0.17  1.25 1.90
+ Material Sustainability Issues 
+ Low Investment 
+ 0.71% 
+ -0.97% 
+ -2.51% 
+ -4.69% 
+ -5.61% 
+ High Investment 
+ 0.99% 
+ 5.91% 
+ 4.74% 
+ 3.04% 
+ 3.59% 
+ Difference 
+ 0.28% 
+ 6.89% 
+ 7.26% 
+ 7.74% 
+ 9.20% 
+ t-stat  0.14 2.93
+ 2.73 2.69
+ 3.10
+ Immaterial Sustainability Issues 
+ Low Investment 
+ -0.69% 
+ -0.70% 
+ -0.27% 
+ -3.23% 
+ -8.23% 
+ High Investment 
+ -2.44% 
+ -0.08% 
+ -3.68% 
+ -1.98% 
+ -4.36% 
+ Difference 
+ -1.75% 
+ 0.63% 
+ -3.41% 
+ 1.25% 
+ 3.88% 
+ t-stat 
+ -0.93  0.28 
+ -1.34  0.45 1.36
+ Panel B: Panel Regressions 
+ Parameter 
+ Estimate 
+ t Estimate 
+ t
+ Estimate 
+ t
+ Estimate 
+ t
+ Intercept 
+ -0.4268 
+ -2.77 
+ -0.3644 
+ -0.97 
+ -0.1362 
+ -0.43 
+ -0.5829 
+ -0.83 
+ High Residual Materiality Index 
+ 0.0802  3.79
+ 0.0695  2.58
+ 0.0823  3.76
+ 0.0894  3.20
+ High Residual Immateriality Index 0.0066  0.35
+ 0.0136 
+ 0.62
+ -0.0042 
+ -0.21 
+ -0.0147 
+ -0.61 
+ Last Year's Return 
+ 1.6287  4.71 1.7241 
+ 4.07
+ 0.6388  1.57
+ 0.5003  0.98
+ Size
+ 0.0181 
+ 3.75
+ 0.0226  3.29
+ -0.0355 
+ -1.09 
+ -0.0372 
+ -0.80 
+ BTM 
+ -0.0563 
+ -4.22 
+ -0.0575 
+ -3.50 
+ -0.1992 
+ -6.13 
+ -0.2436 
+ -5.57 
+ Turnover 
+ 0.0033  0.54
+ 0.0069  0.95
+ 0.0062  0.62
+ 0.0110  0.93
+ ROE
+ 0.1608  3.24
+ 0.2232  3.81
+ 0.1278  1.42
+ 0.2738 
+ 2.52
+ Analyst Coverage 
+ 0.0854  1.94
+ -0.0791 
+ -0.75 
+ 0.0968  1.94
+ -0.0075 
+ -0.05 
+ Leverage 
+ -0.1068 
+ -2.25 
+ -0.0999 
+ -1.68 
+ -0.5343 
+ -4.03 
+ -0.4227 
+ -2.33 
+ R&D 
+ 0.0001 
+ 15.97 
+ 0.0001 
+ 20.48 
+ 0.0018  1.38
+ 0.0019  1.01
+ Advertising Intensity 
+ -1.0689 
+ -2.92 
+ -1.3902 
+ -3.26 
+ 0.8854 
+ 1.14
+ 0.0515 
+ 0.04
+ SG&A 
+ -0.0021 
+ -1.06 
+ -0.0015 
+ -0.70 
+ -0.0009 
+ -0.40 
+ 0.0005  0.36
+ Capital Expenditure 
+ -0.6284 
+ -6.14 
+ -0.5824 
+ -4.72 
+ -0.7178 
+ -4.64 
+ -0.8152 
+ -4.16 
+ Institutional Blockholders 
+ -0.0031 
+ -0.46 
+ -0.0186 
+ -1.81 
+ Directors Failing 
+ 0.2600  0.98
+ 0.3918  1.27
+ Busy Directors 
+ 0.0890 
+ 0.83
+ -0.0818 
+ -0.50 
+ Year F.E. 
+ Yes
+ Yes
+ Yes
+ Yes
+ Industry F.E. 
+ Yes
+ Yes
+ No
+ No
+ Firm F.E.  No No
+ Yes
+ Yes
+ n
+ 9,385
+ 6,439
+ 9,385
+ 6,439
+ Adj. R2 
+ 5.39% 
+ 6.67% 
+ 27.17% 
+ 33.12% 
+ (continued on next page) 
+ TABLE 8 
+ Future Accounting Performance 
+ the informativeness of ESG data for investors. As in any study that uses archival data, our results can be attributed to 
+ sustainability investments to the extent that we have adequately controlled for other factors in our models. 
+ Our paper leaves many questions unanswered and opens up avenues for future research. Given the robust relation between 
+ investments on material sustainability issues and future financial performance, it would be important to examine the structural 
+ relations that lead to this association. How do investments on material issues influence customer loyalty and satisfaction, 
+ employee engagement, brand and reputation, or access to finance? Another fruitful area for future research would be examining 
+ The Accounting Review Accounting 
+ Volume 91, Number 6, 2016 Aviation 
+This content downloaded from 34.225.236.11 on Sat, 29 Mar 2025 21:22:55 UTC 
+All use subject to https://about.jstor.org/terms 
+ 1718  Khan, Serafeim, and Yoon 
+ TABLE 8 (continued) 
+ Panel A reports changes in return on sales (ROS) between the year of portfolio formation and future years. ROS is net income over average sales. t=x to t  =y represents a change between year x and year y. Low Investment is firms that score at the bottom quintile of the residual index. High Investment is firms  that score at the top quintile of the residual index. Firms are allocated for all three indices: residual total KLD, materiality, and immateriality. In Panel B,  the dependent variable is two-year-ahead change in ROS. Standard eiTors are robust and clustered at the firm level. 
+ Variable Definitions: 
+ High Residual Materiality Index = an indicator variable for firms scoring at the top quintile of the residual materiality index;  High Residual Immateriality Index = an indicator variable for firms scoring at the top quintile of the residual immateriality index;  Last Year's Return = the 12-month stock return of the firm between April in year t— 1 and March in year t;  Size = the natural logarithm of the market capitalization of the firm in the end of the previous month;  BTM = shareholders' equity in the last fiscal year over market capitalization at the end of the previous month;  Turnover = shares traded over shares outstanding calculated each month;  ROE = net income over beginning shareholders' equity in the previous fiscal year;  Analyst Coverage = calculated as the number of analysts making EPS forecasts for a firm over the previous fiscal year;  Leverage = total liabilities over total assets calculated over the previous calendar year;  R&D = research and development expenditures divided by sales;  Advertising Intensity = advertising expenditures over sales;  SG&A = sales, general, and administrative expenditures over sales;  Capital Expenditure = capital expenditures over sales;  Institutional Blockholders = the natural logarithm of 1 plus the number of institutions that own 5 percent or more of the outstanding shares;  Directors Failing — the number of directors that failed to attend the minimum number of board meetings; and  Busy Directors = the number of directors that sit on four or more boards. 
+ why firms choose to make different types of investments, as well as why and how firms choose to make different types of 
+ disclosures around those investments. Finally, it would be helpful to extend our work using different ESG data since past 
+ research has shown that social ratings from different raters do not converge (Chatterji, Durand, Levine, and Touboul 2015). 
+ REFERENCES 
+ Angrist, J., and J. Pischke. 2009. Mostly Harmless Econometrics: An Empiricist's Companion. Princeton, NJ: Princeton University Press. 
+ Armstrong, C., K. Balakrishnan, and D. Cohen. 2012. Corporate governance and the information environment: Evidence from state 
+ antitakeover laws. Journal of Accounting and Economics 53: 185-204. 
+ Atkinson, L., and J. Galaskiewicz. 1988. Stock ownership and company contribution to charity. Administrative Science Quarterly 33 (1): 
+ 82-100. 
+ Aupperle, K. E., A. B. Carroll, and J. D. Hatfield. 1985. An empirical examination of the relationship between corporate social 
+ responsibility and profitability. Academy of Management Journal 28 (2): 446-463. 
+ Bamett, M. L., and R. M. Salomon. 2006. Beyond dichotomy: The curvilinear relationship between social responsibility and financial 
+ performance. Strategic Management Journal 27 (11): 1101-1122. 
+ Berman, S. L., A. C. Wicks, S. Kotha, and T. M. Jones. 1999. Does stakeholder orientation matter? The relationship between stakeholder 
+ management models and firm financial performance. Academy of Management Journal 42 (5): 488-506. 
+ Bertrand, M., and S. Mullainathan. 2003. Enjoying the quiet life? Corporate governance and managerial preferences. Journal of Political 
+ Economy 111: 1043-1075. 
+ Borgers, A., J. Derwall, K. Koedijk, and J. ter Horst. 2013. Stakeholder relations and stock returns: On errors in investors' expectations 
+ and learning. Journal of Empirical Finance 22: 159-175. 
+ Brammer, S., and A. Millington. 2008. Does it pay to be different? An analysis of the relationship between corporate social and financial 
+ performance. Strategic Management Journal 29 (12): 1325-1343. 
+ Carhart, M. M. 1997. On persistence in mutual fund performance. Journal of Finance 52 (1): 57-82. 
+ Chatterji, A., R. Durand, D. Levine, and S. Touboul. 2015. Do ratings of firms converge? Implications for managers, investors and 
+ strategy researchers. Strategic Management Journal (forthcoming). 
+ Cheng, I. H., H. Hong, and K. Shue. 2014. Do Managers Do Good with Other People's Money? Working paper no. wl9432, National 
+ Bureau of Economic Research. 
+ Cochran, P. L., and R. A. Wood. 1984. Corporate social responsibility and financial performance. Academy of Management Journal 27 
+ (1): 42-56. 
+ Delery, J., and D. Doty. 1996. Modes of theorizing in strategic human resource management: Tests of universalistic, contingency, and 
+ configurational performance predictions. Academy of Management Journal 39 (4): 802-835. 
+ Dhaliwal, D., O. Li, A. Tsang, and Y. Yang. 2011. Voluntary nonfinancial disclosure and the cost of equity capital: The initiation of 
+ corporate social responsibility reporting. The Accounting Review 86: 59-100. 
+ O 2S5E5w The Accounting Review 
+ V Alsoc,aHon Volume 91, Number 6, 2016 
+This content downloaded from 34.225.236.11 on Sat, 29 Mar 2025 21:22:55 UTC 
+All use subject to https://about.jstor.org/terms 
+ Corporate Sustainability: First Evidence on Materiality 1719 
+ Dhaliwal, D., S. Radhakrishnan, A. Tsang, and Y. Yang. 2012. Nonfinancial disclosure and analyst forecast accuracy: International 
+ evidence on corporate social responsibility disclosure. The Accounting Review 87: 723-759. 
+ Di Giuli, A., and L. Kostovetsky. 2014. Are red or blue companies more likely to go green? Politics and corporate social responsibility. 
+ Journal of Financial Economics 111 (1): 158-180. 
+ Dimson, E., O. Karaka§, and X. Li. 2015. Active ownership. Review of Financial Studies 28 (12): 3225-3268. 
+ Eccles, R., and G., Serafeim. 2013. The performance frontier: Innovating for a sustainable strategy. Harvard Business Review 91 (5): 50  60. 
+ Eccles, R. G., and M. P. Krzus. 2014. The Integrated Reporting Movement: Meaning, Momentum, Motives, and Materiality. New York, 
+ NY: John Wiley & Sons. 
+ Eccles, R., I. Ioannou, and G. Serafeim. 2014. The impact of corporate sustainability on organizational processes and performance. 
+ Management Science 60 (11): 2835-2857. 
+ Fama, E. F., and K. R. French. 1993. Common risk factors in the returns on stocks and bonds. Journal of Financial Economics 33 (1): 3— 
+ 56.
+ Fombrun, C. J. 1996. Reputation. Hoboken, NJ: John Wiley & Sons, Ltd. 
+ Fombrun, C. J. 2005. A world of reputation research, analysis and thinking—Building corporate reputation through CSR initiatives: 
+ evolving standards. Corporate Reputation Review 8 (1): 7-12. 
+ Fombrun, C. J., and M. Shanley. 1990. What's in a name? Reputation building and corporate strategy. Academy of Management Journal 
+ 33 (2): 233-258. 
+ Freeman, R. E. 1984. Strategic Management: A Stakeholder Perspective. Boston, MA: Pitman. 
+ Freeman, R. E., J. S. Harrison, and A. C. Wicks. 2007. Managing for Stakeholders: Survival, Reputation, and Success. New Haven, CT: 
+ Yale University Press. 
+ Friedman, M. 1970. The social responsibility of business is to increase its profits. New York Times Magazine 32 (13): 122-126. 
+ Godfrey, P. C., C. B. Merrill, and J. M. Hansen. 2009. The relationship between corporate social responsibility and shareholder value: An 
+ empirical test of the risk management hypothesis. Strategic Management Journal 30 (4): 425-445. 
+ Graves, S. B., and S. A. Waddock. 1994. Institutional owners and corporate social performance. Academy of Management Journal 37 (4): 
+ 1034-1046. 
+ Griffin, J. J., and J. F. Mahon. 1997. The corporate social performance and corporate financial performance debate twenty-five years of 
+ incomparable research. Business and Society 36 (1): 5-31. 
+ Hart, S. L. 1995. A natural-resource-based view of the firm. Academy of Management Review 986-1014. 
+ Hillman, A. J., and G. D. Keim. 2001. Shareholder value, stakeholder management, and social issues: What's the bottom line? Strategic 
+ Management Journal 22 (2): 125-139. 
+ Hoi, C. K., Q. Wu, and H. Zhang. 2013. Is corporate social responsibility (CSR) associated with tax avoidance? Evidence from 
+ irresponsible CSR activities. The Accounting Review 88: 2025-2059. 
+ Hong, H., and M. Kacperczyk. 2009. The price of sin: The effects of social norms on markets. Journal of Financial Economics 93 (1): 
+ 15-36. 
+ Ioannou, I., and G. Serafeim. 2015. The impact of corporate social responsibility on investment recommendations: Analysts' perceptions 
+ and shifting institutional logics. Strategic Management Journal 36: 1053-1081. 
+ Jensen, M. C. 2002. Value maximization, stakeholder theory, and the corporate objective function. Business Ethics Quarterly 12 (2): 235  256.
+ Johnson, R. A., and D. W. Greening. 1999. The effects of corporate governance and institutional ownership types on corporate social 
+ performance. Academy of Management Journal 42 (5): 564—576. 
+ Kim, Y., M. S. Park, and B. Wier. 2012. Is earnings quality associated with corporate social responsibility? The Accounting Review 87: 
+ 761-796. 
+ Kotchen, M., and J. Moon. 2012. Corporate social responsibility for irresponsibility. B.E. Journal of Economic Analysis and Policy 
+ (Contributions) 12 (1): Article 55. 
+ Margolis, J. D., and J. P. Walsh. 2003. Misery loves companies: Rethinking social initiatives by business. Administrative Science 
+ Quarterly 48 (2): 268-305. 
+ Margolis, J. D., H. Anger Elfenbein, and J. P. Walsh. 2009. Does It Pay to Be Good ... And Does It Matter? A Meta-Analysis of the 
+ Relationship between Corporate Social and Financial Performance. Working paper, Harvard University, Washington University in 
+ St. Louis, and University of Michigan. 
+ Mattingly, J. E., and S. L. Berman. 2006. Measurement of corporate social action discovering taxonomy in the Kinder Lydenburg Domini 
+ ratings data. Business and Society 45 (1): 20-46. 
+ McWilliams, A., and D. Siegel. 1997. The role of money managers in assessing corporate social responsibility research. Journal of 
+ Investing 6 (4): 98-107. 
+ McWilliams, A., and D. Siegel. 2000. Corporate social responsibility and financial performance: Correlation or misspecification? 
+ Strategic Management Journal 21 (5): 603-609. 
+ Miller, K., and G. Serafeim. 2015. Chief sustainability officers: Who are they and what do they do? In Leading Sustainable Change: An 
+ Organizational Perspective, edited by Henderson, R., R. Gulati, and M. Tushman, Oxford, U.K.: Oxford University Press. 
+ Moser, D., and P. Martin. 2012. A broader perspective on corporate social responsibility research in accounting. The Accounting Review 
+ 87: 797-806. 
+ The Accounting Review V i 
+ Volume 91, Number 6, 2016 V 
+This content downloaded from 34.225.236.11 on Sat, 29 Mar 2025 21:22:55 UTC 
+All use subject to https://about.jstor.org/terms 
+ 1720 Khan, Serafeim, and Yoon 
+ Moskowitz, M. 1972. Choosing socially responsible stocks. Business and Society Review 1 (1): 71-75. 
+ Orlitzky, M., F. L. Schmidt, and S. L. Rynes. 2003. Corporate social and financial performance: A meta-analysis. Organization Studies 24 
+ (3): 403-441. 
+ Pastor, L., and R. F. Stambaugh. 2003. Liquidity risk and expected stock returns. Journal of Political Economy 111 (3): 642-685. 
+ Ruf, B., K. Muralidhar, and K. Paul. 1993. Eight dimensions of corporate social performance: Determination of relative importance using 
+ the analytic hierarchy process. In Academy of Management Proceedings (August). Available at: http://proceedings.aom.org/ 
+ content/1993/1/326.full.pdf+html 
+ Serafeim, G. 2014. Turning a Profit While Doing Good: Aligning Sustainability with Corporate Performance. Governance Studies, the 
+ Initiative on 21st Century Capitalism, No. 19. Washington, DC: Brookings Institution. 
+ Shrivastava, P., and S. Hart. 1995. Creating sustainable corporations. Business Strategy and Environment 4: 154—165. 
+ Turban, D. B., and D. W. Greening. 1997. Corporate social performance and organizational attractiveness to prospective employees. 
+ Academy of Management Journal 40 (3): 658-672. 
+ United Nations Environment Program Finance Initiative and World Business Council for Sustainable Development. 2010. Translating 
+ ESG into Sustainable Business Value. Available at: http://www.unepfi.org/fileadmin/documents/translatingESG.pdf 
+ Waddock, S.A., and S. B. Graves. 1997. The corporate social performance-financial performance link. Strategic Management Journal 18 
+ (4): 303-319. 
+ APPENDIX A 
+ SASB's Standard-Setting Process 
+ Collect Evidence of  Interest + Evidence 
+ of Financial Impact 
+ Develop  Materiality Map  Review Existing  Accounting Metrics 
+ Develop  New Metrics 
+ (as needed) 
+ IWG PREPARATION 
+ Industry Brief 
+ IWG
+ Launch  IWG Feedback 
+ (Outreach 8 Survey)  Incorporate IWG 
+ Feedback into  Draft Standards 
+ Public Notice  of Material Issues 
+ Prepare  Exposure Draft 
+ ISustainability 
+ Accounting 
+ Standard 
+ DEVELOPMENT PHASE 
+ V \ 
+ \
+ PROVISIONAL 
+ STANDARD 
+ y / 
+ / 1  Sustainability 
+ Accounting 
+ Standard 
+ FINALIZATION PHASE 
+ Source: Sustainability Accounting Standards Board (http://www.sasb.org/). 
+ ^ Accounting The Accounting Review 
+ » Association Volume 91, Number 6, 2016 
+This content downloaded from 34.225.236.11 on Sat, 29 Mar 2025 21:22:55 UTC 
+All use subject to https://about.jstor.org/terms 
+ Corporate Sustainability: First Evidence on Materiality  1721
+ APPENDIX B 
+ SASB's Materiality Process 
+ For each topic, the SASB conducts an evidence of materiality test, the results of which are ultimately debated and reviewed 
+ by the Standards Council after industry working groups composed of industry experts have provided their input. The test has 
+ three components: evidence of interest, evidence of financial impact, and forward impact adjustment. 
+ The interest test has two components, a heat map score and an industry working group score. The heat map score is derived 
+ from a search for relevant keywords in documents stored on Bloomberg servers and indicates the relative importance of the 
+ issue among the SASB's initial list of 43 generic sustainability issues. Evidence of interest is gathered by searching tens of 
+ thousands of industry-related documents—Form 10-Ks, shareholder resolutions, CSR reports, media, and SEC comment 
+ letters—for keywords related to 30 general sustainability issues. The industry working group score signals the percentage of 
+ industry working group members that found the issue to be material. The SASB convenes an industry working group to provide 
+ feedback on the disclosure items and accounting metrics identified in the initial research phase. The industry working groups 
+ are composed of balanced representation from corporations, market participants, and public interest intermediaries. Primary 
+ industry working group feedback is collected via an online survey. After the conclusion of the online survey, the SASB's 
+ research team conducts outreach to industry working group members to gain additional insight. 
+ The financial impact test uses a value framework developed by McKinsey and seeks to identify evidence of financial 
+ impact on revenues/costs, assets/liabilities, or cost of capital from the focal issue in an industry. Evidence of financial impact is 
+ gathered by examining sell-side research, investor call transcripts, third-party case studies, anecdotal evidence, and news 
+ articles. After identifying a minimum set of disclosure topics for an industry for which there is solid evidence of both investor 
+ interest and financial impact, the SASB identifies and documents existing metrics and practices used to account for performance 
+ on each disclosure topic. Any evidences found are publicly disseminated through industry-specific industry briefs. 
+ The forward-looking impact test assesses the future probability and magnitude of financial impact from the focal issue to 
+ capture issues that may fail the financial impact test, but may still be relevant for investors. The forward-looking impact test 
+ also assesses whether the issue will generate significant externalities in the future. However, it should be noted that, to date, the 
+ forward-looking impact adjustment has been rarely used by the SASB to switch a topic from immaterial to material. After the 
+ consultation with the industry working group has finished, the SASB prepares an Exposure Draft Standard with accounting 
+ metrics and technical protocols for each of the disclosure topics. 
+ In the next phase, the SASB releases the Exposure Draft Standard for a 90-day public comment period. At this time, any 
+ member of the public can download the Exposure Draft Standard from the SASB website and provide feedback via a letter. At 
+ the conclusion of the public comment period, the SASB incorporates feedback received into the standard. The Standards 
+ Council then reviews the standard to ensure consistency, completeness, and accuracy. With the Standards Council's final 
+ review, the Provisional Standard is considered complete. The Provisional Sustainability Accounting Standard is then published 
+ and made available to the public. 
+ The Accounting Review JESS* 
+ Volume 91, Number 6, 2016 
+This content downloaded from 34.225.236.11 on Sat, 29 Mar 2025 21:22:55 UTC 
+All use subject to https://about.jstor.org/terms 
+ 1722 Khan, Serafeim, and Yoon 
+ APPENDIX C 
+ Sector-Level Materiality Map 
+ i Technology and 
+ Non-Renewable  Transportation 
+ Services 
+ Health Care 
+ Financials 
+ Resources  Communication | 
+ GHGemisaons 
+ Airqudity  Bierg/ marecfmat  Fuel mareppret  Water aid w^avder rre-aqpnert  WaSeand hasrdousrraeridsmaiaqement 
+ Bodversity impacts 
+ Himai rkfts aid oommLrity rd aions 
+ wmmmm 
+ Aooessaid rffordabl ity 
+ Customer wdfae 
+ ■■■■■ 
+ Ddasecurity aid oistomer privacy 
+ Fardsdosureaidliidinq  Far maketinqaid alvertianq 
+ HumanC 
+ Labor relations 
+ Far l&or practices 
+ Employeehedth, srfetyaidwdlbang  DiveratyaxJ indiaon  Compensation aid baidits  Fteriitment, dead opmerrt and retention 
+ BuanesModel and Innovation 
+ Lifecydeimpactsof products aid sarvioes  Environments, sodd impactsonooreaBsetsaidope-ations  FYoduct packing 
+ Roduct qud ity aid s^ety 
+ Leader^iip and Governance  S^erric rid< maiaqement 
+ Accident aid srfetymaigjsmffit  Bis ness ethics and trargjaencyof payments  Competitive b^ia/i or 
+ FtegJatorvcqxiteaidpoliticd influence  Mderidssourdng  3*)pl y chan maigfmant 
+ Source: Sustainability Accounting Standards Board (http://www.sasb.org/).  Dark (light) grey color means that for more (less) than 50 percent of the industries within the sector, the issue is material. White means that the issue is not  material for any industry within the sector. To see materiality maps at the industry level, visit: http://www.sasb.org/. The labels under each issue are  generic. This means that the substance of the issue can differ dramatically from one industry to another. For example, supply chain management appears as  material for both pharmaceutical and iron ore steel producer firms. However, in the case of pharmaceutical companies, "Manufacturing and Supply Chain  Quality Management" refers to "Description of FDA enforcement actions taken in response to violations of current good manufacturing practices (cGMP),  including: product deemed adulterated, form 483s, suggested recall (Class I, II, HI), Warning Letters, Border Alerts, license suspension or revocation,  product seizure, Consent Decrees, criminal prosecution. Description of corrective actions implemented in response to actions," and to "Percentage of  facilities and Tier I suppliers participating in the Rx-360 International Pharmaceutical Supply Chain Consortium audit program or equivalent third-party  audit programs for integrity of supply chain and ingredients (e.g., APIs, chemical, raw material, excipients, etc.)." In contrast, for firms in the iron steel  producers industry, "Contractor and Supply Chain Management" refers to "Discussion of the process for managing iron ore and/or coking coal sourcing  risks arising from environmental and social issues." The interested reader can access each industry standard on the SASB website. 
+ American 
+ II Accounting 
+ Association  The Accounting Review 
+ Volume 91, Number 6, 2016 
+This content downloaded from 34.225.236.11 on Sat, 29 Mar 2025 21:22:55 UTC 
+All use subject to https://about.jstor.org/terms 
+ Corporate Sustainability: First Evidence on Materiality 1723 
+ APPENDIX D
+ Sector-Level Materiality Designation of KLD Data
+ Financials
+ Healthcare
+ Nonrenewables
+ KLD Code
+ SASB Topic
+ KLD Code
+ SASB Topic
+ KLD Code
+ SASB Topic
+ CGOV_STR_G
+ Transparent Information & Fair Advice for Customers
+ DIV_STR_B
+ Employee Recruitment, Development, and Retention
+ CGOV_STR_G
+ Business Ethics & Payments Transparency
+ CGOV_STR_H
+ Systemic Risk Management
+ EMP_STR_G
+ Employee Health and Safety
+ COM_STR_C
+ Community Relations
+ COM_STR_D
+ Financial Inclusion & Capacity Building
+ EMP_STR_K
+ Employee Recruitment, Development, and Retention
+ COM_STR_D
+ Financial Inclusion & Capacity Building
+ DIV_STR_C
+ Employee Inclusion
+ EMP_STR_L
+ Employee Recruitment, Development, and Retention
+ COM_STR_H
+ Community Relations
+ DIV_STR_E
+ Employee Inclusion
+ ENV_STR_C
+ Product Ufecyde Management
+ EMP_STR_G
+ Health, Safety, and Emergency Management
+ DIV_STR_H
+ Employee Inclusion
+ ENV_STR_D
+ Climate Change Impacts on Human Health and Infrastructure
+ ENV_STR_B
+ Hazardous Materials Management
+ EMP_STR_I
+ Employee Incentives & Risk Taking
+ ENV_STR_H
+ Energy, Water, and Waste Efficiency
+ ENV_STR_D
+ Greenhouse Gas Emissions
+ EMP_STR_L
+ Employee Incentives & Risk Taking
+ PRO_STR_A
+ Drug Safety and Side Effects
+ HUM_STR_D
+ Community Relations
+ ENV_STR_D
+ Environmental Risk Exposure
+ PRO_STR_C
+ Access to Medicines
+ PRO_STR_A
+ Health, Safety, and Emergency Management
+ PRO_STR_A
+ Customer Privacy & Data Security
+ PRO_STR_C
+ Financial Inclusion & Capacity Building
+ PRO_STR_D
+ Financial Inclusion & Capacity Building
+ CGOV_CON_B
+ Employee incentives & risk taking
+ CGOV_CON_M
+ Corruption and Bribery
+ CGOV_CON_M
+ Business Ethics & Payments Transparency
+ CGOV_CON_F
+ Environmental, social impacts on core assets and operations
+ ENV_CON_K
+ Energy, Water, and Waste Efficiency
+ EMP_CON_A
+ Labor Relations
+ CGOV_CON_K
+ Management of the Legal & Regulatory Environment
+ PRO_CON_A
+ Drug Safety and Side Effects
+ EMP_CON_B
+ Health, Safety, and Emergency Management
+ COM_CON_B
+ Management of the Legal & Regulatory Environment
+ PRO_CON_D
+ Ethical Marketing
+ EMP_CON_F
+ Supply Chain Management
+ DIV_CON_A
+ Management of the Legal & Regulatory Environment
+ ENV_CON_B
+ Competitive Behavior
+ DIV_CON_C
+ Employee Inclusion
+ ENV_CON_D
+ Air Quality
+ DIV_CON_D
+ Employee Inclusion
+ ENV_CON_F
+ Greenhouse Gas Emissions
+ PRO_CON_A
+ Management of the Legal & Regulatory Environment
+ ENV_CON_H
+ Biodiversity Impacts
+ PRO_CON_E
+ Management of the Legal & Regulatory Environment
+ ENV_CON_J
+ Supply Chain Management
+ PRO_CON_F
+ Management of the Legal & Regulatory Environment
+ ENV_CON_K
+ Water Management
+ HUM_CON_C
+ Security, Human Rights, and Rights of Indigenous Peoples
+ HUM_CON_J
+ Security, Human Rights, and Rights of Indigenous Peoples
+ HUM_CON_K
+ Security, Human Rights, and Rights of Indigenous Peoples
+ (continued on next page)
+ The Accounting Review ; 
+ I American 
+ Accounting 
+ Volume 91, Number 6, 2016 V As.ociation 
+This content downloaded from 34.225.236.11 on Sat, 29 Mar 2025 21:22:55 UTC 
+All use subject to https://about.jstor.org/terms 
+ 1724 Khan, Serafeim, and Yoon 
+ APPENDIX D (continued)
+ Services
+ Technology
+ Transportation
+ KLD Code SASB Topic
+ KLD Code
+ SASB Topic
+ KLD Code
+ SASB Topic
+ CGOV STR G Internal Controls on Money Laundering
+ CGOV STR G
+ Managing Systemic Risks from Technology Disruptions
+ EMP STR G
+ Accidents & Safety Management
+ DIV STR C Workforce Diversity & Inclusion
+ DIV STR C
+ Recruiting & Managing a Global, Diverse Skilled Workforce
+ EMP STR H
+ Fair Labor Practices
+ DIV_STR_E Workforce Diversity & Inclusion
+ DIV STR E
+ Recruiting & Managing a Global, Diverse Skilled Workforce
+ EMP STR J
+ Labor Relations
+ DIV STR H Workforce Diversity & Inclusion
+ DIV STR H
+ Recruiting & Managing a Global, Diverse Skilled Workforce
+ EMP STR L
+ Driver Working Conditions
+ EMP_STR_G Customer & Worker Safety
+ EMP STR G
+ Fair Labor Practices
+ ENV STR A
+ Product Lifecycle Management
+ EMP STR H Fair Labor Practices
+ EMP STR J
+ Recruiting & Managing a Global, Diverse Skilled Workforce
+ ENV STR B
+ MaterialsEfficiency & Recycling
+ EMP STR 1 Fair Labor Practices
+ EMP STR L
+ Fair Labor Practices
+ ENV STR D
+ Environmental Footprint of Fuel Use
+ EMP STR J Workforce Diversity & Engagement
+ ENV STR B
+ Product Lifecyde Management
+ ENV STR 1
+ Ecological Impacts
+ EMP STR L Workforce Diversity & Engagement
+ ENV STR H
+ Water & Waste Management in Manufacturing
+ ENV STR J
+ Materials Sourcing
+ ENV STR B Food & Packaging Waste Management
+ ENV STR J
+ Supply Chain Management & Materials Sourcing
+ PRO STR A
+ Product Safety
+ ENV STR C Food & Packaging Waste Management
+ PRO STR A
+ Data Privacy & Freedom of Expression
+ *
+ ENV STR D Fuel Use& Air Emissions
+ ENV_STR_H Energy & Water Management
+ ENV_STR_I Ecosystem Protection & Climate Adaptation
+ PRO_STR_A Food Safety
+ CGOV CON M Professional Integrity
+ DIV CON A
+ Recruiting & Managing a Global, Diverse Skilled Workforce
+ CGOV CON M
+ Business Ethics
+ DIV CON A Workforce Diversity & Inclusion
+ DIV CON C
+ Recruiting & Managing a Global, Diverse Skilled Workforce
+ EMP CON A
+ Labor Relations
+ DIV CON C Workforce Diversity & Inclusion
+ DIV CON D
+ Recruiting & Managing a Global, Diverse Skilled Workforce
+ EMP CON B
+ Accidents & Safety Management
+ DIV CON D Workforce Diversity & Inclusion
+ ENV CON J
+ Supply Chain Management & Materials Sourcing
+ EMP CON F
+ Fair Labor Practices
+ EMP CON B Fair Labor Practices
+ ENV CON K
+ Water & Waste Management in Manufacturing
+ EMP CON G
+ Fair Labor Practices
+ EMP CON F Fair Labor Practices
+ HUM CON C
+ Supply Chain Management & Materials Sourcing
+ ENV CON D
+ Environmental Footprint of Fuel Use
+ EMP CON G Fair Labor Practices
+ HUM CON J
+ Data Privacy & Freedom of Expression
+ ENV CON F
+ Environmental Footprint of Fuel Use
+ ENV CON D Fuel Use& Air Emissions
+ PRO CON E
+ Intellectual Property Protection & Competitive Behavior
+ ENV CON G
+ Fuel Economy & Use-phase Emissions
+ ENV CON F Fuel Use& Air Emissions
+ ENV CON 1
+ MaterialsEfficiency & Recycling
+ ENV CON G Discharge Management & Ecological Impacts
+ ENV CON K
+ Ecological Impacts
+ ENV_CON_H Ecosystem Protection & Climate Adaptation
+ PRO CON A
+ Product Safety
+ ENV CON 1 Food & Packaging Waste Management
+ PRO CON E
+ Competitive Behavior
+ ENV_CON_K Energy & Water Management
+ PRO_CON_A Food Safety
+ PRO CON D Marketing & Recruiting Practices
+ PRO_CON_E Discharge Management & Ecological Impacts
+ PRO_CON_F Shipboard Health & Safety Management
+ This appendix provides a mapping between material SASB topics and KLD data items for the different sectors. Not all topics are material for all industries within a sector. Therefore, some KLD data
+ items that are listed as material for a sector might not be material for a specific industry within that sector.
+ Accounting The Accounting Review 
+ V A"0<:li,,i°n Volume 91, Number 6, 2016 
+This content downloaded from 34.225.236.11 on Sat, 29 Mar 2025 21:22:55 UTC 
+All use subject to https://about.jstor.org/terms 

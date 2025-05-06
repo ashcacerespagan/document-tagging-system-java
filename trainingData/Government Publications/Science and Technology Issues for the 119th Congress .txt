@@ -1,0 +1,1417 @@
+ 
+ 
+  
+ Science and Technology Issues for the 119th 
+Congress  
+April 3, 2025  
+Congressional Research Service  
+https://crsreports.congress.gov  
+R48482  
+ 
+Congressional Research Service   
+SUMMARY  
+ 
+Science and Technology Issues for th e 119th 
+Congress  
+Science and technology (S&T) underlie  a wide range of issues confronting the nation. The 
+advancement of S&T drives  economic growth, help s address national priorities, and improve s 
+health and quality of life. The ubiquity and constantly changing nature of S&T  frequently create 
+public policy issues of congressional interest.  
+The federal government supports the advancement of S&T. Financial support of research and 
+development (R&D) ha s led to scientific breakthroughs and new technologies, ranging from jet 
+aircraft and the internet to  communications satellites and defenses against disease.  Federal 
+policies, some of which may indirectly support or limit the innovative capacity of the pub lic and 
+private sectors, govern many aspects of S&T activities.  
+This report spotlights some of the key S&T policy issues before the 119th Congress. Examples 
+include cross -cutting subjects that affect S&T progress across a range of fields and disciplines as  well as the capacity of the 
+United States to innovate and maintain global competitiveness. The report also highlights new or rapidly developing areas of 
+S&T that have the potential to transform current capabilities. Congress may assess the adequacy of exi sting policy 
+frameworks or consider creating new ones to address these S&T issue areas, which are described briefly below.  
+Biotechnology and Biomedical Research  
+Recent advances in biotechnology and biomedical research hold the promise of longer , healthier lives and more productive 
+industries, but they also  raise policy challenges. Issues that the 119th Congress may face include laboratory biosafety and 
+biosecurity, federal regulation of laboratory -developed diagnostic devices, the federal response  to emerging pathogens such 
+as H5N1 avian influenza, and the regulation of agricultural biotechnologies.  
+Climate Science  
+S&T considerations permeate deliberations on topics related to climate change and mitigation approaches. Issues before the 
+119th Congr ess may include understanding the causes of extreme heat and addressing associated risks, assessing the concept 
+of “net -zero emissions” and related policies, and evaluating ocean -based strategies for carbon dioxide removal.  
+Earth and Environmental Sciences  
+Earth - and environmental -science -related issues before the 119th Congress include the National Oceanic and Atmospheric 
+Administration’s (NOAA’s) R&D activities, which are aimed at improving extreme weather forecasting, addressing plastic 
+pollution, assess ing the potential for seabed deposits to serve as a source of critical minerals, and understanding technologies 
+proposed to curb illegal, unreported, and unregulated fishing.  
+Federal R&D  
+The federal government provide s billions of R&D dollars annually  to institutions of higher education, federal laboratories, 
+and the private sector . The 11 9th Congress may consider issues related to federally funded R&D, including support for 
+agricultural research, research security, potential reform of the National Institu tes of Health, S&T cooperation with the 
+People’s Republic of China, and potential reauthorization of the Small Business Innovation Research and Small Business 
+Technology Transfer (SBIR/STTR) programs.  
+Information Technology and Social Media  
+Rapid advanceme nts in information technologies present several issues for the 119th Congress , such as the accessibility of 
+various types of data by consumers, companies, and law enforcement entities (among others); cybersecurity ; legal and policy 
+considerations related t o the ownership and use of social media  platforms;  and the potential impact of certain digital 
+advertising and internet media strategies on traditional newspaper publishers and journalists.  R48482  
+April 3, 2025  
+Emily G. Blevins, 
+Coordinator  
+Analyst in Science and 
+Technology Policy  
+  
+Marcy E. Gallo, 
+Coordinator  
+Analyst in Science and 
+Technology Policy  
+  
+ 
+Science and Technology Issues for the 119th Congress  
+ 
+Congressional Research Service  Innovation and Competition  
+The state of America ’s innovation ecosy stem —the constellation of people, institutions, and enterprises engaged in research 
+and the development of new products and services —is of concern for the long -term economic and national security of the 
+United States. Selected innovation - and competition -related issues that the 119th Congress may face include  overseeing 
+advances and new commercial applications of artificial intelligence, advancing innovation at the Department of Defense, 
+overseeing the implementation of regional innovation strategies, considering the role of patents in promoting innovation and  
+competition, and examining the role of immigration in the U.S. S&T workforce.  
+Telecommunications  
+Telecommunications technologies present several issues for policymakers, including over-the-air radio broadcast 
+transmissions (such as access to transmission s and the impact of broadcasting technologies on copyright), policies governing 
+federal and nonfederal radio spectrum management and use, and the  security and resiliency of telecommunication networks.  
+Science and Technology Issues for the 119th Congress  
+ 
+Congressional Research Service  Contents  
+Introduction  ................................ ................................ ................................ ................................ ..... 1 
+Biotechnology and Biomedical Research  ................................ ................................ ........................  1 
+Congressional Oversight of Laboratory Biosafety and Biosecurity  ................................ ..........  1 
+Food and Drug Administration (FDA) Regulation of Laboratory -Developed Tests 
+(LDTs)  ................................ ................................ ................................ ................................ .... 2 
+Federal Government’s Role and Response to H5N1 Avian Influenza and Other 
+Emerging Pathogens  ................................ ................................ ................................ ..............  3 
+Regulation of Agricultural Biotechnology  ................................ ................................ ................  4 
+Climate Science  ................................ ................................ ................................ ...............................  4 
+Climate Change and the Chal lenge of Addressing Extreme Heat  ................................ .............  4 
+The Net -Zero Concept and Policy Considerations  ................................ ................................ .... 5 
+Marine Carbon Dioxide Removal (mCDR)  ................................ ................................ ..............  6 
+Earth and Environmental Sciences  ................................ ................................ ................................ .. 6 
+Improving Extreme Wea ther Forecasting  ................................ ................................ ..................  7 
+Addressing Plastic Pollution  ................................ ................................ ................................ ..... 7 
+Seabed Deposits as a Potential Source of Critical Minerals  ................................ .....................  8 
+Technologies Propos ed to Curb Illegal, Unreported, and Unregulated (IUU) Fishing  .............  9 
+Federal R&D  ................................ ................................ ................................ ................................ . 10 
+Agricultural Research Funding  ................................ ................................ ...............................  10 
+Implementation of Research Security Policies  ................................ ................................ .........  11 
+The National Institutes of Health (NIH) and Potential Agency Reform  ................................ .. 11 
+Oversight of the U.S. -China Science and Technology Cooperation Agreement (STA)  ..........  12 
+Reauthorization of the Small Business Innovation Research and Small Business 
+Technology Transfer (SBIR/STTR) Programs  ................................ ................................ ..... 13 
+Informati on Technology (IT) and Social Media  ................................ ................................ ............  14 
+Access to Motor Vehicle Software and Data  ................................ ................................ ...........  14 
+Cybersecurity of Information and Communications Technology  (ICT)  ................................ . 14 
+Evolving Technology and the Debate over “Lawful Access” to Data  ................................ ..... 15 
+Issues Related to Social Media Platforms  ................................ ................................ ...............  16 
+Innovation and Competition  ................................ ................................ ................................ ..........  17 
+Artificial Intelligence (AI)  ................................ ................................ ................................ ...... 17 
+Oversight of Advances in AI ................................ ................................ .............................  17 
+The Regulation of AI in Health Care  ................................ ................................ ................  18 
+Intellectual Property Issues Regarding AI  ................................ ................................ ........  19 
+Advancing Innovation at DOD  ................................ ................................ ...............................  19 
+Issues for the Implementation of Regional Innovation Strategies  (RISs)  ...............................  20 
+The Role of Immigration in the U.S. S&T Workforce  ................................ ............................  21 
+The Role of Patents in Promoting Innovation  ................................ ................................ .........  22 
+The Role of Patents in Pharmaceutical Innovation and Comp etition ................................ ...... 22 
+Telecommunications  ................................ ................................ ................................ ......................  24 
+AM Broadcast Radio in Motor Vehicles  ................................ ................................ .................  24 
+Copyright Laws and Broadcasting Policies  ................................ ................................ ............  24 
+Radio Spectru m Policy  ................................ ................................ ................................ ............  25 
+Security and Resiliency of Telecommunications Networks  ................................ ....................  26 
+Science and Technology Issues for the 119th Congress  
+ 
+Congressional Research Service   
+Contacts  
+Author Information  ................................ ................................ ................................ ........................  28 
+ 
+Science and Technology Issues for the 119th Congress  
+ 
+Congressional Research Service   1 Introduction  
+The federal science and technology (S&T) policymaking enterprise consists of an extensive and 
+diverse  set of stakeholders in the executive, legislative, and judicial branches. The enterprise 
+fosters, among other things, the advancement of scientific and technical knowledge; science, 
+technology, engineering, and mathematics (STEM) education; the applicatio n of S&T to achieve 
+economic, national security, and other societal benefits; and the use of S&T to improve federal 
+decisionmaking.  
+Federal responsibilities for S&T policymaking are highly decentralized. Many House and Senate 
+committees have jurisdiction o ver important elements of S&T policy. Congressional 
+appropriations committees, for example, provide funding for federal agency S&T programs. 
+Congress also enacts laws to establish, refine, and eliminate federal agencies, programs, policies, 
+regulations, an d regulatory processes that affect science, technology, and engineering research 
+and development (R&D) or rely on S&T data and analysis. In addition, dozens of informal 
+congressional caucuses exist in areas of S&T policy such as R&D, specific S&T disciplin es, and 
+STEM education.  
+The President formulates annual budgets, policies, and programs for consideration by Congress; 
+issues executive orders (E.O.s) and directives; and directs the executive branch departments and 
+agencies responsible for implementing S& T policies and programs. The Office of Science and 
+Technology Policy (OSTP), in the Executive Office of the President, advises the President and 
+other Administration officials on S&T issues.  
+Executive agency S&T responsibilities are diffuse. Some agencies,  such as the National Science 
+Foundation (NSF), have broad S&T responsibilities. Others use S&T to meet a specific federal 
+mission (e.g., defense, energy, health, space). Regulatory agencies have S&T responsibilities in 
+areas such as nuclear energy, food a nd drug safety, and environmental protection.  
+Federal court cases and decisions often affect U.S. S&T policy. Decisions can have an impact on 
+the development of S&T (e.g., decisions regarding the U.S. patent system), S&T -intensive 
+industries (e.g., the breakup of AT&T in the 1980s), and the admissibility of S&T -related 
+evidence (e.g., DNA samples) in court.  
+CRS experts have identified the issues highlighted below as particularly relevant to the 119th 
+Congress. Each section serves as a brief introduction to the topic and identifies other CRS 
+products and the appropriate CRS experts to contact for further information and analysis.  
+Biotechnology and Biomedical Research  
+Recent advances in biotechnology and biomedical research hold the promise of longer, heal thier 
+lives and more productive industries, but they also raise policy challenges. This section discusses 
+issues that the 119th Congress may face in this area, including laboratory biosafety and 
+biosecurity, federal regulation of laboratory -developed diagn ostic devices, the federal response to 
+emerging pathogens such as H5N1 influenza, and the regulation of agricultural biotechnologies.  
+Congressional Oversight of Laboratory Biosafety and Biosecurity  
+In the United States, oversight of the life sciences, part icularly laboratory biosafety and 
+biosecurity, is exercised pursuant to a mixture of federal law, federal guidance, and self -
+governance . It is also dependent on the types of experiments and biological agents being used. 
+Science and Technology Issues for the 119th Congress  
+ 
+Congressional Research Service   2 There currently is no overarching fe deral law that provides oversight of laboratory biosafety and 
+biosecurity with enforceable  standards and  legal penalties beyond those in the Federal Select 
+Agent Program, which covers only certain types of biological agents and toxins. Privately funded 
+research is generally not covered by federal policy or agency guidance. In May 2024, OSTP 
+released the United States Government Policy for Oversight of Dual Use Research of Concern 
+and Pathogens with Enhanced Pandemic Potential  (2024 policy). The 2024 policy addresses 
+oversight of research on biological agents and toxins that, when enhanced, may pose risks to 
+public health, agriculture, food security, economic security, or national security. The 2024 policy 
+is scheduled to go into effect on May 6, 2025.  
+During  the 118th Congress, multiple bills were introduced related to laboratory biosafety and 
+biosecurity, pandemic prevention and preparedness, and other mechanisms to control materials 
+and technologies related to biotechnology and other life sciences. The 119th Congress may 
+consider several issues related to the safety and security of certain biological research. For 
+example, Congress may consider whether or how the implementation of the 2024 policy 
+addresses biosafety and biosecurity concerns about certain typ es of research or whether additional 
+oversight mechanisms or approval processes are needed. The 119th Congress may also consider its 
+current oversight role, including weighing whether certain types of research should be supported 
+with federal investments a nd, if so, at what level.  
+For Further Information  
+Todd Kuiken, Analyst in Science and Technology Policy  
+CRS In Focus IF12883, Mirror Life: Biosafety/Biosecurity Oversight Considerations   
+CRS Report R4711 4, Oversight of Gain -of-Function Research with Pathogens: Issues for 
+Congress   
+Food and Drug Administration (FDA) Regulation of Laboratory -
+Developed Tests  (LDTs)  
+Debate over regulation of LDTs has been on going for three decades, underscored most recently 
+by the development of tests during the COVID -19 pandemic. The FDA defines LDTs as a class of 
+in vitro diagnostic (IVD) device s that are designed, manufactured, and used within a single 
+laboratory. These tests are often developed and used in the context of evolving scientific 
+knowledge and increasingly integrate complex technology. The FDA maintains that it has 
+regulatory authority over LD Ts but has traditionally not exercised that discretion broadly, so most 
+LDTs have not been subject to premarket review or other regulatory requirements. However, the 
+FDA has asserted authority over tests it considers higher risk, for example, direct -to-consumer 
+tests or tests intended for emergencies. The FDA published draft guidance to regulate LDTs in 
+2014, but the guidance was not finalized. Many stakeholders suggested at the time that the FDA 
+should proceed instead through notice -and-comment rulemaking,  and others suggested that the 
+agency should defer to Congress to pass legislation regulating these tests.  
+The Verifying Accurate, Leading -Edge, IVCT Development (V ALID) Act of 2023 ( H.R. 2369 ), 
+introduced in the 118th Congress, proposed a comprehensive risk -based regulatory framework for 
+“in vitro clinical tests,” defined to include IVDs and LDTs, that would be distinct from the current 
+regulatory framework for medical devices. Howe ver, no action beyond introduction was taken in 
+the 118th Congress.  
+In the absence of congressional action, the FDA published a final rule in May 2024 to phase out 
+its general enforcement discretion approach for LDTs. The 119th Congress may be interested in 
+Science and Technology Issues for the 119th Congress  
+ 
+Congressional Research Service   3 revisiting the V ALID Act or similar legislati ve proposals  in light of the FDA’s final rule, or it may 
+consider oversight or other action to modify the rule’s implementation.  
+For Further Information  
+Amanda K. Sarata, Specialist in Health Policy  
+CRS In Fo cus IF11389, FDA Regulation of Laboratory -Developed Tests (LDTs)  
+Federal Government’s Role and Response to H5N1 Avian Influenza 
+and Other Emerging Pathogens  
+Avian influenza viruses are classified as eith er low or highly pathogenic depending on the 
+severity of the disease they cause in poultry and other bird species. H5N1 is a subtype of highly 
+pathogenic avian influenza (HPAI) virus. HPAI H5N1 was first detected in 1996 in the 
+Guangdong Province of the Pe ople’s Republic of China (PRC, or China) and has been responsible 
+for several outbreaks around the world since then. Wild birds, mainly waterfowl, have introduced 
+the virus to new regions, where it has spread to other birds and mammals, such as dairy cattl e. 
+Several cases of humans infected with H5N1 were reported in 2024 and 2025. Most of these 
+cases were associated with dairy and poultry workers who contracted the disease from infected 
+animals, although a few human cases have no known connection with the dairy and poultry 
+industry. H5N1 influenza cannot efficiently spread among humans, but its continued spread 
+among animal populations raises the risk that a strain with human pandemic potential could 
+emerge.  
+Debates surrounding the origins and the governmen t response to COVID -19—along with the 
+recent emergence of a new H5N1 strain and its spread to dairy farms and humans —raises 
+questions about U.S. and global pandemic prevention and preparedness strategies. The 119th 
+Congress may consider its role in and ove rsight responsibilities toward the nation’s biothreat 
+response policies and programs, which include disease surveillance (e.g., of wildlife, farms, 
+and/or people). Congress may also consider weighing the risks and benefits of certain research 
+programs aime d at identifying and understanding pathogens, and the development and availability 
+of medical countermeasures.  
+For Further Information  
+Lia Biondo, Analyst in Agricultural Policy  
+Todd Kuiken, Analyst in Science and Technology Policy  
+Kavya Sekar, Analyst in Health Policy  
+Hassan Z. Sheikh, Analyst in Health Policy  
+Pervaze A. Sheikh, Specialist in Natural Resources Policy  
+CRS Report R47114, Oversight of Gain -of-Function Research with Pathogens: Issues for 
+Congress   
+CRS In Focus IF12895, H5N1 Avian Influenza: The Human Health Response   
+CRS In Focus IF12837, H5N1 HP AI Continues to Spread in Dairy Herds  
+CRS Report R48361, Highly Pathogenic Avian Influenza —H5N1 Virus: CRS Experts and Points 
+of Contact   
+Science and Technology Issues for the 119th Congress  
+ 
+Congressional Research Service   4 Regulation of Agricultural Biotechnology  
+New biotechnology tools, such as gene editing, and rece nt regulatory developments highlight 
+ongoing debates over innovation, oversight, and agency coordination. In 2016, Congress required 
+a national standard for labeling foods with bioengineered or genetically engineered ingredients. 
+The U.S. Department of Agr iculture (USDA) finalized its regulations in 2018, with mandatory 
+compliance beginning in January 2022. However, in September 2022, a U.S. district court 
+remanded two provisions to USDA that allowed QR code labeling and text message disclosure 
+without addi tional on -package labeling (7 C.F.R. §§66.106 and 66.108). USDA is expected to 
+revise those provisions while broader labeling requirements remain in effect.  
+In 2020, USDA finalized the SECURE Rule (7 C.F.R. Part 340) under the Plant Protection Act (7 
+U.S.C . §§7701 et seq.), which exempts certain engineered plants from regulation because of low 
+pest risk. In November 2024, USDA updated the SECURE Rule, expanding regulatory 
+exemptions. In December 2024, the U.S. District Court for the Northern District of Cal ifornia 
+vacated the rule, prompting USDA to revert to the pre -May 2020 framework and reestablish the 
+“Am I Regulated?” process under the 2019 version of 7 C.F.R. Part 340.  
+USDA has proposed transferring regulation of genetically engineered agricultural ani mals from 
+the FDA. In 2021, the agencies signed a memorandum outlining collaborative frameworks for 
+premarket evaluations and post -market monitoring. In 2024, USDA, the FDA, and the 
+Environmental Protection Agency released a plan for regulatory reform unde r the Coordinated 
+Framework for Biotechnology, focusing on modified plants, animals, and microorganisms; human 
+drugs; and broader issues. The plan aims to clarify oversight and includes biannual reviews.  
+The December 2024 court decision invalidating USDA’s  SECURE Rule and USDA’s reversion to 
+the pre -May 2020 framework may prompt Congress to assess the implications for innovation and 
+oversight in plant biotechnology regulation. Congress may also examine how these regulatory 
+changes impact efforts to advance the U.S. bioeconomy, including agency coordination and 
+biotechnology commercialization. Additionally, Congress may evaluate how these shifts affect 
+goals such as balancing regulatory clarity, consumer safety, and market development in the 
+biotechnology sec tor. 
+For Further Information  
+Eleni G. Bickell, Analyst in Agricultural Policy  
+CRS In Focus IF12618, Gene -Edited Plants: Regulation and Issues for Congress  
+Climate Science  
+S&T considerations permeate deli berations on topics related to climate change and mitigation 
+approaches. This section discusses issues before the 119th Congress, which may include 
+understanding the causes of extreme heat and addressing associated risks, assessing the concept 
+of “net -zero emissions” and related policies, and evaluating ocean -based strategies for carbon 
+dioxide removal.  
+Climate Change and the Challenge of Addressing Extreme Heat  
+According to the U.S. Global Change Research Program (USGCRP), human -caused greenhouse 
+gas (GHG)  emissions are warming the planet, and in recent years, scientists have observed 
+record -breaking temperatures and heat waves.  
+Science and Technology Issues for the 119th Congress  
+ 
+Congressional Research Service   5 Extreme heat can have a range of serious consequences on U.S. communities. It can cause heat -
+related deaths and an increase in hea t-related medical conditions. Extreme heat affects the health, 
+safety, and productivity of workers. According to the Centers for Disease Control and Prevention, 
+extreme heat puts personnel at increasing risk of workplace injuries. Extreme heat also strains  the 
+electrical power grid  because it creates high demand for cooling, among other reasons . It has been 
+estimated that during the summer of 2023, about two -thirds of North America faced the potential 
+for insufficient operating reserves of electricity from extreme heat. Extreme heat may accelerate 
+the degradation of roads, bridges, and railroad tracks. According to the Department of Defense 
+(DOD), extreme heat may degrade aircraft performance by reducing lift capacity, which may 
+require payload reductions an d longer takeoff distances. In addition, extreme heat puts stress on 
+plants, livestock, and poultry, reducing agricultural yields.  
+Studies have examined the influence of human -caused climate change on individual extreme heat 
+events. While not every extreme  heat event is caused by climate change, some studies have found 
+that human -caused climate change has increased the risk of certain extreme heat events in the 
+United States. Modeling results from the Fifth National Climate Assessment of the USGCRP 
+indicate  that “it is very likely  that heatwaves will increase in frequency, severity, and duration as 
+warming continues.”  
+Congress has oversight across a range of federal activities that can address extreme heat risks and 
+events, including activities involving res earch, preparation, response, and mitigation. In addition 
+to oversight, the 119th Congress may consider the level of funding for federal activities regarding 
+extreme heat.  
+For Further Information  
+Jonathan D. Haskett, Analyst in Environmental Policy  
+CRS In Focus IF12733, Extreme Heat and Climate Change  
+The Net-Zero Concept and Policy Considerations  
+There is a scientific consensus that human -caused GHG emissions increase the levels of GHGs in 
+the atmosphere . Higher levels of GHGs result in increases in global average temperature and a 
+corresponding increase in global net negative climate change effects. Global temperatures are 
+generally not expected to stabilize  until after GHG emissions reach net zero.  
+Net-zero emissions  refers to a situation in which human -caused GHG emissions, from sources 
+such as fossil fuel combustion and deforestation, are fully balanced by removal of carbon dioxide 
+from the atmosphere. Methods of removal include natural absorption and storage in forests and 
+other ecosystems as well as technological removal and storage.  
+The net -zero concept appears in both enacted legislation and executive branch actions. Provisions 
+in recent legislation funded emissions reduction activities, in some cas es citing the goal of 
+achieving net -zero GHG emissions. For example, in 2022, Congress enacted P.L. 117 -169, 
+commonly known as the Inflation Reduction Act (IRA), which incl uded appropriations of 
+approximately $5.8 billion in financial assistance to industrial or manufacturing facilities to help 
+them adopt “advanced industrial technology at an eligible facility.” In this context, the IRA 
+defines “advanced industrial technolog y” as being “designed to accelerate [GHG] emissions 
+reduction progress to net -zero.” One of the priorities for receiving the assistance is the level of 
+emissions reductions from an industrial or manufacturing facility.  
+The Paris Agreement, which the United  States had previously joined, is an international pact for 
+cooperation to address climate change and its impacts. Article 4 of the agreement includes a goal 
+Science and Technology Issues for the 119th Congress  
+ 
+Congressional Research Service   6 of achieving a balance between GHG emissions and removals (i.e., reaching net -zero emissions) 
+by the second half of this century. On January 20, 2025, President Trump issued an E.O. directing 
+the withdrawal of the United States from the Paris Agreement . The 119th Congress may examine 
+policies and programs that seek to implement a net -zero concept.  
+For Further Information  
+Jonathan D. Haskett, Analyst in Environmental Policy  
+CRS In Focus IF12753, Climate Change: What Are Net -Zero Emissions?  
+Marine Carbon Dioxide Removal  (mCDR)  
+Scientists have investigated how mCDR, including artificial upwelling/downwelling, direct ocean 
+removal, macroalgal (seawee d) cultivation, ocean alkalinity enhancement, and ocean fertilization 
+may augment the ocean’s natural ability to absorb atmospheric carbon dioxide and to store carbon 
+for extended periods. Various stakeholders have proposed the use of mCDR as a policy opti on to 
+mitigate rising atmospheric carbon dioxide levels. The efficacy, cost, co -benefits, and risks of 
+full-scale deployment of mCDR approaches are still uncertain. While some stakeholders propose 
+controlled field experiments to investigate these uncertain ties, permitting and high costs for 
+conducting such experiments may present challenges for researchers.  
+Policy options, such as a federal regulatory framework to facilitate controlled field experiments, 
+may elucidate some uncertainties associated with mCDR . Some stakeholders contend that a 
+robust system for monitoring, reporting, and verifying carbon sequestration is needed to ensure 
+transparent and effective management of mCDR projects. Such a system may use existing federal 
+assets or new technologies supp orted by federal agencies to monitor the marine environment in 
+areas where projects take place. Congress may consider how improved federal coordination on 
+mCDR research and permitting may help identify promising approaches for carbon dioxide 
+mitigation and  other co -benefits to marine environments (e.g., ocean acidification mitigation) as 
+well as limits to unintended side effects, including potential environmental impacts  (e.g., deep -sea 
+anoxia ). 
+For Further Information  
+Caitlin Keating -Bitonti, Specialist in  Natural Resources Policy  
+Eva Lipiec, Specialist in Natural Resource Policy  
+Laura Gatz, Specialist in Environmental Policy  
+Claire M. Jordan, Senior Research Librarian  
+Anthony R. Marshak, Analyst in Natural Resources Policy  
+CRS Report R48159, Selected Potential Considerations with Respect to Marine Carbon Dioxide 
+Removal: In Brief  
+Earth and Environmental Sciences  
+Earth - and environmental -science -related issues before the 119th Congress include the National 
+Oceanic and Atmospheric Administration’s (NOAA’s) R&D activities, which are aimed at 
+improving extreme weather forecasting, addressing plastic pollution, assessing the potential for 
+seabed deposits to serve as a source of critical minerals, and understandi ng technologies proposed 
+to curb illegal, unreported, and unregulated (IUU) fishing.  
+Science and Technology Issues for the 119th Congress  
+ 
+Congressional Research Service   7 Improving Extreme Weather Forecasting  
+Weather - and climate -related disasters impact millions of people in the United States each year 
+and can cost billions of dollars. For example, in 2024, the United States experienced 27 weather - 
+and climate -related events that each caused more than $1 billion in losses , according to NOAA, 
+the primary U.S. civilian weather forecasting agency. In the United States, weather information is 
+developed by a mix of academia, the public sector, and the private sector (e.g., commercial 
+weather forecast providers). The public sector includes several federal agencies that engage in 
+weather -related activities or research, have a major need for weathe r services, or set policy and 
+direction for such services and research.  
+Congress has indicated its interest in improving aspects of weather forecasting, most recently 
+passing the Weather Research and Forecasting Innovation Act of 2017 (commonly known as th e 
+Weather Act; P.L. 115 -25). The act directed NOAA to prioritize weather research and forecasting, 
+subseasonal and seasonal forecasting, weather satellites and data, and fed eral coordination of 
+weather activities.  
+Since 2017, various stakeholders and practitioners have recommended additional improvements 
+to the weather enterprise and weather research to better protect U.S. lives and property. For 
+example, in 2022, NOAA’s Scie nce Advisory Board, a federal committee charged with advising 
+the NOAA Administrator, recommended actions to further improve NOAA’s weather -related 
+observations, data use, forecasting, information delivery, and scien tific activities , among other 
+topics. NO AA has implemented some of these recommendations. Some Members of Congress 
+have shown interest in improving the understanding and prediction of climate and weather -related 
+phenomena since the passing of the Weather Act. The 119th Congress may consider prev iously 
+introduced policy options, such as improvements to observations and forecasting of specific types 
+of events (e.g., atmospheric rivers) and new authorities for weather - and climate -prediction -
+related activities more broadly at federal agencies. Some Members may also choose to 
+reintroduce bills (e.g., H.R. 6093 , 118th Congress) that would reauthorize or change activities 
+authorized in the 2017 Weather Act.  
+For Further Information  
+Eva Lipiec, Specialist in Natural Resources Policy  
+Nicole T. Carter, Specialist in Natural Resources Policy  
+CRS In Focus IF12695, Tornadoes: Background and Forecasting  
+CRS In Focus IF12698, Weather Research and Forecasting Innovation Reauthorization Act of 
+2023 (H.R. 6093)  
+CRS In Focus IF12 872, Atmospheric Rivers: Background and Forecasting  
+CRS Report R48212, Hurricane Rapid Intensification: In Brief  
+Addressing Plastic Pollution  
+Global and domestic plastic production has increased substantially since the mid -20th century —
+doubling in the last two decades alone. The durability, moldability, and versatility of plastic have 
+led to its ubiquitous use, benefiting many aspects of society , including the food, medical, 
+technology, textile, and transportation industries. As plastic production and use have grown, so 
+have concerns about the impacts of plastic on the environment, including increasing rates of 
+plastic waste generation, insuffici ent management of plastic waste, and pollution from plastic 
+Science and Technology Issues for the 119th Congress  
+ 
+Congressional Research Service   8 waste. The potential environmental and human health effects of the chemicals used to produce 
+plastics and the air emissions generated across the plastic life cycle have also raised concerns.  
+The r isks from plastic pollution arise from the physical plastic particles (e.g., ingestion and 
+entanglement by wildlife), the potential toxicity of the chemicals from which the plastics are 
+made, and the pollutants that adhere to plastics in the environment. O ther environmental impacts 
+include air emissions generated across the plastic life cycle —including during production and for 
+certain post -use disposal practices —which may contribute to climate change and air quality 
+concerns. Gaps remain in understanding t he magnitude and scope of these impacts and the extent 
+to which various sources of plastic contribute to them. Observers have highlighted the importance 
+of further research to better understand the plastic life cycle, as well as the fate, transport, and 
+effect of plastic pollution in the environment, to inform the adoption of effective policies.  
+Congress has passed legislation, introduced bills, and held hearings to investigate and address 
+various plastic -pollution -related concerns. The 119th Congress may c onsider adopting policy 
+options and tools focusing on the entire life cycle of plastic or just on specific aspects of that life 
+cycle. Many of these tools could be applied with varying levels of stringency or scope. Congress 
+may also consider its position and options with regard to U.S. involvement in existing 
+international agreements and ongoing negotiations related to plastic pollution.  
+For Further Information  
+Laura Gatz, Specialist in Environmental Policy  
+Clare Y . Cho, Specialist in Industrial Organizat ion and Business Policy  
+Omar M. Hammad, Analyst in Environmental Policy  
+Jonathan D. Haskett, Analyst in Environmental Policy  
+Kristen Hite, Legislative Attorney  
+Angela C. Jones, Analyst in Environmental Policy  
+Claire M. Jordan, Senior Research Librarian  
+Eva Lipiec, Specialist in Natural Resource Policy  
+Jerry H. Yen, Analyst in Environmental Policy  
+CRS Report R48293, Plastic Pollution and Policy Considerations: Frequently Asked Questions  
+CRS In Focus IF12690 , International Agreement on Plastic Pollution: Negotiations  
+CRS In Focus IF10967, Marine Debris: NOAA’ s Role  
+Seabed Deposits as a Potential Source of Critical Minerals  
+Demand for critical minerals for emerging technologies across multiple sectors has driven U.S. 
+interest in securing a domestic critical mineral supply. Some stakeholders have proposed seabed 
+mining as one option to strengthen U. S. critical mineral supply chains, because certain minerals, 
+such as cobalt and manganese, are estimated to be more abundant in seafloor deposits than in land 
+deposits. Tension exists, however, between the technological challenge of extracting these 
+resour ces from remote, deepwater locations and the potential environmental impacts of seabed 
+mining techniques.  
+Commercial -scale seabed mining for critical minerals has yet to occur in areas beyond national 
+jurisdiction or on the U.S. outer continental shelf (OC S); however, the development of new 
+Science and Technology Issues for the 119th Congress  
+ 
+Congressional Research Service   9 technologies could enable the successful extraction of minerals and may help to elucidate the 
+relative risks and benefits of commercial -scale seabed mining. For example, new deep -sea 
+sensing technologies may provide info rmation about sediment disturbance and redistribution, 
+among other environmental concerns associated with seabed mining. Seabed mineral collection 
+equipment and machinery could be designed to minimize environmental impacts.  The 
+Department of Energy’s Advan ced Research Projects Agency -Energy (ARPA -E) supports 
+transformational energy technology research projects and has funded several related to seabed 
+mining. Congress may consider funding levels for certain federal agencies (e.g., ARPA -E) that 
+support R&D re lated to seabed mining technologies, as well as funding levels for agencies, such 
+as the Bureau of Ocean Energy Management (BOEM), NOAA, and the U.S. Geological Survey 
+(USGS), that work to identify the locations and characteristics of mineral deposits on t he OCS. In 
+addition, BOEM, NOAA, and the USGS have been collaborating to study the long -term 
+environmental impacts and ecosystem recovery of an area of the OCS (Blake Plateau) disturbed 
+during a 1970s seabed mining pilot project.  
+For Further Information  
+Caitlin Keating -Bitonti, Specialist in Natural Resources Policy  
+Laura B. Comay, Specialist in Natural Resources Policy  
+CRS Report R47324, Seabed Mining in Areas Beyond National Jurisdiction: Issues for Congre ss 
+CRS In Focus IF12608, U.S. Interest in Seabed Mining in Areas Beyond National Jurisdiction: 
+Brief Background and Recent Developments  
+CRS Report R48302, Critical Minerals on the U.S. Outer Continental Shelf: The Bureau of 
+Ocean Energy Management’ s Role and Issues for Congress   
+Technologies Proposed to Curb Illegal, Unreported, and 
+Unregulated (IUU) Fishing  
+Earth’s vast ocean area enables some fishing fleets to conduct IUU fishing activities undetected, 
+which presents law -enforcement challenges for the United States and other coastal nations aiming 
+to curb these practices. IUU fishing undermines fisheries man agement because it skews data on 
+fishery populations, inhibits stock assessments, and can exacerbate overfishing. Congress 
+continues to express interest in applying newer technologies to address IUU fishing. Widely used 
+technologies, including the Vessel M onitoring System (VMS) and Automatic Identification 
+System (AIS), monitor vessel location and movement, which can help identify vessels suspected 
+of IUU fishing. Some nations and international organizations require VMS and AIS on fishing 
+vessels of a certa in size. SeaVision, developed by the U.S. Department of Transportation and U.S. 
+Navy, uses nonclassified AIS data to display vessel movement as a web -based encrypted sharing 
+network of maritime domain awareness information.  The Navy applied machine learnin g 
+technologies, a subset of artificial intelligence (AI), to SeaVision to detect anomalous vessel 
+movement behavior (e.g., turning off a VMS, straddling the boundary of a marine protected area). 
+These applications may improve targeted enforcement against v essels suspected of IUU fishing. 
+Some federal agencies also have proposed applying AI to satellite -based synthetic aperture radar 
+data—technology that can penetrate clouds and be used at night —to detect the location and 
+movement of vessels that have turned  off their VMSs and/or AISs. While Congress has given 
+broad authority to several federal agencies to counter IUU fishing domestically and globally, 
+some Members continue to pursue legislative options that would direct federal agencies to 
+provide intelligen ce, equipment, and funding to partner nations particularly vulnerable to IUU 
+Science and Technology Issues for the 119th Congress  
+ 
+Congressional Research Service   10 fishing. Congress may further consider how these resources may be integrated with fisheries 
+management and enforcement approaches to address IUU fishing.  
+For Further Information  
+Caitlin Keating -Bitonti, Specialist in Natural Resources Policy  
+Anthony R. Marshak, Analyst in Natural Resources Policy  
+CRS Report R48215, Illegal, Unreported, and Unregulated (IUU) Fishing: Frequently Asked  
+Questions  
+Federal R&D  
+The federal government provides billions of R&D dollars annually to institutions of higher 
+education, federal laboratories, and the private sector. This section discusses issues the 119th 
+Congress may consider that are related to f ederally funded R&D, including support for 
+agricultural research, research security, potential reform of the National Institutes of Health 
+(NIH), S&T cooperation with China, and the potential reauthorization of the Small Business 
+Innovation Research and Sm all Business Technology Transfer (SBIR/STTR) programs.  
+Agricultural Research Funding  
+The USDA’s Research, Education, and Economics (REE) mission area comprises four agencies: 
+the Agricultural Research Service (ARS), the Economic Research Service (ERS), th e National 
+Agricultural Statistics Service (NASS), and the National Institute of Food and Agriculture 
+(NIFA). In addition, the REE Office of the Chief Scientist provides leadership and coordination 
+for research initiatives and activities across the departm ent, ensuring alignment with USDA 
+priorities and scientific advancements.  
+REE holds the primary federal responsibility for advancing and disseminating scientific 
+knowledge related to agriculture, food systems, and natural resources. Its work spans a range of 
+disciplines, including the biological, physical, and social sciences, to address challenges in 
+agriculture and food security, sustainability, and rural development. USDA funds research and 
+extension activities through its extramural research agency, NIF A, which distributes funding via 
+two primary mechanisms: capacity grants, allocated to states using statutory formulas, and 
+competitive grants, awarded through a peer -review process. USDA conducts intramural research 
+through ARS, which focuses on high -priority agricultural challenges; NASS, which provides 
+essential data on agriculture; and ERS, which delivers economic analysis to inform policy and 
+decisionmaking.  
+Congress provided the REE mission area programs and activities with approximately $3.9 billion 
+in FY2024 discretionary appropriations through the Consolidated Appropriations Act, 2024 ( P.L. 
+118-42), and authorized approximately $130 million of mandatory funding per ye ar through the 
+Agriculture Improvement Act of 2018 , commonly referred to as the 2018 farm bill  (P.L. 115 -334). 
+USDA directs nearly half of this federal funding to states and local partners, primarily through 
+grants.  
+While the 119th Congress is considering a new multiyear farm bill reauthorization, it may also 
+consider establishing new REE programs or initiatives, revising existing efforts, or eliminating 
+some progra ms. Without reauthorization or additional extensions, mandatory funding could 
+expire for certain programs, such as the Organic Research and Extension Initiative and others 
+without baseline funding.  
+Science and Technology Issues for the 119th Congress  
+ 
+Congressional Research Service   11 For Further Information  
+Eleni G. Bickell, Analyst in Agric ultural Policy  
+CRS In Focus IF12023, Farm Bill Primer: Agricultural Research and Extension   
+CRS Report R48307, Federal Research and Development (R&D) Fun ding: FY2025  
+Implementation of Research Security Policies  
+In general, U.S. policy for federally funded basic and applied research is to encourage openness, 
+collaboration, and information sharing. Recently, U.S. officials and others have raised concerns 
+about various efforts of foreign governments —most notably the PRC —to influence and exploit 
+the openness of the U.S. research ecosystem. They warn that the ability of foreign strategic 
+competitors to acquire U.S. advances in S&T, intellectual property, and t alent may pose a risk to 
+U.S. national defense and global economic competitiveness.  
+In response, Congress and the executive branch have taken several actions intended to maintain 
+the benefits of an open research ecosystem while protecting it from external threats. For example, 
+in 2019, Congress established an interagency working group to, among other tasks, develop 
+descriptions of known and potential threats to federally funded R&D ( P.L. 116 -92, §1746). In 
+2021, President Trump issued National Security Presidential Memorandum 33 (NSPM -33), which 
+directed federal agencies to take specific actions “to strengthen protections of United States 
+Government -supported [R&D] against for eign government interference and exploitation.” And in 
+2022, the Biden Administration issued guidance to federal agencies on the implementation of 
+NSPM -33. 
+Together, these actions have amended existing policies and instituted new requirements in a 
+number o f areas, including (1) prohibiting certain federally funded researchers from participating 
+in malign foreign talent recruitment programs, (2) establishing research security training and 
+program requirements to increase threat awareness among U.S. academic researchers, (3) 
+standardizing and strengthening requirements for U.S. researchers to disclose specified types of 
+connections to foreign researchers and institutions, and (4) enhancing the ability of federal R&D 
+funding agencies to share information and as sess R&D funding decisions for potential security 
+risks.  
+The 119th Congress may continue to monitor threats to the security of U.S. R&D, oversee  the 
+progress of ongoing efforts to address those threats, and consider additional measures that may 
+enhance the  ability of the United States to protect the results of federally funded R&D.  
+For Further Information  
+Emily G. Blevins, Analyst in Science and Technology Policy  
+Marcy E. Gallo, Analyst in Science and Technology Policy  
+CRS In Focus IF12589, Research Security Policies: An Overview  
+The National Institutes of Health (NIH) and Potential Agency 
+Reform  
+NIH is the leading biomedical and health research agency of the federal government. With its 
+over $47 billion b udget in FY2024, NIH is the world’s largest public health research funder and 
+therefore has considerable influence on S&T globally. NIH comprises 27 different 
+Science and Technology Issues for the 119th Congress  
+ 
+Congressional Research Service   12 semiautonomous institutes and centers (ICs), most of which oversee research programs related to 
+specific diseases or other health and scientific topics.  
+In the 118th Congress, some committee leaders in both the House and Senate published reports on 
+potential NIH reform. These reports highlighted several concerns, including that (1) NIH’s peer -
+review process for selecting and funding research proposals may favor establ ished scientific 
+approaches over innovation; (2) NIH lost public trust during the COVID -19 pandemic with its 
+associated public communication; (3) NIH lacks adequate oversight over grantees and their policy 
+compliance, creating some security concerns; and ( 4) NIH’s large and decentralized structure 
+creates opportunities for research overlap and inefficiencies. To address the last concern, the  chair 
+of the  House Committee on Energy and Commerce proposed restructuring and reducing NIH’s 27 
+ICs to 15, and the H ouse Committee on Appropriations reflected the proposed restructure in an 
+FY2025 appropriations bill.  
+The House NIH reorganization proposal generated mixed reactions among stakeholders. Some 
+agreed with the proposed changes or with the underlying intention  to reform NIH. Others voiced 
+concerns, particularly with including the new structure in the committee -reported FY2025 
+appropriations bill. Several stakeholder organizations argued that any proposed change to NIH’s 
+structure should be subject to an open an d transparent public process. The 119th Congress also 
+faces policy questions related to NIH’s overall research priorities, how to balance NIH -supported 
+research with private sector research, and the oversight and security of NIH -funded research. 
+Congress m ay also respond to the Administration’s recent policy changes, such as modifications 
+to the amount of indirect costs NIH will support.  
+For Further Information  
+Kavya Sekar, Analyst in Health Policy  
+CRS Report R41705, The National Institutes of Health (NIH): Background and Congressional 
+Issues  
+CRS Insight IN12516, NIH Indirect Costs Policy for Research Grants: Recent Developments   
+Oversight of the U.S. -China Science and Technology Cooperation 
+Agreement  (STA)  
+The first major agreement between the United States and the PRC, the U.S. -China STA, has 
+facilitated joint R&D activities between the two nations since it was signed in 1979. At the time, 
+the STA was pa rt of a U.S. strategy to build ties with China to counter the influence of the Soviet 
+Union. Since then, U.S. views and strategy toward China have been shifting to protect and 
+advance U.S. interests vis -à-vis China as a strategic competitor.  
+On December 13 , 2024, the Department of State announced that the United States and China had 
+signed a protocol to amend and extend the STA for five years. The STA was last extended in 
+September 2018, when it was amended to address U.S. concerns about China’s approach to  
+technology, innovation, and practices of concern (e.g., intellectual property theft, lax intellectual 
+property enforcement, and forced technology transfer). Like other U.S. STAs, the U.S. -China 
+STA is an umbrella agreement. It governs U.S. government S&T work with China through an 
+estimated 30 agency -level protocols and 40 sub -agreements. Stated STA objectives include 
+providing opportunities for cooperation in S&T fields of mutual interest “on the basis of equality, 
+reciprocity and mutual benefit.”  
+Advocat es say the STA guides U.S. S&T work with China without mandating activity; provides 
+access and protections for U.S. scientists in China, including in the social sciences (where access 
+Science and Technology Issues for the 119th Congress  
+ 
+Congressional Research Service   13 has been more restricted); and benefits U.S. researchers by providing ac cess to large pools of 
+research subjects and longitudinal health studies. Opponents say China has cooperated 
+inconsistently, restricted access to U.S. researchers, imposed data restrictions, and withheld 
+scientific results. Opponents also caution that S&T ties with the United States have helped China 
+develop research, technological, and industrial competencies. The STA has also provided the 
+framework for PRC students and scholars to study in the United States, which has been central to 
+China’s S&T advances.  
+The STA is not a treaty requiring Senate ratification but is subject to congressional oversight. 
+Such oversight could include (1) reconstituting reporting requirements, (2) requiring the 
+Department of State to provide all sub -agreements and notify Congres s of any future sub -
+agreements, (3) requiring an assessment of U.S. research work with China performed under the 
+STA, and (4) determining whether the U.S. -China STA should be extended at the end of the 
+current five -year term and, if so, according to what t erms.  
+For Further Information  
+Karen M. Sutter, Specialist in Asian Trade and Finance  
+Emily G. Blevins, Analyst in Science and Technology Policy  
+CRS In Focus IF12510, U.S.-China Science and Technology Cooperation Agreement  
+Reauthorization of the Small Business Innovation Research and 
+Small Business Technology Transfer (SBIR/STTR) Programs  
+Congress has a long -standing in terest in federal programs that provide assistance and support for 
+small businesses because of their perceived importance to the economy —creating jobs, 
+improving productivity, and advancing innovation. The SBIR and STTR programs provide early -
+stage R&D fun ding to small businesses with the intent of stimulating innovation, expanding the 
+use of these businesses to help meet federal R&D needs, and increasing private sector 
+commercialization of innovations resulting from federally funded R&D, among other goals.  
+Execution of the SBIR and STTR programs is decentralized. Both the SBIR and STTR statutes 
+(15 U.S.C. §638) require that federal agencies with extramural R&D budgets in excess of 
+specified amounts set aside a percentage of such funds to conduct their own S BIR and STTR 
+programs. Currently, 11 federal departments and agencies operate SBIR programs, and 6 operate 
+STTR programs. According to the most recent SBIR/STTR annual report, in FY202 2, federal 
+agencies awarded $ 4.1 billion to small businesses through the  SBIR program and $ 618.3  million 
+through the STTR program.  
+The SBIR and STTR programs have been extended and reauthorized several times since their 
+initial enactments —1982 and 1992, respectively. On September 30, 2025, the authority for these 
+programs, inc luding existing pilot programs, expires. If the 119th Congress debates the 
+reauthorization of the programs, it may consider a number of issues, including the required 
+amount of funding an agency sets aside for the programs, the effectiveness of efforts to improve 
+commercialization outcomes and to mitigate foreign influence and risk, and the eligibility of 
+certain small businesses to participate in the program.  
+For Further Information  
+Marcy E. Gallo, Analyst in Science and Technology Policy  
+CRS In Focus IF12 874, Small Business Research Programs: Overview and Issues for 
+Reauthorization in the 119th Congress   
+Science and Technology Issues for the 119th Congress  
+ 
+Congressional Research Service   14 Information Technology (IT) and Social Media  
+Rapid advancements in IT present several issues for the 119th Congress, such as the accessibility 
+of various types of data by consumers, companies, and law enforcement entities (among others); 
+cybersecurity; legal and policy considerations related to the ownership and use of social media 
+platforms; and the pote ntial impact of certain digital advertising and internet media strategies on 
+traditional newspaper publishers and journalists.  
+Access to Motor Vehicle Software and Data  
+Motor vehicles’ software supports many functions, including telematics , that is, the wi reless 
+transmission of data to and from vehicles and data centers hosted by vehicle original equipment 
+manufacturers (OEMs). Access to motor vehicles’ telematics data has become a focal point of 
+policy debate around laws stipulating consumers’ ability to s elect who repairs and services their 
+motor vehicles.  
+Some industry participants and consumers contend that the growing prevalence of software and 
+sensors within motor vehicles has enabled OEMs to limit competition in the marketplace of goods 
+and services a fter the initial sale of vehicles. OEMs and motor vehicle dealerships counter that 
+laws guaranteeing third -party access to vehicle data —whether for repair or other purposes —are 
+unnecessary and could compromise consumer safety.  
+Copyright laws, typically enforced by courts, penalize consumers and third parties that violate 
+copyright holders’ exclusive rights in creative works, including software. Pursuant to a 
+congressionally mandated triennial rulemaking, the Librarian of Congress may grant temp orary 
+three -year exemptions from certain copyright laws to allow third parties and consumers to access, 
+store, and share vehicle operational data for repair or other purposes.  
+The Right to Equitable and Professional Auto Industry Repair Act (REPAIR Act; H.R. 906 ) was 
+introduced in the 118th Congress but never made it out of committee. The REPAIR Act would 
+have given the Federal Trade Commission (FTC) the authority to adopt a rule requ iring OEMs to 
+provide consumers and third parties with access to motor vehicles for the purpose of repair. It also 
+would have permitted the FTC, in consultation with the National Highway Traffic Safety 
+Administration (NHTSA), to require OEMs to enable thir d-party access to data unrelated to 
+repair. As an alternative to enacting legislation, Members could monitor actions by states, courts, 
+and industry participants and/or increase oversight activities of federal government agencies.  
+For Further Information  
+Dana A. Scherer, Specialist in Telecommunications Policy  
+CRS Report R48131, Access to Motor Vehicle Software and Data  
+Cybersecurity  of Information and Communications 
+Technology  (ICT)  
+Policymakers and systems administrators may continue developing new cybersecurity reforms 
+during the 119th Congress. One concern many have is the uptick of attacks on key ICT companies 
+and products.  Accor ding to the National Institute of Standards and Technology (NIST), ICT 
+“encompasses the capture, storage, retrieval, processing, display, representation, presentation, 
+organization, management, security, transfer, and interchange of data and information.” 
+Following are some recent, high -profile ICT cybersecurity incidents:  
+Science and Technology Issues for the 119th Congress  
+ 
+Congressional Research Service   15 • the 2020 SolarWinds attack , in which a Russia Federation –linked attacker 
+compromised an IT management company in order to steal data from that 
+company’s clients,  
+• the 2021 Log4Shell exploi tation , in which Islamic Republic of Iran –linked 
+actors took advantage of a common vulnerability in widely used software to 
+access sensitive information on many web servers,  
+• the 2024 global IT outage , linked to a flawed update of cybersecurity software, 
+and 
+• the 2024 Salt Typhoon attack , in which PRC attackers compromised 
+telecommunications companies in order to spy on Americans.  
+The U.S. government has investigated these incidents  and, i n some cases, has made public claims 
+of attribution and imposed sanctio ns on malicious actors.  The compromises of IT and ICT 
+products are concerning because they violate the chain of trust that users must have in order for 
+these types of products to work and because a compromise of one of these technologies can 
+provide an att acker with broad access to a large number of potential victims.  
+The 119th Congress may choose to overs ee federal agency activities and develop legislation 
+regarding cybersecurity requirements for trusted IT and ICT companies.  
+For Further Information  
+Chris Jaikaran, Specialist in Cybersecurity Policy  
+CRS In Focus IF10559, Cybersecurity: A Primer  
+CRS In Focus IF12798, Salt Typhoon Hacks of Telecommunication s Companies and Federal 
+Response Implications  
+CRS Insight IN12392, The July 19th Global IT Outages  
+Evolving Technology and the Debate over “Lawful Access” to Data  
+Technological advances present both op portunities and challenges for U.S. law enforcement. 
+Some developments have increased the quantity and availability of digital content and 
+information for investigators and analysts. Other advances have presented new hurdles for law 
+enforcement. For exampl e, while some observers believe that law enforcement now has access to 
+more information than ever before, others express concern that law enforcement’s investigative 
+capabilities may be outpaced by the speed of technological change, preventing investigator s from 
+accessing certain information they may otherwise be authorized to obtain. Specifically, law 
+enforcement officials cite strong, end -to-end encryption, or warrant -proof  encryption , as 
+preventing lawful access to certain data. Companies employing such strong encryption have 
+stressed that they do not hold encryption keys. This means they may not be readily able to unlock, 
+or decrypt , the devices or communications —even for law enforce ment presenting an authorized 
+search warrant or wiretap order.  
+The tension between law enforcement capabilities and technological change —including 
+sometimes competing pressures for technology companies to provide data to law enforcement as 
+well as to secur e customer privacy —has received congressional attention for several decades. For 
+instance, during the 1 990s  crypto wars , proposals to build vulnerabilities, or back doors , into 
+certain encrypted communications devices as well as to restrict the export of s trong encryption 
+code  were introduced . In 1994, Congress passed the Communications Assistance for Law 
+Enforcement Act (CALEA; P.L. 103 -414) to help law enforcement agencies  maintain their ability 
+Science and Technology Issues for the 119th Congress  
+ 
+Congressional Research Service   16 to execute authorized electronic surveillance as telecommunications providers turned to digital 
+and wireless technology. More recently, there have been questions about whether CALEA should 
+be amended to apply to a broader range of e ntities that provide communications services.  
+The debate over lawful access to information originally focused on data in motion , or law 
+enforcement’s ability to intercept real -time communications. More recent technology advances 
+have affected law enforceme nt’s capacity to access not only real -time communications but also 
+stored content, or data at rest . Some officials have urged the technology community to develop a 
+means to assist law enforcement in lawfully accessing certain data. At the same time, law 
+enforcement entities have taken their own steps to bolster their technological capabilities. Other 
+stakeholders have urged technology companies to maintain strong encryption to protect privacy. 
+The 119th Congress may consider legislation to address law enfor cement’s concerns and customer 
+privacy issues involving access to communications and data.  
+For Further Information  
+Kristin Finklea, Specialist in Domestic Security  
+CRS In Focus IF11769, Law Enforcement and  Technology: The “Lawful Access” Debate   
+Issues Related to Social Media Platforms  
+Some Members of Congress have expressed interest in various aspects of social media platforms, 
+such as Facebook, Instagram, TikTok, and YouTube. These interests include the  spread of 
+misinformation and content that may be harmful, particularly for minors; censorship of lawful 
+content; use of algorithms to amplify or restrict content; and national security, data privacy, and 
+foreign influence risks posed by TikTok, a social m edia platform owned by the Chinese company 
+ByteDance.  
+Congress has enacted legislation related to social media platforms. For example, in the 117th 
+Congress, a law was enacted banning TikTok from certain government devices ( P.L. 117 -328) and 
+directing NSF to support research on the impact of social media platforms on human trafficking 
+(P.L. 117 -348). In the 118th Congress, legislation was enacted to prohibit app stores and internet 
+hosting services from distributing, maintaining, or upd ating TikTok and other “foreign adversary 
+controlled applications” ( P.L. 118 -50). Some states have also enacted legislation related to social 
+media. Challenges to the validity of some of these laws are being litigated in federal courts.  
+Members of the 118th Congress held hearings and introduced multiple bills on social media 
+platforms (e.g., H.R. 57 3, H.R. 7891 , S. 147 , S. 483 ). Some  of these bills would have amended 
+Section 230 of the Communications Act of 1934, enacted as part of the Telecommunications Act 
+of 1996. Section 230 protects interactive computer service providers and their users from liability 
+for publishing —and, in some instances, restricting access to or availability of —another user’s 
+content. Other bills would have implemented various requirements for social media platforms, 
+such as providing information about their content moderation practices and implementing 
+requirem ents related to their use of algorithms. Members of the 119th Congress might consider 
+whether to introduce or enact similar bills related to social media platforms.  
+For Further Information  
+Clare Y . Cho, Specialist in Industrial Organization and Business Po licy 
+Ling Zhu, Analyst in Telecommunications Policy  
+Peter J. Benson, Legislative Attorney  
+Valerie C. Brannon, Legislative Attorney  
+Science and Technology Issues for the 119th Congress  
+ 
+Congressional Research Service   17 Michael D. Sutherland, Analyst in International Trade and Finance  
+Karen M. Sutter, Specialist in Asian Trade and Finance  
+CRS Report R46662, Social Media: Content Dissemination and Moderation Practices   
+CRS Legal Sidebar LSB11224, Moody v. NetChoice, LLC: The Supreme Court Addr esses Facial 
+Challenges to State Social Media Laws   
+CRS Report R48023, TikTok: Frequently Asked Questions and Issues for Congress   
+CRS In Focus IF12640, TikTok and China’ s Digital Platforms: Issues for Congress   
+CRS Legal Sidebar LSB11261, TikTok Inc. v. Garland: Supreme Court Rejects Challenge to 
+TikTok Divestiture Law   
+CRS Legal Sidebar LSB11166, Montana’ s TikTok Ban Goes Before the Ninth Circuit   
+CRS Legal Sidebar LSB11266, Technology Regulation: CRS Legal Products for the 119th 
+Congress , coordinated by Valerie C. Brannon   
+Innovation and Competition  
+The state of America’s innovation ecosystem —the constellation of people, institutions, and 
+enterprises engaged in R&D of new products and services —affects the long -term economic and  
+national security of the United States. This section discusses issues that may impact the overall 
+capacity of the United States to innovate and compete globally.  
+Artificial Intelligence (AI)  
+The ability for U.S. firms and institutions to outpace competit or nations in advancing the 
+capabilities and deployment of AI technologies —including machine learning, generative AI, and 
+facial recognition technologies —is widely recognized as a key component of U.S. economic and 
+national security. Selected innovation an d competition issues specific to AI are discussed below.  
+Oversight of Advances in AI  
+Interest in AI —including from the public, industry, the executive branch, and Congress —has 
+grown alongside recent advances and widespread use of applications such as facia l recognition 
+technologies and generative AI models. As the beneficial uses of these and other AI technologies 
+expand, so too do recognition of potential harms and calls for congressional action. Congressional 
+activities focused on AI increased substantial ly in the 117th and 118th Congresses in both the 
+House and Senate, including committee hearings, working groups creating AI policy road maps, 
+the introduction of numerous AI -focused bills, and the passage of AI provisions in legislation. 
+Enacted legislatio n includes the National Artificial Intelligence Initiative Act of 2020 ( P.L. 116 -
+283, Division E); the AI in Government Act of 2020 ( P.L. 116 -260, Division U, Title I); 
+provisions focused on AI activities at NSF, the Department of Energy, and NIST within the 
+CHIPS and Science Act ( P.L. 117 -167); the AI Training Act ( P.L. 117 -207); and the Advancing 
+American AI Act ( P.L. 117 -263, §§7221 -7228).  
+AI holds potential benefits and opportunities, such as through augmenting human decisionmaking 
+and optimizing performance for complex tasks. It also presents challenges and pitfalls, such as 
+perpetuating or a mplifying bias and failing in unexpected ways. The complexity of AI systems, 
+the pace of advancement in AI technologies, and the wide range of applications across sectors 
+create policy issues of potential interest to the 119th Congress. These include quest ions regarding  
+Science and Technology Issues for the 119th Congress  
+ 
+Congressional Research Service   18 • the balance of federal and private sector funding for AI;  
+• whether and, if so, how to increase access to federal resources (e.g., training 
+datasets, computing power, and educational materials) for use in the public and 
+private sectors, includ ing academic research and start -up businesses;  
+• the impact of AI and AI -driven automation on the workforce, including potential 
+job losses and the need for worker retraining;  
+• the challenges of educating students in AI, from teaching foundational concepts 
+at the K -12 level to supporting doctoral -level training to meet increasing demand 
+for AI expertise;  
+• the need for and effectiveness of federal and international coordination efforts in 
+AI, as well as concerns over international competition in AI R& D and 
+deployment;  
+• the incorporation of ethics, privacy, security, transparency, and accountability 
+considerations in AI systems; and  
+• whether and, if so, how Congress might approach regulation of AI technologies.  
+For Further Information  
+Laurie Harris, Anal yst in Science and Technology Policy  
+CRS In Focus IF12426, Generative Artificial Intelligence: Overview, Issues, and Considerations 
+for Congress   
+CRS Report R48262, Artificial Intelligence: CRS Experts and Points of Contact  
+CRS Insight IN12458, Artificial Intelligence: CRS Products  
+The Regulation of AI in Health Care  
+The use of AI in health care broadly falls within three categories: diagnosis and treatment ; patient 
+engagement and adherence with treatment plans ; and administrative applications. Many of these 
+applications have been well received by stakeholders. Nevert heless, the use of AI in health care 
+may introduce challenges in areas such as (1) data access, (2) bias, (3) lack of transparency, (4) 
+privacy, (5) scaling and integration, and (6) uncertainty over liability.  
+Though the quantity  of available health data has recently proliferated, it may be difficult for 
+developers to access the large volumes of high -quality data needed to create effective AI tools. 
+Such data may be limited or biased, reducing the safety of such AI tools and their efficacy for 
+different pa tient populations. AI tools may lack transparency, making it difficult for health care 
+providers to evaluate whether an AI tool is appropriate for a specific application. As AI tools are 
+developed and used, increasingly large quantities of data will likely  be accessible to more parties, 
+adding to privacy risks. AI tools can be challenging to scale up and integrate into new settings 
+because of differences among institutions and patient populations. The number of parties involved 
+in developing and deploying A I tools has made it difficult to determine legal liability associated 
+with these technologies. Multiple Department of Health and Human Services entities have 
+pursued regulatory actions regarding AI. These agency efforts are nascent and somewhat 
+fragmented,  though there is a focus on unifying regulatory approaches.  
+The 119th Congress may consider measures that increase health data access among appropriate 
+parties and strengthen the quality of health research initiatives, among other things. Congress may 
+build on existing initiatives or support agencies and industry stakeholders in continuing to 
+develop others, such as guardrails to protect access to health data.  
+Science and Technology Issues for the 119th Congress  
+ 
+Congressional Research Service   19 For Further Information  
+Nora Wells, Analyst in Health Policy  
+CRS Report R48319, Artificial Intelligence (AI) in Health Care  
+Intellectual Property Issues Regarding AI  
+The 119th Congress, along with the executive branch and courts, may continue to confront novel 
+policy and legal questions regarding how intellectual property law should apply to AI.  
+In the field of copyright law, courts to date have held that only works of human authorship are 
+protected by copyright, precluding copyright for works created solely by AI. The U.S. Copyright 
+Office has denied copyright registrations for artworks created by inputting text prompts into 
+generative AI programs, and it has issued guidance stating that human authors must exercise 
+“creative control” for their work to be copyrighted. Besides authorship issues, AI raise s the 
+possibility of copyright infringement, both when existing works are used to train AI systems and 
+when those systems generate outputs that are similar to existing works. Dozens of pending 
+lawsuits challenge AI companies’ unauthorized use of existing w orks to train AI systems, while 
+AI companies largely contend that this is a fair -use practice for which they are not legally 
+required to obtain permission from the copyright owners. Various bills were introduced in the 
+118th Congress concerning copyright a nd AI (e.g., H.R. 6881 , H.R. 7913 ). 
+Regarding patent law, federal courts have held that inventions must ha ve a human inventor to be 
+patented, so inventions made autonomously by AI are not patentable. The U.S. Patent and 
+Trademark Office (USPTO) issued guidance in 2024 addressing when inventions made by 
+humans using AI assistance may be patentable. USPTO also r eleased separate guidance in 2024 
+on when inventions involving AI technologies themselves may be patented, in light of U.S. 
+Supreme Court decisions that narrowed the scope of patentable subject matter (see “ The Role of 
+Patents in Promoting Innovation ”). Stakeholders have debated how USPTO’s guidance on AI and 
+patent law will affect technological innovation and economic competition.  
+The potential for AI to replicate real people’s voices and likenesses (including “deepfakes”) also 
+raises policy questions regarding the right of publicity  (ROP), or the legal right to prevent certain 
+unauthorized uses of one’s name, image, li keness, and/or voice. ROP is mainly protected by state 
+laws, although federal trademark law provides some overlapping protection. Some stakeholders 
+have called for Congress to supplement or replace state ROP laws with federal legislation in light 
+of concer ns raised by AI. Some bills introduced in the 118th Congress, for example , would have 
+created a federal cause of action for victims of deepfakes or other digital depictions created by AI 
+(e.g., H.R. 3106 , H.R. 5586 , H.R. 6943 , H.R. 7569 , H.R. 9551 , S. 3696 , S. 4875 ). 
+For Further Information  
+Kevin J. Hickey, Legislative Attorney  
+Christopher T. Zirpoli, Legislative Attorney  
+Emily G. Blevins, Analyst in Science and Technology Policy  
+CRS Legal Sidebar LSB11251, Artificial Intelligence and Patent Law  
+Advancing Innovation at DOD  
+A wide range of authorities, programs, and organizations across the U.S. government support and 
+manage technological aspects of national defense. In particular, such efforts seek to preserve or 
+expand the defense innovation ecosystem —the set of organizations, activities, functions, and 
+Science and Technology Issues for the 119th Congress  
+ 
+Congressional Research Service   20 processes that develop, produce, and field new or improved technologies and capabilities for 
+military use.  
+As the U.S. federal governme nt’s share of global R&D support fell from 45% in 1960 to about 
+6% in 2020, some stakeholders have become concerned about the ability of the federal 
+government and DOD, in particular, to direct the development of leading technologies. Today, 
+commercial com panies in the United States and elsewhere in the world are leading development 
+of groundbreaking , dual -use technologies in AI, autonomous vehicles and systems, and advanced 
+robotics. DOD’s ability to maintain a technology edge for U.S. forces may increasin gly depend 
+on these external sources of innovation.  
+Congress and DOD have taken a number of actions to improve the defense innovation ecosystem, 
+including providing policy direction and establishing new innovation -related positions, 
+organizations, and prog rams within DOD (e.g., the Defense Innovation Unit and the Office of 
+Strategic Capital). Despite such efforts, many defense experts and other stakeholders remain 
+concerned that DOD is not adopting and transitioning innovative technologies to warfighters at  
+the speed and scale necessary to deter strategic competition from the PRC and to address other 
+threats.  
+Challenges remain in building the institutional mechanisms and culture within DOD that are 
+needed to effectively access dual -use technologies from priv ate sector companies that have not 
+traditionally served as defense contractors. The 119th Congress may consider several issues, 
+including improved planning, coordination, and execution across DOD components, especially 
+innovation -related organizations; add itional reforms to DOD processes (e.g., modifications to 
+DOD’s planning, programming, budgeting, and execution process); and efforts to incentivize 
+innovation.  
+For Further Information  
+Marcy E. Gallo, Analyst in Science and Technology Policy  
+CRS In Focus IF 12869, The Defense Innovation Ecosystem  
+CRS In Focus IF10834, Defense Primer: Under Secretary of Defense for Research and 
+Engineering  
+CRS In Focus IF1 0553, Defense Primer: Research, Development, Test, and Evaluation  
+Issues for the Implementation of Regional Innovation 
+Strategies  (RISs)  
+Federal assistance for RISs is generally intended to help state an d local stakeholders develop links 
+between organizations so they may expand innovation, increase jobs, attract investment, and 
+otherwise support regional economic development goals. As place -based initiatives, RIS 
+programs, such as the Small Business Admin istration’s Regional Innovation Clusters program, 
+generally focus on addressing conditions in a specific location. Some RIS programs also seek to 
+improve the development and commercialization of key technology focus areas and support U.S. 
+innovation capaci ty broadly. In recent years, Congress authorized new programs and provided 
+initial funding for certain RIS programs, including the Economic Development Administration’s 
+Regional Technology and Innovation Hubs (Tech Hubs) and NSF’s Regional Innovation Engin es 
+programs.  
+The 119th Congress may consider appropriations for both new and existing RIS programs. 
+Funding for the Tech Hubs program in FY2023 and FY2024, for instance, totaled $541 million —
+Science and Technology Issues for the 119th Congress  
+ 
+Congressional Research Service   21 an amount that is approximately 5% of the funding authorized to b e appropriated for the FY2023 -
+FY2027 period. If additional funding is provided, Congress may opt to provide instructions for 
+how individual agencies allocate it (e.g., expanding the geographic diversity of awards, funding 
+new and/or existing awardees) and whether or how various agencies coordinate awards and select 
+the technology focus areas.  
+Congress may also seek to evaluate initial outcomes and review implementation milestones. 
+Implementation issues that may impact RIS programs in the 119th Congress cent er on aspects of 
+sustainability, including the availability of federal and nonfederal funding and the availability of 
+training resources for workers as regional innovation systems develop. Outside groups suggest 
+that while federal funding may serve as an i nitial catalyst, additional contributions from state and 
+private sector partners may be important for sustaining the growth of regional ecosystems.  
+For Further Information  
+Julie M. Lawhorn, Analyst in Economic Development Policy  
+Adam G. Levin, Analyst in E conomic Development Policy  
+CRS In Focus IF12712, Place -Based Visas: Overview and Issues for Congress  
+CRS In Focus IF12793, Federal Assistance for State and Local Entrepreneurship Development 
+Policies and Recent Legislation  
+CRS In Focus IF12794, The Role of Business Incubators and Accelerators in Entrepreneurship 
+Support  
+The Role of Immigration in the U.S. S&T Workforce  
+Congress has a long -standing interest in how immigration contributes to U.S. economic growth 
+and technological innovation through the employment of foreign workers in S&T occupations. 
+The Immigration and Nationality Act (INA; part of Tit le 8 of the U.S. Code ) contains provisions 
+permitting skilled foreign workers (i.e., having at least a four -year bachelor’s degree) to 
+immigrate temporarily or permanently to the United States.  
+The employment -based provisions of the INA were most recently amended in 1990. The INA 
+limits the number of immigrants who receive lawful permanent resident status (i.e., green cards) 
+for skilled and other types of employment to 140,000 annually. The INA also allows for several 
+categories of skilled temporary nonimmigrants to be admitted to the United States for a specific 
+purpose and a limited period. These include the H -1B visa for specialty occupation workers and 
+the L -1 visa for intracompany transferees. Many of these workers are employed in S&T 
+occupations. In addition, foreign students on F -1 visas may obtain authorization to work for one 
+year (or up to three years for STEM majors) in fields related to their degree through optional 
+practical training (OPT), which is not numerically limited. Nonim migrant workers are often 
+sponsored by their U.S. employers for employment -based green cards.  
+The annual statutory numerical limits for permanent, employment -based immigrants have not 
+changed since 1990. In contrast, the annual number of foreign workers re ceiving H -1B visas, L -1 
+visas, and OPT —the latter two of which are not subject to statutory caps —has increased 
+substantially. Observers favoring increased permanent, employment -based immigration contend 
+that current limits are outdated. They note that U.S.  gross domestic product has doubled since the 
+INA was last amended in 1990, technological innovation has expanded enormously, and labor 
+market expansion in recent decades has relied primarily on immigration. Other observers favoring 
+stable or lower immigra tion levels contend that the increasing use of nonimmigrant temporary 
+worker categories by U.S. employers subverts the permanent, employment -based immigration 
+Science and Technology Issues for the 119th Congress  
+ 
+Congressional Research Service   22 limits established by Congress and harms the wages, working conditions, and opportunities of 
+U.S. workers and students.  
+For Further Information  
+William A. Kandel, Specialist in Immigration Policy  
+Jill H. Wilson, Analyst in Immigration Policy  
+CRS In Focus IF12912, The H -1B Visa for Specialty Occupation Workers   
+CRS Report R47164, U.S. Employment -Based Immigration Policy  
+CRS In Focus IF12712, Place -Based Visas: Overview and Issues for Congress  
+The Role of Patents in Promoting Innovation  
+The U.S. patent system is designed to encourage innovation and economic growth by offering a 
+limited -time monopoly on an invention  in exchange for its public disclosure. Areas of patent 
+policy that the 119th Congress may choose to address include patent -eligible subject matter and 
+the Patent Trial and Appeal Board (PTAB).  
+Patent -eligible subject matter  refers to the types of inventio ns that may be patented. After a series 
+of U.S. Supreme Court decisions in the 2010s restricted patent eligibility, stakeholders have 
+debated the effects of these decisions and possible uncertainty in patent eligibility on incentives 
+for innovation, especi ally in industries such as biotechnology, AI, and computer software. USPTO 
+issued guidance in 2019 and 2024 to clarify how its patent examiners should apply subject matter 
+eligibility standards. Bills introduced in the 118th Congress ( H.R. 8134 , H.R. 9474 , S. 2140 ) 
+would have abrogated th e Supreme Court’s patent eligibility decisions and broadened the scope 
+of patent -eligible inventions.  
+In 2011, Congress created PTAB, an administrative body within USPTO, to adjudicate challenges 
+to the validity of granted patents. PTAB proceedings, such a s inter partes review generally 
+provide a faster and less expensive forum to challenge the validity of issued patents as compared 
+to litigation in federal court. While some stakeholders argue that PTAB offers an efficient means 
+to invalidate low -quality pa tents, others contend that its proceedings are unfair to patent holders 
+and unduly undermine patent rights. Bills introduced in the 118th Congress would have reformed 
+PTAB proceedings in various ways (e.g., H.R. 4370 , S. 2220 ) or abolished PTAB ( H.R. 8134 ). 
+Patent policy issues relating to AI are discussed separately in “ Intellectual Property Issues 
+Regarding AI .” 
+For Further Information  
+Kevin J. Hickey, Legislative Attorney  
+Christopher T. Zirpoli, Legislative Attorney  
+Emily G. Blevins, Analyst in Science and Technology Policy  
+CRS In Focus IF12744, Patent Law: An Introduction and Issues for Congress  
+CRS In Focus IF12563, Patent -Eligible Subject Matter Reform: An Overview  
+The Role of Patents in Pharmaceuti cal Innovation and Competition  
+Patents play a particularly important role in the pharmaceutical industry. A number of patent -
+related issues may come before the 119th Congress given ongoing policy debates over how to 
+Science and Technology Issues for the 119th Congress  
+ 
+Congressional Research Service   23 balance promoting the development of new  pharmaceuticals with ensuring patient access to 
+affordable drug treatments. While some stakeholders argue that robust patent rights are necessary 
+to support R&D for new drugs, others argue that strategic uses of patents can unduly delay or 
+deter generic c ompetition and contribute to high drug prices. Should the 119th Congress seek to 
+promote generic competition, legislative options might include limiting alleged pharmaceutical 
+patenting practices known as “evergreening,” “product hopping,” “patent thickets ,” or “pay -for-
+delay settlements.”  
+Administrative actions during the Biden Administration focused attention on several specialized 
+policy issues concerning pharmaceutical patents and drug pricing. In September 2023, the FTC 
+issued a policy statement warni ng drug manufacturers that it intended to scrutinize patents listed 
+in the FDA publication Approved Drug Products with Therapeutic Equivalence Evaluations , 
+known as the “Orange Book.” Because inclusion of a patent in the Orange Book may affect when 
+the FDA  may approve a generic version of a drug, FTC argued that improper patent listing could 
+be a violation of competition and antitrust laws. FTC has subsequently challenged hundreds of 
+patents as improperly listed by drug manufacturers in the Orange Book.  
+In December 2023, NIST released draft guidance for federal agencies on “march -in rights” under 
+P.L. 96 -517, commonly referred to as the Bayh -Dole Act, which allow the federal government to 
+issue compulsory licenses to patents on inventions made with federal funding. NIST’s proposed 
+guidance, which has not been finalized, would permit agencies to consider price  as one factor in 
+determining whether to exercise march -in rights. Much of the debate about whether product 
+pricing should factor into an agency’s march -in decision has centered on the affordability of 
+pharmaceuticals. Some stakeholders advocate for marchi ng in on drug patents as a means of 
+lowering prices on drugs developed with federal funding, while others argue that doing so could 
+discourage public -private partnerships and investments required to make nascent technologies 
+commercially viable.  
+In Decembe r 2024, following objections from some stakeholders, USPTO withdrew a notice of 
+proposed rulemaking that would have amended terminal disclaimer practice during the patent 
+application process. Terminal disclaimers allow patent applicants to overcome certain  double -
+patenting rejections of their applications by USPTO if they agree to shorten the term of any 
+resulting patents. Critics of terminal disclaimers argue that this practice allows drug companies to 
+amass a thicket of overlapping and duplicative patents  to protect their products from competition, 
+while other stakeholders argue that terminal disclaimers make patent prosecution more efficient 
+and do not harm innovation or economic competition.  
+For Further Information  
+Kevin J. Hickey, Legislative Attorney  
+Christopher T. Zirpoli, Legislative Attorney  
+Emily G. Blevins, Analyst in Science and Technology Policy  
+CRS In Focus IF12644, Patent Listing in FDA’ s Orange Book   
+CRS In Focus IF12582, Pricing and March -In Rights Under the Bayh -Dole Act  
+CRS In Focus IF12700, “Skinny Labels” for Generic Drugs Under Hatch -Waxman  
+CRS Legal Sidebar LSB11209, Terminal Disclaimers of Patent Rights: Background and Issues 
+for Congress   
+Science and Technology Issues for the 119th Congress  
+ 
+Congressional Research Service   24 Telecommunications  
+Telecommunications technologies present several issues for policymakers. This section discusses 
+selected telecommunications policy issues for the 119th Congress, including those related to over -
+the-air radio broadcast transmissions (such as access to transmissions and the impact of 
+broadcasting technologies on copyright), policies governing federal and nonfed eral radio 
+spectrum management and use, and the security and resiliency of telecommunication networks.  
+AM Broadcast Radio in Motor Vehicles  
+More than 4,000 U.S. broadcast radio stations use amplitude modulation (AM) frequencies to 
+transmit audio programs t o listeners. AM radio also supports national and local emergency 
+alerting systems. Since 2014, several motor vehicle manufacturers have opted not to include 
+broadcast AM radio in electric vehicles (EVs).  
+The Federal Communications Commission (FCC) has stat utory jurisdiction over electronic 
+equipment that can interfere with broadcast reception. In 1980, the agency chose to exempt motor 
+vehicle equipment from its licensing requirements, stating that including it would require further 
+study. The exemption rema ins in place. The U.S. Department of Transportation’s NHTSA 
+establishes safety standards for, but does not preapprove, electronic equipment in vehicles.  
+Several EV manufacturers assert that their vehicle models’ electronic equipment interferes with 
+the rec eption of AM broadcast signals, thereby obstructing the consumer benefits of AM 
+broadcast receivers. Broadcasters and seven former administrators of the Federal Emergency 
+Management Agency  state that the lack of access to AM radio could impede the ability of drivers 
+and passengers to receive national and local emergency alerts. AM radio stations serve two roles 
+during emergency alerts: (1) they are initial points of contact for presidential and nonpresidential 
+emergency alerts in the broadcast -based transmi ssion system regulated by the FCC, and (2) they 
+provide one of several technology -based communications pathways for nonpresidential 
+emergency alerts. Other pathways include communication by satellite transmissions and wireless 
+transmission using cellular t echnology.  
+If the 119th Congress chooses to address the issue of the availability of AM radio in motor 
+vehicles, it may consider one or more options, some of which are included in S. 315 , the AM 
+Radio for Every Vehicle Act of 2025, as introduced, and H.R. 979 , a bill “to require the Secretary 
+of Transportation to issue a rule requiring access to AM broadcast stati ons in motor vehicles, and 
+for other purposes.” Among other provisions, S. 315  would (1) increase the Department of 
+Transportation ’s jurisdiction over motor vehicle equipment for a 10 -year period and (2) direct a 
+study examining  the role of and alternatives to AM radio in the transmission of national and 
+emergency alerts. Additional options include (1) increasing the FCC’s jurisdiction over motor 
+vehicle equipment to reduce the risk of interference with broadcast radio stations and (2) 
+monitoring industry developments while conducting oversight.  
+For Further Information  
+Dana A. Scherer, Specialist in Telecommunications Policy  
+CRS Report R48315, AM Broadcast Radio in Motor Vehicles   
+Copyright Laws and Broadcasting Policies  
+A copyright grants the authors of a creative work certain exclusive rights in their creation. The 
+scope of copyright in music depends on the type of work at issue and th e particular use that is 
+Science and Technology Issues for the 119th Congress  
+ 
+Congressional Research Service   25 made of the work, including the type of technology that is used to disseminate a work. U.S. law 
+has explicitly recognized copyright in musical works  (i.e., the compositions) and the public 
+performance of those works, but current co pyright protections for sound recordings  (i.e., the 
+recorded performances of a piece of music by musicians and singers) are more limited.  
+Sound recordings have a limited exclusive right of public performance that applies only to digital 
+audio transmissions . Because over -the-air transmission by broadcast radio stations falls outside 
+the definition of “digital audio transmission,” radio stations do not need to pay royalties to the 
+performers, record labels, or other owners of the sound -recording copyright. Th ough radio 
+stations are not required to pay public performance royalties for over -the-air transmissions of a 
+sound recording, they are required to pay for the right to transmit sound recordings via digital 
+streaming platforms.  
+Those who support extending p ublic performance rights to over -the-air broadcasts contend that 
+doing so would create legal parity with streaming and other digital services, such as SiriusXM. 
+Two pieces of legislation introduced in the 119th Congress focus on public performance rights f or 
+sound recordings transmitted by broadcast radio. The first, a nonbinding resolution known as the 
+Supporting the Local Radio Freedom Act ( H.Con.Res. 12  and S.Con.Res. 8 ), would effectively 
+declare support for maintaining the status quo. The second, the American Music Fairness Act of 
+2025 ( H.R. 861 ) and the American Music Fairness Act ( S. 326 ), would subject performances by 
+radio stations to the stat utory license applicable to noninteractive digital services and place caps 
+on royalties for broadcast stations with annual revenue under $1.5 million in the preceding year 
+(unless owned by an entity with annual revenue over $10 million).  
+For Further Inform ation  
+Dana A. Scherer, Specialist in Telecommunications Policy  
+Kevin J. Hickey, Legislative Attorney  
+CRS Report R47642, On the Radio: Public Performance Rights in Sound Recordings  
+Radio Spectrum Policy  
+Radio spectrum (“spectrum”) is the continuum of frequencies allocated for radio transmissions. 
+Private entities use spectrum to provide commercial services; government agencies use spectrum 
+to carry out their missions. Access to spectrum is in high demand am ong companies seeking to 
+provide wireless services, such as radio broadcasting, mobile communications, and satellite 
+services, and is regulated by the U.S. government to enable access for all users and to avoid 
+interference between users.  
+Congress oversees  the activities of two entities —the FCC and the National Telecommunications 
+and Information Administration (NTIA) —which work together to manage federal and nonfederal 
+spectrum use. The FCC manages nonfederal use of radio frequencies in the United States, 
+granting licenses to use specific radio frequencies for certain purposes and setting the terms and 
+conditions of that use. NTIA manages federal spectrum use, assigns frequencies to federal 
+agencies, presents the executive branch’s views on spectrum policy t o the FCC and Congress, and 
+coordinates with the FCC to manage the nation’s spectrum (i.e., the range of radio frequencies 
+used to facilitate wireless communications).  
+Since much of the spectrum is already allocated for specific uses, finding spectrum for new 
+technologies (e.g., 6G technologies) is challenging. The 119th Congress may continue to weigh 
+policy approaches that make spectrum available for new technologies that could lead to economic 
+growth, while also ensuring that agencies, including military and public safety agencies, have the 
+Science and Technology Issues for the 119th Congress  
+ 
+Congressional Research Service   26 spectrum they need to carry out their missions. Potential options for the 119th Congress may 
+include identifying spectrum for new uses, formalizing interagency coordination processes, 
+facilitating the implementation of the National Spectrum Strategy, and investing in spectrum 
+sharing R&D to increase spectrum availability.  
+The 119th Congress may also focus on reinstating the FCC’s auction authority, which expired on 
+March 9, 2023. When more than one nonfederal user is int erested in a spectrum band, the FCC 
+may auction spectrum licenses, awarding them to the highest bidders. Since 1993, auctions have 
+made spectrum available for a variety of uses (e.g., 5G services, satellite -based internet), and 
+generated over $230 billion for the U.S. government. Though legislation to restore that authority 
+was introduced during the 118th Congress, none was enacted.  
+For Further Information  
+Patricia Moloney Figliola, Specialist in Internet and Telecommunications Policy  
+Jill C. Gallagher, Specialist in Telecommunications Policy  
+Ling Zhu, Analyst in Telecommunications Policy  
+CRS In Focus IF12766, 4.9 GHz Public Safety Band: Competing Views on Use  
+Security and Resiliency of Telec ommunications Networks  
+Congress has a long -standing interest in ensuring U.S. telecommunications networks are both 
+secure and resilient in the face of natural disasters, cyberattacks, and other events. Disruptions in 
+communications can affect national secu rity, public safety, and economic activity.  
+Telecommunications networks are considered critical infrastructure and are typically privately 
+owned, operated, and secured by the owner. Congress oversees the FCC, which regulates 
+commercial communication servic es and providers, monitors commercial networks, and provides 
+government officials and the public with information during and after natural disasters. For 
+example, in September 2024, Hurricane Helene made landfall near Perry, Florida, disrupting 
+cellular co mmunications across parts of the southeastern U.S. and impacting public safety. In 
+response, the FCC monitored and provided status updates on outages and restoration efforts. 
+Congress has taken steps to help ensure the security and resiliency of communicat ion networks. 
+For example, Congress has restricted the use of untrusted equipment in U.S. networks and 
+provided funding for the Secure and Trusted Communications Networks Reimbursement 
+Program, which reimburses small telecommunication providers for costs t o rip and replace 
+untrusted equipment from their networks, to reduce risks to national security. Congress has also 
+convened briefings and oversight hearings to understand the cause, impact, and future mitigation 
+approaches to incidents and outages, such as  when U.S. cybersecurity firm CrowdStrike released 
+a faulty software update to their customers causing certain computer systems to crash and 
+disrupting services across several industries, some government agencies (e.g., Department of 
+Homeland Security), an d public safety systems (e.g., some 911 systems).  
+The 119th Congress may continue to examine faults and vulnerabilities in communication 
+networks, the effectiveness of federal government and commercial efforts to ensure continuity of 
+service, and the feder al roles for improving communication security and resiliency. In addition to 
+technical issues, Congress may also be interested in examining nontechnical issues affecting 
+communications and response during disasters. For example, in January 2025, an erroneo us 
+emergency alert issued during the wildfires in Los Angeles spurred questions related to alerting 
+technologies and nontechnical issues, such as human errors in issuing alerts and the public’s 
+response to alerts . 
+Science and Technology Issues for the 119th Congress  
+ 
+Congressional Research Service   27 For Further Information  
+Jill C. Gallagher,  Specialist in Telecommunications Policy  
+Colby Leigh Pechtol, Specialist in Telecommunications Policy  
+Amanda H. Peskin, Analyst in Telecommunications Policy  
+CRS In Focus IF12717, CrowdStrike IT Outage: Impacts to Public Safety Systems and 
+Considerations for Congress  
+CRS In Focus IF12779, Restoration of Cell Phone Services: Hurricane Helene  
+CRS Insight IN11663, Secure and Trusted Communications Networks Reimbursement Program: 
+Frequently Asked Questions  
+CRS Report R48363, The Integrated Public Alert and Warning System (IP AWS): Primer and 
+Issues  for Congress  
+Science and Technology Issues for the 119th Congress  
+ 
+Congressional Research Service   28 Author Information  
+ 
+Emily G. Blevins, Coordinator  
+Analyst in Science and Technology Policy  
+     Laura B. Comay  
+Specialist in Natural Resources Policy  
+    
+Marcy E. Gallo, Coordinator  
+Analyst in Science and Technology Policy  
+     Karen M. Sutter  
+Specialist in Asian Trade and Finance  
+    
+Todd Kuiken  
+Analyst in Science and Technology Policy  
+     Dana A. Scherer  
+Specialist in Telecommunications Policy  
+    
+Amanda K. Sarata  
+Specialist in Health Policy  
+     Chris Jaikaran  
+Specialist in Cybersecurity Policy  
+    
+Lia Biondo  
+Analyst in Agricultural Policy  
+     Kristin Finklea  
+Specialist in Domestic Security  
+    
+Kavya Sekar  
+Analyst in Health Policy  
+     Ling Zhu  
+Analyst in Telecommunications Policy  
+    
+Hassan Z. Sheikh  
+Analyst in Health Policy  
+     Peter J. Benson  
+Legislative Attorney  
+    
+Pervaze A. Sheikh  
+Specialist in Natural Resources Policy  
+     Valerie C. Brannon  
+Legislative Attorney  
+    
+Eleni G. Bickell  
+Analyst in Agricultural Policy  
+     Michael D. Sutherland  
+Analyst in International Trade and Finance  
+    
+Jonathan D. Haskett  
+Analyst in Environmental Policy  
+     Laurie Harris  
+Analyst in Science and Technology Policy  
+    
+Caitlin Keating -Bitonti  
+Specialist in Natural Resources Policy  
+     Nora Wells  
+Analyst in Health Policy  
+    
+Eva Lipiec  
+Specialist in Natural Resource Policy  
+     Kevin J. Hickey  
+Legislative Attorney  
+    
+Laura Gatz  
+Specialist in Environmental Policy  
+     Christopher T. Zirpoli  
+Legislative Attorney  
+    
+Claire M. Jordan  
+Senior Research Librarian  
+     Julie M. Lawhorn  
+Analyst in Economic Development Policy  
+    
+Science and Technology Issues for the 119th Congress  
+ 
+Congressional Research Service  R48482  · VERSION 2 · NEW  29 Anthony R. Marshak  
+Analyst in Natural Resources Policy  
+     Adam G. Levin  
+Analyst in Economic Development Policy  
+    
+Nicole T. Carter  
+Deputy Assistant Director and Specialist/RSI  
+     William A. Kandel  
+Specialist in Immigration Policy  
+    
+Clare Y. Cho  
+Specialist in Industrial Organiz ation and Business 
+Policy  
+     Jill H. Wilson  
+Analyst in Immigration Policy  
+    
+Omar M. Hammad  
+Analyst in Environmental Policy  
+     Patricia Moloney Figliola  
+Specialist in Internet and Telecommunications 
+Policy  
+    
+Kristen Hite  
+Legislative Attorney  
+     Jill C. Gallagher  
+Specialist in Telecommunications Policy  
+    
+Angela C. Jones  
+Analyst in Environmental Policy  
+     Colby Leigh Pechtol  
+Specialist in Telecommunications Policy  
+    
+Jerry H. Yen  
+Analyst in Environmental Policy  
+     Amanda H. Peskin  
+Analyst in Telecommunications Policy  
+    
+ 
+ 
+Disclaimer  
+This document was  prepared by the Congressional Research Service (CRS). CRS serves as nonpartisan 
+shared staff to congressional committees and Members of Congress. It operates solely at the behest of and 
+under the direction of Congress. Information in a CRS Report should n ot be relied upon for purposes other 
+than public understanding of information that has been provided by CRS to Members of Congress in 
+connection with CRS’s institutional role. CRS Reports, as a work of the United States Government, are not 
+subject to copyr ight protection in the United States. Any CRS Report may be reproduced and distributed in 
+its entirety without permission from CRS. However, as a CRS Report may include copyrighted images or 
+material from a third party, you may need to obtain the permissio n of the copyright holder if you wish to 
+copy or otherwise use copyrighted material.  
+ 

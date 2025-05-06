@@ -1,0 +1,96 @@
+Introduction: People use coping strategies to adapt themselves to adverse circumstances. The Cognitive and Emotional
+Processing from Disclosure helps to understand how to think about certain life events has implications for coping and
+psychosocial adjustment facing traumatic experiences [ 1]. The main objective of this study is to identify the most used
+coping strategies and cognitive and emotional processing by individuals who have experienced traumatic events.Materials and methods: This study comprised 465 Portuguese adults ( M¼31.04, SD¼13.87). The sample was divided in
+two groups: G1 –participants who had experienced a traumatic event ( n¼439, 94.4%) and G2 –participants who had
+not experienced a traumatic event ( n¼26, 5.6%). The participants responded online to the sociodemographic question-
+naire, the Cognitive and Emotional Processing from Disclosure [ 2] and the Brief-COPE [ 3]. The study was conducted in
+accordance with the ethical principles outlined in the Declaration of Helsinki.Results: The results of one way ANOVA showed that are significant differences between groups in what regards coping
+strategies and that G1 mostly used the following coping strategies: Planning [ F(1.464) ¼6.477, p¼.011]; Positive
+Reframing [ F(1.464) ¼5.096, p¼.024]; Acceptance [ F(1.464) ¼7.993, p¼.005]; Behavioral Disengagement [ F(1.464) ¼5.408,
+p¼.020] and Substance Use [ F(1.464) ¼6.158, p¼.013]. From the G1, we compared the coping strategies in relation to
+the different types of trauma and we obtained the following results: The Emotional Processing was the most used strat-
+egy in the traumatic experience of voluntary interruption of pregnancy [ F(13.464) ¼4.680, p¼.031], the Active Coping
+[F(13.464) ¼8.190, p¼.004] and the resource to Religion [ F(13.464) ¼8.260, p¼.004] were the most used strategies on
+severe illness of one ’s own, the Planning was the most used strategy on Severe illness of a close person
+[F(13.464) ¼12.465, p<.00
+ 1], the Emotional Social Support was the strategy most often used in autoimmune disease
+[F(13.464) ¼5.686, p¼.018], the Positive Reframing was the most used strategy in divorce [ F(13.464) ¼5.310, p¼.022], the
+Self-Blame was the most used strategy when experiencing a crime of theft or robbery [ F(13.464) ¼6.274, p¼.013], the
+Denial was the strategy most used in persecution [ F(13.464) ¼7.681, p¼.006], and the Self-Distraction was the strategy
+most used when experiencing aggression [ F(13.464) ¼9.264, p¼.002].
+Discussion and conclusions: The coping strategies most used by the participants were the planning, acceptance, substance
+use and the behavioral disengagement. We verified statistically significant differences between the different coping strategies
+in the different types of trauma. Coping strategies are importa nt so that individuals can develop skills to manage traumatic
+experience effectively [ 4]. Further studies with a larger and similar sample on both groups are recommended.
+CONTACT Carina Santos cads1102@gmail.com
+References
+[1] Antoniazzi AS, Dell ’Aglio DD, Bandeira DR. O conceito de coping: Uma revis ~ao te /C19orica. Estudos de Psicologia.
+1998;3(2):273 –294. doi: 10.1590/S1413-294X1998000200006
+[2] Ramos C, Canevello A, Tedeschi R. Psychometric properties of Cognitive and Emotional Processing from Disclosure for
+Portuguese Population. Manuscript under preparation; 2018.
+[3] Ribeiro JLP, Rodrigues AP. Quest ~oes acerca do coping: A prop /C19osito do estudo de adaptac ¸ ~ao do Brief Cope. Psicologia,
+Sa/C19ude & Doenc ¸as. 2004;5(1):3 –15.
+[4] Demerouti E. Design your own job through job crafting. European Psychologist. 2014;19(4):237 –247. doi: 10.1027/1016-
+9040/a000188
+DOI: 10.1080/07853890.2018.1562763
+Posttraumatic growth and cognitive and emotional processing from 
+disclosure in the aftermath of a traumatic event
+Catarina Teixeiraa, Catarina Santosa, Rafaela Diogoa, Ana Gonc ¸alvesa, Filipa Freirea,
+Telma Catarina Almeidaa,b and Catarina Ramosa,b
+aIUEM - Instituto Universit /C19ario Egas Moniz, Caparica, Portugal; bCiiEM – Centro de Investigac ¸ ~ao Interdisciplinar Egas Moniz, IUEM –
+Instituto Universit /C19ario Egas Moniz, Caparica, Portugal
+Introduction: Restructuring on a cognitive level and emotion regulation allow the individual to produce schemes that
+integrate trauma by giving them abilities and making them more resistant when confronting a future adverse event [ 1,2].
+The main objective of the current study was to analyze PTG and cognitive and emotional processing from disclosure that
+occurred as a result of a traumatic event.
+Materials and methods: The sample is composed by 465 Portuguese ( M¼31.02 years, SD¼13.87), divided into two
+groups according to whether participants had experienced a traumatic event (G1: n¼438, 94.2%) or not (G2: n¼27,
+5.8%), for trauma variable. Participants responded online to the sociodemographic questionnaire, the Cognitive and
+Emotional Processing from Disclosure (CEPD) [ 3] and the Posttraumatic Growth Inventory (PTGI) [ 4]. The study wasANNALS OF MEDICINE S193
+conducted in accordance with the ethical principles outlined in the Declaration of Helsinki.
+Results: There were significant statistical differences between G1 and G2 on PTGI, in total scale [ F(10,253) ¼16.546,
+p¼.001], and also in subscales Relating to Others, Personal Strength, Spiritual Change and Appreciation of Life. Regarding
+education, there were significant statistical differences between groups in the total scale [ F(2.447) ¼30.018, p¼.013], and
+in the subscales Relating to Others and New Possibilities. Depending on age, significant statistical differences existed onPTGI, in total score [ F(6.111) ¼9.506, p¼.014], and in subscales New Possibilities, Personal Strength, Spiritual Change and
+Appreciation of Life. Regarding the subscale Cognitive Processing there were also significant statistical differences
+between G1 and G2 [ F(2.458) ¼28.899, p¼.018].
+Discussion and conclusions: These results indicate that significant statistical differences exist in the variables trauma,
+education and age in PTGI and in cognitive and emotional processing from disclosure. In light of this, we could verify,like other researches, that an active management of emotion and stress promotes PTGI [ 5]. Further studies with a larger
+and similar sample on both groups are recommended.
+CONTACT Catarina Teixeira cata15teixeira@hotmail.com
+References
+[1] Resende C, Sendas S, Maia A. Estudo das caracter /C19ısticas psicom /C19etricas do Posttraumatic Growth Inventory –PTGI –
+(Invent /C19ario de Crescimento P /C19os-Traum /C19atico) para a populac ¸ ~ao portuguesa; 2008.
+[2] Tedeschi RG, Calhoun LG. Posttraumatic growth: Conceptual foundations and empirical evidence. Psychological Inquiry,
+2004;15(1):1 –18. doi: 10.1207/s15327965pli1501_01
+[3] M €uller J, Beauducel A, Raschka J, et al. Kommunikationsverhalten nach politischer Haft in der DDR - Entwicklung eines
+Fragebogens zum Offenlegen der Traumaerfahrungen. Zeitschrift f €ur Politische Psychologie, Jg. 2001;8(4):413 –427.
+[4] Canavarro P, Moreira HTC, Pinto SMA, et al. Cancro da mama e desenvolvimento pessoal e relacional: Estudo das carac-
+ter/C19ısticas psicom /C19etricas do Invent /C19ario de Desenvolvimento P /C19os-Traum /C19atico (Posttraumatic Growth Inventory) numa
+amostra de mulheres da populac ¸ ~ao Portuguesa Revista Iberoamericana de Diagn /C19ostico , Evaluaci /C19on y Avaliac ¸ ~ao
+Psicol /C19ogica, 2009;28(2):105 –133.
+[5] Calhoun, LG, Tedeschi RG. Posttraumatic growth in clinical practice. New York, NY, US: Routledge/Taylor & Francis
+Group; 2013.
+DOI: 10.1080/07853890.2018.1562765
+Emotional regulation and clinical symptomatology when experiencing the 
+illness of a close person
+Nelson Reisa, Isabel  Fernandesa, Telma C. Almeidaa,b and Catarina Ramosa,b
+aIUEM – Instituto Universit /C19ario Egas Moniz, Monte da Caparica, Caparica, Portugal; bCiiEM – Centro de Investigac ¸ ~ao Interdisciplinar 
+Egas Moniz, IUEM – Instituto Universit /C19ario Egas Moniz, Caparica, Portugal
+Introduction: In human life, emotions have a central role the adaptive functioning and in healthy psychological develop-
+ment [ 1]. The emotional regulation difficulty is deeply related to the development of several psychological disorders,
+increasing the vulnerability of those who experience negative situations [ 2]. The main objective of the current study was
+to analyze the association between emotional regulation and clinical symptomatology in individuals who witnessed the
+illness of a close person.
+Materials and methods: The sample is composed by 318 Portuguese adults. Concerning the experience of witnessing
+the illness of a close person 141 (44.3%) participants responded positively. The majority of the participants were female
+(n¼266, 83.6%), with ages between 18 and 89 years old ( M¼29.69, SD¼13.229). The participants responded online to
+the consent term, the sociodemographic questionnaire, the Scale of the Difficulties of Emotional Regulation [ 2], the Brief
+Inventory of Symotoms [ 3], Posttraumatic Stress Disorder Ckecklist-5 [ 4]. The study was conducted in accordance with the
+ethical principles outlined in the Declaration of Helsinki.Results: The following groups were compared to find statistically significant differences (G1: participants who witnessed
+the illness of a close person, G2: participants who did not witness that event). There were not statistically significant dif-
+ferences betewen the groups in emotional regulation [ F(1, 316) ¼.061, p¼.806] and in clinical symptomatology and
+Posttraumatic Stress Disorder (PTSD) symptons [ F(1, 316) ¼.054, p¼.816]. Analysing the relation between emotional
+regulation, clinical symptomatology and PTSD symptoms, there were statistical significant correlations in all variables.Regarding the correlation between emotional regulation and PTSD symptoms, there were a significant and negative asso-
+ciation ( r¼.57 ; p<.001). Concerning the correlation between emotional regulation and all of the subscales in clinicalS194 ABSTRACTS

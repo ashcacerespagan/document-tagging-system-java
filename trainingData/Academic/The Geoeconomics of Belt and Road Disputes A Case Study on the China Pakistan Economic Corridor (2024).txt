@@ -1,0 +1,1237 @@
+ARTICLE
+The Geoeconomics of Belt and Road Disputes: A Case
+Study on the China-Pakistan Economic Corridor
+Mark MCLAUGHLIN
+Global Visiting Assistant Professor, Singapore Management University, Singapore, Singapore
+Email: mmclaughlin@smu.edu.sg
+Abstract
+This article argues that the dovetailing economic, geopolitical, and security interests that underpin
+the Belt and Road Initiative demands a dispute resolution mechanism that focuses on broader inter-ests and legal rights. Using the China-Pakistan Economic Corridor (CPEC) as a case study, it identifiesthe conditions in which Chinese investors could have initiated an investment arbitration but didnot. This can be explained by the rights-based orientation of investment treaties failing to reflectthe interests of multi-project initiatives. Instead, alternative methods of home state intervention,such as state-funded political risk insurance, are used to protect investors. In other words, thepolitical economy of CPEC investments refuses to utilize hard law mechanisms. Given this context,mediation may be a viable alternative. These circumstances accelerate the trend towards “de-
+legalization ”, which is often cited as an inevitable consequence of the emerging “geoeconomic
+order ”but suggests that reasons other than national security are the cause.
+Keywords: Belt and Road Initiative; geoeconomics; investor-state dispute settlement; investor-state
+mediation
+Global governance has long been the theatre for expressing state power and influence.
+Proponents of the institutionalist perspective contend that the post-Second World
+War order remains robust.1A liberal trinity of the rule of law, democracy, and human
+rights continues to dominate global institutions.2Despite geopolitical shifts, international
+organizational forms, particularly those relating to financial transactions, retain their pri-macy.
+3In this view, public international law is sufficiently mature to recognize the hierarch-
+ically supreme “constitutional principles ”that bridle the will of states.4However, realists
+© The Author(s), 2023. Published by Cambridge University Press on behalf of the Asian Society of International Law. This is an
+Open Access article, distributed under the terms of the Creative Commons Attribution licence ( https://creativecommons.org/
+licenses/by/4.0/ ), which permits unrestricted re-use, distribution, and reproduction in any medium, provided the original
+work is properly cited.1G. John IKENBERRY, “The Future of the Liberal World Order: Internationalism after America ”Foreign Affairs
+(1 May 2011), online: Foreign Affairs < http://www.foreignaffairs.com/articles/67730/g-john-ikenberry/the-
+future-of-the-liberal-world-order >.
+2Mattias KUMM, “The Cosmopolitan Turn in Constitutionalism: On the Relationship between
+Constitutionalism in and beyond the State ”in Jeffrey L. DUNOFF and Joel P. TRACHTMAN, eds., Ruling the
+World? :Constitutionalism, International Law, and Global Governance (Cambridge University Press 2009) at 258, 258 –325.
+3Liesbet HOOGHE, Gary MARKS, Tobias LENZ, Jeanine BEZUIJEN, Besir CEKA, Svet DERDERYAN, eds., Measuring
+International Authority: A Postfunctionalist Theory of Governance, Volume III (Oxford University Press 2017) at 70 –82.
+4Orfeo FIORETOS, “Retrofitting Financial Globalization: The Politics of Intense Incrementalism after 2008 ”in
+Thomas RIXEN, Lora Anne VIOLA, and Michael ZÜRN, eds., Historical Institutionalism and International Relations:
+Explaining Institutional Development in World Politics (Oxford University Press 2016) at 68 –96.
+Asian Journal of International Law (2024), 14,9 4–122
+doi:10.1017/S2044251323000176
+consider the liberal world order to be in a state of decay.5The United Nations (UN) Security
+Council is paralysed in the face of humanitarian crises in Syria and Yemen; the RussianFederation has annexed Crimea and invaded Ukraine; the Doha round of trade negotiations
+has stalled; and the United Kingdom has withdrawn from the European Union.
+While the extent of their disruptive influence is contested, developing countries are
+emerging as powerful players in the new world.
+6But their progress in long-standing pol-
+icy silos is stymied by the overwhelming power of the incumbents. Decades-old inter-national treaties continue to act as girders for global economic governance, with thetraditional rule-makers and rule-takers being largely unchanged.
+7No more so than in
+the case of international investment law. Since the first bilateral investment treaty
+(BIT) was concluded in 1959, capital-exporting states have secured commitments fromhost countries not to expropriate investors ’property without adequate compensation,
+discriminate against their investors, or treat them “unfairly ”. The introduction of
+investor-state arbitration granted standing to foreign companies to “sue”infringing
+host states in an international forum, effectively exporting liberalized economic policyaround the world.
+8From the 1960s to the early 2010s, the management of cross-border
+investment disputes shifted from the executive (or governmental) sphere to the adjudica-
+tive sphere.
+The theory of “geoeconomics ”advances the claim that this trend will reverse.9
+Traditionally, it describes the “securitisation of economic policy and economisation of
+strategic policy ”.10Several scholars have argued that the US-China rivalry is driving
+the conflation of economic and security issues, which has profound consequences for
+the efficacy of global economic governance.11In other words, the substantive rules and
+methods of dispute resolution in relation to which there has been a broad (but not uni-versal) acquiescence can no longer be relied upon. The use of the law is necessarilyinformed by considerations of political economy, and political economy considerationsinform the creation of law. The role of other states in this theory, beyond theSino-American relationship, is largely untreated.
+This article applies a geoeconomic lens to the China-Pakistan Economic Corridor
+(CPEC) to assess the implications of the new order for third-party states. Its central thesisis that dovetailing the economic, geopolitical, and security interests that underpin CPECnecessitates a dispute resolution process that focuses on interests and legal rights. Itmakes three related claims. First, security alone is too narrow a lens through which toexamine the central features of the emerging geoeconomic order. Regardless of securityconcerns, socioeconomic issues remain a potent source of motivation and need not be
+5John J. MEARSHEIMER, “Bound to Fail: The Rise and Fall of the Liberal International Order ”(2019) 43(4)
+International Security 7.
+6Mark WU, “The China, Inc. Challenge to Global Trade Governance ”(2016) 57(2) Harvard International Law
+Journal 261 at 261 –294.
+7Wolfgang ALSCHNER and Dmitriy SKOUGAREVSKIY, “Rule-Takers or Rule-Makers? A New Look at African
+Bilateral Investment Treaty Practice ”(2016) 13 Transnational Dispute Management (TDM).
+8Kenneth J. VANDEVELDE, “The Political Economy of a Bilateral Investment Treaty ”(1998) 92(4) The American
+Journal of International Law 621.
+9Gyula CSURGAI, “The Increasing Importance of Geoeconomics in Power Rivalries in the Twenty-First
+Century ”(2018) 23(1) Geopolitics 38; Anthea ROBERTS, Henrique Choer MORAES and Victor FERGUSON,
+“Toward a Geoeconomic Order in International Trade and Investment ”(2019) 22(4) Journal of International
+Economic Law 655.
+10Michael WESLEY, “Australia and the Rise of Geoeconomics ”(2016) The Centre of Gravity Series 1.
+11Geraldo VIDIGAL, “A Really Big Button That Doesn ’t Do Anything? The Anti-NME Clause in US Trade
+Agreements Between Law and Geoeconomics ”(2020) 23(1) Journal of International Economic Law 45 at 45 –64;
+Robert D. BLACKWILL and Jennifer M. HARRIS, War by Other Means: Geoeconomics and Statecraft (Harvard
+University Press 2016) at 49 –93.Asian Journal of International Law 95
+assimilated with national security. Second, it is insufficient to examine only the response of
+other states to the US-China rivalry. This approach fails to consider the agency of thesestates and the unique conditions that mould their relations with the superpowers, which
+is entirely independent of the strategic rivalry. Finally, a tangible effect of these develop-
+ments is the “re-politicization ”of investment disputes. Despite the potential for legal
+recourse to investor-state arbitration, disputes over major infrastructure projects or sov-ereign debt are rarely adjudicated. Instead, they are subject to interest-based mechanismssuch as political risk insurance.
+This argument proceeds in four parts. Part I lays out the geoeconomic order theory and
+advances a critique based on third-party states ’apparent lack of agency. Part II demon-
+strates the agency of these states by examining China and Pakistan ’s motivations for
+the Belt and Road Initiative (BRI) projects and the non-security drivers of the economicrelationship. Part III argues that these conditions have engendered the “re-politicization ”
+of investment disputes in Pakistan, exemplified by the shift of investment dispute settle-ment away from the adjudicative sphere. Finally, against this background, Part IV consid-ers whether investment norms can retain their relevance, examines the non-arbitration
+mechanisms Chinese parties use to influence host state behaviour, and proposes
+mediation as a structured alternative.
+I. The “Geoeconomic Order ”, Economic Security, and Sino-American
+Centrism
+A. The Emerging “Geoeconomic Order ”
+The interweave of state power, economic power, and global economic governance has
+been understood for centuries. From the European mercantilism of the 15th century tothe economic warfare of two World Wars, states have long weaponized economicmeans for strategic ends.
+12Nevertheless, the term “geoeconomics ”has a comparatively
+short history. Its origins are generally traced to American military consultant EdwardLuttwak and French economist Pascal Lorot, the latter of which described geoeconomics
+as:
+the analysis of economic strategies –notably commercial –decided upon by states in
+a political setting aiming to protect their own economies or certain well identifiedsectors of it, to help their national enterprises acquire technology or to capture cer-tain segments of the world market relative to production or commercialization of a
+product. The possession or control of such a share confers to the entity –state or
+national enterprise –an element of power and international influence and helps
+to reinforce its economic and social potential.
+13
+Contrary to neoliberal orthodoxy, geoeconomics places the state as the central pivot thatsupports corporations by various means. Many scholars attribute the geoeconomic turn ineconomic analysis primarily, though not exclusively, to the rise of China and its “socialist
+market economy ”.
+14Indeed, when the Global Agenda Council on Geoeconomics was tasked
+12Csurgai, supra note 9 at 39 –40.
+13Pascal LOROT, Introduction à la géoéconomie (Institut européen de géoéconomie 1999) at 62; Edward
+N. LUTTWAK, “From Geopolitics to Geo-Economics: Logic of Conflict, Grammar of Commerce ”(1990) 20 The
+National Interest 17.
+14See e.g., Xiaojun LI, “China ’s Geoeconomic Strategy: China as a Trading Superpower ”LSE Research Online
+(June 2012), online: LSE Research Online < http://eprints.lse.ac.uk/44204/1/China%27s%20Geoeconomic%
+20Strategy%20_China%20as%20a%20Trading%20Superpower%20%28LSERO%29.pdf >.96 Mark McLaughlin
+with advising the World Economic Forum on the relationship between economic security
+and state power in the 21st century, they produced a report titled “Geo-economics with
+Chinese Characteristics: How China ’s economic might is reshaping world politics ”.15
+Roberts, Moraes, and Ferguson argue that the geoeconomic order reflects a shift in the
+relationship between economics and security in legal investment and trade regimes.16It
+has several notable features that can be part of our analytical framework. The first is theshift from absolute gains to relative gains. Rather than an approach that seeks to leverageeconomic interdependence for mutual advantage, the geoeconomic order involves agreater tendency for states to “weaponize interdependence ”for strategic leverage.
+17In
+other words, the win-win assumptions underpinning traditional neoliberal orthodoxy
+have given rise to a win-lose paradigm in which some states attempt to assimilate eco-nomic benefit and geopolitical influence at the expense of rival states. It follows that pro-tectionist barriers to trade and investment have become a rational response togeopolitical rivalry.
+The second notable feature of this geoeconomic model is that the economic and stra-
+tegic rivalry between China and the United States (US) erodes the distinction between
+economic nationalism and national security.
+18The struggle for technological and trade
+supremacy incentivizes and expands the hybrid “economic security ”concept.19On the
+Chinese side, the approach to global economic governance is driven by a twin-prongedstrategy of cultivating domestic innovation and acquiring technology from internationalsources through commercial transactions or other means. Similarly, the US is incentivizedto adopt a more protectionist approach to local innovation, erect barriers to trade and
+investment for Chinese enterprises, and pursue a more targeted industrial policy in key
+strategic areas, such as artificial intelligence.
+20
+Finally, these emerging trends will have consequences for global economic governance,
+including difficulties in agreeing on multilateral rules, the transition of investment andtrade issues from the legal to the political area, the emergence of different (and opposing)spheres of influence, and the cross-fertilization of US and Chinese approaches to economic
+security.
+21A twin-track approach with the US and China creates novel spheres of influ-
+ence by creating new international legal obligations while escaping other obligations,such as accepting security-adjacent issues from third-party reviews.
+22
+B. Geoeconomics: “T was Ever Thus ”
+This geoeconomic frame has been described as one way in which scholars have attempted
+to“rationalize an unstable reality ”.23In doing so, the geoeconomic theory draws attention
+to the linkage between conceptions of national security, regional competition, and
+15“Geo-Economics with Chinese Characteristics: How China ’s Economic Might is Reshaping World Politics ”,
+World Economic Forum, Regional Forum, January 2016.
+16Roberts, Moraes and Ferguson, supra note 9 at 659.
+17Henry FARRELL and Abraham L. NEWMAN, “Weaponized Interdependence: How Global Economic Networks
+Shape State Coercion ”(2019) 44(1) International Security 42.
+18Roberts, Moraes and Ferguson, supra note 9 at 660.
+19J. Benton HEATH, “The New National Security Challenge to the Economic Order ”(2019) 129(4) Yale Law
+Journal 1020.
+20See e.g., Scott LINCICOME and Inu MANAK, “Protectionism or National Security?: The Use and Abuse of
+Section 232 ”(2021) 921 Cato Institute Policy Analysis 1.
+21Roberts, Moraes and Ferguson, supra note 9 at 669.
+22Stephan SCHILL and Robyn BRIESE, “’If the State Considers ’: Self-Judging Clauses in International Dispute
+Settlement ”(2009) 13 Max Planck Yearbook of United Nations Law 61.
+23Xinyue LI, “Quantizing Geoeconomics: Emerging Geoeconomics In International Economic Law Through A
+Quantum Worldview ”(2022) 17(1) Asian Journal of WTO and International Health Law and Policy 1 at 10.Asian Journal of International Law 97
+international economic law. Moreover, it offers insights into how international economic
+law instruments necessarily interweave with state-level concepts of security and the pro-blems that might arise. First, however, this article adds three small codas to an increas-
+ingly popular analytical frame.
+First, the theory of the geoeconomic order underplays the role of international security
+in constructing the neoliberal order it supposedly supplants. This is particularly the caseconcerning the historical roots of the General Agreement on Tariffs and Trade (GATT).
+24
+Proponents of the geoeconomic theory argue that “security tended to operate as a justi-
+fication for and [an] exception to the neoliberal order, rather than affecting its day-to-day
+operations ”.25It is not immediately clear whether this is a useful distinction. For example,
+the International Trade Organization (ITO) is commonly described as being a product ofthe Cold War. The research of Mona Pinchis-Paulsen traces the origins of the nationalsecurity exception and demonstrates that strategic and economic considerations pro-foundly shaped GATT Article XXI.
+26Officials from the US were successful in embedding
+this language within the ITO Charter.27While these officials ultimately opted for a
+model privileging free trade over self-judging or non-justiciable security clauses, this
+was not because national security was irrelevant. On the contrary, it was expressly
+decided that national security would coexist with free trade. In this author ’s view, this
+is not entirely dissimilar to the geoeconomic order to which we have “shifted ”.A s
+these exceptions inevitably shaped how states behaved and how instruments were crafted,it is questionable whether the use of security as a “justification ”can be separated from
+day-to-day operations. The more salient change is the transformation of the security con-
+cept rather than its oscillating relationship with trade and investment.
+28
+Secondly, the geoeconomic theory centres the US and China as the pivot around which
+the rest of the world will bend. This is insufficient to capture the nuances of the globalorder, regional divergences, and the local politics that inevitably inform trade and invest-ment law and policy. The geoeconomic theory presupposes that third states will necessar-ily “react ”to the US-China relationship rather than be driven by a unique set of
+motivations wrought in their distinctive domestic contexts. The case study of BRI projects
+in Pakistan argues that a very particular set of factors inform the approach to managingthe relationship between China and Pakistan, which is rooted in a web of domestic issuesranging from economics to culture to terrorism. Therefore, this article extends the scopeof enquiry beyond the US-China relationship.
+Third, its proponents claim that one of the consequences of the emerging geoeconomic
+order is the “de-legalization ”of international economic law.
+29The examples used from
+the US perspective are undoubtedly valuable, such as including the concept of “economic
+security ”within national security, making security clauses non-reviewable, increasing
+executive power to reject investment through the Committee on Foreign Investment inthe US (CFIUS), and avoiding adjudicative mechanisms in any US-China trade deal.However, examples to support the argument from the Chinese perspective include areluctance to accept new international rules for sensitive policy areas and “modes of
+engagement predominantly based on significant economic ties and private law ordering
+24Michael J HAHN, “Vital Interests and the Law of GATT: An Analysis of GATT ’s Security Exception ”(1991) 12
+Michigan Journal of International Law 64.
+25Roberts, Moraes and Ferguson, supra note 9 at 657.
+26Mona PINCHIS-PAULSEN, “Trade Multilateralism and U.S. National Security: The Making of the GATT
+Security Exceptions ”(2020) 41(1) Michigan Journal of International Law 109.
+27Ibid., at 139.
+28Heath, surpa note 19.
+29Roberts, Moraes and Ferguson, supra note 9 at 672.98 Mark McLaughlin
+rather than strong legal obligations under public international law ”.30As with the chan-
+ging role of security, it is unclear whether any substantive shift has occurred regardingthe Chinese position. The comparative reluctance of China and Chinese parties to engage
+in adversarial dispute resolution processes –more specifically, investor-state arbitration –
+is well documented.
+31Indeed, the long history of Confucianism-rooted mediation in China
+would suggest that de-legalization (to the extent that mediation centres upon interestsinstead of rights) is not a new approach for China nor alien to Chinese parties.
+32
+Against this background, investment dispu tes along the BRI should be considered.
+However, rather than being considered an incidental consequence of the US-China rivalry,
+the inquiry should be tailored to the specific conditions of the relationship between China
+and Pakistan. In doing so, it extends a geoecono mic analysis beyond the Sino-American prism.
+II.“Third State ”Agency in Geoeconomic Analysis: Socioeconomic,
+Geopolitical, and Security Drivers of the China-Pakistan Economic Corridor
+CPEC is a flagship project of the BRI.33Chinese Premier Li Keqiang proposed it in May 2013
+as a plan to connect the city of Kashgar in western China to the Gwadar port on Pakistan ’s
+southwestern coastline.34The underlying vision was that Chinese-funded physical
+infrastructure –roads, railways, pipelines, energy plants, and fibreoptic cables –would
+facilitate the free flow of goods, services, capital, technology, and people between Chinaand Pakistan. CPEC was formally launched on 20 April 2015 with fifty-one Memorandums
+of Understanding (MOUs) relating to a diverse array of projects, from a feasibility study
+for the Gwadar Hospital to concessional loans for upgrading motorways to establishing ajoint biotech laboratory.
+35Initial financial commitments equalled $46 billion (US).
+Since then, several such projects have broken ground. The Port of Gwadar on the
+Arabian Sea is perhaps the most conspicuous and the most contested.36It is in Phase II
+of construction and includes deep-sea dredging, port development, and several other
+high-value construction projects, such as the new Gwadar International Airport.
+Reconstruction of the Karakorum Highway, linking China and Pakistan, was partially com-pleted in March 2020.
+37In addition, coal-based power plants are being constructed in the
+Baluchistan, Punjab, and Sindh provinces at a cost of $5.8 billion (US).38In 2017, the total
+30Gregory SHAFFER and Henry GAO, “A New Chinese Economic Order? ”(2020) 23(3) Journal of International
+Economic Law 607.
+31Chinese parties have initiated 13 investor-state arbitration cases; US parties have initiated 204 investor-
+state arbitration cases.
+32WANG Guiguo and HE Xiaoli, “Mediation and International Investment: A Chinese Perspective ”(2017) 65(1)
+Maine Law Review 215.
+33S. Mahmud ALI, China ’s Belt and Road Vision: Geoeconomics and Geopolitics (Springer Nature
+Switzerland: Springer Nature 2020) 175.
+34“Visit of H.E. Mr. Li Keqiang, Premier of the State Council of the People ’s Republic of China from May 22-23,
+2013 ”Ministry of Foreign Affairs Government of Pakistan (21 May 2013), online: Ministry of Foreign Affairs
+Government of Pakistan < https://mofa.gov.pk/visit-of-h-e-mr-li-keqiang-premier-of-the-state-council-of-the-
+peoplea%c2%a2a%c2%aca%c2%a2s-republic-of-china-from-may-22-23-2013/ >.
+35“List of Pakistan-China MOUs Signed under the CPEC Initiative in April 2015 ”(2014) 34/35(4) Strategic
+Studies 255.
+36Hasan YASER MALIK, “Strategic Importance of Gwadar Port ”(2012) 19(2) Journal of Political Studies 57.
+37“KKH Phase II (Havelian - Thakot Section) | China-Pakistan Economic Corridor (CPEC) Authority Official
+Website ”CPEC Authority Ministry of Planning, Development, and Special Initiatives , online: CPEC Authority Ministry
+of Planning, Development, and Special Initiatives < https://cpec.gov.pk/project-details/28 >.
+38Qurat ul AIN ALI, Umer KHAYYAM and Umair NAZAR, “Energy Production and CO2 Emissions: The Case of
+Coal Fired Power Plants under China Pakistan Economic Corridor ”(2021) 281 Journal of Cleaner Production
+124974.Asian Journal of International Law 99
+cost of CPEC projects reached $62 billion (US). In 2019 Deloitte estimated that implement-
+ing CPEC would contribute 2.5% to Pakistan ’s gross domestic product (GDP) growth rate.39
+In reality, GDP growth was slower than anticipated, but investments in energy correlated
+with a dramatic increase in the reliability of Pakistan ’s energy infrastructure.40
+However, CPEC has not been without difficulties; projects have been cancelled and
+delayed, substantial loan repayments have prompted fraught renegotiations, and Indiahas been vocal in its opposition.
+41In crafting the economic relationship that flows
+from CPEC, Pakistan is not a passive supplicant, nor is China a generous benefactor.Instead, China and Pakistan are motivated by factors that overlap and dovetail, with mutu-
+ally reinforcing needs and capacities combining to pursue agreed-upon ends. It is a rela-
+tionship of transaction. To the extent that CPEC was intended to harness interdependencefor mutual advantage, the relationship is not dissimilar to aspects of neoliberal ortho-doxy. Of course, a key difference in this instance is that the state drives the economicactivity, consistent with a geoeconomic frame. Crucially, both parties have agency.Factors driving this activity can be expressed in three categories: socioeconomic drivers,geopolitical drivers, and security drivers. For the purposes of this section, “security ”is
+construed narrowly as relating to military activities, circumstances of an armed attack,
+and civil unrest.
+A. Socioeconomic Drivers
+Over the past four decades, socioeconomic enrichment has been a central pillar of China ’s
+foreign and economic policy.
+42The socialist orthodoxy of domestic protectionism that was
+prevalent before 1979 now sits alongside a comparatively liberalized approach to invest-ment and trade law and policy.
+43Indeed, to the extent that instruments of international
+economic law ensconce capitalist norms in participating economies, China ’s oscillation
+between protectionism and economic liberalism remains a delicate balancing act.Nevertheless, pursuing socioeconomic development is at the heart of this endeavour. In
+2014, this was articulated by President Xi Jinping as part of the “Chinese Dream ”,a
+vague concept aimed at restoring China ’s status as a leading global power.
+44It comprises
+two “Centennial Goals ”–to“build a moderately prosperous society in all respects ”by
+2021 and to achieve complete “modernization ”by 2049, which includes becoming a super-
+power in science and technology, rejuvenating Chinese cultural and soft power, and estab-lishing the pre-eminence of the Chinese military.
+45These goals energize the material
+aspects of the modern China-Pakistan relationship.
+From the Pakistani side, general macroeconomic instability and a comparatively under-
+developed economy create powerful incentives to permit, facilitate, stimulate, and protectlarge-scale investment from any quarter. Key economic indicators suggest considerable
+39“How Will CPEC Boost Pakistan Economy? –Deloitte –Readkong online: Readkong < https://www.readkong.
+com/page/how-will-cpec-boost-pakistan-economy-7814859 >.
+40Ali, supra note 33 at 177.
+41Muzaffar HUSSAIN, “China Pakistan Economic Corridor (CPEC): Challenges and the Way Forward ”, Naval
+Postgraduate School, Dudley Knox Library, Thesis and Dissertation Collection, June 2017.
+42Robert Lawrence KUHN, “Xi Jinping ’s Chinese Dream ”The New York Times (4 June 2013), online: The
+New York Times < https://www.nytimes.com/2013/06/05/opinion/global/xi-jinpings-chinese-dream.html >.
+43Qingjiang KONG, “Bilateral Investment Treaties: The Chinese Approach and Practice ”(1998/99) 8 Asian
+Yearbook of International Law 105; Susan L. SHIRK, The Political Logic of Economic Reform in China (University of
+California Press 1993).
+44Zheng WANG, “The Chinese Dream: Concept and Context ”(2014) 19(1) Journal of Chinese Political Science 1.
+45“CPC Q&A: What Are China ’s Two Centennial Goals and Why Do They Matter? ”Xinhua (17 October 2017),
+online: Xinhua < http://www.xinhuanet.com/english/2017-10/17/c_136686770.htm >.100 Mark McLaughlin
+frailty in Pakistan ’s economy.46Widening trade deficits and limited foreign exchange
+reserves demonstrate the precarity of the posi tion, a concern exacerbated in 2022 by global
+inflationary pressures and the energy crisis resulting from the war in Ukraine.47This precarity
+is reflected by poor performance in human develo pment indicators such as education, poverty,
+income, and gender inequality. Indeed, Pakistan ranks 161 out of 191 countries in the HumanDevelopment Index, compiled by the UN Development Programme, and is one of the worst-performing nations in Asia.
+48Data from the World Bank indicates that 39.8% of Pakistan ’s
+population, or around 90 million people, lives on less than $3.20 per day.49The successful
+implementation of CPEC is expected to ad dress these challenges. In 2017, CPEC ’sL o n g - T e r m
+Plan (LTP) affirmed the project as “a growth axis and a development belt ”aimed at “socio
+economic development, pr osperity and security ”.50
+Beyond broad-brush inferences about the pursuit of economic growth, there is a more
+granular dovetailing of economic interests for China and Pakistan that support the imple-mentation of CPEC. These will be discussed in four categories: energy security, digital con-nectivity, transport infrastructure, and regional inequalities.
+Energy insecurity has beset Pakistan since its founding in 1947.
+51Despite early advances in
+energy capacity, a lack of investment in energy infrastructure, ageing energy distribution sys-
+tems, and an overreliance on fossil fuel imports (despite large untapped recoverable oil and gasreserves) have rendered shortages commonplace.
+52In 2018, a World Bank report found
+Pakistan to have one of the most unreliable power supplies in the world, with an ever-wideninggap between supply and demand necessitating scheduled power outages (or load shedding)that lasted six to fourteen hours a day.
+53Energy-intensive industries, such as metal, wood,
+and paper manufacturers, are particularlystymied by the unreliability of supply, with an ensu-
+ing deleterious effect on firm productivity and levels of unemployment.54
+Against this background, CPEC authorities list nineteen individual energy projects,
+including the Port Qasim coal-fired power plants in Karachi, the Suki KinariHydropower Project in the Khyber Pakhtunkhwa, a solar park in Punjab, and severalwind farms across the Sindh province.
+55Over 60% of the expenditure on CPEC projects
+46World Bank, “Pakistan Development Update: Inflation and the Poor ”, The World Bank, October 2022.
+47Syed Raza HASSAN, “Pakistan Raises Power Prices amid Energy Crisis despite Rampant Inflation ”Reuters
+(26 July 2022), online: Reuters < https://www.reuters.com/business/energy/pakistan-raises-power-prices-amid-
+energy-crisis-despite-rampant-inflation-2022-07-26/ >.
+48“Human Development Report 2021/2022: Uncertain Times, Unsettled Lives: Shaping Our Future in a
+Transforming World ”, United Nations Development Programme, 2022.
+49World Bank, “Poverty and Equity Brief, South Asia –Pakistan ”World Bank (October 2022), online: World Bank
+<https://databankfiles.worldbank.org/data/download/poverty/987B9C90-CB9F-4D93-AE8C-750588BF00QA/
+current/Global_POVEQ_SAR.pdf >.
+50“Long Term Plan for China-Pakistan Economic Corridor (2017 –2030) ”Government of Pakistan Ministry of
+Planning, Development and Reform , online: Government of Pakistan Ministry of Planning, Development and
+Reform < https://www.pc.gov.pk/uploads/cpec/LTP.pdf >.
+51Siegfried O. WOLF, The China-Pakistan Economic Corridor of the Belt and Road Initiative: Concept, Context and
+Assessment (Pakistan ’s Ministry of Planning Development and Reform, and PRC ’s National Development and
+Reform Commission: Springer 2019) at 74.
+52Ibid; Michael KUGELMAN, “The China-Pakistan Economic Corridor: What It Is, How It Is Perceived, and
+Implications for Energy Geopolitics ”, The National Bureau of Asian Research, NBR Special Report No. 68, 2
+November 2017.
+53Fan ZHANG, “In the Dark: How Much do Power Sector Distortions Cost South Asia? ”, World Bank South Asia
+Development Forum, 2019 at 171.
+54Corbett A GRAINGER and Fan ZHANG, “The Impact of Electricity Shortages on Firm Productivity: Evidence
+from Pakistan ”, World Bank, Policy Research Working Paper, June 2017 at 11.
+55“Energy Projects Under CPEC | China-Pakistan Economic Corridor (CPEC) Authority Official Website ”CPEC
+Authority Ministry of Planning, Development, and Special Initiatives , online: CPEC Authority Ministry of Planning,
+Development, and Special Initiatives < https://cpec.gov.pk/energy >.Asian Journal of International Law 101
+are commercial contracts geared toward improving capacity in generating and transmit-
+ting electricity.56One of China ’s dovetailing interests with these energy projects is the
+absorption of its excess capacity in the production of raw building materials such as
+cement, steel, and aluminium, as well as energy-specific products such as solar panels.57
+A CPEC-supported Pakistan is also intended to contribute to the diversification of markets
+available to Chinese firms and counter the traditional reliance on current economic part-ners.
+58To a material extent, therefore, China intends to benefit economically from a more
+stable and productive trading partner on China ’s western border.
+Second, digital connectivity projects also reflect these mutually reinforcing means and
+aims. Establishing China as a leading exporter of international standards has been an
+unfulfilled policy goal of China ’s development initiatives. Typically, the technological
+leadership of the US and the European Union curtailed the possibility of Chinese productsdominating new markets.
+59However, rapid technological advances through upskilling and
+technology acquisition have strengthened China ’s ability to develop market-leading net-
+work technologies. More than ever, standard settings where novel technologies such as5G, the Internet of Things, smart cities, and data centres are vehicles by which China is
+emerging as a norm-setter for countries where it exports network infrastructure.
+60Erie
+and Steinz described this as the “Beijing Effect ”.61
+The “Digital Silk Road ”is a key aspect of the BRI generally, and the development of
+“information network infrastructure ”is expressly enumerated as a key area of cooper-
+ation in the 2017 CPEC Long-Term Plan. More specifically, the Plan envisions the construc-tion of fibre optic cables, a national data centre, and industrial IT parks, as well as
+facilitating Pakistani personnel exchange programs in China. Notably, it provides that
+Pakistan will adopt the Digital Terrestrial Multimedia Broadcasting standard, which is adigital TV standard developed by the ZTE Corporation in China. The Chinese enterprisestasked with implementing this standard in Pakistan highlighted in a press release thatthey had been chosen “after evaluating alternatives including the European DVB-T stand-
+ard and the Japanese ISDB-T standard ”.
+62While Chinese companies are permitted entry to
+greenfield markets and establish their status as norm-setters in global data governance,
+Pakistan benefits from accelerated digitalization. Given that it ranks seventy-fifth out ofseventy-nine countries on Huawei ’s Global Connectivity Index, Pakistan has much to
+gain from upgrading its network infrastructure.
+63With a population of 212 million people
+and a rapidly increasing number of internet users, creating an e-commerce infrastructureis a potent means of stimulating economic exchanges between China and Pakistan. SeveralCPEC projects aim at facilitating these exchanges –including the construction of terres-
+trial fibreoptic cables between the Khunjerab Pass on the China-Pakistan border to the
+city of Rawalpindi –reducing the costs and reliance on an alternative subterranean
+56Arif RAFIQ, “The China-Pakistan Economic Corridor: Barriers and Impact ”, United States Institute of Peace,
+Peaceworks No. 135, 2017 at 9.
+57“Chinese Industry: Ambitions in Excess ”Financial Times (16 June 2013), online: Financial Times < https://
+www.ft.com/content/4d5528ec-d412-11e2-8639-00144feab7de >.
+58Wolf, supra note 51 at 49.
+59Dan BREZNITZ and Michael MURPHREE, “The Rise of China in Technology Standards: New Norms in Old
+Institutions ”, Research Report Prepared on Behalf of the U.S.-China Economic and Security Review
+Commission, 16 January 2013 at 42.
+60Alex HE, “The Digital Silk Road and China ’s Influence on Standard Setting ”, Centre for International
+Governance Innovation, CIGI Papers No. 264, 4 April 2022, 39.
+61Matthew S ERIE and Thomas STREINZ, “The Beijing Effect: China ’s‘Digital Silk Road ’as Transnational Data
+Governance ”(2021) 54(1) New York University Journal of International Law and Politics 1.
+62“ZTE and Pakistan Sign Digital Terrestrial Television Agreement ”ZTE(15 May 2017), online: ZTE < https://
+www.zte.com.cn/global/about/news/0515ma.html >.
+63“Global Connectivity Index ”Huawei , online: Huawei < https://www.huawei.com/minisite/gci/en/ >.102 Mark McLaughlin
+cable passing through India.64CPEC ’s digital connectivity projects advance China ’s aims of
+diversified markets and expanded influence over standard-setting, and Pakistan intends tobenefit from advanced network technology.
+Third, the funding and construction of transport infrastructure is a central component
+of CPEC. Roads, railways, seaports, and airports are the bedrock of a nation ’s economic
+health and one of the fundamentally important determinants of a healthy investmentenvironment. As well as a correlation between poor infrastructure and poverty, researchhas indicated that a 10% increase in road network density produces a 1% increase intrade.
+65For developing countries, higher quality port infrastructure also directly impacts
+seaborne trade, yielding greater economic growth.66Unfortunately, Pakistan performs
+very poorly in key benchmarks measuring the sufficiency of infrastructure.
+Against this background, constructing an integrated transport system is identified as a
+key area of cooperation in the 2017 CPEC Long-Term Plan. For China, the complementaryinterests include the absorption of excess industrial capacities in cement, steel, and alu-minium for use in constructing roads, railways, ports, and airports. Overcapacity issuesare not unfamiliar to many Chinese state-owned enterprises (SOEs). CPEC ’s transport
+infrastructure projects provide an outlet for this oversupply and an opportunity for add-
+itional liquidity from state banks. As well as direct investment, funding for large-scaleprojects can also take the form of concessional loans, which redirects forex reservesfrom low-yield US Treasury Bills towards CPEC projects with a higher rate of return.Reports indicate that the Export-Import Bank of China provides concessional loanswith an interest rate of around 2 –2.5% below the market rate.
+67However, one report
+cites interest rates as high as 5%, higher than that offered by the World Bank and the
+International Monetary Fund.68Moreover, only around 1% of CPEC funding comes from
+grants to the Gwadar Port City and international airport projects, to which we will returnbelow.
+69Therefore, China and Chinese investors seek economic returns by implementing
+major transportation infrastructure projects such as the Karakoram Highway, which con-nects Islamabad in Northeastern Pakistan to Kashgar in western China.
+Finally, China and Pakistan have a shared interest in balancing regional inequalities
+within their respective countries. In China, successful regional development initiativeshave created a trade and investment boom in cities in the east, such as Beijing,Shanghai, and Shenzhen. However, concerns in the late 1990s about developmental asym-metries between the east and west of China resulted in the adoption of the Great WesternDevelopment Strategy to improve socioeconomic conditions and alleviate inter-ethnictensions between non-Han minorities.
+70Xinjiang, the region that borders Pakistan, is
+among the provinces targeted by this strategy due to its difficult geographic conditions
+64Erie and Streinz, supra note 61; “Pak-China Fibre Optic Cable to Start Functioning by Year-End ”The Express
+Tribune (15 September 2018), online: The Express Tribune < https://tribune.com.pk/story/1804386/pak-china-
+fibre-optic-cable-start-functioning-year-end >.
+65Normaz Wana ISMAIL and Jamilah Mohd MAHYIDEEN, “The Impact of Infrastructure on Trade and
+Economic Growth in Selected Economies in Asia ”, Asian Development Bank Institute, ADBI Working Paper
+Series No. 553, December 2015 at 16.
+66Ziaul Haque MUNIM and Hans-Joachim SCHRAMM, “The Impacts of Port Infrastructure and Logistics
+Performance on Economic Growth: The Mediating Role of Seaborne Trade ”(2018) 3(1) Journal of Shipping
+and Trade 1.
+67John HURLEY, Scott MORRIS and Gailyn PORTELANC, “Examining the Debt Implications of the Belt and Road
+Initiative from a Policy Perspective ”(2019) 3 Journal of Infrastructure, Policy and Development 139 at 19.
+68“Pakistan ’s $100B Deal with China: What Does It Amount to? ”Devex (24 August 2017), online: Devex < https://
+www.devex.com/news/pakistan-s-100b-deal-with-china-what-does-it-amount-to-90872 >.
+69Rafiq, supra note 56 at 10.
+70Zheng LU and Xiang DENG, “China ’s Western Development Strategy: Policies, Effects and Prospects ”, MPRA
+Paper 35201, University of Library of Munich, 1 December 2011; Michael CLARKE, “China ’s Internal SecurityAsian Journal of International Law 103
+and anaemic industrial development. Yet, despite major infrastructure investments and
+legal reforms intended to stimulate growth in the region, China remains one of theworld ’s most unequal societies.
+71Indeed, Chinese authorities have regarded asymmetric
+development between the east and the west regions in China as a barrier to national sta-
+bility. CPEC is intended to boost the underdeveloped western regions by integratingPakistan with Xinjiang and the surrounding provinces. Therefore, road and rail projectsalso aim to stimulate cross-border trade and act as a conduit through which westernChina can develop supply chains throughout South and Central Asia.
+Similarly, interregional inequality is a driver of CPEC for Pakistan. Economic inequality
+has historically created political instability and has led to unrest, including the rise of sep-
+aratist movements.
+72Hafiz Pasha, an economist, former Minister of Finance, and author of
+the UNDP National Human Development Report for Pakistan, talks of “two different
+Pakistans ”contrasting the richest and poorest.73In particular, the region of Balochistan
+in the southwest lags behind other areas in its Human Development Index value –
+which considers life expectancy, years of education, and family income –and is the
+only region in Pakistan not to have improved this value since 2006.74By contrast,
+Central and Northern Punjab outperform the national average in key development-related
+indicators.75Hopes for socioeconomic development are not limited to the border region
+between China and Pakistan but are intended to be achieved through the equitable allo-cation of CPEC projects.
+With these dovetailing interests in mind, Chinese authorities consistently stress that
+CPEC –indeed the entirety of the BRI –is primarily an economic project. One analysis
+has concluded that the BRI is “geared toward advancing key Chinese economic goals ”,
+with its geostrategic component “likely overstated by foreign observers ”.
+76To the con-
+trary, Garlick has argued that the overland connection between China and Pakistan is“beset with difficulties because of geographical, economic and security problems ”; thus,
+Chinese motivations for CPEC are “chiefly geopolitical ”.
+77In either case, geopolitical
+drivers play a role in shaping CPEC.
+B. Geopolitical Drivers
+Much of the commentary on CPEC focuses on China ’s geopolitical interests. This is unsur-
+prising given the BRI ’s scale and its attempt to reshape the international order. At a
+macro-level, the BRI represents an effort to weaken dependence (especially Asian depend-ence) on western-led rules and institutions by promoting Chinese influence in Asia. The
+Asian Infrastructure Investment Bank, the funder of many BRI projects arising from the
+Dilemma and the ‘Great Western Development ’: The Dynamics of Integration, Ethnic Nationalism and Terrorism
+in Xinjiang ”(2007) 31 Asian Studies Review 323.
+71“Bertelsmann Stiftung ’s Transformation Index (BTI) 2022 Country Report: China ”(2022), online: BTI
+<https://bti-project.org/fileadmin/api/content/en/downloads/reports/country_report_2022_CHN.pdf > at 15.
+72Muhammad MUSHTAQ and Zahra Shakil MIRZA, “Understanding the Nexus Between Horizontal
+Inequalities, Ethno-Political Conflict and Political Participation: A Case Study of Balochistan ”(2022) 21(3)
+Ethnopolitics 221.
+73“Pakistan National Human Development Report 2020: The three Ps of inequality: Power, People, and Policy ”,
+United Nations Development Programme, Pakistan, 16 April 2021.
+74Ibid., at 44
+75Ibid., at 45.
+76Christopher K JOHNSON, “President Xi Jinping ’s‘Belt and Road ’Initiative: A Practical Assessment of the
+Chinese Communist Party ’s Roadmap for China ’s Global Resurgence ”, Center for Strategic and International
+Studies, 1 March 2016.
+77Jeremy GARLICK, “Deconstructing the China –Pakistan Economic Corridor: Pipe Dreams Versus Geopolitical
+Realities ”(2018) 27(112) Journal of Contemporary China 519.104 Mark McLaughlin
+Bretton-Woods system, is at the forefront of China ’s strategy to provide alternatives to
+global financial organizations. In addition, the standard-setting functions of Chinese tech-nology companies, driven by the investments above in network infrastructure, establish
+China ’s role in setting international norms.
+78At the same time, a new dispute resolution
+institution –the China International Commercial Court –seeks to challenge traditional
+dispute resolution methods and hubs.79In the latter case, criticism of the Chinese orien-
+tation of institutions, such as the China International Commercial Court, has given rise todoubt over their impartiality.
+80By extension, whether foreign parties will have confidence
+in the system remains to be seen.
+Beyond the specific policy areas of finance, norm-setting, and dispute resolution, CPEC
+is part of the broader task of promoting Chinese soft power by establishing a model ofwin-win cooperation in international development. Zhao describes the engagement pro-cess as “public diplomacy ”that focuses on building international support and political
+legitimacy.
+81This manifests in Chinese-led forums for international cooperation, such
+as the Belt and Road Forum,82and engagement in international institutions. For example,
+China sought to have the BRI recognized as a “regional development initiative ”in UN
+Resolution 2344 and embed BRI principles within other UN initiatives.83
+By contrast, the geopolitical interests of recipient BRI states are rarely remarked upon.
+Pakistan ’s unique historical and strategic conditions support the overarching goal of CPEC
+to reduce dependence on the West. While Pakistan has historically been a recipient of for-eign aid from the US, the World Bank, the IMF, several countries within the EuropeanUnion, and the Asian Development Bank, financial and economic ties have oscillated accord-
+ing to policy differences. For example, US aid and military assistance have been suspended at
+various points in the last seventy years in response to disagreements over the pursuit ofnuclear capabilities, and US claims that Pakistan continues to sponsor cross-border terror-ism.
+84The future of Afghanistan also remains a source of contention, which is likely to be
+exacerbated by the exit of US troops in August 2021.85S i m i l a r l y ,t h eE u r o p e a nU n i o n ’s
+Generalized Scheme of Preferences in Trade (GSP+) –a system permitting zero duties on a
+range of goods –is under review to assess compliance with international treaties.86This
+expires in 2023, and it is unclear whether it will be renewed.87For these reasons, some in
+78HE, supra note 60.
+79Zachary MOLLENGARDEN, “One-Stop Dispute Resolution on the Belt and Road: Toward an International
+Commercial Court with Chinese Characteristics ”(2019) 36(1) UCLA Pacific Basin Law Journal 65.
+80Wei CAI and Andrew GODWIN, “Challenges and Opportunities for the China International Commercial
+Court ”(2019) 68(4) International & Comparative Law Quarterly 869.
+81Kejin ZHAO, “The Motivation Behind China ’s Public Diplomacy ”(2015) 8(2) The Chinese Journal of
+International Politics 167.
+82“Joint Communique of the Leaders Roundtable of the Belt and Road Forum for International Cooperation ”
+Belt and Road Forum for International Cooperation (16 May 2017), online: Belt and Road Forum for International
+Cooperation < http://www.beltandroadforum.org/english/n100/2017/0516/c22-423.html >.
+83Security Council Resolution 2344, 17 March 2017, UN Doc. S/RES/2344; see further at Heng Wang, “China ’s
+Approach to the Belt and Road Initiative: Scope, Character and Sustainability ”(2019) 22(1) Journal of
+International Economic Law 22, at 38.
+84Murad ALI, The Politics of US Aid to Pakistan: Aid Allocation and Delivery from Truman to Trump
+(New York: Routledge 2019).
+85Akmal DAWI, “US-Pakistan Relations Ebb After Afghanistan Withdrawal ”VOA (16 March 2022), online: VOA
+<https://www.voanews.com/a/us-pakistan-relations-ebb-after-afghanistan-withdrawal/6488429.html >.
+86Shahroo MALIK, “EU-Pakistan Trade Relations: The Role of GSP Plus Status and Pakistan ’s Enhanced Access
+to EU Markets ”(2020) 40(1) Strategic Studies 1 at 20 –38.
+87“European Union GSP+ Mission Arrives to Assess Progress in Implementation of International Conventions ”
+EEAS (22 June 2022), online: EEAS < https://www.eeas.europa.eu/delegations/pakistan/european-union-gsp-
+mission-arrives-assess-progress-implementation_en?s=175 >.Asian Journal of International Law 105
+the West view aid to Pakistan as ineffective at securing policy goals, while some in Islamabad
+consider western economic support unreliable.
+China has stepped into the breach.88Indeed, CPEC might be described as merely a
+rebranding of a relationship established in the mid-twentieth century.89The partnership
+has developed from establishing diplomatic relations in May 1951 through the increase intrade and investment accompanying the Sino-Pakistan entente of 1964 and Chinese loansin the 1970s to military assistance to counter India in the 1990s and 2000s.
+90Although
+not without difficulties,91the partnership is commonly described as an “all-weather
+friendship ”.92Pakistan is China ’s conduit to the rest of the Islamic world and occupies
+a strategically important geographical position in the region. Investments in land infra-
+structure may bypass the Straits of Malacca –a narrow water passageway used for sea
+transport to and from China.93Security analysts have long regarded the Straits of
+Malacca as one of China ’s strategic weaknesses due to the potential damage that a
+blockade could inflict. Relatedly, Garlick describes China ’s interest in CPEC as one of
+“geo-positional balancing ”, which is manifest in the establishment of a non-military
+presence at sites such as commercial ports with a view to “keeping a powerful rival
+geopolitically honest ”–in this case, India.94However, public statements from Pakistani
+officials seek to downplay this aspect of CPEC, emphasizing instead its intent to shiftthe China-Pakistan relationship “from geopolitics to geoeconomics ”.
+95
+Despite these pronouncements, the “India factor ”must be considered a relevant elem-
+ent of CPEC. Pakistan and India have a long history of conflict and animosity, driven byantagonism between political movements powered by religious antagonism, being on
+opposing sides in strategic alliances (such as with the US and Russia) and live flashpoints,
+such as the status of Kashmir. Pakistan ’s military continues to view India with intense sus-
+picion, and strategic competition between the nations underpins Pakistan ’s military
+spending.
+96China has long supported Pakistan ’s conventional military and nuclear cap-
+abilities, with some analysts arguing that these investments are intended “to help keep
+India off balance and focused on threats emanating from Pakistan ”,97which is contested
+by China in public statements, state media, and articulated BRI principles. Whether by
+cause or effect, many CPEC projects have security aspects.
+88For an in-depth account of China-Pakistan relations, see Ghulam ALI, China-Pakistan Relations: A Historical
+Analysis (Karachi: Oxford University Press 2017).
+89Jeremy GARLICK, “Deconstructing the China –Pakistan Economic Corridor: Pipe Dreams Versus Geopolitical
+Realities ”(2018) 27(112) Journal of Contemporary China 519.
+90Matthew S ERIE, “A Brief History of Pakistan –China Legal Relations ”Made in China Journal (8 November 2021)
+6, online: Made in China Journal < https://madeinchinajournal.com/2021/11/08/a-brief-history-of-pakistan-
+china-legal-relations/ > 2 at 147 –151.
+91For example, Pakistan voted against a seat at the United Nation for the People ’s Republic of China after 1953
+while in receipt of US aid, see Anwar H. SYED, China and Pakistan: Diplomacy of an Entente Cordiale
+(Amherst: University of Massachusetts Press 1974) at 54.
+92Rudra CHAUDHURI, “The Making of an “All Weather Friendship ”Pakistan, China and the History of a Border
+Agreement: 1949 –1963 ”(2018) 40(1) The International History Review 41.
+93Richard GHIASY and Jiayi ZHOU, “The Silk Road Economic Belt: Considering Security Implications and EU –
+China Cooperation Prospects ”, Stockholm International Peace Research Institute, February 2017.
+94Jeremy Garlick, “Deconstructing the China –Pakistan Economic Corridor: Pipe Dreams Versus Geopolitical
+Realities ”(2018) 27(112) Journal of Contemporary China 519 at 529.
+95“China Expands Influence in “economic Colony ”Pakistan ”Deutsche Welle (20 April 2015), online: Deutsche
+Welle < https://www.dw.com/en/china-expands-influence-in-economic-colony-pakistan/a-18393881 >.
+96Shane MASON, “Military Budgets in India and Pakistan: Trajectories, Priorities, and Risks ”The Stimson Centre
+(2016), online: The Stimson Centre < https://www.stimson.org/wp-content/files/file-attachments/Military-
+Budgets-India-Pakistan-Trajectories-Priorities-Risks-Oct2016.pdf.pdf >.
+97Lisa Curtis and Derek Scissors, “The Limits of the China-Pakistan Alliance ”, The Backgrounder No. 2641, The
+Heritage Foundation , January 19th 2012.106 Mark McLaughlin
+C. Security Drivers
+Perhaps the most prominent investment with security-related elements is in ports, which
+might more accurately be described as being at the intersection of economic, geopolitical,and security drivers of CPEC. For example, the Gwadar Port is often cited as one of China ’s
+“String of Pearls ”–a series of naval bases on the Indian Ocean from which it seeks to
+establish a naval presence.
+98India particularly advances the theory and is consistent
+with concepts developed by US naval historian Alfred Thayer Mahan, who argued thatnaval power was innately connected to great power status.
+99China, by contrast, stressed
+in 2012 that it had no plans to establish a military presence in the Indian Ocean.100
+Nevertheless, it was acknowledged in November 2015 that China ’s first overseas military
+base was to be established on the Indian Ocean in Djibouti.101In addition, the US has
+asserted evidence suggesting that attempts to establish other military bases in
+Cambodia and the United Arab Emirates had been made.102Given this context, India,
+Japan, and the US consider Gwadar Port to be a security driver.
+Beyond regional issues, CPEC investments are also aimed at addressing significant
+internal security issues, including separatism, terrorism, and religious fundamentalism.103
+Critics accuse Pakistan ’s government of failing to effectively address terror threats for fear
+of provoking confrontation with powerful regional jihadist factions.104One strategy is to
+improve socioeconomic conditions as a route to decreasing radicalization.105In July 2015,
+Army Staff General Raheel Sharif commended the “noteworthy effects ”of development
+projects in former terrorist sanctuaries.106Chinese motivations for stabilizing Pakistan
+mirror fears of the influence of jihadist elements, notably in Xinjiang.107The authorities
+link militant operations by the Uyghur minority to terrorist training and activity inPakistan and Afghanistan. This is the justification offered in response to claims ofhuman rights abuses in Xinjiang. CPEC projects, as well as being intended to bolster
+Pakistan ’s political stability, gives China the political capital to demand counter-terrorism
+activities in return for contributions to economic development.
+98David BREWSTER, “Beyond the “String of Pearls ”: Is There Really a Sino-Indian Security Dilemma in the
+Indian Ocean? ”(2014) 10(2) Journal of the Indian Ocean Region 133.
+99James R. HOLMES, Andrew C. WINNER, and Toshi YOSHIHARA, Indian Naval Strategy in the Twenty- First
+Century (London: Routledge 2010); Toshi YOSHIHARA and James R. HOLMES, Red Star Over the Pacific: China ’s
+Rise and the Challenge to U.S. Maritime Strategy (Annapolis: Naval Institute Press 2010).
+100“’China Has No Plan for Indian Ocean Military Bases ’”The Hindu (4 September 2012), online: The Hindu < https://
+www.thehindu.com/opinion/interview/china-has-no-plan-for-indian-ocean-military-bases/article3855313.ece >.
+101“Transcript of PRC FM Spokesman News Conference ”Ministry of Foreign Affairs of the People ’s Republic of China
+(26 November 2015), online: Ministry of Foreign Affairs of the People ’s Republic of China < http://www.fmprc.gov.
+cn/web/fyrbt_673021/t1318725.shtml >.
+102Craig Singleton, “Beijing Eyes New Military Bases Across the Indo-Pacific ”Foreign Policy (7 July 2021),
+online: Foreign Policy < https://foreignpolicy.com/2021/07/07/china-pla-military-bases-kiribati-uae-cambodia-
+tanzania-djibouti-indo-pacific-ports-airfields/ >.
+103On 17 June 2004, President Hu Jintao described separatism, terrorism, and religious fundamentalism as the
+‘three evils ’; Elizabeth Van Wie DAVIS, “Uyghur Muslim Separatism in Xinjiang, China ”(2008) 35(1) Asian Affairs:
+An American Review (2008) at 18.
+104Vanda FELBAB-BROWN, “Why Pakistan Supports Terrorist Groups, and Why the US Finds It so Hard to
+Induce Change ”Brookings (5 January 2018), online: Brookings < https://www.brookings.edu/blog/order-from-
+chaos/2018/01/05/why-pakistan-supports-terrorist-groups-and-why-the-us-finds-it-so-hard-to-induce-change/ >.
+105“Pakistan 2025: One Nation, One Vision ”Ministry of Planning Development and Reform, Government of Pakistan ,
+online: Ministry of Planning Development and Reform, Government of Pakistan < https://www.pc.gov.pk/
+uploads/vision2025/Pakistan-Vision-2025.pdf > at 29.
+106Mateen HAIDER, “Operations to Continue till Pakistan Is Terror Free, Says General Raheel ”DAWN (3 July
+2015), online: DAWN < http://www.dawn.com/news/1192103 >.
+107Wolf, supra note 51 at 107.Asian Journal of International Law 107
+This account of dovetailing interests demonstrates Pakistan ’s agency in forming and
+designing CPEC projects and the variegated motivating factors behind Chinese invest-ments. Undoubtedly, China is the more powerful international actor, but dismissing
+Pakistan ’s role in shaping its economic, geopolitical, and security elements would be inad-
+equate and inaccurate.
+However, the motivating factors behind CPEC offer only good intentions; how individual
+projects function in practice is more complex. Sweeping, generous statements of cooper-ation must be distilled into contractual terms; diplomatic overtures unavoidably give wayto commercial transactions; and imagined utopia must survive to contact with the realities
+of repayment difficulties, environmental impacts, international opposition, and local com-
+munity concern. Moreover, the scale of the investment and the nature of the investment cli-mate is likely to create –indeed, it has created –disputes over these investments. Given the
+state-driven nature of CPEC investment, such disputes are of a distinctly political hue.
+III. The “Re-Politicization ”of CPEC Investment Disputes
+Shifting investment disputes from the governmental to the adjudicative sphere was a
+driving concern behind creating the International Centre for the Settlement ofInvestment Disputes (ICSID). Aron Broches, General Counsel of the World Bank, describedit as an attempt to “eliminate the risk of a confrontation of the host country and the
+national State of the investor ”. At the same time, ICSID Secretary General Ibrahim
+Shihata stressed the intent to “balance the interests and requirements of all the parties
+involved ”and “depoliticize ”the settlement of investment disputes.
+108The ICSID
+Convention was conceived as an antidote to the “gunboat diplomacy ”practised by colo-
+nial states to protect their economic interests, and is consistent with the adoption of theCharter of the UN which prohibits the use of force, except in the case of self-defence.
+109
+This development was intended to shield recipient host states from military invasion andunburden home states from the popular pressure to exercise diplomatic protection.
+110
+At the outset, it should be acknowledged that the “depoliticising ”effect of investor-
+state arbitration is an uncertain hypothesis. In one view, the depoliticizing aim of theICSID Convention has been achieved.
+111This conclusion flows from the analysis that dip-
+lomatic protection has shifted from the norm to the exception in investor-state disputes,and there is limited host-state involvement during an investor-state arbitration.
+112On the
+other hand, consistent with Lauterpacht ’s position that every international law dispute is
+political, Paparinskis suggested that depoliticization has minimal utility for elucidating
+modern challenges in investment arbitration.113In this argument, the concept played a
+historically significant role in justifying the peaceful settlement of disputes in the1960s but is of little use today. At worst, it embeds “assumptions about hidden systemic
+teleology ”and misleads decision-makers.
+114A third view is that extravagant claims to a
+108Ibrahim SHIHATA, “Towards a Greater Depoliticization of Investment Disputes: The Roles of ICSID and
+MIGA ”(1986) 1(1) ICSID Review Foreign Investment Law Journal 1, 4.
+109Kenneth J. VANDEVELDE, “A Brief History of International Investment Agreements Symposium: Romancing
+the Foreign Investor: BIT by BIT ”(2005) 12 UC Davis Journal of International Law & Policy 157.
+110See Noel MAURER, The Empire Trap: The Rise and Fall of U.S. Intervention to Protect American Property Overseas,
+1893 –2013 (Princeton: Princeton University Press 2013).
+111Ursula KRIEBAUM, “Evaluating Social Benefits and Costs of Investment Treaties: Depoliticization of
+Investment Disputes ”(2018) 33(1) ICSID Review - Foreign Investment Law Journal 14, at 27.
+112Ibid.
+113Martins PAPARINSKIS, “The Limits of Depoliticisation in Contemporary Investor-State Arbitration ”SSRN (1
+October 2010), online: SSRN < https://papers.ssrn.com/abstract=1716833 >.
+114Ibid., at 5.108 Mark McLaughlin
+bright-line separation of law and politics have always failed to capture the inherently pol-
+itical nature of investment obligations and arbitrator discretion.115Gradations of opinion,
+therefore, follow from different interpretations of common facts and diverse views on the
+concept of depoliticization itself. Appraisals of success determine whether it is measured
+by the absence of military intervention in investment disputes, the limited exercise ofdiplomatic protection in investment arbitration cases, or that investment disputes arenot resolved with “lowly ”politics but by “higher ”law.
+116
+This paper adopts a definition of depoliticization that reflects the removal of the home
+state from the process of investor-state arbitration: decision-making authority shifts from
+a governmental body to an adjudicative body. This shift is crystallized in Article 27 of the
+ICSID Convention, which provides that no home state may give diplomatic protectionregarding a dispute about which one of its nationals and another state have consentedto arbitration. Scholars of geoeconomics describe it as a “movement towards highly lega-
+lized dispute resolution ”.
+117
+However, investors implementing CPEC projects, despite their diverse character and
+considerable scale, have not used this default adversarial mechanism. Despite robust
+investment protection obligations supported by accessible and enforceable dispute reso-
+lution processes in investment treaties, CPEC stakeholders have not exercised the optionto pursue adversarial mechanisms. To that extent, the geoeconomic aspects of CPECinvestments directly impact the suitability of dispute settlement procedures that focuson adjudicating “hard law ”. The following sections explore the character of dispute reso-
+lution available to Chinese investors and the potential circumstances giving rise to invest-
+ment claims.
+A. Robust International Dispute Resolution Frameworks for Chinese Investments in Pakistan
+Two international investment agreements have been concluded between China and
+Pakistan: the 1989 China-Pakistan BIT and an investment chapter in the 2006
+Pakistan-China free trade agreement (FTA). The 2006 agreement was updated in 2019.
+They exist concurrently.
+118Both provide Chinese investors with legal protections in
+Pakistan and facilitate recourse to international arbitration to enforce them. Given thatthe agreements were concluded before CPEC was devised, it is obvious that they werenot drafted with this project in mind. Nevertheless, they remain in force and are theor-etically viable routes for Chinese investors. The following sections will appraise the accessto arbitration afforded by each agreement.
+While the 1989 BIT and 2006 FTA provide some access to investor-state arbitration, it is
+much more limited in scope in the 1989 agreement. Article 10 provides:
+If an investor challenges the amount of compensation for the expropriated invest-
+ment assets, he may file a complaint with the competent authority of theContracting Party taking the expropriatory measures. If it is not solved within one
+year after the complaint is filed, the competent court of the Contracting Party taking
+the expropriatory measure or an international arbitral tribunal may, upon therequest of the investor, review the amount of compensation.
+115David SCHEIDERMAN, “Revisiting the Depoliticization of Investment Disputes ”(2010 –2011) Yearbook on
+International Investment Law and Policy 693.
+116Ibid.
+117Roberts, Moraes and Ferguson, supra note 9 at 658.
+118The second phase of the China-Pakistan FTA took effect in July 2007.Asian Journal of International Law 109
+At first instance, several aspects of this clause limit access to Chinese investors. First, the
+scope of the clause refers only to the amount of compensation relating to expropriation.Fair and equitable treatment, most-favoured-nation treatment, and obligations to permit
+asset transfer are notable by their absence. By contrast, the scope of state-state dispute
+settlement provision refers to disputes “concerning the interpretation or application ”
+of the agreement. Second, there is a precondition that investors must wait a year afterfiling a notice of complaint before proceeding to court or arbitration. There is neithera suggestion nor a compulsion for negotiation, conciliation, or mediation during this per-iod. Third, the clause permits the investor to request a court oran international arbitral
+tribunal to review the amount of compensation. This is commonly referred to as a “fork in
+the road ”clause, which permits an investor to pursue one avenue for redress but not
+both.
+119
+Despite the apparently restrictive wording, clauses that limit access to arbitration to
+review the amount of compensation for expropriation have been interpreted broadlyby some arbitral tribunals. In Tza Yap Shum v Peru , the tribunal understood a clause con-
+taining the words “involving the amount of compensation ”to include “whether the prop-
+erty was actually expropriated ”.
+120It reasoned that the fork in the road nature of the
+dispute resolution clause meant that an investor might only go to a domestic court orinternational arbitration. Thus, if an investor had first to submit the dispute to a domesticcourt to obtain a finding that an expropriation occurred, this would foreclose the possi-bility of international arbitration, save for an admission of an expropriation by the hoststate. Consistent with the principle of effet utile , or effective interpretation, the tribunal
+considered that determining the existence of an expropriation was also permitted by
+the BIT, not merely the amount of compensation. Similarly, the tribunal in BUCG v
+Yemen held that a narrow interpretation –excluding the determination of the existence
+of an expropriation –would undermine the BIT ’s object and purpose.
+121
+Applying this approach to the 1989 BIT makes it possible to conceive more expansive
+access to arbitration for Chinese investors in Pakistan. However, differences in drafting
+should provoke caution before transposing the reasoning from Tzaand BUCG onto this
+BIT. Unlike the 1994 China-Peru BIT and 1998 China-Yemen BIT, the 1989China-Pakistan BIT does not contain the phrase “involving the amount of compensation ”
+or“relating to the amount of compensation ”. Instead, it refers only to the “amount of
+compensation ”. Interpreting “involving ”or“relating ”was central to the tribunal ’s expan-
+sive interpretive approach in the previous cases. However, the fork in the road argumentremains. Investors are permitted to take requests relating to the amount of compensation
+to court orarbitration, but not both. A tribunal may consider this sufficient to determine
+the existence of an expropriation and the amount of compensation to be paid.
+However, this broader interpretation is by no means uncontested. In the case of China
+Heilongjiang v Mongolia , the tribunal came to the opposite view.
+122It reasoned that the
+phrase “involving the amount of compensation ”was to restrict an arbitral tribunal ’s jur-
+isdiction.123The relevant clause referred not only to a “dispute involving the compensa-
+tion for expropriation ”but a “dispute involving the amount of compensation for
+119Serena LEE and Myron PHUA, “Supervisión y Control v Costa Rica: Developing the Pantechniki v Albania
+Standard for ‘Fork in the Road ’Provisions in Investment Treaties ”(2019) 34(1) ICSID Review - Foreign Investment
+Law Journal 203.
+120Tza Yap Shum v. Republic of Peru , Decision on Annulment of 12 February 2015, ICSID Case No ARB/07/6.
+121Beijing Urban Construction Group Co Ltd v. Republic of Yemen , Decision on Jurisdiction of 31 May 2017, ICSID
+Case No ARB/14/30; Sanum Investments Limited v. Lao People ’s Democratic Republic , Award on Jurisdiction of 13
+December 2013, UNCITRAL, PCA Case No 2013-13.
+122Ibid., at para 423.
+123Ibid., at para 439.110 Mark McLaughlin
+expropriation ”(emphasis added).124This was interpreted as referring to a particular cat-
+egory of compensation. “Involving ”was considered by the tribunal to be a neutral term,
+neither expanding nor contracting the tribunal ’s jurisdiction.125Finally, the proposition
+that the investor would be denied recourse if the tribunal adopted a restrictive view
+was dismissed.126Arbitration would remain available where an expropriation had been
+formally proclaimed. Therefore, whether Chinese investors would be able to seek a deter-mination that Pakistan committed expropriation remains uncertain. The jurisprudence isinconsistent.
+By contrast, the dispute settlement provisions in the 2006 Pakistan-China FTA, retained
+in the 2019 version, present a far clearer path to international arbitration. Article 54 pro-
+vides that “any legal dispute ”that cannot be settled through negotiations within six
+months of the date it was raised can be submitted to either a domestic court or ICSID.This expanded scope facilitates access to arbitration for a broad range of potential dis-putes relating to the investment obligations contained within the treaty. It does notfall foul of the ambiguities accompanying the 1989 BIT. Nevertheless, access remains con-ditional. A six-month “cooling off ”period is required from the notification of the dispute,
+and the investor must have exhausted administrative review procedures in the host coun-
+try. Accordingly, Chinese investors seeking to assert a breach of investment obligationsand initiate arbitration would be readily able to do so.
+B. CPEC Project Disruption and Investment Claims
+A Chinese investor has yet to submit a CPEC project to investor-state arbitration. Evidence from
+a survey by the China Institute of Corporate Legal Affairs (CICLA) suggests that this is not attrib-utable to an aversion to legal mechanisms by Chinese enterprises investing in developing coun-
+tries.
+127Fifty per cent of respondents to the 2015 survey stated that they had been involved in
+civil lawsuits or arbitration.128However, many of these disputes were related to penalties
+imposed on Chinese investors. Several events and disruptions to CPEC projects could giverise to an investment claim or may do so in the future. These will be explored with referenceto specific investment obligations in China-Pakistan investment treaties: that is, full protectionand security (FPS), fair and equitable treatment (FET), and expropriation.
+1. T error attacks on Chinese workers and the FPS obligation
+Both the 1989 China-Pakistan BIT and the 2006 China-Pakistan FTA provide for the phys-
+ical protection of investors. The 1989 BIT provides that investors “shall enjoy protection in
+the territory of the other contracting party ”. In contrast, the 2006 FTA stipulates that
+investors “shall enjoy the constant protection and security in the territory of the other
+Party ”(emphasis added).
+Arbitral jurisprudence indicates that this imposes an obligation on host states to pro-
+vide for the physical protection of investors. However, protection is not absolute; states
+must only exercise due diligence and take reasonable measures.
+129The standard “cannot
+124Ibid., at para 443.
+125Ibid., at para 446.
+126Ibid., at para 448.
+127Matthew S. ERIE, “Chinese Law and Development ”(2021) 61(1) Harvard International Law Journal 51, at 82.
+128“Zhongguo gongsifawu yanjiuyuan 中国公司法务研究院”[China Institute of Legal Corporate Affairs];
+“Zhongguo qiye “zouchuqu ”diaoyan baogao 中国企业“走出去”调研报告”[Survey Report on Chinese Companies
+“Going out ”] 2015 –16, 2016 –17, and 2017 –18.
+129Asian Agricultural Products Ltd. v. Republic of Sri Lanka , Award of 27 June 1990, ICSID Case No. ARB/87/3, at
+para 53; Técnicas Medioambientales Tecmed, S.A. v. The United Mexican States , Award of 29 May 2003, ICSID Case No.
+ARB (AF)/00/2, at para 177.Asian Journal of International Law 111
+be construed as the giving of a warranty that property shall never in any circumstances be
+occupied or disturbed ”.130Relevant factors in assessing due diligence include the scale of
+the civil disorder and the resources available to the state to counter the disorder.131In the
+ICSID case of Ampal v Egypt , Egypt was held liable for attacks by insurgents on a gas pipe-
+line between 2008 and 2011.132The pipeline had been attacked thirteen times, but the tri-
+bunal reasoned that the first four attacks were not foreseeable and, therefore, the statecould not be held responsible. Egypt was liable for every attack after the fourth attack,notwithstanding the disrupted environment of the Arab Spring. While this decision hasbeen subject to considerable criticism,
+133it demonstrates that host states are under an
+obligation to prevent terror attacks in certain circumstances.
+CPEC projects, and the Chinese nationals implementing them, have suffered numerous
+terror attacks in Pakistan. An insurgency in Balochistan, domestic terrorism, and inter-national jihadism contribute to a volatile security situation.
+134Indeed, Small argues
+that “instead of being known as China ’s gateway to the Gulf, Pakistan has developed a
+reputation as the most dangerous country to be an overseas Chinese, with kidnappingsand killings taking place with disturbing regularity ”.
+135The separatist groups –the
+Baluchistan Liberation Army (BLA) and the Baluchistan Liberation Front (BLF) –oppose
+CPEC. They are thought to be responsible for a series of attacks on Chinese nationals.Prominent examples include the 2018 high-profile attack on the Chinese Consulate inKarachi and the kidnap and killing of two Chinese language teachers in Quetta in2017.
+136As of July 2022, the attacks continue. In July 2021, a bus carrying Chinese engi-
+neers and construction workers in the western province of Khyber-Paktunkhwa was
+bombed, killing nine Chinese nationals.137In August 2021, a suicide bomber targeted a
+bus carrying Chinese nationals, with the BLA claiming responsibility for the attack.138
+Finally, in April 2022, three Chinese nationals were killed in a bombing at theUniversity of Karachi, including the Director of the Confucius Institute.
+139Again, the
+Baloch Liberation Army claimed responsibility for the attack.140While former CPEC
+Project Director Hassan Daud Butt established a force of ten thousand security personnel
+130Case Concerning Elettronica Sicula S.p.A. (ELSI) (United States of America v. Italy ), [1989] I.C.J. Rep. 15 at para 108
+131Pantechniki S.A. Contractors & Engineers v. Republic of Albania , Award of 30 July 2009, ICSID Case No. ARB/07/
+21, at para. 77.
+132Ampal-Am. Isr. Corp. v. Arab Republic of Egypt , Decision on Liability and Heads of Loss of 21 February 2017,
+ICSID Case No. ARB/12/11, at paras. 289 –90.
+133Robert Howse and Amin Yacoub, “Litigating Terror in The Sinai after the Egyptian Spring Revolution:
+Should States be Liable to Foreign Investors for Failure to Prevent Terrorist Attacks? ”(2022) 43(3) Michigan
+Journal of International Law 595.
+134Wolf, supra note 51 at 107.
+135Andrew Small, The China-Pakistan Axis: Asia ’s New Geopolitics (New York: Oxford University Press 2014).
+136Yelena BIBERMAN and Jared SCHWARTZ, “China and Pakistan Have Struck a Devil ’s Bargain With Militants ”
+Foreign Policy (5 April 2019), online: Foreign Policy < https://foreignpolicy.com/2019/04/05/china-and-pakistan-
+have-struck-a-devils-bargain-with-militants/ >;“Pakistan Confirms Death of 2 Kidnapped Chinese Nationals ”
+China Daily (31 October 2017), online: China Daily < https://www.chinadaily.com.cn/world/2017-10/31/
+content_33929197.htm >.
+137Asif SHAHZAD, “Pakistan Says Attack That Killed Chinese Was a Suicide Bombing ”Reuters (12 August 2021),
+online: Reuters < https://www.reuters.com/world/asia-pacific/pakistan-foreign-min-says-bus-attack-that-killed-
+9-chinese-workers-was-suicide-2021-08-12/ >.
+138Gul YOUSAFZAI, “Two Killed in Suicide Bombing Targeting Chinese Nationals in Pakistan ”Reuters
+(20 August 2021), online: < https://www.reuters.com/world/asia-pacific/two-killed-suicide-bombing-targeting-
+chinese-nationals-southwest-pakistan-2021-08-20/ >.
+139Jack LAU, “China Calls for “Resolute ”Action from Pakistan against Terror Attacks on Chinese Nationals ”
+South China Morning Post (12 May 2022) South China Morning Post < https://www.scmp.com/news/china/
+diplomacy/article/3177532/china-calls-resolute-action-pakistan-against-terror-attacks >.
+140Ibid.112 Mark McLaughlin
+to ensure the successful completion of CPEC projects, it is uncertain whether this would
+meet the due diligence standard required in investment arbitration if it cannot preventattacks.
+141Nevertheless, Chinese representations to the Pakistan government have
+remained diplomatic, not legal, in character. This is also true of Pakistan ’s sovereign
+debt obligations to China.
+2. Political upheaval and contract “renegotiation ”of power projects: FET and expropriation
+When Imran Khan came to power in 2018, he promised to renegotiate contracts concludedwith Chinese independent power producers (IPPs), citing their pro-China orientation.
+142
+Unfortunately, the position was taken without meaningful consultation with theChinese parties. Nevertheless, the Khan administration persuaded Chinese companies to
+accept lower interest rates.
+143However, in March 2022, payments owed to these providers
+were not forthcoming, so the operators closed operations, citing cash flow difficulties.This prevented the necessary import of fuels. Operations were only restarted after pay-ment was made. A former Minister of State involved in industrial negotiations withChinese parties offers an account of the mood:
+The Chinese [companies] have been absolutely upset for a very long time …The
+Chinese stance is that it ’s a commercial agreement. No IPP is obliged to listen to
+the [Pakistani] government because the agreements were drawn under the law.
+144
+Other unfulfilled commitments included reneging on a promised escrow account toensure smooth payments to Chinese providers.
+145After Imran Khan was removed from
+power by a no-confidence vote, the new administration of Prime Minister Shehbaz
+Sharif vowed again to renegotiate power-related contracts with Chinese providers. This
+request was driven by requirements of the IMF, which reportedly urged Pakistan toextend the duration of the bank loans from ten to twenty years or reduce the markupon arrears owed to Chinese power providers from 4.5% to 2%.
+146
+The lack of transparency typical of financing for CPEC projects leaves considerable
+uncertainty about Pakistan ’s sovereign debt obligations.147A 2022 IMF report estimates
+that Pakistan owes $30 billion (US) to China, a third of its total debt obligations.148The
+IMF explicitly states that contingent liability arising from investments through CPEC“pose a risk to debt sustainability ”.
+149Economic and political crises mean that, in the
+near term, “financing risks remain elevated ”, and thus “authorities are seeking additional
+141Hidayatullah KHAN, Nasrudin Md. AKHIR, and Geetha GOVINDASAMY, “China-Pakistan Economic Corridor:
+A Chinese Gateway to the Indian Ocean Region ”(2021) 58 (Autumn/Winter) Hong Kong Journal of Social Sciences
+457.
+142“Pakistan ’s Imran Khan Travels to China to Renegotiate Terms of CPEC ”Foreign Brief (1 November 2018),
+online: Foreign Brief < https://www.foreignbrief.com/daily-news/pakistans-imran-khan-travels-to-china-to-
+renegotiate-terms-of-cpec/ >.
+143“Pakistan and China Hail “brotherhood ”but IMF Terms Spell Friction ”Nikkei Asia (17 September 2022),
+online: Nikkei Asia < https:/ /asia.nikkei.com/Politics/International-relations/Pakistan-and-China-hail-brotherhood-
+but-IMF-terms-spell-friction >.
+144Ibid.
+145Ibid.
+146Ibid.
+147Rafiq, supra note at 33.
+148“Pakistan: Seventh, and Eighth Reviews of the Extended Arrangement under the Extended Fund Facility,
+Requests for Waivers of Non-Observance of Performance Criteria, and for Extension, Augmentation, and
+Rephasing of Access-Press Release; Staff Report; Staff Statement; and Statement by the Executive Director for
+Pakistan ”, International Monetary Fund, IMF Staff Country Reports, 1 September 2022.
+149Ibid., at 50.Asian Journal of International Law 113
+financial support from their traditional bilateral partners ”.150Indeed, a recent meeting on
+the sidelines of the Shanghai Cooperation Organization took place in September 2022,where it was reported that debt renegotiation was high on the agenda. Moreover, the
+US urged China to engage in debt renegotiations in response to the devastating floods
+that killed at least 1,600 people by the end of September 2022.
+151
+A readout from the meeting in September 2022 between Prime Minister Shehbaz Sharif
+and President Xi Jinping hints at some of the tumults: “China hopes that Pakistan will pro-
+vide solid protection for the security of Chinese citizens and institutions in Pakistan aswell as the lawful rights and interests of Chinese businesses ”.
+Could investment treaties be used to enforce these rights? In short, it depends on the
+nature of the contract renegotiations between the Pakistani and Chinese power producers.If legislation unilaterally alters contractual terms with Chinese parties, this may consti-tute an uncompensated expropriation, contrary to 1989 BIT Article 4 and 2006 FTAArticle 49. The expropriation of contractual rights was recognized in arbitral jurispru-dence as early as 1903. A member of the US-Venezuela Mixed Claims Commission inthe Rudloff case articulated the position: “The taking away or destruction of rights
+acquired, transmitted, and defined by a contract is as much a wrong, entitling the sufferer
+to redress, as the taking away or destruction of tangible property ”.
+152Several subsequent
+investment tribunals have confirmed this.153Nevertheless, legislative measures that
+merely reduce interest rates are unlikely to meet the “substantial deprivation ”standard
+required for a breach.154
+However, in this case, it appears that the renegotiation concerns merely bilateral nego-
+tiation. There is no external evidence of executive or legislative action. To that end, two
+features of FET may prove relevant: contractual commitments may form part of an inves-tor’s legitimate expectations and investors are afforded freedom from coercion.
+A minority of tribunals, such as those in Mondev v US and SDS v Paraguay, found that
+failing to observe contractual obligations would violate the FET standard.
+155More com-
+monly, tribunals consider that exercising sovereignty is necessary to breach FET. For
+example, in Impregilo v Pakistan , the tribunal found that liability under the treaty could
+only be activated through the misuse of public power.156The second element of FET is
+the freedom from coercion and harassment. For example, in Total v Argentina , an investor
+had been forced to acquiesce to less favourable contractual conditions under which it hadto give up receivables in return for shares.
+157The tribunal found that:
+150Ibid.
+151“US Asks Pakistan to Seek Debt Relief from China After Floods ”Bloomberg (27 September 2022), online:
+Bloomberg < https://www.bloomberg.com/news/articles/2022-09-27/us-asks-pakistan-to-seek-debt-relief-from-
+china-after-floods >.
+152Rudloff Case , Decision on Merits, [1959] IX RIAA 244, 250.
+153Wena Hotels Ltd. v. Arab Republic of Egypt , Award of 8 December 2000, ICSID Case No. ARB/98/4, at para 98;
+CME Czech Republic v. The Czech Republic , Partial Award of 13 September 2001, at para 591; Bayindir Insaat Turizm
+Ticaret Ve Sanayi A.S. v. Islamic Republic of Pakistan , Decision on Jurisdiction of 14 November 2005, ICSID Case No.
+ARB/03/29, at para 255; Impregilo S.p.A. v. Islamic Republic of Pakistan , Decision on Jurisdiction of 22 April 2005,
+ICSID Case No. ARB/03/3, at para 274;
+154Société Générale v. Dominican Republic , Award of 19 September 2008, LCIA Case No. UN 7927, at para 64; Alpha
+Projektholding GmbH v. Ukraine , Award of 8 November 2010, ICSID Case No. ARB/07/16, at para 408.
+155Mondev v. United States , Award of 11 October 2002, ICSID Case No. ARB(AF)/99/2; SGS Société Générale de
+Surveillance S.A. v. The Republic of Paraguay , Decision on Jurisdiction of 12 February 2010, ICSID Case No. ARB/
+07/29.
+156Impregilo S.p.A. v. Islamic Republic of Pakistan , Decision on Jurisdiction of 22 April 2005, ICSID Case No. ARB/
+03/3, at paras. 266 –70;Impregilo S.p.A. v. Islamic Republic of Pakistan , Award of 21 June 2011, at paras 293 –310.
+157Total S.A. v. Argentina , Decision on Liability of 27 December 2010, ICSID Case No. ARB/04/01; Rudolf Dolzer
+and Christoph Schreuer, Principles of International Investment Law (Oxford University Press 2012) at 159.114 Mark McLaughlin
+This scheme must be considered as a kind of forced, inequitable, debt-for-equity
+swap, not due to unfavourable market conditions or a company ’s crisis …but due
+to governmental policy and conduct by Argentina. As such, in the view of the
+Tribunal it represents a clear breach of the fair and equitable treatment obligation.158
+In pushing for the renegotiation of contracts with Chinese entities, particularly where the
+impetus for renegotiation is rooted in popular pressure, Pakistan should be wary ofactions that could be viewed as coercive. Why do Chinese parties renegotiate instead ofrelying on their legal rights in these circumstances? Despite the potential for investment
+claims over terror attacks, failure to pay dues, reneging on a commitment to establish an
+escrow account, and renegotiating debts, the Chinese party has yet to initiate arbitrationover a CPEC investment. One answer is that the rights-based orientation of investmentarbitration fails to capture the interests of CPEC stakeholders.
+IV . The Belt and Road, CPEC, and Waning Influence of Investment Norms: From
+Rights to Interests
+Despite China ’s recent emergence as a major source of outbound investment, utilization of
+the adversarial investment arbitration system is starkly lower than investors from Europeor North America. Nottage and Weeramantry have noted that the phenomenon is not
+unique to China; it can also be seen in the practice of other Asian investors.
+159It is
+improbable that the absence of arbitral activity can be attributed to the host countries ’
+faultless, disinterested treatment of these investors. In the context of CPEC, this is cer-tainly not the case. Therefore, the question arises: what is driving Chinese investors toforego their legal rights? Why are there not more CPEC –indeed, more BRI –investment
+claims?
+Proponents of the emerging geoeconomic th eory in international economic law con-
+tend that this process of de-legalization is a consequence of the conflation of economic
+and national security concerns. And the trend of redirecting decision-making vertically(from international to domestic) and horizontally (from adjudication to executivedetermination), described as the central aspect of de-legalization, is apparent in thecontext of CPEC. However, it is unclear whether it is explained by reference toUS-China rivalry or whether national security is necessarily its centrepiece. Adopting
+an interest-based approach to investment dispute settlement instead of rights-based
+investment arbitration is more consistent with China ’s soft-law ordering of the Belt
+and Road.
+The following section makes three arguments: China and Pakistan ’s dovetailing of eco-
+nomic, geopolitical, and security interests requires a shift from a rights-based lens to aninterest-based lens; CPEC ’s investors are utilizing political risk insurance as an alternative
+to investment protection; and mediation may be a suitable process for the resolution of
+disputes arising from CPEC projects.
+A. State-Driven Investment and the Necessity of an Interest-Based Lens
+Two competing conceptions about its function underpin the variegated opinions on the
+future of ISDS.
+160The first considers the investment regime a system of transnational
+158Ibid., at 338.
+159Luke NOTTAGE and J. Romesh WEERAMANTRY, “Investment Arbitration in Asia: Five Perspectives on Law
+and Practice ”(2012) 28(1) Arbitration International 19.
+160For a comprehensive account of this debate, see Julie A. MAUPIN, “Public and Private in International
+Investment Law: An Integrated Systems Approach ”(2014) 54(2) Virginia Journal of International Law 54.Asian Journal of International Law 115
+public governance or “international public law ”.161In this view, obligations in investment
+treaties are designed to establish global standards for treating foreign investment world-wide. Societal interests are weighed alongside an investor ’s private rights. For legitimacy,
+an arbitral tribunal or some adjudicative body enforces these emerging norms and devel-
+ops a related body of jurisprudence. In the second conception, ISDS is primarily a systemof private dispute settlement. Notwithstanding its role in developing jurisprudence, anarbitral tribunal is a way to settle a dispute between an investor and a state party.Decisions have little regard for the impact on third parties or the public interest. Its clos-est analogue is international commercial arbitration, oriented towards holding parties to
+contractual commitments and respecting party autonomy.
+Neither approach captures the essence of investor-state disputes under CPEC. The
+prevalence of SOEs and the state-driven character of Chinese investment makes it difficultto characterize the dispute along the public/private dichotomy. Concerning the “arbitra-
+tion as private dispute settlement ”model, party autonomy is the centrepiece of inter-
+national commercial arbitration. The entire system is oriented towards holding bothparties to the obligations to which they have contracted. In an investor-state dispute,
+the disputing parties (investor-state) are, by design, not the contracting parties
+(state-state). Despite many CPEC investors being state-owned, they are not the state itself.This distinction between SOEs and their home state for investment arbitration was con-firmed in CSOB v Slovakia and BUCG v Yemen .
+162Neither the 1989 China-Pakistan BIT nor
+the 2006 Pakistan-China FTA confers obligations upon investors, only states. The tribunal ’s
+enquiry is, therefore, asymmetrical. Moreover, unlike carefully drafted contractual terms,
+the open-textured nature of investment obligations in these agreements has significant
+consequences for third parties.163For example, in its preamble, the 2006 Pakistan-
+China FTA expressly references “promoting sustainable development in a manner consist-
+ent with environmental protection and conservation ”. This should guide arbitrators ’
+interpretation of substantive obligations in accordance with the rules of interpretationin the Vienna Convention on the Law of Treaties. The purely “private dispute settlement ”
+frame is, therefore, inappropriate.
+Dominant conceptions of investor-state arbitration sit uncomfortably alongside CPEC
+investment because the projects have hybrid public-private elements. CharacterizingChinese investors in CPEC as purely “private ”actors obscure the intensely public aspects
+of much of the investment. For example, Chinese investments in Pakistan are funded pri-marily through the EXIM Bank of China; procurement is limited to Chinese companies,and Chinese labour and equipment are generally used for the projects. Unlike orthodox
+private investments, both the home state and the host state have specific economic, geopol-
+itical, and security interests that need to be protected by stewarding CPEC projects to success-ful completion. Given this context, the home state ’s role in resolving disputes will be greater.
+Conversely, Chinese companies implementing these projects must operate on a commercialbasis and achieve an adequate rate of return.
+164The managers of SOEs can face sanctions
+for failing to do so, including pay cuts, disciplinary action, or full judicial hearings.165This is
+161Gus Van HARTEN, Investment Treaty Arbitration and Public Law (Oxford: Oxford University Press 2008);
+Stephan W. SCHILL, International Investment Law and Comparative Public Law (Oxford: Oxford University Press 2010).
+162For an in depth discussion on the public/private elements of SOEs, see Mark MCLAUGHLIN, “Defining a
+State-Owned Enterprise in International Investment Agreements ”(2019) 34(3) ICSID Review - Foreign
+Investment Law Journal 595.
+163Maupin, supra note 164, 396
+164Tania GHOSSEIN, Bernard HOEKMAN, and Anirudh SHINGAL, “Public Procurement in the Belt and Road
+Initiative ”, MTI Global Practice Discussion Paper No. 10, December 2018.
+165“When Deals Go Bad: China State Firm Managers Spooked by New Liability Rules ”Reuters (26 September
+2016), online: Reuters < https://www.reuters.com/article/us-china-soe-m-a-idUSKCN11W2LW >.116 Mark McLaughlin
+why the transnational public governance model is similarly problematic in CPEC context. For
+example, ordinary contract breaches and failure to make payments are difficult to conceive asbeing purely of governance. Thus, Chinese investors in CPEC maintain a commercial impera-
+tive and fulfil a public policy role.
+Perhaps most significantly, the rights-based ordering of investment treaties is oriented
+towards resolving one dispute. Even when multiple disputing parties file cases in similarcircumstances –for example, in response to the Argentinian economic crisis –each claim-
+ant investor has distinct rights and interests.
+166BRI projects, by contrast, are innately con-
+nected not by law but by politics and diplomacy. CPEC, like other BRI projects, is
+dependent on governmental cooperation and a reasonable degree of public support.
+How would the initiation of an investor-state arbitration impact this support? Woulddomestic public reaction turn against allCPEC projects? Would the contagion spread to
+other BRI countries? Reliance on an investor ’s legal rights for one project, even if the
+case is decided in favour of the Chinese party, may be a pyrrhic victory. Even if awardedin the billions of dollars (US), compensation for one project would pale in comparison tothe cost of undermining the economic, geopolitical, and security interests supporting
+CPEC and the broader BRI.
+In short, the legal rights afforded by BITs fail to capture the interests engaged by
+Pakistan and Chinese parties in designing and implementing CPEC projects. Dispute settle-ment will require an interest-based lens. Without submitting the dispute to a disputesettlement process, Chinese investors have sought, or have been required as part oftheir financing arrangements, to obtain political risk insurance (PRI).
+B. The China Export & Credit Insurance Corporation (Sinosure) and the Role of PRI in
+De-Legalization
+PRI is a type of investment guarantee against:
+actions which deny or restrict the right of an investor/owner i) to use or benefit
+from his/her assets; or ii) which reduce the value of the firm. Political risks includewar, revolutions, government seizure of property and actions to restrict the move-
+ment of profits or other revenues from within a country.
+167
+These guarantees are far more likely to be sought for investment in developing countries.
+Therefore, the institutions able to impose conditions before granting PRI would consider-ably influence investment flows in those countries.
+168In many ways, the functions of PRI
+and investment treaties overlap. By compensating investors for a host state ’s regulatory
+interference, they seek to promote investment by shaping host-state behaviour. With
+that in mind, Gordon argues that one of the behavioural effects of PRI is to shift the
+dynamics of the investor-state relationship, particularly when the insuring institutionis the investor ’s home state.
+169For example, a host state may be cautious of breaching
+an investment contract with a PRI-backed investor, not because of normal private law
+166Jürgen KURTZ, “Adjudging the Exceptional at International Investment Law: Security, Public Order and
+Financial Crisis ”(2010) 59(2) International & Comparative Law Quarterly 325.
+167Political Risk Insurance Centre, cited in Kathryn GORDON, “Investment Guarantees and Political Risk
+Insurance: Institutions, Incentives and Development ”, The Organization for Economic Co-operation and
+Development, OECD Investment Policy Perspectives, 2008 at 92.
+168Xueyan WU, “China ’s Political Risk Insurance for Outward FDI Within the Context of Belt and Road
+Initiative ”in Giuseppe Martinico and Xueyan WU, eds., A Legal Analysis of the Belt and Road Initiative: Towards a
+New Silk Road? (Switzerland: Springer International Publishing 2020).
+169Gordon, supra note 171, at 94Asian Journal of International Law 117
+reasons (legal action in response to a contractual breach) but because of the potential for
+home state involvement (exercising diplomatic protection).
+It is clear how this effect would contribute towards an aversion to reliance on the
+investor ’s legal rights in a BRI context. Not only are many projects designed at the dip-
+lomatic level, the implementing investors are Chinese SOEs mandated to obtain PRIfrom a state-funded insurer. In China, that insurer is the China Export & CreditInsurance Corporation, also known as Sinosure. Sinosure is a state-funded, policy-orientedinsurance company which, in its General Manager ’s view, “plays an irreplaceable role in
+supporting the construction of the Belt and Road Initiative ”. It has an overt role in “per-
+forming policy functions ”.
+170As the home state, China is incentivized to adopt an advo-
+cacy role in situations that may give rise to an insurance claim.171
+Sinosure is central to all CPEC projects. Financing is conditional on obtaining insur-
+ance, and Sinosure is the only insurer approved by Chinese lenders. For this reason, ithas been argued that it plays a distortive role in the regulatory frameworks ofPakistan. Miller provides a critical account of the influence of Sinosure on regulatorsin Pakistan (relating to an energy project in 2015).
+172In June 2015, Pakistan ’s
+National Electric Power Regulatory Authority (NEPRA) rejected Sinosure as the
+insurer for a wind energy project. This decision rejected the additional costs; the insur-ance cost would be added to the upfront tariff. In addition, reports suggest thatSinosure charges a maximum fee of 7% for d ebt servicing, whereas 5.5% is the max-
+imum international norm for debt-related interest rates.
+173NEPRA reasoned that earlier
+projects had been successful without such arrangements and were unnecessary for this
+project.
+Within weeks, in late June and early July 2015, NEPRA received sixteen petitions from
+stakeholders urging that it agree to the demand to pay the requested Sinosure fees.174
+NEPRA typically received a single petition per issue. Five of the petitions, which camefrom different wind energy firms, contained an identically worded request:
+Plea: Sinosure Insurance is a contingent requirement of Debt from China. It is
+approved by NEPRA for other Projects (Coal etc.). It is a mandatory cost forChinese Debt and should be incorporated as a pass-through cost by NEPRA.
+175
+Similar language is contained in a petition from the Government of Sindh EnergyDepartment. In addition, Harbin Electric International, a Chinese SOE, also submitted apetition urging NEPRA to accept Sinosure as the insurer. These elements suggest a high
+degree of coordination across Pakistan ’s public and private sectors.
+176
+170“In Overseas Ventures, Insurance Gives Firms a Sure Footing ”China Daily (28 April 2019), online: Chinadaily
+<https://www.chinadaily.com.cn/a/201904/28/WS5cc4ec64a3104842260b8cde.html >.
+171For a discussion of home state intervention as “commercial diplomacy ’see Dilini PATHIRANA, “The
+Paradox of Chinese Investments in Sri Lanka: Between Investment Treaty Protection and Commercial
+Diplomacy ”(2020) 10(2) Asian Journal of International Law 375.
+172Dan Taninecz MILLER, “The China Pakistan Economic Corridor: Indicator of Chinese Strategic Energy Goals
+and a Challenge to the Open Procurement Status Quo ”, Jackson School of International Studies, University of
+Washington, 5 June 2017.
+173Ibid., at 26.
+174Ibid., at 22.
+175Indus Wind Energy Limited, “Filing of Review Petition Up-Front Tariff for Wind Power Generation Projects ”
+(3 July 2015), online: NEPRA https://nepra.org.pk/tariff/Tariff/Petitions/2015/Review%20Petition%20-%20Upfront
+%20Tariff%20for%20Wind%20Power%20Generation%20Tariff%20filed%20by%20Indus%20Wind%20Energy%20Ltd..pdf
+176Miller, supra note 176, at 23.118 Mark McLaughlin
+One green energy firm in Pakistan stressed the need to acquiesce to these mandatory
+conditions because the capital required to develop the wind power sector would be unob-tainable through local or international financing.
+177Another put the case in starker
+terms: “an exclusion of Sino Shore [sic] premium will effectively shut the door for project
+financing from China ”.178There is an express link between the adoption of these manda-
+tory terms and the implementation of CPEC. In October, NEPRA reversed their decision,stating that “for wind power projects having foreign financing, an appropriate adjustment
+in the benchmark project cost will be allowed on account of Sinosure or other creditinsurance fees ”. The numerous petitions were cited as one of the reasons for the reversal.
+In light of these dynamics, there is another reason Chinese investors involved in CPEC
+do not utilize investor-state arbitration: private law ordering and in-country networks aremore effective ways to shield their interests and influence host-state behaviour. The regu-latory framework gave way to the interests of stakeholders. While a rights-based arbitra-tion may not be attuned to these circumstances, investor-state mediation may be astructured alternative.
+C. Interest-Based Mechanisms Within ISDS –Mediation as a Structured Alternative?
+Should other mechanisms be considered if the adversarial model of investor-state arbitra-
+tion is inappropriate within CPEC context? Do international dispute settlement processeshave anyrole to play? This section proposes that investor-state mediation may be capable
+of accommodating the interest-based lens of some CPEC disputes. Its focus on the parties ’
+interests instead of their stated legal positions is more consistent with the strategic initia-
+tive ’s inherent geoeconomic orientation than the dispute ’s submission to a disinterested
+third party for settlement.
+At first instance, both Pakistani and Chinese parties appear content to attempt to
+resolve their disputes through bilateral negotiations or reliance on PRI. However, medi-ation may be a viable –perhaps preferable –option. It has been argued elsewhere that
+mediation sits more comfortably alongside the soft-law norms of the BRI than the adver-
+sarial nature of investor-state arbitration.
+179The various policy documents and memoran-
+dums comprising the legal infrastructure of the BRI emphasize the partnership betweenChina and recipient host countries and the flexibility of proclaimed norms.
+180Investment
+treaties ’“hard law ”norms are incongruent with the principles underlying how the BRI is
+constructed. The same logic can be applied to CPEC.
+Chinese support for introducing investor-state mediation is explicit in its submission to
+Working Group III on ISDS reform. It argues that mediation “emphasizes the value of har-
+mony and can offer the host country and investors a high degree of flexibility and auton-omy ”.
+181This principle has also been translated into practice. A detailed mediation
+process was included in the 2017 China-Hong Kong Closer Economic PartnershipAgreement and is supplemented by a 2018 agreement incorporating mediation at the
+177Ibid., at 24.
+178Ibid., at 25.
+179Mark McLaughlin, “Investor –State Mediation and the Belt and Road Initiative: Examining the Conditions
+for Settlement ”(2021) 24(3) Journal of International Economic Law 609.
+180Jiangyu WANG, “China ’s Governance Approach to the Belt and Road Initiative (BRI): Relations, Partnership,
+and Law ”(2019) 14(5) Global Trade and Customs Journal 222,
+181“Submission from the Government of China to UNCITRAL Working Group III ”, 19 July 2019, A/CN.9/WG.III/
+WP.177; The term “mediation ’was not used in the submission. Independent analysis by the Singapore
+International Dispute Resolution Academy reveals that the same Chinese characters “调解’(Tiáoji ě) are being
+translated as “mediation ’in some IIAs and “conciliation ’in others, suggesting that the terms are used inter-
+changeably [on file with author].Asian Journal of International Law 119
+China International Economic and Trade Arbitration Commission (CIETAC).182In 2020, a
+new system of investment complaints was introduced in China, which has been describedas“state-centric investment mediation ”,
+183while the China Council for the Promotion of
+International Trade and the China Chamber of International Commerce Mediation Centre
+are collaborating with the Singapore International Mediation Centre to establish a Beltand Road Mediator Panel.
+184These developments do not necessarily translate to support
+for the use of mediation by Chinese parties. Still, the apparent approval of mediation pro-cesses for investment disputes by the central government is likely to be noted by SOEs.
+While there are several ways that this may come to fruition, perhaps the most likely is
+through investor-state mediation at CIETAC. It already holds a prominent role in settling
+foreign-related disputes with Chinese parties. Moreover, in 2018, CIETAC published rulesthat would apply to investment disputes under CEPA.
+185They include a structured
+approach to requesting and carrying out the mediation of an investment dispute. Thereis no evidence that Chinese parties have adopted this mechanism as a default.However, it would allow Chinese parties to enter into a formal legal process to resolvethe dispute (unlike negotiations) that does not empower a third party to impose an out-
+come (unlike arbitration).
+There are also some signals that Pakistan might be amenable to using mediation for
+investor-state disputes. Most notably, the China-Pakistan FTA provides for mediation con-ducted by a Free Trade Commission comprised of representatives from China ’s Ministry of
+Commerce and Pakistan ’s Ministry of Commerce.
+186Other Pakistani investment agree-
+ments reference conciliation.187The 2014 Pakistan-Bahrain BIT presents conciliation as
+an equally viable dispute resolution option to arbitration, with the investor choosing
+either process. A similar provision is contained in BITs with Bosnia-Herzegovina,Morocco, Belgium, Australia, Sri Lanka, Switzerland, Singapore, and the Netherlands.
+188
+These are in the minority; most of Pakistan ’s forty-six BITs refer only to the aspiration
+that a dispute be settled “amicably ”or“through negotiations ”before providing concrete
+routes to arbitration. However, this is not a barrier to using mediation to resolve such dis-
+putes.189Moreover, a 2021 statement by the Pakistan delegation, in a report on the work
+182“Mainland and Hong Kong Closer Economic Partnership Arrangement (CEPA) ”, Online: Trade and Industry
+Department, the Government of the Hong Kong Special Administrative Region < https://www.tid.gov.hk/english/
+cepa/investment/mediation.html >.
+183Mark MCLAUGHLIN, “State-Centric Investment Mediation ”, Asian Journal of Comparative Law
+(forthcoming).
+184“SIMC and CCPIT Mediation Center Establish International Mediator Panel to Resolve BRI-Related Disputes ”
+SIMC (2019), online: SIMC < https://simc.com.sg/blog/2019/01/25/simc-and-ccpit-mediation-center-establish-
+international-mediator-panel-to-resolve-bri- related-disputes/>.
+185“CIETAC Mediation Rules for Investment Disputes under the CEPA ”, online: lawinfochina < https://www.
+lawinfochina.com/display.aspx?id=33395&lib=law >.
+186China-Pakistan Free Trade Agreement (entered into force 7 July 2007), art. 61.
+187Mediation typically involves a mediator facilitating meaningful negotiations and assisting parties to focus
+on their “real interests ’as opposed to their legal rights. While the ICSID Conciliation Rules do not prohibit this
+facilitative approach, the process of conciliation, by which a Conciliation Commission issues non-binding propo-
+sals for settlement, is generally considered to be a rights-based process, although the terms necessarily overlap.For a discussion of their relationship, see Jeswald W. SALACUSE, The Law of Investment Treaties (Oxford: Oxford
+University Press, 2015), at 406.
+188Bosnia-Herzegovina BIT (entered into force 2 July 2002); Morocco-Pakistan BIT, 16 April 2001;
+Belgium-Luxembourg Economic Union-Pakistan BIT (entered into force 7 August 2015); Australia-Pakistan BIT
+(entered into force 14 October 1998); Pakistan-Sri Lanka BIT (entered into force 5 January 2000);Switzerland-Pakistan BIT (entered into force 6 May 1996); Singapore-Pakistan BIT (entered into force 4 May
+1995); Netherlands-Pakistan BIT (entered into force 1 October 1989).
+189James CLAXTON, “Faithful Friend and Flattering Foe: How Investment Treaties Both Facilitate and
+Discourage Investor-State Mediation ”SSRN (2020), online: SSRN < https://papers.ssrn.com/abstract=3690682 >.120 Mark McLaughlin
+of the United Nations Commission on International Trade Law (UNCITRAL), noted that the
+ISDS system “raises myriad concerns and merits reform ”.190In particular, the statement
+notes Pakistan ’s view that the measure of damages is the primary focus of ISDS reform. By
+having control over the process, mediation may obviate concerns about the imposition of
+excessive damages imposed by a third party. While there are no publicly known instancesof Pakistani parties using conciliation or mediation to settle investment disputes, medi-ation is a process that Pakistan has been prepared to engage with in its relationshipwith India.
+191
+Alongside the traditional arguments of time and cost, which are advanced as reasons to
+opt for mediation over arbitration, institutions involved in the settlement of investor-
+state disputes have developed a legal and regulatory framework for use in mediation.192
+For example, ICSID and the International Bar Association have published their own setsof Mediation Rules;
+193the Energy Charter Secretariat has produced a Guide on
+Investment Mediation and a Model Instrument for the management of investment dis-putes;
+194and UNCITRAL Working Group III has crafted a model dispute settlement clauses
+to embed mediation in investment treaties.195All these reforms are intended to promote
+and support investment mediation. Combined with the individual positions of China and
+Pakistan, the emergence of this international legal infrastructure offers CPEC investors astructured, interest-based alternative to arbitration.
+V . Conclusion
+This article has argued that the dovetailing economic, geopolitical, and security interests
+that underpin CPEC necessitate a dispute resolution process that focuses on interests andlegal rights. However, CPEC investment projects in Pakistan are agreed upon in broadterms at the diplomatic level, implemented primarily by Chinese SOEs, funded by
+190“Statement by Pakistan on Agenda Item 80: “The Report of the United Nations Commission on
+International Trade Law (UNCITRAL) on the work of its fifty-fourth session ”(18 October 2021), online:
+<https://estatements.unmeetings.org/estatements /11.0060/20211018/J4m4NpmTa vxl/nPJW3HB6nmHN_en.pdf >a t2 .
+191Kishala SRIVASTAVA, “The Future of India-Pakistan Relations: The Declining Role of Mediation between
+These Rival States Note ”(2019) 34 Ohio State Journal on Dispute Resolution 34(1) [i].
+192In 2012, the average length of arbitration at ICSID was over three years for an award at first instance and
+around two years for an annulment; the average length of ICSID conciliations, from registration to termination, is
+one and a half years, David GAUKRODGER and Kathryn GORDON, “Investor-State Dispute Settlement: A Scoping
+Paper for the Investment Policy Community ”, OECD Policy Papers 2012/03, 2012, at 71; Excluding legal fees and
+expenses, the average cost of an ICSID tribunal is $920,000 (US), whereas the average cost of ICSID conciliationproceedings is $182,000 (US). See Matthew HODGSON and Alistair CAMPBELL, “Damages and Costs in Investment
+Treaty Arbitration Revisited ”Allen & Overy (14 December 2017), online: Allen & Overy < https://www.allenovery.
+com/en-gb/global/news-and-insights/news/damages-and-costs-in-investment-treaty-arbitration-revisited >; Frauke
+NITSCHKE, “ICSID Conciliation Rules in Practice ”in Catharine TITI and Katia FACH GOMEZ, eds., Mediation in
+International Commercial and Investment Disputes (New York: Oxford University Press, 2019), 121 at 139. To the con-
+trary, see Against Settlement
+193International Centre for Settlement of Investment Disputes Mediation Rules and Regulations; International
+Bar Association Rules for Investor-State Mediation.
+194“Guide on Investment Mediation ”Energy Charter Secretariat (2016), online: Energy Charter Secretariat
+<https://www.energycharter.org/fileadmin/DocumentsMedia/CCDECS/2016/CCDEC201612.pdf >; “Energy Charter
+Model Instrument on Management of Investment Disputes ”International Energy Charter online: International
+Energy Charter < https://www.energychartertreaty.org/model-instrument/ >.
+195UNCITRAL Working Group III (ISDS Reform), “Possible reform of investor-State dispute settlement (ISDS)
+Draft provisions on mediation ”(5–16 September 2022), online: < https://documents-dds-ny.un.org/doc/
+UNDOC/LTD/221/047/0E/PDF/2210470E.pdf?OpenElement >; UNCITRAL Working Group III (ISDS Reform),
+“Intersessional Meeting on the Use of Mediation in ISDS ”(28–29 October 2021), online: < https://uncitral.un.
+org/sites/uncitral.un.org/files/media-documents/uncitral/en/draft_clauses_on_mediation.pdf >.Asian Journal of International Law 121
+Chinese state-owned banks, and insured by a Chinese state-owned insurer. Therefore, it is
+sophistry to contend that CPEC disputes are purely commercial. However, Chinese inves-tors are tasked with achieving a rate of return and succeeding on their commercial terms.
+These public/private elements sit uncomfortably alongside an investment arbitration
+system that focuses on investments on a case-by-case basis. This fails to capture thebroader, more potent suite of interests engaged by Pakistan, China, and the companiestasked with implementing CPEC projects. Instead, bilateral negotiations are the preferredmethod of dispute resolution, alongside the additional protection of PRI. It has beenargued that investor-state mediation may provide a structured alternative to bilateral
+negotiations, particularly considering growing institutional support among traditional
+ISDS institutions. To that end, CPEC investment disputes are further evidence of thetrend towards de-legalization in the emerging geoeconomic order.
+Acknowledgements. The author acknowledges and is grateful for the funding and support from SIDRA ’s BRI
+programme towards developing this article.
+Funding Statement. None.
+Competing interests. The author declares none.
+Mark MCLAUGHLIN is the Global Visiting Assistant Professor at the Singapore
+Management University.
+Cite this article: MCLAUGHLIN M (2024). The Geoeconomics of Belt and Road Disputes: A Case Study on the
+China-Pakistan Economic Corridor. Asian Journal of International Law 14,9 4 –122. https://doi.org/10.1017/
+S2044251323000176122 Mark McLaughlin
+Copyright © The Author(s), 2023. Published by Cambridge
+University Press on behalf of the Asian Society of International
+Law. This work is licensed under the Creative Commons
+Attribution License This is an Open Access article, distributed
+under the terms of the Creative Commons Attribution licence
+(https://creativecommons.org/licenses/by/4.0/),which permits
+unrestricted re-use, distribution, and reproduction in any
+medium, provided the original work is properly cited. (the
+“License”).  Notwithstanding the ProQuest Terms and
+Conditions, you may use this content in accordance with the
+terms of the License.

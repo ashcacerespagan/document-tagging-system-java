@@ -1,0 +1,1184 @@
+ 
+ 
+  
+ Medicaid’s Federal Medical Ass istance 
+Percentage (FMAP)  
+Updated April 2, 2025  
+Congressional Research Service  
+https://crsreports.congress.gov  
+R43847  
+Medicaid’s Federal Medical Assistance Percentage (FMAP)  
+ 
+Congressional Res earch Service  Summary  
+Medicaid is a means -tested entitlement program that finances the delivery of primary and acute 
+medical services as well as long -term services and supports . Medicaid is jointly funded by the 
+federal government and the states. The federal government’s share of most Medicaid  expenditures 
+is called the Federal Medical Assistance Percentage (FMAP). The remainder is referred to as the 
+state share.  
+The FMAP rate also is used to determine the federal share of other federal programs. For 
+instance, the FMAP rate is u sed to determine the federal share of spending for foster care 
+maintenance, adoption assistance, and guardianship assistance payments authorized by Title IV -E 
+of the Social Security Act. The FMAP rate also is used to determine the federal share of the 
+“mandatory matching funds ” provided by the Child Care Entitlement to States. In addition, it 
+determines the federal share of funding under the Temporary Assistance for Needy Families 
+Contingency Funds and the federal share of collections under the Child Suppor t Services  
+program.  
+Generally determined annually, the FMAP formula is designed so that the federal government 
+pays a larger portion of Medicaid costs in states with lower per capita incomes relative to the 
+national average (and vice versa for states with higher per capita incomes). FMAP rates have a 
+statutory minimum of 50% and a statutory maximum of 83%. For FY20 25, regular FMAP rates 
+range from 50.00% (10 states) to 76.9% (Mississippi) .  
+The FMAP rate is used to reimburse states for the federal share of most Medicaid expenditures . 
+However,  exceptions to the regular FMAP rate have been made for certain states  (e.g., the District 
+of Columbia and the territories), situations (e.g., during economic downturns), populations (e.g., 
+individuals covered b y the Patient Protection and Affordable Care Act ’s [ACA’s; P.L. 111 -148, as 
+amended] Medicaid expansion and individuals  with breast or cervical cancer), providers (e.g., 
+Indian Health Service facilities), and services (e.g., family planning and home health services). In 
+addition, the federal share for most Medicaid administrative costs does not vary by state and is 
+generally 50%.  
+While many FMAP exceptions are used to incent ivize states, the FMAP rate also can be used as a 
+means to penalize states through a reduction to the FMAP rate. There are FMAP reductions for 
+the failure to implement electronic visit verification systems and asset verification programs.  
+The House of Repr esentatives adopted the House FY2025 budget resolution ( H.Con.Res. 14 ) on 
+February 25, 2025. H.Con.R es. 14  includes reconciliation instruction s directing the Committee on 
+Energy and Commerce to reduce the deficit by not less than $880  billion  for FY2025 through 
+FY2034.  Some press reports suggest that much of the $880 billion in reductions could come from 
+reductions to federal Medicaid expenditures. The media are reporting that  some of  the policy 
+options being considered for reconciliation would amend the FMAP. These policy options include 
+(1) reducing or removing the statutory floor of 50% f or the regular FMAP rates, (2)  amending the 
+regular FMAP rate for the District of Columbia, (3)  removing the exception to the FMAP rate for 
+the ACA Medicaid expansion, and (4)  repealing the incentive for states to implement the ACA 
+Medicaid expansion.  
+ 
+Medicaid’s Federal Medical Assistance Percentage (FMAP)  
+ 
+Congressional Research Service  Contents  
+Introduction  ................................ ................................ ................................ ................................ ..... 1 
+The Federal Medical Assistance Percentage  ................................ ................................ ...................  1 
+How FMAP Rates Are Calculated  ................................ ................................ .............................  2 
+Data Used to Calculate State FMAP Rates  ................................ ................................ ...............  2 
+Factors That Affect FMAP Rates  ................................ ................................ ..............................  3 
+FY2025 Regular FMAP Rates  ................................ ................................ ................................ .. 4 
+FMAP Exceptions  ................................ ................................ ................................ .....................  6 
+Reduction to Regular FMAP Rates  ................................ ................................ .........................  12 
+Electronic Visit Verification Systems  ................................ ................................ ................  12 
+Asset Verification Programs ................................ ................................ ..............................  12 
+Budget Reconciliation and FMAP Reform ................................ ................................ ....................  13 
+Statutory Floor  for FMAP  ................................ ................................ ................................ ....... 13 
+Amend FMAP Rate for the District of Columbia  ................................ ................................ ... 14 
+FMAP Rate for ACA Medicaid Expansion  ................................ ................................ .............  14 
+Incentive for ACA Medicaid Expansion  ................................ ................................ .................  15 
+Conclusion  ................................ ................................ ................................ ................................ ..... 15 
+ 
+Figures  
+Figure 1. State Distribution of Regular FMAP Rates  ................................ ................................ ...... 5 
+Figure 2. FMAP Rate Changes for States from FY2024 to FY2025  ................................ ...............  6 
+  
+Tables  
+Table 1. Current Exceptions to the Regular FMAP Rates for Medicaid  ................................ .........  7 
+  
+Table A -1. Regular FMAP Rates, by State, FY2021 -FY2026  ................................ .......................  16 
+Table B -1. Pas t Exceptions to the Regular FMAP Rates for Medicaid  ................................ .........  18 
+ 
+Appendixes  
+Appendix A. FMAP Rates for Medicaid, by  State  ................................ ................................ ........  16 
+Appendix B. Past FMAP Rate Exceptions  ................................ ................................ ....................  18 
+ 
+Contacts  
+Author Information  ................................ ................................ ................................ ........................  21 
+Acknowledgments  ................................ ................................ ................................ .........................  21 
+ 
+Medicaid’s Federal Medical Assistance Percentage (FMAP)  
+ 
+Congressional Research Service   1 Introduction  
+Medicaid is a means -tested entitlement program that finances the delivery of primary and acute 
+medical services as well as long -term services and supports .1 Medicaid is jointly funded by the 
+federal government and the states. Participation in Medicaid is voluntary for states, though all 
+states, the District of Columbia, and the territories choose to participate. Each state designs and 
+administers its own version of Medicaid under broad federal rules. While states that choose to 
+participate in Medicaid must  comply with all federal mandated requirements, state variability is 
+the rule rather than the exception in terms of eligibility levels, covered services, and how those 
+services are reimbursed and delivered. The federal government pays a share of each state ’s 
+Medicaid expenditures .2 The federal government’s share is called the Federal Medical Assistance 
+Percentage (FMAP). The remainder is referred to as the state share.  
+This report describes the FMAP calculation used to reimburse states for most Medicaid 
+expenditures, and it lists the statutory exceptions to the regular FMAP rate. In addition, this report 
+provides a summary of the FY2025 budget reconciliation policy optio ns currently under 
+discussion.  
+The Federal Medical Assistance Percentage  
+The federal government’s share of most Medicaid service costs is determined by the FMAP rate, 
+which varies by state and is determined by a formula set in statute. The FMAP rate is us ed to 
+reimburse states for the federal share of most Medicaid expenditures, but exceptions to the 
+regular FMAP rate have been made for certain states, situations, populations, providers, and 
+services.3 
+The FMAP rate also is used to determine  the phased -down state contribution ( “clawback”) for 
+Medicare Part D  and the federal share of other  federal  programs. For instance, the FMAP rate  is 
+used to determine the federal share of spending for foster care maintenance, adoption assistance, 
+and guardianship assist ance payments authorized by Title IV -E of the Social Security Act.4 The 
+FMAP rate  also is used to determ ine the federal share of the “mandatory matching funds” 
+provided by the Child Care Entitlement to States.5 In addition, it determines the federal shar e of 
+funding under the Temporary Assi stance for Needy Families  (TANF) Contingency Funds and the 
+federal share of collections under the Child Support Enforcement program.6 
+Separate from the regular FMAP rate, the  enhanced FMAP (E -FMAP) rate is provided for  both 
+services and administration under the State Children’s Health Insurance Program (CHIP), subject 
+ 
+1 For more information about the Medicaid program, see  CRS Report R43357, Medi caid: An Overview . 
+2 For a broader overview of financing issues, see  CRS Report R42640, Medicaid Financing and Expenditures . 
+3 More detail about the exceptions to the regular Federal Medical Assistance Percentage ( FMAP ) rate is provided under  
+the heading “ FMAP Exceptions .” 
+4 For more information, see  CRS Insight IN11297, Temporary Federal Medical Assistance Percentage (FMAP) 
+Increase for Title IV -E Foster Care and Permanency Payments , and CRS Report R42792, Child Welfare: A Detailed 
+Overview of Program Eligibility and Funding for Foster Care, Adoption Assistance and Kinship Guardianship 
+Assistance under Title IV -E of the Social Security Act . 
+5 The Child Care Entitlement to States is authorized in §418 of the Social Security Act (SSA). For more information, 
+see CRS In Focus IF10511, Child Care Entitlement to States: An Overview . 
+6 For more inf ormation about the Temporary Assistance for Needy Families (TANF) Contingency Funds , see CRS 
+Report RL32748, The Temporary Assistance for Needy Families (TANF) Block Grant: A Primer on TANF Financing 
+and F ederal Requirements . 
+Medicaid’s Federal Medical Assistance Percentage (FMAP)  
+ 
+Congressional Research Service   2 to the availability of funds from a state’s federal allotment for CHIP. The E -FMAP rate is 
+calculated by reducing the state share under the regular FMAP r ate by 30%.7 
+How FMAP Rates Are Calculated  
+The FMAP formula compares each state’s per capita income to U.S. per capita income. The 
+formula provides higher reimbursement to states with lower incomes (with a statutory maximum 
+of 83%) and lower reimbursement  to states with higher incomes (with a statutory minimum of 
+50%). The formula  for a given state is  
+FMAP Formula8 
+FMAP state = 1 - (((Per capita income state)2/(Per capita income U.S.)2) * 0.45)  
+ 
+The FMAP formula’s  use of the 0.45 factor is designed to ensure a state with per capita income 
+equal to the U.S. average receives an FMAP rate of 55% (i.e., state share of 45%). In addition, the 
+formula’s squaring of income provides progressively higher FMAP rates to states  with below -
+average incomes (and vice versa, subject to the 50% minimum).9 
+The Department of Health and Human Services (HHS) usually publishes FMAP rates for an 
+upcoming fiscal year in the Federal Register  during the preceding November. This time lag 
+betw een announcement and implementation provides an opportunity for states to adjust to FMAP 
+rate changes.  
+Data Used to Calculate State FMAP Rates  
+The per capita income amounts used to calculate FMAP rates for a given fiscal year are several 
+years old by the t ime the FMAP rates take effect because, as specified in Section 1905(b) of the 
+Social Security Act, the per capita income amounts used in the FMAP formula are equal to the 
+average of the three most recent calendar years of data available from the Departmen t of 
+Commerce. In its FY20 25 FMAP calculations, HHS used state per capita personal income data 
+for 20 20, 2021, and 20 22 that became available from the Department of Commerce’s Bureau of 
+Economic Analysis (BEA) in September 20 23. The use of a three -year ave rage helps to moderate 
+fluctuations in a state’s FMAP rate over time.  
+BEA revises its most recent estimates of state per capita personal income on an annual basis to 
+incorporate revised and newly available source data on population and income.10 It also 
+undertakes a comprehensive data revision —reflecting methodological and other changes —every 
+ 
+7 For more information about CHIP, see CRS Report R43949, Federal Financing for the State Children’s Health 
+Insurance Program (CHIP) . 
+8 SSA § 1905(b).  
+9 For example, assume that U.S. per capita income is $40,000. In state A with an above -average  per capita income of 
+$42,000, the FMAP formula produces an FMAP rate of 50.39%; if the formula did not include a squaring of per capita 
+income, it would instead p roduce a higher FMAP rate of 52.75%. In state B with a below -average  per capita income of 
+$38,000, the FMAP formula produces an FMAP rate of 59.39%; if the formula did not include a squaring of per capita 
+income, it would instead produce a lower FMAP rate of 57.25%.  
+10 Preliminary estimates of state per capita personal income for the latest available calendar year —as well as revised 
+estimates for the two preceding calendar years —are released in April. Revised estimates for all three years are released 
+in Sep tember.  
+Medicaid’s Federal Medical Assistance Percentage (FMAP)  
+ 
+Congressional Research Service   3 few years that may result in upward and downward revisions to each of the component parts of 
+personal income. These components include  the following :  
+• earnings (wages and salaries, employer contributions for employee pension and 
+insurance funds, and proprietors’ income);  
+• dividends, interest, and rent; and  
+• personal current transfer receipts (e.g., government social benefits such as Social 
+Security, Medicare, Medicaid, state unemployment insurance).11 
+As a result of these annual and comprehensive revisions, it is often the case that the value of a 
+state’s per capita personal income for a given year will change over time. For example, the 20 20 
+state per capita personal income data published by BEA in September 20 21 (used in the 
+calculation of FY20 23 FMAP rates) differed from the 20 20 state per capita personal income data 
+published in September 20 23 (used in the calculation of FY20 25 FMAP rates) . 
+In addition to these revisions, states’ per capita income s are adjusted to reflect the population  data 
+from the decennial census , which could affect  states ’ FMAP rates. BEA uses the Census Bureau’s 
+population data to calculate states’ per capita income s. The FY2023 FMAP rates and later are 
+calculated using the population data from the 2020 census . 
+The definition of personal income used by BEA is not the same as the definition used for personal 
+income tax purposes. Among other differences, BEA’s definition  of personal income excludes 
+capital gains (or losses) and includes transfer receipts (e.g., government social benefits), while 
+income for tax purposes includes capital gains (or losses) and excludes most of these transfers.  
+Factors T hat Affect FMAP Rates  
+Several factors affect states’ FMAP rates. The first is the nature of the state economy and, to the 
+extent possible, a state’s ability to respond to economic changes (i.e., downturns or upturns). The 
+impact on a particular state of a national economic down turn or upturn will be related to the 
+structure of the state economy and its business sectors. For example, a national decline in 
+automobile sales, while having an impact on all state economies, will have a larger impact in 
+states that manufacture automobi les as production is reduced and workers are laid off.  
+Second, the FMAP formula relies on per capita personal income in relation to the U.S. average 
+per capita personal income . The national economy is basically the sum of all state economies. As 
+a result, the national response to an economic change is the sum of the state responses to 
+economic change. If more states (or larger states) experience an economic decline, the national 
+economy reflects this decline to some extent. However, the national decline wil l be lower than 
+some states’ declines because the total decline has been offset by states with small decreases or 
+even increases (i.e., states with growing economies). The U.S. per capita personal income, 
+because of this balancing of positive and negative,  has only a small percentage change each year. 
+Since the FMAP formula compares state changes in per capita personal income (which can have 
+large changes each year) to the U.S. per capita personal income, this comparison can result in 
+significant state FMAP  rate changes.  
+In addition to annual revisions of per capita personal income data, comprehensive revisions 
+undertaken every four to five years may also influence regular FMAP rates (e.g., because of 
+ 
+11 Employer and employee contributions for government social insurance (e.g., Social Security, Medicare, 
+unemployment insurance) are excluded from personal income, and earnings are counted based on residency (i.e., for 
+individuals who live in one st ate and work in another, their income is counted in the state where they reside).  
+Medicaid’s Federal Medical Assistance Percentage (FMAP)  
+ 
+Congressional Research Service   4 changes in the definition of personal income). The impact  on FMAP rates will depend on whether 
+the changes are broad (affecting all states) or more selective (affecting only certain states or 
+industries).  
+FY2025 Regular FMAP Rates  
+Regular FMAP rates for FY20 25 (the federal fiscal year that beg an on October 1, 2024) were 
+published December 3, 2023, in the Federal Register .12 In the Appendix A  to this report, Table 
+A-1 shows regular FMAP rates for each of the 50 states and the District of Columbia for FY20 21 
+through FY20 26.  
+Figure 1 shows the state distribution of regular FMAP rates for FY20 25. Ten states have the 
+statut ory minimum FMAP rate of 50.00%,  and Mississippi has the highest FMAP rate of 76.9%. 
+ 
+12 Department of Health and Human Services, “Federal Financial Participation in State Assistance Expenditures; 
+Federal Matching Shares for Medicaid, the Children’s Health Insu rance Program, and Aid to Needy Aged, Blind, or 
+Disabled Persons for October 1, 2024, Through September 30, 2025, ” 88 Federal Register  81090, November 21, 2023.  
+ 
+CRS -5 Figure 1. State Distribution of Regular FMAP Rates  
+(FY2025) 
+ 
+Source s: Department of Health and Human Services, “Federal Financial Participation in State Assistance Expenditures; Federal Matching Shares for Medicaid, the 
+Children’s Health Insurance Program, and Aid to Needy Aged, Blind, or Disabled Persons for Octobe r 1, 2024, Through September 30, 2025, ” 88 Federal Register  81090, 
+November 21, 2023 . 
+Note : State-by-state FY20 25 regular FMAP rates are listed in Table A-1. FMAP = Federal medical assistance percentage.
+
+Medicaid’s Federal Medical Assistance Percentage (FMAP)  
+ 
+Congressional Research Service   6 As shown in Figure 2, from FY20 24 to FY20 25, the regular FMAP rates for 40 states change d, 
+whereas the regular FMAP rates for the remaining 11 states (including the District of Columbia) 
+remain ed the same.13 
+Figure 2. FMAP Rate Changes for States from FY20 24 to FY20 25 
+ 
+Source: Prepared by the Congressional Research Service ( CRS) using FY20 24 and FY20 25 regular FMAP rates.  
+Note:  Specific FMAP rate changes for each state are listed in Table A-1. 
+For most of the states experiencing an FMAP rate change from FY20 24 to FY20 25, the change 
+was less than one percentage point. The regular FMAP rate for 10 states increase d by as much as 
+one percentage point, and the FMAP rate for 20 states decrease d by as much as one percentage 
+point.  
+For states with an FMAP rate change fr om FY20 24 to FY20 25, ten states had an FMAP rate 
+change  of greater than one percentage point . Alaska  had the largest FMAP rate increase of 1.53 
+percentage point s, and North Dakota had the largest FMAP decrease of 2.85 percentage points.  
+The District of Columbia’s FY20 25 FMAP rate was not calculated according to the regular 
+FMAP formula , because the FMAP rate for the District of Columbia  has been set in statute at 
+70% since 1998  for the purposes of Title XIX and XXI of the Social Security Act. However, for 
+other purposes, the FMAP rate for the District of Columbia is 50%, unless otherwise specified by 
+law. 
+FMAP Exceptions  
+Although FMAP rates are generally determined by the formula described above,  exceptions to the 
+regular FMAP rate have been made for certain states, situations, populations, providers, and 
+services . Some of these exceptions were included in the Social Security Amendments of 1965 
+(P.L. 89 -97), which is the law that enacted the Medicaid program. Other exceptions have been 
+ 
+13 Thirteen of the states with no change to their regular FMAP rates from FY20 20 to FY20 21 receive the statutory 
+minimum FMAP rate of 50%, and the regular FMAP rate for the District of Columbia is statutorily set at 70%.  
+
+Medicaid’s Federal Medical Assistance Percentage (FMAP)  
+ 
+Congressional Research Service   7 added over the years. Table 1 lists examples of current exceptions to the FMAP in  Medicaid 
+statute  and regulations ; past FMAP exceptions are listed in Table B-1. Many of the exceptions to 
+the FMAP rate are used as a means to incentivize states  to cover certain services or populations or 
+conduct administrative activities. However, general administrative expenditures receive the 
+lowest federal matching rate for Medi caid of 50%.   
+T able 1. Current Exceptions to the Regular FMAP Rates for Medicaid  
+Exception  Description  Citations  
+Territories and Certain States  
+Temporary 
+Increase for 
+Implementing 
+Expansion  A five-percentage -point increase to the regular FMAP rate 
+for eight quarters to qualifying states that implement the 
+ACA Medicaid expansion after March 11, 2021.  P.L. 117 -2; SSA 
+§1905(ii)  
+Territories 
+Since 
+December 21, 
+2019 
+ Since  December 21, 2019, the FMAP rate for American 
+Samoa, CNMI, Guam, and the U.S. Virgin Islands has been  
+83%, and this FMAP rate is permanent. For Puerto Rico, 
+the FMAP rate  is 76% for the period beginning December 
+21, 2019, and ending December 3, 2021, and for the 
+period beginning January 1, 2022, and ending September 
+30, 2027 . (For more information about the FMAP rate for 
+the territories, see CRS In Focus IF11012, Medicaid 
+Financing for the Territories ).  Most recently  P.L. 
+117-328; SSA 
+§1905(ff ) 
+Territories  
+Since July 1, 
+2011 As of July 1, 2011, FMAP rates for the territories (Puerto 
+Rico, American Samoa, CNMI, Guam, and the U.S. Virgin 
+Islands) were increased from 50% to 55% . Subsequently, 
+the regular FMAP rates for American Samoa, CNMI, 
+Guam, and the U.S. Virgin Islands were permanently 
+increased to 83% . However, Puerto Rico ’s FMAP rate is 
+temporarily increased to 76% until September 30, 2027 , 
+when , under current law , Puerto Rico ’s regular FMAP rate 
+is to revert to 55% . (For more information about the 
+FMAP rate for the territo ries, see CRS In Focus IF11012, 
+Medicaid Financing for the Territories .)  Most recently  P.L. 
+111-148, as 
+amended by  P.L. 
+111-152; SSA 
+§1905(b), 1108(f) 
+and (g)  
+District of 
+Columbia  As of FY1998, the District of Columbia’s FMAP rate is set 
+at 70% (without this exception, it would be at the  
+statutory minimum of 50%). The 70% also applies for 
+purposes of computing the E-FMAP rate for CHIP.  P.L. 105 -33; SSA 
+§1905(b)  
+Medicaid’s Federal Medical Assistance Percentage (FMAP)  
+ 
+Congressional Research Service   8 Exception  Description  Citations  
+Special Situations  
+Adjustment for 
+Disaster 
+Recovery  Beginning in CY2011, a disaster -recovery FMAP 
+adjustment is available for states in which (1) during one of 
+the preceding seven years, the President declared a major 
+disaster under the Stafford Act and every county in the 
+state warranted at least public assistance under that act 
+and (2) the regular FMAP rate declines by a specified 
+amount. To trigger the adjustment, a state’s regular FMAP 
+rate must be at least three percentage points less than 
+such state’s last year’s regular FMAP rate plu s (if 
+applicable) any hold harmless increase under P.L. 111 -5; 
+the adjustment is an FMAP rate increase equal to 50% of 
+the difference between the two. To continue receiving t he 
+adjustment, the state’s regular FMAP rate must be at least 
+three percentage points less than last year’s adjusted 
+FMAP rate; the adjustment is an FMAP rate increase equal 
+to 25% of the difference between the two. Louisiana is the 
+only state that was eligible for the disaster -recovery 
+adjusted FMAP from the fourth quarter of FY2011 (when 
+the adjustment was first available)  through FY2014. No 
+state has met the requirements since FY2014.  P.L. 111 -148, as 
+amended by  P.L. 
+111-152, P.L. 112 -
+96 P.L, and  P.L. 
+112-141; SSA 
+§1905(aa); 75 
+Federal Register  
+80501 (December 
+22, 2010)  
+Adjustment for 
+Certain 
+Employer 
+Contributions  As of FY2006, significantly disproportionate employer 
+pension and insurance fund contributions will be excluded 
+from the calculation of Medicaid FMAP rates. This will 
+have the effect of reducing certain states’ per capita 
+personal income relative to the na tional average, which in 
+turn could increase their Medicaid FMAP rates. Any 
+identifiable employer contributions toward pensions or 
+other employee insurance funds are considered to be 
+significantly disproportionate if the increase in the amount 
+of employer contributions accrued to residents of a state 
+exceeds 25% of the total increase in personal income in 
+that state for the year involved. To date, no state has 
+qualified for this adjustment.  P.L. 111 -3; 75 
+Federal Register 
+63482 (October 
+15, 2010)  
+Certain Populations  
+Children with 
+Medically 
+Complex 
+Conditions  Beginning October 1, 2022, st ates have the option to 
+provide  coordinated care through a health home for 
+children with medically complex conditions. During the 
+first two fiscal year quarters that the option  is in effect, 
+the FMAP rate is increased by 15 percentage points  for 
+expenditures on the applicable health hom e services , but 
+in no case  may the FMAP rate  exceed 90 %.  P.L. 116 -16; SSA 
+§1945A  
+“Newly 
+Eligible” 
+Individuals 
+Enrolled in 
+New Eligibility 
+Group 
+Through 133% 
+FPL Since January 1, 2014, states have had the option to 
+expand  Medicaid coverage to non-elderly, nonpregnant 
+adults at or below 133% FPL  (i.e., the ACA Medicaid 
+expansion) . An increased federal matching  rate is provided 
+for services rendered to “newly eligible” ind ividuals in this 
+group. The “newly eligible” are defined as those who 
+would not have been eligible for Medicaid in the state as of 
+December 1, 2009  or were eligible under a waiver but not 
+enrolled because of limits or caps on waiver enrollment. 
+The federal  matching  rates for “newly eligible” individuals 
+equal:  
+CY2014 -CY2016 = 100%; CY2017 = 95%; CY2018 = 94%; 
+CY2019 = 93%; CY2020+ = 90%.  P.L. 111 -148, as 
+amended by P.L. 
+111-152; SSA 
+§1905(y)  
+Medicaid’s Federal Medical Assistance Percentage (FMAP)  
+ 
+Congressional Research Service   9 Exception  Description  Citations  
+“Expansion 
+State” 
+Individuals 
+Enrolled in 
+New Eligibility 
+Group 
+Through 133% 
+FPL Prior to the ACA Medicaid expansion, s ome state s 
+provide d health coverage for all low -income individuals 
+using Medicaid waivers. As a result, the se states  have few 
+or no individuals who qualify for the “newly eligible” 
+federal matching  rate. To address this issue, as of CY2014, 
+an increased federal mat ching  rate is available  for 
+individuals in “expansion states” who were eligible for 
+Medicaid as of March 23, 2010  (P.L. 111 -148’s enactment 
+date) in the new eligibility gro up for non -elderly, 
+nonpregnant adults at or below 133% FPL. “Expansion 
+states” are defined as those that, as of March 23, 2010 , 
+offered health benefits coverage meeting certain criteria 
+statewide to parents and nonpregnant childless adults at 
+least throug h 100% FPL. The formula used to calculate 
+“expansion state” federal matching  rates is [regular FMAP 
++ (newly eligible federal matching rate  – regular FMAP) * 
+transition percentage equal to 50% in CY2014, 60% in 
+CY2015, 70% in CY2016, 80% in CY2017, 90% in CY2018, 
+and 100% in CY2019+] . Since the formula for the 
+“expansion state” federal matching rate is based on the 
+regular FMAP rate,  the “expansion state” federal matching  
+rates vary based on a states ’ regular FMAP rate s until 
+CY2019, at which point they are  to equal the “newly 
+eligible” federal matching  rates:  
+CY2014 = at least 75%; CY2015 = at least 80%; CY2016 = 
+at least 85%; CY2017 = at least 86%; CY2018 = at least 
+90%; CY2019 = 93%; CY2020+ = 90%.  P.L. 111 -148, as 
+amended by P.L. 
+111-152; SSA 
+§1905(z)(2)  
+Certain 
+Women with 
+Breast or 
+Cervical 
+Cancer  For states that opt to cover certain wome n with breast or 
+cervical cancer who do not qualify for Medicaid under a 
+mandatory eligibility pathway and are otherwise uninsured, 
+expenditures for these women are reimbursed using the 
+E-FMAP rate that applies to CHIP.  P.L. 106 -354, as 
+amended by P.L. 
+107-121; SSA 
+§1905(b)  
+Qualifying 
+Individuals 
+Program  States are required to pay Medicare Part B premiums for 
+Medicare beneficiaries with income between 120% and 
+135% FPL and limited assets (referred to as “qualifying 
+individuals”), up to a specified dollar allotment. They 
+receive 100% federal reimburs ement for these costs, 
+which are financed at the federal level by a transfer of 
+funds from Medicare to Medicaid.  P.L. 105 -33, 
+permanently 
+extended via  P.L. 
+114-10; SSA 
+§1933(d)  
+Certain Providers  
+Indian Health 
+Service F acility  States receive 100% federal reimbursement for Medicaid 
+services provided through an Indian Health Service facility.  P.L. 94 -437; SSA 
+§1905(b)  
+Certain Services  
+Certified 
+Community 
+Behavioral 
+Health Clinic 
+Services  States receive the E -FMAP rate for services provided to  
+Medicaid enrollees who are not newly eligible under the 
+ACA Medicaid expansion provided in a Certified 
+Community Behavioral Health Clinic . 
+ P.L. 113 -93; 42 
+U.S.C. §1396a  
+note. 
+Medicaid’s Federal Medical Assistance Percentage (FMAP)  
+ 
+Congressional Research Service   10 Exception  Description  Citations  
+Certain 
+Preventive 
+Services and 
+Immunizations  As of CY2013, states that opt to cover —with no cost 
+sharing —clinical preventive services recommended with a 
+grade of A or B by the United States Preventive Services 
+Task Force and adult immunizations recommended by the 
+Advisory Committee on Immunization Pr actices receive a 
+one percentage point increase in their FMAP rate for 
+those services.  P.L. 111 -148, as 
+amended by P.L. 
+111-152; SSA 
+§1905(b)  
+Smoking 
+Cessation  for 
+Pregnant 
+Women  As of CY2013, states that opt to cover USPSTF preventive 
+services and ACIP adult immunizations as noted above 
+also receive a one percentage point increase in their  FMAP 
+rate for smoking cessation services that are mandatory for 
+pregnant women.  P.L. 111 -148, as 
+amended by P.L. 
+111-152; SSA 
+§1905(b)  
+Money Follows 
+the Person 
+Rebalancing 
+Demonstration  States participating in the Money Follows the Person 
+Demonstration receive an enhanced federal matching rate 
+for home - and community -based services provided  to 
+support Medicaid enrollees  during their first year in the 
+community, after residing in an institution for 60 
+consecutive days  or more . Specifically, s tates receive a 
+federal  matching rate ranging from  75% to 90 %, which  is 
+determined  by increasing the regular FMAP rate by half 
+the state share (i.e., subtract regular FMAP rate from 
+100% and divide by two) . This federal match  is limited to  
+90%. P.L. 109 -171; 42 
+U.S.C. §1396a 
+note. 
+Family P lanning  States receive 90% federal reimbursement for family 
+planning services and supplies.  P.L. 92 -603; SSA 
+§1903(a)(5)  
+Health  Homes  As of CY2011, states have a n option for providing “health 
+home” and associated services to certain individuals with 
+chronic conditions. They receive 90% federal 
+reimbursement for these services for the first eight 
+quarters that the health home optio n is in effect in the 
+state.  P.L. 111 -148, as 
+amended by P.L. 
+111-152; SSA 
+§1945(c)(1)  
+Community 
+First Choice 
+Option  As of FY2011, states have a n option for providing home 
+and community -based attendant services and supports for 
+certain individuals at or below 150% FPL, or a higher 
+income level applicable to those who require an 
+institutional level of care. They receive a six percentage 
+point increase in their regular FMAP rate for these 
+services.  P.L. 111 -148, as 
+amended by P.L. 
+111-152; SSA 
+§1915(k)(2)  
+Administrative Activities  
+Electronic Visit 
+Verification 
+System  States receive 90% federal matching rate for the design, 
+development, or installation of electronic visit verification 
+systems for personal care and home health care services. 
+States receive  75% federal matching rate for  the operation 
+and maintenance of  these systems.  P.L. 114 -255; SSA 
+§1903(l)(6)(A)  
+   
+Health 
+Information 
+Technology  States receive  100% federal matching r ate (i.e., fully 
+federally funded)  for incentive payments to eligible 
+Medicaid providers to adopt, implement, upgrade, and 
+meaningfully use certified EHR technology through 2021 , 
+and states receive 90% federal matching rate  for 
+administra tive expenses related to the program.  P.L. 111 -5; SSA 
+§1903(a)(3)(F)  
+Medicaid’s Federal Medical Assistance Percentage (FMAP)  
+ 
+Congressional Research Service   11 Exception  Description  Citations  
+Training of 
+Medical 
+Personnel  States receive 75% federal matching rate for costs 
+attributable to compensation or training of skilled 
+professional medical personnel, and staff directly 
+supporting such personnel.  P.L. 89 -97; SSA 
+§1903(a)(2)(A)&(B)  
+Citizenship 
+Verification 
+System  States receive 90% federal matching rate for the design, 
+development, or installation of citizenship verification 
+systems. States receive  75% federal matching rate for the 
+operation of  these  systems.  P.L. 111 -3; SSA 
+§1903(a)(3)(H)   
+Immigration 
+Verification 
+System  States receive 100% federal reimbursement for the cost of 
+implementation and operation of an immigration status 
+verification system.  P.L. 99 -603; SSA 
+§1903(a)(4)  
+Fraud Control 
+Unit States receive 75% federal matching  rate for state 
+expenditures related to the operation of a state Medicaid 
+fraud control unit.  P.L. 95 -142; SSA 
+§1903(a)(6)  
+Preadmission 
+Screening  State expenditures attributable to preadmission screening 
+and resident review for individuals with mental illness or 
+mental retardation who are admitted to a nursing facility 
+receive 75% federal matching  rate. P.L. 100 -203; SSA 
+§1903(a)(2)(C)  
+Survey and 
+Certification  States receive 75% federal matching  rate for state 
+expenditures related to survey and certification of nursing 
+facilities.  P.L. 100 -203; SSA 
+§1903(a)(2)(D)  
+Managed Care 
+Review 
+Activities  States receive 75% federal matching  rate for state 
+expenditures related to performance of medical and 
+utilization review activities or external independent review 
+of managed care activities.  P.L. 97 -35; SSA 
+§1903(a)(3)(C)  
+Claims and 
+Eligibility 
+Systems  States receive 90% federal matching rate for the design, 
+development, or installation of mechanized claims systems 
+and 75% federal matching rate for operating mechanized 
+claims systems. Both federal reimbursemen t percentages 
+are subject to certain criteria set by the Secretary of HHS, 
+which includes whether the activity is likely to provide 
+more efficient, economical, and effective administration of 
+claims processing. CMS published a final rule to 
+permanently ame nd the definition of Mechanized Claims 
+Processing and Information Retrieval systems to include 
+systems used for eligibility determination, enrollment, and 
+eligibility reporting activities thereby making the 90% 
+federal matching rate available for the desig n, development 
+and installation or enhancement of eligibility determination 
+systems, and 75% federal matching rate for maintenance 
+and operations available for such systems.   P.L. 92 -603; SSA 
+§1903(a)(3)(A) and 
+(B); 80 Federal 
+Register  75819 
+(December 4, 
+2015) 
+Translation or 
+Interpretation 
+Services  Administrative expenditures for translation or 
+interpretation services in connection with the “enrollment 
+of, retention of, and use of services” under Medicaid 
+receive 75% federal matching  rate. For CHIP, the 
+increased match is 75%, or the state’s E-FMAP rate plus 5 
+percentage points, whichever is higher, and the CHIP 
+increased match is subject to the 10% cap on 
+administrative expenditures. The increased federal 
+matching rate for translation or interpretation ser vices is 
+only available for eligible expenditures claimed as 
+administrative and not expenditures claimed as medical 
+assistance -related (which receive each state’s regular 
+FMAP rate).  P.L. 111 -3; SSA 
+§1903(a)(2)(E); 
+State Medicaid 
+Director Letter, 
+State Health 
+Official 10 -007, 
+CHIPRA 18, July 1, 
+2010.  
+Medicaid’s Federal Medical Assistance Percentage (FMAP)  
+ 
+Congressional Research Service   12 Exception  Description  Citations  
+General 
+Administration  Remaining state expenditures found necessary for proper 
+and efficient administration of the state plan receive a 50% 
+federal matching  rate.  P.L. 89 -97; SSA 
+§1903(a)(7)  
+Source: CRS, based on sources noted in the table.  
+Notes:  Unless noted, exceptions do not apply for purposes of computing the E-FMAP rate for CHIP. ACA = 
+Patient Protection and Affordable Care Act ( P.L. 111 -148, as amended); ACIP  = Advisory Committee on 
+Immunization Practices ; CHIP = Children’s Health Insurance Program ; CHIPRA = Children’s Health Insurance 
+Program Reauthorization Act  (P.L. 111 -3); CMS = Centers for Medicare & Medicaid Services; CNMI = 
+Commonwealth of the Northern Mariana Islands ; E-FMAP = enhanced federal medical assistance percentage ; 
+EHR = electronic health record; FMAP = federal medical assistance percentage ; FPL = federal poverty level; SPA 
+= state plan amendment; SSA = Social Security Act ; USPSTF = United States Preventive Services Task Force . 
+Reduction to Regular FMAP Rates  
+While many FMAP exceptions are used to incentivize states , the FMAP rate also can be use d as a 
+means to penalize states through a reduction to the FMAP rate.  There are FMAP reductions for 
+failure to implement electronic visit verification systems and asset verification program s. 
+Electronic Visit Verification System s  
+For personal care services or home health  care services requiring an in -home visit by a provider, 
+states’ FMAP rates are reduced for those services if the state s do not have an electronic visit 
+verification system. For personal care services, the FMAP reduc tions could start in CY2020;  for 
+home he alth care services, the FMAP reductions could start in CY2023. The FMAP reductions 
+could be 0.25 percentage points in the first year the reductions are in effect, 0.5 percentage points 
+for the second year, 0.75 percentage points for the third year, and 1 p ercentage point for 
+subsequent years.14 
+Asset Verification Program s 
+Section 1940 of the Social Security Act requires that states verify assets of individuals applying 
+for the aged, blind, or disabled Medicaid eligibility pathways using the state s’ asset v erification 
+program s. For states without an asset verification program, starting January 1, 2021, the regular 
+FMAP rate fo r the state could be redu ced by   
+• 0.12 percentage points for calendar quarters in 2021 and 2022;  
+• 0.25 percentage points for calendar quarters in 2023;  
+• 0.35 percentage points for calendar quarters in 2024; and  
+• 0.50 percentage points for calendar quarters in 2025 and each year therea fter.15 
+The asset verification program requirements apply to Puerto Rico beginning January 1, 2026 . If 
+Puerto Rico does not have an asset verification program, starting January 1, 2026, the regular 
+FMAP rate for Puerto Rico would be reduced by  
+• 0.12 percent age points for calendar quarters in FY2026 starting on or after 
+January 1, 2026;  
+• 0.25 percentage points for calendar quarters in FY2027;  
+ 
+14 P.L. 114 -255 §12006; SSA §1903(l)( 1)(A). 
+15 P.L. 116 -3 §4; SSA §1940(k) (1)(A).  
+Medicaid’s Federal Medical Assistance Percentage (FMAP)  
+ 
+Congressional Research Service   13 • 0.35 percentage points for calendar quarters in FY2028; and  
+• 0.50 percentage points for calendar quarters in FY2029 and each year 
+thereafter.16 
+Budget Reconciliation  and FMAP Reform  
+The House of Representatives adopted the House FY2025 budget resolution (H.Con.Res. 14 ) on 
+February 25, 2025.17 H.Con.Res. 14  includes reconciliation instruction s directing the Committee 
+on Energy and Commerce to reduce the deficit by not less than $880  billion  for FY2025 through 
+FY2034.  Some press reports suggest that  much of the $880 billion in reductions could come from 
+reductions to federal Medicaid expenditures.18 The me dia have  report ed that some of  the policy 
+options  that have been  considered for reconciliation would amend the FMAP. These policy 
+options include  (1) reducing or removing the statutory floor of 50% for the regular FMAP rates, 
+(2) amending the regular FMAP rate for the District of Columbia, (3) removing the exception to 
+the FMAP rate for the ACA Medicaid expansion, and (4) repealing the incentive for states to 
+implement the ACA Medicaid expansion.19  
+Statutory Floor for FMAP  
+As mentioned above, the regular F MAP for states can range from 50% to 83% based on each 
+states’ per capita income. One of the policy options under consideration to be included in the 
+reconciliation package would remove the FMAP floor of 50%. The statutory floor of 50% for the 
+regular FMAP  rate has been in place since the Medicaid program was enacted in 1965.20 The 
+structure for the federal share of Medicaid expenditures was based on Medicaid’s predecessor 
+program (i.e., Kerr -Mills).  
+In FY2025, 10 states have a regular FMAP rate of 50%: California, Colorado, Connecticut, 
+Massachusetts, Maryland, New Hampshire, New Jersey, New York, Washington, and Wyoming. 
+While the FMAP rate for states could change annually, many of the states receivi ng the 50% 
+FMAP in FY2025 consistently have a regular FMAP rate of 50%. If the FMAP rate statutory 
+floor of 50% is reduced or removed, the impacted states would pay a higher share of most 
+Medicaid expenditures. As calculated by the Federal Funds Informatio n for States, if the FMAP 
+ 
+16 P.L. 117 -328; SSA §1940(k)(1)(B).  
+17 The Senate ha s adopted a FY2025 Budget Resolution ( S.Con.Res. 7 ) on February 21, 2025 that differs from the 
+FY2025 House Budget Resolution.  For more information about FY2025 budget resolution s, see CRS Report R48474, 
+Reconciliation Instructions in the House and Senate FY2025 Budget Resolutions: In Brief . 
+18 Margot Sanger -Katz and Alicia Parlapiano, “What Can House Republicans Cut Instead of Me dicaid? Not Much.,” 
+New York Times , February 25, 2025, https://www.nytimes.com/ 2025/ 02/25/upshot/ republicans -medicaid -house -
+budget.html ; Joe Light, “Medicaid Cuts Appear Inevitable. States May Pick Up the Bill,” Barron's , February 26, 2025, 
+https://www.barrons.com/ articles/ medicaid -cuts-taxes -states -312ebfd5 . 
+19 Ben Leonard, Meredith Lee Hill, and Kelsey Tamborrino, “House GOP Puts Medicaid, ACA, Climate Measures on 
+Chopping Block,” Politico , January 10, 2025, https://www.politico.com/ news/ 2025/ 01/10/spending -cuts-house -gop-
+reconciliation -medicaid -00197541 . The article links to “an  early list of potential spending offsets obtained by 
+POLITICO ,” https://www.politico.com/ f/?id=00000194 -5115 -d639 -a395 -7db5d6b70000 . Benjamin Guggenheim, 
+“GOP Budget Menu Outlines Sweeping Spending Cuts,” Politico Pro , January 17, 2025, 
+https://subscriber.politicopro.com/ article/ 2025/ 01/reconciliation -menu-reveals -wide -ranging -gop-policy -priorities -
+00198940 . The article links to a “ detailed menu of options for blockbuster legislation including tax cuts and other GOP 
+priorities, obtained by POLITICO, ” https://www.politico.com/ f/?id=00000194 -74a8 -d40a -ab9e -7fbc70940000 . 
+20 Social Security Amendments of 1965  (P.L. 89 -97). 
+Medicaid’s Federal Medical Assistance Percentage (FMAP)  
+ 
+Congressional Research Service   14 floor of 50% were removed, Massachusetts would have the lowest regular FMAP rate at 
+24.17%.21 
+The Congressional Budget Office (CBO) estimates removing the statutory floor of the FMAP 
+would reduce federal Medicaid outlays by $530 billion from FY2025 through FY2034.22 
+Amend FMAP Rate for the District of Columbia  
+The FMAP rate for the District of Columbia is not determined using the formula used by the 50 
+states. Instead, the FMAP rate for the District of Columbia is set at 70%.  Another policy option 
+being considered for reconciliation is having the FMAP for the District of Columbia be 
+determined according to the FMAP formula.  
+This exception to the FMAP rate for the District of Columbia  has been in place since FY1998.  If 
+the FMAP  for the District of Columbia were calculated according to the formula used for the 50 
+states under current law, the District of Columbia would have an FMAP rate of 50%.23 If the 
+FMAP rate for the District of Columbia is reduced, the District of Columbia w ould have to pay a 
+higher share of their Medicaid expenditures.  
+FMAP Rate for ACA Medicaid Expansion  
+The ACA Medicaid expansion was implemented January 1, 20 14.24 At the beginning, there were 
+two exceptions for the ACA Medicaid expansion: (1) the newly el igible  matching rate for 
+individuals newly eligible for Medicaid through the expansion and (2) the expansion state  
+matching rate for individuals in the expansion population who were eligible for Medicaid at the 
+time the ACA was enacted.  
+Initially, these ma tching rates varied, and the newly eligible matching rate was higher than the 
+expansion state matching rate. Since 2019, the two matching rates have been the same (i.e., 93% 
+in 2019 and 90% in 2020 and subsequent years). Under these matching rates, the fed eral 
+government ’s share of Medicaid expenditures is higher than under states ’ regular FMAP rates.  
+One of the policy options being considered for reconciliation is to eliminate the FMAP exception 
+for the ACA Medicaid expansion. If the FMAP exception for th e ACA Medicaid expansion were 
+eliminated, the states would have to pay a higher share of the expenditures for the ACA Medicaid 
+expansion enrollees.  There are 12 states with different “trigger laws” that would either eliminate 
+the ACA Medicaid expansion or direct additional actions by state  if the FMAP rate for the 
+expansion is reduced from 90%.25 
+CBO estimates  eliminating the FMAP exception for the ACA Medicaid expansion would the net 
+effect of reduc ing the federal  deficit by $561 billion from FY2025 through FY2034.26 In addition 
+to savings due to the federal government paying a lower share of the ACA Medicaid expansion 
+ 
+21 Trinity Tomsic , “Final FY 2025 FMAPs ,” Federal Funds Information for States , Issue Brief 23 -12, October 3, 2023 . 
+22 Congressional Budget Office, “ Reduce Federal Medicaid Matching Rates ,” Options for Reducing the Deficit: 2025 
+to 2034 , December 12, 2024, https://www.cbo.gov/ budget -options/ 60898 . 
+23 If the policy option to remove the FMAP floor of 50% is enacted  in addition to removing the FMAP exception for 
+the District of Columbia , the FMAP  rate for the District of Columbia would be less than 50%. 
+24 For more information about the ACA Medicaid ex pansion, see CRS Report R43564, The ACA Medicaid Expansion . 
+25 CRS analysis found the following 12 states had trigger laws: Arizona, Arkansas, Idaho, Indiana, Illinois, Iowa, 
+Montana, New Hampshire, New Me xico, North Carolina, Utah, and Virginia.  
+26 Congressional Budget Office, “ Reduce Federal Medicaid Matching Rates ,” Options for Reducing the Deficit: 2025 
+to 2034 , December 12, 2024, https://www.cbo.gov/ budget -options/ 60898 . 
+Medicaid’s Federal Medical Assistance Percentage (FMAP)  
+ 
+Congressional Research Service   15 expenditures, CBO assumes that if the FMAP exception for the expansion is eliminated, some 
+states would no longer  cover the ACA Medicaid expansion population.27  
+Incentive for ACA Medicaid Expansion  
+Section 9814 of the American Rescue Plan Act of 2021  (ARPA ; P.L. 117 -2) added a financia l 
+incentive for states that have not implemented the ACA Medicaid expansion (i.e., non-expansion 
+states ) to implement the expansion. The ARPA incentive p rovides a five -percentage -point 
+increase to the regular FMAP rate for eight quarters to a non -expansion  state that implement s the 
+ACA Medicaid expansion after the date of enactment (i.e., March 11, 2021).  To date, two states 
+(Missouri and Oklahoma) received the full eight fiscal quarters of the ARPA incentive for states 
+to implement the ACA Medicaid expansi on, and two states (South Dakota and North Carolina) 
+are currently receiving the ARPA incentive for states to implement the ACA Medicaid expansion.  
+One of the policy options being considered for reconciliation is to eliminate this incentive for 
+states to i mplement the ACA Medicaid expansion. If this policy option were enacted, it might 
+make it less likely for the 10 states without the ACA Medicaid expansion to implement the ACA 
+Medicaid expansion .  
+Conclusion  
+The FMAP rate is used to reimburse states for th e federal share of most Medicaid expenditures . In 
+FY20 25, 10 states are to  have the sta tutory minimum FMAP rate of 50%  and Mississippi is to 
+have the highest FMAP rate of 76.9%. From FY20 24 to FY20 25, the regular FMAP rates for 40 
+states are to change, whereas  the regular FMAP rates for the remaining 11 states (including the 
+District of Columbia) are to remain the same.   
+The House of Representatives adopted the House FY2025 budget resolution ( H.Con.Res. 14 ) on 
+February 25, 2025. H.Con.Res. 14  includes reconciliation instruction s directing the Comm ittee on 
+Energy and Commerce to reduce the deficit by not less than $880  billion  for FY2025 through 
+FY2034.  Some press reports suggest that much of the $880 billion in reductions could come from 
+reductions to federal Medicaid expenditures.28 The media have  report ed that some of  the policy 
+options  that have been considered for reconciliation would amend the FMAP . These policy 
+options include  (1) reducing or removing  the statutory floor of 50% for the regular FMAP rates, 
+(2) amending the regular  FMAP rate for the District of Columbia, (3) reducing or removing  the 
+exception to the FMAP rate for the ACA Medicaid expansion, and (4)  repealing the incentive for 
+states to implement the ACA Medicaid expansion.29  
+ 
+27 Some of th e expansion population in states that eliminate the ACA Medicaid expansion  would be eligible for 
+subsidized exchange coverage  or employer -sponsor ed health insurance.  
+28 Margot Sanger -Katz and Alicia Parlapiano, “What Can House Republicans Cut Instead of Medicaid? Not Much.,” 
+New York Times , February 25, 2025, https://www.nytimes.com/ 2025/ 02/25/upshot/ republicans -medicaid -house -
+budget.html ; Joe Light, “Medicaid Cuts Appear Inevitable. States May Pick Up the Bill,”  Barron's , February 26, 2025, 
+https://www.barrons.com/ articles/ medicaid -cuts-taxes -states -312ebfd5 . 
+29 Ben Leonard, Meredith Lee Hill, and Kelsey Tamborrino, “House GOP Puts Medicaid, ACA, Climate Measures on 
+Chopping Block,” Politico , January 10, 2025, https://www.politico.com/ news/ 2025/ 01/10/spending -cuts-house -gop-
+reconciliation -medicaid -00197541 . The article links to “an  early list of potential spending offsets obtained by 
+POLITICO ,” https://www.politico.com/ f/?id=00000194 -5115 -d639 -a395 -7db5d6b70000 . Benjamin Guggenheim, 
+“GOP Budget Menu Outlines Sweeping Spending Cuts,” Politico Pro , January 17, 2025, 
+https://subscriber.politicopro.com/ article/ 2025/ 01/reconciliation -menu -reveals -wide -ranging -gop-policy -priorities -
+00198940 . The article links to a “ detailed menu of options for blockbuster legislation including tax cuts and other GOP 
+priorities, obtained by POLITICO, ” https://www.politi co.com/ f/?id=00000194 -74a8 -d40a -ab9e -7fbc70940000 . 
+Medicaid’s Federal Medical Assistance Percentage (FMAP)  
+ 
+Congressional Research Service   16 Appendix A.   FMAP Rates for Medicaid, by  State  
+Table A-1 shows regul ar FY20 21-FY20 26 FMAP rates calculated according to the formula 
+described in the text of the report (see “ How FMAP Rates Are Calculated ”). In FY20 25, FMAP 
+rates range from 50% (1 0 states) to 76.9% (Mississippi) , and in FY2026, 10 states will have a 
+50% FMAP rate and the highest FMAP rate will be 76.9 (Mississippi) . From FY20 25 to FY20 26, 
+regular FMAP rates are to  decrease for 26 states, increase for 13 states, and remain the same for 
+12 states (including the District of Columbia ). Most of the states ( 10 states) for which the FMAP 
+rates do not change have the statutory minimum FMAP rate of 50%, and the FMAP rate for the 
+District of Columbia is statutorily set at 70%. Also, the FMAP rate for Mississippi is the same in 
+FY2025 and FY2026.  
+T able A-1. Regular FMAP Rates, by State, FY20 21-FY20 26 
+State  FY2021  FY2022  FY2023  FY2024  FY2025  FY2026  Change 
+FY2025 to 
+FY2026  
+Alabama  72.58  72.37  72.43  73.12  72.84  72.63  -0.21 
+Alaska  50.00  50.00  50.00  50.01  51.54  52.42  0.88 
+Arizona  70.01  70.01  69.56  66.29  64.89  64.34  -0.55 
+Arkansas  71.23  71.62  71.31  72.00  71.14  69.23  -1.91 
+California  50.00  50.00  50.00  50.00  50.00  50.00  0.00 
+Colorado  50.00  50.00  50.00  50.00  50.00  50.00  0.00 
+Connecticut  50.00  50.00  50.00  50.00  50.00  50.00  0.00 
+Delaware  57.74  57.72  58.49  59.71  60.15  59.41  -0.74 
+District of Columbiaa 70.00  70.00  70.00  70.00  70.00  70.00  0.00 
+Florida  61.96  61.03  60.05  57.96  57.17  57.22  0.05 
+Georgia  67.03  66.85  66.02  65.89  66.04  66.40  0.36 
+Hawaii  53.02  53.64  56.06  58.56  59.08  59.68  0.60 
+Idaho  70.41  70.21  70.11  69.72  67.59  66.91  -0.68 
+Illinois  50.96  51.09  50.00  51.09  51.38  51.82  0.44 
+Indiana  65.83  66.30  65.66  65.62  64.90  64.74  -0.16 
+Iowa 61.75  62.14  63.13  64.13  63.25  62.70  -0.55 
+Kansas  59.68  60.16  59.76  60.97  61.87  60.67  -1.20 
+Kentucky  72.05  72.75  72.17  71.78  71.48  71.41  -0.07 
+Louisiana  67.42  68.02  67.28  67.67  68.06  67.83  -0.23 
+Maine  63.69  64.00  63.29  62.65  62.06  61.29  -0.77 
+Maryland  50.00  50.00  50.00  50.00  50.00  50.00  0.00 
+Massachusetts  50.00  50.00  50.00  50.00  50.00  50.00  0.00 
+Michigan  64.08  65.48  64.71  64.94  65.13  65.30  0.17 
+Minnesota  50.00  50.51  50.79  51.49  51.16  50.68  -0.48 
+Mississippi  77.76  78.31  77.86  77.27  76.90  76.90  0.00 
+Missouri  64.96  66.36  65.81  66.07  65.31  64.44  -0.87 
+Medicaid’s Federal Medical Assistance Percentage (FMAP)  
+ 
+Congressional Research Service   17 State  FY2021  FY2022  FY2023  FY2024  FY2025  FY2026  Change 
+FY2025 to 
+FY2026  
+Montana  65.60  64.90  64.12  63.91  62.37  61.47  -0.90 
+Nebraska  56.47  57.80  57.87  58.60  57.52  55.94  -1.58 
+Nevada  63.30  62.59  62.65  60.77  60.22  59.80  -0.42 
+New Hampshire  50.00  50.00  50.00  50.00  50.00  50.00  0.00 
+New Jersey  50.00  50.00  50.00  50.00  50.00  50.00  0.00 
+New Mexico  73.46  73.71  73.26  72.59  71.68  71.66  -0.02 
+New York  50.00  50.00  50.00  50.00  50.00  50.00  0.00 
+North Carolina  67.40  67.65  67.71  65.91  65.06  64.62  -0.44 
+North Dakota  52.40  53.59  51.55  53.82  50.97  50.99  0.02 
+Ohio  63.63  64.10  63.58  64.30  64.60  64.85  0.25 
+Oklahoma  67.99  68.31  67.36  67.53  67.08  66.47  -0.61 
+Oregon  60.84  60.22  60.32  59.31  59.00  57.75  -1.25 
+Pennsylvania  52.20  52.68  52.00  54.12  55.09  56.06  0.97 
+Rhode Island  54.09  54.88  53.96  55.01  56.31  57.50  1.19 
+South Carolina  70.63  70.75  70.58  69.53  69.67  69.53  -0.14 
+South Dakota  58.28  58.69  56.74  54.98  53.07  51.01  -2.06 
+Tennessee  66.10  66.36  66.10  65.28  64.81  64.16  -0.65 
+Texas  61.81  60.80  59.87  60.15  60.00  59.83  -0.17 
+Utah 67.52  66.83  65.90  65.90  64.36  62.46  -1.90 
+Vermont  54.57  56.47  55.82  56.75  58.19  59.01  0.82 
+Virginia  50.00  50.00  50.65  51.22  50.99  50.39  -0.60 
+Washington  50.00  50.00  50.00  50.00  50.00  50.00  0.00 
+West Virginia  74.99  74.68  74.02  74.10  73.84  74.22  0.38 
+Wisconsin  59.37  59.88  60.10  60.66  60.43  60.68  0.25 
+Wyoming  50.00  50.00  50.00  50.00  50.00  50.00  0.00 
+Number with 
+increase from 
+previous year  24 26 11 23 13 13  
+Number stayed the 
+same from previous 
+year 13 13 11 11 10 12  
+Number with 
+decrease from 
+previous year  13 11 28 16 27 26   
+Source:  Department of Health and Human Services, Annual Federal Register  Notices.  
+Notes:  Reflects FMAP rates calculated using the regular FMAP formula, with exceptions noted below.  
+a. Section 4725(b) of the Balanced Budget Act of 1997 amended Section 1905(b) to provide that the FMAP 
+rate for the District of Columbia shall be set at 70% for purpo ses of titles XIX and XXI and for capitation 
+payments and Medicaid disproportionate share ( DSH) allotments under those titles. For other purposes, 
+the percentage for the District of Columbia is 50%, unless otherwise specified by law.  
+Medicaid’s Federal Medical Assistance Percentage (FMAP)  
+ 
+Congressional Research Service   18 Appendix B.  Past FMAP Rate Exceptions  
+Although FMAP rates are generally determined by the statutory formula described above,  Table 1 
+lists current exceptions that have been added to the Medi caid statute  and regulations over the 
+years, and Table B-1 lists past FMAP exceptions.  
+T able B-1. Past Exceptions to the Regular FMAP Rates for Medicaid  
+Exception  Description  Citations  
+Territories and Certain States  
+Territories  For November 22 , 2019, through December 20, 2019 , the FMAP 
+rate for the territories was increased from 55% to 100% (i.e., fully 
+federally funded) for all territories . (For more information about the 
+FMAP rate for the territories, see CRS In Focus IF11012, Medicaid 
+Financing for the Territories ).  P.L. 116 -69 §1302; 
+SSA §1905(ff)  
+Territories  For October 1, 2019, through  November 21, 2019, the FMAP rate 
+for the territories was increased from 55% to 100% (i.e., fully 
+federally funded) for all territories . (For more information about the 
+FMAP rate for the territories, see CRS In Focus IF11012, Medicaid 
+Financing for the Territories ). P.L. 116 -59 §1302; 
+SSA §1905(ff)  
+Territories  For the period of January 1, 2019, through September 30, 2019, 
+CNMI received an additional $36 million in federal Medicaid funding;  
+for this additional funding, the FMAP rate was increased from 55% to 
+100%.  
+Increased the FMAP rate from 55% to 100% for Amer ican Samoa 
+and Guam for the territories’ share of additional Medicaid federal 
+funding provided in the ACA that was available through September 
+30, 2019.  P.L. 116 -20 §802; 
+SSA §1108(g)(5)  
+Territories  For the period of January 1, 2018, through September 30, 2019 , 
+Puerto Rico and the U.S. Virgin Islands received additional federal 
+Medicaid funding . The FMAP rate was  increased from 55% to 100% 
+for this additional federal Medicaid funding .  P.L. 115 -123 
+§20301; SSA 
+§1108(g)(5)  
+Alaska  Alaska’s FMAP rate was set in statute for FY1998 -FY2000 at 59.80%; 
+used an alternative f ormula for FY2001 -FY2005 that reduced the 
+state’s per capita income by 5% (thereby increasing its FMAP rate); 
+and was held at its FY2005 level for FY2006 -FY2007. These 
+provisions also applied for purposes of computing the E -FMAP rate 
+for CHIP.  P.L. 105 -33 
+§4725(a); P.L. 106 -
+554 Appendix F 
+§706; P.L. 109 -171 
+§6053(a)  
+Special Situations  
+State Fiscal Relief  A 6.2 -percentage -point increase to the FMAP rates for all states, the 
+District of Columbia, and the territories for each calendar quarter 
+occurring during January 1, 2020, through December 31, 2023. 
+States were required to meet certain requirements to rece ive the 
+increase. (For more information about the FMAP increase, see CRS 
+Report R46346, Medicaid Recession -Related FMAP Increases ). Most recently P.L. 
+117-328; P.L. 116 -
+127 §6008, as 
+amended by P.L. 
+116-136 §3720 
+Medicaid’s Federal Medical Assistance Percentage (FMAP)  
+ 
+Congressional Research Service   19 Exception  Description  Citations  
+State Fiscal R elief, 
+FY2009 -FY2011  FMAP rates were increased from the first quarter of FY2009 
+through the third quarter of FY2011, providing states with more 
+than $100 billion (about $84 billion for the original provision and 
+$16 billion for a six -month extension) in additional funds. All states 
+received a hold harmless to prevent any decline in regular FMAP 
+rates and an across -the-board increase of 6.2 percentage points until 
+the last two quarters of the period, at which point the across -the-
+board pe rcentage point increase phased down to 3.2 and then 1.2; 
+qualifying states received an additional unemployment -related 
+increase. Each territory could choose between an FMAP increase of 
+6.2 percentage points along with a 15% increase in its spending cap, 
+or its regular FMAP rate along with a 30% increase in its cap; all 
+chose the latter. States were required to meet certain requirements 
+in order to receive the increase.  (For more information about the 
+FMAP increase, see CRS Report R46346, Medicaid Recession -Related 
+FMAP Increases ). P.L. 111 -5 §5001, as 
+amended by P.L. 
+111-226 §201 
+Adjustment for 
+Hurricane Katrina  In computing FMAP rates for any year after 2006 for a state that the 
+Secretary of HHS determines has a significant number of Hurricane 
+Katrina evacuees as of October 1, 2005, the Secretary must 
+disregard such evacuees and their incomes. Although it was labeled 
+as a “hold harmless for Katrina impact,” the provision language 
+required evacuees to be disregarded even if their inclusion would 
+increase a state’s FMAP rate. Due to lags in  the availability of data 
+used to calculate FMAP rates, FY2008 was the first year to which 
+the provision applied. HHS proposed and finalized a methodology 
+that prevented the lowering of any FY2008 FMAP rates and 
+increased the FY2008 FMAP rate for one state  (Texas). The 
+methodology took advantage of a data timing issue that does not 
+apply after FY2008. HHS had initially expressed concern that some 
+states could see lower FMAP rates in later years as a result of the 
+provision, but the final methodology indicat ed that there is no 
+reliable way to track the number and income of evacuees on an 
+ongoing basis and therefore no basis for adjusting FMAP rates after 
+FY2008. The provision also applied for purposes of computing the 
+enhanced FMAP rate for CHIP.  P.L. 109 -171; 72 
+Federal Register  
+3391 (January 25, 
+2007) and 44146 
+(August 7, 2007)  
+State Fiscal R elief, 
+FY2003 -FY2004  FMAP rates for the last two quarters of FY2003 and the first three 
+quarters of FY2004 were not allowed to decline (i.e., were held 
+harmless) and were increased by an additional 2.95 percentage 
+points, providing states with about $10 billion in additional funds 
+(they also received $10 billion in direct grants).  Although Medicaid 
+DSH payments are reimbursed using the FMAP rate, the increase did 
+not apply to DSH. States had to meet certain requirements in order 
+to receive an increase (e.g., they could not restrict eligibility after a 
+specified date).  (For more inf ormation about the FMAP increase, see  
+CRS Report R46346, Medicaid Recession -Related FMAP Increases ). P.L. 108 -27 §401(a)  
+Certain P opulations  
+COVID -19 Testing 
+for the Uninsured  During the COVID -19 public health emergency period, states ha d 
+the option to extend COVID -19 testing, testing -related state plan 
+services, testing -related visits, and the administration of the testing 
+without cost sharing to uninsured individuals under the Medicaid 
+program. For medical assistance and administrative c osts associated 
+with uninsured individuals who  were eligible for Medicaid under this 
+state option, states receive d 100% federal reimbursement (i.e., fully 
+federally funded).  P.L. 116 -27, as 
+amended by P.L. 
+116-136; SSA 
+§1902(a)(10)(XXIII) 
+and (ss).  
+Medicaid’s Federal Medical Assistance Percentage (FMAP)  
+ 
+Congressional Research Service   20 Exception  Description  Citations  
+Certain “Expans ion 
+States” During CY2014 and CY2015, an FMAP rate incr ease of 2.2 
+percentage points was  available for “expansion states” that (1) the 
+Secretary  of HHS determines did  not receive any federal matching  
+rate increase for “newly el igible” individuals and (2) h ad not been 
+approved to divert Medicaid disproportionate share hospital funds 
+to pay for the cost of health coverage under a waiver in effect as of 
+July 2009 . The FMAP rate increase applied  to those who are not 
+“newly eligible” individuals as described in relation to the new 
+eligibility group for non -elderly, nonpregnant adults at or below 
+133% FPL .  P.L. 111 -148, as 
+amended by  P.L. 
+111-152; SSA 
+§1905(z)(1)  
+Certain Providers  
+Extension of 100% 
+FMAP to UIOs and 
+Native Hawaiian 
+Health Care 
+Systems  Provide d eight fiscal quarters of 100% federal reimbursement (i.e., 
+fully federally funded) for Medicaid services received through (1) 
+UIOs and (2) Native Hawaiian Health Centers for the period April 1, 
+2021, through March 31, 2023.  P.L. 117 -2; SSA 
+§1905(b)  
+Primary Care 
+Payment R ates During CY2013 and CY2014, states were required to provide 
+Medicaid payments at or above the Medicare rates for primary care 
+services (defined as evaluat ion and management and certain 
+administration of immunizations) furnished by a physician with a 
+primary specialty designation of family, general internal, or pediatric 
+medicine. States received 100% federal reimbursement for 
+expenditures attributable to th e amount by which Medicare 
+exceed ed their Medicaid payment rates in effect on July 1, 2009.  P.L. 111 -148, as 
+amended by  P.L. 
+111-152; SSA 
+§1902(a)(13)(C); 77 
+Federal Register  
+66670.  
+Certain Services  
+State Balancing 
+Incentive P ayments  During FY2011 -FY2015, stat e balancing incentive payments we re 
+available under certain conditions for states in which less than 50% 
+of Medicaid expenditures for LTSS we re noninstitutional. Qualifying 
+states with less than 25% noninstitutional LTSS had to plan to 
+achieve a 25% target to receive a five percentage poi nt increase in 
+their FMAP rate for noninstitutional LTSS; those with less than 50% 
+had to  plan to achieve a 50% target to receive a two percentage 
+point increase. Federal spending on these increased FMAP rates was  
+limited to $3 billion during the period.  P.L. 111 -148, as 
+amended by P.L. 
+111-152, §10202  
+ 
+Administrative Activities  
+Prescription Drug 
+Monitoring 
+Programs  For FY2019 and FY2020, states receive 100% federal matching rate 
+(i.e., fully federally funded) for the design, development, or 
+implementation of prescription drug monitoring programs. To 
+receive this increased federal matching rate, states must have 
+prescription drug monitoring programs information -sharing 
+agreements with contiguou s states.  P.L. 115 -271; SSA 
+§1944(f)  
+ 
+Source: Congressional Research Service, based on sources noted in table.  
+Notes:  ACA = Patient Protection and Affordable Care Act ( P.L. 111 -148 as amended); CHIP = State Children’s 
+Health Insurance Program; CNMI = Commonwealth of the Northern Mariana Islands;  COVID -19 = Coronavirus 
+Disease 2019 ; DSH = di sproportionate share hospital; FMAP = federal medical assistance percentage; FPL = 
+federal poverty level ; HHS = Department of Health and Human Services; LTSS = long -term services and 
+supports;  UIO = Urban Indian Organization . 
+Medicaid’s Federal Medical Assistance Percentage (FMAP)  
+ 
+Congressional Research Service  R43847  · VERSION 13 · UPDATED  21  
+Author Information  
+ 
+Alison Mitchell  
+Specialist in Health Care Financing  
+      
+ 
+ 
+Acknowledgments  
+Alice Choi provided significant assistance in updating the tables and figures in this report.  
+ 
+ 
+Disclaimer  
+This document was  prepared by the Congressional Research Service (CRS). CRS serves as nonpartisan 
+shared staff to congressional committees and Members of Congress. It operates solely at the behest of and 
+under the direction of Congress. Information in a CRS Report should n ot be relied upon for purposes other 
+than public understanding of information that has been provided by CRS to Members of Congress in 
+connection with CRS’s institutional role. CRS Reports, as a work of the United States Government, are not 
+subject to copyr ight protection in the United States. Any CRS Report may be reproduced and distributed in 
+its entirety without permission from CRS. However, as a CRS Report may include copyrighted images or 
+material from a third party, you may need to obtain the permissio n of the copyright holder if you wish to 
+copy or otherwise use copyrighted material.  
+ 
