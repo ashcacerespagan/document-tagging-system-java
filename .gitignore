@@ -68,3 +68,4 @@ local.properties
 
 trainingData/Scientific/
 .DS_Store
+trainingData/News/News_Category_Dataset_v3.txt
