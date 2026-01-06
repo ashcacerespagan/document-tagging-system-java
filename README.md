@@ -1,3 +1,10 @@
+## Dataset Notes
+
+Large training datasets are not included in this repository to keep cloning lightweight.
+If you use the News Category dataset, place it here:
+
+`trainingData/News/News_Category_Dataset_v3.txt`
+
 # 🧠 Document Tagging System
 
 This is a Java-based capstone project that automatically extracts top keywords from `.txt` documents using **TF-IDF** (Term Frequency - Inverse Document Frequency). Users can select a file, specify the number of keywords (up to 20), and choose whether to apply stemming for better keyword generalization. The result is a ranked list of keywords that can be exported or used for tagging and indexing purposes.
