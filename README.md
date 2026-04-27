@@ -1,55 +1,61 @@
 # Document Tagging System
 
-This is a Java-based application that extracts and ranks keywords from text documents using TF-IDF (Term Frequency – Inverse Document Frequency).
-
-The goal of this project was to build a system that can analyze documents and identify the most relevant terms, similar to how tagging or indexing systems work.
+Java-based document tagging system that extracts and ranks keywords from `.txt` files using TF-IDF logic. The project includes both a JavaFX GUI and a command-line interface.
 
 ## What It Does
 
-- Accepts `.txt` documents as input  
-- Calculates keyword relevance using TF-IDF  
-- Displays ranked keywords in a JavaFX GUI  
-- Supports batch processing of multiple documents  
-- Allows exporting results to `.txt` or `.csv`  
+- Extracts keywords from `.txt` documents
+- Ranks keywords by importance using TF-IDF
+- Supports keyword counts from 1 to 20
+- Allows stemming with Apache Lucene’s PorterStemmer
+- Supports both GUI and CLI usage
+- Exports keyword results to TXT or CSV
+- Includes batch testing for multiple `.txt` files
 
 ## Tech Used
 
-- Java  
-- JavaFX (GUI)  
-- TF-IDF (text processing)  
-- Lucene (search/indexing concepts)  
-- Maven / Gradle  
+- Java 21
+- JavaFX 24.0.1
+- Gradle
+- Apache Lucene PorterStemmer
+- TF-IDF keyword extraction
+- CLI and GUI workflows
 
-## Features
+## Main Features
 
-- GUI-based file selection and keyword display  
-- Toggle stemming on/off  
-- Batch testing with multiple documents  
-- Export functionality  
-- Defensive error handling for invalid or empty files  
+- JavaFX graphical interface
+- Command-line interface mode
+- File selection for `.txt` documents
+- Stemming toggle
+- Dark mode toggle
+- TXT and CSV export
+- IDF map training through CLI
+- Batch testing with timestamped results
+- Error handling for empty files, invalid keyword counts, export failures, and unreadable content
 
-## What I Focused On
+## GUI Workflow
 
-- Building structured backend logic for keyword extraction  
-- Handling edge cases (empty files, malformed input)  
-- Keeping the system stable and predictable  
-- Connecting backend processing with a GUI  
+1. Choose a `.txt` file
+2. Enter a keyword count from 1 to 20
+3. Optionally enable stemming
+4. Optionally enable dark mode
+5. View ranked keywords
+6. Export results as TXT or CSV
+7. Clear the form when finished
 
-## Notes
+## CLI Options
 
-This project was built as part of my Computer Science coursework.  
-It reflects my experience working with Java, data processing, and GUI development.
+The CLI supports:
 
-## How to Run
+1. Extract Keywords  
+2. Train IDF Map  
+3. Exit  
 
-1. Clone the repository  
-2. Open in IntelliJ IDEA  
-3. Run the main application class  
-4. Select a `.txt` file and choose keyword settings  
+Users can provide file paths, IDF map paths, keyword count, and stemming settings directly through the console.
 
-## Future Improvements
+## Batch Testing
 
-- Improve keyword accuracy  
-- Add support for more file types  
-- Integrate cloud-based processing  
-- Expand UI features  
+`BatchTestRunner.java` processes all `.txt` files under the `testDocuments/` folder, including subfolders. It runs tests with stemming on and off, then saves results to:
+
+```txt
+batchTestResults.txt
