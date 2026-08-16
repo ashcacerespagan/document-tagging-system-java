@@ -1,20 +1,30 @@
 package capstone.documenttaggingsystem;
 
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
+import java.io.File;
 import java.util.Map;
 
+/**
+ * Integration test suite verifying end-to-end document parsing and TF-IDF keyword extraction.
+ */
 public class BackendIntegrationTest {
 
-    FileParser fileParser = new FileParser();
-
-    TfIdfCalculator tfIdfCalculator = new TfIdfCalculator(new IdfLoader());
+    private final FileParser fileParser = new FileParser();
+    private final TfIdfCalculator tfIdfCalculator = new TfIdfCalculator(new IdfLoader());
 
     @Test
-    public void testFullKeywordExtractionFromFile(){
-        String inputDocument = fileParser.convertFileToAlphanumericString(
-                System.getProperty("user.dir") + "\\testDocuments\\testDocument1.txt\\");
-        String idfMapFilepath = System.getProperty("user.dir") + "\\idfMaps\\testIdfMap.txt";
+    public void testFullKeywordExtractionFromFile() {
+        String testDocPath = System.getProperty("user.dir") 
+                + File.separator + "testDocuments" 
+                + File.separator + "testDocument1.txt";
+
+        String idfMapFilepath = System.getProperty("user.dir") 
+                + File.separator + "idfMaps" 
+                + File.separator + "testIdfMap.txt";
+
+        String inputDocument = fileParser.convertFileToAlphanumericString(testDocPath);
 
         Map<String, Double> result = tfIdfCalculator.getTopKeywords(
                 inputDocument,
@@ -23,44 +33,50 @@ public class BackendIntegrationTest {
                 false
         );
 
-        //For manually verifying map values
-//        result.forEach((key, value) -> System.out.println("Key: " + key + ", Value: " + value));
+        // Asserts keywords are extracted properly
+        Assertions.assertFalse(result.isEmpty(), "Extracted keywords map should not be empty");
+        Assertions.assertEquals(6, result.size(), "Should return exactly 6 extracted keywords");
 
-        //Asserts all 6 keywords are returned, but that no extra 7th entry is added
-        assert(result.size() == 6);
-
-        //Asserts the unique word "only" is the top keyword and that the rare word
-        //"purposes" is the second-highest keyword
-        assert(result.keySet().toArray()[0].equals("only"));
-        assert(result.keySet().toArray()[1].equals("purposes"));
+        // Asserts 'only' is the top keyword and 'purposes' is the second-highest keyword
+        Object[] topKeys = result.keySet().toArray();
+        Assertions.assertEquals("only", topKeys[0]);
+        Assertions.assertEquals("purposes", topKeys[1]);
     }
-    // Verifies the system can handle a large document without crashing.
+
     @Test
     public void testLargeFileProcessing() {
-        String inputDocument = fileParser.convertFileToAlphanumericString(
-                System.getProperty("user.dir") + "/testDocuments/large/testLarge.txt"
-        );
+        String largeDocPath = System.getProperty("user.dir") 
+                + File.separator + "testDocuments" 
+                + File.separator + "large" 
+                + File.separator + "testLarge.txt";
 
-        String idfMapFilepath = System.getProperty("user.dir") + "\\idfMaps\\testIdfMap.txt";
+        String idfMapFilepath = System.getProperty("user.dir") 
+                + File.separator + "idfMaps" 
+                + File.separator + "testIdfMap.txt";
+
+        String inputDocument = fileParser.convertFileToAlphanumericString(largeDocPath);
 
         Map<String, Double> result = tfIdfCalculator.getTopKeywords(inputDocument, idfMapFilepath, 10, false);
 
-        // Should return something if input has meaningful words
-        assert(!result.isEmpty());
+        Assertions.assertFalse(result.isEmpty(), "Large file processing should extract keywords");
     }
 
-    // Verifies the system handles garbage/nonsense input.
     @Test
     public void testGarbageInputFile() {
-        String inputDocument = fileParser.convertFileToAlphanumericString(
-                System.getProperty("user.dir") + "/testDocuments/parser/testOnlySymbols.txt"
-        );
+        String symbolsDocPath = System.getProperty("user.dir") 
+                + File.separator + "testDocuments" 
+                + File.separator + "parser" 
+                + File.separator + "testOnlySymbols.txt";
 
-        String idfMapFilepath = System.getProperty("user.dir") + "\\idfMaps\\testIdfMap.txt";
+        String idfMapFilepath = System.getProperty("user.dir") 
+                + File.separator + "idfMaps" 
+                + File.separator + "testIdfMap.txt";
+
+        String inputDocument = fileParser.convertFileToAlphanumericString(symbolsDocPath);
 
         Map<String, Double> result = tfIdfCalculator.getTopKeywords(inputDocument, idfMapFilepath, 5, false);
 
-        // Expect no keywords since the input was cleaned to an empty string
-        assert(result.isEmpty());
+        // Expect no keywords since symbols are cleaned away to an empty string
+        Assertions.assertTrue(result.isEmpty(), "Garbage/symbols-only file should return an empty keyword map");
     }
 }

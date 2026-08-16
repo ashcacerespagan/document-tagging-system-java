@@ -1,43 +1,53 @@
 package capstone.documenttaggingsystem;
 
+import java.io.File;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.Map;
 import java.util.Scanner;
 
 /**
- * This is the CLI for managing file selection for the
- * document tagging process. Meant for console-based use.
+ * Command-Line Interface (CLI) for managing document tagging operations,
+ * IDF map training, and keyword extraction routines.
  */
 public class TaggingCli {
-    public static void main(String[] args){
+
+    public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        while(true){
+        while (true) {
             System.out.println("""
+                    =======================================
+                    🧠 Document Tagging System CLI
+                    =======================================
                     Please choose from the following:
                     1: Extract Keywords
                     2: Train IDF Map
-                    3: Exit""");
+                    3: Exit
+                    """);
 
-            String choice = input.next();
+            System.out.print("Select an option (1-3): ");
+            String choice = input.nextLine().trim();
 
-            switch(choice){
-                case "1" -> extractKeywords(); // Starts keyword extraction routine
-                case "2" -> trainIdf(); // Starts IDF training routine
+            switch (choice) {
+                case "1" -> extractKeywords(input);
+                case "2" -> trainIdf(input);
                 case "3" -> {
-                    System.out.println("Thank you for using the Document Tagging Application!");
-                    input.close(); // Clean up scanner on exit
+                    System.out.println("\nThank you for using the Document Tagging Application!");
+                    input.close();
                     System.exit(0);
                 }
-                default -> System.out.println("Please select option 1, 2, or 3");
+                default -> System.out.println("\n❌ Invalid option. Please select 1, 2, or 3.\n");
             }
         }
     }
 
     /**
-     * Handles the keyword extraction flow using user input.
-     * Grabs a file, an IDF map, and keyword count, then prints results.
+     * Handles the keyword extraction workflow.
+     *
+     * @param input Shared Scanner instance.
      */
-    static void extractKeywords(){
+    static void extractKeywords(Scanner input) {
         TfIdfCalculator tfIdfCalculator = new TfIdfCalculator(new IdfLoader());
         FileParser fileParser = new FileParser();
 
@@ -46,117 +56,158 @@ public class TaggingCli {
         int keywordCount;
         boolean useStemming;
 
-        Scanner input = new Scanner(System.in);
         String workingDir = System.getProperty("user.dir");
 
-        // Get user path to input file
-        do {
-            System.out.println("Please enter the input file's filepath from current directory.");
-            System.out.println("Current directory is: " + workingDir);
+        // Get relative path to input document
+        while (true) {
+            System.out.println("\nEnter relative input document path (or press Enter to cancel):");
+            System.out.println("Working Directory: " + workingDir);
+            System.out.print("Path: ");
+            String relativePath = input.nextLine().trim();
 
-            inputFilepath = workingDir + input.next();
+            if (relativePath.isEmpty()) {
+                return;
+            }
 
-        } while (inputFilepath == null || inputFilepath.isEmpty());
-
-        // Get path to IDF map file
-        do {
-            System.out.println("Please enter the filepath for the IDF Map to use from current directory.");
-            System.out.println("Current directory is: " + workingDir);
-
-            idfMapFilepath = workingDir + input.next();
-
-        } while (idfMapFilepath == null || idfMapFilepath.isEmpty());
-
-        // Ask for keyword count
-        while(true){
-            System.out.println("Please enter the number of keywords you would like as an integer from 1–20.");
-
-            try{
-                keywordCount = input.nextInt();
+            inputFilepath = resolvePath(workingDir, relativePath);
+            if (new File(inputFilepath).exists()) {
                 break;
-            } catch(Exception e) {
-                System.out.println("Error parsing your input. Please use an integer from 1–20.");
-                input.nextLine(); // clear invalid token
+            } else {
+                System.out.println("❌ File not found at " + inputFilepath + ". Please try again.");
             }
         }
 
-        // Ask about stemming toggle
+        // Get relative path to IDF map file (Optional - blank uses default)
+        System.out.println("\nEnter relative path for custom IDF Map (or press Enter for default map):");
+        System.out.println("Working Directory: " + workingDir);
+        System.out.print("Path: ");
+        String customIdfRelative = input.nextLine().trim();
+
+        if (customIdfRelative.isEmpty()) {
+            idfMapFilepath = null;
+        } else {
+            idfMapFilepath = resolvePath(workingDir, customIdfRelative);
+        }
+
+        // Ask for keyword count
+        while (true) {
+            System.out.print("\nEnter keyword count (integer 1–20): ");
+            try {
+                keywordCount = Integer.parseInt(input.nextLine().trim());
+                if (keywordCount >= 1 && keywordCount <= 20) {
+                    break;
+                }
+                System.out.println("⚠️ Please enter a number between 1 and 20.");
+            } catch (NumberFormatException e) {
+                System.out.println("❌ Invalid integer input. Try again.");
+            }
+        }
+
+        // Ask about stemming
         useStemming = isUseStemming(input);
 
-        // Extract and display keywords from file
+        // Process file and print results
+        System.out.println("\n⏳ Extracting keywords...");
+        String parsedContent = fileParser.convertFileToAlphanumericString(inputFilepath);
+
+        if (parsedContent.isBlank()) {
+            System.out.println("❌ Could not read or parse document content.");
+            return;
+        }
+
         Map<String, Double> topKeywords = tfIdfCalculator.getTopKeywords(
-                fileParser.convertFileToAlphanumericString(inputFilepath),
+                parsedContent,
                 idfMapFilepath,
                 keywordCount,
                 useStemming
         );
 
-        // Output result
-        System.out.println("Top keywords are:");
-        topKeywords.forEach((key, value) -> System.out.println("Key: " + key + ", Value: " + value));
-
-        input.close();
-    }
-
-    private static boolean isUseStemming(Scanner input) {
-        boolean useStemming;
-        while(true){
-            System.out.println("Would you like to use stemming? Y/N");
-
-            String answer = input.next();
-
-            if(answer.equalsIgnoreCase("y")) {
-                useStemming = true;
-                break;
-            } else if (answer.equalsIgnoreCase("n")){
-                useStemming = false;
-                break;
-            }
+        System.out.println("\n=======================================");
+        System.out.println("RESULTS: Top Keywords");
+        System.out.println("=======================================");
+        if (topKeywords.isEmpty()) {
+            System.out.println("No keywords extracted.");
+        } else {
+            topKeywords.forEach((key, value) -> 
+                System.out.printf("%-18s — %.4f%n", key, value)
+            );
         }
-        return useStemming;
+        System.out.println("=======================================\n");
     }
 
     /**
-     * Handles training the IDF map using a folder of training data.
-     * Prompts user for folder location and save destination.
+     * Handles training an IDF map from a folder of training documents.
+     *
+     * @param input Shared Scanner instance.
      */
-    static void trainIdf(){
+    static void trainIdf(Scanner input) {
         IdfTrainer idfTrainer = new IdfTrainer(new FileParser());
 
         String trainingDirectoryFilepath;
         String targetSaveFilepath;
-
-        Scanner input = new Scanner(System.in);
         String workingDir = System.getProperty("user.dir");
 
         // Path to training data folder
-        do {
-            System.out.println("Please enter the training directory filepath from current directory.");
-            System.out.println("Current directory is: " + workingDir);
+        while (true) {
+            System.out.println("\nEnter training directory relative path:");
+            System.out.println("Working Directory: " + workingDir);
+            System.out.print("Path: ");
+            String relativeDir = input.nextLine().trim();
 
-            trainingDirectoryFilepath = workingDir + input.next();
+            if (relativeDir.isEmpty()) {
+                return;
+            }
 
-        } while (trainingDirectoryFilepath == null || trainingDirectoryFilepath.isEmpty());
-
-        // Path to save IDF map
-        do {
-            System.out.println("Please enter the filepath for the IDF Map to use from current directory.");
-            System.out.println("Current directory is: " + workingDir);
-
-            targetSaveFilepath = workingDir + input.next();
-
-        } while (targetSaveFilepath == null || targetSaveFilepath.isEmpty());
-
-        // Ask whether stemming should be applied
-        boolean useStemming = isUseStemming(input);
-
-        // Attempt to train the IDF model and save it
-        if(idfTrainer.createIdfMap(trainingDirectoryFilepath, targetSaveFilepath, useStemming)){
-            System.out.println("IDF Map trained and saved to " + targetSaveFilepath);
-        } else {
-            System.out.println("Error creating IDF Map");
+            trainingDirectoryFilepath = resolvePath(workingDir, relativeDir);
+            File dir = new File(trainingDirectoryFilepath);
+            if (dir.exists() && dir.isDirectory()) {
+                break;
+            } else {
+                System.out.println("❌ Directory not found at " + trainingDirectoryFilepath);
+            }
         }
 
-        input.close();
+        // Path to save target IDF map
+        while (true) {
+            System.out.println("\nEnter relative destination filepath to save new IDF Map:");
+            System.out.println("Working Directory: " + workingDir);
+            System.out.print("Path: ");
+            String relativeSave = input.nextLine().trim();
+
+            if (relativeSave.isEmpty()) {
+                return;
+            }
+
+            targetSaveFilepath = resolvePath(workingDir, relativeSave);
+            break;
+        }
+
+        boolean useStemming = isUseStemming(input);
+
+        System.out.println("\n⏳ Training IDF Map...");
+        if (idfTrainer.createIdfMap(trainingDirectoryFilepath, targetSaveFilepath, useStemming)) {
+            System.out.println("✅ IDF Map trained and saved to: " + targetSaveFilepath + "\n");
+        } else {
+            System.out.println("❌ Error creating IDF Map.\n");
+        }
+    }
+
+    private static boolean isUseStemming(Scanner input) {
+        while (true) {
+            System.out.print("\nEnable stemming? (Y/N): ");
+            String answer = input.nextLine().trim();
+
+            if (answer.equalsIgnoreCase("y") || answer.equalsIgnoreCase("yes")) {
+                return true;
+            } else if (answer.equalsIgnoreCase("n") || answer.equalsIgnoreCase("no")) {
+                return false;
+            }
+            System.out.println("⚠️ Please enter Y or N.");
+        }
+    }
+
+    private static String resolvePath(String baseDir, String relativePath) {
+        Path resolved = Paths.get(baseDir, relativePath);
+        return resolved.toAbsolutePath().normalize().toString();
     }
 }

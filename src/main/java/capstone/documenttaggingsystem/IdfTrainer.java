@@ -9,9 +9,8 @@ import java.io.FileWriter;
 import java.util.*;
 
 /**
- * This class will receive a filepath directory, and using that, it will
- * open every .txt file in the directory, parse its contents using the
- * FileParser class, and combine all entries into an Idf Map.
+ * Receives a directory filepath, opens every .txt file inside,
+ * parses contents using FileParser, and compiles them into an IDF Map.
  */
 @RequiredArgsConstructor
 @Data
@@ -21,47 +20,58 @@ public class IdfTrainer {
 
     final FileParser fileParser;
 
-    // fallback directory if training path is null
-    final String DEFAULT_TRAINING_DIRECTORY = System.getProperty("user.dir") + "\\trainingData\\testSet1\\";
+    // Cross-platform fallback directory
+    final String DEFAULT_TRAINING_DIRECTORY = System.getProperty("user.dir") 
+            + File.separator + "trainingData" 
+            + File.separator + "testSet1" 
+            + File.separator;
 
     /**
-     * Trains an Idf Map given a directory for training data and a target
-     * location to save the Idf Map.
+     * Trains an IDF Map given a directory for training data and a target
+     * location to save the IDF Map.
      */
-    public boolean createIdfMap(String trainingDirectoryFilepath, String targetSaveFilepath, boolean useStemming){
+    public boolean createIdfMap(String trainingDirectoryFilepath, String targetSaveFilepath, boolean useStemming) {
 
-        // default path if none provided
-        trainingDirectoryFilepath = trainingDirectoryFilepath == null ? DEFAULT_TRAINING_DIRECTORY : trainingDirectoryFilepath;
+        trainingDirectoryFilepath = (trainingDirectoryFilepath == null) 
+                ? DEFAULT_TRAINING_DIRECTORY 
+                : normalizePath(trainingDirectoryFilepath);
 
-        if(!trainIdfMap(trainingDirectoryFilepath, useStemming)){
+        if (!trainIdfMap(trainingDirectoryFilepath, useStemming)) {
             return false;
         }
         return saveIdfMap(targetSaveFilepath);
     }
 
     /**
-     * Saves the class's trained Idf Map to the target file location.
+     * Saves the class's trained IDF Map to the target file location.
      */
-    private boolean saveIdfMap(String targetSaveFilepath){
-
-        // Verify the target filepath isn't already in use
-        File file = new File(targetSaveFilepath);
-
-        if(file.exists()){
-            System.out.println("Specified Idf Map save filename already exists");
+    private boolean saveIdfMap(String targetSaveFilepath) {
+        if (targetSaveFilepath == null || targetSaveFilepath.isBlank()) {
+            System.out.println("Error: Target save filepath is null or empty.");
             return false;
         }
 
-        // Save each entry in the Idf Map to a new line in target file,
-        // separating key and value by comma
-        try(BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(targetSaveFilepath))){
-            for (Map.Entry<String, Double> entry : idfMap.entrySet()){
+        String normalizedSavePath = normalizePath(targetSaveFilepath);
+        File file = new File(normalizedSavePath);
+
+        if (file.exists()) {
+            System.out.println("Specified IDF Map save filename already exists: " + file.getAbsolutePath());
+            return false;
+        }
+
+        // Ensure parent directory exists before writing
+        File parentDir = file.getParentFile();
+        if (parentDir != null && !parentDir.exists()) {
+            parentDir.mkdirs();
+        }
+
+        try (BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(file))) {
+            for (Map.Entry<String, Double> entry : idfMap.entrySet()) {
                 bufferedWriter.write(entry.getKey() + "," + entry.getValue());
                 bufferedWriter.newLine();
             }
         } catch (Exception e) {
-            System.out.println("Error saving idf map");
-            System.out.println(e.getMessage());
+            System.out.println("Error saving idf map: " + e.getMessage());
             return false;
         }
 
@@ -69,54 +79,67 @@ public class IdfTrainer {
     }
 
     /**
-     * Trains the class's Idf Map on the files in the specified training
-     * directory.
+     * Trains the class's IDF Map on files in the specified directory.
      */
-    public boolean trainIdfMap(String trainingDirectoryFilepath, boolean useStemming){
+    public boolean trainIdfMap(String trainingDirectoryFilepath, boolean useStemming) {
         idfMap = new HashMap<>();
         double documentCount = 0;
 
-        try{
-            List<String> trainingFilePaths = FileUtils.getAllTxtFilePaths(trainingDirectoryFilepath);
+        String normalizedDirPath = (trainingDirectoryFilepath == null) 
+                ? DEFAULT_TRAINING_DIRECTORY 
+                : normalizePath(trainingDirectoryFilepath);
 
-            if (trainingFilePaths.isEmpty()) {
-                System.out.println("Specified training directory is empty");
+        try {
+            List<String> trainingFilePaths = FileUtils.getAllTxtFilePaths(normalizedDirPath);
+
+            if (trainingFilePaths == null || trainingFilePaths.isEmpty()) {
+                System.out.println("Specified training directory is empty or invalid: " + normalizedDirPath);
                 return false;
             }
 
             for (String filePath : trainingFilePaths) {
-                String parsedFile = fileParser.convertFileToAlphanumericString(filePath);
+                String normalizedFilePath = normalizePath(filePath);
+                String parsedFile = fileParser.convertFileToAlphanumericString(normalizedFilePath);
                 List<String> words;
 
-                // use stemmed word split if enabled
-                if(useStemming){
+                if (useStemming) {
                     words = WordStemmer.splitWithStemming(parsedFile);
                 } else {
-                    words  = Arrays.stream(parsedFile.split(" ")).toList();
+                    words = Arrays.stream(parsedFile.split("\\s+"))
+                            .filter(s -> !s.isEmpty())
+                            .toList();
                 }
 
-                // make a unique set of words from the doc
                 Set<String> wordSet = new HashSet<>(words);
 
-                // count how many docs contain each word
-                for(String word : wordSet){
-                    idfMap.put(word, idfMap.getOrDefault(word, 0.0) + 1);
+                for (String word : wordSet) {
+                    idfMap.put(word, idfMap.getOrDefault(word, 0.0) + 1.0);
                 }
 
                 documentCount++;
             }
 
-            // convert raw counts into IDF scores
-            for(String word : idfMap.keySet()){
+            if (documentCount == 0) {
+                return false;
+            }
+
+            for (String word : idfMap.keySet()) {
                 idfMap.put(word, Math.log(documentCount / idfMap.get(word)));
             }
 
         } catch (Exception e) {
-            System.out.println("Error training the Idf Map");
-            System.out.println(e.getMessage());
+            System.out.println("Error training the IDF Map: " + e.getMessage());
             return false;
         }
 
         return true;
+    }
+
+    /**
+     * Normalizes path separators across OS platforms.
+     */
+    private String normalizePath(String path) {
+        if (path == null) return null;
+        return path.replace('\\', File.separatorChar).replace('/', File.separatorChar);
     }
 }

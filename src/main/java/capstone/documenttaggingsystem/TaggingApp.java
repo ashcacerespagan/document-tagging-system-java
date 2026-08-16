@@ -1,6 +1,7 @@
 package capstone.documenttaggingsystem;
 
 import javafx.application.Application;
+import javafx.concurrent.Task;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
@@ -15,18 +16,26 @@ import lombok.Getter;
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.Map;
 
+/**
+ * Main JavaFX GUI application for the Document Tagging System.
+ * Enables selecting text documents, extracting top TF-IDF keywords,
+ * applying stemming options, and exporting results to TXT or CSV.
+ */
 public class TaggingApp extends Application {
 
     private final FileParser fileParser = new FileParser();
     private final TfIdfCalculator tfIdfCalculator = new TfIdfCalculator(new IdfLoader());
     private final Label keywordCountLabel = new Label("");
 
-    private final String lightTheme = "-fx-background-color: #f9f9f9; -fx-text-fill: black;";
-    private final String darkTheme = "-fx-background-color: #2b2b2b; -fx-text-fill: white;";
+    private final String lightTheme = "-fx-background-color: #f9f9f9;";
+    private final String darkTheme = "-fx-background-color: #2b2b2b;";
     private boolean isDarkMode = false;
-    private final VBox layout = new VBox(); // Ensure it's initialized
+    private final VBox layout = new VBox(10);
+
     @Getter
     private final StringBuilder result = new StringBuilder();
     @Getter
@@ -34,9 +43,8 @@ public class TaggingApp extends Application {
     @Getter
     private final StringBuilder exportFile = new StringBuilder();
 
-    // Required default constructor for JavaFX
     public TaggingApp() {
-        // layout already initialized inline
+        // Default constructor required by JavaFX runtime
     }
 
     @Override
@@ -57,6 +65,7 @@ public class TaggingApp extends Application {
 
         CheckBox darkModeCheckbox = new CheckBox("🌙 Dark Mode");
         darkModeCheckbox.setStyle(commonFont);
+
         Label selectedFileLabel = new Label("No file selected.");
         selectedFileLabel.setStyle(commonFont);
 
@@ -72,6 +81,7 @@ public class TaggingApp extends Application {
         outputArea.setEditable(false);
         outputArea.setWrapText(true);
         outputArea.setStyle("-fx-font-family: monospace; -fx-font-size: 12px;");
+
         ScrollPane scrollPane = new ScrollPane(outputArea);
         scrollPane.setFitToWidth(true);
         scrollPane.setFitToHeight(true);
@@ -90,10 +100,11 @@ public class TaggingApp extends Application {
 
         final String[] lastResult = {null};
         final File[] lastSelectedFile = {null};
+
         selectFileBtn.setOnAction(e -> {
             FileChooser fileChooser = new FileChooser();
             fileChooser.setTitle("Open Text File");
-            fileChooser.getExtensionFilters().add(new FileChooser.ExtensionFilter("Text Files", "*.txt"));
+            fileChooser.getExtensionFilters().add(new FileChooser.ExtensionFilter("Text Files (*.txt)", "*.txt"));
             File selectedFile = fileChooser.showOpenDialog(stage);
 
             if (selectedFile != null) {
@@ -114,33 +125,51 @@ public class TaggingApp extends Application {
                     return;
                 }
 
-                String parsed = fileParser.convertFileToAlphanumericString(selectedFile.getAbsolutePath());
+                statusLabel.setText("⏳ Processing document...");
+                selectFileBtn.setDisable(true);
 
-                if (parsed == null || parsed.isBlank()) {
+                // Run parsing and keyword extraction asynchronously
+                Task<Map<String, Double>> task = new Task<>() {
+                    @Override
+                    protected Map<String, Double> call() {
+                        String parsed = fileParser.convertFileToAlphanumericString(selectedFile.getAbsolutePath());
+                        if (parsed == null || parsed.isBlank()) {
+                            return Map.of();
+                        }
+                        boolean useStemming = stemmingCheckbox.isSelected();
+                        return tfIdfCalculator.getTopKeywords(parsed, null, numKeywords, useStemming);
+                    }
+                };
+
+                task.setOnSucceeded(event -> {
+                    selectFileBtn.setDisable(false);
+                    Map<String, Double> keywords = task.getValue();
+
+                    if (keywords.isEmpty()) {
+                        outputArea.setText("No keywords could be extracted.");
+                        exportBtn.setDisable(true);
+                        statusLabel.setText("⚠️ No keywords found.");
+                        keywordCountLabel.setText("");
+                    } else {
+                        StringBuilder sb = new StringBuilder("Top Keywords:\n\n");
+                        keywords.forEach((k, v) -> sb.append(k).append(" — ").append(String.format("%.4f", v)).append("\n"));
+                        lastResult[0] = sb.toString();
+                        outputArea.setText(lastResult[0]);
+                        exportBtn.setDisable(false);
+                        keywordCountLabel.setText("🔢 " + keywords.size() + " keywords extracted.");
+                        statusLabel.setText("✅ Keywords extracted.");
+                    }
+                });
+
+                task.setOnFailed(event -> {
+                    selectFileBtn.setDisable(false);
                     outputArea.setText("❌ Could not read or parse the selected file.");
                     exportBtn.setDisable(true);
-                    statusLabel.setText("⚠️ File could not be parsed.");
+                    statusLabel.setText("⚠️ File processing failed.");
                     keywordCountLabel.setText("");
-                    return;
-                }
+                });
 
-                boolean useStemming = stemmingCheckbox.isSelected();
-                Map<String, Double> keywords = tfIdfCalculator.getTopKeywords(parsed, null, numKeywords, useStemming);
-
-                if (keywords.isEmpty()) {
-                    outputArea.setText("No keywords could be extracted.");
-                    exportBtn.setDisable(true);
-                    statusLabel.setText("⚠️ No keywords found.");
-                    keywordCountLabel.setText("");
-                } else {
-                    StringBuilder result = new StringBuilder("Top Keywords:\n\n");
-                    keywords.forEach((k, v) -> result.append(k).append(" — ").append(String.format("%.4f", v)).append("\n"));
-                    lastResult[0] = result.toString();
-                    outputArea.setText(lastResult[0]);
-                    exportBtn.setDisable(false);
-                    keywordCountLabel.setText("🔢 " + keywords.size() + " keywords extracted.");
-                    statusLabel.setText("✅ Keywords extracted.");
-                }
+                new Thread(task).start();
 
             } else {
                 outputArea.setText("⚠️ No file selected.");
@@ -154,22 +183,25 @@ public class TaggingApp extends Application {
         exportBtn.setOnAction(e -> {
             if (lastResult[0] != null && lastSelectedFile[0] != null) {
                 try {
-                    String originalName = lastSelectedFile[0].getName().replace(".txt", "");
+                    String originalName = lastSelectedFile[0].getName().replaceAll("(?i)\\.txt$", "");
                     String extension = exportFormatCombo.getValue().equals("CSV") ? "_keywords.csv" : "_keywords.txt";
-                    String exportPath = lastSelectedFile[0].getParent() + File.separator + originalName + extension;
+                    
+                    Path parentDir = lastSelectedFile[0].getParentFile() != null 
+                            ? lastSelectedFile[0].getParentFile().toPath() 
+                            : Paths.get(System.getProperty("user.dir"));
 
-                    File exportFile = new File(exportPath);
-                    writeExportFile(exportFile, exportFormatCombo.getValue(), lastResult[0]);
+                    File exportFileTarget = parentDir.resolve(originalName + extension).toFile();
+                    writeExportFile(exportFileTarget, exportFormatCombo.getValue(), lastResult[0]);
 
-                    outputArea.appendText("\n\n✅ Exported to: " + exportPath);
+                    outputArea.appendText("\n\n✅ Exported to: " + exportFileTarget.getAbsolutePath());
                     statusLabel.setText("✅ Export complete.");
 
-                    Alert alert = new Alert(Alert.AlertType.INFORMATION, "Keyword list exported successfully!");
+                    Alert alert = new Alert(Alert.AlertType.INFORMATION, "Keyword list exported successfully to:\n" + exportFileTarget.getAbsolutePath());
                     alert.setTitle("Export Complete");
                     alert.setHeaderText(null);
                     alert.showAndWait();
                 } catch (Exception ex) {
-                    outputArea.appendText("\n\n❌ Failed to export file.");
+                    outputArea.appendText("\n\n❌ Failed to export file: " + ex.getMessage());
                     statusLabel.setText("❌ Export failed.");
                 }
             }
@@ -181,31 +213,33 @@ public class TaggingApp extends Application {
             selectedFileLabel.setText("No file selected.");
             outputArea.clear();
             exportBtn.setDisable(true);
-            statusLabel.setText("🧼 Cleared.");
+            statusLabel.setText("Clearing state...");
             keywordCountLabel.setText("");
+            lastResult[0] = null;
+            lastSelectedFile[0] = null;
         });
 
         darkModeCheckbox.setOnAction(e -> {
-    isDarkMode = darkModeCheckbox.isSelected();
-    String baseStyle = "-fx-font-family: 'Segoe UI', sans-serif; -fx-font-size: 13px;";
-    String bgStyle = isDarkMode ? darkTheme : lightTheme;
+            isDarkMode = darkModeCheckbox.isSelected();
+            String baseStyle = "-fx-font-family: 'Segoe UI', sans-serif; -fx-font-size: 13px;";
+            String bgStyle = isDarkMode ? darkTheme : lightTheme;
 
-    layout.setStyle(bgStyle + baseStyle);
-    keywordLabel.setStyle(baseStyle + (isDarkMode ? "-fx-text-fill: white;" : "-fx-text-fill: black;"));
-    keywordInput.setStyle(bgStyle + baseStyle);
-    stemmingCheckbox.setStyle(baseStyle + (isDarkMode ? "-fx-text-fill: white;" : "-fx-text-fill: black;"));
-    darkModeCheckbox.setStyle(baseStyle + (isDarkMode ? "-fx-text-fill: white;" : "-fx-text-fill: black;"));
-    selectedFileLabel.setStyle(baseStyle + (isDarkMode ? "-fx-text-fill: white;" : "-fx-text-fill: black;"));
-    statusLabel.setStyle((isDarkMode ? "-fx-text-fill: lightgreen;" : "") + "-fx-font-size: 12px;");
-    keywordCountLabel.setStyle(baseStyle + (isDarkMode ? "-fx-text-fill: white;" : "-fx-text-fill: black;"));
-outputArea.setStyle(
-    "-fx-font-family: monospace; -fx-font-size: 12px;" +
-    (isDarkMode
-        ? "-fx-highlight-fill: #444; -fx-highlight-text-fill: white;"
-        : "-fx-control-inner-background: white; -fx-text-fill: black;")
-);
-});
+            layout.setStyle(bgStyle + baseStyle);
+            keywordLabel.setStyle(baseStyle + (isDarkMode ? " -fx-text-fill: white;" : " -fx-text-fill: black;"));
+            keywordInput.setStyle(baseStyle + (isDarkMode ? " -fx-control-inner-background: #3c3f41; -fx-text-fill: white;" : ""));
+            stemmingCheckbox.setStyle(baseStyle + (isDarkMode ? " -fx-text-fill: white;" : " -fx-text-fill: black;"));
+            darkModeCheckbox.setStyle(baseStyle + (isDarkMode ? " -fx-text-fill: white;" : " -fx-text-fill: black;"));
+            selectedFileLabel.setStyle(baseStyle + (isDarkMode ? " -fx-text-fill: white;" : " -fx-text-fill: black;"));
+            statusLabel.setStyle((isDarkMode ? "-fx-text-fill: lightgreen;" : "-fx-text-fill: darkgreen;") + " -fx-font-size: 12px;");
+            keywordCountLabel.setStyle(baseStyle + (isDarkMode ? " -fx-text-fill: white;" : " -fx-text-fill: black;"));
 
+            outputArea.setStyle(
+                "-fx-font-family: monospace; -fx-font-size: 12px;" +
+                (isDarkMode
+                    ? " -fx-control-inner-background: #1e1e1e; -fx-text-fill: #d4d4d4;"
+                    : " -fx-control-inner-background: white; -fx-text-fill: black;")
+            );
+        });
 
         layout.getChildren().setAll(
                 keywordLabel,
@@ -223,11 +257,11 @@ outputArea.setStyle(
         layout.setPadding(new Insets(15));
         layout.setStyle(lightTheme + commonFont);
 
-        Scene scene = new Scene(layout, 560, 600);
+        Scene scene = new Scene(layout, 560, 620);
         stage.setScene(scene);
 
         stage.setX((Screen.getPrimary().getVisualBounds().getWidth() - 560) / 2);
-        stage.setY((Screen.getPrimary().getVisualBounds().getHeight() - 600) / 2);
+        stage.setY((Screen.getPrimary().getVisualBounds().getHeight() - 620) / 2);
 
         stage.show();
     }
@@ -238,15 +272,15 @@ outputArea.setStyle(
         button.addEventHandler(MouseEvent.MOUSE_EXITED, e -> button.setStyle("-fx-font-size: 13px; -fx-cursor: hand;"));
     }
 
-    private void writeExportFile(File exportFile, String exportFormat, String resultText) throws Exception {
-        try (BufferedWriter writer = new BufferedWriter(new FileWriter(exportFile))) {
-            if (exportFormat.equals("CSV")) {
+    private void writeExportFile(File exportFileTarget, String exportFormat, String resultText) throws Exception {
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter(exportFileTarget))) {
+            if ("CSV".equalsIgnoreCase(exportFormat)) {
                 writer.write("Keyword,Score\n");
                 String[] lines = resultText.split("\n");
                 for (String line : lines) {
                     if (line.contains(" — ")) {
                         String[] parts = line.split(" — ");
-                        writer.write(parts[0] + "," + parts[1] + "\n");
+                        writer.write(parts[0].trim() + "," + parts[1].trim() + "\n");
                     }
                 }
             } else {

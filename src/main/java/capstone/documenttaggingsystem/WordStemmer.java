@@ -9,46 +9,50 @@ import org.apache.lucene.analysis.tokenattributes.CharTermAttribute;
 import java.io.IOException;
 import java.io.StringReader;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 
-
 /**
- * Class which provides a static method for splitting an input document
- * into its component word stems.
+ * Utility class providing static methods for tokenizing input text
+ * and applying the Porter Stemming algorithm via Apache Lucene.
  */
 public class WordStemmer {
 
     /**
-     * Splits the inputDocument using the PorterStemFilter to stem words
-     * down to their root, making words like "stop", "stopping", and "stopped"
-     * the same word: "stop"
+     * Splits an input document into whitespace tokens and applies the PorterStemFilter
+     * to stem words down to their root form (e.g., "testing", "tested" -> "test").
      *
-     * @param inputDocument The document to be split
-     * @return The split, stemmed document
+     * @param inputDocument The document string to be tokenized and stemmed
+     * @return List of stemmed token strings
      */
     public static List<String> splitWithStemming(String inputDocument) {
+        if (inputDocument == null || inputDocument.isBlank()) {
+            return Collections.emptyList();
+        }
+
         List<String> stringList = new ArrayList<>();
 
         try {
-            // Use factory method to create the tokenizer (Lucene 9+ syntax)
             WhitespaceTokenizerFactory tokenizerFactory = new WhitespaceTokenizerFactory(new HashMap<>());
             Tokenizer tokenizer = tokenizerFactory.create();
             tokenizer.setReader(new StringReader(inputDocument));
 
-            // Apply the stemming filter
-            TokenStream tokenStream = new PorterStemFilter(tokenizer);
-            tokenStream.reset();
+            try (TokenStream tokenStream = new PorterStemFilter(tokenizer)) {
+                tokenStream.reset();
+                CharTermAttribute attr = tokenStream.addAttribute(CharTermAttribute.class);
 
-            CharTermAttribute attr = tokenStream.addAttribute(CharTermAttribute.class);
-            while (tokenStream.incrementToken()) {
-                stringList.add(attr.toString());
+                while (tokenStream.incrementToken()) {
+                    String token = attr.toString().trim();
+                    if (!token.isEmpty()) {
+                        stringList.add(token);
+                    }
+                }
+
+                tokenStream.end();
             }
-
-            tokenStream.end();
-            tokenStream.close();
         } catch (IOException e) {
-            System.err.println("Error during stemming: " + e.getMessage());
+            System.err.println("Error during stemming tokenization: " + e.getMessage());
         }
 
         return stringList;

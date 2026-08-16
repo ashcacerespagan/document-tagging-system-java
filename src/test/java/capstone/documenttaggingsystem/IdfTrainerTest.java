@@ -8,9 +8,13 @@ import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.junit.jupiter.MockitoExtension;
 
+import java.io.File;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * Unit test suite for verifying IDF training algorithms and mocked file parsing workflows.
+ */
 @ExtendWith(MockitoExtension.class)
 public class IdfTrainerTest {
 
@@ -21,11 +25,11 @@ public class IdfTrainerTest {
     IdfTrainer idfTrainer;
 
     /**
-     * Tests that, if the FileParser returns the three test Strings when calls
-     * are made to it, that it will train an Idf Map with the expected values.
+     * Tests that when FileParser returns the predefined test strings,
+     * IdfTrainer generates an IDF map matching expected theoretical values.
      */
     @Test
-    public void trainIdfMapHappyPath(){
+    public void trainIdfMapHappyPath() {
         List<String> testStrings = TestUtils.generateTestStrings();
 
         Mockito.when(fileParser.convertFileToAlphanumericString(Mockito.anyString()))
@@ -35,19 +39,29 @@ public class IdfTrainerTest {
 
         Map<String, Double> expected = TestUtils.generateIdfMap();
 
-        idfTrainer.trainIdfMap(System.getProperty("user.dir") + "\\trainingData\\testSet1\\", false);
+        String trainingDirPath = System.getProperty("user.dir") 
+                + File.separator + "trainingData" 
+                + File.separator + "testSet1" 
+                + File.separator;
+
+        boolean success = idfTrainer.trainIdfMap(trainingDirPath, false);
+        Assertions.assertTrue(success, "Training should succeed for valid training directory");
 
         Map<String, Double> actual = idfTrainer.getIdfMap();
 
-        //For manually verifying the values this outputs
-//        actual.forEach((key, value) -> System.out.println("Key: " + key + ", Value: " + value));
-
         Assertions.assertEquals(expected, actual, "Generated IDF map does not match expected values.");
-
     }
+
     @Test
     public void trainIdfMapWithEmptyDirShouldFail() {
-        boolean result = idfTrainer.trainIdfMap("path/that/does/not/exist", false);
+        String invalidPath = System.getProperty("user.dir") 
+                + File.separator + "path" 
+                + File.separator + "that" 
+                + File.separator + "does" 
+                + File.separator + "not" 
+                + File.separator + "exist";
+
+        boolean result = idfTrainer.trainIdfMap(invalidPath, false);
         Assertions.assertFalse(result, "Training should fail for non-existent or empty directory.");
     }
 }

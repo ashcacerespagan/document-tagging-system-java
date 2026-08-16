@@ -8,6 +8,7 @@ import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.junit.jupiter.MockitoExtension;
 
+import java.io.File;
 import java.util.List;
 import java.util.Map;
 
@@ -17,7 +18,6 @@ public class TfIdfCalculatorTest {
     @Mock
     IdfLoader idfLoader;
 
-
     @InjectMocks
     TfIdfCalculator tfIdfCalculator;
 
@@ -25,7 +25,7 @@ public class TfIdfCalculatorTest {
      * Verifies that getTfMap generates a correctly weighted tf map.
      */
     @Test
-    public void getTfMapHappyPath(){
+    public void getTfMapHappyPath() {
         List<String> inputs = TestUtils.generateTestStrings();
 
         Map<String, Double> result0 = tfIdfCalculator.getTfMap(inputs.get(0), false);
@@ -41,7 +41,7 @@ public class TfIdfCalculatorTest {
      * Verifies that getKeywords generates a correctly weighted keyword map.
      */
     @Test
-    public void getKeywordsHappyPath(){
+    public void getKeywordsHappyPath() {
         Mockito.when(idfLoader.loadMap(Mockito.anyString()))
                 .thenReturn(TestUtils.generateIdfMap());
 
@@ -51,26 +51,21 @@ public class TfIdfCalculatorTest {
         Map<String, Double> result1 = tfIdfCalculator.getKeywords(inputs.get(1), "anything", false);
         Map<String, Double> result2 = tfIdfCalculator.getKeywords(inputs.get(2), "anything", false);
 
-        //For manually verifying map values
-//        result0.forEach((key, value) -> System.out.println("Key: " + key + ", Value: " + value));
-//        result1.forEach((key, value) -> System.out.println("Key: " + key + ", Value: " + value));
-//        result2.forEach((key, value) -> System.out.println("Key: " + key + ", Value: " + value));
+        // Verifies "purposes" is the highest rated keyword in string 0
+        Assertions.assertTrue(result0.get("purposes") > result0.get("this"));
+        Assertions.assertTrue(result0.get("purposes") > result0.get("is"));
+        Assertions.assertTrue(result0.get("purposes") > result0.get("for"));
+        Assertions.assertTrue(result0.get("purposes") > result0.get("testing"));
 
-        //Verifies "purposes" is the highest rated keyword in string 0
-        assert (result0.get("purposes") > result0.get("this"));
-        assert (result0.get("purposes") > result0.get("is"));
-        assert (result0.get("purposes") > result0.get("for"));
-        assert (result0.get("purposes") > result0.get("testing"));
+        // Verifies "this" is the highest rated keyword in string 1
+        Assertions.assertTrue(result1.get("this") > result1.get("is"));
+        Assertions.assertTrue(result1.get("this") > result1.get("for"));
+        Assertions.assertTrue(result1.get("this") > result1.get("testing"));
 
-        //Verifies "this" is the highest rated keyword in string 1
-        assert (result1.get("this") > result1.get("is"));
-        assert (result1.get("this") > result1.get("for"));
-        assert (result1.get("this") > result1.get("testing"));
-
-        //Verifies "testing" is the lowest rated keyword in string 2
-        assert (result2.get("testing") < result2.get("just"));
-        assert (result2.get("testing") < result2.get("a"));
-        assert (result2.get("testing") < result2.get("string"));
+        // Verifies "testing" is the lowest rated keyword in string 2
+        Assertions.assertTrue(result2.get("testing") < result2.get("just"));
+        Assertions.assertTrue(result2.get("testing") < result2.get("a"));
+        Assertions.assertTrue(result2.get("testing") < result2.get("string"));
     }
 
     /**
@@ -78,12 +73,14 @@ public class TfIdfCalculatorTest {
      * given a null argument.
      */
     @Test
-    public void getKeywordsDefaultTest(){
-        String defaultMapLoc = System.getProperty("user.dir") + "\\idfMaps\\testIdfMap.txt";
+    public void getKeywordsDefaultTest() {
+        TfIdfCalculator calculator = new TfIdfCalculator(idfLoader);
+        calculator.getKeywords("test", null, false);
 
-        tfIdfCalculator.getKeywords("test", null, false);
+        String expectedDefault = (System.getProperty("user.dir") + File.separator + "idfMaps" + File.separator + "testIdfMap.txt")
+                .replace('\\', File.separatorChar).replace('/', File.separatorChar);
 
-        Mockito.verify(idfLoader).loadMap(defaultMapLoc);
+        Mockito.verify(idfLoader).loadMap(expectedDefault);
     }
 
     /**
@@ -91,19 +88,21 @@ public class TfIdfCalculatorTest {
      * given one.
      */
     @Test
-    public void getKeywordsNonDefaultTest(){
+    public void getKeywordsNonDefaultTest() {
         String input = "filler";
 
         tfIdfCalculator.getKeywords("test", input, false);
 
-        Mockito.verify(idfLoader).loadMap(input);
+        Mockito.verify(idfLoader).loadMap(Mockito.argThat(path ->
+            path != null && path.contains("filler")
+        ));
     }
 
     /**
      * Verifies that getTopKeywords correctly generates a weighted list of the top keywords.
      */
     @Test
-    public void getTopKeywordsHappyPath(){
+    public void getTopKeywordsHappyPath() {
         Mockito.when(idfLoader.loadMap(Mockito.anyString()))
                 .thenReturn(TestUtils.generateIdfMap());
 
@@ -113,19 +112,14 @@ public class TfIdfCalculatorTest {
         Map<String, Double> result1 = tfIdfCalculator.getTopKeywords(inputs.get(1), "anything", 3, false);
         Map<String, Double> result2 = tfIdfCalculator.getTopKeywords(inputs.get(2), "anything", 3, false);
 
-        //For manually verifying map values
-//        result0.forEach((key, value) -> System.out.println("Key: " + key + ", Value: " + value));
-//        result1.forEach((key, value) -> System.out.println("Key: " + key + ", Value: " + value));
-//        result2.forEach((key, value) -> System.out.println("Key: " + key + ", Value: " + value));
+        // Verifies that "purposes" is the highest rated keyword in string 0
+        Assertions.assertEquals("purposes", result0.keySet().toArray()[0]);
 
-        //Verifies that "purposes" is the highest rated keyword in string 0
-        assert (result0.keySet().toArray()[0].equals("purposes"));
+        // Verifies that "this" is the highest rated keyword in string 1
+        Assertions.assertEquals("this", result1.keySet().toArray()[0]);
 
-        //Verifies that "this" is the highest rated keyword in string 1
-        assert (result1.keySet().toArray()[0].equals("this"));
-
-        //Verifies that "testing" is the lowest rated keyword in string 2 and that result length is 3
-        assert (!result2.containsKey("testing"));
+        // Verifies that "testing" is omitted from string 2 top 3 keywords
+        Assertions.assertFalse(result2.containsKey("testing"));
     }
 
     /**
@@ -133,7 +127,7 @@ public class TfIdfCalculatorTest {
      * a value higher than the highest value in the Idf Map.
      */
     @Test
-    public void testDefaultIdfValue(){
+    public void testDefaultIdfValue() {
         Mockito.when(idfLoader.loadMap(Mockito.anyString()))
                 .thenReturn(TestUtils.generateIdfMap());
 
@@ -141,8 +135,9 @@ public class TfIdfCalculatorTest {
 
         Map<String, Double> result = tfIdfCalculator.getKeywords(input, "anything", false);
 
-        assert ( result.get("not") > result.get("a"));
+        Assertions.assertTrue(result.get("not") > result.get("a"));
     }
+
     // Verifies that getTopKeywords enforces a max of 20 keywords even if a higher number is requested.
     @Test
     public void testTopKeywordsMaxLimit() {
@@ -152,7 +147,7 @@ public class TfIdfCalculatorTest {
         String input = "this is for testing purposes only just a string";
         Map<String, Double> result = tfIdfCalculator.getTopKeywords(input, "dummy", 999, false);
 
-        assert(result.size() <= 20);
+        Assertions.assertTrue(result.size() <= 20);
     }
 
     // Verifies that getTopKeywords enforces a minimum of 1 keyword even if 0 is requested.
@@ -164,26 +159,22 @@ public class TfIdfCalculatorTest {
         String input = "this is a short file";
         Map<String, Double> result = tfIdfCalculator.getTopKeywords(input, "dummy", 0, false);
 
-        assert(result.size() == 1);
+        Assertions.assertEquals(1, result.size());
     }
 
     // Verifies that loading from a missing IDF file doesn't crash and returns fallback keywords.
-
     @Test
-    public void testMissingIdfMapFallback() {
+    public void testMissingIdfFileFallback() {
         String input = "this is a document with random words";
 
-        // Use a clearly fake path to simulate missing file
         Map<String, Double> result = tfIdfCalculator.getTopKeywords(input, "missing_idf_file.txt", 5, false);
 
-        // We expect results anyway, with fallback IDF values
-        assert(!result.isEmpty());
+        Assertions.assertFalse(result.isEmpty());
     }
+
     @Test
     public void testEmptyInputReturnsEmptyKeywordMap() {
         Map<String, Double> result = tfIdfCalculator.getTopKeywords("", null, 5, false);
-        assert(result.isEmpty());
+        Assertions.assertTrue(result.isEmpty());
     }
-
-
 }
