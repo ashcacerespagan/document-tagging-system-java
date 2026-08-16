@@ -1,61 +1,90 @@
 # Document Tagging System
 
-Java-based document tagging system that extracts and ranks keywords from `.txt` files using TF-IDF logic. The project includes both a JavaFX GUI and a command-line interface.
+A JavaFX and CLI-based document parsing and TF-IDF keyword extraction engine built with Java 21, Apache Lucene, and Gradle. The project extracts, ranks, and exports key terms from text documents using term frequency and inverse document frequency scoring.
 
 ## What It Does
 
-- Extracts keywords from `.txt` documents
-- Ranks keywords by importance using TF-IDF
-- Supports keyword counts from 1 to 20
-- Allows stemming with Apache Lucene’s PorterStemmer
-- Supports both GUI and CLI usage
-- Exports keyword results to TXT or CSV
-- Includes batch testing for multiple `.txt` files
+- Extracts and ranks keywords from `.txt` documents using TF-IDF logic.
+- Filters out common English stop words (*"the"*, *"and"*, *"is"*) for improved keyword relevance.
+- Supports flexible keyword ranking counts (1 to 20 terms).
+- Applies Porter Stemming via Apache Lucene's analysis framework.
+- Offers dual execution interfaces: JavaFX Desktop GUI and Terminal CLI.
+- Exports keyword results into TXT, CSV, or JSON formats (`KeywordExporter`).
+- Packages as a single standalone executable Fat JAR (`shadowJar`).
 
-## Tech Used
+## Tech Stack
 
-- Java 21
-- JavaFX 24.0.1
-- Gradle
-- Apache Lucene PorterStemmer
-- TF-IDF keyword extraction
-- CLI and GUI workflows
+- **Language:** Java 21
+- **UI Framework:** JavaFX 21.0.7
+- **Text Analysis:** Apache Lucene Core 10.2.0 (Porter Stemmer)
+- **Testing & Mocking:** JUnit 5, Mockito 5.11
+- **Build System:** Gradle 9.4 (via Gradle Wrapper)
+- **Packaging:** Shadow Plugin (`com.gradleup.shadow`)
 
-## Main Features
+## Project Architecture
+src/
+├── main/
+│   └── java/
+│       └── capstone/
+│           └── documenttaggingsystem/
+│               ├── FileParser.java
+│               ├── FileUtils.java
+│               ├── IdfLoader.java
+│               ├── IdfTrainer.java
+│               ├── KeywordExporter.java
+│               ├── MainLauncher.java
+│               ├── TaggingApp.java
+│               ├── TaggingCli.java
+│               ├── TfIdfCalculator.java
+│               └── WordStemmer.java
+└── test/
+└── java/
+└── capstone/
+└── documenttaggingsystem/
+├── BackendIntegrationTest.java
+├── FileParserTest.java
+├── GuiExportTest.java
+├── IdfLoaderTest.java
+├── IdfTrainerTest.java
+├── TestUtils.java
+├── TfIdfCalculatorTest.java
+└── WordStemmerTest.java
 
-- JavaFX graphical interface
-- Command-line interface mode
-- File selection for `.txt` documents
-- Stemming toggle
-- Dark mode toggle
-- TXT and CSV export
-- IDF map training through CLI
-- Batch testing with timestamped results
-- Error handling for empty files, invalid keyword counts, export failures, and unreadable content
+## Quick Start & Execution
 
-## GUI Workflow
+### Prerequisites
+- JDK 21 or higher
+- Gradle Wrapper (included)
 
-1. Choose a `.txt` file
-2. Enter a keyword count from 1 to 20
-3. Optionally enable stemming
-4. Optionally enable dark mode
-5. View ranked keywords
-6. Export results as TXT or CSV
-7. Clear the form when finished
+### Build & Run Unit Tests
+Run the 31-test suite across Linux, macOS, or Windows environments:
 
-## CLI Options
+# Run test suite
+xvfb-run ./gradlew test
 
-The CLI supports:
+# Full clean build
+xvfb-run ./gradlew clean build
 
-1. Extract Keywords  
-2. Train IDF Map  
-3. Exit  
+Launching the Application
+1. JavaFX GUI Interface
+xvfb-run ./gradlew run
+2. Terminal CLI Interface
+xvfb-run ./gradlew run -PmainClass=capstone.documenttaggingsystem.TaggingCli
+3. Standalone Executable Fat JAR
+Build and run the standalone, single-file JAR package without needing Gradle installed:
 
-Users can provide file paths, IDF map paths, keyword count, and stemming settings directly through the console.
+# Generate the Fat JAR
+./gradlew shadowJar
 
-## Batch Testing
+# Execute directly with Java 21
+xvfb-run java -jar build/libs/document-tagging-system-1.0-all.jar
+Main Features & GUI Workflow
+File Selection: Choose any .txt document.
 
-`BatchTestRunner.java` processes all `.txt` files under the `testDocuments/` folder, including subfolders. It runs tests with stemming on and off, then saves results to:
+Configuration: Set desired keyword count (1–20) and toggle Porter Stemming.
 
-```txt
-batchTestResults.txt
+Theme Toggle: Switch between Light and Dark modes dynamically.
+
+Keyword Scoring: View real-time ranked keywords based on TF-IDF weights.
+
+Multi-Format Export: Export extracted keywords to .txt, .csv, or .json.

@@ -2,14 +2,15 @@ plugins {
     id 'java'
     id 'application'
     id 'org.openjfx.javafxplugin' version '0.1.0'
+    id 'com.gradleup.shadow' version '8.3.6'
 }
 
 group = 'capstone'
 version = '1.0'
 
 java {
-    sourceCompatibility = JavaVersion.VERSION_17
-    targetCompatibility = JavaVersion.VERSION_17
+    sourceCompatibility = JavaVersion.VERSION_21
+    targetCompatibility = JavaVersion.VERSION_21
 }
 
 repositories {
@@ -47,5 +48,11 @@ javafx {
 }
 
 application {
-    mainClass = 'capstone.documenttaggingsystem.TaggingApp'
+    mainClass = 'capstone.documenttaggingsystem.MainLauncher'
+}
+
+shadowJar {
+    archiveBaseName.set('document-tagging-system')
+    archiveClassifier.set('all')
+    archiveVersion.set('1.0')
 }
